@@ -1,0 +1,854 @@
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>TEFI终端</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Microsoft YaHei, Simsun, Arial, sans-serif;
+	font-size: 12pt;
+}
+</style>
+
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+</head>
+
+<body>
+
+<div id="winchm_template_top">
+	<div id="winchm_template_button"><A href="红魔族.htm" title="上一主题"><img id="winchm_template_prev" alt="上一主题" src="template2/btn_prev_n.gif" border="0"></a><A href="龙（猎龙者拉格纳）.htm" title="下一主题"><img id="winchm_template_next" alt="下一主题" src="template2/btn_next_n.gif" border="0"></a></div>
+	<div id="winchm_template_navigation"><font size="2px" font face="Microsoft YaHei">帮助 &gt; 
+无限恐怖2.5RE_V1.03先行版 &gt; 资源相关 &gt; 血统 &gt; 普通 &gt; 有能量有技能树 &gt; </font></div>
+	<div id="winchm_template_title"><font size="2px" font face="Microsoft YaHei">TEFI终端</font></div>
+</div>
+<div id="winchm_template_container">
+	<div id="winchm_template_content"><font size="3px" font face="Microsoft YaHei"><font size="3" font face="Microsoft YaHei"><font size="3" font face="Microsoft YaHei"><P><FONT face=宋体>TEFI终端<BR>TEFI终端全称对有机生命体接触用人型界面，是资讯统合思念体送往地球的有机人造人，外观与人类无异，却拥有藉由咏唱如咒语般的编码来改变环境资讯，强化自身等种种能力。<BR>D级：<BR>能量：操作权<BR>特性：人形界面（三特性），非人本质<BR>技能树：D级技能树开启<BR>操作量：操作量并非一个能量池，只是一个计数器，它表现你进行资讯处理时所必须的处理能力，智力表现你的处理速度，耐力表现你的存储空间，因此其大小为你的（智力+耐力）/2，会在24小时内恢复到最大值，分摊到最小恢复时长上。虽然操作量并非能量池，但可以购买能量池强化来扩大，以及使用精力代用。<BR>人形界面：TEFI终端本身可以视为一台生物超级计算机使用，可以通过你的大脑，基于你的感官，言语进行输入输出，建立和加入设备组网，并能作为服务器辐射等同你模糊视觉范围的网络信号，该无线信号适配一切科技设备，以及包含计算机功能的非科技设备，你可以以此方式连接入侵其他设备，也可以作为服务器被连接中转，以此方式连接其他设备并进行操作时，你不需要进行什么身体上的行动，你连接或入侵其他设备成功后，该设备视为具有【分离式躯体】特性。若你被入侵，可以立即断开设备连接功能以终止入侵影响，此时同一场景内无法再次启动，这让你从设备组网中断开，并且停止网络信号辐射。若你失去意识，也会产生同样的效果。<BR>非人本质：你拥有无限的寿命，并且不会衰老，免疫无支线疾病和毒素效果。</FONT></P>
+<P><FONT face=宋体>C级：<BR>特性：高性能计算机（三特性），非人本质<BR>技能树：C级技能树开启<BR>高性能计算机：你大脑中的计算机性能是如此强大，以至于你以它进行电脑判定时变为8加骰，并在使用自身时这台电脑时获得12点器械加值。<BR>非人本质：你无需食水，呼吸和睡眠。</FONT></P>
+<P><FONT face=宋体>B级：<BR>特性：信息论（三特性），环境适性<BR>技能树：B级技能树开启<BR>信息论：现在你的生物计算机已经足够强大到运用作为你改变环境资讯的真正本质——超统一信息论。世间万物在你眼中都能还原成最纯正的信息态，任何事物在你眼中都再无神秘之处。<BR>当你在模糊视觉中看到一件不高于A级的物品时，自动获知其全部作用和数据，但不包含它与其他事物产生的互动（例如你看到氪石可以知道它的硬度，名字，放射射线，但不会知道它能影响超人）<BR>当你在模糊视觉范围内看到一个生物时，自动获知其当前所有属性和技能等级，并获知其所有衍生属性和弱点，包括dr，能抗，伤害吸收，防御构成等，并了解其具有的能量池以及相关等级。这是个B级探知类效果。<BR>你在本血统技能树的技能威力中提升2点。<BR>环境适性：你可以运用改变周边环境资讯的方式免疫环境带来的效果影响。</FONT></P>
+<P><FONT face=宋体>A级：<BR>特性：信息化（四特性）<BR>技能树：A级技能树开启<BR>信息化：你已经成为了信息生命，躯体的损毁对你并没有多大的意义。<BR>当你死亡时，只需在主神处支付1000点重铸身体即可复活。<BR>你也可以提前使用重铸身体选项购买备用身体，你可以拥有任意数量的备用身体，但你同时只能操控一具，在不同身体间切换需要一分钟时间。<BR>所有备用身体在购买时都成为你的【分离式躯体】，它们不具备自主意识，且数据相当于你不具备任何兑换时的白卡数据。<BR>仅当你转移到备用身体上之后，备用身体才视为具有你所拥有的兑换，因此所有例如每场景或影片X次的效果都需要重新计数，能量等若高于原本上限，也会因为获得了新上限而需要重新回复。<BR>你在以分离式躯体方式操作备用身体进行判定时，以你自身的数据进行，若启用能力，消耗的也是自身的相应次数或能量。</FONT></P>
+<P><FONT face=宋体>S级：<BR>特性：底层解构（四特性）<BR>技能树：S级技能树开启<BR>底层解构：你完成了对信息论最底层的解构，即使是众神和他们玄奥的法则在你面前也一览无余。<BR>你现在获得了神格等级0，并且免疫S级或更低基于法则的效果（无论那是时间，空间，命运等）</FONT></P>
+<P><FONT face=宋体>TEFI终端技能树<BR>TEFI终端的技能主要分为两类，一类是对自身生物计算机性能的运用，另一类则是藉由咏唱如咒语般的编码，结合正确的操作篡改环境资讯产生种种效果。<BR>后者适用施法规则，但以电脑技能替代神秘技能进行施法判定，增加法术威力的能力也不会增加编码咏唱的威力，但法术抗力对编码咏唱也没有作用，你也可以在忽略了姿势与语言成分后以心智AP使用这些内容。<BR>编码咏唱不需要也不提供施法职能，且可以正常升阶，升阶需要相应等级的血统作为前提。<BR>编码咏唱消耗的能量是操作权，使用编码咏唱总是视为在使用自身这台电脑。<BR>所有编码咏唱都具有正常影响灵体特性。</FONT></P>
+<P><FONT face=宋体>强制启动D+500<BR>对于任何能够被你连接并入侵的设备和已经被你入侵过的设备，你可以消耗操作权将其强制启动，即使它没有任何能量源。<BR>对于无支线/D/C/B/A/S级设备，你在启动它时消耗1/1/3/5/7/9点操作权，持续一个小时，你可以继续支付同样数量的操作权避免其停机。<BR>注意，启动设备并不代表你能操纵设备，它只提供你入侵的必要条件，除非你已经入侵成功该设备。</FONT></P>
+<P><FONT face=宋体>超频处理D+500<BR>当你的血统等级达到D/C/B/A/S时，你可以在进行电脑判定时支付1/3/5/7/9点操作权，让本次判定获得3/6/12/24/48点增强加值。</FONT></P>
+<P><FONT face=宋体>本体优化D+1000/C+2000/B+4000/A+8000/S+16000<BR>你优化了自身的处理性能，算法和架构。<BR>你在智力和耐力上获得2/4/8/24/48点内在加值，并在运用自身这台电脑上获得3/6/12/24/48点内在加值。<BR>本能力必须逐级购买，每级需要同等级血统作为前提，各级数值叠加。</FONT></P>
+<P><FONT face=宋体>编译环境D+500/C+1000/B+2000/A+4000/S+8000<BR>你优化了修改环境资讯的平台，使你对环境资讯的掌握获得提升<BR>你在使用本血统技艺时，技能威力提升1/2/4/8/16点，该效果不同等级间叠加生效，你在操作权上限提升5/10/20/40/80点，该效果不同等级间叠加生效。</FONT></P>
+<P><FONT face=宋体>D级编码咏唱：D+500每项<BR>自卫程序<BR>专业：信息处理<BR>威力：3<BR>动作：6AP<BR>能耗：1点<BR>成分：语言，姿势<BR>射程：10米*智力*威力值<BR>持续时间：立即<BR>冷却时间：1轮<BR>效果：你改变环境资讯，产生伤害要素，刀剑，枪击，火烧，闪电等<BR>你以施法判定作为攻击判定，对射程范围内一个目标造成严重伤害。<BR>你可以选择这是近战攻击判定还是远程攻击判定，武器伤害视同威力值*2，造成的严重伤害类型由你在任何物理伤害和能量伤害中选择。<BR>此外，本攻击具有等同威力值*2的破甲和高速优势，并能进行短点射/长点射/连射/火力压制。<BR></FONT><FONT face=宋体>进化（3XP）：本技艺不再具有冷却时间。</P></FONT>
+<P><FONT face=宋体>资讯抹消<BR>专业：资讯处理<BR>威力：3<BR>动作：6AP<BR>能耗：1点<BR>成分：语言，姿势<BR>射程：10米*智力*威力值<BR>持续时间：立即<BR>冷却时间：1轮<BR>效果：你从信息层面上解离一个目标<BR>选择一个射程内的目标受到威力值/3点恶性混沌伤害，不受任何调整伤害的效果影响。<BR>你可以降低2/4点AP消耗使用这个能力，此时该伤害下降为严重/冲击伤害。</FONT></P>
+<P><BR><FONT face=宋体>资讯重组<BR>专业：资讯处理<BR>威力：3<BR>动作：6AP<BR>能耗：1点<BR>成分：语言，姿势<BR>射程：10米*智力*威力值<BR>持续时间：立即<BR>冷却时间：1轮<BR>效果：你从信息层面上还原一个目标，使其恢复初始状态<BR>选择一个射程内的目标获得威力值*2点医疗点数，每4点恢复1点恶性伤害，2点回复1点严重伤害，1点回复1点冲击伤害，对物体则每点回复1点伤害，此能力也可以1:1移除状态点数。<BR>你可以降低2/4点AP消耗使用这个能力，此时治疗点数下降为威力值/威力值的一半。</FONT></P>
+<P><FONT face=宋体>渲染<BR>专业：资讯输出<BR>威力：3<BR>动作：6AP<BR>能耗：1点<BR>成分：语言，姿势<BR>范围：智力*威力值米<BR>持续时间：一个场景<BR>效果：你能修改环境中隐含的资讯，使其产生错误的渲染效果<BR>本技艺能对以你为中心的范围内产生三种效果，三种效果可以在一次使用中全部达成<BR>-你可以隐去不想渲染的事物，这些范围内的目标获得反侦测等级，等同本技能等级。<BR>-你可以修改当前事物的渲染状况，例如将汽车伪装成石块，将落穴伪装成实地，对于静态事物较为有效，视为一个等同本技艺等级的视觉幻术效果，无法识破相应等级幻术的生物就无法识破这个效果，动态的事物会产生破绽（例如渲染成石头的车依然能开门，别人会看到石头突然打开了一块露出里面的人），在体积，形态相近时可用来易容，此时允许你以施法判定代替易容判定。<BR>-你可以增加当前现实中不存在的静态事物，例如在海面上架起不存在的桥，这视为一个等同本技艺等级的视觉幻术效果，无法识破相应等级幻术的生物就无法识破这个效果<BR>进化（5XP）：本技艺的基础范围变为5*智力*威力值米。</FONT></P>
+<P><FONT face=宋体>个人防火墙<BR>专业：信息安全<BR>威力：3<BR>动作：10分钟<BR>能耗：1点<BR>成分：语言，姿势<BR>射程：无<BR>持续时间：永久<BR>效果：你可以展开资讯防火墙，阻挡有害信息流入。<BR>你展开代码形成的护壁，你获得等同法术威力*1.5的临时生命值和等同法术威力/3的硬度值<BR>法术带来的临时生命值耗尽时，硬度值也一并消失。<BR>只要未被一次击毁，你可以以4AP的反射动作消耗基础能耗，来重置防火墙的生命值。</FONT></P>
+<P><FONT face=宋体>闭锁空间生成<BR>专业：信息安全<BR>威力：3<BR>动作：特殊<BR>能耗：1点<BR>成分：语言，姿势<BR>射程：无<BR>持续时间：永久<BR>效果：你可以通过环境编码生成闭锁空间<BR>在最初的等级，闭锁空间的生成是永久的，会占用1点操作权上限，每次使用这个能力会以你为锚点开辟一片体积为10的储物空间，只能存储物体，你需要接触想存储的物体，并适用通用的储物空间限制。<BR>开辟空间和销毁空间都是6AP动作，从空间中存取物体都是4AP动作。<BR>升阶：<BR>本能力升阶至C级时，可以将所有闭锁空间联通，成为一个大体积的闭锁空间，例如你之前占用10点操作权上限开辟了10个10体积的储物空间，现在变为一个100体积的闭锁空间<BR>同时，能力占用的操作权上限减半，在上例中，现在100体积的闭锁空间仅占用5点操作权上限。<BR>本能力升阶至B级时，生物也可以进入这一闭锁空间，你可以以6AP动作收纳自愿或无助的生物，并以另一个标准动作将其取出在你的相邻位置。<BR>本能力升阶至A级时，你可以生成广域闭锁空间，这是一个6AP动作，消耗7点操作权，展开以自身为中心，半径5*智力*威力值米的闭锁空间区域，区域内所有物体会在闭锁空间区域内出现投影，所有生物则由你选择被哪些被捕捉进入闭锁空间。效果持续一个场景。<BR>闭锁空间视为一个异次元空间，你展开闭锁空间时所在的位置即为该空间所在的锚点，若有追踪锚点进行攻击的能力，可以直接伤害到你，传送的话则是落在你身边。<BR>闭锁空间与主位面无法正常出入和互相观测，必须通过能跨位面移动的传送手段才能出入。<BR>闭锁空间不会跟随你移动<BR>闭锁空间可以被物理打破，攻击结界边缘即可视为攻击结界本体，将结界本体视为等同本能力总价格的物体处理。<BR>本能力升阶至S级时，你生成的闭锁空间可以覆盖整个城市，其半径变为50*智力*威力值。你可以设置一些筛选条件来拉入看不见的生物，例如没有超凡属性的生物不被拉入，你只能以属性，衍生属性，最高能量池等级，生物种类来做区分</FONT></P>
+<P><FONT face=宋体>C级编码咏唱：<BR>建模<BR>专业：资讯输出<BR>威力：6<BR>动作：6AP<BR>能耗：3点<BR>成分：语言，姿势<BR>射程：10米*智力*威力值<BR>持续时间：一个场景<BR>冷却时间：1轮<BR>效果：通过改变环境资讯，你能创建实际并不存在的物体。<BR>以射程内一点为起点，你能制造出体积至多等同智力*法术威力的连续实体模型，若你没有解读过图纸，也没有手艺技能，那么这些实体只能以方体，球体，椎体等常见几何图形拼凑，若有解读过图纸或拥有相应手艺技能，则能创造出和真品结构完全一致的实体。瞬间再现设计精巧的建筑，甚至是等比例高达都是可行的。<BR>但首先，你创造出的实体模型都如同素模一般没有材质，其硬度视为0，且看起来通体灰色，密度与木块相似。<BR>其次，无论结构如何，这些实体模型都是无法作为物品使用的。但用来创造掩蔽，分断战场，阻挡伤害却绰绰有余。<BR>本能力创造的实体模型视为单一物体，其生命值等同5+体调*5点，持续时间结束或被摧毁时，整个模型实体会分解消散在空气中。</FONT></P>
+<P><FONT face=宋体>对象调整<BR>专业：资讯处理<BR>威力：6<BR>动作：6AP<BR>能耗：3点<BR>成分：语言，姿势<BR>射程：接触<BR>持续时间：永久<BR>效果：通过改变环境资讯，你能大致调整对象的内容<BR>当你以此能力接触一个体积调整不高于法术威力的目标时，你可以修改目标的材质或体积，点石成金对你来说没有什么困难。<BR>你令接触对象的硬度增加或减少至多等同法术威力/2点，或令接触对象的体积调整增加或减少至多等同法术威力点，你可以用这些能力将目标变为特定材质，如黄金，精金等，让目标看起来非常值钱，或获得突破影响材质伤害减免的能力。<BR>注：若你下调物体硬度，下限为0，若你下调生物硬度，其硬度不足的部分依次降低防御附加成功，伤害减免，伤害吸收。直到上述全部被扣除，或足以抵扣。<BR>注2：若你下调目标体积调整，下限为-4（亦即体积1）。<BR>特殊的，本能力每对一个对象以一种方式使用，会占用你等同能耗的操作量上限，直到你以另一个6AP动作解消该对象上的效果<BR>非自愿生物可以进行意志豁免来抵抗这种调整，难度等同本技艺威力值，若你调整了一个有封闭特性的物体体积且该物体正在被使用，且其调整后体积小于其原本最小使用者（能承受减值来使用，见体积调整对物品的影响规则）或体积小于其使用者（针对一些没有适合体积的物体，如较大的载具对驾驶员没有体积限定），这些使用者需要进行力量判定，并将自身体积调整作为附加成功，难度等同该物体调整后的硬度，若通过意味着它在物体变小前挤了出来，若失败将受到等同差值的物理严重伤害，并被定身，直到该物体恢复原状或被摧毁。</FONT></P>
+<P><FONT face=宋体>B级编码咏唱：<BR>修改现实<BR>专业：资讯处理<BR>威力：12<BR>动作：6AP<BR>能耗：5点<BR>成分：语言，姿势<BR>范围：以你为中心，半径5*智力*威力米<BR>持续时间：一个场景<BR>冷却时间：1轮<BR>效果：你能大规模修改环境资讯，令现实环境产生巨变。<BR>本能力使用后，在持续时间内，你能重塑范围内的环境，这包括<BR>-地形地貌：你能使用这个能力改变地形地貌，凭空创造山岳或深渊都是可能的，本能力可能瞬间令原本存在的建筑失去根基而被摧毁。<BR>-天候气温：你能用这个能力改变范围内的天气和温度，见环境规则影响<BR>-其他：你也能用这个能力来创造辐射，真空，失重等环境<BR>这项能力产生的效果如果会造成伤害，那么伤害至多相当于威力值，无法豁免，例如以此能力创造岩浆。<BR>这项能力产生的效果依然是自然环境效果，可以被相应能力免疫</FONT></P>
+<P><FONT face=宋体>对象细节调整<BR>专业：资讯处理<BR>威力：12<BR>动作：6AP<BR>能耗：5点<BR>成分：语言，姿势<BR>射程：10*智力*威力米<BR>持续时间：一个场景<BR>效果：你能修改一个对象的细节设计，使其变得更为合理<BR>将本能力的效果视同通用魔法强化术，但无法使用其反转用法。<BR>用于生物时可以增强其所有属性等同威力/6，或单项属性威力*4/3，或使其在攻击，防御和豁免上获得等同威力值的增强加值，或使其在速度上获得威力值*20米提升。</FONT></P>
+<P><FONT face=宋体>A级编码咏唱：<BR>紧急防火墙<BR>专业：信息安全<BR>威力：24<BR>动作：反射动作<BR>能耗：7点<BR>成分：语言，姿势<BR>射程：10米*智力*威力值<BR>持续时间：1轮<BR>冷却时间：1轮<BR>效果：你可以展开紧急防火墙来阻挡有害信息。<BR>射程范围内任何生物受到伤害时，你可以以反射动作为其展开防火墙阻挡伤害，你进行施法判定，目标获得成功数点临时生命值，上限为威力值*5。<BR>射程范围内若有范围伤害产生，你也可以以反射动作展开防火墙阻止，视为范围伤害的伤害值减少等同上述目标获得的临时生命值。</FONT></P>
+<P><FONT face=宋体>虚境工程<BR>专业：资讯输出<BR>威力：24<BR>动作：6AP<BR>能耗：7点<BR>成分：语言，姿势<BR>射程：无<BR>持续时间：一个场景<BR>效果：通过改变环境资讯，你能创造并不存在的实物。<BR>本能力的运作方式与升阶至A级的投影魔术效果完全一致，除了以下不同：<BR>本能力无需你拥有制造对应物品的能力。</FONT></P>
+<P><FONT face=宋体>S级编码咏唱：<BR>虚过程<BR>专业：资讯处理<BR>威力：48<BR>动作：特殊<BR>能耗：9点<BR>成分：语言，姿势<BR>射程：无<BR>持续时间：立即<BR>效果：通过对资讯流的处理，你能实现虚过程的运算，对历史进行求和，将因果倒置，从结果出发计算达成的途径，但这种处理终究受你本身能力限制，不可能事件不会因此改变。<BR>你在进行任何判定时可以同时使用本能力，你在该判定中不超过威力值两倍的DP视为成功，无需掷骰，正常掷骰其他DP。</FONT></P>
+<P><FONT face=宋体>信息流倒转<BR>专业：资讯处理<BR>威力：48<BR>动作：特殊<BR>能耗：9点<BR>成分：语言，姿势<BR>射程：无<BR>持续时间：立即<BR>效果：你可以让信息流逆向展现，这表现为整个时间轴倒转播放。<BR>在任意一个回合开始时，你可以启动本能力并设置断点，支付一次能耗。<BR>之后，你可以以一个反射动作将时间倒退至断点设置后。特殊的，这个断点若与你不处于同一场景，每相差一个场景，能耗增加一倍，并且需要额外消耗1分钟时间来使用本能力。本能力使用后断点移除。回退场景产生的能耗会出现效果结束后因此不因回溯场景而恢复，若因此产生的能耗超出了你当前拥有的操作量，将你的操作量计为负数，你立刻不可避免的昏迷直到操作量自然恢复到0<BR>免疫S级以上时间法则的目标可以保留记忆，因此只要保留记忆者不改变动作，其他人的动作和结果都按原先的顺序处理，直到你在某个点上宣布做出改变，从那个时间点开始，之后的状况会按新的变化自然发展。<BR>你自身的时间也被倒转，因此你的状态也会回复到断点时，但你的记忆不会消失。</FONT></P></font></FONT></font></div>	
+	<div id="winchm_template_footer"><font size="2px" font face="Microsoft YaHei">版权所有 (C) 2003-2018 lv20112668。</font></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,2327 @@
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>物品和装备位</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Microsoft YaHei, Simsun, Arial, sans-serif;
+	font-size: 12pt;
+}
+</style>
+
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+</head>
+
+<body>
+
+<div id="winchm_template_top">
+	<div id="winchm_template_button"><A href="本质与加值类型.htm" title="上一主题"><img id="winchm_template_prev" alt="上一主题" src="template2/btn_prev_n.gif" border="0"></a><A href="生物种类相关规则.htm" title="下一主题"><img id="winchm_template_next" alt="下一主题" src="template2/btn_next_n.gif" border="0"></a></div>
+	<div id="winchm_template_navigation"><font size="2px" font face="Microsoft YaHei">帮助 &gt; 
+无限恐怖2.5RE_V1.03先行版 &gt; 规则相关 &gt; 第四章 附录 &gt; </font></div>
+	<div id="winchm_template_title"><font size="2px" font face="Microsoft YaHei">物品和装备位</font></div>
+</div>
+<div id="winchm_template_container">
+	<div id="winchm_template_content"><font size="3px" font face="Microsoft YaHei"><font size="3" font face="Microsoft YaHei"><P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">基础物品规则：<SPAN 
+lang=EN-US><o:p></O:P></SPAN></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">所有的白刃武器都有自身的武器分类，参考基础冷兵器模板。部分分类，如鞭、双节棍等，不在冷兵器模板中，但依旧客观存在。<B><SPAN 
+lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">所有的枪械武器也拥有武器分类，其模板为手枪、步枪、机枪、霰弹枪、炮。<B><SPAN 
+lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">特殊武器的分类就是特殊武器，但是依旧有细节的分类。<B><SPAN 
+lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">若一把武器分类能在基础冷兵器中找到同名对象，则获得对应的全部特性，包括分类、专业、特性以及体积，重复特性不会重复获得。<B><SPAN 
+lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">因此，分类为弯刀的武器总是具有<SPAN 
+lang=EN-US>9</SPAN>加骰，这是基础冷兵器中的弯刀给与的。<B><SPAN 
+lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">若一个资源选择以基础冷兵器为模板，则获得该基础冷兵器的对应全部特性，只有冲突的部分改为新的。<B><SPAN 
+lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">在上面这个例子中，这把武器在全力一击时额外获得<SPAN 
+lang=EN-US>1DP</SPAN>的加值。但如果该武器的其他特性在全力以击时提供<SPAN 
+lang=EN-US>2DP</SPAN>的加值，那么最终在全力一击时获得的加值为<SPAN lang=EN-US>2DP</SPAN>而非<SPAN 
+lang=EN-US>3DP</SPAN>。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">同时若选择该基础冷兵器为“肉搏武器”，若没有特殊说明，则武器伤害变为“提升双手天生武器伤害<SPAN 
+lang=EN-US>X</SPAN>点（一般为<SPAN lang=EN-US>L</SPAN>）。”（数值<SPAN 
+lang=EN-US>X</SPAN>按照无支线<SPAN lang=EN-US>0</SPAN>，<SPAN 
+lang=EN-US>D1</SPAN>，<SPAN lang=EN-US>C2</SPAN>，<SPAN lang=EN-US>B4</SPAN>，<SPAN 
+lang=EN-US>A8</SPAN>，<SPAN lang=EN-US>S16</SPAN>的规律判断）<B><SPAN 
+lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">天生武器在计算其支线等级时，根据其天生武器等级或者人造肉搏武器（拳套）取高。<B><SPAN 
+lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">武器中的所有可以升级，解放，觉醒等的武器所需花费的分数，支付说明中的价格。<B><SPAN 
+lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">发射类远程武器在攻击时计算其支线等级时，以其本身的武器与弹药的支线等级取高。<B><SPAN 
+lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">发射类远程武器在使用特殊弹药时，该弹药效果与武器效果叠加，若冲突，则以弹药为准。<B><SPAN 
+lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">武器大小与隐藏的关系：体积<SPAN 
+lang=EN-US>1</SPAN>＝能藏在衣中；体积<SPAN lang=EN-US>2</SPAN>＝能藏在大衣中；体积<SPAN 
+lang=EN-US>3</SPAN>或更大＝不能藏在身上。人物体型每比<SPAN lang=EN-US>5</SPAN>大<SPAN 
+lang=EN-US>2</SPAN>，这些数值各提高<SPAN lang=EN-US>1</SPAN>。 <B><SPAN 
+lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN></B>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN></B>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">武器大分类说明：<SPAN 
+lang=EN-US><o:p></O:P></SPAN></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">近战武器：所有不具备射程的武器都是近战武器。<B><SPAN 
+lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">远程武器：所有有射程的武器全部为远程武器，弓箭、弩、以及枪械类、炮类武器，以及大多投掷武器都是。<B><SPAN 
+lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">既是近战武器也是远程武器：不具备【暗器】特性的投掷武器视其用法，不使用射程时可视为近战武器，使用射程时可视为远程武器。<B><SPAN 
+lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">实弹武器：所有“武器特殊属性”中没有【能量武器】特性，或者其武器伤害类型并非能量伤害的远程武器。<B><SPAN 
+lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">枪械武器：所有分类为手枪，步枪，机枪，散弹枪，炮皆为枪械武器。<B><SPAN 
+lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">人造武器：所有天生武器之外的武器，全部视为人造武器。只有人造武器视为物品，可以进行物品改造，如附魔。<B><SPAN 
+lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">白刃武器：本质上所有武器都可以进行白刃攻击，使用该武器本体进行攻击的武器被称为白刃武器。<B><SPAN 
+lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">肉搏武器：所有“武器特殊属性”中包含【肉搏武器】特性的武器，这些武器通常不算手持武器。</SPAN><o:p></O:P></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">大部分的武器都有使用前提，一般为属性和技能和专业：<B><SPAN 
+lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">武器上标注的分类：<B><SPAN 
+lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">分类决定武器的一些基本数据和特性，它指向基本兑换物中的同名物品，并有相应物品的特性和所有数据，除非它自己有写明这些数据<SPAN 
+lang=EN-US><BR></SPAN>也决定了部分限制特定武器类型生效的主动或被动技艺。具有两种或更多分类的武器可以同时满足多种限制特定武器类型的技艺，其指向的基本兑换物为所有分类中的第一个，但拥有其他所有基本兑换物中的特性。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">前提：<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">物品在作为武器使用时，都有自己的力量需求，若没有说明，则其力量需求等于其体积，但若原本并非适合体调为<SPAN 
+lang=EN-US>0</SPAN>的生物使用，则其力量需求等于适合体调<SPAN lang=EN-US>0</SPAN>版本生物的体积<SPAN lang=EN-US>+</SPAN>物品体调。角色也可能因为体调因素无法使用物品，此时不视为物品的前提，而是因体调原因导致。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">若为属性和技能，则每低于前提<SPAN lang=EN-US>1</SPAN>点，则在使用时受到<SPAN lang=EN-US>2DP</SPAN>的器械减值。若低于<SPAN lang=EN-US>3</SPAN>点则无法使用，如力量<SPAN lang=EN-US>3</SPAN>无法使用需求力量<SPAN lang=EN-US>7</SPAN>的武器，使用力量<SPAN lang=EN-US>6</SPAN>的武器时承受<SPAN lang=EN-US>6DP</SPAN>器械减值。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">没有专业惩罚：若有专业，则没有对应的专业，使用时受到<SPAN lang=EN-US>3DP</SPAN>的器械减值。若一个武器使用的专业超过<SPAN lang=EN-US>1</SPAN>个，则每个减少<SPAN lang=EN-US>3DP</SPAN>减值，若一个对应的专业都没有，则无法使用。<B><SPAN 
+lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">非武器物品的前提若不满足，则无法使用该物品，或物品不生效（如消耗品）。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">护符，项链，披风等各种魔法物品和装备，必须与佩戴者相处超过<SPAN lang=EN-US>1</SPAN>个场景才可以正常生效与使用效果。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">*</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">升级物品：可升级物品的价格等同其累计价格，而非升级价格，判定支线等级，物体硬度和生命值时也是如此，升级物品进行额外强化，如改造，附魔等时，若相关改造<SPAN 
+lang=EN-US>/</SPAN>附魔的价格与基底物品无关，则升级时会保留，若有关，则升级物品时需要补齐差价。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">消耗品：<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">消耗品的物品意味者若没有特殊说明，该物品使用一次后即会失去。一般情况下该物品一旦使用，则无法再次使用第二次。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">所有消耗品中的药水，药剂分类，若没有特殊说明，服下皆需要一个4AP动作。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">无论如何（除非有特殊说明），消耗品无法获得【认主】特性。<B><SPAN 
+lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><SPAN style="mso-spacerun: yes">若某个消耗品可以使用多次，若无特殊说明，则每使用一次，其在计算判断其价格时视作其价格按比降低1/总可用次数。 
+</SPAN><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">物品的硬度和生命值规则：无限恐怖中，几乎所有的物品都是可以破坏的，包括玩家持有，占用装备位正在装备中的物品。只有无占位的物品可以获得更多保护，</SPAN><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: red; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">物品是因为其可以被破坏的劣势而获得了额外特性的，因此不建议关闭这条规则。</SPAN></B><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">攻击正在装备中的物品可以通过战斗规则中攻击特定部位<SPAN lang=EN-US>-</SPAN>攻击装备物品来实现，为了符合法律法规，通常普通衣物是不可破坏的，除非你试图用它遮挡正在装备<SPAN 
+lang=EN-US>/</SPAN>生效中的物品。<SPAN lang=EN-US><BR></SPAN></SPAN><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: red; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">当一件占据装备位的物品产生效果或被启动时，对装备者有视线和效果线且能精准定位的目标会自动知晓这件装备产生了效果（例如学徒的护盾戒指将在每次受到伤害并加以阻挡时被人发现，以提示这个东西在结算伤害中起效，可能阻挡了伤害），这个效果不能被遮挡，这是为了赋予物品劣势而产生的规则，<SPAN 
+lang=EN-US>ST</SPAN>可以酌情判定当角色有意遮挡该效果时能令物品失效，或者该效果就不会受任何其他效果影响必定生效。</SPAN></B><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">所有你携带，装备，使用，生效中的物品视为有主的物品，有主物品除了装备位上的物品之外，通常不会在范围伤害中受到影响，但依旧可能直接被某些效果取为目标，此时若需要判定（如豁免），可以由角色来进行对应判定作为物品的判定结果。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">若一件物品不占用装备位也并非手持（比如你口袋里的子弹）是无法被伤害到的。<BR><B><SPAN lang=EN-US>当你受到范围伤害时，你装备位上的物品总计受到等同你受到的实际伤害，由你决定如何分摊在正占据你装备位的物品上，每件物品以自身的硬度再扣减被分配的伤害，结果作为对物品的实际伤害。每件物品能被分配到的伤害至多等同其生命值+硬度。你不能将伤害分摊到主神本质的物品上。<BR>（可选）：ST若认为此条处理过于麻烦，可以简单的让所有占据装备位的物品消耗的分数加倍，这可能会产生一些连带问题导致的废特性。<BR>当一件物品被摧毁时，其提供的战斗力将立刻被扣除，并会留下“残骸”，残骸在物品等级，硬度和生命值上视同原本的物品，但不再提供任何效果，也不作为物品和任何其他效果互动，仅有针对被摧毁的物品或物品残骸的效果能影响残骸。<o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">物件的硬度代表了这个物品有多……“耐打”。物品每次受到攻击时，会抵销掉相等于硬度值的伤害（而不管这个伤害是物理伤害或者能量伤害），例如硬度<SPAN 
+lang=EN-US>2</SPAN>的对象，受到伤害<SPAN lang=EN-US>3</SPAN>的攻击，所受的伤害为<SPAN lang=EN-US>1</SPAN>。而物品的生命值只有一条，不管是对其造成冲击、严重或恶性伤害，都减少同样的数值。物品的硬度值对照参照下表：<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<TABLE class=MsoNormalTable 
+style="HEIGHT: 483px; WIDTH: 300px; MARGIN: auto auto auto 6.75pt; 
+mso-cellspacing: 1.5pt; mso-yfti-tbllook: 1184" cellPadding=0 border=0>
+  
+  <TR style="HEIGHT: 44.25pt; mso-yfti-irow: 0; mso-yfti-firstrow: yes"   >
+    <TD                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             style="BORDER-TOP: black 1pt solid; HEIGHT: 44.25pt; BORDER-RIGHT: black 1pt solid; WIDTH: 35.25pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt; PADDING-LEFT: 5.25pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.25pt; BACKGROUND-COLOR: transparent; mso-border-alt: solid black .75pt"     width=47>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >硬度</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     style="BORDER-TOP: black 1pt solid; HEIGHT: 44.25pt; BORDER-RIGHT: black 1pt solid; WIDTH: 120pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt; PADDING-LEFT: 5.25pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.25pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid black .75pt; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt"     width=160>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >材料</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 44.25pt; COLOR: ">
+    <TD                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   style="BORDER-TOP: #f0f0f0; HEIGHT: 44.25pt; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; COLOR: ; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt; PADDING-LEFT: 5.25pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.25pt; BACKGROUND-COLOR: transparent"     bgColor=#b0c000 borderColor=#000047 borderColorDark=#de0008    >
+      <P align=center><FONT face=宋体>0</FONT></P></TD>
+    <TD                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         style="BORDER-TOP: #f0f0f0; HEIGHT: 44.25pt; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; COLOR: ; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt; PADDING-LEFT: 5.25pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.25pt; BACKGROUND-COLOR: transparent"     bgColor=#b0c000 borderColor=#000016 borderColorDark=#de0008    >
+      <P align=center><FONT face=宋体>腐殖土、松散的土</FONT></P></TD></TR>
+  <TR style="HEIGHT: 44.25pt; mso-yfti-irow: 1">
+    <TD                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     style="BORDER-TOP: #f0f0f0; HEIGHT: 44.25pt; BORDER-RIGHT: black 1pt solid; WIDTH: 35.25pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt; PADDING-LEFT: 5.25pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.25pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt; mso-border-left-alt: solid black .75pt"     width=47>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >1-2</SPAN></P></TD>
+    <TD                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             style="BORDER-TOP: #f0f0f0; HEIGHT: 44.25pt; BORDER-RIGHT: black 1pt solid; WIDTH: 120pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt; PADDING-LEFT: 5.25pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.25pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt"     width=160>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >软木、硬胶、薄玻璃、黄金、沥青地面</SPAN><o:p></O:P></P></TD></TR>
+  <TR style="HEIGHT: 22.5pt; mso-yfti-irow: 2">
+    <TD                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 35.25pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt; PADDING-LEFT: 5.25pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.25pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt; mso-border-left-alt: solid black .75pt"     width=47>
+      <P align=center><FONT face=宋体>2-3</FONT></P>
+      </TD>
+    <TD                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 120pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt; PADDING-LEFT: 5.25pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.25pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt"     width=160>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >夯土、石、健康人类的骨架</SPAN></P></TD></TR>
+  <TR style="HEIGHT: 22.5pt; COLOR: ">
+    <TD                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; COLOR: ; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt; PADDING-LEFT: 5.25pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.25pt; BACKGROUND-COLOR: transparent"     bgColor=#b0c000 borderColor=#000047 borderColorDark=#de0008    >
+      <P align=center><FONT face=宋体>4</FONT></P></TD>
+    <TD                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; COLOR: ; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt; PADDING-LEFT: 5.25pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.25pt; BACKGROUND-COLOR: transparent"     bgColor=#b0c000 borderColor=#000016 borderColorDark=#de0008    >
+      <P align=center><FONT face=宋体>一些石、C30-40的混凝土（高速公路常用、桥梁墩柱的混凝土部分）</FONT></P></TD></TR>
+  <TR style="HEIGHT: 22.5pt; mso-yfti-irow: 3">
+    <TD                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 35.25pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt; PADDING-LEFT: 5.25pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.25pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt; mso-border-left-alt: solid black .75pt"     width=47>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ></SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >5<o:p></O:P></SPAN></P></TD>
+    <TD                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 120pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt; PADDING-LEFT: 5.25pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.25pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt"     width=160>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >一些硬质石、</SPAN>铁、C80混凝土、人的牙齿</SPAN></P></TD></TR>
+  <TR style="HEIGHT: 22.5pt; mso-yfti-irow: 4">
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 35.25pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt; PADDING-LEFT: 5.25pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.25pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt; mso-border-left-alt: solid black .75pt"     width=47>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><FONT face=宋体       >6</FONT></P></TD>
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 120pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt; PADDING-LEFT: 5.25pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.25pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt"     width=160>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+       width="160">石英块、玻璃块、水晶块、钢<o:p 
+      ></O:P></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 22.5pt; COLOR: ">
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; COLOR: ; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt; PADDING-LEFT: 5.25pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.25pt; BACKGROUND-COLOR: transparent"     bgColor=#b0c000 borderColor=#000047 borderColorDark=#de0007     >
+      <P align=center><FONT face=宋体       >7</FONT></P></TD>
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; COLOR: ; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt; PADDING-LEFT: 5.25pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.25pt; BACKGROUND-COLOR: transparent"     bgColor=#b0c000 borderColor=#000016 borderColorDark=#de0007     >
+      <P align=center><FONT face=宋体       >等同钢铁密度的羟基磷灰石（骨骼）</FONT></P></TD></TR>
+  <TR style="HEIGHT: 22.5pt; COLOR: ">
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; COLOR: ; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt; PADDING-LEFT: 5.25pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.25pt; BACKGROUND-COLOR: transparent"     bgColor=#b0c000 borderColor=#000047 borderColorDark=#de0007     >
+      <P align=center><FONT face=宋体       >8</FONT></P></TD>
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; COLOR: ; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt; PADDING-LEFT: 5.25pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.25pt; BACKGROUND-COLOR: transparent"     bgColor=#b0c000 borderColor=#000016 borderColorDark=#de0007     >
+      <P align=center><FONT face=宋体       >钛合金、一些高性能合金、硬质合金</FONT></P></TD></TR>
+  <TR style="HEIGHT: 22.5pt; COLOR: ">
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; COLOR: ; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt; PADDING-LEFT: 5.25pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.25pt; BACKGROUND-COLOR: transparent"     bgColor=#b0c000 borderColor=#000047 borderColorDark=#de0007     >
+      <P align=center><FONT face=宋体       >9-10</FONT></P></TD>
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; COLOR: ; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt; PADDING-LEFT: 5.25pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.25pt; BACKGROUND-COLOR: transparent"     bgColor=#b0c000 borderColor=#000016 borderColorDark=#de0007     >
+      <P align=center><FONT face=宋体       >钨钢、约束陶瓷复合装甲</FONT></P></TD></TR>
+  <TR style="HEIGHT: 22.5pt; COLOR: ">
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; COLOR: ; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt; PADDING-LEFT: 5.25pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.25pt; BACKGROUND-COLOR: transparent"     bgColor=#b0c000 borderColor=#000047 borderColorDark=#de0007     >
+      <P align=center><FONT face=宋体       >11</FONT></P></TD>
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; COLOR: ; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt; PADDING-LEFT: 5.25pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.25pt; BACKGROUND-COLOR: transparent"     bgColor=#b0c000 borderColor=#000016 borderColorDark=#de0007     >
+      <P align=center><FONT face=宋体       >钻石</FONT></P></TD></TR>
+  <TR style="HEIGHT: 22.5pt; mso-yfti-irow: 5; mso-yfti-lastrow: yes"   >
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 35.25pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt; PADDING-LEFT: 5.25pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.25pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt; mso-border-left-alt: solid black .75pt"     width=47>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >16</SPAN></P></TD>
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 120pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt; PADDING-LEFT: 5.25pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.25pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt"     width=160>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 精金</SPAN><SPAN 
+      lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p 
+  ></O:P></SPAN></P></TD></TR></TABLE>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">上表中的数值并不绝对，仅作为参照，若有见解，欢迎指正。</SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">若一个物品未说明其生命值和硬度，默认其硬度为支线等级转化为<SPAN lang=EN-US>D+</SPAN>分数<SPAN lang=EN-US>/1000<FONT color=#ff0000>（向上取整，并且ST也总是可以按照其材质硬度来与其取高计算）</FONT></SPAN>，因此一件<SPAN lang=EN-US>A+4000</SPAN>的物品硬度为<SPAN lang=EN-US>31</SPAN>。<BR><B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">默认其生命值为（硬度<SPAN lang=EN-US>+</SPAN>体积调整）<SPAN lang=EN-US>*5</SPAN>，体积调整在生命计算中下限为<SPAN lang=EN-US>0</SPAN>，该计算中负值不会进一步减少生命<FONT color=#ff0000>（若该物品硬度以材质硬度计算，则照常计入负数体积调整来计算血量，此时若该物品支线转化为D+分数/1000后≥1点，再用其价格计算血量但视作负数体调为0来将两种算法之间得出的生命值取高计算，尽管计入负数体调，但不会使物品的生命值低于1）</FONT><BR>。因此一台体调<SPAN 
+lang=EN-US>15</SPAN>的<SPAN lang=EN-US>S+8000</SPAN>的高达生命值高达（<SPAN lang=EN-US>89+15</SPAN>）<SPAN lang=EN-US>*5=112*5=520</SPAN>点，而一件<SPAN lang=EN-US>D+500</SPAN>分体积<SPAN lang=EN-US>1</SPAN>的物品生命值为<SPAN lang=EN-US>5</SPAN>，硬度为<SPAN lang=EN-US>1</SPAN>。若为无支线物品或直接获取硬度的物品，其生命值与硬度算法可能另行计算*（上述红字括号中有注明）。</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><SPAN lang=EN-US><FONT color=#ff0000><BR><BR>*特殊：在计算物品破坏时，本身不具备防御的物品具有等同自身硬度*1.5，向下取整的抵抗破甲值，用于防止被破甲效果击破硬度或应对超级贯穿的击破，但载具不适用，因为其本身具有盔甲防御。</FONT></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><SPAN lang=EN-US></SPAN></SPAN><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: red; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">若一个物品是由效果创造的，在决定物品的支线等级和分数时，使用原物品和产生效果的兑换价格取低，若原物品没有明确存在的，直接使用兑换价格，这也用于决定物品生命值和硬度。</SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN></B>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">神器通用规则：<SPAN lang=EN-US><o:p></O:P></SPAN></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">有一些在各自的时空里留下不朽声名的物品，莫不是奇迹的象征，荣耀的顶点。美名也好，凶名也罢，每一件都寄托着无数的希望亦或诅咒，而正是这份力量，让它们与量产型的装备有着截然不同的内涵。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">神器分为两种，一种为神兵，而另外一种则是神器。<B><SPAN 
+lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">所有的神器都是神兵，但反之却不是。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">有很多武器和防具仅仅由于其力量和传说而荣耀，甚至有远超过神器的强大，但是这些只能是【神兵】。能称之为神器的，必然是拥有器魂的装备。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">【神器】<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">见智能武器相关描述<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">【神兵】<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">1.</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">神兵可以如同处于所有界域一般对灵体和虚体产生影响。因此，神兵武器可以正常对灵体造成伤害，神兵盔甲和盾牌所带来的防御加值可以抵挡灵体的攻击。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">2.</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">神兵可以击破<SPAN lang=EN-US>/-</SPAN>，以及能量抗力之外的伤害减免。<SPAN lang=EN-US><BR>3.</SPAN>神兵总是有魔法特性<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN></B>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN></B>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">装备与装备位规则<SPAN lang=EN-US><o:p></O:P></SPAN></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">主神空间提供了便利和强大的道具，使人坚不可摧、日行千里、腾云驾雾。但是，没有人可以把所有好东西都用在自己身上。一个人身上所能使用的物品是有限的，有时是基于常理，有时是基于物品本身的特性。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN></B>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN></B>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">装备位：<SPAN lang=EN-US><o:p></O:P></SPAN></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">装备位表明了某些类物品彼此之间互相排斥、无法共同生效的本质特性。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">一个装备位与一个人体的生理位置相关，但并不是特指这个位置，而是指该生理位置对于那些必须装备于此位置的物品的限制。受到某个装备位限制的一类物品只有特定的一个（戒指位可能是两个或更多）生效，有时是因为物品自然的超自然能量场需要在特定的生理位置与人体能量场产生互相作用，有时是因为该生理位置在魔法或宗教表征上具有特殊的意义。无论如何，如果某件物品需要装备在某个装备位所关联的生理位置上，但该物品本身并不占用装备位，则此装备位视为未被占用。（虽然如此，但装备在此位置上的物品可能导至需要占用此装备位的物品无法正常装备）。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">同装备位装备多件物品：有时一个装备位上会佩带多件物品，比如在手上戴多个戒指，或在头上同时佩戴魔法头巾、帽子、头盔等。在这种情况下，只有一件物品（或符合装备位要求的数量）会生效。如无特别说明，是支线等级最高的物品生效。<SPAN 
+lang=EN-US><BR></SPAN>有些物品只要带在身上就可以，有些物品必须以一定的方法安置在身上的某些位置才能生效。只有对于后一种物品来说，才存在于装备位这种说法。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN></B>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN></B>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">持续、触发和启动物品<SPAN lang=EN-US><o:p></O:P></SPAN></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">持续物品是指那些只要合理装备并正确启用，就会一直生效的物品。持续性的魔法物品如果必须装备于与装备位关联的生理位置，则应视为占用装备位。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">触发物品是合理装备并正确启用后，只要达到一定条件就会自动产生某种效果的物品，比如护命玉佩。触发性物品可以视为特殊的持续效果物品，因此触发性的魔法物品如果必须装备于与装备位关联的生理位置，则应视为占用装备位。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">启动物品是指那些合理装备后，每次启用都会产生立即生效的效果、或者只持续很短时间的短期持续效果的物品。此类魔法物品即使必须装备于与装备位关联的生理位置，如其不启动，或启动后产生立即生效的效果，则不占用装备位。若启动后产生持续短时间的短期持续效果，则在生效期间占用装备位，并依据“同一装备位的多件物品”处理。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN></B>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN></B>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">穿脱装备<SPAN lang=EN-US><o:p></O:P></SPAN></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">穿脱装备通常需要一个6AP的标准动作，非战斗状态下一般为<SPAN lang=EN-US>6</SPAN>秒，但盔甲例外，穿脱轻甲盔甲需要在战斗时12点AP，非战斗下一般是<SPAN lang=EN-US>1</SPAN>分钟。穿脱重甲需要<SPAN lang=EN-US>1</SPAN>分钟，非战斗下一般是<SPAN lang=EN-US>5</SPAN>分钟。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN></B>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN></B>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">生理位置与装备位<SPAN lang=EN-US><o:p></O:P></SPAN></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">请注意，这些装备位虽然是以人类为蓝本进行说明，但若你的生物改变为其他生物，比如动物，虫类等，即使失去了原本的装备位，也会有类似的装备位作为替代（尽管这让你兑换的物品不能被其他人类使用），因此无需关注装备位对你产生的影响，除了“手持”位，没有合适肢体的生物无法手持，有较多合适肢体的生物则有较多的手持位<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">如：章鱼无法装备<SPAN lang=EN-US>8</SPAN>个戒指，然后其可以手持<SPAN lang=EN-US>8</SPAN>个武器。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">头部装备位：<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">头盔位<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">头盔位包括了整个头部，或头部上半部，包括后脑的位置，是魔法帽、魔力头盔、魔法头巾、饰品，面具的装备位置。这个位置上只能有一件物品生效。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">身体装备位：<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">护符位<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">护符位关联到颈部，包括了大动脉和颈椎等与生命和身体机能密切相关的位置。占用护符位的物品包括护符、项链、项圈等。这个位置上只能有一件物品生效。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">披风位<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">披风位比较特殊，关联到人体外侧的整体位置，因此占用此位置的物品包括了套在所有衣物和盔甲外的披风、斗蓬等。若有多件物品装备于此位置，则不计其能量等级，只有最外面的一件生效。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">腰带位<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">腰带位是装备在人体腰部的装备，这些装备一般起到承上启下的作用，某些特殊的腰带还富有特殊的效果，每个人物只能装备一件腰带。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">盔甲位：<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">一般而言，人物只能穿戴一个盔甲。盔甲的作用是保护人物的身体免于受到伤害。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">多重着甲规则：<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">通常来说，多重着甲规则允许你在一件重装甲内穿上一件轻装甲。<B><SPAN 
+lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">由于古典盔甲往往本身就是多层嵌套而成，所以你无法做出在骑士铠内再穿一件链甲的事（因为骑士铠内部本身就包括了链甲作为内衬）。但你还是有可能在骑士铠内穿一件防弹衣，或在动力装甲内穿一件链甲衫。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">当你身着多件盔甲时，你的盔甲防御值只会从防御最高的一件盔甲上获得好处，盔甲特殊属性和盔甲特性只有最内层的一件盔甲生效，即使它们的作用原理不同（例如，外部的盔甲拥有【防弹】特性并使你力量<SPAN 
+lang=EN-US>+1</SPAN>，内部的拥有【防能量武器】特性并使你敏捷<SPAN lang=EN-US>+1</SPAN>，你只会获得【防能量武器】特性和敏捷<SPAN lang=EN-US>+1</SPAN>）。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">敌人武器的破甲值需要一层层地作用于你所有的盔甲，即：破甲值只有完全高于第一层盔甲时，其剩余值才会作用于第二层盔甲。武器对第二层盔甲的破甲值＝武器本身的破甲值<SPAN 
+lang=EN-US>-</SPAN>第一层盔甲的盔甲防御值。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">当破甲完全突破第一层的盔甲且你盔甲防御较高并生效的是第一层盔甲，则此时你失去盔甲防御，但若没有突破第二层盔甲，则第二层盔甲带来的盔甲特殊属性依然存在。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">当破甲完全突破第一层的盔甲且你盔甲防御较高并生效的是第二层盔甲，则此时你依然拥有第二层的盔甲防御，如常计算破甲后的盔甲防御。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">穿着多件盔甲有碍行动。穿着多件盔甲时，盔甲减值都叠加并且额外增加所穿盔甲数量<SPAN lang=EN-US>*2</SPAN>。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">衣物位：<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">衣物是穿着与盔甲内侧的装备，衣物位可以穿多件，但只有最靠内的一件生效。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">若衣物提供盔甲防御，仅在没有穿戴盔甲时生效。衣物的盔甲防御若被完全破除，与盔甲一样，会失去相应的【防弹】【防能量武器】和【封闭】特性。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">四肢装备位：<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">手套位<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">手套位关联到双手，占用手套位的物品包括了各种手套、手甲、护腕或类似物品。此装备位上只有一副手套，臂铠，护腕生效，大部分此类物品必须成对装备双手，通常也会成对获得或失去，ST可以自主判定何时不会。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">戒指位<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">戒指关联到手指。手指的血脉与心脏相联，有相关于生命本质的意义，而戒指这一物品本身在人的地位和命运意义上具有象征性。一般人每只手上只有一个戒指生效。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">鞋袜位<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">鞋袜位关联到脚，占用此位置的物品包括了魔法鞋和绑腿等。大部分此类物品需要装备一对才能生效，通常也会成对获得或失去，ST可以自主判定何时不会。此装备位上只有一对生效。<o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">手持和持有：<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">手持分类指具有武器分类的物品，手持分类的物品效果只在持有其时才生效。若一些其他物品需求持有时生效，也必须将其作为手持物品来使用。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">请注意，只有人类，类人生物，灵长类等拥有“手”这一概念的生物才可以手持。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">拥有“蹄子”（如牛，马）、“爪子”（如狮，豹）、鳍（如鱼，蜥蜴）或者蹼（蛙，鸭）无论如何也无法手持，除非有特殊说明。<SPAN 
+lang=EN-US><BR></SPAN>若一个规则指向手持或持有物品，若没有特别说明，总是指向自身手持或持有的物品。<BR><STRONG>手持武器：只有以手持方式装备了，并且具有武器分类，同时自身能提供武器伤害，而非提升其他武器伤害的非临时武器算作手持武器。</STRONG></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><STRONG>尽管手持物品不严格限定数量（毕竟抓一把子弹是很正常的，一定要限制数量的话，可以按生物可以单手持总体积相当于自身体积一半的多件物品，一件物品时不受此限制，弹药，暗器分类的物品5倍计数），但每只手同时只能有一件物品算作手持武器生效并占用装备位，其他仅仅只是拿着，要在多件手持物品之间切换生效的手持武器，要么不再持有原本的手持武器，例如通过投掷攻击丢出或自由动作丢地上，要么以4AP的标准动作进行改变。</STRONG></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><STRONG>特殊：拳套分类的武器算作手持武器，之类武器必须成对生效，装备于双手，通常也会成对获得或失去，ST可以自主判定何时不会，除非另有特殊说明。</STRONG></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><STRONG></STRONG></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">无装备位：<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">有些物品不需要装备在特殊位置，只要佩带或携带在身上就可以生效，这类物品可以在符合常理的范围内携带任意数量，但同名效果不会叠加，只有最好的一个能够生效。此外，即使是携带即生效的装备，也必须直接带在身上才有效果，装在异次元运载装备如超空间臂环、纳戒或变形胶囊中是无效的。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">失去装备位：<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">有一些改变形体或者类似的效果会造成角色失去某些形体的装备位，从而导致原本的装备不再合适。包括不限于变形，肢体残障等。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">比如失去双手则无法持用武器，失去双腿则无法穿鞋。<B><SPAN 
+lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><SPAN style="mso-spacerun: yes"></SPAN><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">概念武装：<SPAN lang=EN-US><o:p></O:P></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">概念武装的形态不定，通常附加有某一概念，在物品分类中须有定义其为【概念武装】的文字。<SPAN lang=EN-US><o:p></O:P></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">有的概念武装为附加，其必须附加在某一个物体上，在该物体被使用时，其概念武装才可以生效。<SPAN lang=EN-US><o:p></O:P></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">有的概念武装既有自己的装备位又是概念武装，此时同时占有对应的装备位。<SPAN lang=EN-US><o:p></O:P></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">概念武装平时可以不生效，以一个自由动作让其生效，持续时间永久直到你主动关闭或概念武装不被你装备。但是若该对应的装备位已有物品，则无法起效。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">若没有特殊说明，多个概念武装可以一起生效。<SPAN lang=EN-US><o:p></O:P></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">概念武装通常不视为物品，除非其分类中指向物品，例如天踏绚，不指向物品的如荣誉的光辉就不会像物品一样失去或被破坏，而是类似物品改造。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><SPAN style="mso-spacerun: yes"></SPAN><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN></B>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"></SPAN></B>&nbsp;</P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">携带物品：<SPAN lang=EN-US><o:p></O:P></SPAN></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">人物携带零碎物品的数量有所限制，你的每点体积（若你的力量低于体积，则使用力量）允许你携带<SPAN 
+lang=EN-US>100</SPAN>发子弹或类似大小的东西，或<SPAN lang=EN-US>20</SPAN>发弓箭<SPAN lang=EN-US>/10</SPAN>根金条<SPAN lang=EN-US> 
+/10</SPAN>发榴弹或类似大小的东西（已算入容器，通常是弹匣带、箭袋、弹盒等），你每有<SPAN lang=EN-US>1</SPAN>点传奇力量，你的体积视为比原本高<SPAN lang=EN-US>1</SPAN>点。你也可以超限携带，每超出一单位，视你的力量和敏捷比实际低<SPAN lang=EN-US>1</SPAN>点，上限是哪个先降到<SPAN lang=EN-US>0</SPAN>。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">你可以以合理的方式自由携带物品。一个体积<SPAN lang=EN-US>5</SPAN>的普通人可以在身上的任何地方藏匿体积<SPAN lang=EN-US>0</SPAN>的道具，或者将体积的<SPAN lang=EN-US>1</SPAN>的道具藏在衣袖或口袋里，或者将体积<SPAN lang=EN-US>2</SPAN>的道具藏在大衣里面，体积<SPAN lang=EN-US>3</SPAN>以上的道具无法用通常方式藏在身上，你能携带的物品总体积不能超过你的体积<SPAN lang=EN-US>+</SPAN>力量。 <B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">此条规则应用于一般情况下携带零碎物品，这与玩家的负重无关。也许玩家可以持有很重的物品但是却无法日常携带他们。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">玩家的日常携带的物品不得超过玩家的轻载负重，中载后玩家的力量和敏捷下降一半，基础移动速度下降为原本的3/4，重载力量与敏捷则下降至<SPAN 
+lang=EN-US>1/3，基础移动速度下降为1/2</SPAN>，无法携带重载以上。因负重产生的属性变化不会影响生命值、移动速度与负重的计算。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">负重能力<SPAN lang=EN-US><o:p></O:P></SPAN></SPAN></B></P>
+<TABLE class=MsoNormalTable 
+style="MARGIN: auto auto auto 6.75pt; mso-cellspacing: 1.5pt; mso-yfti-tbllook: 1184" 
+cellPadding=0 border=0>
+  
+  <TR style="HEIGHT: 22.5pt; mso-yfti-irow: 0; mso-yfti-firstrow: yes"   >
+    <TD     style="BORDER-TOP: black 1pt solid; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 39.9pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 0cm; BACKGROUND-COLOR: transparent; mso-border-alt: solid black .75pt"     width=53>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><B><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >力量值</SPAN></B><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: black 1pt solid; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 68.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0cm; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid black .75pt; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt"     width=91>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><B><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >轻度负荷</SPAN></B><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: black 1pt solid; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 68.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0cm; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid black .75pt; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt"     width=91>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><B><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >中度负荷</SPAN></B><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: black 1pt solid; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 69.15pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0cm; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid black .75pt; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt"     width=92>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><B><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >重度负荷</SPAN></B><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 22.5pt; mso-yfti-irow: 1">
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 39.9pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 0cm; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt; mso-border-left-alt: solid black .75pt"     width=53>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >1</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 68.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0cm; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt"     width=91>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >13</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤以下</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 68.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0cm; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt"     width=91>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >14-26</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 69.15pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0cm; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt"     width=92>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >27-40</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 22.5pt; mso-yfti-irow: 2">
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 39.9pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 0cm; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt; mso-border-left-alt: solid black .75pt"     width=53>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >2</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 68.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0cm; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt"     width=91>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >16</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤以下</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 68.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0cm; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt"     width=91>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >17-33</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 69.15pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0cm; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt"     width=92>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >34-50</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 22.5pt; mso-yfti-irow: 3">
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 39.9pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 0cm; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt; mso-border-left-alt: solid black .75pt"     width=53>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >3</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 68.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0cm; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt"     width=91>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >21</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤以下</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 68.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0cm; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt"     width=91>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >22-43</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 69.15pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0cm; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt"     width=92>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >44-65</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 22.5pt; mso-yfti-irow: 4">
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 39.9pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 0cm; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt; mso-border-left-alt: solid black .75pt"     width=53>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >4</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 68.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0cm; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt"     width=91>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >29</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤以下</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 68.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0cm; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt"     width=91>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >30-58</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 69.15pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0cm; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt"     width=92>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >59-88</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 22.5pt; mso-yfti-irow: 5">
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 39.9pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 0cm; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt; mso-border-left-alt: solid black .75pt"     width=53>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >5</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 68.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0cm; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt"     width=91>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >37</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤以下</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 68.4pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0cm; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt"     width=91>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >38-76</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: #f0f0f0; HEIGHT: 22.5pt; BORDER-RIGHT: black 1pt solid; WIDTH: 69.15pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0cm; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: solid black .75pt; mso-border-right-alt: solid black .75pt"     width=92>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >77-115</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 44.25pt; mso-yfti-irow: 6">
+    <TD     style="BORDER-TOP: black 1pt solid; HEIGHT: 44.25pt; BORDER-RIGHT: black 1pt solid; WIDTH: 39.9pt; BACKGROUND: white; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 0cm; mso-border-alt: solid black .75pt; mso-border-top-alt: solid black .25pt"     width=53>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >6</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: black 1pt solid; HEIGHT: 44.25pt; BORDER-RIGHT: black 1pt solid; WIDTH: 68.4pt; BACKGROUND: white; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 0cm; mso-border-top-alt: .25pt; mso-border-bottom-alt: .75pt; mso-border-right-alt: .75pt; mso-border-left-alt: .25pt; mso-border-color-alt: black; mso-border-style-alt: solid"     width=91>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >50</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤以下</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: black 1pt solid; HEIGHT: 44.25pt; BORDER-RIGHT: black 1pt solid; WIDTH: 68.4pt; BACKGROUND: white; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 0cm; mso-border-top-alt: .25pt; mso-border-bottom-alt: .75pt; mso-border-right-alt: .75pt; mso-border-left-alt: .25pt; mso-border-color-alt: black; mso-border-style-alt: solid"     width=91>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >50-100</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: black 1pt solid; HEIGHT: 44.25pt; BORDER-RIGHT: black 1pt solid; WIDTH: 69.15pt; BACKGROUND: white; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 0cm; mso-border-top-alt: .25pt; mso-border-bottom-alt: .75pt; mso-border-right-alt: .75pt; mso-border-left-alt: .25pt; mso-border-color-alt: black; mso-border-style-alt: solid"     width=92>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >101-150</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 44.25pt; mso-yfti-irow: 7">
+    <TD     style="BORDER-TOP: black 1pt solid; HEIGHT: 44.25pt; BORDER-RIGHT: black 1pt solid; WIDTH: 39.9pt; BACKGROUND: white; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 0cm; mso-border-alt: solid black .75pt; mso-border-top-alt: solid black .25pt"     width=53>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >7</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: black 1pt solid; HEIGHT: 44.25pt; BORDER-RIGHT: black 1pt solid; WIDTH: 68.4pt; BACKGROUND: white; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 0cm; mso-border-top-alt: .25pt; mso-border-bottom-alt: .75pt; mso-border-right-alt: .75pt; mso-border-left-alt: .25pt; mso-border-color-alt: black; mso-border-style-alt: solid"     width=91>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >66</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤以下</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: black 1pt solid; HEIGHT: 44.25pt; BORDER-RIGHT: black 1pt solid; WIDTH: 68.4pt; BACKGROUND: white; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 0cm; mso-border-top-alt: .25pt; mso-border-bottom-alt: .75pt; mso-border-right-alt: .75pt; mso-border-left-alt: .25pt; mso-border-color-alt: black; mso-border-style-alt: solid"     width=91>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >67-133</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: black 1pt solid; HEIGHT: 44.25pt; BORDER-RIGHT: black 1pt solid; WIDTH: 69.15pt; BACKGROUND: white; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 0cm; mso-border-top-alt: .25pt; mso-border-bottom-alt: .75pt; mso-border-right-alt: .75pt; mso-border-left-alt: .25pt; mso-border-color-alt: black; mso-border-style-alt: solid"     width=92>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >134-200</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 44.25pt; mso-yfti-irow: 8">
+    <TD     style="BORDER-TOP: black 1pt solid; HEIGHT: 44.25pt; BORDER-RIGHT: black 1pt solid; WIDTH: 39.9pt; BACKGROUND: white; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 0cm; mso-border-alt: solid black .75pt; mso-border-top-alt: solid black .25pt"     width=53>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >8</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: black 1pt solid; HEIGHT: 44.25pt; BORDER-RIGHT: black 1pt solid; WIDTH: 68.4pt; BACKGROUND: white; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 0cm; mso-border-top-alt: .25pt; mso-border-bottom-alt: .75pt; mso-border-right-alt: .75pt; mso-border-left-alt: .25pt; mso-border-color-alt: black; mso-border-style-alt: solid"     width=91>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >86</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤以下</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: black 1pt solid; HEIGHT: 44.25pt; BORDER-RIGHT: black 1pt solid; WIDTH: 68.4pt; BACKGROUND: white; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 0cm; mso-border-top-alt: .25pt; mso-border-bottom-alt: .75pt; mso-border-right-alt: .75pt; mso-border-left-alt: .25pt; mso-border-color-alt: black; mso-border-style-alt: solid"     width=91>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >87-173</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: black 1pt solid; HEIGHT: 44.25pt; BORDER-RIGHT: black 1pt solid; WIDTH: 69.15pt; BACKGROUND: white; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 0cm; mso-border-top-alt: .25pt; mso-border-bottom-alt: .75pt; mso-border-right-alt: .75pt; mso-border-left-alt: .25pt; mso-border-color-alt: black; mso-border-style-alt: solid"     width=92>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >174-260</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 44.25pt; mso-yfti-irow: 9">
+    <TD     style="BORDER-TOP: black 1pt solid; HEIGHT: 44.25pt; BORDER-RIGHT: black 1pt solid; WIDTH: 39.9pt; BACKGROUND: white; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 0cm; mso-border-alt: solid black .75pt; mso-border-top-alt: solid black .25pt"     width=53>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >9</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: black 1pt solid; HEIGHT: 44.25pt; BORDER-RIGHT: black 1pt solid; WIDTH: 68.4pt; BACKGROUND: white; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 0cm; mso-border-top-alt: .25pt; mso-border-bottom-alt: .75pt; mso-border-right-alt: .75pt; mso-border-left-alt: .25pt; mso-border-color-alt: black; mso-border-style-alt: solid"     width=91>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >126</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤以下</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: black 1pt solid; HEIGHT: 44.25pt; BORDER-RIGHT: black 1pt solid; WIDTH: 68.4pt; BACKGROUND: white; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 0cm; mso-border-top-alt: .25pt; mso-border-bottom-alt: .75pt; mso-border-right-alt: .75pt; mso-border-left-alt: .25pt; mso-border-color-alt: black; mso-border-style-alt: solid"     width=91>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >127-233</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: black 1pt solid; HEIGHT: 44.25pt; BORDER-RIGHT: black 1pt solid; WIDTH: 69.15pt; BACKGROUND: white; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 0cm; mso-border-top-alt: .25pt; mso-border-bottom-alt: .75pt; mso-border-right-alt: .75pt; mso-border-left-alt: .25pt; mso-border-color-alt: black; mso-border-style-alt: solid"     width=92>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >234-350</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 44.25pt; mso-yfti-irow: 10; mso-yfti-lastrow: yes"   >
+    <TD     style="BORDER-TOP: black 1pt solid; HEIGHT: 44.25pt; BORDER-RIGHT: black 1pt solid; WIDTH: 39.9pt; BACKGROUND: white; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 0cm; mso-border-alt: solid black .75pt; mso-border-top-alt: solid black .25pt"     width=53>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >10</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: black 1pt solid; HEIGHT: 44.25pt; BORDER-RIGHT: black 1pt solid; WIDTH: 68.4pt; BACKGROUND: white; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 0cm; mso-border-top-alt: .25pt; mso-border-bottom-alt: .75pt; mso-border-right-alt: .75pt; mso-border-left-alt: .25pt; mso-border-color-alt: black; mso-border-style-alt: solid"     width=91>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >153</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤以下</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: black 1pt solid; HEIGHT: 44.25pt; BORDER-RIGHT: black 1pt solid; WIDTH: 68.4pt; BACKGROUND: white; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 0cm; mso-border-top-alt: .25pt; mso-border-bottom-alt: .75pt; mso-border-right-alt: .75pt; mso-border-left-alt: .25pt; mso-border-color-alt: black; mso-border-style-alt: solid"     width=91>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >154-306</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p></O:P></SPAN></P></TD>
+    <TD     style="BORDER-TOP: black 1pt solid; HEIGHT: 44.25pt; BORDER-RIGHT: black 1pt solid; WIDTH: 69.15pt; BACKGROUND: white; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 0cm; mso-border-top-alt: .25pt; mso-border-bottom-alt: .75pt; mso-border-right-alt: .75pt; mso-border-left-alt: .25pt; mso-border-color-alt: black; mso-border-style-alt: solid"     width=92>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+      align=center><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >307-460</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      >公斤</SPAN><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt" 
+      ><o:p 
+  ></O:P></SPAN></P></TD></TR></TABLE>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">在游戏中使用重量来计算物品携带是一件繁琐的事，但用于决定角色的力量是否足以携带一些物体有其存在意义，力量与体积调整决定了角色的负重能力<B><SPAN lang=EN-US><BR></SPAN></B>通常，负重只用于<SPAN lang=EN-US>ST</SPAN>判断角色能否携带一件物体，实际数量限制使用上述携带物品的限制。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">对于力量值超过该表的生物，根据生物力量值的个位数找到对应的负重数值，然后十位数字每多<SPAN lang=EN-US>10</SPAN>点就相应把负重数值乘以<SPAN lang=EN-US>12</SPAN>。<SPAN lang=EN-US>21</SPAN>到<SPAN lang=EN-US>30</SPAN>是乘<SPAN lang=EN-US>144</SPAN>，<SPAN lang=EN-US>31</SPAN>到<SPAN lang=EN-US>40</SPAN>是乘<SPAN lang=EN-US>1728</SPAN>，以此类推。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">例如，一个力量<SPAN lang=EN-US>26</SPAN>的生物，力量个位数是<SPAN lang=EN-US>6</SPAN>，十位数是<SPAN lang=EN-US>2</SPAN>，因此其基础负重为<SPAN lang=EN-US>50</SPAN>×<SPAN lang=EN-US>12</SPAN>×<SPAN lang=EN-US>12=7200</SPAN>千克。这个生物还有<SPAN lang=EN-US>5</SPAN>点传奇力量，根据传奇力量的规则，还有额外<SPAN lang=EN-US>8000</SPAN>千克的负重，统计为<SPAN lang=EN-US>15200</SPAN>千克负重。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">例如，一个力量<SPAN lang=EN-US>30</SPAN>的生物，力量个位数是<SPAN lang=EN-US>0</SPAN>（这里使用<SPAN lang=EN-US>10</SPAN>），十位数是<SPAN lang=EN-US>3</SPAN>（实际上应当取<SPAN lang=EN-US>2</SPAN>，因为<SPAN lang=EN-US>30</SPAN>比<SPAN lang=EN-US>10</SPAN>高出<SPAN lang=EN-US>20</SPAN>），其基础负重为<SPAN lang=EN-US>153</SPAN>×<SPAN lang=EN-US>144=22032</SPAN>千克。这个生物还有<SPAN lang=EN-US>5</SPAN>点传奇力量，根据传奇力量的规则，还有额外<SPAN lang=EN-US>8000</SPAN>千克的负重，统计为<SPAN lang=EN-US>30032</SPAN>千克负重。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">人物可以把最大负重的东西举过头顶。可以暂时把最大负重两倍的物品抬离地面，花费6AP动作以<SPAN 
+lang=EN-US>自身力量</SPAN>米/次的速度缓慢移动。人物可以推动和拖行的最大重量是最大负重的五倍。<B><SPAN lang=EN-US><o:p></O:P></SPAN></B></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">当需要计算玩家的负重能力时应用本规则，比如搬运某个物品，推拉某个重物如火炮时。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></P></FONT></font></div>	
+	<div id="winchm_template_footer"><font size="2px" font face="Microsoft YaHei">版权所有 (C) 2003-2018 lv20112668。</font></div>
+</div>
+
+</body>
+</html>

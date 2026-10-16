@@ -1,0 +1,857 @@
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>图书馆管理员</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Microsoft YaHei, Simsun, Arial, sans-serif;
+	font-size: 12pt;
+}
+</style>
+
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+</head>
+
+<body>
+
+<div id="winchm_template_top">
+	<div id="winchm_template_button"><A href="熔炉巫师.htm" title="上一主题"><img id="winchm_template_prev" alt="上一主题" src="template2/btn_prev_n.gif" border="0"></a><A href="炸弹支配者.htm" title="下一主题"><img id="winchm_template_next" alt="下一主题" src="template2/btn_next_n.gif" border="0"></a></div>
+	<div id="winchm_template_navigation"><font size="2px" font face="Microsoft YaHei">帮助 &gt; 
+无限恐怖2.5RE_V1.03先行版 &gt; 资源相关 &gt; 能力组 &gt; 其他类型 &gt; </font></div>
+	<div id="winchm_template_title"><font size="2px" font face="Microsoft YaHei">图书馆管理员</font></div>
+</div>
+<div id="winchm_template_container">
+	<div id="winchm_template_content"><font size="3px" font face="Microsoft YaHei"><font size="3px" font face="Microsoft YaHei"><font size="3" font face="Microsoft YaHei"><P><FONT face=宋体>图书馆管理员<BR>图书管理员技能树<BR>万物之理，莫非知识。因而掌握知识的人就可以掌握世间一切的道。自古以来，只有图书管理员拥有得天独厚的条件，可以将一切知识掌握在手中。有些人借此得悟大道，也有人借此成为领袖和伟人。然而，在探寻知识的过程中，有一些图书管理员发现，他们什么也不需要做，只要单凭自己的意志力，就可以将知识投影在世间，成为强大的工具……甚至强悍的剑与盾。<BR>D级图书管理员D+1000<BR>特性：图书馆藏，学术基础（双特性），文字具现化（三特性）<BR>技能树：D级技能树开启<BR>特殊：没有能量池，额外获得2个特性<BR>图书馆藏：你在自己的房间中获得了一个入口，可以通入一间图书馆。这间图书馆使用标准图书馆图书分类管理系统，馆中保藏所有50年内，在你的祖国，以你的母语正式出版的书籍。你和你的造人可以将书籍带出，其他人只能在图书馆中学习，带出的书籍皆有对你认主的特性，其他人打开时只能看到无意义的文字。<BR>依赖这些书籍，你和你的造人在通过自学规则获得XP时，无需指定自学目标，而能获得特定通用XP，但该XP只能用于购买技能，专业或专长，每10天获得1点XP。<BR>你和你的队友或其他能积累XP的轮回空间生物（如造人）则在每次轮回间隔可以获得1点特定通用XP用于购买上述内容。多个图书馆管理员不会叠加此效果，因为书库是统一的。<BR>学术基础：你在学识和科学上提升1级，至多5级。<BR>文字具现化：你获得一项D级文字具现化能力。<BR></FONT></P>
+<P><FONT face=宋体>C级图书管理员C+2000<BR>特性：提升权限，文字具现化（三特性）<BR>技能树：C级技能树开启<BR>提升权限：你的图书馆藏书范围大幅增加，本人检索书的速度也同样如此，此外他人现在也能将书籍带出。<BR>因为你可以快速检索需要的书籍，在轮回空间中进行解读文献或制造物品时视为你具有所有专业。<BR>现在其他人也获得你D级所能获得的好处（将时间转化为XP）。<BR>文字具现化：你获得一项C级文字具现化能力。<BR></FONT></P>
+<P><FONT face=宋体>B级图书管理员B+4000<BR>特性：影像制品，文字具现化（三特性）<BR>技能树：B级技能树开启<BR>影像制品：你的图书馆内容更趋完善，拥有了电脑和所有电子出版物，同时主神为小队内角色提供了最适宜他们的知识学习方式。<BR>角色小队中的角色以图书馆藏将时间转化为XP时，每10天额外获得0.5点XP，多个图书馆管理员不会叠加此效果，因为书库是统一的。<BR>文字具现化：你获得一项B级文字具现化能力。<BR></FONT></P>
+<P><FONT face=宋体>A级图书管理员A+8000<BR>特性：主神网络，文字具现化（三特性）<BR>技能树：A级技能树开启<BR>主神网络：你的图书馆中的出现的电脑可以访问主神空间之间的网络，并且你在影片中携带的电脑也可以随时访问你的图书馆，这可能会给予你一些剧情上的好处，但大多数时候没有什么用处（鉴于你也可以外带书），主神网络是所有主神空间与小队间共通的，ST可以考虑据此设计剧情（例如和其他小队在该网络中进行交流等，但若对方不具有这类特性则你只能单方面联系后对方才能藉此回应你）。<BR>最后，主神网络允许你在影片剧情中访问主神空间并进行兑换，但只有你能进行，你也无法为其他人进行兑换。<BR>文字具现化：你获得一项A级文字具现化能力。<BR></FONT></P>
+<P><FONT face=宋体>S级图书管理员S+16000<BR>特性：现实网络，文字具现化（三特性）<BR>技能树：S级技能树开启<BR>现实网络：你图书馆中的电脑现在也可以访问现实网络，主神向你开放了更多权限，但这其实也没什么卵用，除非ST乐意依此安排剧情。你和现实网络的交互中若试图发送揭示主神空间存在的内容会被主神拦截，ST判定。<BR>最后，你在影片剧情中的访问权限也得到提高，现在你可以为所有人在影片中进行兑换。<BR>文字具现化：你获得一项S级文字具现化能力。<BR><BR><BR><BR>图书管理员技能树：<BR>知识灌输：D500/C1000/B2000<BR>前提：该技艺仅当图书管理员能力组达到C/B/A级时才能购买<BR></FONT><FONT face=宋体>你和你的队友或其他能积累XP的轮回空间生物（如造人）在每次轮回间隔可以获得的限定通用XP增加3/6/6点用于购买上述内容。多个图书馆管理员不会叠加此效果，因为书库是统一的。|<BR>角色小队中的角色在以图书馆藏将时间转化为XP时，每10天再额外获得1点XP<BR><BR><BR><BR>文字具现化能力：<BR>图书管理员可以诵念书中的文字，将人类伟大精神集合的召唤并具现化到物质的世界来。要使用此能力，图书管理员必须手捧书本并念出上面的文字。<BR>每一项文字具现化能力都具有“专注”“成份”要求，这个成份要求指定了书籍的内容。书中必须有此内容才可以使用此能力。<BR>施展时间：你必须消耗此栏中规定的动作才能使能力生效。无论施展时间要求，所有文字具现化能力都要求施展者在能力持续时间内连续诵读。若在诵读时间内因故无法诵读，则能力中断。除非额外标明，否则维持诵读一般是一个4AP动作，视同维持专注但有语言成分，虽然你通常只有一张嘴，但你可以同时维持多个诵读并以一个动作同时维持多个，这表现为你将这些章节的精神内涵混合在一起表达。<BR></P></FONT>
+<P><FONT face=宋体>D级文字具现化：D＋500/项<BR>言语交织<BR>你可以赋予字词额外的力量，而非通过特定的字词表现力量。在维持文字具现化能力时，你可以使用其他需要言语的能力而不会结束维持，并且你可以用一个动作维持多个文字具现化能力。<BR></FONT></P>
+<P><FONT face=宋体>牺牲之章<BR>无论是为了正义、自由、宗教还是爱人，牺牲自我以完成自身职责的行为总是令人感动。<BR>成份：关于人物为更崇高的事业牺牲自我的描写<BR>专业：无<BR>施展时间：4AP动作<BR>消耗：1点意志<BR>范围：你的模糊视觉范围<BR>持续：一个场景<BR>歌颂自我牺牲的精神，鼓舞同伴。所有在影响范围内的同伴（包括人物自身），在进行任何判定时都可以对自己造成不可避免的恶性伤害以换取两倍数量的附加成功，最多承受3点恶性伤害，换取6个附加成功。<BR></FONT></P>
+<P><FONT face=宋体>喜剧之章<BR>当笑被赋予神圣化的意味之后，面对任何强权也就不再抱有敬畏之心。<BR>成份：喜剧学说著作。例如，是亚里士多德失传的著作《诗学·卷二》<BR>专业：文学<BR>施展时间：4AP<BR>消耗：1点意志<BR>范围：你的模糊视觉范围<BR>持续：一个场景<BR>效果：在喜剧力量的感染下，人们可以嘲笑一切俗世与天上的权威。<BR>你进行一次智力+学识判定，范围内的生物（包括你，不分敌我）在对抗影响心灵的效果时获得等同判定结果的内在加值，已经处于此类效果影响下的生物可以再进行一次对抗，并加上此加值，以决定其当前所受的效果。<BR></FONT></P>
+<P><FONT face=宋体>义理之章<BR>你为你们的行动赋与理念和意义。<BR>成份：对一种道德或原则理念的赞美，并称颂这种原则对你们的指导意义。<BR>专业：无<BR>施展时间：6AP<BR>消耗：1点意志<BR>范围：你的模糊视觉范围<BR>持续：一个场景<BR>效果：你和所有听到你诵读的同伴在进行任何判定时都获得DP士气加值，相当于你风度上的传奇点数和表达（朗诵）上的附加成功数之和。<BR></FONT></P>
+<P><FONT face=宋体>任侠之章<BR>你歌颂侠义精神的美好，使同伴更加热切地投身于战斗。<BR>成份：对侠义精神的赞美或对一位侠客式人物的正面描写。只有知道这位侠客或理解这位侠客的故事所处的文化背景的人才能受到此章的好处。（对于西欧人来说，他的朗诵可能基于一位传说中的骑士，而日本人则可能称诵一位武士。此时，将此章的名目改为相应的名目。）<BR>专业：无<BR>施展时间：6AP<BR>消耗：1点意志<BR>范围：你的模糊视觉范围<BR>持续：一个场景<BR>效果：你和所有听到你诵读的同伴在进行任何判定时都获得DP内在加值，相当于你智力上的传奇点数和学识上的附加成功数之和。<BR></FONT></P>
+<P><FONT face=宋体>C级文字具现化：C＋1000 
+<BR>迷雾之章<BR>通过低语未知的事物，将恐惧打入对方的心底。<BR>成份：对于神秘未知事物语焉不详的描写<BR>专业：神秘<BR>施展时间：6AP动作<BR>消耗：3点意志<BR>范围：你的模糊视觉范围<BR>持续：一个场景<BR>效果：你可以以摄神的低语向对手揭露一个被掩盖的恐怖秘密，投智力+学识，范围内的所有你选择的生物在任何检定上承受等同于成功数的减值。他们可以进行意志豁免以减少这一效果，将他们的神秘学等级作为附加成功计入意志豁免中，并且若其选择每轮消耗6点意志力来稳住自己的心神，可在该轮无视本能力效果。这是一个恐惧，影响心灵的效果，对没有智力的生物无效。</FONT></P>
+<P><FONT face=宋体>猛士之章<BR>成份：关于某个人物完成某件事的正面描写/负面描写，该人物必须使用你所要影响的技能，并必须持用你影响技能时使用的工具或武器。<BR>专业：人物传记<BR>施展时间：6AP动作<BR>消耗：3点意志<BR>范围：你的模糊视觉范围<BR>持续：一个场景<BR>效果：随着图书管理员讲述前人的事迹，人物的虚影与目标人物重合在一起，改变他的动作。<BR>进行一次智力＋学识判定，你将前人的事迹连同经验一起降临到目标生物的身上，影响他的一项技能。该生物的智力值必须高于1。你的每个成功数，可以为他的此技能判定增加1DP。</FONT></P>
+<P><BR><FONT face=宋体>军道之章<BR>成份：对于战场纪律的描述以及对于军队协同作战的正面描写。<BR>专业：战争史或战略学<BR>施展时间：6AP动作<BR>消耗：3点意志<BR>范围：你的模糊视觉范围<BR>持续：一个场景<BR>效果：军道的准则与你们协同为一。<BR>范围内所有同伴在攻击，防御和豁免判定上获得等同盟友人数的洞察加值，上限为18点。</FONT></P>
+<P><BR><FONT face=宋体>损耗之章<BR>成份：对于机械、电子或其他装置的不可靠性和损坏的必然性的科学论述<BR>专业：物理学或化学<BR>施展时间：6AP动作<BR>消耗：3点意志<BR>范围：你的模糊视觉范围<BR>持续：一个场景<BR>效果：有形之物终将损毁，而你加速了这一必然性的来临。<BR>指定一件物品，你进行一次智力+科学（专业为目标物品对应专业）判定，若该物品并非自然或科技本质，你的成功数减半。你的成功数对抗物品硬度，每点胜出暂时降低1点物品硬度，并且使用物品时受到减值等同你判定成功数。若物体的硬度因此降低到0，物体暂时无法使用。</FONT></P>
+<P><BR><FONT face=宋体>B级文字具现化：B＋2000 
+<BR>悲哀之章<BR>悲剧之美亘古不变。有人因沉溺于悲伤而成为行尸走肉，有人被悲伤驱使完成不朽之事。英雄与命运的永恒抗争，凡人的离合伤逝，都能幻化出无穷的力量。<BR>成份：悲剧故事<BR>专业：文学<BR>施展时间：6AP动作<BR>消耗：5点意志<BR>范围：你的模糊视觉范围<BR>持续：一个场景<BR>效果：悲剧可以使人沉沦，亢奋，恐惧或憎恨。你进行智力+学识判定，选择范围内一个目标，目标意志豁免，你使其受到差值数的情绪异常，异常内容由你选择。本能力无需维持。<BR></FONT></P>
+<P><FONT face=宋体>征服之章<BR>常胜不败的将军，君临天下的帝王，这些征服者的传说和历史都能让人为之神往。<BR>成份：关于征服、战争的描写<BR>专业：历史或人物传记<BR>施展时间：6AP动作<BR>消耗：5点意志<BR>范围：特殊<BR>持续：一个场景<BR>效果：诵念伟大的征服者与军事家的业绩与名号，投智力+风度+学识（历史），每一个成功都可以使你的身边出现1d10+10名士兵。这些士兵的装备和数据大致与你所诵念的征服者麾下士兵相仿，但最多不会超出20世纪精锐步兵的水准，也不会幻化出重型武器。这些士兵来源于征服者军队的骄傲与荣耀；虽然是幻影所构成，却具有实体，可以正常的影响外界。每当一个士兵死亡，就会有另一个士兵在你身边出现。他们会义无返顾的攻击你指定的目标，除非那违反他们的荣誉准则。一般来说，这些士兵默认全属性为4，相关战斗技能为3，手持基本冷兵器或现实远程武器，若使用近战武器，全属性提升到5，战斗技能提升到4，不同征服者麾下的士兵略有不同。这些士兵若数量超过100，则可以以集群生物形式召唤，免疫一切恐惧、魅惑、暗示、操纵和胁迫效果。但是，若你在任何对抗恐惧的检定中失败，他们的行动就会承受-4减值；若你在诵读期间失败两次，或者在10分钟里没有发生任何战斗，他们就会立刻消失。<BR></FONT></P>
+<P><FONT face=宋体>固守之章<BR>成份：关于在战争中守军英勇顽强守卫一座城市的描述或记叙<BR>专业：战争史<BR>施展时间：6AP动作<BR>消耗：5点意志<BR>范围：你的模糊视觉范围<BR>持续：一个场景<BR>效果：图书管理员大声朗诵一段关于战斗的记叙。随着他的念诵，当年的战争场景在他身边被重现出来，高大的城墙和强悍的守军出现在身边的大地上，重复着当年的战斗，你和你的队友感受到强烈的信念鼓舞。<BR>进行一次智力＋学识判定，你将封存在历史上的战场景像召唤到自己的身边，影射当时历史真实的流动。在能力范围内，你和你的队友获得等同判定成功数一半的临时生命值，并获得5点临时意志以供使用。每场景每个角色至多因此获得一次临时意志。<BR></FONT></P>
+<P><FONT face=宋体>愚鲁之章<BR>成份：一段高深复杂的知识<BR>专业：特殊<BR>施展时间：6AP动作<BR>消耗：5点意志<BR>范围：你的模糊视觉范围<BR>持续：立即<BR>冷却：1轮<BR>效果：图书管理员向一个目标宣扬一段知识，将这段知识打入目标的脑海。你必须选择对方凭直观的认识方法无法理解的知识（比如非欧几何学、存在主义或相对论的原理），对方因为直接体会到了这种远超出他所能接受的知识而受到创伤。选择一个与你所用的知识相关的专业（你在该技能上必须有7以上），进行智力＋技能（学识或科学等），目标以智力/决心取高者＋同样的技能进行对抗，你每胜出1，就会造成1点精神类型严重伤害。只对可以理解知识的生物生效。若对方具有同一专业且技能与你一样高或更高，你的能力无效。<BR>ST可以判定什么样的知识对目标来说是不可理解的，例如，一个中世纪的隐士可能更容易理解“仁者心动”这样的理论（虽然他不懂儒学）而无法理解遗传机制中核酸分子的微妙作用，但对现代人来说正好相反。图书管理员角色同样具备这种判断能力，但有可能被人物的表相所迷惑（“咕咕咕咕，虽然我现在是力大无穷的战斗女仆，但你就想不到我曾经在哈佛大学执教现代数学吧！”）<BR></FONT></P>
+<P><FONT face=宋体>A级文字具现化：A＋4000 
+<BR>崇圣之章<BR>信仰的光辉刺破黑暗。为了那些不肯祈祷的人，总有人终日祈祷，投向永生的自我放逐。<BR>成份：宗教典籍<BR>专业：神学<BR>施展时间：6AP动作<BR>消耗：7点意志<BR>范围：你的模糊视觉范围<BR>持续：一个场景<BR>效果：信仰的力量使人内心平静，坚定不移。此能力有两种用法：<BR>·惩戒：在信仰的护持下，惩恶扬善，斩灭敌人。随着你诵读经文圣言，圣光笼罩同伴，使其具有无穷神力。投智力+学识，将检定结果作为范围内所有你选择的生物包括你在攻击，防御和豁免检定上获得的神圣加值；此外，受影响的同伴还会获得等同于你学识技能附加成功数点快速医疗以及等同于你智力的临时生命值。持续期间你不能进行其他任何动作。<BR>·救赎：以虔诚的善行感化他人，柔和的光芒笼罩你，使人心绪宁静。投风度+表达（朗诵），范围内所有你选择的生物获得成功数点医疗点数，每4点可移除1点恶性伤害，2点移除1点严重伤害，1点移除1点冲击伤害，并且可以移除毒素，诅咒，疾病效果，将对应效果等级转化为D级支线数决定需要的医疗点数（因此S级需要81点）。范围内未被选择的生物需要进行意志对抗，你对其造成胜出数点意志力伤害，这是影响心灵的效果。若因此使其意志力降低到0，其将失去战斗意志，默默聆听你的诵读，直到其受到攻击，他仍能正常防御自己，效果持续期间，你不能进行其他任何动作</FONT></P>
+<P><BR><FONT face=宋体>深海之章<BR>深海之中隐藏着无数秘密，幽暗深邃的海洋仿佛能吞噬人的灵魂一般。<BR>成份：对于海底的未知的描写<BR>专业：神秘<BR>施展时间：6AP动作<BR>消耗：7点意志<BR>范围：你的模糊视觉范围<BR>持续：一个场景<BR>效果：伴随着潮汐呼啸的秘密从你的口中说出，夺人神志。投智力+学识，所有你选择的生物必须以意志对抗，每失败1点就会失去1点意志力并在所有判定中承受1点减值。这是影响心灵和诅咒效果，等级视为S级，单一免疫没有作用。<BR>若对方的意志力被因此扣到了0，则他陷入永久性的疯狂之中，即使之后意志力恢复了也是一样。这视为一个A级诅咒。<BR>本能力可以维持，若每轮投入7点意志，可以每轮再进行一次判定，减值叠加。</FONT></P>
+<P><BR><FONT face=宋体>创造之章<BR>匠人已逝，而造物亘古依旧。<BR>成份：对于伟大的发明、创造的描写<BR>专业：无<BR>施展时间：6AP动作<BR>消耗：7点意志<BR>范围：与你相邻或你的模糊视觉范围<BR>持续：一个场景<BR>效果：在你的念诵下，最伟大的造物被塑造成型。<BR>本能力效果视同升阶至A级的通用魔法“投影魔术”，多次使用则可以获得多个投影的物品·。<BR>此外，你也可以用此能力鼓舞工匠，加速创造过程，使其在一个周期中能进行4次判定，所有参与制造的工匠都需要在你的模糊视觉范围内，你在过程期间必须保持诵读，不能进行其他任何行动。每个制造周期你需要支付额外7点意志。</FONT></P>
+<P><BR><FONT face=宋体>S级文字具现化：S＋8000<BR>是者之章<BR>成份：关于存在与实在的哲学论述<BR>专业：形而上学<BR>施展时间：6AP动作<BR>消耗：9点意志<BR>范围：你的模糊视觉范围<BR>持续：一个场景<BR>效果：图书管理员大声朗诵是与非是的定义，表面上看起来这没有引起任何变化。<BR>范围内你选择的生物获得无与伦比的真实性，以致这个世界的一切对他们来说都是虚假的，他们仿佛灵体生物一般可以从固定障碍中穿行，不受任何自然，物理，科技来源效果影响，任何试图影响他们的超自然效果需要以施展判定（若没有，使用意志判定）与你的智力+学识判定对抗，即使胜出也要承受等同你判定结果的减值，若失败便不产生任何效果。<BR>你将你的科学技能和神秘学技能加入此判定中，它们视为参与判定的技能。</FONT></P>
+<P><BR><FONT face=宋体>玫瑰之章<BR>昔日的玫瑰，只存在于她的名字之中。<BR>成份：符号学和隐喻的相关书籍<BR>专业：符号学<BR>施展时间：6AP动作<BR>消耗：9点意志<BR>范围：至多等同你的模糊视觉范围<BR>持续：至多一场景<BR>效果：你赋予名字力量，使其能影响世界。<BR>冷却：1轮<BR>你念出一个名字，并激发它的力量，该名词必须是一种概念的集合，因此“石中剑”或者“妖刀村正”不是，但“剑”或者“盾”是，剑和盾是此能力最基础的用法，你可以与ST商讨更多用法，其效能大致相当于至多6个B级特性（相当于一个6AP标动5能量标耗的B级技能树技艺产生的效果，某种意义上，就可以视为如此使用，但不会改变持续时间，除非持续时间高于一个场景，那么下调到一个场景）。<BR>“剑”：在手中构建出武器的力量。投风度+表达（朗诵），成功数视为该武器的伤害，上限24点，由风度和表达带来的自动成功视为该武器附带的自动成功。由于是信念所构建，因此具有“魔法”特质，可以正常伤害灵体，并且无视可以被神兵破除的DR；由于近乎于无形，所以具备B级措手不及。如果成功数达到5个，则具有“幽冥”特质；你的每个成功数可以构建一把剑，赋予范围内你选择的生物。<BR>“盾”：在身上构建出护具的力量。投风度+表达，成功数视为该盾牌带来的防御，上限48点，并且在格挡时，由风度和表达带来的自动成功会抵消相应的伤害（可以与一切DR相叠加）。由于是信念构建，因此可以正常防御来自灵体的攻击，装备者免疫B级以下接触效果，并抵消等同于盾牌防御值的破魔值。如果成功数达到5个，你可以将此盾牌防御转化为自动生效的力场防御，你的每3个成功数可以构建一个盾，赋予范围内你选择的生物。<BR>最后，你还具有以名字保留住存在的效果。你可以通过名字记住任何事物的细节，并且可以通过说出该事物的名字使得其他人立刻想起曾经遗忘的事物。即使这个记忆被用一些S级以下的特殊能力遗忘，但若名字本身被抹消，这个能力就会失效，强化自身记忆不需要任何消耗，但唤起他人记忆需要使用1点意志力。</FONT></P>
+<P><BR><FONT face=宋体>真爱之章<BR>美丽得如同天上的星点，一颗唯一的星清辉闪<BR>成份：罗曼诗篇<BR>专业：无<BR>施展时间：6AP动作<BR>消耗：9点意志<BR>范围：你的模糊视觉范围<BR>持续：一个场景<BR>效果：爱带给人以无穷的勇气与力量，使人完成难以想象的奇迹。“真爱之章”所影响的目标对象相当苛刻，必须是对某一个人、集体、民族或理想具有极度热爱，愿意为之牺牲自我的人。投风度+表达（朗诵），然后若是被影响的生物所做的行为是为了使他所珍爱的对象从危险、磨难中脱离，或可以对此产生明显的帮助，他就在相关判定上获得成功数的加值，并将风度上传奇点数和表达上自动成功数加入作为自动成功数。<BR>在此效果持续期间，只要他所珍爱的目标还处于危险或磨难之中,并且自己所做的事情目的并不与拯救自己的珍爱之物违背，则他就不会受到任何影响心灵的负面效果影响，视同SSS级免疫影响心灵，并且不会因为恶性伤害填满而死亡，免疫S级即死效果，即使恶性伤害已经填满也可以继续正常行动，但无法再获得治疗效果。<BR>本能力可正常维持，但每驱动一个已经死亡的人物活动一轮需要消耗1点额外意志。</FONT></P></font></font></div>	
+	<div id="winchm_template_footer"><font size="2px" font face="Microsoft YaHei">版权所有 (C) 2003-2018 lv20112668。</font></div>
+</div>
+
+</body>
+</html>

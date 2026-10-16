@@ -1,0 +1,866 @@
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>模块化载具</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Microsoft YaHei, Simsun, Arial, sans-serif;
+	font-size: 12pt;
+}
+</style>
+
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+</head>
+
+<body>
+
+<div id="winchm_template_top">
+	<div id="winchm_template_button"><A href="A+级非科技载具.htm" title="上一主题"><img id="winchm_template_prev" alt="上一主题" src="template2/btn_prev_n.gif" border="0"></a><A href="无人机简介.htm" title="下一主题"><img id="winchm_template_next" alt="下一主题" src="template2/btn_next_n.gif" border="0"></a></div>
+	<div id="winchm_template_navigation"><font size="2px" font face="Microsoft YaHei">帮助 &gt; 
+无限恐怖2.5RE_V1.03先行版 &gt; 资源相关 &gt; 物品 &gt; 载具 &gt; </font></div>
+	<div id="winchm_template_title"><font size="2px" font face="Microsoft YaHei">模块化载具</font></div>
+</div>
+<div id="winchm_template_container">
+	<div id="winchm_template_content"><font size="3px" font face="Microsoft YaHei"><font size="3" font face="Microsoft YaHei"><P><FONT face=宋体>模块化载具<BR>帝国霸业：银河求生中的载具并非不可改变的整体，而是由多个系统，部件经由制作者拼接而成。<BR>模块化载具中的每一个模块，都视为一件对应价格的科技物品，分类为装置，但一旦组合为一件载具，便不再适用单一物品的价格，而以一件载具的整体价格计算载具的等级，但载具的各项属性，例如护甲硬度等，不再与载具的等级有关，而适用各模块本身的描述产生的最终结合，但生命值除外，生命值以载具最终价格计算，下限为10点。<BR>一件载具至少需要【运算核心】【动力系统】【机身】各一来构成，基于捆绑包和套装原则已经获得了额外的特性。<BR>购买或制造了模块的角色，可以以科技造物的方式来将模块组合为载具，这一过程无需解读图纸也无需满足制造前提，但依旧需要判定以决定造物时间，造物时间以最终载具整体价格决定。<BR>该制作过程也可以由主神瞬间完成而无需额外时间代价。<BR>即使是已经成型的载具，也可以制作或购买新的模块进行加装和替换。</FONT></P>
+<P><FONT face=宋体>运算核心：运算核心在购买时需要选择轻型，重型或战斗机器人之一，组合成的载具即为对应载具类型，并需要相应修改数值。<BR>标准化运算核心/T2扩展/T3扩展/T4扩展 
+250/D+500/C+1000/B+2000<BR>体积：4/8/16/32<BR>效果：可以作为D/C/B/A级标准计算机使用并与其他设备联网，共享情报信息，拥有通讯机能，能精确绘制地图并进行标记。<BR>有观瞄系统时，可以进行摄像。<BR>其可以以自身作为服务器辐射无线网络，辐射1/10/100/1000公里半径的无线网络信号，该无线信号适配一切科技设备，以及包含计算机功能的非科技设备，你可以以此方式连接入侵其他设备，也可以作为服务器被连接中转。<BR>在使用这台计算机进行判定时，获得0/3/6/12点器械加值。<BR>此外，该计算机每轮具有无/2AP/4AP/8AP来控制载具进行非攻击行动。<BR>一台载具中至多装载1个标准化运算核心，1个T2扩展，2个T3扩展和4个T4扩展，除了第一个扩展外，其余扩展将提供两倍的额外AP，而不再提供器械加值和计算机功能。</FONT></P>
+<P><FONT face=宋体>动力系统：动力系统提供了载具基本的出力，机动和移动速度，一台载具中可以包含任意数量的动力系统，但同种至多获得2次，其中所有效果可叠加。<BR>小/中/大/特大型推进器 
+500/D+500/C+1000/B+2000<BR>体积：4/8/16/32<BR>效果：提供3/6/12/24点出力，以及3/6/12/24点机动，以及30/60/120/240米移动速度，10/20/40/80米加速度，移动能力为悬浮（于固态或液态表面上方1米），以及宇宙。<BR>使用中型或更高级动力系统的场合，增加水中和飞行（机动性良好）的移动能力。<BR>耗能：动力系统等级决定最终载具的耗能等级，对应D/C/B/A级耗能，多项动力系统产生的耗能取高。</FONT></P>
+<P><FONT face=宋体>喷气式推进器<BR>体积：同推进器<BR>价格：在同推进器的基础上，分数加倍<BR>效果：在同推进器的基础上，可以将该动力系统提供的速度和加速度增加到三倍，但每次使用后，需要间隔1轮。</FONT></P>
+<P><FONT face=宋体>机身：机身提供了载具的体积，硬度和盔甲防御，一台载具可以拥有混合材料机身，使用混合材料时，价格中支线部分将这些机身模块的价格拆分至D后取平均数（向上取整），分数部分同样取平均数（向上取整），提供的硬度和盔甲防御也取平均数（向下取整），特殊效果另做单独表述。<BR>获取机身模块的过程也获取了体积和形状，这一过程中，你可以自由决定载具是【封闭】的，或是【半封闭】的，或是完全没有封闭特性的，也可以在上限和下限之间决定载具体积，体积的下限是载具使用的模块体积之和，上限是体积调整不能导致动力系统提供的机动因体调减值低于1<BR>你的载具自动获得乘员体积，相当于你决定的载具体积和下限之差<BR>举例而言，使用了2个小型动力系统+1个标准化运算核心的载具，其体积下限为12，上限为体调5对应的20（因为它具有6点机动），若你决定其体积为20，则其具有总体积不超过8的乘员体积。<BR>钢铁机身/钛合金机身/钑合金机身 
+500/D+1000/C+2000<BR>体积：上下限内自定<BR>效果：提供4/8/16点硬度，8/16/32点盔甲防御</FONT></P>
+<P><FONT face=宋体>碳纤维机身 
+C+2000<BR>体积：上下限内自定<BR>效果：提供8点硬度，16点盔甲防御，特殊效果为每2点体积调整才获得一次体积调整值，而非每1点体积调整获得一次，用做混合材料时，每1.5点体调获得一次体积调整，最终获得次数向上取整。</FONT></P>
+<P><FONT face=宋体>异种钢机身 
+B+2000<BR>体积：上下限内自定<BR>效果：提供32点硬度，32点盔甲防御，特殊效果为每轮恢复载具4点生命值，用作混合材料时，每轮恢复2点。</FONT></P>
+<P><BR><FONT face=宋体>——————————————————————————————————<BR>其他模块<BR>便携建造机/小型建造机/通用建造机/大型建造机/高级建造机 
+500/D+500/C+1000/B+2000/A+4000<BR>体积：3/6/9/12/15<BR>效果：可以将其作为无支线/D/C/B/A级科技物品制造工具使用</FONT></P>
+<P><FONT face=宋体>红外雷达/高精度远程雷达/引力波雷达 
+D+500/C+1000/B+2000<BR>体积：3/6/6/6<BR>效果：<BR>红外雷达：使载具提供红外成像，具有夜视能力，在侦测等级中视为D级科技侦测手段，具有5公里视觉范围的摄像头<BR>高精度远程雷达：与红外雷达相同，但侦测等级为C级，视觉范围可达15公里<BR>引力波雷达：使载具提供引力波成像，具有由驾驶员以迅捷动作切换的针对物体或生物的透视能力，在侦测等级中视为B级科技侦测手段，成像范围可达20公里，并同样具有夜视能力</FONT></P>
+<P><FONT face=宋体>偏振护盾发生器 
+D+1000<BR>体积：9<BR>效果：使载具中整体受到护盾保护，载具获得10点临时生命，并且失去的临时生命每轮回复1点。<BR>本组件每台载具只能购买1次。</FONT></P>
+<P><FONT face=宋体>小型/中型/大型护盾电容器 D+1000/C+2000/B+4000<BR>效果：若载具带有偏振护盾发生器，则其提供的临时生命上限增加20/40/80点 
+<BR>本组件每台载具每种至多购买2次。</FONT></P>
+<P><FONT face=宋体>小型/中型/大型护盾回充器 D+1000/C+2000/B+4000<BR>效果：若载具带有偏振护盾发生器，则其提供的临时生命恢复速度每轮增加2/4/8点 
+<BR>本组件每台载具每种至多购买2次。</FONT></P>
+<P><FONT face=宋体>供氧循环系统 250<BR>体积：3<BR>效果：若载具具有封闭特性，供氧循环系统使载具内的生物无需呼吸。</FONT></P>
+<P><FONT face=宋体>探照灯 250<BR>体积：4<BR>效果：载具驾驶员可以以2AP动作启动或关闭探照灯，开启的探照灯为前方60米锥体区域提供照明</FONT></P>
+<P><FONT face=宋体>自分配容器控制器 
+250<BR>体积：自定<BR>效果：自分配容器控制器通常情况下相当于货箱，但其中存储的物品若可为载具的其他模块所用或消耗，则无需人员到位进行填充，并且填充动作可由运算核心支付（若其可支付的话），例如对能量容器或弹药的填充等。</FONT></P>
+<P><FONT face=宋体>协助驾驶座 
+250<BR>体积：自定<BR>效果：体积低于本模块的生物可以成为载具的副驾驶员，副驾驶员不能采用载具规则中的相关行动，但可以以自身动作进行本页面模块中的所需的动作，且无需满足载具的驾驶条件。<BR>此外，副驾驶员也可以控制载具武装进行攻击，并且在攻击时直接如同自身在进行攻击一般，使用通常的攻击判定，而非驾驶规则中的载具攻击所述的方式。</FONT></P>
+<P><FONT face=宋体>传送装置 
+C+1000<BR>体积：自定<BR>效果：搭载传送装置的载具的驾驶员可以在一个区域花费10分钟进行坐标记录，在载具内进入传送装置区域的生物，驾驶员可以以一分钟时间启动传送装置，消耗一枚置于载具中的3级能量容器（电力），将传送装置上所有目标传送至一个已记录的坐标。</FONT></P>
+<P><FONT face=宋体>翘曲引擎 
+B+2000<BR>体积：15<BR>效果：搭载翘曲引擎的载具可以进行星际跃迁，若有目标地点位置/坐标/方向距离/道标等信息，驾驶员可以花费1分钟时间，消耗一枚置于载具中的4级能量容器（电力）启动跃迁引擎，每250光年需要一轮传送时间，传送期间载具无法进行任何其他行动。</FONT></P>
+<P><FONT face=宋体>医疗设备 
+D+1000<BR>体积：自定<BR>效果：一套医疗设备可以让一个位于其中的生物获得1点快速医疗，并且该快速医疗点数也可以用于1:1移除非肢体残障、剧痛、流血、燃烧、冻结、耳鸣、目眩、影响心灵的状态点数。</FONT></P>
+<P><FONT face=宋体>先进医疗设备 
+B+4000<BR>体积：自定<BR>效果：一套先进医疗设备可以让一个位于其中的生物获得4点快速医疗，并且该快速医疗点数也可以用于1:1移除任何状态点数。<BR>——————————————————————————————————<BR>武器模块：本载具的武器模块可以接入运算核心，由运算核心来使用武器时，可以以运算核心的AP使用（即使其说明了无法用于进行攻击），但是使用的DP和附加成功是相对固定的，不受任何加值影响，但是武器本身数据特性（包括影响武器的效果），以及运算核心的器械加值除外，伤害上限为武器伤害*3，同时，若装载了多个运算核心，运算核心带来的器械加值仅在以运算核心操控武器发起攻击上叠加计算，包括相同的运算核心也一样。<BR>在载具等级运算核心等级最高为C/B级时，武器获得的攻击DP为27/54，附加成功为5/10<BR>你可以将任何科技物品中的武器中枪炮分类武器，作为载具的武器模块购买。</FONT></P></FONT></font></div>	
+	<div id="winchm_template_footer"><font size="2px" font face="Microsoft YaHei">版权所有 (C) 2003-2018 lv20112668。</font></div>
+</div>
+
+</body>
+</html>

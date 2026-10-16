@@ -1,0 +1,873 @@
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>魔幻添加类改造</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Microsoft YaHei, Simsun, Arial, sans-serif;
+	font-size: 12pt;
+}
+</style>
+
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+</head>
+
+<body>
+
+<div id="winchm_template_top">
+	<div id="winchm_template_button"><A href="魔幻工艺类改造.htm" title="上一主题"><img id="winchm_template_prev" alt="上一主题" src="template2/btn_prev_n.gif" border="0"></a><A href="魔幻材质类改造.htm" title="下一主题"><img id="winchm_template_next" alt="下一主题" src="template2/btn_next_n.gif" border="0"></a></div>
+	<div id="winchm_template_navigation"><font size="2px" font face="Microsoft YaHei">帮助 &gt; 
+无限恐怖2.5RE_V1.03先行版 &gt; 资源相关 &gt; 物品 &gt; 物品改造 &gt; 非科技改造 &gt; </font></div>
+	<div id="winchm_template_title"><font size="2px" font face="Microsoft YaHei">魔幻添加类改造</font></div>
+</div>
+<div id="winchm_template_container">
+	<div id="winchm_template_content"><font size="3px" font face="Microsoft YaHei"><font size="3" font face="Microsoft YaHei"><P><FONT face=宋体>转变本质<BR>本质：主神本质<BR>分类：添加类改造（附魔）<BR>价格：不定<BR>通常附魔效果并不会改变物品的本质，一把接受附魔的突击步枪其工作原理依然基于突击步枪而无法在科技无效世界使用，要转变物品本质需要使用本附魔，本附魔可将非魔幻本质的物品变为魔幻本质，需要支付原价2/3的价格，支线无法拆分时，按D支线=500分计算，兑换此效果后物品变为魔幻本质，魔法力量与原本力量的结合让物品的生命值加倍，这个效果对载具也有效。<BR>（因此将D100的高斯步枪变为魔幻本质需要支付400分，而将A8000的自由高达转换为魔幻本质则需要支付BB+5333分）<BR>本改造只能结合真实存在的物品使用，物品不能具有持续时间，即使是永久也一样。<BR><BR><BR>装备改造继承<BR>本质：主神本质<BR>分类：添加类改造<BR>价格：不定<BR>描述：各类游戏中，相同的部位装备，在更换时会继承于下一件，主神提供了类似的服务，但是并不会无损替换。<BR>价格：不定<BR>效果：将一个装备上的某个物品改造转移到另一个装备上，必须是同一装备位的才能相互替换，且改造不适用于被转移装备导致无法生效或同个改造在两个装备上价格不同则无法继承。价格为原本装备改造花费的1/3。<BR>为了避免PC钻上某些空子，ST有权阻止该兑换的某些应用。<BR><BR>================================================================<BR>附魔等级<BR>本质：魔幻本质<BR>分类：添加类改造（附魔）<BR>价格：见下<BR>附魔等级是来自D&amp;D的附魔手法，适用于武器和防具，共分为10个等级，每级价格都是500分，在第一级增加250分，并在最后一级增加D+1000分。<BR>武器提升：每级附魔使武器伤害增加1L（若武器提升天生武器也一样处理），武器硬度增加1点，生命值增加2点，第一级时获得【魔法】特性，第十级时获得【神兵】特性。<BR>防具提升：每级附魔时防具的盔甲或盾牌防御+1，抵消2点破甲值，防具的硬度增加1点，生命值增加2点，第一级时获得【魔法】特性，第十级时获得【神兵】特性。<BR>同时可以作为武器和防具的物品，附魔时需要选择一项进行<BR>以武器为例，至多支付D+6250分获得武器伤害提升10L，魔法，神兵特性，硬度+10，生命值+20。<BR>弹药提升：附魔弹药和附魔武器可以同时使用，其效果叠加。附魔弹药价格为每发增加附魔武器基本价格的1/9，需要支线的话，将D级支线视为500分处理，因此+1弹药价格为+84分/发，+2弹药为+139分/发，+10弹药价格为+750分/发<BR>*特殊：弹药附魔等级在面对无尽正义改造计算价格时，附魔等级部分在基底武器价格*9计算。<BR>================================================================<BR>特殊附魔<BR>来自D&amp;D的常见附魔手法，只能在适用在至少附魔等级达到1级的物品上，不同附魔有自己的适用范围。<BR>1.仅在作为近战武器使用时生效的附魔<BR>投掷 250<BR>被附魔的武器能被作为投掷武器使用，射程基础单位30米<BR>顺劈 
+250<BR>被附魔的武器进行的攻击若令一个生物无助或死亡，可以再以同样的方式攻击另一个触及范围内的目标<BR>每次攻击本能力只会触发一次。<BR>法储 
+250<BR>当你手持本武器时，可以完成施法所需的姿势成分。<BR>当你手持本武器施展射程为接触的法术时，该法术可以暂时存入本武器中。<BR>以本武器攻击时，若对一个目标造成实际伤害，法术触发，法术目标成为被击中的目标。<BR>在武器中未消耗的法术至多维持一个场景。 
+<BR>一把储法武器中只能维持一个法术。 <BR>光能 
+C+1000<BR>被附魔的武器在攻击时视为接触攻击<BR>2.仅在作为远程武器使用时生效的附魔<BR>远射 250<BR>本武器的基本射程加倍。<BR>回力 
+250<BR>本武器获得回力特性，只能用于投掷武器，且不能用于消耗品。<BR>寻踪 250<BR>本武器攻击时忽略至多3点距离减值和3点掩蔽加值<BR>分裂 
+250<BR>被附魔的武器射出的弹药（甚至武器本身，如果是投掷武器的话）会分裂为多份。<BR>你可以在以该武器做出远程攻击时仅消耗1发弹药（若是非消耗的投掷武器，甚至不用消耗弹药），便能获得连射特性产生的效果，连射中视为所用的弹药皆为这一种弹药。<BR>该附魔不影响弹药上有持续时间的效果，例如对弹药施展了强化法术，不会在连射中对其他目标的攻击里体现出来。 
+<BR>力能 
+特殊<BR>力能附魔的价格为武器价格的1/3，力能附魔不能用于投掷武器<BR>拥有力能附魔的武器获得无限弹药特性，以这种方式射出的弹药造成力场严重伤害。<BR>3.在作为武器使用时生效的附魔<BR>能量武器 
+250<BR>被附魔的武器在攻击时额外造成1点能量伤害<BR>-本附魔可被多次赋予同一武器，但每次需选择不同的能量类型<BR>能爆武器 
+250<BR>前提：对应能量武器<BR>若你以对应武器攻击时具有未被免疫的9加骰，额外能量伤害提升1点，若是8加骰，再提升1点。<BR>-本附魔可被多次赋予同一武器，但每次需选择不同的能量类型<BR>破敌武器 
+250<BR>本兑换时必须指定某一特定的生物类型，并非大类（例如不死生物），而是小类（例如吸血鬼，狼人等）<BR>武器在攻击该特定类型目标时，攻击中获得3点完美加值，并造成额外1点伤害。<BR>-本附魔可被多次赋予同一武器，但每次需选择不同的针对类型<BR>锋锐武器 
+250<BR>本武器攻击时获得9加骰<BR>悲悯 
+250<BR>本武器攻击时可以选择造成冲击伤害，若冲击伤害已满，造成的每点伤害变为1点可叠加的晕眩点数，强韧豁免。<BR>反噬 
+250<BR>本武器在每次攻击时，你都可以选择承受1点不可避免的严重伤害，以获得2个附加成功。<BR>放血 
+250<BR>本武器在每次攻击时，若造成伤害，会额外造成1点流血点数。<BR>幽冥武器 500<BR>武器获得幽冥特性<BR>神圣武器 
+500<BR>武器获得神圣特性<BR>亵渎武器 500<BR>武器获得亵渎特性<BR>护身武器 
+500<BR>本武器在进行格挡时，你的格挡加值提升等同武器附魔等级的数字。<BR>崩灭武器 
+D+500<BR>本武器攻击时提升8点破甲，并无视至多4点硬度。<BR>速击 
+D+500<BR>以一个整轮动作，你可以以附魔武器进行两次攻击。<BR>舞空武器 
+C+1000<BR>舞空武器不占用手来持有，但依旧视为被你持有，它会盘旋在你身边。<BR>每轮一次，你可以以自由动作指挥舞空武器发起一次攻击，这次攻击视同你做出的。<BR>================================================================<BR>在作为盔甲装备时或能用于以盾牌进行格挡时的附魔<BR>能量抵抗/进阶能量抵抗/高等能量抵抗 
+250/D+500/C+1000<BR>装备该盔甲的生物获得4/12/28点能量抗力<BR>-本附魔可被多次赋予同一盔甲或盾牌，但每次需选择不同的能量类型<BR>偏矢 
+250<BR>你在针对具有射程的攻击时，盔甲或盾牌防御上获得8点加值。<BR>幽冥 
+250<BR>灵体也能持有或装备具有本附魔的盔甲或盾牌<BR>顽强/灵动/坚定 250<BR>你在强韧/反射/意志豁免上获得6点增强加值<BR>无相 
+250<BR>只能用于盔甲上，盔甲的外形由你设定，并可以标准动作任意改变，这视同一个D级视觉幻术。<BR>强固 
+250<BR>装备附魔盔甲或以附魔盾牌格挡时获得DR1/-<BR>抗法 
+250/D+500/C+1000/b+2000/a+4000<BR>装备附魔盔甲或以附魔盾牌格挡时，你视同具有法术抗力2/6/12/24/48点。<BR>轻灵 
+250<BR>附魔盔甲的盔甲减值降低2点。<BR>高等偏矢 
+DD+1000<BR>你在针对具有射程的攻击时，总是视为已经脱离攻击范围。<BR>================================================================<BR>灵力浸润<BR>本质：魔幻本质<BR>分类：添加类改造（附魔）<BR>价格：500<BR>本改造添加在武器上时只需支付一半价格。<BR>灵力浸润：在有灵力的生物手中本武器能正常攻击灵体，若生物也有灵力攻击技艺，那么视为获得幽冥特性。<BR>对于非武器物品而言，有灵力的生物使用它们时，视为具有正常影响灵体特性<BR>================================================================<BR>无尽正义<BR>描述：在你的弹药或者投掷武器上雕刻上一枚名为“无尽正义”的莱塔符文<BR>本质：魔幻本质<BR>分类：添加类改造（附魔）<BR>价格：特殊，见下文<BR>此项附魔可以附在任何投掷武器，便携暗器，科技物品-消耗品-弹药，基本冷兵器中的箭或矢上。<BR>附魔后，该投掷武器/弹药会在攻击后立即回到你的手中/发射器中，若武器没有特别描述攻击间隔或上弹方式，视同立刻上弹完毕，修复至最佳状态并可以进行下一次攻击，但这依然不能让你用1发子弹来完成连射（那是同一次攻击）。<BR>该附魔价格用于不具有消耗品分类的投掷武器是基底武器价格/3，用于其他上述内容是价格*3，经过被效果附魔的物品若之后受到其他效果调整，无论是物品改造，或是物体强化法术，物品升级等，本附魔效果失效。若被本效果附魔的物品本身已经带有其他有价格的物品改造影响之下，会连同这些物品改造的价格一起计入基底武器或弹药价格。<BR>本改造计算价格后若低于250分，则变为250分。 
+<BR>================================================================<BR>清风附魔卷轴<BR>本质：魔幻本质<BR>分类：添加性改造<BR>效果：本附魔可用于武器，盔甲，头盔，护符位的装备，每种附魔价格为D+500<BR>武器附魔：武器伤害提升2L<BR>盔甲附魔：你防御中的盔甲防御提升6点<BR>头盔附魔：你防御中的盔甲防御提升6点<BR>护符附魔：你的生命上限增加5点，法术抗力提升2点<BR>套装：<BR>当同时具有两种附魔时，武器伤害再提升1点<BR>当同时具有四种附魔时，每当你的回合结束时，有50%几率触发【清风】效果，使你下一轮中移动速度增加120米。<BR>================================================================<BR>水晶附魔卷轴<BR>本质：魔幻本质<BR>分类：添加性改造<BR>效果：本附魔可用于武器，盔甲，头盔，护符位的装备，每种附魔价格为D+500<BR>武器附魔：武器伤害提升2L<BR>盔甲附魔：你的法术抗力提升2点<BR>头盔附魔：你的法术抗力提升2点<BR>护符附魔：你的一种通用能量上限提升10点<BR>套装：<BR>当同时具有两种附魔时，防御上获得3点器械加值，法术抗力再提升1点。<BR>当同时具有四种附魔时，你造成的医疗点数提升2点。<BR>================================================================<BR>武器链<BR>本质：魔幻本质 
+<BR>价格：250<BR>分类：添加性改造<BR>前提：本改造需针对一把武器进行<BR>效果；在你的武器上附加一条附有魔法的链条，以一个4AP动作，你可以使其与你的身体或盔甲，衣物相连或解除连接。<BR>连接状态下，武器无法离开你或该装备超过1米，并且不再视为独立物品来决定是否能被存放，它和它相连的对象一并决定是否能以及是否被空间存储（因此只能存储物品的存储空间无法存放连着你的武器，连着盔甲的武器需要和盔甲一起被存放）<BR>当你被击落武器时，你可以以一个4AP动作将其重新拉回手中。<BR>被击落武器的状态下，武器链会变得可见，因此可以受到击破物品的部位攻击，将其视为硬度2，具有5点生命值的物品处理。<BR>若攻击方进行夺取武器，其胜出数将对武器链造成伤害。若武器链断裂，其夺取正常成功，否则其夺取虽然成功，但无法将武器带离你超过1米距离。<BR>若武器已经遭到夺取，武器链在受到攻击时不视为被你携带的物品，而视为无主物品。并且你和其任一方受到击退效果时，将先对武器链造成等同击退距离的伤害，并减少同等程度的击退距离，至多减少7米（此时武器链被扯断）。<BR>================================================================<BR>战灰<BR>本质：魔幻本质 
+<BR>价格：特殊<BR>分类：添加性改造<BR>描述：艾尔登法环中，远古的战士们使用的技艺所留下的执念，附着在武器上时，能让任何人都能使用它们。<BR>效果；你可以无视前提的购买一项技艺，将其附着在一把武器分类的物品上，若该技艺原本需要消耗通用能量，你不需要消耗通用能量，而是消耗意志来使用。<BR>若你选择的技艺无需前提也无需消耗通用能量，则价格等同技艺价格<BR>若你选择的技艺有前提，则对应无支线/D/C/B/A/S技艺，需要支付的价格为原本技艺的价格+80/250/D+500/C+1000/B+2000/A+4000<BR>若你选择的技艺也需要消耗通用能量，则价格再+250分<BR>你可以在一次短休息或长休息中更改，添加或移除武器上的战灰，被替换下的战灰不会以物质形式存在，但你依然可以在需要的时候添加或换上它。<BR>战灰上的技艺仅在你手持该武器时视为你具有该技艺，这些技艺产生的效果无论原本的持续时间，在你不再手持该武器后至多维持一个场景。<BR>一把武器上只能附着一个战灰。<BR></FONT></P>
+<P><FONT face=宋体>质变<BR>本质：魔幻本质<BR>分类：添加性改造<BR>描述：艾尔登法环中，修改武器使用补正的附魔<BR>效果：质变只能被添加在武器分类的物品上，并且一件武器上只能有一种质变。<BR>你可以在一次短休息或长休息中更改，添加或移除武器上的质变，被替换下的质变不会以物质形式存在，但你依然可以在需要的时候添加或换上它。<BR>用于质变的武器若武器伤害不足以被降低质变需要的数量，那么武器伤害至多被降低至0，超出的部分的三倍变为攻击判定上的减值。<BR>用于质变的武器若提升天生武器伤害，则武器伤害降低也变为针对该天生武器提升生效。</FONT></P>
+<P><FONT face=宋体>厚重/锋利质变 
+C+1000<BR>效果：武器伤害降低4L，以该武器发起攻击时，攻击判定获得传奇力量/敏捷*2的器械加值，伤害上限提升传奇力量/敏捷*2</FONT></P>
+<P><FONT face=宋体>优质质变 
+C+1000<BR>效果：武器伤害降低8L，以该武器发起攻击时，攻击判定获得（传奇力量+传奇敏捷）*1.5的器械加值，伤害上限提升（传奇力量+传奇敏捷）*1.5</FONT></P>
+<P><FONT face=宋体>火焰/雷电质变 
+C+1000<BR>效果：以该武器发起的攻击在造成实际伤害后，再造成一次等同实际伤害的火焰/电击能量严重伤害，这是额外伤害，但可以重新全部应用防御方的伤害判定流程9-15中已经用过的数据，例如硬度或全伤害吸收等。</FONT></P>
+<P><FONT face=宋体>神圣/魔力质变 
+C+1000<BR>效果：武器伤害降低8L，以该武器发起攻击时，攻击判定获得传奇决心/智力*1的器械加值，伤害上限提升传奇决心/智力*1，攻击在造成实际伤害后，再造成一次等同实际伤害的神圣能量/精神严重伤害，这是额外伤害，但可以重新全部应用防御方的伤害判定流程9-15中已经用过的数据，例如硬度或全伤害吸收等。</FONT></P>
+<P><FONT face=宋体>毒/血/寒冷质变 
+C+2000<BR>效果：武器伤害降低4L，以该武器发起攻击时，若攻击命中，目标将受到等同你传奇感知*1.5的中毒/流血/冻结点数。<BR>*本效果产生的中毒点数与流血点数有相同的关键抵抗属性，移除方法，同样没有重度/毁灭效果，轻度效果中以中毒点数取代流血点数，以毒素严重伤害取代物理严重伤害，并且也视为一种不良状态点数。</FONT></P></FONT></font></div>	
+	<div id="winchm_template_footer"><font size="2px" font face="Microsoft YaHei">版权所有 (C) 2003-2018 lv20112668。</font></div>
+</div>
+
+</body>
+</html>

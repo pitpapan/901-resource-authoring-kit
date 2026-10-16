@@ -1,0 +1,848 @@
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>无支线通用魔法</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Microsoft YaHei, Simsun, Arial, sans-serif;
+	font-size: 12pt;
+}
+</style>
+
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+</head>
+
+<body>
+
+<div id="winchm_template_top">
+	<div id="winchm_template_button"><A href="七弦无形剑.htm" title="上一主题"><img id="winchm_template_prev" alt="上一主题" src="template2/btn_prev_n.gif" border="0"></a><A href="塑能.htm" title="下一主题"><img id="winchm_template_next" alt="下一主题" src="template2/btn_next_n.gif" border="0"></a></div>
+	<div id="winchm_template_navigation"><font size="2px" font face="Microsoft YaHei">帮助 &gt; 
+无限恐怖2.5RE_V1.03先行版 &gt; 资源相关 &gt; 技艺 &gt; 技巧 &gt; 施法类型 &gt; 通用魔法 &gt; </font></div>
+	<div id="winchm_template_title"><font size="2px" font face="Microsoft YaHei">无支线通用魔法</font></div>
+</div>
+<div id="winchm_template_container">
+	<div id="winchm_template_content"><font size="3px" font face="Microsoft YaHei">
+<P><font size="3" font face="宋体" >无支线通用魔法<BR>此处列出的法术都是极其简单的魔力技巧，几乎难以称之为法术。<BR>学习这些法术无需施法职能，使用这些法术也无需魔力——并不是真的不消耗魔力，只是消耗的量过少不计而已<BR>这些法术也无法被升阶，也不会被施法职能减少XP消耗，这些法术若搭配超魔专长，将其视为消耗1点魔力来计算超魔专长的调整。<BR>下列法术若无特殊说明，每个250分。<BR>注：所有D级或更高的通用魔法，其通常消耗的能量都是魔力，并需要相应施法职能。<BR>前提：拥有魔力能量池<BR>====================================================<BR>侦测魔法<BR>专业：预言<BR>威力：1<BR>动作：6AP<BR>成分：姿势，语言<BR>持续时间：6AP动作维持专注<BR>范围：以你为中心，智力米半径<BR>效果：你可以看到范围内的超自然能量，包括魔幻/特异本质的物品、所有的通用能量以及使用通用能量驱动的效果、无论该效果是在施展还是正在生效，若该效果是一个通用法术，你可以尝试进行法术辨识检定（见神秘学技能应用）<BR>若你无法直接看到这些事物，那么在这些事物进入范围的第一轮，你只知道有或者没有，若下一轮该事物还在范围内，你能获得其模糊定位。<BR>这是一个C级探知效果。<BR>====================================================<BR>侦测病毒<BR>专业：预言<BR>威力：1<BR>动作：6AP<BR>成分：姿势，语言<BR>持续时间：6AP动作维持专注<BR>范围：以你为中心，智力米半径<BR>效果：你看到看到范围内的物体、生物、效果是否有能力产生毒素伤害或造成疾病，包括了带有毒素的武器，能分泌毒素的生物，致病的物质等<BR>你也可以用此能力分辨一个生物或物体对你是否可以食用。<BR>若你无法直接看到这些事物，那么在这些事物进入范围的第一轮，你只知道有或者没有，若下一轮该事物还在范围内，你能获得其模糊定位。<BR>这是一个C级探知效果。<BR>====================================================<BR>侦测信仰<BR>专业：预言<BR>威力：1<BR>动作：6AP<BR>成分：姿势，语言<BR>持续时间：6AP动作维持专注<BR>范围：以你为中心，智力米半径<BR>效果：你看到看到范围内的生物具有的信仰，并获悉其美德和恶德，并可以得知这个人以其生平行为而言，算是好人，坏人，或者无法分辨（ST判定）。<BR>若你无法直接看到这些事物，那么在这些事物进入范围的第一轮，你只知道有或者没有，若下一轮该事物还在范围内，你能获得其模糊定位。<BR>这是个C级探知效果。<BR>====================================================<BR>法师之手<BR>专业：塑能<BR>威力：1<BR>动作：6AP<BR>成分：无<BR>持续时间：6AP动作维持专注<BR>范围：以你为中心，智力米半径<BR>效果：你能在法术范围内创造一股无形的力量，这个力量可以用于推，拉，拨动，拿起等等诸多通常的“力”所能进行的行为，但它的力量实在是太小了，甚至连力量1都无法形容。<BR>这个力能产生的力量极限大约是5斤，若需要以力量进行判定，总是视为其失败，目标的体积为1。<BR>====================================================<BR>幻音术<BR>专业：幻术<BR>威力：1<BR>动作：6AP<BR>成分：姿势，语言<BR>射程：智力*1米<BR>范围：半径智力*10米<BR>持续时间：智力*1分钟<BR>效果：你能在法术射程内创造一段虚假的声音，你可以选择声音从射程内的任意点发出，这个声音你必须自己听过，其响度可以由你决定，但无论多响，作为针对听觉的幻术，只有进入以声音为中心，法术范围为半径的生物才能听到，并且不会因为巨大的响声造成任何实际效果（例如耳鸣，这可能在模拟大声音时让生物察觉异常）。<BR>这个声音每次使用只会触发一次，但是你可以让其不立刻触发，而是在有生物踏入时才触发，这个效果至多持续等同法术持续时间<BR>====================================================<BR>戏法<BR>专业：变化<BR>威力：1<BR>动作：6AP<BR>成分：姿势，语言<BR>射程：特殊<BR>范围：特殊<BR>持续时间：特殊<BR>效果：你可以利用魔力做出许多简单的效果，每次发动本法术可以发动以下效果之一<BR>-念动：你可以制造一些风来环绕你，吹动衣角，让一些轻微物体环绕你飞舞，例如树叶，花瓣，沙尘等，但这个法术不会制造其他足以造成影响的效果，需要6AP维持专注，范围仅限你自身所在范围。<BR>-清洁：你可以去除一件接触的物体上的污垢，例如尘土，油污等，这个效果是立即的。<BR>-修补：你可以弥补划痕和掉漆、对开线处进行普通的缝补，对小件的金属进行熔接等，ST可以决定这项效果的效力是否足以完成一些效果。<BR>-调节：你可以改变物品的温度、气味、味道等，但不能改变到足以造成刺激或伤害的程度，可以抵消刺激但不能抵消伤害（比如，可以让喝起来烫口的水变温，但不能让造成火焰伤害的液体变温）<BR>-加工：你可以在物品表面绘画、表层雕花等，也可以将原材料加工成简单的造型。你需要通过相关手艺检定以决定你的表现效果，在加工上，ST可以判定何为简单的造型。<BR>====================================================<BR>秘法印记<BR>专业：变化<BR>威力：1<BR>动作：6AP<BR>成分：姿势，语言<BR>射程：接触<BR>持续时间：永久<BR>效果：你可以在一个物体或生物上你接触到的部分留下一个以魔力构成的印记，这个印记的效果是永久的，不会被洗去，无法被伪造，并且对你之外的生物都视为具有C级反侦测等级而无法被直接看见。<BR>你可以以一个6AP动作接触这个印记来抹消它。<BR>====================================================<BR>光亮术<BR>专业：变化<BR>威力：1<BR>动作：6AP<BR>成分：姿势，语言<BR>射程：接触<BR>范围：威力*智力*5米<BR>持续时间：智力*1分钟<BR>效果：你可以让一个物体发出柔和的光芒，使其照亮法术范围内的区域。<BR>====================================================<BR>造成伤害<BR>专业：塑能<BR>威力：1<BR>动作：6AP<BR>成分：姿势，语言<BR>射程：智力*10米<BR>持续时间：立即<BR>冷却：1轮<BR>效果：你指向射程范围内的一个目标，向其射出一些可以造成伤害的要素。<BR>你以施法判定进行一次远程接触攻击，若攻击命中，不会造成通常伤害，而是使目标受到等同法术威力值的严重伤害，类型你可以在力场和精神之外的类型中任意选择。<BR>====================================================<BR>稳定伤势<BR>专业：变化<BR>威力：1<BR>动作：6AP<BR>成分：姿势，语言<BR>射程：接触<BR>持续时间：立即<BR>效果：你可以使接触的生物伤势停止恶化，并且威力值轮内不会因为伤势昏迷。<BR>====================================================<BR>泡头咒<BR>专业：变化<BR>威力：1<BR>动作：6AP<BR>成分：姿势，语言<BR>射程：接触<BR>持续时间：法术威力*智力*10分钟<BR>效果：你可以使接触的生物头部被一个空气泡包裹，空气成分与使用地点相同（这意味着在没有空气的地方无法使用）。<BR>法术持续期间，生物视同无需呼吸。<BR>生物若受到针对头部的攻击，只要造成了至少1点伤害，空气泡就会碎裂失效。<BR>====================================================<BR>阿拉霍洞开<BR>专业：变化<BR>威力：1<BR>动作：6AP<BR>成分：姿势，语言<BR>射程：接触<BR>持续时间：立即<BR>效果：你可以接触一个被自然/科技本质无支线锁锁住的对象，锁自动被打开。<BR>你可以使用这个法术来打开普通的房门锁，甚至普通公司的指纹锁等。<BR>====================================================<BR>漂浮咒<BR>专业：变化<BR>威力：1<BR>动作：反射<BR>成分：姿势，语言<BR>射程：10米*智力*威力值<BR>持续时间：一个场景<BR>效果：你可以选择射程范围内一个自愿生物或物体，被选择的目标不会坠落，你可以以一个4AP动作使其竖直向上或下移动至多你智力米距离，能被本法术影响的目标体积不超过6。<BR>====================================================<BR>完好如初<BR>专业：变化<BR>威力：1<BR>动作：6AP<BR>成分：姿势，语言<BR>射程：接触<BR>持续时间：立即<BR>效果：本法术可用于修复损毁的物体，你接触一个无支线且体积不高于6的物体，若在你视线中的该物体的构成部分未被他人持有，则这些构成部分会飞向你视线中最大的该物体组成部分并完成拼合并修复，若物品的所有构成部分都在你视线范围内（哪怕它已经被打成粉末），那么物品被修复完好，否则物品会被修复至其最大可能的形态。本能力不能修复消耗掉的物品使用次数（包括消耗品）。<BR>若用本能力修复尸体到完好形态，则一些需要完整尸体的能力可以被正常作用，但是尸体作为物品的支线等级取决于尸体拥有的最高级强化的等级。<BR>若你消耗至多法术威力点魔力，本法术可以修复任何非消耗品等额点生命值，但其不能已经处于被摧毁的状态，并且修复的场景与受到伤害的场景不能存在间隔。（因此战斗结束后立刻修复载具是可以的，但若离开了战斗结束后的场景，就无法再修复。）<BR>====================================================<BR>防水防湿<BR>专业：变化<BR>威力：1<BR>动作：6AP<BR>成分：姿势，语言<BR>射程：接触<BR>持续时间：一个场景<BR>效果：本法术可让你接触的物体不会浸水，起雾。<BR>你接触的物体可以在水下正常使用而不会受任何减值。<BR>====================================================<BR>指北术<BR>专业：咒法<BR>威力：1<BR>动作：6AP<BR>成分：姿势，语言<BR>射程：无<BR>持续时间：立刻<BR>效果：本法术可让你立刻确定北方是哪个方向（以所在星球的南极北极区分）。<BR>====================================================<BR>收拾<BR>专业：咒法<BR>威力：1<BR>动作：6AP<BR>成分：姿势，语言<BR>射程：接触<BR>持续时间：特殊<BR>效果：本法术通常用来收拾杂乱无章的房间。<BR>当你持有一件物品时，你可以施展法术，设定一个接触范围内的位置，这个位置可以是绝对位置，也可以是相对位置，举例而言把一本书绑定在书架上第一本的位置上是可以的，若是绝对位置，即使书架离开了原味，被绑定的位置也不会改变，若是相对位置，书架离开了原位，位置会跟随书架移动。<BR>这个绑定效果是永久的，这种绑定效果可以有任意多组。<BR>以另一个6AP动作施展此法术，若有被绑定的物品和被绑定的位置若都能被你精确定位，那么可以选择任意组数被绑定的物品，他们会慢悠悠的以最短直线飘向被绑定的位置（并不关心其移动是否会被阻挡），速度至多为每轮30米，这种漂浮不会对物体造成伤害，也不足以视为攻击。当物品到达预定位置后法术效果就会结束。或者只要其移动受阻，法术效果就会立刻结束，这种漂浮速度不快，任何生物都可以移动能触及该物体的地方，把该物体正常拿走<BR>你甚至可以用这项能力来绑定装备和装备位或者投掷武器等，使其回到你身上的正确位置。<BR>本法术不会影响已被他人持有的物品，物品虽然会试图移动，但不足以脱离他人控制，由于移动受阻，效果会立刻结束，但物品的持有者能感受到物品试图飞向你这一点。<BR>本法术不能修复已损坏的物品，也不能回复已消耗的物品，因此绑定弹药是没有意义的（因为是消耗品），但投掷武器不是。<BR>====================================================<BR>消隐无踪/急急现形<BR>专业：幻术<BR>威力：1<BR>动作：6AP<BR>成分：姿势，语言<BR>射程：接触<BR>持续时间：特殊<BR>效果：本法术用来隐藏物体表面的图案或字迹，也能让你揭示他们。<BR>你在接触物体时施展此法术，可以隐藏物体上任意数量的文字或图案，因此你能让一本书看起来全是白纸一般，这个效果视同一个无支线的视觉幻术效果，你可以任意设定隐藏的数量和时间，设置为永久也可以，你也可以在手持物体时用本法术解消同类的无支线视觉幻术效果以恢复其原本的文字。<BR>本法术无法隐藏本身具有力量的文字或图案，例如能使附近人瘫痪的痛苦徽记，魔鬼和人签订的灵魂契约，死神的约定或是转队文书等等。<BR>本能力在隐藏文字或图案后，可以填充新的文字和图案上去，如此一来你在使用本法术解消之前的效果时，会隐藏后填充的文字，限制同前。<BR>====================================================<BR>飞来咒<BR>专业：咒法<BR>威力：1<BR>动作：自由<BR>成分：姿势，语言<BR>射程：智力*威力值*10米<BR>持续时间：立即<BR>效果：本法术能将无主物品招入手中。<BR>选择一件体积不高于自身体积一半的射程内的无主物体，物体立刻飞到你的手中。<BR>特殊的，本能力能对认主物品生效而无视距离，你可以在心中默念一件与你认主的物品，若其与你之间有路径可达，它就会每轮以最短路径向你移动等同射程的距离。<BR>====================================================<BR>牢不可破咒<BR>专业：咒法<BR>威力：1<BR>动作：特殊<BR>成分：语言<BR>射程：无<BR>持续时间：立即<BR>效果：这道法术被巫师用于以生命宣誓誓约。<BR>作为法术的一部分，你可以发下一个誓言，你若违背该誓言就会不可避免的死亡（然而依然能正常触发各种死亡时触发的效果）。<BR>任何听到这道法术所宣誓的誓言的生物都能明确了解誓言的效力，不会质疑你誓言的真实性。但这并不代表别人必须接受或认同你的誓言。<BR>若角色因为某些原因失去施展本法术的能力，视同打破了誓言。<BR>==================================================== 
+<BR>焕然一新<BR>专业：变化<BR>威力：1<BR>动作：6AP<BR>射程：接触<BR>持续：立即<BR>效果：角色可以清除目标上的普通污渍，使其看来像新的一般。<BR>不能通过简单清洗去除的污物也不能用该戏法去除。 
+<BR>==================================================== 
+<BR>幻色之风<BR>专业：变化<BR>威力：1<BR>动作：6AP<BR>射程：接触<BR>持续：神秘学等级*1天<BR>效果：选择接触到的一个体积不超过5的对象，角色可以调整它各部分的颜色，这是一个无支线等级的幻术效果。<BR>它不能覆盖反侦测等级，拥有反侦测等级的对象即使受到本效果作用，反侦测等级也不会被破坏<BR>它可以调色至与环境一至来获得D级反侦测等级，但如此获得的反侦测等级在对象发生了任何原因的移动（包括被动移动，例如物品被拿着走）或行动后自动失效。 
+<BR>==================================================== 
+<BR>现形明灯<BR>专业：变化<BR>威力：1<BR>动作：6AP<BR>射程：接触<BR>持续：神秘学等级*1小时<BR>效果：选择接触的某个光源，持续时间内这个光源可以令智力*法术威力*10米的照明范围内的灵体显形，视为这些灵体在光照范围内暂时失去了灵体赋予的反侦测等级。 
+<BR>===================================================== 
+<BR>射矢术<BR>专业：变化<BR>威力：1<BR>动作：6AP<BR>成分：姿势，法器（要投掷的物品）<BR>射程：智力*10米<BR>效果：你将手中的微小物品作为弹药发射出去。<BR>要使用此法术，你必须持有一个体积为1或更低的投掷武器或弹药。<BR>施法后，你向射程范围内一个目标发起一次以智力+神秘学进行的远程攻击，武器伤害等同法术威力（除非原有武器为投掷武器且伤害更高）。<BR>===================================================== 
+<BR>安黛尔沉默密室<BR>专业：幻术<BR>威力：1<BR>动作：6AP<BR>成分：姿势，语言<BR>持续时间：6AP动作维持专注<BR>范围：以你为中心，至多4米边长的立方体<BR>效果：你创造出一个跟随你移动的球形区域。本区域在判断听觉的范围时候时会如同硬度为2的固体一样减少听觉的范围，并因此影响聆听的dc（每米dc+3）。由于听觉只要有路径可以绕过障碍物的性质，本法术在没有阻断全部声音传播的路径时只会影响对法术范围内的区域进行听觉的定位和聆听时的dc。<BR>===================================================== 
+<BR></FONT><font size="3" font face="宋体" >魔力制造<BR>专业：预言<BR>威力：1<BR>动作：6AP<BR>成分：姿势，语言<BR>射程：自身<BR>持续时间：以自由动作维持专注，可以结合在制造物品和维修物品的延长判定中<BR>效果：你在制造和维修物品的手艺判定上获得6点增强加值。<BR>===================================================== 
+<BR></FONT><font size="3" font face="宋体" >烹调转化/佐兰风味<BR>专业：变化 
+<BR>威力：1<BR>动作：6AP<BR>成分：姿势，语言<BR>射程：触及<BR>效果：选择一个射程内的目标，你可以如同具有所有常见调味料和加热/降温厨具一样一样以施法检定对其进行手艺-厨艺检定，这种烹饪可以在厨艺判定的成功数轮中完成，你每具有1点成功数就需要维持1轮的专注。如果在专注轮数到达成功数之前中断则视为只能应用那么多成功数。本法术提供的加热/冷却只有相当于每轮1点火焰/寒冷严重伤害的程度，但在实际的烹饪中，只要专注的轮数足够就能如同有足够的温度一般决定食物的品质。<BR>===================================================== 
+<BR></FONT><font size="3" font face="宋体" >传讯术<BR>专业：变化<BR>威力：1<BR>动作：6AP<BR>成分：姿势，语言<BR>射程：10米*智力*威力值<BR>持续时间：智力/10分钟<BR>效果：选择范围内不超过你智力个目标，你可以与其轻声交谈而不被其他生物听到，与你交谈的目标可以使用同样的方式向你回话，但不能彼此互相交谈。本法术如同听觉一样可以绕过障碍物并穿透障碍物，但其中因为障碍物厚度和硬度降低感知的部分改为降低你在计算本法术射程时的智力。你依然需要张嘴说话，这意味着你使用本法术发出的话语尽管不能被聆听，但可以被读唇。<BR>===================================================== 
+<BR></FONT><font size="3" font face="宋体" >轻微变化<BR>专业：变化<BR>威力：1<BR>动作：6AP<BR>成分：姿势，语言<BR>射程：自身<BR>持续时间：智力/小时或直到你以自由动作解消<BR>效果：本法术可以轻度改变你的外表，这视为你进行了一次成功数等于你威力值的易容。你也可以结合在一次易容中使用本法术，这会使你易容的成功数提高相当于本法术威力值点。<BR>===================================================== 
+<BR></FONT><font size="3" font face="宋体" >破晓<BR>专业：防护<BR>威力：1<BR>动作：6AP<BR>成分：姿势，语言<BR>射程：自身<BR>范围：至多10米*智力*威力值<BR>持续时间：立即<BR>效果：本法术可以如同不良状态所述中的方式立刻唤醒范围内所有睡眠中的生物，并可以立刻唤醒范围内所有因伤势昏迷的生物。但因本法术唤醒的因伤势昏迷的生物只要再次受伤或者出现生命恶化就会再次因伤势而昏迷。<BR>===================================================== 
+<BR></FONT><font size="3" font face="宋体" >寂静门户<BR>专业：幻术<BR>威力：1<BR>动作：6AP<BR>成分：姿势，语言<BR>射程：10米*智力*威力值<BR>持续时间：智力/10分钟<BR>效果：选择一个体积不超过你智力的物体，其在持续时间内进入无支线等级的沉默状态。这是一个无支线的听觉幻术效果。<BR>===================================================== 
+<BR></FONT><font size="3" font face="宋体" >治疗微伤<BR>专业：咒法<BR>威力：1<BR>动作：6AP<BR>成分：姿势，语言<BR>射程：触及<BR>持续时间：立即<BR>效果：选择一个射程内的活物，目标获得治疗点数，等于法术威力。每1点治疗点数可以治疗1点冲击伤害，每4点治疗点数可以治疗1点严重伤害，每10点治疗点数可以治疗1点恶性伤害，由于无法积累治疗点数，因此通常只能治疗冲击伤害，你在使用时可以额外支付魔力来增加治疗点数，每点魔力增加1.5治疗点数，可以投入的魔力数量至多为你最高的施法者等级*2点。</FONT></P></font></div>	
+	<div id="winchm_template_footer"><font size="2px" font face="Microsoft YaHei">版权所有 (C) 2003-2018 lv20112668。</font></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+# Preserve source fingerprints across Windows/macOS/Linux checkouts.
+# -text disables automatic line-ending conversion; text diffs still work.
+* -text
+*.chm binary
+*.gif binary
+*.png binary
+*.jpg binary

@@ -1,0 +1,882 @@
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>空间震精灵</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Microsoft YaHei, Simsun, Arial, sans-serif;
+	font-size: 12pt;
+}
+</style>
+
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+</head>
+
+<body>
+
+<div id="winchm_template_top">
+	<div id="winchm_template_button"><A href="S-00001肉体操纵术.htm" title="上一主题"><img id="winchm_template_prev" alt="上一主题" src="template2/btn_prev_n.gif" border="0"></a><A href="猎户座计划-斯巴达战士.htm" title="下一主题"><img id="winchm_template_next" alt="下一主题" src="template2/btn_next_n.gif" border="0"></a></div>
+	<div id="winchm_template_navigation"><font size="2px" font face="Microsoft YaHei">帮助 &gt; 
+无限恐怖2.5RE_V1.03先行版 &gt; 资源相关 &gt; 改造 &gt; 一次性改造 &gt; </font></div>
+	<div id="winchm_template_title"><font size="2px" font face="Microsoft YaHei">空间震精灵</font></div>
+</div>
+<div id="winchm_template_container">
+	<div id="winchm_template_content"><font size="3px" font face="Microsoft YaHei"><font size="3" font face="Microsoft YaHei"><P><FONT face=宋体>空间震精灵系列 C+2000<BR>前提：只有女性角色可以兑换本强化<BR>本质：魔幻本质<BR>描述：在与这个世界相异的邻界存在着神秘的生命体。关于其产生的原因与存在的意义至今仍被谜团所包覆，并且在战斗上拥有强大的能力，而当之出现在这边的世界之际，会引起大爆炸及所谓的空间震，人类便将这些引发特殊灾害的特定生命体，当成是天敌般的存在并畏惧着。这类的个体有着形形色色的外貌，但共同的特点是，都具有强大的战斗能力。值得一提的是其姿态皆为年轻的女性，并且，除了作为明显标志的灵装外，在身上也穿戴着护甲，两者构成绝对的护盾与最强的矛，这般“拥有外型的奇迹”〈形を持った奇迹〉又被称之为“天使”。
+<BR>
+精灵和其持有的武器与卡巴拉生命树（Kabbalah）的十大质点及其守护天使存在一一对应关系。
+<BR>
+特性：精灵化（双特性），空间震（三特性），天使（双特性）
+<BR>技能树：空间震精灵技能树开启（部分天使没有技能树，而是获得特性，见详述）
+<BR >
+ 特殊：一次性改造，额外获得3个特性
+<BR >
+  精灵化：精灵是由人类所转化的邻界住民，成为精灵后，其细胞老化停止，不会自然衰老，并因此具有无限的寿命。
+
+<BR>精灵的意志力和精力不会自然回复，当两者之一消耗至0时，会触发“消失”现象，无关精灵本身的意愿会回归邻界休眠，此时视同其传送至同一世界的不同位面并失去意识，此时意志力池和精力池才会正常回复，除非有能追踪空间道标类的能力将其“消失”的触发地点作为道标进行追迹，否则无法定位和对其产生影响。<BR >   而当相应池完全回复时，会触发“现界”现象，精灵会被拉回原位面并处于随机位置并恢复意识，该位置首先不能被任何物质占据（如水中），其次与你上次消失时的位置相距至多不会超过650公里，最后若该位置存在环境带来负面影响，你在现界时可以直接身着灵装。此外通常此时会触发“空间震”，但你可以主动选择不触发这一效果。<BR>当精灵死亡时，会留下灵结晶，作为精灵的力量核心，并失去本强化（即使复活也不会重新获得，不过也不计入复活价格中）。<BR>任何获得灵结晶但不具备改造的生物可以以一个6AP动作将灵结晶融入体内，并获得该精灵的改造（并继承选择，如天使，但不继承购买的技艺）。<BR>以一个4AP动作，角色可以消耗3点意志和精力将精灵力具现为灵装，灵装视为一种概念武装并附着在你穿着的衣物或盔甲上，同时转变该衣物或盔甲的外形为灵装形态，根据天使选择的不同，灵装展现的外表也不相同，但无论其外形，至少具有以下两项能力，效果持续一个场景<BR>-灵装可以阻断常识伤害，身着灵装时角色免疫不具备魔法特性的伤害，也包括了环境赋予的伤害（但不包括其他环境影响）。<BR>-灵装使精灵获得飞行能力，等同其移动速度，机动性完美。<BR>此外，当精灵的情绪失控到一定程度，会引发被称为“反转”的现象，当精灵处于重度情绪异常状态，或任何原因社交属性降低至0，精灵就会进入“反转”状态，原本与卡巴拉生命树中天使的对应关系也会转化为“逆卡巴拉邪恶树”上的恶魔。“反转”状态将持续直到原因解除。<BR>具体的反转效应因守护天使而存在差别，但如下共同点：<BR>-人物角色将交由ST控制，并将所有其他生物视为敌对生物<BR>-人物身上所有持续性效果结束，如同更换成了其他角色，反转结束时那些效果会回人物身上。反转效果持续至少一个场景。<BR>空间震：精灵在现界时若没有主动抑制就会引发这一效果，或者，以一个10AP动作，消耗5点精力和5点意志，精灵也可以主动引发这一效果，以精灵为中心，半径至多等同其（耐力+决心）*100米范围内因空间波动对所有目标产生范围力场严重伤害，数值等同精灵的耐力+决心，最高48点,所有受影响的目标可以进行强韧豁免。<BR>天使：精灵会获得与卡巴拉生命树的十大质点及其守护天使存在对应关系的武器，获得本改造时选择其一，之后不可改变，这一选择同时会影响精灵的技能树（精灵的技能树都需要选择特定天使），其灵装展现形态也与选择的天使绑定，各天使的反转姿态也不相同。<BR>无论如何，召唤天使是一个4AP动作，并需要消耗3点意志和精力，效果持续一个场景，即使天使被破坏，也能重新召唤将之还原，所有天使都具有【认主】特性，若需要，将其硬度和生命值视为C+1000的物品。召唤天使状态下不能再次召唤天使，详细如下述：</FONT></P>
+<P><BR><FONT face=宋体>第一质点·王冠：灵装形象为雪白的礼服装状,由纯白色所构成的沿着身体曲线向上的长裙，如同盛开花朵般绽开的短裙，以及浮游在头部上方的圆环中伸出来的光之丝绸所组成。反转状态下灵装变为蓝黑色的丧服，光环变成黑。<BR>《绝灭天使》/《救世魔王》：第一质点召唤的天使呈羽片状，能释放威力强大的光束攻击，或化为盾牌构筑防御很强的灵子屏障。<BR>在召唤天使的状态下，你在进行格挡时获得6点力场防御，并获得12点反射豁免上的力场加值。<BR>此外，以一个6AP动作，你可以以敏捷+运动（能量射击）来进行远程攻击，武器伤害视为8L，射程至多为400米，伤害上限为武器伤害*3，具有破甲4，破魔4，能量武器，魔法，幽冥特性，造成纯能量伤害。<BR>反转：绝灭天使反转为救世魔王时，光之羽片变为黑色且散开，失去防御能力，但攻击性变得极为强大，其自行攻击半径400米内所有事物，范围内的目标每轮受到20点纯能量伤害，反射豁免。<BR>其以6AP动作进行能量射击时，武器伤害可以提升为16L，但会承受1轮冷却时间。</FONT></P>
+<P><BR><FONT face=宋体>第二质点·智慧：灵装形象为佩带十字架，法衣上添加了笔的半透明修道服。<BR>《嗫告篇帙》/《神蚀篇帙》：第二质点召唤的天使是一本类似圣典的带有十字架巨大的书。天使本身包括情报检索页和空白页。能力是获取情报的全知能力，要是有未来以外的事情、现在起发生的事情、谁在做什么等等自己想要的情报都可以在情报检索页上得知。<BR>在召唤天使的状态下，你可以花费1分钟的时间向ST提出一个问题，该问题必须关于一件本世界已经发生过得事，你获得该问题的答案，这是个A级探知类效果。<BR>该能力每个影片世界只能使用1次，你每额外支付D+500分，该上限增加1次（例如你投入了C+1500分，这项能力可以在每个世界使用4次，你可以以自学的方式投入XP来支付）。<BR>反转：反转状态下书本会化为巨大的漆黑书本，并且十字架从书上消失，书页从书中向外飞散并拥有超高的自动记述，检索速度，使用者可以以自由动作使用上述能力，并且没有使用次数限制，但反转结束后会失去这些问题答案的记忆，此外，反转状态下，角色将书页化为被称为魔王之女的尼别科尔，以一个10AP动作，每占用1点意志和精力上限就可以创造一名尼别科尔。<BR>尼别科尔视为全属性6，全技能5，体积5，拥有全部专业，拥有伤害4L，破甲4，魔法，正常攻击灵体的天生武器，并拥有精灵化特性中的灵装。<BR>尼别科尔展现为人类少女形象，拥有铜青色的双眸以及绑着马尾的黑灰色头发，灵装外形为黑色的短裙修女服。</FONT></P>
+<P><BR><FONT face=宋体>第三质点·理解：灵装形象为一件黑色与血色相间的哥特装，同时左眼的瞳孔会化为金色时钟，随能力发动而转动，这并不会影响瞳术的使用。<BR>《刻刻帝》/《狂狂帝》：第三质点召唤的天使是超过身高两倍的巨大时钟，其长针和短针分别是燧发手枪和步枪的形态，其能将刻刻帝的力量作为子弹发射出去。<BR>即使不召唤天使也不使用灵装，角色也获得时间值作为特殊能量池，该能量池上限为20点，且除非特别注明，否则不能通过任何通常手段提升上限。<BR>时间值通常不会回复，且在场景开始时清空。也不能用于启动空间震精灵技能树上第三质点的技艺以外的技艺。<BR>角色可以将两把枪械召唤到手中而非召唤时钟，被召唤的枪械分别视为来福枪和大型左轮手枪。<BR>但这两把武器都视为魔幻本质物品，攻击中具有魔法，幽冥特性，并且变为8加骰，伤害各自提升3L且没有力量需求。<BR>这两把武器都视为无限弹药武器，也不能填充弹药，但以这两把武器攻击时，每次成功对至少一个生物造成伤害时，能获得1点时间值。<BR></FONT></P>
+<P><FONT face=宋体>第四质点·慈悲：灵装形象为有兔耳兜帽的绿色连身裙外套。<BR>《冰结傀儡》：第四质点召唤的天使是巨大的兔子傀儡，能在周围展开雨水和冰冻形成的保护结界，在结界中任何物体都会被冻结，具有惊人的防御力。<BR>冰结傀儡<BR>力/敏/耐=11/1/11<BR>智/感/决=-/1/-<BR>风/操/沉=-/-/-<BR>技能：运动5（自我保护），求生5（自我保护），肉搏5（冲撞）<BR>体积：54（体调10）<BR>速度：66<BR>先攻：使用者共用<BR>生命：37<BR>防御：0基防+13天防+12增强=25<BR>攻击：冲撞21+3<BR>意志/反射/强韧=-/7+1/17+3<BR>无心智：冰结傀儡是完全受你控制的无心智单位，你可以通过心灵连接对其下令<BR>视觉共享：你和冰洁傀儡之间拥有共享视觉<BR>坚冰：冰洁傀儡具有4点硬度值<BR>冰结领域：冰洁傀儡半径耐力*10米范围内视为其冰结领域，所有对范围内被你认定为友方的生物发起的攻击受到12点环境减值，且其造成的伤害减少4点（包括范围伤害，并非在实际伤害中扣除而是攻击方造成伤害时最后计算），所有范围内的敌方生物在行动开始时受到8点寒冷伤害以及同等数量冻结点数，可叠加，强韧豁免。<BR>此外，在半径耐力*100米范围内，气温降低一级，天气变为小雨。<BR>冰结傀儡死亡时，本场景中都不能再次召唤。</FONT></P>
+<P><BR><FONT face=宋体>第五质点·力量：灵装形象为由摇曳的羽衣，燃烧的衣袖构成的幻想性和服，身周环绕有火焰，头上会出现如鬼般无机质的角。<BR>《灼烂歼鬼》：第五质点召唤的天使是巨大的火焰战斧，并且能转化为炮形态。<BR>灼烂歼鬼<BR>本质：魔幻本质<BR>价格：C+1000<BR>分类：斧<BR>前提：力量6<BR>体积：6<BR>武器基本属性：武器伤害10L，破甲6，破魔6，8加骰<BR>武器特殊属性：【双手】【沉重】【威猛】【魔法】【幽冥】<BR>火焰之斧：使用本武器造成的伤害同时属于物理伤害和火焰伤害，抵抗两种伤害中的较低者生效（dr/能量抗力），全伤害吸收，伤害抵消减半生效。<BR>武器转换：以一个4AP动作，可以将本武器在炮和斧形态间转换，炮形态下失去武器的基本属性和分类，以及特性，但不失去特殊属性，体积也不会变化。<BR>炮形态下，以一个6AP动作，消耗3点意志和精力，冷却时间3轮，可以轰出至多400米直线火焰或长度为100米的锥体火焰，对路径上所有目标造成18点火焰严重伤害以及同等数量的燃烧点数，具有和武器相同的特性，反射同时豁免两者，你可以对该能力进行加力，每额外投入1点通用AP则提升1点火焰严重伤害与燃烧点数且射程提升10%，至多额外投入12点AP。<BR><BR>第六质点·平衡：灵装形象为宛如有星辰点缀的粉紫色旗袍，手套上及衣摆上皆有着星座图案，以及脚上犹如中世纪骑士的铠甲型长靴<BR>《封解主》：第六质点召唤的天使时一柄顶端镶有装饰，底部则有不规则金属齿的长柄锡杖，看上去像是一把钥匙，天使本身可以发出光线攻击。<BR>以一个6AP动作，角色可以从天使上引出一道光线，你可以以敏捷+运动（能量射击）来进行远程接触攻击，武器伤害视为13L，射程至多为600米，伤害上限为武器伤害*3，具有破甲8，破魔8，8加骰，能量武器，魔法，幽冥，神圣，贯穿特性，造成纯能量伤害。<BR><BR><BR>第七质点·胜利：灵装形象由于天使《赝造魔女》的特性，可随意变化，原型为头戴一顶镶有祖母绿的尖帽子，身穿有六芒星形图案的紫色的紧身衣，而紧身衣上披了一件镶有铜色边缘的披风。<BR>《赝造魔女》：第七质点召唤的天使是一柄前端安装提灯与镜子的扫帚。无论是生物还是非生物，所有的物体只要被从扫帚发出的光照射到，性状就会发生变化。<BR>以一个6AP动作，消耗3点意志和精力，角色可以选择一个包括自身在内，半径400米之内的目标，目标被扫帚的光所照耀，并发生变形，若目标是生物，你可以任意修改目标在同一种族内的外形细节和年龄外观，以及穿着表现，包括性别在内等，这不会造成目标数值上的变化，若对自身之外的目标使用，效果持续一天或你主动解除，若对自身使用，效果为永久直到你主动解除，这视为一个B级变形效果。<BR>若目标是物体，你可以将其转变为任意自然物质，但该物质与目标原本的硬度相差不能超过6点（简单的将这个效果视为使目标物体的硬度增加或减少8点），该效果持续一个场景，这同样是一个变形效果，且除非硬度被降低至0，否则不影响物品的实际效果，物品的硬度被降低至0时视为损坏（即使一辆坦克被变成了木坦克，它依然能正常运作，但如果变成了水坦克就会立刻损坏）<BR>此外你也可以用此能力调整目标的体积，无论物体还是生物，令其体积调整至多增加或减少6点（下限为-4），因此调整的体积只会改变因体积变化的数据，不会改变体积调整对应的数据，但这一调整不会改变其所拥有的物品，因此通常可令目标的装备及其他物品失效（除非其能自适应），效果同样持续一个场景。<BR><BR><BR>第八质点·荣耀：灵装形象为蓝紫色的拘束服，性感而暴露，双手双脚都有断裂的镣铐。<BR>《飓风骑士》：第八质点召唤的天使是一把巨大的弓箭，具有强大的穿透力和破坏力，但无法使用普通的箭矢，只能使用天使自带的弹药，被称为贯穿者的巨大突击枪，另一方面，弓弦也能拆下作为漆黑之锁而且前端付有菱形之刃的锁链灵摆——被成为束缚者——来单独使用。<BR>束缚者<BR>本质：魔幻本质<BR>分类：鞭<BR>体积：1<BR>武器基本属性：武器伤害4L，破甲4，高速4 <BR>武器特殊属性：【魔法】【正常攻击灵体】【软兵器】<BR>投掷武器：本武器可以进行投掷攻击，此时最大射程视同角色决心*30米，射程内不会产生距离减值，并且无论是否命中，都可以立刻收回。<BR>远程擒抱：本武器可以以投掷攻击的形式发起远程擒抱，将这次投掷攻击视为投掷接触攻击来取代发起擒抱必要的近战接触攻击，以敏捷+白刃取代原本的力量+肉搏进行擒抱判定，并且本武器视为适合擒抱的武器，以本武器擒抱成功时，你自身不视为处于擒抱状态。<BR>贯穿者<BR>本质：魔幻本质<BR>分类：长矛<BR>体积：5<BR>武器基本属性：武器伤害6L，破甲6，破魔6<BR>武器特殊属性：【魔法】【正常攻击灵体】【格挡】<BR>飓风骑士<BR>本质：魔幻本质<BR>分类：弓<BR>体积：6<BR>武器基本属性：武器伤害16L，破甲15，破魔9，高速6，8加骰，射程单位决心*30米<BR>武器特殊属性：【魔法】【正常攻击灵体】【超级贯穿】<BR>单发：本武器使用贯穿者作为弹药，一次仅能射击一发，之后必须重新召唤天使，或者将剩余的弓弦拆下作为束缚者使用。<BR>拆分：以一个4AP动作，你可以将本武器拆分为贯穿者和束缚者，或者反之将两者组合为飓风骑士<BR><BR><BR>第九质点·基础：灵装形象为上身穿着中空袖子以及花边状光带，下面则穿着有着光之褶皱边的裙子的光之礼服，头上佩戴有月亮状的装饰物。<BR>《破军歌姬》：第九质点召唤的天使是有着光之键盘的巨大管风琴，银管可用来当麦克风。并弹奏出不同的音乐。<BR>以该乐器进行演奏时，表达判定中获得12点器械加值。<BR>此外，该乐器可以简单的通过音波进行攻击，或使其化为有质量的屏障来进行防御。<BR>以一个6AP动作，冷却时间1轮，指定你风度*30米范围内的一个目标，目标受到16点音波严重伤害，强韧豁免减少。<BR>以一个反射动作，指定你风度*30米范围内的一个目标，目标获得10点临时生命，效果持续一轮。<BR><BR><BR>第十质点·王国：灵装形象为紫色的盔甲、如同公主礼服一般的衣服包裹全身，礼服的缝份、内里、裙摆部分则是由非物质的、绽放不可思议光芒的光膜所构成，头上佩戴有紫色的水晶头饰。<BR>反转状态时的灵装变为全紫黑色的盔甲、如同公主礼服一般的衣服包裹全身，以及为了覆盖着胸口和下半身而延伸出去，没有实体的暗色薄幕，头上佩戴有紫黑色的水晶头饰<BR>《鏖杀公》/《暴虐公》：第十质点召唤的天使是一个王座，从王座的背后可以抽出一柄双刃巨剑。<BR>王座本身可以视为具有8体积的障碍物，你可以用4AP动作令其移动不超过你速度的距离，任何人也可以利用它获取全掩蔽（以4AP动作寻求掩蔽），但你只需要反射动作即可获得全掩蔽。它视为具有飞行能力，机动性与你拥有的相同。<BR>当你使用王座进行飞行时，无需为其支付4AP动作，它使你的飞行速度提升一倍。这只需要你移动到王座所在位置即可。<BR>你可以让王座承载其他生物飞行，此时王座最多承载一名体积为8的生物，需要你支付4AP动作以指挥其移动。承载飞行时的王座不能被用于全掩蔽。<BR>而双刃巨剑具有如下属性：<BR>本质：魔幻本质<BR>分类：重剑<BR>体积：4<BR>前提：力量6，白刃4，白刃专业：重剑<BR>武器基本属性：武器伤害12L，破甲8，破魔8，9加骰<BR>武器特殊属性：【魔法】【正常攻击灵体】【格挡】【双手】【威猛】【沉重】<BR>反转：反转时，鏖杀公中的巨剑会转为一把漆黑的单刃巨剑，并且无法再收纳进王座。<BR>其武器伤害提升至24L，破甲，破魔提升至16，加骰数变为8。<BR>此外，若你已经掌握了“最后之剑”，本效果自动转换为“终焉之剑”。<BR>空间震精灵技能树<BR>空间震精灵一旦选择了天使，就只能获得该天使所对应的技艺，而不能学习其他天使的技艺。<BR>有些天使可能没有技艺，他们会获得额外特性作为补足。<BR>所有技艺，包括补足特性，若无特殊说明，都必须在对应灵装的召唤天使时才能使用或生效。</FONT></P>
+<P><BR><FONT face=宋体>第一质点·王冠<BR>绝灭天使-日轮 D+500<BR>以一个4AP动作启动，冷却时间1轮，天使中的羽毛化为光弹洒落周围产生无差别轰炸。<BR>以自身为中心，半径100米范围内所有目标受到10点纯能量严重伤害，具有天使作为武器使用的特性，被影响的目标可进行反射豁免以减少伤害。</FONT></P>
+<P><BR><FONT face=宋体>绝灭天使-天翼 C+1000<BR>你的飞行速度提升一倍。<BR>以一个2AP反射动作，冷却时间1轮，你能使用你的飞行速度进行一次半速移动。</FONT></P>
+<P><BR><FONT face=宋体>绝灭天使-光剑 C+1000<BR>以一个6AP动作启动，冷却时间1轮，天使中的羽毛环绕目标，向其发起全方位攻击。<BR>选择一个400米内的目标，目标受到10点纯能量严重伤害，具有天使作为武器使用的特性。<BR></FONT></P>
+<P><FONT face=宋体>绝灭天使-炮冠 C+2000<BR>以一个10AP动作启动，冷却时间6轮，天使中的羽毛聚拢合成特定朝向的王冠，向该方向上发射巨大的能量炮。<BR>每次使用本能力会消耗3点意志和精力，选择一个方向，造成长度800米，底面半径10米的圆柱区域内32点纯能量严重伤害，具有天使作为武器使用的特性，并具有超级贯穿特性，被影响的目标可进行反射豁免以减少伤害。</FONT></P>
+<P><BR><FONT face=宋体>第二质点·智慧<BR>未来记载 A+4000<BR>以一个6AP动作，消耗7点意志和精力，你在天使上写下一件未来会发生的事，该内容必须满足两项要求<BR>1.该内容被ST判定为基于世界的普遍规则可能发生，例如你写上没有飞行能力的人在飞是不可能生效，让死人复活也是，要想让星球在一天之内坠落，爆炸等可能都是不现实的<BR>2.该内容不能包含结果，只能包含行为，举例而言你可以写上某人攻击了某人，但不能写成某人击中了某人，也不能表述攻击的结果。<BR>从根本上来说，该能力的使用取决于ST，但若使用失败，不会消耗动作和相应代价。<BR>若使用成功，且内容中行为发起者并非生物，那么内容自动成立（例如你写下3分钟后下起了雨），若行为发起者为生物，其需要进行意志豁免，难度为24，你进行一次意志判定作为目标判定中的减值，若目标失败，便会执行相应行为，这视为一个S级影响心灵且命运法则的效果，同时免疫两者才能免疫本能力影响。</FONT></P>
+<P><BR><FONT face=宋体>幻书馆 B+4000<BR>本能力效果比照“夜天之书”中的法术“封锁领域”，但结界整体视为硬度等同威力值，生命值等同威力值*10的物体处理。<BR>此外本法术的效果是永久的。<BR>当生物从法术中脱离时，会出现于与天使当前位置相对的进入位置（若没有天使则时是术者），而非与世界相对的进入位置。<BR>若该位置已被占据，则会出现在最近未被占据的位置中。</FONT></P>
+<P><BR><FONT face=宋体>第三质点·理解<BR>食时之城 C+2000<BR>以一个10AP动作，你能展开以自身为中心，半径等同自身意志值*10米的球形结界，该结界能从他人身上窃取时间值，效果至多持续一个场景。<BR>所有在结界范围内的开始回合的生物除你之外失去两点通用AP，并且因此有效失去通用AP的不具有持续时间的生物每有一个，你获得1点时间值。<BR>食时之城同时只会存在一个。<BR>这是一个C级时间法则效果，免疫C级时间法则的对象不受本能力影响。<BR>注：由于食时之城的结算时点在生物开始回合时，生物可以在回合开始前用反射动作消耗将他下回合的AP恢复速度预支完毕且自己不保留AP，这样他就能够没有AP可失去也不会强制转化更高级的动作，并且不会为你提供时间值。</FONT></P>
+<P><BR><FONT face=宋体>一之弹（Aleph） D+500<BR>本能力能射出加速目标时间流动的魔弹<BR>以一个6AP动作，你以刻刻帝向一个目标射击，无需进行攻击判定，这次攻击也不会造成任何伤害，但时间值依然需要支付，目标的时间获得加速，其在攻击，防御，反射豁免上获得6点增强加值，在速度上获得40米提升，效果持续一个场景，该效果来自C级时间法则。</FONT></P>
+<P><BR><FONT face=宋体>二之弹（Bet）D+500<BR>本能力能射出减缓目标时间流动的魔弹<BR>当你以刻刻帝向目标进行攻击时，可以额外消耗1点时间值，若你如此做，被击中的生物会受到5点可叠加不可豁免的纠缠点数，该效果来自C级时间法则。</FONT></P>
+<P><BR><FONT face=宋体>三之弹（Gimel）D+500<BR>本能力能射出让目标时间流逝的魔弹<BR>被动：你的时间值上限增加5点<BR>当你以刻刻帝向目标进行攻击时，可以额外消耗1点时间值，若你如此做，目标除了正常伤害之外，还会减少5年寿元，并因此在外面上表现出时间流逝带来的老化，该效果来自C级时间法则。</FONT></P>
+<P><BR><FONT face=宋体>四之弹（Dalet） C+1000<BR>本能力能射出让目标时间倒流的魔弹<BR>以一个6AP动作，你以刻刻帝向目标射击，无需进行攻击判定且会额外消耗3点时间值，目标1轮内受到的最近一次效果会被恢复（往往是伤害或状态点数，若一次伤害同时造成了状态点数，两者同时被恢复，但若是其他效果也可以。），该效果来自B级时间法则。<BR></FONT></P>
+<P><FONT face=宋体>五之弹（Hei） C+1000<BR>本能力能射出让生物有限预知未来的魔弹<BR>以一个6AP动作，你以刻刻帝向一个生物射击，无需进行攻击判定且会额外消耗3点时间值，目标生物获得总数36点洞察加值，持续一个场景。<BR>目标生物可以在进行任何判定时，得知判定结果后，使用总数中的一部分作为额外DP计入判定结果，相应扣除总数，他也可以将该总数一口气用完。<BR>目标生物也可以将这个洞察加值用在防御中，此时视为防御上的附加成功，每1点附加成功会消耗3点洞察加值，并且同样可在看到判定结果后宣言。<BR>对一个生物重复使用此能力只会重置总洞察加值到最大数，而不会叠加。<BR>该效果来自B级时间法则。</FONT></P>
+<P><BR><FONT face=宋体>六之弹（Vav）S+8000<BR>本能力能将自己的意识移动到过去的自己之中。<BR>每影片一次，你能消耗全部时间值，将自身投射回本影片中自己曾经历过的任意时点，开辟全新的时间线。<BR>该效果等同于自目标时点之后的游戏内容全部清除，从该时点开始重新进行游戏。<BR>除你和免疫S级时间法则效果的生物之外，所有生物都不会拥有被移除的时间线上的记忆。</FONT></P>
+<P><BR><FONT face=宋体>七之弹（Zayin）S+8000<BR>本能力能停止被击中的目标的时间流动。<BR>当你以刻刻帝向目标进行攻击时，可以额外消耗9点时间值，若攻击命中，此次攻击不会造成任何伤害，目标下一轮无法恢复与<!--StartFragment-->消耗AP。<BR>这视为一个S级时间法则效果。</FONT></P>
+<P><BR><FONT face=宋体>八之弹（Het） A+4000<BR>本能力能召唤自身过去的再现体，尽管能力上有较大差距，但每个个体都拥有自我意志和灵装，而本体能在各个体间自由转换。<BR>以一个10AP动作，消耗7点时间值，你创造出一个“再现体”，再现体视为与你具有完全相同数据，但无法使用任何主动能力（需要选择，消耗，动作启动的都视为主动能力，规则相关—战斗相关规则&amp;技能相关页面的除外）的生物，再现体只能主动启动专长效果，以及召唤天使（但也不能使用天使技艺），再现体能持续一天时间，之后每天会额外消耗1点时间值来维持。<BR>你和再现体之间并没有特殊的连接，再现体会遵从你的指令行动，对于单次或可见的行动序列无法完成的指令，它可能以自己的方式去实现（举例而言，你可以要求它去收集情报，它会以自己的方式进行——当然如果ST懒也可以让PC自己控制再现体去做）。<BR>再现体可以进入你所在的方格，之后收纳进你的影子中，从而一时从游戏中移除（但依然需要支付维持代价），这种情况下你需要以整轮动作重新召唤它，但不用支付时间值。<BR>你可以以一个10AP动作和任何一个再现体交换位置，尽管你可能并不知道该再现体当前所在位置，这并非基于空间法则的效果，而是基于S级时间法则的效果。</FONT></P>
+<P><BR><FONT face=宋体>九之弹（Tet） S+8000<BR>本能力能让你与目标的过去建立意识连接，影响目标，从而让目标开辟全新的时间线。<BR>每影片一次，以一个10AP动作，你以刻刻帝向一个生物射击，无需进行攻击判定且会消耗全部时间值，若攻击命中，你可以与目标的过去沟通，选择目标在本影片中曾经历过的时点与其展开交流（通常这需要你与现在的目标进行沟通才能找到合适的时机，当然你凭感觉设定一个时间也行），目标若因与你的交流改变了行为，就会开辟全新的时间线。<BR>该效果等同于自目标时点之后的游戏内容全部清除，从该时点开始重新进行游戏。<BR>除目标和免疫S级时间法则效果的生物之外，所有生物都不会拥有被移除的时间线上的记忆，包括你在内。<BR>目标对时间线的干涉产生的影响可能并不会立刻波及在对应时点的你们，因此ST可以选择一个会确实产生干涉的时点来重新继续游戏。<BR>举例而言，你在一场战斗中失去了同伴，随后遇到了一个强大的友军，你希望他在你失去同伴的战斗中前来帮助你，而在他的授意之下，取信于更久之前的他，并让他同意在那场战斗中前来协助，若他直到那场战斗开始之前的行为若ST判断对你并不产生影响，ST可以从那场战斗开始重开游戏。</FONT></P>
+<P><BR><FONT face=宋体>十之弹（Yud）D+500<BR>本能力可以将目标处于不存在的时间线上的记忆重新传达给目标。<BR>以一个6AP动作，你以刻刻帝向一个生物射击，若攻击命中，不会造成任何伤害。<BR>若目标因六之弹，九之弹，十二之弹或其他类似能力存在不同时间线上失去的记忆，目标会自动重获他们，目标会明确知道这是自身经历过的内容，不是谎言或幻术之类伪造的效果。</FONT></P>
+<P><BR><FONT face=宋体>十一之弹（Yud·Aleph）S+8000<BR>本能力能将被击中的目标送往未来。<BR>当你以刻刻帝向目标进行攻击时，可以消耗全部的时间值，若攻击命中，这次攻击不会造成任何伤害，你设定一个时间，被击中的目标直接被送往对应时间之后的未来。<BR>你设定的时间最长为10*消耗的时间值年之后，若目标具有A级免疫时间法则或神格，则其可以进行意志豁免，每点成功数提前1年回归。<BR>受到这一效果影响的生物从游戏中暂时移除，直到目标时间时加入，这效果并不视为它已经死亡，故不会引发击杀奖励机制，若效果结束时，小队任务已完成回到主神空间，留下的轮回者会直接被抹杀，已经触发抹杀条件的也一样。<BR>这视为一个S级时间法则效果，免疫者不受影响。</FONT></P>
+<P><BR><FONT face=宋体>十二之弹（Yud·Bet）SS+16000<BR>本能力能将被击中的目标送往过去。<BR>乍看之下本能力与六之弹效果相似，但其实并非如此，因为它将目标完整送往过去而非仅仅意识，在过去将确实的存在两个目标。<BR>每影片一次，以一个10AP动作，你以刻刻帝向一个生物射击，无需进行攻击判定且会消耗全部时间值，目标会被送往本影片中你经历过的任意时点中处于你模糊视觉范围内的位置，并开辟全新的时间线。<BR>该效果等同于自目标时点之后的游戏内容全部清除，从该时点开始重新进行游戏。<BR>除目标和免疫S级时间法则效果的生物之外，所有生物都不会拥有被移除的时间线上的记忆，包括你在内。<BR>被投送的目标对时间线的干涉产生的影响可能并不会立刻波及在对应时点的你们，因此ST可以选择一个会确实产生干涉的时点来重新继续游戏。<BR>由于在同一时间线上确实存在两个目标，一些针对目标的能力可能会被误导（同时获得两个结果，或同时影响两者等）</FONT></P>
+<P><BR><FONT face=宋体>第四质点·慈悲<BR>该天使没有额外技能树，获得一项额外特性<BR>冻铠：以一个6AP动作，接触与你相邻的冰结傀儡，消耗3点意志和精力，你将天使与自身融合，冰结傀儡化为铠甲包裹身体，效果至多持续一个场景，天使融合后，召唤天使的状态并没有解除。<BR>你获得等同天使生命值的临时生命，等同天使天生防御的盔甲防御，以及天使防御上的增强加值<BR>此外，你也获得了天使的坚冰和冻结领域特性。<BR>当临时生命耗尽时，天使也会解除，你必须重新召唤天使再重新融合。</FONT></P>
+<P><BR><FONT face=宋体>第五质点·力量<BR>该天使没有额外技能树，获得一项额外特性<BR>不死鸟：当精灵具现灵装时，会获得如不死鸟般的再生能力，伤口会有火焰出现来治愈，再重的伤势也能完好如初，但会让本身产生炙痛。<BR>你获得快速医疗1，这种快速医疗甚至能以1/4的速度回复恶性伤害，但是这种快速医疗每回复1点恶性伤害会使你每轮受到1点可叠加不可避免的剧痛点数（因此4轮一共4点），。本能力会优先治疗较严重的伤害。你可以用这种快速医疗来再生断肢，这视为你能以它放弃治疗来回复等额肢体妨碍点数，此时你将获得等额剧痛点数（同样是可叠加不可避免的），如果你有肢体妨碍点数，本能力会自然生效（虽然你可以先治疗伤害）。</FONT></P>
+<P><BR><FONT face=宋体>第六质点·平衡<BR>闭 
+D+500/C+1000/B+2000/A+4000/S+8000<BR>以一个6AP动作，选择接触范围内一个目标，若目标是D/C/B/A/S级或更低且体积不高于5的物体，该物体会直接被纳入封解主中，如同一个空间存储物品效果，你可以以另一个标准动作将其放出到手中，若体积高于5，则需要维持接触等同目标体积/5的轮数，只要目标移动离开范围，本能力效果就会中断。<BR>若目标是一个生物，你可以从他身上剥离一项D/C/B/A/S级强化，目标会暂时无法使用那个强化带来的效果，这个效果是立即的，但不会使后续的强化失去前提，也不会使该强化占据的模板位等空缺出来。无法使用强化的效果即使目标死亡后重新复活，也不会变得能够使用，你可以以另一个标准动作解封那项概念，概念会回到原本的地方（也就是目标重新能使用那个强化）。<BR>无论何种用法，封解主中同一时间只能封印一件事物或概念（也就是物品或强化）。<BR>当你死亡时，封印的事物会落在你的格子里，概念则会回到原本的地方，处理同前。<BR>虽说通常一次只能封印一项概念，但若该概念是分级的，且你可以封印其最高等级，那么你也可以封印所有其较低等级的效果。（例如一项D-S的血统，你能封印A级的话，无法封印该血统，但你可以封印S级话，可以选择封印S或者从D-S全封）<BR>强化若被封印，不会涉及因运用强化而获得的结果。（例如强化若给予XP提升，被封印也不会涉及已经获得的XP，若你能把鸡儿拔了当剑断了装不回去，强化被封印也不会让你重新获得鸡儿）。</FONT></P>
+<P><BR><FONT face=宋体>开 C+2000<BR>本能力效果比照通用法术“旅人之镜”。<BR>但是本能力不消耗能量，本能力开启的传送门只有你自己能通过。<BR>本能力也可以开启被封印的事物，通常需要接触到被封印的目标或封印目标的容器，之后进行一次意志判定，与施加封印的判定对抗（例如施法判定，没有的话使用施加封印者的意志判定），施加封印的判定结果增加上其封印效果的支线等级的平方，若你获得成功，目标的封印就会被解除，你至多能解除A级封印效果。<BR>被封印的概念相当宽泛，ST可以自由定夺，例如火影的各种封印术，巫女的封印能力等等。</FONT></P>
+<P><BR><FONT face=宋体>放 C+1000<BR>以一个标准动作，将封解主刺进自身旋转，可以解放身体的潜能，并将灵装与封解主转换为战斗形态，效果持续一个场景。<BR>战斗形态灵装会变为一副淡紫色的中世纪骑士铠甲，上面纹有十二星座的图案，封解主则会由钥匙状的锡杖变为一把长戟。<BR>此形态下，你在所有生理属性和感知上获得2点增强加值。<BR>同时，你的盔甲防御提升8点，并获得防弹，防能量武器特性。<BR>封解主则会变为一把戟（比照基本冷兵器），并获得魔法，正常攻击灵体，破甲4，破魔4，8加骰的特性。</FONT></P>
+<P><BR><FONT face=宋体>解 C+2000<BR>仅能在处于【放】的状态下使用，本能力可以断开能量的连接以及分子的连接<BR>以一个6AP动作，你以封解主的放形态发起一次近战接触攻击，若攻击命中，不会造成通常伤害，而是目标受到10点严重伤害，该伤害无视C级以下能力给予的抗力，吸收，减免，降级等效果。<BR>此外，针对目标身上不高于C级的每个消耗能量，意志，精力启动，并有持续时间的效果，你进行一次意志判定，该效果的使用者以效果的使用判定与你对抗，若没有则是意志判定，若你胜出，该效果就会立即结束。<BR>进化：再投入总计30/140/450点XP，可以针对目标身上不高于B/A/S级效果进行解除。</FONT></P>
+<P><BR><FONT face=宋体>第七质点·胜利<BR>吸纳 C+1000<BR>以一个6AP动作，你能令天使发出吸纳的光照射一个接触范围内的目标，只有物体或自愿生物会受到影响，被纳入天使之中，这如同一个空间存储效果。<BR>同一时间你的天使中只能容纳一件物品或生物，此外，吸纳时目标每5点体积会需要额外1轮时间。<BR>被纳入的生物身上过的时间流会停滞，该生物身上所有基于时间的效果都一时停止，该生物也不会有意识等<BR>以另一个6AP动作，你可以将吸纳的生物或物体放到相邻的各自，若放出的是生物，其将在下一轮你的行动结束后开始行动。</FONT></P>
+<P><BR><FONT face=宋体>千变万化之镜 S+8000<BR>以一个10AP动作，你选择一个模糊视觉范围内一个不具有S级免疫探知效果的目标，你成为目标的完全拟态，不仅是外形，也包括内在结构，效果至多维持一个场景。<BR>你直接使用目标的角色卡而非自己的，但所有属性和技能-5，下限为你自身的相应属性技能等级或初始值（属性为1，技能为0）<BR>你能够使用目标所有不高于A级的效果，但你必须已经知道目标的该项效果（如见他用过等）才能正常使用，这些效果若持续时间高于一场景，则在本效果结束的同时结束。<BR>变形前后，你产生的消耗（包括伤势，能量等）都会以相同的状况继承下来（例如你受伤10A无论生命槽变得更长或更短都不会发生变化）。<BR>变化后，你在各种判定中都可以被视变化后的目标，这可能误导一些效果（有些寻找特定目标的效果可能会分出两个结果）。<BR>在变化形态下你不能进行向主神兑换或自学，若支付永久性代价，在你变化结束后也会一并获得。<BR>当你使用变化后的目标的效果时，若需要进行判定，你以成功数的2/3作为结果，若能获得加值或产生其他任何数值类型的效果也是一样（例如快速医疗，伤害吸收，减免，甚至威力，范围伤害，乃至伤害范围射程等。）<BR>在变化形态前后受到的不良状态点数不会发生变化，但属性的改变可能改变不良状态的层级（例如原本没有进严重的进了，或是原本进严重的出了）<BR>一个由角色自身的效果施加的有持续时间的效果会在变化形态时因置换而结束，同样，由变化形态使用的有持续时间的效果，也会因为置换回自身而结束。<BR>结束变化形态回复原形是一个2AP动作。</FONT></P>
+<P><BR><FONT face=宋体>第八质点·荣耀<BR>该天使没有额外技能树，获得一项额外特性<BR>疾风之速：你的移动速度增加40米。</FONT></P>
+<P><BR><FONT face=宋体>第九质点·基础<BR>进行曲 C+1000<BR>你可以以天使奏响该曲目，使友方听众获得强大的力量。<BR>以一个10AP动作，消耗3点意志和精力启动本能力，并进行一次风度+表达（演奏）判定，所有能在听觉范围内听到你本曲目且被你认定为友方的生物在攻击，防御，豁免判定中获得等同你判定成功数的士气加值，该加值没有上限。<BR>本能力不对你自身生效，此能力启动后需以整轮动作维持，至多持续一个场景。</FONT></P>
+<P><BR><FONT face=宋体>轮舞曲 C+1000<BR>你可以以天使奏响该曲目，对大范围内的生物造成穿透性音波伤害。<BR>以一个10AP动作，消耗3点意志和精力启动本能力，冷却时间1轮，进行一次风度+表达（演奏）判定，对半径30米*风度值球形区域内所有生物造成等同判定成功数/2的音波冲击伤害，上限48点伤害，强韧豁免减少，这种伤害具有魔法，正常影响灵体特性，并可以无需效果线的伤害目标，即使身处载具内或地底也会受到这个伤害影响。</FONT></P>
+<P><BR><FONT face=宋体>镇魂曲 C+2000<BR>你可以以天使奏响该曲目，抚慰区域内所有友方生物的伤痛并缓解不良状态点数。<BR>以一个10AP动作，消耗3点意志和精力启动本能力，并进行一次风度+表达（演奏）判定，将结果数作为医疗点数，你可以将这些医疗点数任意分配给能在听觉范围内听到你本曲目且被你认定为友方的生物，每4点治疗1点恶性伤害，2点治疗1点严重伤害，1点治疗1点冲击伤害，此外，也可以用1点来移除1点任意不良状态点数。</FONT></P>
+<P><BR><FONT face=宋体>独奏 B+2000<BR>你可以以天使奏响该曲目，以音乐控制范围内听众的思想。<BR>以一个10AP动作，消耗3点意志和精力启动本能力，并进行一次风度+表达（演奏）判定，将结果数*1.5作为魅惑点数，所有能在听觉范围内听到你本曲目的目标可以进行意志豁免来减少该魅惑点数，若生物因此魅惑点数进行迷情状态，你可以直接操纵那些生物行动，但只能让他们做出通用动作（即没有任何专长和特殊能力都可以进行的动作），并且如同一般的迷情效果，明显自我牺牲或违背自身道德观的指令会令其再获得一次豁免机会。<BR>你必须以6AP动作维持本能力效果，此能力启动后需以6AP动作维持，至多持续一个场景。<BR><BR><BR>第十质点·王国</FONT><BR><FONT face=宋体>装 C+2000<BR>以一个4AP动作，你接触天使中的王座使其分裂，化为铠甲包裹全身，效果持续至多一个场景或直到你重新召唤天使或所有临时生命耗尽。<BR>你获得16点盔甲防御，具有防弹，防能量武器特性，并获得4点硬度和30点临时生命。<BR>使用技艺时，王座需处于你接触范围内，使用此技艺后，你的王座不能再用于其他效果。</FONT></P>
+<P><BR><FONT face=宋体>最后之剑/终焉之剑 C+2000<BR>以一个移动动作，你以剑接触王座将其吸收，展现极致的破坏力，效果至多持续一个场景或直到你重新召唤天使。<BR>使用技艺时，王座需处于你接触范围内，使用此技艺后，你的王座不能再用于其他效果。<BR>若不处于反转状态下，则你的双刃巨剑变化如下<BR>最后之剑：<BR>本质：魔幻本质<BR>分类：重剑<BR>体积：30<BR>前提：力量11，白刃10，白刃专业：重剑<BR>武器基本属性：武器伤害20L，破甲12，破魔12，8加骰<BR>武器特殊属性：【魔法】【正常攻击灵体】【双手】【威猛】【沉重】【晕眩】【击飞】<BR>横扫：本武器发起攻击时可以攻击等同体积/3米范围内所有目标<BR>锋锐：本武器造成伤害时能无视8点硬度</FONT></P>
+<P><BR><FONT face=宋体>反转形态下漆黑的单刃剑采用如下数据<BR>终焉之剑<BR>本质：魔幻本质<BR>分类：重剑<BR>体积：30<BR>前提：力量11，白刃10，白刃专业：重剑<BR>武器基本属性：武器伤害48L，破甲24，破魔24，8加骰<BR>武器特殊属性：【魔法】【正常攻击灵体】【双手】【威猛】【沉重】【晕眩】【击飞】<BR>终焉之剑：此武器不能进行通常攻击，只能以6AP动作进行一次特殊的范围攻击，攻击后本技艺和天使召唤会一并结束。<BR>这次攻击中可以选择一个方向，造成长度1600米的直线区域，或者长度800米的锥面区域，对该区域内造成等同武器伤害的范围纯能量严重伤害，具有武器的所有特性，还会获得贯穿特性。</FONT></P></FONT></font></div>	
+	<div id="winchm_template_footer"><font size="2px" font face="Microsoft YaHei">版权所有 (C) 2003-2018 lv20112668。</font></div>
+</div>
+
+</body>
+</html>

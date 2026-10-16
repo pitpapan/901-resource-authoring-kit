@@ -1,0 +1,36 @@
+{
+  "task": "examples/portable-trial-brief.md",
+  "scope": "isolated library copy only",
+  "readings": [
+    {"path": "AGENTS.md", "scope": "全文", "via": "Get-Content"},
+    {"path": "authoring/README.md", "scope": "全文", "via": "Get-Content"},
+    {"path": "examples/portable-trial-brief.md", "scope": "全文", "via": "Get-Content"},
+    {"path": "authoring/guide.md", "scope": "全文", "via": "Get-Content"},
+    {"path": "authoring/common_rules.md", "scope": "全文；另见 CR-04 卡和 rg 命中行", "via": "Get-Content, cards, rg"},
+    {"path": "authoring/traits.md", "scope": "第1—28行；另见 TB-01 卡和 rg 命中行", "via": "Get-Content, cards, rg"},
+    {"path": "authoring/samples.md", "scope": "S-04、S-08 卡；标题及 rg 命中行", "via": "cards, rg"},
+    {"path": "rules/901-core-rules-v0.1.md", "scope": "第1—84行及标题行", "via": "Get-Content, rg"},
+    {"path": "content/RE/01_rules/03_其他规则/撰写规则.md", "scope": "第1—85行", "via": "library.py read"},
+    {"path": "content/PHB/01_rules/技能详述.md", "scope": "第70—79行；另见 rg 命中行", "via": "library.py read, rg"},
+    {"path": "content/RE/04_traits/可以确认的特性/数值类特性.md", "scope": "第1—25行；另见 rg 命中行", "via": "library.py read, rg"},
+    {"path": "content/RE/01_rules/03_其他规则/自学规则.md", "scope": "第1—30行", "via": "library.py read"},
+    {"path": "content/RE/01_rules/01_建卡与属性/心智专长.md", "scope": "第189—205行", "via": "library.py read"}
+  ],
+  "calls": {
+    "library_cards": 1,
+    "library_search": 1,
+    "library_read": 5,
+    "rg": 3,
+    "library_cards_ids": ["CR-04", "TB-01", "S-04", "S-08"],
+    "library_search_query": "警戒",
+    "library_search_kind": "rules",
+    "library_search_matches": 0
+  },
+  "uncertainties": [
+    "给另一名护卫的单次检定加值及二选一用途，均为原创类比估价，非RE原文明价。",
+    "能力组和技艺的901实际XP、取得训练资格及是否可自学，仍须单项确认。",
+    "具体场景中的可观察线索、退路有效性、检定资格与DC由主持裁定；技艺不能发现不存在的线索。",
+    "本副本不含具体人物取得记录；草案未获901采用。"
+  ],
+  "outputs": ["outputs/portable-trial.md", "outputs/reading-log.json"]
+}

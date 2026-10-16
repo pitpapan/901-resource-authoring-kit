@@ -1,0 +1,1269 @@
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>场景与动作</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Microsoft YaHei, Simsun, Arial, sans-serif;
+	font-size: 12pt;
+}
+</style>
+
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+</head>
+
+<body>
+
+<div id="winchm_template_top">
+	<div id="winchm_template_button"><A href="传奇属性专长.htm" title="上一主题"><img id="winchm_template_prev" alt="上一主题" src="template2/btn_prev_n.gif" border="0"></a><A href="战斗场景.htm" title="下一主题"><img id="winchm_template_next" alt="下一主题" src="template2/btn_next_n.gif" border="0"></a></div>
+	<div id="winchm_template_navigation"><font size="2px" font face="Microsoft YaHei">帮助 &gt; 
+无限恐怖2.5RE_V1.03先行版 &gt; 规则相关 &gt; 第二章 战斗相关规则 &gt; </font></div>
+	<div id="winchm_template_title"><font size="2px" font face="Microsoft YaHei">场景与动作</font></div>
+</div>
+<div id="winchm_template_container">
+	<div id="winchm_template_content"><font size="3px" font face="Microsoft YaHei">
+<P><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>在无限恐怖游戏规则中，对于时间使用三种分类标准。</FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><STRONG>现实标准：<BR></STRONG></SPAN>现实标准是指秒，分，小时，天，周，月，年等。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>所有规则提及的效果，若带有现实标准的时间概念，皆指向现实标准。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>举例：如果一个效果会持续“一天”，这通常代表地球时间<SPAN lang=EN-US>24</SPAN>小时。因此，如果在一个<SPAN 
+lang=EN-US>1</SPAN>天<SPAN lang=EN-US>=48</SPAN>小时的世界启动这个效果，只会在那个世界持续“半天”。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>特别的，如果有些资源的描述是“效果持续到下一次日出之前”，那么就要遵守不同世界的日出与日落时间。而且<SPAN 
+lang=EN-US>PC</SPAN>有理由认为，在永夜场景下，这个效果会永续持续。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"></SPAN></B></FONT>&nbsp;</P><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">抽象标准：</SPAN></B><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><O:P></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>抽象标准是指回合，轮，场景（遭遇），影片等不存在于现实中的时间概念。<SPAN 
+lang=EN-US><O:P></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>回合：用于描述战斗本身，在一场战斗中所有参战单位依行动顺序经历过一次轮开始后，被认为是经过一个回合。即使一个单位在自己的轮开始后无法行动或被跳过也一样。一个基于“每回合”进行的表述在回合结束时处理。一个回合被认为是现实世界中的<SPAN 
+lang=EN-US>6</SPAN>秒。<SPAN lang=EN-US><O:P></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>轮：用于描述战斗中的人物行动时间，与回合不同，每个参战单位正在经历的轮是不同的，一轮指从一个参战单位的行动开始到下一次他的行动开始，一个持续性效果的时间以发动这一效果的人物为记时标准。当一个人物完成了此效果的发动、效果生效时开始计时，到下一次该人物的行动开始时，称为“持续了一轮”，若一个每轮生效的效果，通常也在这一时点生效。<SPAN 
+lang=EN-US><O:P></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><O:P></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>场景（遭遇）：关于场景，这是一个<SPAN 
+lang=EN-US>ST</SPAN>所控制的类时间概念，用于描述剧情的划分，一段完整的剧情是由若干个场景和过场组成的，通常，每有一次过场被认为是切换了一个场景，而一场战斗本身被划分为一个场景。<SPAN 
+lang=EN-US><O:P></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>例如，一段剧情由玩家在公爵的住所会谈开始，到觐见国王为止，那么在公爵的住所作为一个场景。如果没有发生特殊的状况，公爵将玩家带到国王面前为止均属于过场。觐见国王则是另一个场景，而如果在觐见国王后和国王的卫兵展开战斗，那么这场战斗将作为另一个场景，与觐见国王本身不分入同一场景。<SPAN 
+lang=EN-US><O:P></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>当一段的剧情完结或者转换剧情，或者切换场地等，<SPAN 
+lang=EN-US>ST</SPAN>可以宣布改变了一个场景，一般应用在以下地方：<SPAN 
+lang=EN-US><O:P></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial">1</SPAN><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">），战斗开始切换一个新场景，战斗结束切换一个新场景，该战斗必须为<SPAN 
+lang=EN-US>ST</SPAN>认可有效的战斗，任何队友之间宣布战斗然后切场景刷某些效果的冷却时间，这是违规行为。<SPAN 
+lang=EN-US><O:P></O:P></SPAN></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial">2</SPAN><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">），一段剧情的结束可以视为切换场景，如《星球大战》中西斯皇帝将云度大师扔下去之后，或者在《生化危机》中关闭红皇后的主机后，虽然地点，人物没有变化，但是上一段剧情结束，依然可以视为切换一个场景。<SPAN 
+lang=EN-US><O:P></O:P></SPAN></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial">3</SPAN><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">），所在区域的变化，并且该变化可以影响下一步的剧情走向。如《夺宝奇兵》中进入圣域可以视为切换一个场景，但是无论如何，不可重复进出一个地区，来切场景刷某些技能，这是违规行为。<SPAN 
+lang=EN-US><O:P></O:P></SPAN></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial">4</SPAN><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">），所在时间的变化，并且该变化可以影响下一步的剧情走向。如《盗墓笔记》中倒计时结束。<SPAN 
+lang=EN-US><O:P></O:P></SPAN></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>注：切换场景的最终解释权归<SPAN 
+lang=EN-US>ST</SPAN>所有，请注意，任何人皆不可用一个关键点反复切场景用于恶意搞乱剧情，或者刷某些技能得到好处。<SPAN 
+lang=EN-US><O:P></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: red; mso-bidi-font-family: Arial"><FONT face=宋体>注：战斗时切换场景是一种对持续性效果的平衡性和易用性调整，每当切换场景导致此类效果失效时，<SPAN 
+lang=EN-US>ST</SPAN>应当告知玩家，玩家可以声明其在接下来的场景中让至多等同其（传奇决心<SPAN 
+lang=EN-US>+</SPAN>传奇沉着）种此类效果继续生效，若玩家声明如此做，此类效果若是一个累计值，即使以此方式继续保持效果也会清空重新计算。在场景切换时就会支付所有此类效果的消耗，并预支所有这些效果的动作消耗（假设一个玩家在转入战斗场景时有<SPAN 
+lang=EN-US>11</SPAN>点决心，<SPAN lang=EN-US>11</SPAN>点沉着，12点通用AP计数与上限，意图保留<SPAN 
+lang=EN-US>3</SPAN>个持续一场景的效果，分别需要6通用AP，4通用AP，6通用AP来启动，分别要消耗<SPAN 
+lang=EN-US>3</SPAN>，<SPAN lang=EN-US>5</SPAN>，<SPAN 
+lang=EN-US>5</SPAN>点能量来启动，那么他在进入新场景，也就是战斗场景时，会先支付全部<SPAN 
+lang=EN-US>13</SPAN>点能量，并且需要尽可能的支付预支的通用AP，从而第一轮的通用AP为全部用于支付消耗直到剩余通用AP为0，随后预支自己第一轮结束时恢复的AP点数，如果不够的话预支自己第二轮结束时恢复的AP点数）这种接续有持续时间的效果的方式视同于上一个效果解除后立刻又使用了一个，因此依然需要满足使用条件（例如姿势语言成分等）。先解除这些效果，再计算能续的数量（例如增加沉着决心属性的效果会先被解除）</FONT><SPAN 
+lang=EN-US><BR></SPAN><FONT face=宋体>玩家只能让自己施展的，仅作用在自己身上的效果继续生效，而不能让影响他人的效果继续生效。</FONT><SPAN 
+lang=EN-US><BR></SPAN><FONT face=宋体>若角色尚未完全支付让所有要被继续的效果生效的消耗就已经失去支付能力（例如无法再进行动作），那么在无法支付的时刻起结算之前的消耗分别用于让哪些效果继续，剩下的效果立刻结束。</FONT></SPAN><SPAN 
+lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial"><O:P></O:P></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><O:P></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>影片：用于无限恐怖世界的专有划分方式，从进入影片开始，到离开影片为止视为经过一部影片。这条同样适用于返回一部影片世界。<SPAN 
+lang=EN-US><O:P></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><O:P></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><O:P></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><O:P></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"></SPAN></B></FONT>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"></SPAN></B></FONT>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">战斗标准：</SPAN></B></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN style="COLOR: black; mso-bidi-font-family: Arial"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>战斗标准是指只在战斗中才使用的时间概念，它只用于记战斗动作的行动时间，不记录持续时间。</FONT></SPAN></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN style="COLOR: black; mso-bidi-font-family: Arial"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"></SPAN></SPAN></FONT>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">在每一个回合，轮到战斗单位行动时，战斗单位能以消耗AP作为代价，做出【动作】，特殊的，在战斗外也并不制止PC进行这类动作，将战斗外的6秒视为1轮。</SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><STRONG>AP概述：<BR></STRONG>每个单位都具有一定量的AP（Action 
+Point，即行动点），通过消耗AP来做出行动，若你的角色没有足够的AP便不能做出需要消耗这个数额AP的行动，直到你的角色拥有的当前AP数量能够做出该行动。</SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">一个没有经过调整的角色初始具有10通用AP恢复速度和12通用AP上限，一般情况下，除非资源单独说明增加AP上限/AP恢复速度，否则默认同时增加AP上限与AP恢复速度。</SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">角色的行动轮结束时，角色会恢复AP恢复速度点AP，但拥有的AP数量不能超出AP上限。<BR>（AP、AP恢复速度、AP上限不适用于小数取整规则，参照XP小数进位）<BR>每轮恢复AP时可以通过承受至多2点不可避免的疲劳点数来恢复等量通用AP。这个疲劳点数总是可以叠加。<BR>无人机等不受疲劳点数影响的单位则会受到等额点不可避免的严重伤害。</SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">通常而言进入战斗的角色AP数量为自己的上限，因为战前的时间已经足够将自己的AP恢复满。<BR></P></SPAN></FONT>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN style="COLOR: black; mso-bidi-font-family: Arial"><FONT color=#ff0000>可选规则：每名角色每回合通用AP的恢复速度变为12点，但移除承受疲劳点数获得AP点数的规则。<BR>可选规则：若AP恢复速度与AP上限存在小数，则统一向下取整使用，包括心智与躯体AP。<BR></FONT></SPAN></FONT><FONT color=#000000><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"></SPAN></FONT></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT color=#000000><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><STRONG>躯体AP与心智AP：<BR></STRONG>除了通用AP之外还存在躯体AP和心智AP，这视作你角色的躯体能够做出更多更快的行动/你角色的思维速度更快与算力要更高；这两种AP所能做的事情是有局限的，但等额心智AP与等额躯体AP可以合起来作为等额通用AP使用。当你可以使用躯体与心智AP支付预支的AP消耗时（包括两者结合起来作为通用AP支付预支AP消耗），你同样需要将其尽可能地支付预支的AP。<BR>除特殊说明了该行动不能由通用AP做出之外，角色总是可以将通用AP作为躯体/心智AP使用。<BR>躯体AP与心智AP同样遵照AP的相关规则，其初始恢复速度与上限都为0。<BR></SPAN></FONT></FONT><FONT face=宋体><SPAN style="COLOR: black; mso-bidi-font-family: Arial"><FONT color=#ff0000>当动作/行动中没有说明消耗通用AP/躯体AP/心智AP时，默认为该动作/行动消耗的AP数值为通用AP。<BR><FONT color=#000000>通常而言，心智与躯体AP的初始恢复速度与上限都为0。<BR><FONT color=#ff0000>可选规则</FONT>：若某项属性能够增加AP恢复速度或上限（包括两者都增加），每获得20点该属性的AP收益后，之后原本20点该属性的收益需要20+N（N为未应用该可选时你获得的20点该属性的收益乘以20，N最高为40点）点该属性才能获得，折算为原本每1点属性的收益为（20+N）÷20点才能获得。例：若你具有20点智力获得2点心智AP恢复速度与上限，之后需要再提高40点智力才能获得2点心智AP恢复速度与上限，折算为20智力之后每2点智力才能提高0.1心智AP恢复速度与上限直到你具有60点智力，再之后需要再提高60点才能获得2点心智AP恢复速度与上限，折算为60智力之后每3点智力才能提高0.1心智AP恢复速度与上限。<BR></FONT><BR></FONT></SPAN></FONT></P>
+<P><FONT face=宋体><SPAN style="COLOR: black; mso-bidi-font-family: Arial"><FONT color=#ff0000><SPAN style="COLOR: black; mso-bidi-font-family: Arial"><FONT color=#000000><STRONG>临时AP：<BR></STRONG></FONT></SPAN></FONT></SPAN></FONT><FONT face=宋体><SPAN style="COLOR: black; mso-bidi-font-family: Arial"><FONT color=#ff0000><SPAN style="COLOR: black; mso-bidi-font-family: Arial"><FONT color=#000000>部分能力可能会为你提供临时的AP，该AP不占用AP恢复速度与AP上限，在消耗AP时若无额外声明则优先使用，若未消耗则会在持续时间结束后失去，非同个来源或资源的临时AP之间可以共存。<BR><FONT color=#ff0000>心智、躯体、通用AP之间的转化使用同样需要优先消耗该AP。<BR></FONT></P></FONT></SPAN></FONT></SPAN></FONT>
+<P><FONT face=宋体><SPAN style="COLOR: black; mso-bidi-font-family: Arial"><FONT color=#ff0000></FONT></SPAN></FONT>&nbsp;</P>
+<P><FONT face=宋体><SPAN style="COLOR: black; mso-bidi-font-family: Arial"><FONT color=#ff0000>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><BR></FONT>战斗单位能进行以下四种“战斗动作”，</SPAN></FONT><FONT face=宋体><FONT color=#ff0000>一个消耗AP的行为除非声明了并非动作，否则也按照0消耗为自由动作，1到12为标准动作，13以上消耗为复杂动作。</FONT><BR>动作有以下几种：<BR>自由动作：自由动作的AP消耗为0，在轮到参战单位行动时，通常可以做无限多个，但是除了说话之外，大多数自由动作不能在自己的行动之外进行。并且针对同一个行为，只能使用一个自由动作（*ST可以将部分自由动作视作一轮的冷却时间使单位可以应用冷却缩减，具体由ST判定）。同时，<SPAN 
+lang=EN-US>ST</SPAN>有权限定在一个回合中自由动作的最大数量。在主神空间中要求主神兑换也是一个自由动作。</FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric">若自由动作有标有冷却时间，则其不具有1轮1次的限制。</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric">但若是通过某些效果将该自由动作的基础冷却时间降低为无，其重新具有每轮1次的限制。<BR></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric">如果有些效果可以将标准动作的AP消耗降低为0，若无特殊说明，其变为自由动作，也同时具有每轮1次的限制</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体></FONT>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体>标准动作：标准动作是一个单位所做的多数消耗AP动作的统称。<BR>原本猪版的迅捷、移动、标准、整轮、全回合动作全部被归类为标准动作，但基础AP消耗不会超过12，<FONT color=#ff0000>若因为各种原因使你的标准动作AP消耗超过你的AP恢复速度，则视为可以作为复杂动作进行处理，以此来支付本回合未能支付的剩余AP</FONT>。若规则中出现仍有出现迅捷、整轮、全回合动作的动作消耗，请将其理解为消耗2、10、12点通用AP的标准动作，同时向机器反馈，标准动作若未注明AP消耗则默认为6AP消耗。<BR></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体></FONT>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体>复杂动作：</FONT><FONT face=宋体>复杂动作所需要的行动点数量通常并非一个标准回合期间能够全部支付，其需要的AP通常在12点以上，<FONT color=#ff0000>复杂动作属于标准动作的一种。</FONT><BR>你在声明使用复杂动作时，决定消耗AP数向复杂动作支付后若未达到所需总AP你的回合立即结束，此后的每一回合，每次到你行动时，你决定向复杂动作支付一定数量的AP后你的回合立即结束，直到你向其支付的AP总数达到了其所需的行动点后，该动作开始生效而无需再跳过回合。<BR>复杂动作执行期间，如果无其他特殊说明，你若执行了反射动作与触发准备动作的非自由动作准备内容，复杂动作也将被打断，但自由动作不受限制。<BR></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体>特殊：因为机制的原因，复杂动作与标准动作并没有严格的区别，只是复杂动作通常角色无法一轮完成，只要你的AP够多，也可以一回合完成，因此<FONT color=#ff0000>复杂动作只是个消耗AP较多的标准动作</FONT>。</FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric">&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric">&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric">&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体>X</FONT><FONT face=宋体>轮动作：X轮动作必须在你的行动开始时声明，之后你的本回合立即结束且消耗10点通用AP，之后每次到你行动时，你的回合都立即结束且消耗10点通用AP，直到你的回合结束过X次后，下一次你的行动开始时生效。举例而言，1轮动作意味着你在行动开始时宣告执行，回合立刻结束，下一轮你的行动开始时动作完成。<BR>X轮动作执行期间，你若执行了反射动作与触发准备动作的非自由动作准备内容，X轮动作也将被打断，但自由动作不受限制。<BR><BR><BR></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><STRONG><SPAN 
+style="FONT-FAMILY: 宋体; COLOR: red; mso-bidi-font-family: Arial">减少AP消耗：资源中有些能力允许让你使用的动作的AP消耗降低，如果没有特殊声明，动作的AP消耗最多只能被降低至2AP消耗。</SPAN></STRONG><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><O:P></O:P></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><O:P></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><STRONG><SPAN 
+style="FONT-FAMILY: 宋体; COLOR: red; mso-bidi-font-family: Arial">额外AP与额外的临时AP：许多资源会增加你的AP恢复速度与AP上限或是临时AP，同一轮中，不同效果允许给予你的额外AP与临时AP是叠加的（临时AP因为可能限定某种用途使用所以各自独立生效），但同一效果是不叠加的，即使这个同一效果来自不同对象也一样，一个角色不能被多个角色用同一效果生效多次来赋予AP增加或临时AP（尽管每次未必是一个），例如多个<SPAN 
+lang=EN-US>CO</SPAN>指挥官就不能互相获得多个临时AP。</SPAN></STRONG><BR><BR><BR><BR>******除了以上动作之外，还有一些特殊的动作，它们与标准的战斗动作有所不同。</FONT></P><FONT face=宋体>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><BR>4AP/反射动作：某些特定的资源或者能力可以让人施展反射动作，反射动作一般可以在任意时刻做出，可以中断他人正在进行的动作，在反射动作结束后，如果被中断的动作还能进行，那么必须继续进行，否则被中断的行动自动失败。（若行动者攻击的目标使用反射动作离开，攻击仍需继续进行，因为行动仍然可以做出，但若目标使用反射动作让攻击者陷入了不能行动的状态，例如死亡，则攻击行动失败）。用反射动作离开攻击范围时，则在应对此次攻击时闪避防御（包括基本防御）*2，若攻击为范围攻击并且允许躲避，那么用于抵消范围攻击伤害的判定结果中成功数*2。<BR>若反射动作用于躲避攻击但没有完全躲开的情况下，先结算攻击产生的效果，再结算反射动作行动，因此你可以进入无法完成反射动作行动的状况（例如被擒抱，或者杀死），这时反射动作的后续内容不会继续进行。<BR>此外，反射动作可以预支本轮结束时恢复的AP做出，但你所预支的AP总和不能超出你本轮的AP恢复速度<BR></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric">反射动作通常有以下两种类型，其使用条件与AP消耗也各不相同。<BR>反射使用：若某个动作本身就被声明为反射动作使用且未说明消耗AP数量，则使用其需要4AP（若说明了消耗的AP数量则消耗对应的AP数量）。直到你的下一个行动轮之前，再次使用该类型的反射动作需要额外付出2AP（这个额外消耗不会与自身叠加）。（通常没有相关专长兑换的情况下只有伏地等少数动作能以这种方式做出。）<BR>强行使用：你可以以消耗更多的AP来以反射动作的形式使用一个标准或自由动作。<BR>但此时的AP消耗为【原动作消耗额外+4或原动作AP消耗增加一倍】取高点同类AP（即原动作消耗心智AP时则额外消耗心智AP，自由动作默认消耗通用AP）。</FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN style="COLOR: black; mso-bidi-font-family: Arial"><SPAN 
+style="COLOR: red; mso-bidi-font-family: Arial"><FONT face=宋体>若反射动作用于离开攻击、效果的射程或范围效果的范围，先结算攻击，效果或范围效果，再结算反射动作行动，因此你可以进入无法完成反射动作行动的状况（例如被擒抱，或者杀死），这时反射动作的后续内容不会继续进行。由于攻击，效果或范围效果先结算，相应的射程，定位等问题适用反射动作进行前的。</FONT><FONT face=宋体><BR></FONT></SPAN></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"></SPAN></FONT>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"></SPAN></FONT>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">准备动作：准备动作可以让你预备迟一些做一个动作。在你的回合，你可以消耗4通用AP以宣言一个准备动作（例如：当对方攻击我时，我立刻后退），你可准备的动作可以是自由动作、标准动作，其消耗不得超过12AP且你当前AP可以支付其AP消耗的至多一半，该动作具体进行的内容被称为准备的内容，例如移动，攻击等。你必须先指定准备内容和它的触发条件，也就是你要在何种条件下触发准备内容。之后只要该准备内容未被触发，你都可以在达成触发条件时选择是否要触发准备内容。准备内容正好发生在触发条件结算前。如果这个触发动作是其他人动作的一部分，那么你将打断这个人的动作，先结算你的准备内容。如果你在完成你的准备内容后，他还可以继续该动作，那他可以正常继续他的动作。你宣言的动作所未支付的消耗的AP在你的本回合结束恢复AP时将被消耗，就像你透支了它们一般，若你已经没有可用于做出准备内容的剩余AP可被消耗，你就无法触发需要跳过该回合。没有使用的准备动作（包含了触发条件和准备内容）至多维持一个场景。<BR>准备内容同时只能存在1+（传奇操纵+传奇沉着）/2个<BR>如果多个生物在同一时点触发了准备动作，以先攻值的顺序结算，先攻高的生物先结算。<BR>请注意，准备内容的其他影响只有在触发时才生效这也意味着，若其有冷却时间或其他限制，可能会因为尚在冷却中或不满足其他限制而导致无法使用。（你当然可以以冷缩的形式强行使用，只是你未必能支付额外消耗）</SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN style="COLOR: black; mso-bidi-font-family: Arial">维持： 
+有些效果需要在产生后，将心神维持在上面以维持或延长动作的持续时间，有时也标注为专注。每个效果需要花费的专注程度可能是不同的，有些效果可能以0AP的自由动作维持，而有些可能需要6AP的标准动作来维持。凡需要超出0AP消耗的自由动作来维持的效果都被认为需要专注，但若一个效果没有声明需要专注来维持，也没有声明维持动作，则不视为其需要动作或专注来维持。专注可能被打断，参考【<SPAN 
+lang=EN-US><A 
+href=""><FONT color=#0033cc><SPAN lang=EN-US><SPAN lang=EN-US>战斗规则-</SPAN></SPAN><SPAN 
+lang=EN-US><SPAN 
+lang=EN-US>施法规则</SPAN></SPAN></FONT></A></SPAN>】中的专注说明。并且你和该效果之间需要存在视线和效果线，除非注明不需要。</SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">专注一般都是先有一个开启动作，开启后，该效果默认持续1轮，若需要延续则需要维持专注，无论下回合角色是否维持该效果，本效果一旦启动，则视为目标进入专注中。<BR>每回合是否维持专注需要在角色轮开始时确定，确定后若选择维持，则对应动作与AP消耗直接失去。<BR>若没有说明专注所需的动作，则默认与开启所需的动作和AP消耗相同，若开启动作为标准动作6AP，则专注为标准动作6AP。<BR>专注中的生物若在支付动作AP消耗后仍可行动就可以如常行动。<BR>无论如何，一个人只能同时维持一个专注需要专注的行动，即使维持专注不需要动作。这意味着角色无法在同一轮中开启或者使用2个需要专注维持的行动。</SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT color=#ff0000 face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">除了反射动作，准备动作和自由动作进行的说话外，任何动作都不能插入其他动作之中。只能在一个动作之前或之后进行，除非资源或专长中有特别说明。</SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><BR></SPAN></B></FONT>&nbsp;</P>
+<P><FONT face=宋体><STRONG><FONT color=#ff0000>冷却时间与冷却缩减：</FONT></STRONG><BR><STRONG>冷却时间：</STRONG><BR>部分动作或效果会存在冷却时间，即使其是个被动效果，多见于可以进行攻击或造成伤害的迅捷效果。<BR>当一个具有冷却时间的效果被使用，则其进入冷却，这意味着你必须再经过【冷却时间】的轮数或者说时间后才能再次使用。<BR><FONT color=#ff0000>特殊的，st可以将部分具有比如【每轮一次】等等时间限制的类似的行为视作具有对应限制的冷却时间（例如自由动作中丢弃手持物品的行为），但解释权归st所有，很多效果中的X轮限制都是为了避免采用冷却计算而出现破坏性后果而设置的。</FONT><BR><STRONG>冷却缩减：</STRONG>你可以通过消耗来减少效果的冷却时间，从而做到在短时间连续使用带有冷却时间的效果。<BR>你可以支付2点AP以及2点精力使一个行为或效果的冷却时间缩短一轮（或6秒），当你本回合再次通过本方法缩短该行为或效果的冷却时间时，消耗增加一倍。<BR>（第一次2消耗，第二次及之后都是4消耗）<BR>你可以在你的回合外进行冷却缩减，但相应的你必须能且要将进行冷缩的效果在进行冷却缩减的时点施展（既你要能够支付冷缩与该效果本身的消耗，并在当时用出来）。<BR></FONT></P></SPAN></FONT><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"></SPAN></B></FONT>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"></SPAN></B></FONT>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">单次动作和延长动作：</SPAN></B><SPAN 
+lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial"><o:p></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>在无限恐怖的游戏中，人物所进行的任何行为都可以被区分为“单次动作”或者“延长动作”，这和以消耗时间划分的战斗标准中动作并不相同，但那些动作所进行的内容也是行为，甚至一个战斗动作可能进行多次行为（例如一个标准动作发起了多次攻击）</FONT></SPAN><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>。<SPAN lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>有些时候，人物所做的事只需很少的步骤，或者他只有一次机会，而另一些时候他需要精工慢做、一步步完成任务。这将动作分成了两种：<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"></SPAN></B></FONT>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"></SPAN></B></FONT>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">单次动作：</SPAN></B><SPAN 
+lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial"><o:p></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>单次动作指那些经过一次判定来决定结果的动作。某种行为是一个单次动作，意味着这个行为只要一个或少数几个步聚就可以完成，而且通常不能或不需要经过反复重复工作来加深其完美度。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>单次动作通常包括但不限于以下内容：跳过一个坑、投篮、进行一次攻击、侦察、打开一扇门或者收集线索之类。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>进行单次动作所需要的时间并不固定。有些动作只需要数秒钟，但有一些也可能需要几分钟或者更长。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"></SPAN></B></FONT>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"></SPAN></B></FONT>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">延长动作：</SPAN></B><SPAN 
+lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial"><o:p></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>延长动作指需要多次判定、累积成功数来完成的动作。某种行为是一个延长动作，意味着这个行为需要反复进行多个步骤，通过一步一步的深度加工来使工作变得完美。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>延长动作通常包括但不限于以下内容：制作某种东西、完成作品、完成仪式、进行表演、修复某些东西、从某种情况中摆脱。 <SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>延长动作的难度： <SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>延长动作的难度（<SPAN 
+lang=EN-US>DC</SPAN>）表明你需要完成多少工作量才能做好这件任务。你需要进行多次判定，记录每一次的成功数。当你的成功数总和等于或超过难度时，你完成了这件工作。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>与单次动作不同，工作的完美度已包含在难度中。例如，“一篇能让人看懂的小说”<SPAN lang=EN-US>DC</SPAN>可能为<SPAN 
+lang=EN-US>5</SPAN>，而“一篇吸引人的小说”<SPAN lang=EN-US>DC</SPAN>就可能为<SPAN 
+lang=EN-US>7</SPAN>，“能够出版单行本并赚取稿费的小说”<SPAN lang=EN-US>DC</SPAN>或许就有<SPAN 
+lang=EN-US>15</SPAN>之高。你无法在工作的中途降低标准以改变<SPAN 
+lang=EN-US>DC</SPAN>——艰难的道路不能回头。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>延长动作的周期：<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>一个延长动作进行一次判定的时间称为该延长动作的周期。例如，写小说需要每天进行一次判定，则其周期为天。规则中会给出一些范例，其他具体每种行为的周期应由<SPAN 
+lang=EN-US>ST</SPAN>参考范例来把握。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>对某些行为而言，人物可以在两次周期之间进行休息、出外冒险等行为，而将行为暂时搁置。而另一些动作需要一口气做完。依搁置时间不同，有时会使已获得的成功数减少。例如，在画油画时，由于多放置了一晚，使颜料过于干涸，难以将新的色彩与底色融合。这种情况以<SPAN 
+lang=EN-US>ST</SPAN>的判断为准。<SPAN lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>延长动作的期限：<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>有些延长动作必须在一定的时间内做完，否则该动作就会失败。例如，一个血族可能需要用血来创造一个结界，他必须在那些刚从人体内抽取的血液失去活性之前完成这个仪式。在这种情况下，人物必须在期限内获得足够的成功数。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>延长动作是否可以不连续进行以累积成功数，不连续进行时受到的惩罚等，均有<SPAN 
+lang=EN-US>ST</SPAN>视情况决定，除非对应规则中有明确说明是否必须连续。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><STRONG><SPAN 
+style="FONT-FAMILY: 宋体; COLOR: red; mso-bidi-font-family: Arial"></SPAN></STRONG>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><STRONG><SPAN 
+style="FONT-FAMILY: 宋体; COLOR: red; mso-bidi-font-family: Arial"></SPAN></STRONG>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><STRONG><SPAN 
+style="FONT-FAMILY: 宋体; COLOR: red; mso-bidi-font-family: Arial">影响延长动作：</SPAN></STRONG><SPAN 
+lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial"><o:p></O:P></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><STRONG><SPAN 
+style="FONT-FAMILY: 宋体; COLOR: red; mso-bidi-font-family: Arial">延长动作虽然往往一个周期中只进行一次判定，但其实始终都在做这一件事，因此一般只对单次判定有效的效果对延长动作的判定无效。</SPAN></STRONG><SPAN 
+lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial"><o:p></O:P></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><STRONG><SPAN 
+style="FONT-FAMILY: 宋体; COLOR: red; mso-bidi-font-family: Arial">此外，延长动作通常会被视为一组场景而非一个，持续时间仅为一个场景的效果也无法影响延长动作，但具体到特定延长动作，ST可以决定其是否会在一个场景内完成，以避免恶意转换场景。</SPAN></STRONG><SPAN 
+lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial"><o:p></O:P></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><STRONG><SPAN 
+style="FONT-FAMILY: 宋体; COLOR: red; mso-bidi-font-family: Arial">其他持续时间超过延长动作周期的效果可以正常生效。</SPAN></STRONG><SPAN 
+lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial"><o:p></O:P></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">反复进行的单次动作：</SPAN></B><SPAN 
+lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial"><o:p></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>有些动作虽然需要反复进行，但在时间紧迫的场合，我们并不将它作为一个延长动作，而是视为一连串的单次动作来处理，这是因为进行的每一步都会对局势有所影响。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>例如，杨康在《僵尸肖恩》中与主角失散，他想要爬上房顶去眺望主角的位置（这是一个运动技能的检定）。但他身边围绕着数只僵尸，这些僵尸会试图将他扯下来。因此，他在每一轮里究竟能爬多高，决定了僵尸对他的威胁和他对主角的助力分别有多大。这时，视为他每轮用一个移动动作进行运动判定。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>若在并不紧迫的场合，亦可将需反复进行的动作变为延长动作，以简化游戏流程。例如，故事结束后，杨康想要在屋顶上赏月饮酒，他爬上屋顶的行为可以用延长动作来完成。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">行为与行动：</SPAN></B><SPAN 
+lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial"><o:p></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>规则中有时以行动和行为来描述，将行动看作以轮为概念的计数（因此每行动相当于每轮，即本轮开始后，到下轮开始前），行为则基于动作的具体内容，例如以自由动作说话是一个行为，以自由动作发动某个效果就是另一个行为。</FONT></SPAN></P></font></div>	
+	<div id="winchm_template_footer"><font size="2px" font face="Microsoft YaHei">版权所有 (C) 2003-2018 lv20112668。</font></div>
+</div>
+
+</body>
+</html>

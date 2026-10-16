@@ -1,0 +1,946 @@
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>对特定部位攻击</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Microsoft YaHei, Simsun, Arial, sans-serif;
+	font-size: 12pt;
+}
+</style>
+
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+</head>
+
+<body>
+
+<div id="winchm_template_top">
+	<div id="winchm_template_button"><A href="特殊攻击动作.htm" title="上一主题"><img id="winchm_template_prev" alt="上一主题" src="template2/btn_prev_n.gif" border="0"></a><A href="协助.htm" title="下一主题"><img id="winchm_template_next" alt="下一主题" src="template2/btn_next_n.gif" border="0"></a></div>
+	<div id="winchm_template_navigation"><font size="2px" font face="Microsoft YaHei">帮助 &gt; 
+无限恐怖2.5RE_V1.03先行版 &gt; 规则相关 &gt; 第二章 战斗相关规则 &gt; 战斗规则 &gt; </font></div>
+	<div id="winchm_template_title"><font size="2px" font face="Microsoft YaHei">对特定部位攻击</font></div>
+</div>
+<div id="winchm_template_container">
+	<div id="winchm_template_content"><font size="3px" font face="Microsoft YaHei"><font size="3" font face="Microsoft YaHei"><P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">对特定部位攻击</SPAN><SPAN lang=EN-US 
+style="mso-bidi-font-family: Arial"><?XML:NAMESPACE PREFIX = "O" 
+/><O:P></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">这是指定攻击敌人身上某处要害的动作。</SPAN><SPAN 
+lang=EN-US style="mso-bidi-font-family: Arial"><O:P></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">对特定部位攻击一般来说包含在一次攻击动作中。</SPAN><SPAN 
+lang=EN-US style="mso-bidi-font-family: Arial"><O:P></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">视攻击部位而定，你在这次攻击中受到一定的无名减值。若被攻击者意识到了你的这次攻击且基本防御未失去（这意味着他没有处于措手不及或定身状态等失去基础防御的情况，但不包括被降低至<SPAN 
+lang=EN-US>0</SPAN>的情况），他的防御会增加其基础防御<SPAN lang=EN-US>*</SPAN>这个数字<SPAN 
+lang=EN-US>-1</SPAN>的倍数，在计算此数值时对基础防御的减值不生效，增加的部分也视为基础防御，并且与你是否降低了部位攻击减值的数字无关。若目标处于无助等完全无法行动的状态下，你也不会受到无名减值。</SPAN><SPAN 
+lang=EN-US style="mso-bidi-font-family: Arial"><O:P></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">举例而言，你攻击目标的太阳穴会受到<SPAN 
+lang=EN-US>5DP</SPAN>减值，而目标的基本防御增加<SPAN lang=EN-US>4</SPAN>倍，变为原本的<SPAN 
+lang=EN-US>5</SPAN>倍，（常人可能是<SPAN 
+lang=EN-US>10</SPAN>点），即使你减少了自己的部位攻击减值，也不会改变目标因此获得的基本防御值。<BR></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">注意，这里举出的范例调整值以人类为例，不同生物可能有不同的调整值，同时你可能需要进行一个相应的学识判定来推测特定生物的特定部位。</SPAN><SPAN 
+lang=EN-US style="mso-bidi-font-family: Arial"><O:P></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">此外，攻击者的体积调整每比被攻击者大<SPAN 
+lang=EN-US>1</SPAN>点，这个减值和基本防御倍率增加<SPAN 
+lang=EN-US>1</SPAN>点，被攻击者的体积调整每比攻击者大<SPAN 
+lang=EN-US>1</SPAN>点，这个减值和基本防御倍率减少<SPAN lang=EN-US>1</SPAN>点。</SPAN><SPAN 
+lang=EN-US style="mso-bidi-font-family: Arial"><O:P></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">你只能针对在你敏感范围（一般是视距）内的目标进行特定部位攻击。</SPAN><SPAN 
+lang=EN-US style="mso-bidi-font-family: Arial"><O:P></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">攻击特定部位会有不同的特殊效果，视情况而定。以下是一些范例：</SPAN><SPAN 
+lang=EN-US style="mso-bidi-font-family: Arial"><O:P></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">造成晕眩（例如攻击头部）：减值<SPAN 
+lang=EN-US>3DP</SPAN>，你的攻击不会造成伤害，而是造成实际伤害数点晕眩点数，目标进行强韧豁免，每有<SPAN 
+lang=EN-US>1</SPAN>点成功数，将<SPAN lang=EN-US>1</SPAN>点晕眩变为<SPAN 
+lang=EN-US>1</SPAN>点本应造成的伤害。这通常表示你攻击了目标的思考位置。</SPAN><SPAN lang=EN-US 
+style="mso-bidi-font-family: Arial"><O:P></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">瘫痪感官（例如攻击眼睛，耳朵）：减值<SPAN 
+lang=EN-US>5DP</SPAN>，你的攻击不会造成伤害，而是造成实际伤害数点耳聋或目眩点数，目标进行强韧豁免，每有<SPAN 
+lang=EN-US>1</SPAN>点成功数，将<SPAN lang=EN-US>1</SPAN>点耳聋或目眩变为<SPAN 
+lang=EN-US>1</SPAN>点本应造成的伤害。这通常表示你攻击了目标的感官部位</SPAN><SPAN lang=EN-US 
+style="mso-bidi-font-family: Arial"><O:P></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">造成恶心（例如攻击咽喉）：减值<SPAN 
+lang=EN-US>3DP</SPAN>，你的攻击不会造成伤害，而是造成实际伤害数点恶心点数，目标进行强韧豁免，每有<SPAN 
+lang=EN-US>1</SPAN>点成功数，将<SPAN lang=EN-US>1</SPAN>点恶心变为<SPAN 
+lang=EN-US>1</SPAN>点本应造成的伤害。这通常表示你攻击了目标的消化部位</SPAN><SPAN lang=EN-US 
+style="mso-bidi-font-family: Arial"><O:P></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">造成剧痛（例如攻击胸部，鼻梁）：减值<SPAN 
+lang=EN-US>3DP</SPAN>，你的攻击不会造成伤害，而是造成实际伤害数点剧痛点数，目标进行强韧豁免，每有<SPAN 
+lang=EN-US>1</SPAN>点成功数，将<SPAN lang=EN-US>1</SPAN>点剧痛变为<SPAN 
+lang=EN-US>1</SPAN>点本应造成的伤害。这通常表示你攻击了目标身上柔弱易伤的位置</SPAN><SPAN lang=EN-US 
+style="mso-bidi-font-family: Arial"><O:P></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN style="COLOR: black; mso-bidi-font-family: Arial">造成致命伤<SPAN 
+lang=EN-US>(</SPAN>例如攻击太阳穴，心脏<SPAN lang=EN-US>)</SPAN>：减值<SPAN 
+lang=EN-US>5DP</SPAN>，目标强韧豁免。攻击造成的实际伤害结果每比目标豁免结果高<SPAN 
+lang=EN-US>1</SPAN>点，可以将本次造成的伤害中的<SPAN lang=EN-US>1</SPAN>点伤害上升<SPAN 
+lang=EN-US>1</SPAN>级。这通常表示你攻击了目标身上的致命部位</SPAN><SPAN lang=EN-US 
+style="mso-bidi-font-family: Arial"><O:P></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">肢体破坏（例如攻击四肢）：减值<SPAN 
+lang=EN-US>2DP</SPAN>，你的攻击不会造成伤害，而是选择一条肢体造成实际伤害数点肢体妨碍点数，目标进行强韧豁免，每有<SPAN 
+lang=EN-US>1</SPAN>点成功数，将<SPAN lang=EN-US>1</SPAN>点肢体妨碍变为<SPAN 
+lang=EN-US>1</SPAN>点本应造成的伤害。这表示攻击了你的肢体</SPAN><SPAN lang=EN-US 
+style="mso-bidi-font-family: Arial"><O:P></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN style="COLOR: black; mso-bidi-font-family: Arial">击落武器：减值<SPAN 
+lang=EN-US>3DP</SPAN>，不造成伤害，目标以<B>力量<SPAN 
+lang=EN-US>+</SPAN>白刃</B>对抗你的判定结果，失败则人造非肉搏武器脱手，落地。若攻击方以手或类似结构的天生武器进行攻击，可夺取武器。</SPAN><SPAN 
+lang=EN-US style="mso-bidi-font-family: Arial"><O:P></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">击破物品（手持位）：减值<SPAN 
+lang=EN-US>3DP</SPAN>，本次伤害不对角色进行结算，而对角色手持物品进行伤害结算。</SPAN><SPAN lang=EN-US 
+style="mso-bidi-font-family: Arial"><O:P></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN style="COLOR: black; mso-bidi-font-family: Arial">击破物品（非饰品位<SPAN 
+lang=EN-US>/</SPAN>盔甲位）：减值<SPAN 
+lang=EN-US>3DP</SPAN>，本次伤害不对角色进行结算，而对物品进行伤害结算。（例如鞋子，头盔，披风，手套等）</SPAN><SPAN 
+lang=EN-US style="mso-bidi-font-family: Arial"><O:P></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">击破物品（盔甲位）：减值<SPAN 
+lang=EN-US>2DP</SPAN>，本次伤害不对角色进行结算，而对物品进行伤害结算。</SPAN><SPAN lang=EN-US 
+style="mso-bidi-font-family: Arial"><O:P></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">击破物品（饰品位）：减值<SPAN 
+lang=EN-US>4DP</SPAN>，本次伤害不对角色进行结算，而对物品进行伤害结算。（如戒指，护符等）</SPAN><SPAN lang=EN-US 
+style="mso-bidi-font-family: Arial"><O:P></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">注：天生武器免疫武器击破和武器击落，但可能因肢体破坏而无法使用一些标注为特定肢体使用的天生武器。</SPAN><SPAN 
+lang=EN-US style="mso-bidi-font-family: Arial"><O:P></O:P></SPAN></FONT></P></FONT></font></div>	
+	<div id="winchm_template_footer"><font size="2px" font face="Microsoft YaHei">版权所有 (C) 2003-2018 lv20112668。</font></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,862 @@
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>圆桌骑士</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Microsoft YaHei, Simsun, Arial, sans-serif;
+	font-size: 12pt;
+}
+</style>
+
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+</head>
+
+<body>
+
+<div id="winchm_template_top">
+	<div id="winchm_template_button"><A href="狂气之瞳.htm" title="上一主题"><img id="winchm_template_prev" alt="上一主题" src="template2/btn_prev_n.gif" border="0"></a><A href="狩魔猎人.htm" title="下一主题"><img id="winchm_template_next" alt="下一主题" src="template2/btn_next_n.gif" border="0"></a></div>
+	<div id="winchm_template_navigation"><font size="2px" font face="Microsoft YaHei">帮助 &gt; 
+无限恐怖2.5RE_V1.03先行版 &gt; 杂项 &gt; 等待有缘人重置的资源 &gt; </font></div>
+	<div id="winchm_template_title"><font size="2px" font face="Microsoft YaHei">圆桌骑士</font></div>
+</div>
+<div id="winchm_template_container">
+	<div id="winchm_template_content"><font size="3px" font face="Microsoft YaHei"><font size="3" font face="Microsoft YaHei"><P><FONT face=宋体>圆桌骑士<BR>D级：加雷思变化<BR>价格：D+1000<BR>能量池：怒气<BR>技能树：开启D级圆桌骑士技能树<BR>特性：战斗如勇气，盔甲大师，骑士七艺（双特性），谦卑，光明生物（负特性）<BR>战斗如勇气：人物获得了卓绝的勇气，无视前进路上的一切艰难。人物的意志检定获得1点附加成功。<BR>骑士七艺：骑士在少年时经历过的无数训练融入身体。在白刃、运动、表达-朗诵、动物沟通、生存上，若之前没有级数则自动提升到1级。若已有级数则在有级数的技能上获得对应专业如下，白刃上获得枪，剑，在运动上获得自我保护，表达-朗诵上获得诗歌，动物沟通上获得骑术，生存上获得自我保护专业。<BR>盔甲大师：骑士懂得如何通过精确的动作与合适的穿戴方法利用自己的护甲。当骑士穿戴重甲时，无论对手使用多高的破甲，他总能保留盔甲特性，不因为足够的穿甲而失效，但防御值依然正常被击穿。<BR>谦卑：当获得加雷斯变化时，每当人物通过扮演放弃利用称号、地位、身份为自己谋取利益的机会，回复1点意志并获得1点XP，如同触发了恶德一般，ST判定。亦即人物因称号、地位、身份所受到恩惠时，必须给予相应的回报。比如，在中世纪电影中受到农民的接待，就一定要给予金钱报酬，或者为其排忧解难。此誓约并不会要求骑士为报恩而做有违正义之事，只是要求骑士不能把任何他人给予的利益视为理所当然。<BR>光明生物：人物从此成为光明生物。</FONT></P>
+<P><BR><FONT face=宋体>高文变化<BR>价格：C+2000<BR>技能树：开启C级圆桌骑士技能树<BR>特性：前进如骄傲（双特性） 
+高傲决斗者（双特性）<BR>前进如骄傲：人物的力量受到祝福，冠绝当世，人物在力量上获得+3完美加值，每天上午9：00-12：00时，该加值提升至6点，而在下午18点至24点失去该加值。<BR>高傲决斗者：获得高文变化时，每当人物接受对方出于真实意愿（而非某种扭曲之后的意愿）提出的一对一堂堂正正的正面挑战，并在挑战中获胜时，视同触发了美德一般回复全部意志力，并获得3点XP，但也同样如同美德一般每部影片只触发一次。<BR>通常情况下，一方离开模糊视觉范围，主动开口认输，失去意识，尝试影响对方之外的目标，或有明显偏颇的第三方尝试影响决斗中的双方或战斗场地，获利者视为失败方，但ST可以酌情判定决斗无效（例如两个PC为了恢复意志而进行的决斗，甚至是进决斗直接认输的决斗等等）。若有特殊状况，也可以宣布决斗暂时平手结束（如无关第三方介入，其他天灾人祸，双方达成约定等）<BR>若有一方在挑战时愿意主动承担不利因素，则另一方可以利用这优势而不被惩罚。<BR>请注意，你无法让队友攻击自己来视为算做帮助对手而让对手失败，如果你这么做，则视为你自愿承担不利因素。<BR>此外，角色可以每场景一次，以一个迅捷动作，支付3点意志力向一个模糊视觉范围内的目标发起挑战，若对方拒绝接受，你收回那3点意志力，并在本场景中针对该目标所有判定以及防御上获得等同你能力组等级两倍的士气加值。<BR>若对手接受挑战，之后落败结束，你无法收回意志力，但获得的士气加值不再指向该对手，而指向场景内的所有生物。同时若你没有触发过上述因决斗产生的类美德，你现在触发了它。</FONT></P>
+<P><BR><FONT face=宋体>珀西瓦尔变化<BR>价格：B+4000<BR>技能树：开启B级圆桌骑士技能树<BR>特性：守护如虔信（双特性），赤子之心（双特性）<BR>守护如虔信：获得珀西瓦尔变化时，每当角色尽力守护无辜的弱小者，视同触发了恶德一般回复1点意志力并获得1点XP，而当角色在两个无辜弱小者之间面临两难的抉择，依然坚定的做出选择，承担责任，并竭力挽回受损的一方信任与利益时，视同触发了美德一般回复全部意志力，并获得3点XP，但也同样如同美德一般每部影片只触发一次。无辜的弱小者由ST定义，但PC可以询问，通常以PC当时所有的情报来判定，须符合一般骑士精神与道德伦理，而且一般以较先进的道德观为主导。<BR>当你处于格挡状态时，任何针对其触及范围内友军的单体攻击目标可以转变为你，若你希望的话，这不需要额外的动作。<BR>赤子之心：珀西瓦尔某些作品中被等同于丝毫不谙世事的稚子、罕见的纯洁心灵。不为美貌所动摇、不为虚名所眩惑、不为财宝所吸引——总而言之无视挑拨、利诱形式出现的精神干涉。你获得免疫B级心灵影响效果，并且忽略任何魅惑，情绪异常状态点数带来的影响，但点数正常累积，你依然会因此进入严重后果。</FONT></P>
+<P><BR><FONT face=宋体>特里斯坦变化<BR>价格：A+8000<BR>特性：矢志不渝（双特性），天命英雄（双特性）<BR>技能树：开启A级圆桌骑士技能树<BR>矢志不渝：人物的意志百折不挠。人物免疫影响心灵效果提升至A级。当他需要进行坚定立场判定时获得等同于能力组等级两倍的附加成功。<BR>人物可以在任何时候选定一名真爱，不限性别，设定应当伴随一定的扮演积累，由ST判定是否合适，设定之后不能再改变，即使真爱死亡也是如此，因此若真爱死亡且失去复活可能，等同失去后半段能力。<BR>当角色将真爱的利益置于自身之上，为维护真爱的利益进行奉献，牺牲，违背角色个性与骑士精神时，视同触发恶德一般回复1点意志力并获得1点XP，ST可对此条加以控制避免滥用。<BR>当角色与真爱同处一个场景时，任何来自敌人对真爱造成的负面影响转移到你身上，包括但不限于伤害，不良状态点数等，同时你每为其承受一次影响，你在所有判定和防御获得可累积的+1完美加值，持续一个场景。<BR>若你背弃真爱（包括不优先为她进行复活等），无论出于何种缘由，你将失去特里斯坦强化，以及若有下一级兰斯洛特强化的话一并失去。<BR>天命英雄：特里斯坦出生时，其母难产而死，死前预言：“吾子出生即可杀人，日后必成伟大英雄。”此英雄之命如今也加持在了人物身上。人物意志力上限增加3点，当使用意志力的基础用法时，可以为每项行动多使用1点意志力，若你已经解开基因锁，来自基因锁一阶和二阶的加值效果加倍，此外，你在解开基因锁的判定上获得+5加值。</FONT></P>
+<P><BR><FONT face=宋体>兰斯洛特变化<BR>价格：S+16000<BR>特性：死亡如荣耀（双特性），华美战斗（双特性）<BR>技能树：开启S级圆桌骑士技能树<BR>死亡如荣耀：人物成为骑士中的骑士，无惧无畏，所向无敌。当人物死亡且无法通过任何能力自动复活时（如佩带生命十字章），而在人物的感知范围内还有敌人时，人物可以无视死亡坚持战斗，持续时间=（耐力+决心+感知）*1轮，或直到感知范围内不再有敌人且战斗结束。在此期间一切医疗效果对人物不再有效--而且人物的生命将会因此彻底燃尽，没有任何手段可以再阻止人物的死亡。<BR>当人物将自己的生死置之度外，尽力保护他人，主动承担最危险的任务，如诱敌，尝毒，坚守，断后，并在完成任务后依然存活时，视同触发了美德，回复所有意志并获得10点XP，该美德不受一部影片触发一次限制，ST可以判定哪些任务足以触发此项。此外，角色所有触发的恶德和类恶德获得的XP提升至3，美德和类美德获得的XP提升至10。<BR>华美战斗：人物的攻击检定，防御检定和豁免检定可以获得相当于风度值*1.5（向上取整）的内在加值。并且你每次以白刃攻击检定成功命中目标，都会打乱对手的步法架势，令你在下一轮之前发动的下一次攻击中无视其格挡，闪避和基础防御。<BR>怒气：<BR>怒气是一个特殊能量池,在各种判定中都不视为能量池。<BR>当成为圆桌骑士后，获得怒气槽。<BR>怒气没有上限，但是骑士的怒气有使用上限。骑士为其使用的每个能力所消耗的怒气值不得超过其能力组等级，每轮所消耗的怒气值不得超过能力组等级的两倍。<BR>怒气的回复：每当自己受到攻击或受骑士精神要求保护的对象（如无辜弱小，非敌对的女性，真爱）受到敌人攻击时，可得到1点怒气；若该次攻击造成伤害，则再得到1点；若该伤害中有恶性伤害，则获得3点怒气；若保护对象死亡，则再获得7点怒气。若被伤害对象是真爱，骑士所获得的怒气加倍。战斗结束每能力组等级*1分钟之后，怒气槽清零。<BR>怒气基本用法：在近战攻击时，无需动作消耗1点怒气，本次攻击检定获得2DP增强加值。<BR>特殊：任何以其他能量池使用圆桌骑士技能树时，其能量池消耗没有单次和每轮的消耗限制，也无视前提，但是也无法使用增幅效果，对于某些针对圆桌能力组等级进行数值判断的效果，其失去对应效果。<BR>圆桌骑士技能树<BR>圆桌骑士的技艺一份价格可以购买两个同级技艺，技艺等级依然视为对应等级，但若考虑技艺价格，两个才视为有一份价格。</FONT></P>
+<P><BR><FONT face=宋体>D级圆桌技能树：<BR>价格：D+500<BR>圆桌勇气<BR>前提：D级或以上的圆桌骑士变化<BR>被动：选择一种敌人类型（如生物分类中的生物，人类，外星人，虫族等）每次攻击对应的敌人，则攻击检定获得1点附加成功。面对对应的敌人类型攻击时，防御获得1点附加成功，对抗性检定获得1点附加成功。<BR>此能力可多次购买，每次购买可以选择一个新的敌人类型或者使原本的一个敌人类型获得的加值叠加。</FONT></P>
+<P><BR><FONT face=宋体>战士之怒<BR>前提：D级或以上的圆桌骑士变化<BR>动作：自由动作<BR>持续：立即<BR>描述：你可以将更多的怒气爆发出来打击你的敌人。<BR>效果：你可以以一个自由动作对自己造成X点冲击伤害，然后获得等额的怒气，X为你的（能力组等级*2）-1.<BR>同时，你每个效果所消耗的怒气值上限变为你能力组等级*2，每轮所消耗的怒气值上限变为你能力组等级*3.</FONT></P>
+<P><BR><FONT face=宋体>坚定如钢<BR>前提：D级或以上的圆桌骑士变化<BR>持续：立即<BR>被动：你的耐力相关检定获得2DP修行加值。<BR>效果：当你受到物理伤害时，你可以消耗怒气抵消相当于能力组等级*1点伤害。每轮第1次使用消耗1点怒气，第二次使用消耗2点，以此类推。</FONT></P>
+<P><BR><FONT face=宋体>沉稳如岩<BR>前提：D级或以上的圆桌骑士变化<BR>能耗：1点怒气<BR>动作：标准动作<BR>持续：立即<BR>被动：人物在进行全力攻击时，在攻击检定上获得4DP修行加值。<BR>效果：消耗1点怒气，以一个标准动作进行一次近战或投掷攻击，并且本次攻击检定获得1个附加成功，同时骑士手中人造武器的破甲属性额外增加等额数值。<BR>增幅：每多消耗1点怒气，这次攻击就会再增加1个附加成功。</FONT></P>
+<P><BR><FONT face=宋体>怒目如炬<BR>前提：D级或以上的圆桌骑士变化<BR>能耗：1点怒气<BR>动作：迅捷动作<BR>范围：风度*1米半径<BR>持续：如“胁迫（咆哮）”技能说明<BR>被动：人物的胁迫检定获得3DP修行加值。<BR>效果：消耗1点怒气，你在进行“咆哮”检定时的动作下降为移动动作，并且目标扩大为风度*1米半径范围内看到骑士的所有你选择的生物。<BR>增幅：每多消耗1点怒气，骑士就会在这次检定上获得2点附加成功。</FONT></P>
+<P><BR><FONT face=宋体>斩恶如仇<BR>前提：D级或以上的圆桌骑士变化<BR>能耗：1点怒气<BR>动作：标准动作<BR>持续：立即<BR>被动：你可以自动得知与你有明确敌意的敌人是否为黑暗生物。<BR>效果：消耗1点怒气，以一个标准动作对黑暗生物或有确知恶行的生物进行一次近战或投掷攻击，并且本次攻击检定上获得4DP神圣加值。<BR>增幅：每多消耗1点怒气，就可以再获得4DP神圣加值和1个附加成功。<BR>特殊：在“狂战士之血”状态下，使用此技能要多消耗1点怒气。</FONT></P>
+<P><BR><FONT face=宋体>杀敌如恨<BR>前提：D级或以上的圆桌骑士变化<BR>动作：标准动作<BR>持续：立即<BR>被动：你的近战攻击检定获得3DP修行加值。<BR>效果：消耗1点怒气，以一个标准动作进行一次近战或投掷攻击，本次攻击检定破甲增加3点，破魔增加3点。<BR>增幅：每多消耗1点怒气，就可以再增加2点破甲或者2点破魔。<BR>特殊：在“圣战士之心”状态下，使用此技能要多消耗1点怒气。</FONT></P>
+<P><BR><FONT face=宋体>C级圆桌招式：<BR>价格：C+1000 
+<BR>勇士之怒<BR>前提：C级或以上的圆桌骑士变化，战士之怒<BR>描述：你进一步增加了掌控怒气的能力。<BR>被动：现在，每当你获得怒气时，你可以再获得额外的1点怒气。<BR>同时，你每个效果所消耗的怒气值上限变为你能力组等级*3，每轮所消耗的怒气值上限变为你能力组等级*5.</FONT></P>
+<P><BR><FONT face=宋体>圆桌冲锋<BR>前提：C级或以上的圆桌骑士变化<BR>能耗：2点怒气<BR>持续：立即<BR>被动：当你进行骑乘冲锋时，你的攻击检定获得8DP修行加值。<BR>效果：当你进行骑乘冲锋时，你可以消耗2点怒气，本次骑乘冲锋若成功造成伤害，则目标进行意志豁免，DC为你与你坐骑造成的伤害之和，若失败，则震慑一轮，这是一个影响心灵的效果。同时，若本次伤害总和大于目标的体积与耐力取高，则目标被击倒。</FONT></P>
+<P><BR><FONT face=宋体>炫耀如云<BR>前提：C级或以上的圆桌骑士变化<BR>能耗：2点怒气<BR>动作：迅捷动作<BR>范围：风度*5米半径<BR>持续：能力组等级/轮。<BR>描述：骑士保护他人，吸引敌人的注意，让自己看起来显得最弱小、最愚蠢、最有挑战或最面目可憎——端看怪物更愿意攻击哪一种目标。<BR>被动：人物的风度相关检定获得4DP修行加值。<BR>效果：以一个迅捷动作，消耗2怒气（往往还伴随着一声挑衅或辱骂），任何风度*5米半径范围内的同伴对敌人来说都显得不值得攻击，所有敌人只要看得见且能攻击到骑士，除非通过DC为骑士风度值的意志豁免检定，否则就必须选择以骑士为主要攻击目标——即使是数千米外的狙击手也会认为瞄准镜中的其他人不值得他浪费子弹。</FONT></P>
+<P><BR><FONT face=宋体>旋舞如水<BR>前提：C级或以上的圆桌骑士变化<BR>能耗：2点怒气<BR>动作：迅捷动作<BR>被动：人物的防御获得6点修行加值。<BR>效果：圆桌骑士可以消耗2点怒气，以一个迅捷动作使用白刃格挡，并且本轮免疫多次攻击减值和C级的措手不及。<BR>特殊：若骑士处于“圣战士之心”状态下，骑士使用白刃格挡时格挡加值获得6点加值。</FONT></P>
+<P><BR><FONT face=宋体>怒吼如雄狮<BR>前提：C级或以上的圆桌骑士变化<BR>能耗：2点怒气<BR>动作：标准动作<BR>范围：力量*5米半径<BR>持续：1轮。<BR>描述：骑士大吼一声并对地面打出一击，以雄狮般的咆哮震慑周围的宵小之辈。<BR>被动：人物的胁迫相关检定获得6DP修行加值。<BR>效果：消耗2点怒气，以一个标准动作，所有听见吼声，且在力量*5米半径范围内的敌对生物，至多A级反侦测效果失效，若其持续时间没有结束，当怒吼如雄狮的持续时间结束后，该效果重新生效。<BR>特殊：若骑士处于“狂战士之血”状态下，启动本能力只需要一个自由动作。</FONT></P>
+<P><BR><FONT face=宋体>疗愈如圣泉<BR>前提：C级或以上的圆桌骑士变化<BR>能耗：见下<BR>动作：标准动作<BR>持续：立即<BR>描述：圆桌骑士可以获得治疗能力，通过信仰抹平伤口。<BR>被动：人物的医疗相关检定获得6DP修行加值。<BR>效果：骑士获得治疗点数，治疗点数=（决心值+风度值)/2。每天的日出时分恢复至最大值。<BR>每消耗4点可回复1点恶性伤害，1点回复1点严重或冲击伤害。<BR>每消耗一点可以移除一点不良状态点数。<BR>可以消耗X点治疗点数移除疾病和毒素。X为毒素和疾病的支线等级。（无支线为1，D级为2，C级为4，至多为4）<BR>若治疗的目标为自己，则消耗翻倍。<BR>若治疗的目标为其他人，则必须接触到被治疗者。<BR>增幅：当骑士每天的治疗点数用光时，可以以一个迅捷动作消耗怒气而获得治疗点数，每点怒气可获得2点治疗点数。<BR>本能力只能由圆桌骑士习得。</FONT></P>
+<P><BR><FONT face=宋体>坚韧如古木<BR>前提：C级或以上的圆桌骑士变化<BR>能耗：2点怒气<BR>动作：自由动作<BR>持续：1轮。<BR>描述：圆桌骑士可以在狂怒中可以忽略自己的痛苦，足以令一般人倒下的毒素甚至不能影响他分毫<BR>被动：骑士的生命值上限增加5点。<BR>效果：骑士可以以怒气延缓任何影响行动效果，以一个自由动作，消耗2点怒气，圆桌骑士在持续时间内，不会因为伤势昏迷，同时忽略等同其决心值的所有不良状态点数带来的效果。</FONT></P>
+<P><BR><FONT face=宋体>B级圆桌招式：<BR>价格：B+2000&nbsp; 
+<BR>守护正义之怒<BR>前提：B级或以上的圆桌骑士变化，勇士之怒<BR>描述：为了守护同伴<BR>，你的怒气得到进一步的提升。<BR>被动：现在，只要处于战斗中，每轮你开始时，自动获得3点怒气。<BR>同时，你每个能力所消耗的怒气值上限变为你能力组等级*4，每轮所消耗的怒气值上限变为你能力组等级*8.<BR>崩毁如焰<BR>前提：B级或以上的圆桌骑士变化<BR>能耗：3点怒气<BR>动作：标准动作<BR>持续：立即<BR>描述：此招式可以使得骑士的斩击带上火焰的威能。<BR>被动：人物获得12点的火焰抗力。<BR>效果：消耗3点怒气，以一个标准动作进行一次近战或投掷攻击，本次攻击触及提高10米，若本次攻击成功命中。则进行一次决心检定，每有1个成功数则额外造成1点火焰严重伤害。若目标受到额外的火焰伤害，则以其为中心，5米半径内的所有敌对目标造成等额的火焰严重伤害，无豁免。<BR>增幅：每多消耗1点怒气，触及再增加10米，同时额外的火焰伤害再增加2点。</FONT></P>
+<P><BR><FONT face=宋体>长啸如歌<BR>前提：B级或以上的圆桌骑士变化<BR>能耗：3点怒气<BR>动作：标准动作<BR>范围：风度*5米半径<BR>持续：一场景。<BR>描述：骑士可以以战呼鼓舞士气，让同伴的心中充满勇气。<BR>被动：当人物为任何同伴或自身的检定DP带来士气加值时，该加值提升3点。<BR>效果：以一个标准动作，消耗3点怒气，骑士可以使风度*5米半径范围之内的任何受到心灵影响效果的友方单位重新进行一次豁免检定，且获得6DP的士气加值；此外，范围内的所有同伴内心都会充满勇气，攻击与防御获得3DP的士气加值，并且获得6点临时生命。<BR>增幅：每多消耗1点怒气，豁免检定再增加2DP士气加值，攻击和防御再获得1DP士气加值，在额外获得3点临时生命。</FONT></P>
+<P><BR><FONT face=宋体>屠戮如月<BR>前提：B级或以上的圆桌骑士变化<BR>能耗：3点怒气<BR>动作：迅捷动作<BR>范围：风度*5米半径<BR>持续：一场景<BR>描述：在一击杀死对手后抖动手中的武器，让剑上的鲜血洒向大地，同时发出野兽般的吼声，令敌人恐惧，同伴士气激扬。<BR>被动：当人物受到士气加值时，该士气加值增加6点。<BR>效果：当你亲手杀死敌人后，使用一个迅捷动作并消耗3点怒气，风度*5米半径范围内的所有敌人的全检定受到6点士气减值，所有友方目标的全检定获得6点士气加值。<BR>增幅：若消耗的怒气为6点，则敌人的移动速度减半。友方目标的移动速度加倍。<BR>若消耗的怒气为11点，则敌人失去下一轮的标准动作，友方目标则可以立即进行一次普通近战攻击。</FONT></P>
+<P><BR><FONT face=宋体>A级圆桌招式：<BR>价格：A+4000 
+<BR>真容：<BR>真容只可以选择一个，A级圆桌每天可以启动一次，S级圆桌每场景可以启动一次。启动真容是一个迅捷动作。<BR>狂战士之血<BR>分类：真容<BR>动作：标准动作<BR>持续：一场景<BR>前提：A级或以上的圆桌变化<BR>描述：骑士可以唤醒体内的狂野力量，以原始的愤怒如死神一般杀戮敌人。<BR>效果：展现的同时立即获得5点怒气，持续时间内，骑士的力量增加8点内在加值，耐力增加4点内在加值，决心增加4点内在加值，此外每次获得怒气时额外多获得1点。<BR>同时，骑士失去基础防御，但是选择自己的一项伤害减免类能力+5.或者获得5DR/-的伤害减免。每次攻击时，使用意志力的基础用法可以多消耗1点，并且每使用1点意志力，本次攻击额外获得2点破甲，其中2点伤害提升1级。并且不会因为伤势昏迷。<BR>最后，选择了狂战士之血的人物，不可以选择基督教、伊斯兰教、佛教、印度教、儒教、道教与犹太教信仰导向的相关强化。若是之前已经选择了该类别的能力，则会立刻失去这些能力。</FONT></P>
+<P><BR><FONT face=宋体>圣战士之心<BR>分类：真容<BR>动作：标准动作<BR>持续：一场景<BR>前提：A级或以上的圆桌变化<BR>描述：骑士可以展现强大的信仰之力，以崇圣的意志如坚盾一般守护苍生。<BR>效果：展现的同时立即获得相当于决心值的临时生命，持续时间内，骑士的力量增加4点内在加值，耐力增加4点内在加值，决心增加4点内在加值，风度增加4点内在加值，沉着增加4点内在加值。<BR>同时，骑士的格挡加值获得传奇决心*4的加值。每轮可以以一个反射动作代替触及范围内的一个目标承受攻击，这视为攻击者必须将目标切换为骑士。<BR>攻击的伤害类型可以变为神圣伤害，并且获得【神圣】特性。并且不会因为伤势昏迷。<BR>最后，选择了圣战士之心的人物，不可选择德鲁伊教、萨满教、佛教、儒教、道教信仰导向的相关强化。若是之前已经选择了该类别的能力，则会立刻失去这些能力。</FONT></P>
+<P><BR><FONT face=宋体>判罪如泪<BR>前提：A级或以上的圆桌骑士变化，斩恶如仇<BR>能耗：4点怒气<BR>动作：标准动作<BR>持续：能力组等级/轮<BR>描述：骑士燃烧体内的生命，令被击中的敌人被他自己的罪恶摧毁。<BR>被动：人物攻击黑暗生物或有确知恶行的生物时，攻击检定获得8点附加成功。<BR>效果：消耗4点怒气，以一个标准动作对黑暗生物或有确知恶行的生物进行一次近战或投掷攻击，并且在攻击检定上获得12DP神圣加值与4点附加成功。若目标受到伤害，则目标在持续时间内失去快速医疗效果。同时，在击中敌人的同时，对方会感到往昔自己做过的一切罪恶之事一一重现于自己身上。其与骑士进行一次意志对抗，若失败，便会因极度的悔恨自责在持续时间内受到失败数的士气减值。<BR>增幅：每多支付1点怒气，就可以再获得3DP与1点附加成功。<BR>特殊：若圆桌骑士处于“圣战士之心”状态，则他的眼中会流下怜悯的泪水，一轮内任何周围的同伴都可以一个迅捷动作触碰骑士以移除等同于这次攻击所消耗怒气的严重伤害或冲击伤害。</FONT></P>
+<P><BR><FONT face=宋体>破灭如血<BR>前提：A级或以上的圆桌骑士变化，杀敌如恨<BR>能耗：4点怒气<BR>动作：标准动作<BR>持续：能力组等级/轮<BR>描述：骑士展现大地的怒火，令被击中的敌人身上那浮夸繁杂的琐物崩灭衰亡。<BR>被动：人物在攻击时使用意志力的基础用法时，该攻击检定获得8点附加成功。（针对同一次攻击使用多次意志力时，不会重复获得附加成功）<BR>效果：消耗4点怒气，以一个标准动作进行一次近战或投掷攻击，这次攻击的破甲增加12点，破魔增加12点。若破甲值将对方的盔甲防御，盾牌防御与天生防御都减到0，则每剩余1点破甲，此次攻击就再多获得1个附加成功。<BR>同时，在击中敌人的同时，其与骑士进行一次意志对抗，若失败，根据失败数，目标选择自己身上的科技本质的物品则会立即破裂损坏。（失败数1，1个无支线物品，失败数2，1个D级物品，失败数4，一个C级物品，失败数8，一个B级物品，以此类推）<BR>增幅：每多支付1点怒气，这次攻击的破甲和破魔就可以再提升3点。<BR>特殊：若圆桌骑士处于“狂战士之血”状态，则损坏的物品会粉碎成无数红色的颗粒飞溅而出，根据支线等级对目标再额外造成伤害。（无支线：1，D：2，C：4，B：8以此类推）</FONT></P>
+<P><BR><FONT face=宋体>S级圆桌招式：<BR>价格：S+8000<BR>凤凰焚灭<BR>前提：兰斯洛特变化，圣战士之心<BR>能耗：5点怒气<BR>动作：自由动作<BR>描述：最崇高的骑士可以展现此神迹，召唤出天堂之力，化为燃烧的火凤凰以圣焰涤净邪恶。<BR>被动：人物的决心获得16点修行加值，人物的风度获得16点修行加值。<BR>效果：凤凰焚灭需要2轮时间。<BR>启动后第一轮，天空会立刻呈现晴朗白昼的景象，黑夜与乌云都会消失，阳光会洒向大地，四周响起天堂般悦耳的女子童声清唱。骑士的面容会变得如天神般俊美，肤色变为古铜色，头顶散发出耀眼的白光，照亮风度*10米半径范围范围内的空间，驱散一切黑暗效果。同时，骑士的背后生出火焰的双翼并立刻向上飞行至5—200米（由骑士选择）的空中，悬停在那里。此时，骑士获得真实视觉，获得速度为777米、机动性为完美的飞行速度，并免疫一切影响心灵的效果，基于法则的效果，直到“凤凰焚灭”结束。<BR>所有看得到骑士的友方单位都会因这辉煌的一刻感到鼓舞，恢复15点冲击或严重伤害，或将至多15点恶性伤害转化为冲击伤害。<BR>所有看得到骑士的敌人都会自惭形秽，在接下来的一轮里在攻击和防御上承受15DP士气减值。同时，所有敌人会对骑士产生莫名的仇恨，若可能则以最强的攻击手段对骑士进行攻击，并且无法远离骑士，这是一个影响心灵的能力。<BR>之后骑士可以如常行动，并且在这一轮中，骑士的近战攻击触及扩大风度*10米。同时，在这一轮中怒气的基本用法变为：在近战攻击时，无需动作每消耗1点怒气，本次攻击检定获得12DP增强加值和4点附加成功。<BR>并且在下一轮骑士之前中，任何在骑士触及范围内的敌人若是攻击骑士，则骑士可以无需动作立即在其攻击前对其进行一次近战普通攻击。<BR>启动后第二轮开始时，骑士可以选择继续还是停止。<BR>若选择继续，则无论骑士身处何方只要还活着，则骑士的身体会化为一只巨大的凤凰，发出尖鸣并以当前所处位置为中心，横扫风度*20米半径范围内的整个战场，对范围内的所有目标造成20点无法避免的火焰严重伤害。<BR>所有受到火焰伤害的目标与骑士进行意志对抗，若失败，则接下来全检定受到16DP无名减值，持续一场恐怖片。<BR>横扫之后，骑士将返回初始的位置然后自爆。自爆的范围的风度*10米，对范围内的所有敌人造成相当于骑士决心值+风度值的火焰神圣恶性伤害。此伤害同时具备火焰和神圣伤害，只有同时拥有两种抗力才可以减免。所有受到伤害的目标与骑士进行意志对抗，若失败，则震慑1轮。<BR>每多消耗1点怒气，爆炸伤害就会增加5点，并且范围内的敌人在进行意志检定时承受-2成功的减值。<BR>自爆后，骑士会在爆炸中化为一只新的凤凰飞上天际，最后消失在太阳之中。骑士将因此而不可逆转的死亡，他的躯体以及所有装备都会消失。作为报偿，若他的真爱为制造出来的人，则不会受到骑士死亡的影响，而是会从主神空间中离开，来到现实世界。她头脑中一切关于骑士的记忆都会被永久的抹消。她会在现实世界获得一个合适的身份，拥有一份收入足够保障富裕生活的轻松工作，平安幸福的生活到因衰老而自然死亡。<BR>若选择停止，则天空会回复之前的状况，怒气池清空，并且因为精神透支在接下来的一场景里的全检定承受10点无名减值，并且无法再次发动凤凰焚灭。</FONT></P>
+<P><BR><FONT face=宋体>真龙逐天<BR>前提：兰斯洛特变化，狂战士之血<BR>能耗：5点怒气<BR>动作：自由动作<BR>被动：人物的决心获得16点修行加值，人物的耐力获得16点修行加值。<BR>描述：最勇敢的骑士拥有真龙之血，能够以大地与天空的伟力打击敌人。<BR>效果：真龙逐天需要2轮时间。<BR>启动后第一轮，骑士喉咙中发出低沉的吼声，天空变得阴沉，天边响起隆隆的雷声。雾气从地面升起，笼罩风度*20米半径的空间。在这区域内，骑士所有的敌人都会被雾气阻挡双眼与心灵，敏感范围变为原来的十分之一（最少为1米），移动速度减半，无法通过移动离开雾气范围。而这区域内骑士的友方单位则不会受到任何负面影响，他们会自动知晓浓雾范围内所有敌人的具体位置，视为获得相当于该范围大小的盲视能力。<BR>骑士全身的肌肉会变得坚如钢铁，额头两侧会浮现出蓝色的龙纹刺青，浑身散发出野兽般的气息。骑士可以随意在雾气中移动，视为移动速度无限大。此时骑士免疫一切影响心灵的负面能力，时间空间法则效果，命运法则效果，直到“真龙逐天”结束。<BR>本轮结束时，所有处于雾气中的目标进行意志豁免检定，DC为骑士的力量值+风度值。若失败，则接下来全检定受到16DP士气减值，持续5轮。并且针对骑士获得情绪异常-惊惧。<BR>每多消耗1点怒气，敌人的全检定就再受到16DP士气减值。<BR>启动后第二轮开始时，骑士可以选择继续还是停止。<BR>若选择继续，则骑士发出一声震耳欲聋的怒吼，以一个全回合动作，挥剑劈下并落在地上。若武器是锋利的锐器会插入大地之中，若是钝器则会重重的砸在大地之上。雾气会在瞬间被狂风驱散。<BR>雾气范围内的所有敌人视为被骑士进行一次近战普通攻击，若成功命中，则他以自己的耐力对抗骑士的力量，若失败，额外受到失败数的恶性伤害。并且本次攻击若成功命中，则若该目标处于地面上，则直接倒地，若处于空中，则直接坠落。<BR>每多消耗1点怒气，本次攻击额外获得16DP招式加值。<BR>骑士的武器让大地产生裂缝，裂缝会沿着骑士武器击中的地面向四周扩散，但会绕过骑士的盟友。若敌人倒地或者坠落，则他们就会落入裂缝中，之后裂缝合上，将落入的敌人挤出并对他们造成20点无法避免的恶性伤害。<BR>之后，骑士的武器会被插在地面上，无人可以将之拔起，而骑士本身将会化为一座雕塑。骑士将因此而不可逆转的死亡，他的躯体以及所有装备都会化为岩石。作为报偿，若他的真爱为制造出来的人，则不会受到骑士死亡的影响，而是会从主神空间离开，走入雾气笼罩的阿瓦隆之境。她会保留着对骑士的骄傲回忆，平安幸福的生活到因衰老而自然死亡。<BR>若选择停止，则天空会回复之前的状况，怒气池清空，并且因为精神透支在接下来的一场景里的全检定承受10点无名减值，并且无法再次发动真龙逐天。</FONT></P></FONT></font></div>	
+	<div id="winchm_template_footer"><font size="2px" font face="Microsoft YaHei">版权所有 (C) 2003-2018 lv20112668。</font></div>
+</div>
+
+</body>
+</html>

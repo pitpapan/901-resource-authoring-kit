@@ -1,0 +1,1022 @@
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>天气</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Microsoft YaHei, Simsun, Arial, sans-serif;
+	font-size: 12pt;
+}
+</style>
+
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+</head>
+
+<body>
+
+<div id="winchm_template_top">
+	<div id="winchm_template_button"><A href="水中_水下.htm" title="上一主题"><img id="winchm_template_prev" alt="上一主题" src="template2/btn_prev_n.gif" border="0"></a><A href="温度.htm" title="下一主题"><img id="winchm_template_next" alt="下一主题" src="template2/btn_next_n.gif" border="0"></a></div>
+	<div id="winchm_template_navigation"><font size="2px" font face="Microsoft YaHei">帮助 &gt; 
+无限恐怖2.5RE_V1.03先行版 &gt; 规则相关 &gt; 第三章 其他规则 &gt; 环境规则 &gt; </font></div>
+	<div id="winchm_template_title"><font size="2px" font face="Microsoft YaHei">天气</font></div>
+</div>
+<div id="winchm_template_container">
+	<div id="winchm_template_content"><font size="3px" font face="Microsoft YaHei"><font size="3" font face="Microsoft YaHei"><P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">天气：<SPAN 
+lang=EN-US><BR></SPAN>天气显然也是一种环境，所有天气效果下的内容都视同环境影响。<SPAN 
+lang=EN-US><BR></SPAN>天气是各个电影中常见的元素，我们将大致的提到几个简易的天气，若需要更复杂的，则<SPAN 
+lang=EN-US>ST</SPAN>可以混合多种天气进行设计：<SPAN lang=EN-US><BR></SPAN>如雨<SPAN 
+lang=EN-US>+</SPAN>雪天气则可以将“雨”和“雪”的特性相叠加，变为新的天气：</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">---------------------------------------------------------------------<BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">雨：<SPAN 
+lang=EN-US><BR></SPAN>雨水会显著降低能见度，人物的敏感和模糊视觉，以及听觉、嗅觉范围降低为原先的一半。并且调查（侦查）和调查（搜索）检定受到<SPAN 
+lang=EN-US>4DP</SPAN>环境减值。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">---------------------------------------------------------------------</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">暴雨：<SPAN 
+lang=EN-US><BR></SPAN>大雨会显著降低能见度，人物的敏感和模糊视觉，以及听觉、嗅觉范围降低为原先的<SPAN 
+lang=EN-US>1/4</SPAN>。并且调查（侦查）和调查（搜索）检定受到<SPAN 
+lang=EN-US>10DP</SPAN>环境减值。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">---------------------------------------------------------------------<BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">雪：<SPAN 
+lang=EN-US><BR></SPAN>降雪会显著降低能见度，人物的敏感和模糊视觉降低为原先的一半。并且调查（侦查）和调查（搜索）检定受到<SPAN 
+lang=EN-US>4DP</SPAN>环境减值。若形成积雪，则雪地视为冰原处理（见上）。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">---------------------------------------------------------------------<BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">暴雪：<SPAN 
+lang=EN-US><BR></SPAN>大雪会显著降低能见度，人物的敏感和模糊视觉降低为原先的<SPAN 
+lang=EN-US>1/4</SPAN>。并且调查（侦查）和调查（搜索）检定受到<SPAN 
+lang=EN-US>10DP</SPAN>环境减值。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">---------------------------------------------------------------------<BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">冰雹：<SPAN 
+lang=EN-US><BR></SPAN>冰雹不会影响视线，但是冰雹会让听觉范围降低为原先的一半，并让调查（聆听）检定受到<SPAN 
+lang=EN-US>10DP</SPAN>环境减值。同时若处于冰雹之中，则每轮有<SPAN lang=EN-US>10%</SPAN>的概率受到<SPAN 
+lang=EN-US>1</SPAN>点物理严重钝击伤害。<SPAN lang=EN-US><BR><BR></SPAN>风暴：<SPAN 
+lang=EN-US><BR></SPAN>基础效果：伴随着狂风与降水（有可能是雪，也有可能是沙子，也有可能是冰雹）所形成的风暴会急剧降低能见度，视觉、听觉、嗅觉下降为原先的<SPAN 
+lang=EN-US>1/4</SPAN>，并且角色进行远程攻击检定，调查（侦查），调查（搜索），调查（聆听）检定时受到<SPAN 
+lang=EN-US>8DP</SPAN>环境减值。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">---------------------------------------------------------------------<BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">沙尘暴：沙尘暴除了基础效果之外，对暴露在沙尘暴之中的角色每分钟造成<SPAN 
+lang=EN-US>1</SPAN>点严重物理伤害，该伤害无视伤害减免，同时，由于沙之吸入口鼻，目标进入窒息状态。若目标使用某些物品掩住口鼻，则经过其耐力值<SPAN 
+lang=EN-US>*5/</SPAN>轮后，其才开始窒息状态。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">---------------------------------------------------------------------<BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">冰雪暴：会形成积雪，并伴随低温。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">---------------------------------------------------------------------<BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">雷暴：雷暴在发生时每d10轮（换算为时间为6秒）会有一道巨大的闪电落下，造成3<SPAN 
+lang=EN-US>0</SPAN>点严重雷电伤害，但是击中人的概率是<SPAN 
+lang=EN-US>1%</SPAN>，若目标穿着金属重甲，则概率提升为<SPAN lang=EN-US>5%，若角色具备S级以上免疫措手不及能力，则可以进行反射豁免</SPAN>。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">---------------------------------------------------------------------</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><SPAN 
+style="mso-spacerun: yes"></SPAN></SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">风力：<SPAN 
+lang=EN-US><BR></SPAN>无风：风速每轮<SPAN lang=EN-US>0-52</SPAN>米，没有影响。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">---------------------------------------------------------------------<BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">大风：风速每轮<SPAN 
+lang=EN-US>52-78</SPAN>米，角色的调查（聆听）检定受到<SPAN 
+lang=EN-US>2DP</SPAN>环境减值。使用远程攻击受到<SPAN lang=EN-US>2DP</SPAN>环境减值。体积小于<SPAN 
+lang=EN-US>2</SPAN>的目标，进行强韧检定，<SPAN lang=EN-US>DC</SPAN>为<SPAN 
+lang=EN-US>2</SPAN>，若失败，则倒地。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">---------------------------------------------------------------------<BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">暴风：风速每轮<SPAN 
+lang=EN-US>78-130</SPAN>米，角色的调查（聆听）检定受到<SPAN 
+lang=EN-US>4DP</SPAN>环境减值。使用远程攻击受到<SPAN lang=EN-US>4DP</SPAN>环境减值。所有体积小于<SPAN 
+lang=EN-US>7</SPAN>目标进行强韧检定，<SPAN lang=EN-US>DC</SPAN>为<SPAN 
+lang=EN-US>4</SPAN>。若失败目标体积小于<SPAN lang=EN-US>2</SPAN>，每失败数<SPAN 
+lang=EN-US>1</SPAN>，则被吹飞<SPAN lang=EN-US>1</SPAN>米，并受到<SPAN 
+lang=EN-US>1</SPAN>点严重物理伤害。若失败目标体积小于<SPAN lang=EN-US>4</SPAN>，则倒地。若失败目标体积小于<SPAN 
+lang=EN-US>7</SPAN>，则无法逆风前进，物体以重量对应负重的力量减去自身的体积调整值作为强韧判定结果，每轮受到<SPAN 
+lang=EN-US>4-</SPAN>差值的物理严重伤害。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">---------------------------------------------------------------------</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">风暴：风速每轮<SPAN 
+lang=EN-US>130-182</SPAN>米，角色的调查（聆听）检定受到<SPAN 
+lang=EN-US>8DP</SPAN>环境减值。使用远程攻击受到<SPAN lang=EN-US>8DP</SPAN>环境减值。所有体积小于<SPAN 
+lang=EN-US>16</SPAN>的目标进行强韧检定，<SPAN lang=EN-US>DC</SPAN>为<SPAN 
+lang=EN-US>8.</SPAN>若失败目标体积小于<SPAN lang=EN-US>4</SPAN>，每失败数<SPAN 
+lang=EN-US>1</SPAN>，则被吹飞<SPAN lang=EN-US>1</SPAN>米，并受到<SPAN 
+lang=EN-US>1</SPAN>点严重物理伤害。若失败目标体积小于<SPAN lang=EN-US>7</SPAN>，则倒地。若失败目标体积小于<SPAN 
+lang=EN-US>16</SPAN>，则无法逆风前进。物体以重量对应负重的力量减去自身的体积调整值作为强韧判定结果，每轮受到<SPAN 
+lang=EN-US>8-</SPAN>差值的物理严重伤害。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">---------------------------------------------------------------------<BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">飓风：风速每轮<SPAN 
+lang=EN-US>182-418</SPAN>米，角色的调查（聆听）检定受到<SPAN 
+lang=EN-US>16DP</SPAN>环境减值。使用远程攻击受到<SPAN lang=EN-US>16DP</SPAN>环境减值，近战攻击受到<SPAN 
+lang=EN-US>4DP</SPAN>环境减值。所有体积小于<SPAN lang=EN-US>42</SPAN>的目标进行强韧检定，<SPAN 
+lang=EN-US>DC</SPAN>为<SPAN lang=EN-US>16.</SPAN>若失败目标体积小于<SPAN 
+lang=EN-US>7</SPAN>，每失败数<SPAN lang=EN-US>1</SPAN>，则被吹飞<SPAN 
+lang=EN-US>1</SPAN>米，并受到<SPAN lang=EN-US>1</SPAN>点严重物理伤害。若失败目标体积小于<SPAN 
+lang=EN-US>16</SPAN>，则倒地。若失败目标体积小于<SPAN 
+lang=EN-US>42</SPAN>，则无法逆风前进。物体以重量对应负重的力量减去自身的体积调整值作为强韧判定结果，每轮受到<SPAN 
+lang=EN-US>16-</SPAN>差值的物理严重伤害。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">---------------------------------------------------------------------<BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">龙卷风：风速每轮超过<SPAN 
+lang=EN-US>418</SPAN>米，角色无法进行调查（聆听）检定，使用远程攻击受到<SPAN lang=EN-US>32DP</SPAN>环境减值，近战攻击受到<SPAN 
+lang=EN-US>16DP</SPAN>环境减值。所有目标进行强韧检定，<SPAN lang=EN-US>DC</SPAN>为<SPAN 
+lang=EN-US>32</SPAN>，若失败目标体积小于<SPAN lang=EN-US>16</SPAN>，每失败数<SPAN 
+lang=EN-US>1</SPAN>，则被吹飞<SPAN lang=EN-US>1</SPAN>米，并受到<SPAN 
+lang=EN-US>1</SPAN>点严重物理伤害。若失败目标体积小于<SPAN 
+lang=EN-US>42</SPAN>，则倒地。若失败目标体积大于<SPAN lang=EN-US>42</SPAN>，则无法逆风前进。<SPAN 
+lang=EN-US><BR></SPAN>若角色被吹飞，则会被卷向龙卷风，在龙卷风内部翻腾<SPAN 
+lang=EN-US>1D10</SPAN>轮，每轮受到<SPAN 
+lang=EN-US>20</SPAN>点严重物理伤害，直至人物被扔出气流为止，然后按龙卷风的最大高度计算坠落伤害，被翻腾的过程中，角色无法移动。物体以重量对应负重的力量+自身硬度值减去自身的体积调整值作为强韧判定结果，每轮受到<SPAN 
+lang=EN-US>32-</SPAN>差值的物理严重伤害。<SPAN 
+lang=EN-US><BR></SPAN>特殊：飞行生物的体积减半决定被影响的情况。<SPAN 
+lang=EN-US><BR></SPAN>特殊：若飞行生物无法前进，则额外被吹退<SPAN 
+lang=EN-US>1D10</SPAN>米。若飞行生物倒地，则额外被吹退<SPAN 
+lang=EN-US>2D10</SPAN>米，若飞行生物被吹飞，则失败的差值翻倍。<BR>特殊：龙卷风影响区域内若受到单次至少10+龙卷风覆盖区域计算体积调整/5点的范围严重伤害，龙卷风将立刻平息结束。此外，载具在移动进入龙卷风范围时会先对龙卷风发动撞击效果，且载具自身不会对受这一撞击影响。</SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan" 
+align=left><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial; mso-font-kerning: 0pt">---------------------------------------------------------------------</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 0cm 0cm 0pt; mso-pagination: widow-orphan" 
+align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial">雾：雾可以遮蔽视线，角色的视觉范围则根据雾的大小进行变化。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: Arial; mso-font-kerning: 0pt"><o:p></O:P></SPAN></P></FONT></font></div>	
+	<div id="winchm_template_footer"><font size="2px" font face="Microsoft YaHei">版权所有 (C) 2003-2018 lv20112668。</font></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,981 @@
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>示范流程（待修改）</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Microsoft YaHei, Simsun, Arial, sans-serif;
+	font-size: 12pt;
+}
+</style>
+
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+</head>
+
+<body>
+
+<div id="winchm_template_top">
+	<div id="winchm_template_button"><A href="招式相关_留手_放弃防御_多次攻击_误伤.htm" title="上一主题"><img id="winchm_template_prev" alt="上一主题" src="template2/btn_prev_n.gif" border="0"></a><A href="生命值.htm" title="下一主题"><img id="winchm_template_next" alt="下一主题" src="template2/btn_next_n.gif" border="0"></a></div>
+	<div id="winchm_template_navigation"><font size="2px" font face="Microsoft YaHei">帮助 &gt; 
+无限恐怖2.5RE_V1.03先行版 &gt; 规则相关 &gt; 第二章 战斗相关规则 &gt; 战斗规则 &gt; </font></div>
+	<div id="winchm_template_title"><font size="2px" font face="Microsoft YaHei">示范流程（待修改）</font></div>
+</div>
+<div id="winchm_template_container">
+	<div id="winchm_template_content"><font size="3px" font face="Microsoft YaHei"><font size="3px" font face="Microsoft YaHei"><P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">一次攻击的标准流程</SPAN></B><SPAN 
+lang=EN-US style="mso-bidi-font-family: Arial"><?xml:namespace prefix = "o" ns = 
+"urn:schemas-microsoft-com:office:office" /><o:p></o:p></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: red; mso-bidi-font-family: Arial">增加突袭轮描述</SPAN><SPAN lang=EN-US 
+style="mso-bidi-font-family: Arial"><o:p></o:p></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">按照曾经出现的例子，总结一下一次攻击的标准流程。括号中的部分是对<SPAN 
+lang=EN-US>ST</SPAN>与<SPAN lang=EN-US>PC</SPAN>内心推算过程的重现。</SPAN><SPAN lang=EN-US 
+style="mso-bidi-font-family: Arial"><o:p></o:p></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial">ST</SPAN></B><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">：战斗开始了，投掷先攻吧。</SPAN></B><SPAN 
+lang=EN-US style="mso-bidi-font-family: Arial"><o:p></o:p></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial">ST</SPAN></B><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">：影牙巨龙先攻<SPAN lang=EN-US>: ww12 
+= 3 </SPAN></SPAN></B><SPAN lang=EN-US 
+style="mso-bidi-font-family: Arial"><o:p></o:p></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN style="COLOR: #0070c0; mso-bidi-font-family: Arial">字母（玩家<SPAN 
+lang=EN-US>-</SPAN>近战位）：先攻<SPAN lang=EN-US>: ww9 = 4 </SPAN></SPAN><SPAN 
+lang=EN-US style="mso-bidi-font-family: Arial"><o:p></o:p></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN style="COLOR: #7030a0; mso-bidi-font-family: Arial">苏子（玩家<SPAN 
+lang=EN-US>-</SPAN>辅助位）：先攻<SPAN lang=EN-US>: ww10 = 6 </SPAN></SPAN><SPAN 
+lang=EN-US style="mso-bidi-font-family: Arial"><o:p></o:p></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN style="COLOR: #00b050; mso-bidi-font-family: Arial">白夜（玩家<SPAN 
+lang=EN-US>-</SPAN>近战位）：先攻<SPAN lang=EN-US>: ww5 = 2</SPAN></SPAN><SPAN 
+lang=EN-US style="mso-bidi-font-family: Arial"><o:p></o:p></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN style="COLOR: #c00000; mso-bidi-font-family: Arial">时月（玩家<SPAN 
+lang=EN-US>-</SPAN>远程位）：先攻<SPAN lang=EN-US>: ww16 = 5 </SPAN></SPAN><SPAN 
+lang=EN-US style="mso-bidi-font-family: Arial"><o:p></o:p></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">投掷先攻</SPAN></B><SPAN 
+lang=EN-US style="mso-bidi-font-family: Arial"><o:p></o:p></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial">ST</SPAN></B><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">：行动顺序为苏子、时月、字母、影牙巨龙、白夜。</SPAN></B><SPAN 
+lang=EN-US style="mso-bidi-font-family: Arial"><o:p></o:p></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">确认行动次序</SPAN></B><SPAN 
+lang=EN-US style="mso-bidi-font-family: Arial"><o:p></o:p></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: #7030a0; mso-bidi-font-family: Arial">苏子：我要使用对生物强化，（投掷）<SPAN 
+lang=EN-US> ww 20a10+3 = 8+3 = 11</SPAN>。就写怎么计算出来的骰子数（属性<SPAN 
+lang=EN-US>+</SPAN>技能<SPAN lang=EN-US>+X </SPAN>然后进行检定 获得多少成功数就行了）我获得了<SPAN 
+lang=EN-US>11</SPAN>个成功数。我要让字母的力量提升<SPAN lang=EN-US>10</SPAN>点，持续<SPAN 
+lang=EN-US>1</SPAN>轮。然后我要用匕首进行格挡，我的回合结束了。</SPAN><SPAN lang=EN-US 
+style="mso-bidi-font-family: Arial"><o:p></o:p></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">这名玩家使用施法，遵循施法规则。移动动作用于格挡。</SPAN></B><SPAN 
+lang=EN-US style="mso-bidi-font-family: Arial"><o:p></o:p></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: #c00000; mso-bidi-font-family: Arial">时月：我要用手枪射击影牙巨龙。我的攻击<SPAN 
+lang=EN-US>DP</SPAN>是<SPAN lang=EN-US>18</SPAN>，并且附带有高速<SPAN 
+lang=EN-US>5</SPAN>。我还要支付<SPAN lang=EN-US>1</SPAN>点意志再获得<SPAN 
+lang=EN-US>3DP</SPAN>，总计是<SPAN lang=EN-US>21DP</SPAN>。在属性和技能上我还有总共<SPAN 
+lang=EN-US>3</SPAN>个附加成功。</SPAN><SPAN lang=EN-US 
+style="mso-bidi-font-family: Arial"><o:p></o:p></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">这名玩家宣布攻击模式，宣布初始攻击骰，宣布攻击携带的特殊属性。</SPAN></B><SPAN 
+lang=EN-US style="mso-bidi-font-family: Arial"><o:p></o:p></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial">ST</SPAN></B><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">：（这只影牙巨龙的防御是基础防御<SPAN 
+lang=EN-US>8+</SPAN>闪避防御<SPAN lang=EN-US>1+</SPAN>洞察防御<SPAN 
+lang=EN-US>1+</SPAN>天生防御<SPAN lang=EN-US>6+</SPAN>力场防御<SPAN 
+lang=EN-US>2</SPAN>，总计<SPAN lang=EN-US>18</SPAN>点防御与<SPAN 
+lang=EN-US>2</SPAN>个附加成功。高速<SPAN lang=EN-US>5</SPAN>可以击破<SPAN 
+lang=EN-US>5</SPAN>点基础防御，因此还剩下<SPAN lang=EN-US>13</SPAN>点防御，时月的攻击骰<SPAN 
+lang=EN-US>21DP</SPAN>扣除<SPAN lang=EN-US>13</SPAN>得到的结果是<SPAN 
+lang=EN-US>8DP</SPAN>）你的攻击骰是<SPAN lang=EN-US>8DP</SPAN>。影牙巨龙将有<SPAN 
+lang=EN-US>2</SPAN>个防御附加成功。</SPAN></B><SPAN lang=EN-US 
+style="mso-bidi-font-family: Arial"><o:p></o:p></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial">ST</SPAN></B><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">根据敌人的防御判断<SPAN 
+lang=EN-US>PC</SPAN>的攻击骰，防御方在投掷攻击骰之前决定是否要启用一些效果，包括反射动作。</SPAN></B><SPAN 
+lang=EN-US style="mso-bidi-font-family: Arial"><o:p></o:p></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN style="COLOR: #c00000; mso-bidi-font-family: Arial">时月：（投掷）<SPAN 
+lang=EN-US>ww 8a10= 6</SPAN>。我的基础成功数是<SPAN lang=EN-US>6</SPAN>，扣除<SPAN 
+lang=EN-US>2</SPAN>个防御附加成功，再加上<SPAN lang=EN-US>3</SPAN>个攻击附加成功，我最终有<SPAN 
+lang=EN-US>7</SPAN>个成功数。</SPAN><SPAN lang=EN-US 
+style="mso-bidi-font-family: Arial"><o:p></o:p></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">投掷攻击骰，加减相关附加成功，判断最终成功数。</SPAN></B><SPAN 
+lang=EN-US style="mso-bidi-font-family: Arial"><o:p></o:p></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial">ST</SPAN></B><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">：（这只影牙巨龙的总血量为<SPAN 
+lang=EN-US>20</SPAN>，这次承受了<SPAN lang=EN-US>7L</SPAN>的伤害。现在是<SPAN 
+lang=EN-US>14</SPAN>完好<SPAN 
+lang=EN-US>+7L</SPAN>）你扣下扳机，在影牙巨龙的身上射出一个手指粗细的血洞。漆黑的鳞片完全无法抵挡你的子弹。鲜红色的血液从伤口中流了出来。影牙巨龙因为疼痛怒吼了一声，动作没有收到多大影响。</SPAN></B><SPAN 
+lang=EN-US style="mso-bidi-font-family: Arial"><o:p></o:p></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial">ST</SPAN></B><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">计算造成的伤害，对伤害进行描述。</SPAN></B><SPAN 
+lang=EN-US style="mso-bidi-font-family: Arial"><o:p></o:p></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: #c00000; mso-bidi-font-family: Arial">时月：（通过这段描述，大概可以判断影牙巨龙没有【防弹】属性。如果我真的造成了<SPAN 
+lang=EN-US>7L</SPAN>伤害，依据“动作没有受到多大影响”这一句话，我造成的伤害相对于总血量而言，比重还不是很高）我的回合结束了。</SPAN><SPAN 
+lang=EN-US style="mso-bidi-font-family: Arial"><o:p></o:p></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial">PC</SPAN></B><B><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">根据<SPAN 
+lang=EN-US>ST</SPAN>的描述，推断自己造成的伤害量。执行其他动作。</SPAN></B><SPAN lang=EN-US 
+style="mso-bidi-font-family: Arial"><o:p></o:p></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">（本段节选自跑团记录《主神年代记》，有删改润色。）</SPAN><SPAN 
+lang=EN-US style="mso-bidi-font-family: Arial"><o:p></o:p></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN style="COLOR: black; mso-bidi-font-family: Arial">除非<SPAN 
+lang=EN-US>PC</SPAN>在剧情中获得了相关的资料，或者拥有某些能力，否则<SPAN 
+lang=EN-US>PC</SPAN>无权了解他们所面对的敌人拥有怎样的防御构成。</SPAN><SPAN lang=EN-US 
+style="mso-bidi-font-family: Arial"><o:p></o:p></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">同样的，除非有对应的能力或者相关资料，否则<SPAN 
+lang=EN-US>PC</SPAN>也不该知道他们所面对的敌人拥有多少生命值上限。</SPAN><SPAN lang=EN-US 
+style="mso-bidi-font-family: Arial"><o:p></o:p></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>当然，<SPAN 
+lang=EN-US>ST</SPAN>也可以为了减轻自己的负担而选择直接将敌人的防御报出来，无论如何，这取决于<SPAN 
+lang=EN-US>ST</SPAN>的选择。</FONT></SPAN><SPAN lang=EN-US 
+style="mso-bidi-font-family: Arial"><o:p></o:p></SPAN></P></font></font></div>	
+	<div id="winchm_template_footer"><font size="2px" font face="Microsoft YaHei">版权所有 (C) 2003-2018 lv20112668。</font></div>
+</div>
+
+</body>
+</html>

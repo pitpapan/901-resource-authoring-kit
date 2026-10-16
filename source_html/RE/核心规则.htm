@@ -1,0 +1,1193 @@
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>核心规则</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Microsoft YaHei, Simsun, Arial, sans-serif;
+	font-size: 12pt;
+}
+</style>
+
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+</head>
+
+<body>
+
+<div id="winchm_template_top">
+	<div id="winchm_template_button"><A href="核心世界观.htm" title="上一主题"><img id="winchm_template_prev" alt="上一主题" src="template2/btn_prev_n.gif" border="0"></a><A href="主神空间.htm" title="下一主题"><img id="winchm_template_next" alt="下一主题" src="template2/btn_next_n.gif" border="0"></a></div>
+	<div id="winchm_template_navigation"><font size="2px" font face="Microsoft YaHei">帮助 &gt; 
+无限恐怖2.5RE_V1.03先行版 &gt; 序言 &gt; </font></div>
+	<div id="winchm_template_title"><font size="2px" font face="Microsoft YaHei">核心规则</font></div>
+</div>
+<div id="winchm_template_container">
+	<div id="winchm_template_content"><font size="3px" font face="Microsoft YaHei"><font size="3" font face="Microsoft YaHei"><P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>无限恐怖<SPAN 
+lang=EN-US>TRPG</SPAN>游戏一般由一名主持人（后称<SPAN lang=EN-US>ST</SPAN>，即<SPAN 
+lang=EN-US>story teller</SPAN>）和数名玩家（后称<SPAN lang=EN-US>PC</SPAN>，即<SPAN 
+lang=EN-US>player character</SPAN>）共同进行，<SPAN lang=EN-US>ST</SPAN>将负责为<SPAN 
+lang=EN-US>PC</SPAN>创造世界与故事的起点，并根据<SPAN 
+lang=EN-US>PC</SPAN>的行动，以世界的角度给予回应，作为世界的代言人，<SPAN 
+lang=EN-US>ST</SPAN>不应对自己世界中的存在抱有善意或恶意。<SPAN 
+lang=EN-US>PC</SPAN>负责进行故事，并理应为自己的行动承担对应的责任。</FONT><SPAN 
+lang=EN-US><BR></SPAN><FONT face=宋体>当规则与<SPAN lang=EN-US>ST</SPAN>的常识相冲突时，<SPAN 
+lang=EN-US>ST</SPAN>有权更改规则以适合其常识，称为房规（下称<SPAN lang=EN-US>HR</SPAN>，即<SPAN 
+lang=EN-US>house rule</SPAN>），自然的，对于无法接受的<SPAN lang=EN-US>HR</SPAN>，<SPAN 
+lang=EN-US>PC</SPAN>也有掀桌的权利。<SPAN lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: blue; mso-bidi-font-family: Arial">检定，竞争与对抗</SPAN></B><SPAN 
+lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial"><o:p></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>无限恐怖桌面扮演游戏采用<SPAN lang=EN-US>10</SPAN>面骰（以后统称为<SPAN 
+lang=EN-US>D10</SPAN>，即<SPAN lang=EN-US>die 
+10</SPAN>）与成功数判定规则。当你的人物需要做些什么事、并且在一次尝试中成功或失败会带来不同后果时，你应该为他进行一次<B>检定</B>，这通常包括了以下几个步骤：<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial">1</SPAN><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">），确定你的<SPAN 
+lang=EN-US>DP</SPAN>：<SPAN lang=EN-US>DP</SPAN>即<SPAN lang=EN-US>dice 
+pool</SPAN>，它决定了你可以投几枚<SPAN lang=EN-US>D10</SPAN>。一般<SPAN 
+lang=EN-US>DP</SPAN>为一项属性值＋一项技能值＋（－）其他调整值，但依特定动作的说明或<SPAN 
+lang=EN-US>ST</SPAN>的判断，<SPAN 
+lang=EN-US>DP</SPAN>有可能等于一项属性值、两项属性值之和或某个特殊的定值。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial">2</SPAN><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">），确定你的加骰等级：若你在判定中，有一枚骰子数值为<SPAN 
+lang=EN-US>10</SPAN>，则你可以在此次判定中再掷一枚骰子；若它能取得成功，则将这次成功加入到总成功数中。此外，若这次掷骰也为<SPAN 
+lang=EN-US>10</SPAN>，则你可以再如此掷一枚，如此类推。这条规则称为“<SPAN 
+lang=EN-US>10</SPAN>加骰”。有些能力或道具提供“<SPAN lang=EN-US>9</SPAN>加骰”，这意味着骰子数值为<SPAN 
+lang=EN-US>9</SPAN>或<SPAN lang=EN-US>10</SPAN>都可以获得加骰。加骰的最低值为<SPAN 
+lang=EN-US>8</SPAN>。一个简单的类比可能会帮助你更好地理解这个规则：在飞行棋游戏中，一般使用<SPAN 
+lang=EN-US>D6</SPAN>骰子，即<SPAN lang=EN-US>6</SPAN>面正方骰。并且飞行棋游戏执行“<SPAN 
+lang=EN-US>6</SPAN>加骰”规则，即，每次投出一个<SPAN lang=EN-US>6</SPAN>，就可以再投掷一枚骰子。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial">3</SPAN><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">），掷骰判定：掷相当于你<SPAN 
+lang=EN-US>DP</SPAN>数值的<SPAN lang=EN-US>D10</SPAN>。如果一枚骰子的数值为<SPAN 
+lang=EN-US>8</SPAN>、<SPAN lang=EN-US>9</SPAN>或<SPAN 
+lang=EN-US>10</SPAN>，则称这枚骰子取得了<SPAN 
+lang=EN-US>1</SPAN>个成功。你取得成功的骰子的总数称为“成功数”。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial">4</SPAN><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">），加入你的附加成功：高属性和高技能值会带来附加成功数。属性达到<SPAN 
+lang=EN-US>6</SPAN>会获得<SPAN lang=EN-US>1</SPAN>个附加成功，每提升<SPAN 
+lang=EN-US>5</SPAN>再加一个（即属性<SPAN lang=EN-US>11</SPAN>有<SPAN 
+lang=EN-US>2</SPAN>个附加成功）。技能遵守了另外一套规则，详见“<SPAN lang=EN-US><A 
+href=""><SPAN 
+lang=EN-US><SPAN lang=EN-US><FONT color=#0033cc>技能概述</FONT></SPAN></SPAN></A></SPAN>”页。当然你还可以通过其他手段获得附加成功。你在进行判定时，若判定取得最终的有效成功数大于<SPAN 
+lang=EN-US>0</SPAN>，则将这些附加成功数加在最后的成功数上。（详情参考“<SPAN lang=EN-US><A 
+href=""><SPAN 
+lang=EN-US><SPAN lang=EN-US><FONT color=#0033cc>附加成功使用</FONT></SPAN></SPAN></A></SPAN>”规则）<SPAN 
+lang=EN-US><o:p></O:P></SPAN></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial">5</SPAN><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">），与目标进行对比：难度（下称<SPAN 
+lang=EN-US>DC</SPAN>，即<SPAN lang=EN-US>difficulty 
+class</SPAN>）是判定时的目标数值，判定的成功数大于或等于<SPAN lang=EN-US>DC</SPAN>时，行动成功，成功数超出<SPAN 
+lang=EN-US>DC</SPAN>越多，行动越成功，反之则行动失败。也有一些判定并不关注具体的目标数值，只关注自己的成功数，成功数决定他的行动做得有多好，例如一次攻击造成多大伤害，一次奋力跳跃能跳多高等。<SPAN 
+lang=EN-US>DC</SPAN>取决于判定的形式属于竞争还是对抗。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: blue; mso-bidi-font-family: Arial"></SPAN></B></FONT>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: blue; mso-bidi-font-family: Arial"></SPAN></B></FONT>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: blue; mso-bidi-font-family: Arial">竞争</SPAN></B><SPAN 
+style="COLOR: blue; mso-bidi-font-family: Arial">：</SPAN><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">竞争是指判定的<SPAN 
+lang=EN-US>DC</SPAN>是一个固定的，预先设定值的判定，或者，判定没有特定的<SPAN 
+lang=EN-US>DC</SPAN>，仅仅是你做的越优秀越好，例如攻击判定，先攻判定，例如你想举起一袋米，跳过一个坑，爬上一堵墙等。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><BR></SPAN><FONT face=宋体><B><SPAN 
+style="COLOR: blue; mso-bidi-font-family: Arial">对抗</SPAN></B><SPAN 
+style="COLOR: blue; mso-bidi-font-family: Arial">：</SPAN><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">对抗是指<SPAN 
+lang=EN-US>DC</SPAN>是一个由单一对手进行的判定成功数的判定，例如你想在跑步比赛中胜过某个人，你试图将别人撞出几米远等。因此通常，如果是多人对抗，有几个对手你就要进行几次掷骰<SPAN 
+lang=EN-US><o:p></O:P></SPAN></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>一个检定，只要不是自然骰，不是竞争就是对抗，简单可以归总为只有一方掷骰的是竞争（例如攻击），双方掷骰且一对一进行比较的是对抗（例如擒抱，），但是若结算步骤并非双方直接比拼掷骰结果，而是分步骤结算，可能是两个竞争（例如以判定决定伤害<SPAN 
+lang=EN-US>/</SPAN>状态点数，以豁免减少这个结果，但如果没有明确的提及如造成判定成功数的结果之类的文字，而是进行<SPAN 
+lang=EN-US>XX</SPAN>判定，<SPAN lang=EN-US>OO</SPAN>豁免，一般视为对抗）。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>例如，玩家<SPAN 
+lang=EN-US>A</SPAN>想要借机背刺玩家<SPAN lang=EN-US>B</SPAN>，他选择了潜行靠近玩家<SPAN 
+lang=EN-US>B</SPAN>。两名玩家都没有能够进行探测的设备或能力。这时候，玩家<SPAN 
+lang=EN-US>A</SPAN>需要投掷敏捷<SPAN lang=EN-US>+</SPAN>潜行，并且这个投掷带来的成功数将会成为玩家<SPAN 
+lang=EN-US>B</SPAN>的侦查<SPAN lang=EN-US>DC</SPAN>。只有当玩家<SPAN 
+lang=EN-US>B</SPAN>投掷的感知<SPAN lang=EN-US>+</SPAN>调查成功数超过了这个<SPAN 
+lang=EN-US>DC</SPAN>，玩家<SPAN lang=EN-US>B</SPAN>才会发现玩家<SPAN 
+lang=EN-US>A</SPAN>。否则，玩家<SPAN lang=EN-US>B</SPAN>会在毫不知情的情况下被插上一刀。</FONT><SPAN 
+lang=EN-US><BR></SPAN><FONT face=宋体>对抗中若双方判定成功数相同，各自进行机运骰，机运骰结果较高的一方获胜。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: blue; mso-bidi-font-family: Arial"></SPAN></B></FONT>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: blue; mso-bidi-font-family: Arial"></SPAN></B></FONT>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: blue; mso-bidi-font-family: Arial">自然骰</SPAN></B><SPAN lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial"><o:p></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>因为某些情况，例如机运，解锁，以及特殊的能力影响，你可能会需要进行一些特殊的判定，这些判定中描述为让你扔<SPAN 
+lang=EN-US>XDY</SPAN>，例如<SPAN lang=EN-US>1D10</SPAN>（机运），<SPAN 
+lang=EN-US>4D10</SPAN>（解锁）或<SPAN 
+lang=EN-US>1D100</SPAN>（某种能力），此类判定通常不会获得加骰（包括10加骰），不受任何加减值，或其他影响骰子的效果干涉，除非这个效果明确声明对此类判定有效。但重投能力依然可以影响这些判定。能影响自然骰的效果总是叠加处理，它不像通常加值存在类型。</FONT><SPAN 
+lang=EN-US><BR></SPAN><FONT face=宋体>机运：<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>机运骰表示对某些几乎不可能发生的事碰碰运气，这包括了一些原本有<SPAN lang=EN-US>DP</SPAN>但是视为<SPAN 
+lang=EN-US>0</SPAN>，或一些可能对剧情产生误打误撞的影响的行为，对前者而言，结果为<SPAN 
+lang=EN-US>10</SPAN>视为有<SPAN lang=EN-US>1</SPAN>个成功，对后者而言，结果为<SPAN 
+lang=EN-US>10</SPAN>或更高视为有较好的展开。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>同时无论何者，若得到的结果为<SPAN lang=EN-US>1</SPAN>，会受到一定的负面影响（<SPAN 
+lang=EN-US>ST</SPAN>设定，如枪械卡壳需要时间修复，剧情展开出现一些不利要素等）这里建议<SPAN 
+lang=EN-US>ST</SPAN>较少使用后者。<SPAN lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>自然骰虽然可能被称作判定或检定，但除非一个效果明确声明自己对某种自然骰生效，否则针对判定的效果不对自然骰生效，包括加值和重投效果。</FONT><SPAN 
+lang=EN-US><BR></SPAN><FONT face=宋体>因此，例如思考并列演算的重投效果针对判定，对自然骰无效，但传奇操控的重投效果并不只针对判定，因此有效，而调整者针对了特定的自然骰“基因锁的解锁判定”，因此仅针对它有效。<BR><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: blue; mso-bidi-font-family: Arial"></SPAN></B></FONT>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: blue; mso-bidi-font-family: Arial"></SPAN></B></FONT>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: blue; mso-bidi-font-family: Arial">附加成功的使用</SPAN></B><SPAN 
+lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial"><o:p></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>附加成功是追加在行动之上的成功数，它能让你的行动做的更好，但没办法让你失败的行动变得成功。也就是说，如果你投掷得到的成功数为<SPAN 
+lang=EN-US>0</SPAN>或者更低，那么无论你有多少附加成功，这一次行动都要算作失败。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>如你的一次检定获得的成功数为<SPAN lang=EN-US>1</SPAN>，但是由于某些原因，你失去<SPAN 
+lang=EN-US>1</SPAN>点成功，这会让你的检定成功数变为<SPAN lang=EN-US>0</SPAN>，此时你无法获得附加成功。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>若防御方的附加成功（也包括减少对方攻击成功数的效果，但不包括伤害吸收，减免或抵消的类似效果）抵消了攻击方掷骰所得到的全部成功数（在计算攻击的附加成功之前），则攻击方攻击失败（未命中），那么攻击方的附加成功也不会产生效果，并且攻击方附带命中后造成的效果也全都不生效。<BR>你总是可以放弃你任意数量的附加成功数。<BR></FONT><SPAN 
+lang=EN-US><BR 
+style="mso-special-character: line-break"><o:p></O:P></SPAN></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><B><SPAN 
+style="COLOR: blue; mso-bidi-font-family: Arial"><FONT face=宋体>小数的舍入：</FONT></SPAN></B><SPAN lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>没有特殊说明的情况下，当你在判定中出现小数或因乘除法出现小数时，无条件舍去小数点后的部分，这被称之为向下取整。</FONT><SPAN 
+lang=EN-US><BR></SPAN><FONT face=宋体>注意，并不是所有小数都需要取整的，不影响判定的小数可以保留，但通常无法使用，直至累积进位，如在<SPAN 
+lang=EN-US>106</SPAN>版本更新后许多每影片获得<SPAN 
+lang=EN-US>XP</SPAN>的效果，或是每影片获得属性的效果。<BR><FONT color=#ff0000>所有属性，衍生属性，包括能量和类能量，特殊能量等都不使用小数，若出现小数，将这些值向下取整，例如你有5点能量，使用5点，但有消耗减半，实际消耗2.5，剩余2.5，向下取整到2。<BR>特殊的，AP的恢复速度与上限保留小数。</FONT></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN style="COLOR: blue; mso-bidi-font-family: Arial"></SPAN></B></FONT>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN style="COLOR: blue; mso-bidi-font-family: Arial"></SPAN></B></FONT>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN style="COLOR: blue; mso-bidi-font-family: Arial">关于规则中的“<SPAN 
+lang=EN-US>/</SPAN>”的含义</SPAN></B><SPAN lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial"><o:p></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>“<SPAN 
+lang=EN-US>/</SPAN>”一般为除法，即前面的除以后面的数值，如<SPAN lang=EN-US>6/</SPAN>决心附加成功数<SPAN 
+lang=EN-US>+1</SPAN>，若决心附加成功数为<SPAN lang=EN-US>1</SPAN>，则结果为<SPAN 
+lang=EN-US>3</SPAN>。有一种情况例外，如<SPAN 
+lang=EN-US>1/</SPAN>分钟，这种情况下由于后面只是单位，没有数字，所以结果为<SPAN 
+lang=EN-US>1</SPAN>分钟。</FONT><SPAN lang=EN-US><BR></SPAN><FONT face=宋体>若资源中用<SPAN lang=EN-US>/</SPAN>分断不同等级的表现，通常表示每个等级的数值为对应值，例如<SPAN 
+lang=EN-US>D/C/B/A</SPAN>提升<SPAN lang=EN-US>1/2/4/8</SPAN>，可以理解成<SPAN 
+lang=EN-US>D</SPAN>提升<SPAN lang=EN-US>1</SPAN>，<SPAN lang=EN-US>C</SPAN>提升<SPAN 
+lang=EN-US>2</SPAN>，<SPAN lang=EN-US>B</SPAN>提升<SPAN lang=EN-US>4</SPAN>，<SPAN 
+lang=EN-US>A</SPAN>提升<SPAN lang=EN-US>8</SPAN>，是否叠加一般取决于具体内容。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><B><SPAN 
+style="COLOR: blue; mso-bidi-font-family: Arial"><FONT face=宋体></FONT></SPAN></B>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><B><SPAN 
+style="COLOR: blue; mso-bidi-font-family: Arial"><FONT face=宋体></FONT></SPAN></B>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><B><SPAN 
+style="COLOR: blue; mso-bidi-font-family: Arial"><FONT face=宋体>多次乘除法运算与加法</FONT></SPAN></B><SPAN lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>有时候规则让你乘一个数（或数倍于一个数）或一个投出的值或加上一个数。当只有一个乘数或加数时，正常地乘或加那个数即可。而当有两个或多个乘数乘以任何抽象值（比如修正或投出的值，以及成功数等）或同时有乘数和加数存在时，<B>先进行乘数运算，将这些乘数合并成一个单独的乘数，即每个额外的乘数减一后加到第一个乘数上，在乘数运算结束后，再进行加数运算。该运算规则对所有本书内“规则相关”或“资源相关”中涉及翻倍等乘法表述的内容生效，并且不存在所谓基底概念（因此不会出现连续乘法，凡连续乘法一律转为加法），除非另有特殊说明；但计算速度时，与此相反。</B><SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>例<SPAN 
+lang=EN-US>1</SPAN>：一个生物有<SPAN 
+lang=EN-US>8</SPAN>点力量，一个能力让他在攻击中获得双倍力量进行计算，另一个能力让他的力量暂时变为两倍，他还获得了一个力量<SPAN 
+lang=EN-US>+4</SPAN>的效果，其最终力量在攻击时为<SPAN lang=EN-US>8*</SPAN>（<SPAN 
+lang=EN-US>2+2-1</SPAN>）<SPAN lang=EN-US>+4=28</SPAN>点<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>特例：一个生物拥有<SPAN 
+lang=EN-US>100</SPAN>的速度，以及陆地移动速度加倍的被动能力，又使用了一个获得四倍陆地移动速度的飞行能力，并获得额外<SPAN 
+lang=EN-US>100</SPAN>速度，其最终速度为（<SPAN lang=EN-US>100+100</SPAN>）<SPAN 
+lang=EN-US>*</SPAN>（<SPAN lang=EN-US>2+4-1</SPAN>）<SPAN 
+lang=EN-US>=1000</SPAN>米<SPAN lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>请注意，在某些情况下，有一个基础值，针对基础值的运算会优先衍生值的运算。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><STRONG><SPAN 
+style="FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial">例：一个法术威力为<SPAN 
+lang=EN-US>4</SPAN>，让你获得两倍法术威力<SPAN lang=EN-US>+3</SPAN>点攻击上的洞察加值，你拥有法术威力<SPAN 
+lang=EN-US>+1</SPAN>的被动能力和让法术威力临时加倍的能力，针对基础值法术威力会先计算，因此法术威力变为<SPAN 
+lang=EN-US>4*2+1=9</SPAN>点，之后的攻击加值作为衍生单独计算，也就是<SPAN 
+lang=EN-US>9*2+3=21</SPAN>点。但即使基础值先计算了，若再有乘法效果，也不会适用连乘。</SPAN></STRONG><B><SPAN 
+lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial"><BR></SPAN></B><STRONG><SPAN 
+style="FONT-FAMILY: 宋体; COLOR: black; mso-bidi-font-family: Arial">在此例中，若角色还有能力让自己的洞察加值加倍，在这里会变成<SPAN 
+lang=EN-US>9*3+3*2=33</SPAN>点，而不是<SPAN 
+lang=EN-US>42</SPAN>点。</SPAN></STRONG><SPAN lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial"><o:p></O:P></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: blue; mso-bidi-font-family: Arial"></SPAN></B></FONT>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: blue; mso-bidi-font-family: Arial"></SPAN></B></FONT>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><B><SPAN 
+style="COLOR: blue; mso-bidi-font-family: Arial">除法运算：</SPAN></B><SPAN 
+lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial"><o:p></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>有的规则让你获得某些将<SPAN 
+lang=EN-US>XX</SPAN>减半的能力，如移动速度，休息的时间等。若你拥有多个，则按照乘法的规则进行计算。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>例：一个因困难地形而移动速度减半的生物若又因其他效果减半了移动速度，同时因为纠缠点数减少了<SPAN 
+lang=EN-US>10</SPAN>米移动速度。他此时实际移动速度是原本（移动速度-10）<SPAN lang=EN-US>/</SPAN>（<SPAN 
+lang=EN-US>2+2-1</SPAN>）（注：因为移动速度先加减后乘除）。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>当乘除法是以是<B>现实中的值</B>（比如价格，距离）为对象时，替换以现实中的四则运算。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; TEXT-ALIGN: justify; TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; TEXT-ALIGN: justify; TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+lang=EN-US style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体><o:p></O:P></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; TEXT-ALIGN: justify; TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN class=15><B><SPAN 
+style="COLOR: blue; mso-bidi-font-family: Arial"></SPAN></B></SPAN></FONT>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; TEXT-ALIGN: justify; TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN class=15><B><SPAN 
+style="COLOR: blue; mso-bidi-font-family: Arial"></SPAN></B></SPAN></FONT>&nbsp;</P>
+<P class=p 
+style="BACKGROUND: white; TEXT-ALIGN: justify; TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN class=15><B><SPAN 
+style="COLOR: blue; mso-bidi-font-family: Arial">关于规则中一些提升<SPAN 
+lang=EN-US>/</SPAN>获得等说法</SPAN></B></SPAN><SPAN lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial"><o:p></O:P></SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>提升，额外等字样表示在原基础上的加值，此类效果间是可叠加的。<SPAN 
+lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=宋体>没有上述字样参与的获得，提供则表示为基础值，此类效果之间是不可叠加的</FONT><SPAN 
+lang=EN-US><BR></SPAN><FONT face=宋体>凡写作<SPAN lang=EN-US>+X</SPAN>的，都视为获得<SPAN 
+lang=EN-US>X</SPAN>的简写，例如<SPAN lang=EN-US>+3DP</SPAN>，等同于获得<SPAN 
+lang=EN-US>3</SPAN>点加值<SPAN lang=EN-US><o:p></O:P></SPAN></FONT></SPAN></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial">*</SPAN><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">注<SPAN 
+lang=EN-US>1</SPAN>：特殊的，“额外获得”通常视同“获得”，但同一资源不同特性或不同等级对该资源已有效果的此类描述视同提升。</SPAN></FONT></P>
+<P class=p 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><FONT face=宋体><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><SPAN 
+lang=EN-US><SPAN lang=EN-US 
+style="COLOR: black; mso-bidi-font-family: Arial">*</SPAN><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">注2：凡以“加到”和“计入”做表述的都是提升基础值不是加值，它们总是叠加，例如把感知计入攻击判定，把风度计入防御等<BR>*注3：凡出现每xx则获得yy的，yy总是叠加，例如每消耗1点能量获得1点加值的表述。</SPAN><o:p></O:P></SPAN></SPAN></FONT></P></FONT></font></div>	
+	<div id="winchm_template_footer"><font size="2px" font face="Microsoft YaHei">版权所有 (C) 2003-2018 lv20112668。</font></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,892 @@
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>召唤师</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Microsoft YaHei, Simsun, Arial, sans-serif;
+	font-size: 12pt;
+}
+</style>
+
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+</head>
+
+<body>
+
+<div id="winchm_template_top">
+	<div id="winchm_template_button"><A href="逐风者.htm" title="上一主题"><img id="winchm_template_prev" alt="上一主题" src="template2/btn_prev_n.gif" border="0"></a><A href="D级总纲1.htm" title="下一主题"><img id="winchm_template_next" alt="下一主题" src="template2/btn_next_n.gif" border="0"></a></div>
+	<div id="winchm_template_navigation"><font size="2px" font face="Microsoft YaHei">帮助 &gt; 
+无限恐怖2.5RE_V1.03先行版 &gt; 资源相关 &gt; 能力组 &gt; 复合类型 &gt; DNF魔法师 &gt; </font></div>
+	<div id="winchm_template_title"><font size="2px" font face="Microsoft YaHei">召唤师</font></div>
+</div>
+<div id="winchm_template_container">
+	<div id="winchm_template_content"><font size="3px" font face="Microsoft YaHei"><font size="3" font face="Microsoft YaHei"><font size="3" font face="Microsoft YaHei"><P><FONT face=宋体>召唤师<BR>中央花园的“精灵使”凯蒂开创了召唤师这个职业，他们操纵着契约生物以及精灵战斗的魔法师。善于利用数量庞大的召唤兽军团歼灭对手。但后来因为理念的原因，一部分召唤师脱离了她所创建的旋魔会，建立了新的组织。<BR>C级：召唤师<BR>前提：D级魔法师<BR>特性：订立召唤契约(四特性）<BR>技能树：开启C级召唤师技能树和C级施法职能<BR>订立召唤契约：召唤师可以通过和其他自愿且不具有持续时间的目标订立契约，创造一道“契约召唤：目标名”的法术来召唤驱使对方。<BR>以一个6AP动作，你可以消耗等同生物最高属性值的魔力（或目标战斗力，取高）将其召唤并使役，若目标自愿回应，则该生物将有本体的意识投影并通过魔法能量构筑躯体，效果持续一个场景，以此召唤出的生物并不完全处于你的控制之下，它可以以自己的意识行事，但你可以以自由动作遣散它。<BR>该效果对目标的本体不会产生影响，即使召唤出的生物死亡，对目标来说也没有损失，召唤生物死亡或召唤师死亡时，召唤效果也结束。<BR>该效果持续期间产生的所以记忆和经验都会回到目标意识中，目标甚至可以因此获得XP，但在召唤过程中目标会失去意识而陷入无助，目标在订立契约时即可了解这一点。<BR>目标甚至可以了解到当召唤师足够强大后可以强制召唤，并完全命令其被召唤后的意识这一点（见B级特性灵魂支配）。<BR>该效果召唤的意识可以跨越影片，但不能召唤已死去的生物的意识。<BR>召唤生物消耗任何通用能量，精力，意志时都由你以魔力支付，它无法使用不属于上述三者的能量或计数器。<BR>召唤生物不会带有任何物品，召唤生物死亡后，本效果结束，本效果结束后，召唤生物产生的尚有持续时间的效果全部结束。<BR>召唤生物出现时不会拥有任何有持续时间的效果。<BR></FONT></P>
+<P><FONT face=宋体>B级：月之女皇<BR>特性：灵魂支配（三特性），TP技能强化<BR>技能树：开启B级召唤师技能树和B级施法职能<BR>灵魂支配：从旋魔会出走的召唤师们认为召唤师和召唤物的地位并不平等，通过“支配之环”完成对召唤物的支配。<BR>现在你使用C级订立召唤契约特性来召唤生物时变为强制召唤，无需目标自愿回应，并且召唤后的生物完全处于你的控制之下，除非其具有S级以上免疫心灵效果。你获得一种灵魂上的链接来指挥它们，无需动作，也无论距离。<BR>此外，以专业为召唤的法术威力提升4点。<BR>TP技能强化：完成了觉醒得冒险家可以用经验值强化自身技艺，其在购买本能力组开启的技艺时可以以XP和支线，分数混用来完成购买，每点XP可以转为100分，每5点XP可以作为1D来使用，并且你在为此支付XP时可以减少2点（这也包括了通用法术）。 
+<BR></FONT></P>
+<P><FONT face=宋体>A级：月蚀<BR>特性：蚀月附灵（四特性）<BR>技能树：开启A级召唤师技能树和A级施法职能<BR>蚀月附灵：脱离旋魔会的召唤师所组建的第二真相组织掌握了新的力量，通过驱使来自魔界月亮上的“蚀”，将它们附加在召唤目标上来提升召唤物的能力。<BR>所有你控制下的本能力组或能力组下法术中的召唤物，包括C级特性契约召唤出的召唤物，在法术完成后，召唤物在所有属性上获得9点增强加值。</FONT></P>
+<P><FONT face=宋体>S级：知源·召唤师<BR>特性：逆月（4特性）<BR>技能树：开启S级召唤师技能树和S级施法职能<BR>逆月：召唤师对魔月的控制更加强大，完美的掌控了“蚀”的力量。<BR>召唤师的所有法术都被蚀强化，其施展的所有法术的法术威力提升6点。<BR>在召唤师的法术在造成伤害后，法术中的蚀会继续进行伤害，目标在每轮行动开始将受到2点混沌严重伤害，持续5轮，不同的法术产生的蚀的效果将独立计算。<BR>在召唤师成功以法术召唤生物时，被召唤的生物会受到蚀的侵袭，这表现为被召唤目标被蚀缠绕全身。这视为该召唤法术的法术威力提升12点。<BR>并且目标的武器伤害提升8点，在发动需要特定武器的效果时，总是满足条件，并且视为无需弹药，且具有神兵特性，表现上蚀与魔力构成了能量体一般的武器外延或弹药。<BR>此外，目标的硬度也提升4点。&nbsp; 
+<BR></FONT></P>
+<P><FONT face=宋体>召唤师技能树<BR><BR><FONT color=#ff0000>学习补正α：D+500<BR></FONT>每场结束时获得8点限定XP，该XP仅能用于获取召唤师页面技能树下的C级内容。<BR><FONT color=#ff0000>学习补正β：D+500<BR></FONT><FONT color=#000000>你在对召唤师页面技能树下的C级内容以自学规则进行锻炼时，每个锻炼周期获得的XP增加1点，但每场影片至多因此获得8点额外XP。</FONT><BR><BR>C级：<BR>物理暴击和魔法暴击 
+C+1000<BR>效果：你在进行白刃，肉搏，神秘技能判定时变为8加骰。<BR>你能用长柄武器施展本能力组中原本需要肉搏施展的效果，例如落花掌和擒拿掌，并在施展时所需进行的相关判定中获得6点器械加值。 
+<BR></FONT></P>
+<P><FONT face=宋体>召唤兽强化 
+C+1000/B+2000<BR>效果：所有你控制下的本能力组或能力组下法术中的召唤物，包括C级特性契约召唤出的召唤物，在攻击，豁免判定以及防御上获得6/12点增强加值 
+<BR></FONT></P>
+<P><FONT face=宋体>心灵传输 
+C+1000<BR>你获得等同你模糊视觉范围的心灵感应能力，该能力仅能用于对区域内的你来自本能力组及能力组下法术中的召唤物下达命令，该效果无需视线和效果线。<BR>此外，以一个6AP动作，消耗3点魔力，你可以将该区域内的一个你能以此能力下令的召唤物传送到你接触范围内，该效果无需视线和效果线。 
+<BR></FONT></P>
+<P><FONT face=宋体>召唤师法术：<BR>召唤师法术适用施法规则，也视为通用法术。 
+<BR>召唤解除<BR>专业：咒法<BR>威力：6<BR>价格：C+1000<BR>动作：6AP<BR>能耗：3点<BR>成分：语言，动作<BR>射程：自身<BR>范围：无<BR>持续时间：立即<BR>效果：所有你施展的，来自本能力组或能力组下法术中产生召唤生物的效果立刻结束，你获得造成该效果所消耗实际魔力的一半回复你的魔力。 
+<BR></FONT></P>
+<P><FONT face=宋体>鞭挞<BR>专业：塑能<BR>威力：6<BR>价格：C+1000<BR>动作：6AP<BR>能耗：3点<BR>成分：语言，动作<BR>射程：自身<BR>范围：长度法术威力*5米，宽度与高度等同法术威力的长方体区域<BR>持续时间：立即<BR>冷却：1轮<BR>效果：你选择一个方向，以你为起点，创造出一道能量长鞭扫过本法术区域。<BR>区域内所有敌方生物受到等同法术威力*2的纯能量严重伤害，反射豁免。<BR>区域内所有你控制下的本能力组或能力组下法术中的召唤物，包括C级特性契约召唤出的召唤物，在攻击上获得等同法术威力的士气加值，并在移动速度上获得等同本法术威力*10米提升。<BR>进化：为此法术投入5XP后，本法术范围可变为以角色为中心5*智力*法术威力米球形区域。 
+<BR></FONT></P>
+<P><FONT face=宋体>魔力印记<BR>专业：咒法<BR>威力：6<BR>价格：C+1000<BR>动作：6AP<BR></FONT><FONT face=宋体>能耗：3点<BR>成分：语言，动作<BR>射程：10米*智力*法术威力<BR>范围：无<BR>持续时间：一个场景<BR>效果：选择射程范围内一个目标，向敌人投掷一颗魔力球，目标受到等同法术威力的纯能量严重伤害。<BR>所有你控制下的本能力组或能力组下法术中的召唤物，包括C级特性契约召唤出的召唤物，对目标获得精确定位，并在对目标造成伤害时额外造成本法术威力/3的纯能量严重伤害。<BR>进化：为此法术投入法术等级*5XP后，本法术可对目标造成纠缠点数等同本法术威力。法术升阶后，你必须补齐差价本能力才会继续生效。 
+<BR></P></FONT>
+<P><FONT face=宋体>召唤兽狂化<BR>专业：附魔<BR>威力：6<BR>价格：C+1000<BR>动作：标准<BR>能耗：3点<BR>成分：语言，动作<BR>射程：无<BR>范围：5米*智力*法术威力<BR>持续时间：一场景<BR>效果：在自身上形成一道持续的光环，随角色移动。<BR>以角色为中心，半径等同法术范围的球形区域内，所有你控制下的本能力组或能力组下法术中的召唤物，包括C级特性契约召唤出的召唤物，在攻击判定中获得本法术威力*2.5的加值，并在移动速度上获得本法术威力*20米提升，你自身也获得同一效果。 
+<BR></FONT></P>
+<P><FONT face=宋体>咒令<BR>专业：咒法<BR>威力：6<BR>价格：C+1000<BR>动作：6AP<BR>能耗：3点<BR>成分：语言，动作<BR>射程：自身<BR>范围：5米*智力*法术威力<BR>持续时间：立即<BR>效果：本法术有两种用法：<BR>1.立即将自身召唤出的所有召唤兽传送到身边。<BR>所有你控制下的本能力组或能力组下法术中的召唤物，包括C级特性契约召唤出的召唤物，若其在以你为中心，法术区域为半径的球形区域内存在，你可以在同一区域中设定一个位置，其将被传送至该位置，每个召唤兽独立选择位置并被独立传送。<BR>2.选择你控制下的本能力组或能力组下法术中的召唤物，包括C级特性契约召唤出的召唤物，传送到与你相邻的位置，并令其立即执行一个6AP以内的动作。 
+每轮仅能使用一次。 
+<BR></FONT></P>
+<P><FONT face=宋体>精灵召唤：下位精灵召唤<BR>专业：召唤<BR>威力：6<BR>价格：C+1000<BR>动作：6AP<BR>能耗：3点<BR>成分：语言，动作<BR>射程：自身<BR>范围：5米*智力*法术威力<BR>持续时间：一个场景<BR>冷却：1轮<BR>效果：这道法术可以从周围的环境中抽出元素来形成下位精灵，下位精灵若角色没有下达指令就不会自行行动，角色通常需要用语言下达指令。来这道法术有2种用法，召唤出的精灵可以放置在以自身为中心，法术范围为半径的球形区域内任意未被占据的位置，召唤师死亡时法术立刻结束。<BR>1.召唤四属性下位精灵，如此使用时，一次召唤出冰之精灵冰奈斯，火之精灵亚德炎，光之精灵雷沃斯，暗之精灵瑟冥特克各一只。<BR>2.召唤单一属性下位精灵，如此使用时，只能召唤出单一的下位精灵，但一次可以召唤法术威力/2个。<BR>下位元素精灵共有属性：<BR>下位元素精灵所有属性等同本法术威力/2<BR>下位元素精灵所有技能视同本法术威力/3，上限15，且具有相关专业<BR>下位元素精灵体积为3，并具有元素生物特性，视为拥有伤害法术威力/2L，魔法，正常攻击灵体的天生武器。<BR>其衍生属性如常计算，但无法使用意志和精力。<BR>此外，各具特性如下：<BR>冰奈斯：以其为中心，半径10米内所有友方生物获得1点快速医疗，该效果多个冰奈斯也不会叠加。<BR>以一个6AP动作，它可以射出冰刺进行远程攻击，这视为一种投掷攻击，单位射程30米，武器视同天生武器。<BR>冰奈斯的天生武器造成寒冷伤害。<BR>具有飞行能力等同自身移动速度，机动性完美。 
+<BR>亚德炎：具有飞行能力等同自身移动速度，机动性完美。<BR>亚德炎的天生武器造成火焰伤害。<BR>亚德炎以天生武器发动近战攻击时获得本法术威力*2的内在加值。 
+<BR>雷沃斯：具有飞行能力等同自身移动速度，机动性完美。<BR>雷沃斯的天生武器造成电击伤害。<BR>雷沃斯以天生武器发动近战攻击时视为等同法术等级的接触攻击。 
+<BR>瑟冥特克：具有法术等级的反侦测等级。<BR>瑟冥特克的天生武器造成腐蚀伤害。<BR>瑟冥特克以天生武器发动近战攻击时视为具备C级措手不及效果。 
+<BR></FONT></P>
+<P><FONT face=宋体>精灵召唤：中位精灵召唤<BR>专业：召唤<BR>威力：6<BR>价格：C+1000<BR>动作：8AP<BR>能耗：3点<BR>成分：语言，动作<BR>射程：自身<BR>范围：5米*智力*法术威力<BR>持续时间：一个场景<BR>效果：这道法术可以从周围的环境中抽取元素，将一个下位精灵转为同元素中位精灵，它们分别为冰之精灵拉特利亚，火之精灵瑟利斯特，光之精灵艾丽西亚，暗之精灵希德。<BR>中位精灵与下位精灵外貌相似，但即使你没有下令，其也能自行展开攻击敌人，保护你的行动，召唤出的精灵可以放置在以自身为中心，法术范围为半径的球形区域内任意未被占据的位置，召唤师死亡时法术立刻结束。<BR>中位元素精灵共有属性：<BR>中位元素精灵所有属性等同本法术威力<BR>中位元素精灵所有技能视同本法术威力/2，上限15，且具有相关专业<BR>中位元素精灵体积为3，并具有元素生物特性，视为拥有伤害法术威力L，魔法，正常攻击灵体的天生武器。<BR>其衍生属性如常计算，但无法使用意志和精力。<BR>此外，各具特性如下：<BR>拉特利亚：拥有冰奈斯的所有效果，并且因拉特利亚的攻击受到伤害的生物会受到本法术威力/2点冻结点数。<BR>瑟利斯特：拥有亚德炎的所有效果，并且以其为中心，半径60米内所有友方单位获得法术威力+2点火焰抗力。<BR>艾丽西亚：拥有雷沃斯的所有效果，并且以其为中心，半径60米内所有友方单位获得法术威力+2点电击抗力。<BR>希德：拥有瑟冥特克的所有效果，并且因希德的攻击受到伤害的生物会受到本法术威力/2点目眩点数。 
+<BR></FONT></P>
+<P><FONT face=宋体>精灵召唤：上位精灵召唤<BR>专业：召唤<BR>威力：6<BR>价格：C+1000<BR>动作：8AP<BR>能耗：3点<BR>成分：语言，动作<BR>射程：自身<BR>范围：5米*智力*法术威力<BR>持续时间：一个场景<BR>效果：这道法术可以从周围的环境中抽取元素，将一个中位精灵和两个同元素下位精灵转为一个同元素上位精灵，它们分别为冰影阿奎利斯，火焰赫瑞克，极光格雷林，亡魂默克尔，同一角色同时只能召唤每种元素的上位精灵一个。<BR>召唤出的精灵可以放置在以自身为中心，法术范围为半径的球形区域内任意未被占据的位置，召唤师死亡时法术立刻结束。<BR>上位元素精灵共有属性：<BR>上位元素精灵所有属性等同本法术威力*1.5<BR>上位元素精灵所有技能视同本法术威力，上限15，且具有相关专业<BR>上位元素精灵体积为7，，并进行相应调整（未计入），具有元素生物特性，视为拥有伤害法术威力*1.5L，魔法，正常攻击灵体的天生武器。<BR>其衍生属性如常计算。<BR>此外，各具特性如下：<BR>阿奎利斯：拥有拉特利亚的所有效果，此外，阿奎利斯可以以一个10AP动作对120米内一个目标射出巨大冰弹或对30米坠形区域内进行寒冷吐息，造成等同天生武器伤害的效果，并具有所有天武特性，反射豁免减少。<BR>赫瑞克：拥有瑟利斯特的所有效果，并且赫瑞克的天生武器变为一把火焰短剑，在近战攻击中获得本法术威力*2的器械加值。<BR>格雷林：拥有艾丽西亚的所有效果，并且格雷林可以以一个标准动作对120米内一个目标发起落雷，造成等同天生武器伤害的效果，并具有天武所有特性，反射豁免减少，此外，在格雷林行动开始时，所有与其相邻的目标会受到等同其天生武器伤害的效果，并具有天武所有特性，反射豁免减少。<BR>默克尔：拥有希德的所有效果，并且获得了飞行能力，等同其移动速度，机动性完美，在默克尔行动开始时，所有与其相邻的目标会受到等同其天生武器伤害的效果，并具有天武所有特性，强韧豁免减少。 
+<BR></FONT></P>
+<P><FONT face=宋体>精灵献祭<BR>专业：咒法<BR>威力：6<BR>价格：C+1000<BR>动作：6AP<BR>能耗：3点<BR>成分：语言，动作<BR>射程：10米*智力*法术威力<BR>范围：5米*智力*法术威力<BR>持续时间：自由动作维持专注<BR>冷却：3轮<BR>效果：选择法术射程内一点，以该点为中心，法术范围为半径的球形区域内，所有元素精灵立刻死亡<BR>并以该精灵为中心，本法术范围为半径的球形区域内产生元素爆炸，造成不同程度的伤害，受影响的目标反射豁免，每次伤害独立结算。<BR>若死亡的是下位元素精灵，造成的伤害等同召唤该精灵的法术威力+本法术威力，伤害类型等同该精灵的天生武器伤害类型<BR>若死亡的是中位元素精灵，造成的伤害等同（召唤该精灵的法术威力+本法术威力）*1.5，伤害类型等同该精灵的天生武器伤害类型<BR>若死亡的是上位元素精灵，造成的伤害等同（召唤该精灵的法术威力+本法术威力）*2，伤害类型等同该精灵的天生武器伤害类型<BR>法术生效后，角色可以以自由动作维持该区域存在，之后进入该区域的元素精灵亦可产生同样的效果。<BR>以一个4AP动作，角色可以将一个自己召唤的元素精灵传送到法阵区域的任意位置，并使其死亡产生元素爆炸。 
+<BR></FONT></P>
+<P><FONT face=宋体>精灵召唤：伊伽贝拉<BR>专业：召唤<BR>威力：6<BR>价格：C+1000<BR>动作：6AP<BR>能耗：3点<BR>成分：语言，动作<BR>射程：自身<BR>范围：5米*智力*法术威力<BR>持续时间：一个场景<BR>效果：这道法术可以召唤精灵王伊伽贝拉，召唤出的精灵可以放置在以自身为中心，法术范围为半径的球形区域内任意未被占据的位置，召唤师死亡时法术立刻结束，同一角色同时只能召唤一个伊伽贝拉。<BR>伊伽贝拉属性有属性等同本法术威力，所有技能视同本法术威力/2，上限15，并具有相关专业，其体积为8，并进行相应调整（未计入），形象看起来是纯能量构成的巨大女性人类，身体散发着并不刺眼的光芒，并且有着不明材质构成的护甲。<BR>其衍生属性如常计算。<BR>具有元素生物特性，视为拥有伤害等同本法术威力，魔法，正常攻击灵体的天生武器<BR>伊伽贝拉拥有飞行能力，等同其移动速度，机动性完美。<BR>以一个6AP动作，她可以选择<BR>1.进行远程攻击，这视为一种投掷攻击，单位射程法术威力*5米，武器视同天生武器。<BR>2.选择法术威力*10米内一个目标，目标受到伤害等同其天生武器伤害，并具有天生武器特性，反射豁免。<BR>3.选择一个方向，长度等同法术威力*5米，宽高各等同法术威力米长方体区域或长度法术威力*2.5米锥体区域产生范围伤害，所有目标受到伤害等同其天生武器伤害，并具有天生武器特性，反射豁免。<BR>伊伽贝拉的天生武器可以造成火焰，寒冷，电击或腐蚀伤害，在使用时决定。<BR>伊伽贝拉模糊视觉范围内，所有召唤伊伽贝拉者召唤的下位元素精灵，中位元素精灵，上位元素精灵，在攻击上获得等同本法术威力的表现加值。<BR>伊伽贝拉模糊视觉范围内，每存在3个下位元素精灵，1个中位元素精灵，其天生武器伤害提升1L，每存在1个上位元素精灵，其天生武器伤害提升2L，这些元素精灵必须都是召唤伊伽贝拉者召唤的。 <BR><BR> 
+<BR></FONT></P>
+<P><FONT face=宋体>契约召唤：弗利特<BR>专业：召唤<BR>威力：6<BR>价格：C+1000<BR>动作：6AP<BR>能耗：3点<BR>成分：语言，动作<BR>射程：自身<BR>范围：5米*智力*法术威力<BR>持续时间：一个场景<BR>效果：这道法术可以召唤红龙弗利特，召唤时可以放置在以自身为中心，法术范围为半径的球形区域内任意未被占据的位置，召唤师死亡时法术立刻结束，同一角色同时只能召唤一个弗利特。弗利特是标准西方幼年龙形象，有爪牙翅膀，能进行喷吐。<BR>弗利特的以下属性等同本法术威力：力量，耐力<BR>弗利特的以下属性等同本法术威力/2：敏捷，感知<BR>弗利特的其他属性等同法术威力/3。<BR>弗利特的以下技能等同本法术威力：肉搏，求生，运动<BR>弗利特的其他技能等同本法术威力/6。<BR>弗利特视同拥有所有需要的专业，技能上限为15<BR>弗利特的体积为6，并进行相应调整（未计入）<BR>其衍生属性如常计算。<BR>红龙弗利特拥有以下能力：<BR>天生武器伤害等同本法术威力，具有魔法，正常攻击灵体特性，天生防御等同本法术威力<BR>飞行速度等同移动速度的两倍，机动性普通<BR>以一个6AP动作，进行远程攻击，这视为一种投掷攻击，但以耐力取代敏捷进行攻击判定，单位射程法术威力*5米，武器视同天生武器，但造成火焰伤害，表现为喷出火球射击。<BR>以一个6AP动作，选择一个方向，在长度等同法术威力*2.5米锥体区域内喷吐火焰，造成等同天生武器伤害的范围火焰伤害，反射豁免，具有天生武器所有特性。<BR>以一个6AP动作，以自身为中心，半径等同本法术威力*2.5米球形区域内释放龙威，区域内所有生物受到等同天生武器伤害的范围精神冲击伤害，意志豁免，若受到伤害，将受到同等数量的精神束缚。具有天生武器所有特性 
+<BR> <BR> 
+<BR></FONT></P>
+<P><FONT face=宋体>契约召唤：桑德尔<BR>专业：召唤<BR>威力：6<BR>价格：C+1000<BR>动作：6AP<BR>能耗：3点<BR>成分：语言，动作<BR>射程：自身<BR>范围：5米*智力*法术威力<BR>持续时间：一个场景<BR>效果：这道法术可以召唤黑骑士桑德尔，召唤时可以放置在以自身为中心，法术范围为半径的球形区域内任意未被占据的位置，召唤师死亡时法术立刻结束，同一角色同时只能召唤一个桑德尔。桑德尔的形象为持剑盾，穿黑色全身甲的骑士<BR>桑德尔的以下属性等同本法术威力：力量，耐力<BR>桑德尔的以下属性等同本法术威力/2：敏捷，感知<BR>桑德尔的其他属性等同法术威力/3。<BR>桑德尔的以下技能等同本法术威力：白刃，求生，运动<BR>桑德尔的其他技能等同本法术威力/6。<BR>桑德尔视同拥有所有需要的专业，技能上限为15<BR>桑德尔的体积为5<BR>其衍生属性如常计算。<BR>黑骑士桑德尔具有如下能力：<BR>数据上总是视同装备着长剑，重盾，重甲，这些物品不能移交，也免疫使其离开持有者的效果<BR>其使用的长剑武器伤害提升至本法术威力，重甲不会产生防御减值，且盔甲防御提升至本法术威力*2。<BR>桑德尔可以以自由动作以重盾进行白刃格挡。<BR>桑德尔拥有快速医疗等同本法术威力/6。<BR>在桑德尔模糊视觉范围内的友方目标获得等同本法术威力/6的全伤害吸收，敌方目标每轮受到本法术威力/3点仇恨点数。<BR>以一个6AP动作，桑德尔可以挥出一道剑气来进行远程攻击，这视同其进行了近战白刃攻击，但具有本法术威力*10米射程。 
+<BR>每个法术召唤的该召唤物同时只能存在一只。 <BR><BR><BR><BR> 
+<BR>契约召唤：路易斯<BR>专业：召唤<BR>威力：6<BR>价格：C+1000<BR>动作：6AP<BR>能耗：3点<BR>成分：语言，动作<BR>射程：自身<BR>范围：5米*智力*法术威力<BR>持续时间：一个场景<BR>效果：这道法术可以召唤魔法师路易斯，召唤时可以放置在以自身为中心，法术范围为半径的球形区域内任意未被占据的位置，召唤师死亡时法术立刻结束，同一角色同时只能召唤一个路易斯。路易斯形象是一个长发女性，穿着清凉的衣服，手持一支法杖。<BR>路易斯的以下属性等同本法术威力：智力，耐力<BR>路易斯的以下属性等同本法术威力/2：敏捷，感知<BR>路易斯的其他属性等同法术威力/3。<BR>路易斯的以下技能等同本法术威力：神秘，求生，运动<BR>路易斯的其他技能等同本法术威力/6。<BR>路易斯视同拥有所有需要的专业，技能上限为15<BR>路易斯的体积为5<BR>其衍生属性如常计算。<BR>魔法师路易斯具有如下能力：<BR>数据上总是视同装备着木棍，这些物品不能移交，也免疫使其离开持有者的效果<BR>其使用的木棍武器伤害提升至本法术威力，并具有魔法，正常攻击灵体特性。<BR>路易斯具有飞行能力，等同其移动速度，机动性完美，其具有力场防御等同本法术威力*2<BR>路易斯可以以施法判定来进行近战攻击判定，提升攻击判定的能力也将提升其施法判定。<BR>路易斯具有等同本法术等级的魔法射手法术且具有对应施法者职能，为该召唤法术提供法术威力增加的效果可以1/3增加至路易斯释放的魔法射手法术，但其无法造成关键字为【风】的音波伤害，而是造成关键字为【风】的物理伤害，并可以以其精力作为消耗施法。<BR>此外，其路易斯施展的魔法射手法术具有如下选择：<BR>1.选择一个方向，长度等同法术威力*5米，宽高各等同法术威力米长方体区域或长度法术威力*2.5米锥体区域，造成魔法射手武器伤害点范围伤害，伤害类型为魔法射手可以造成的伤害之一，反射豁免。<BR>2.在法术威力*10米内选择一点，以该点为中心，半径等同法术威力*5米球形区域，造成魔法射手武器伤害点范围伤害，伤害类型为魔法射手可以造成的伤害之一，反射豁免。<BR>&nbsp; 
+<BR></FONT></P>
+<P><FONT face=宋体>契约召唤：库鲁塔<BR>专业：召唤<BR>威力：6<BR>价格：C+1000<BR>动作：6AP<BR>能耗：3点<BR>成分：语言，动作<BR>射程：自身<BR>范围：5米*智力*法术威力<BR>持续时间：一个场景<BR>效果：这道法术可以召唤牛头王库鲁塔，召唤时可以放置在以自身为中心，法术范围为半径的球形区域内任意未被占据的位置，召唤师死亡时法术立刻结束，同一角色同时只能召唤一个库鲁塔。库鲁塔是一个高大的牛头人，身着合金甲胄，手持一把巨斧。<BR>库鲁塔的以下属性等同本法术威力：力量，耐力<BR>库鲁塔的以下属性等同本法术威力/2：敏捷，感知<BR>库鲁塔的其他属性等同法术威力/3。<BR>库鲁塔的以下技能等同本法术威力：白刃，求生，运动<BR>库鲁塔的其他技能等同本法术威力/6。<BR>库鲁塔视同拥有所有需要的专业，技能上限为15<BR>库鲁塔的体积为8，并进行相应调整（未计入）<BR>其衍生属性如常计算<BR>牛头王库鲁塔具有如下能力：<BR>数据上总是视同装备着巨斧，重甲，这些物品不能移交，也免疫使其离开持有者的效果，且总是适合体积调整。<BR>其使用的巨斧具有魔法，正常攻击灵体特性，重甲不会产生防御减值，且盔甲防御提升至本法术威力*2。<BR>其在攻击判定上获得等同本法术威力*2的内在加值。<BR>其进行冲锋时，可以同时进行全力攻击<BR>其进行全力攻击时，获得的增强加值加倍，且不受基础防御限制。<BR>库鲁塔的生命值额外提升本法术威力*1.5点。<BR>以一个6AP动作，库鲁塔可以砸击地面，令以其为中心，半径等同本法术威力*1.5米球形区域内成为困难地形，并对区域内所有目标造成等同其本法术威力的范围物理严重伤害，反射豁免，具有魔法，正常攻击灵体特性。<BR>以一个6AP动作，以自身为中心，半径等同本法术威力*2.5米球形区域内释放咆哮，区域内所有生物受到等同伤害的范围音波冲击伤害，强韧豁免，若受到伤害，将受到同等数量的耳鸣点数。，具有魔法，正常攻击灵体特性。 
+<BR></FONT></P>
+<P><FONT face=宋体>契约召唤：袄索<BR>专业：召唤<BR>威力：6<BR>价格：C+1000<BR>动作：6AP<BR>能耗：3点<BR>成分：语言，动作<BR>射程：自身<BR>范围：5米*智力*法术威力<BR>持续时间：一个场景<BR>效果：这道法术可以召唤魔界花袄索，召唤时可以放置在以自身为中心，法术范围为半径的球形区域内任意未被占据的固体平面上，召唤师死亡时法术立刻结束。袄索看起来如同巨大的血管构成的花茎，约有一米六高，巨大的花朵染着血色，看上去如同七鳃鳗的嘴。<BR>袄索的以下属性等同本法术威力：力量，耐力<BR>袄索的以下属性等同本法术威力/2：决心，沉着<BR>袄索的其他属性等同法术威力/3。<BR>袄索的以下技能等同本法术威力：肉搏，求生，运动<BR>袄索的其他技能等同本法术威力/6。<BR>袄索视同拥有所有需要的专业，技能上限为15<BR>袄索的体积为5<BR>其衍生属性如常计算<BR>魔界花袄索具有如下能力：<BR>袄索无法移动。<BR>袄索具有天生武器，伤害视同本法术威力L，具有魔法，正常攻击灵体特性。<BR>袄索具有天生防御，等同本法术威力*2<BR>袄索在发起攻击时，视同具有本法术等级的措手不及等级。<BR>在袄索相邻方格内开始行动的生物会受到等同本法术威力*1.5的毒素严重伤害，毒素等级等同本法术等级，强韧豁免。<BR>以一个6AP动作，袄索可以以藤蔓或喷刺进行远程攻击，这视同其进行了近战肉搏攻击，但具有本法术威力*10米射程。<BR>袄索每经过3回合，可以在以其为中心，法术范围为半径的球形区域内任意未被占据的固体平面上，创造一朵新的魔界花袄索，其持续时间与创造它的袄索持续时间相同。<BR>同一角色同时只能控制等同其施法职能等级+本法术等级的魔界花袄索，达到上限后，魔界花袄索不会再创造新的魔界花，角色也不能再使用本法术。 
+<BR></FONT></P>
+<P><FONT face=宋体>B级法术<BR>支配之环<BR>专业：咒法<BR>威力：12<BR>价格：B+2000<BR>动作：6AP<BR>能耗：5点<BR>成分：语言，动作<BR>射程：无<BR>范围：5米*智力*法术威力<BR>持续时间：一个场景或直到耗散<BR>效果：由“第二真相”开发并传播的支配之环，可以让召唤师在面对召唤物时处于支配地位，并且极大的简化召唤仪式。<BR>法术完成后，以自身为中心，法术范围为半径球形区域内展开结界，该结界不会跟随使用者移动。<BR>当使用者处于结界中，使用本能力组中的契约召唤或精灵召唤法术时，将施法动作AP消耗降低4点，本效果至多生效这些降低动作的法术等级累积达到本法术等级次（在这里将法术等级D/C/B/A/S分别记为1/3/9/27/81）。<BR>举例而言，你在展开本法术后，可以使用3次C级精灵召唤，从而在瞬间召唤出上位精灵，之后本法术效果结束，或者使用一次B级精灵召唤。但不能使用A级或更高的召唤能力。 
+<BR></FONT></P>
+<P><FONT face=宋体>精灵召唤：融合精灵海伊伦<BR>专业：召唤<BR>威力：12<BR>价格：B+2000<BR>动作：6AP<BR>能耗：5点<BR>成分：语言，动作<BR>射程：自身<BR>范围：无<BR>持续时间：一个场景<BR>效果：这道法术可以召唤融合精灵海伊伦，召唤出的精灵总是与自己共格，浮现在自己身后，召唤师死亡时法术立刻结束，同一角色同时只能召唤一个海伊伦。<BR>海伊伦属性有属性等同本法术威力，所有技能视同本法术威力/2，上限15，并具有相关专业，其体积为5，海伊伦看上去像个蜡烛，它的躯干下方没有腿，是缠绕的旋风，左手是黑暗，右手是闪电，头则是由火焰构成。<BR>其衍生属性如常计算。<BR>具有元素生物特性<BR>海伊伦总是浮现在召唤师身后，并伴随移动，自身不具备移动能力，也没有任何行动能力。<BR>以海伊伦为中心，半径等同本法术威力*5*施法者智力米球形区域内，所有友方生物获得如下好处：<BR>-在攻击，防御，豁免判定中获得本法术威力点环境加值。<BR>-在造成任何能量伤害时，该伤害提升等同本法术威力/3点。<BR>-在若这些生物是你以本能力组或能力组下法术中召唤的生物时，其在进行准备动作后，未触发期间视同不处于该位面，仅在该位面留下了投影作为道标，实际处于异空间中，在此期间这些采用准备动作的生物依旧和投影完全共享感官。 
+<BR></FONT></P>
+<P><FONT face=宋体>契约召唤：征服者卡西利亚斯<BR>专业：召唤<BR>威力：12<BR>价格：B+2000<BR>动作：6AP<BR>能耗：5点<BR>成分：语言，动作<BR>射程：自身<BR>范围：5米*智力*法术威力<BR>持续时间：一个场景<BR>效果：这道法术可以召唤征服者卡西利亚斯，召唤时可以放置在以自身为中心，法术范围为半径的球形区域内任意未被占据的位置，召唤师死亡时法术立刻结束，同一角色同时只能召唤一个卡西利亚斯。卡西利亚斯看起来约3米高，头上长有双角，身穿武士铠甲，佩戴一把长刀，使用拔刀术进行战斗。<BR>卡西利亚斯的以下属性等同本法术威力：力量，耐力，敏捷，感知<BR>卡西利亚斯的其他属性等同法术威力/2。<BR>卡西利亚斯的以下技能等同本法术威力：白刃，求生，运动<BR>卡西利亚斯的其他技能等同本法术威力/6。<BR>卡西利亚斯视同拥有所有需要的专业，技能上限为15<BR>卡西利亚斯的体积为8，并进行相应调整（未计入）<BR>其衍生属性如常计算。<BR>卡西利亚斯具有如下能力：<BR>数据上总是视同装备着重剑，重甲，这些物品不能移交，也免疫使其离开持有者的效果<BR>其武器伤害提升至本法术威力，并具有神兵特性，盔甲防御提升至本法术威力<BR>卡西利亚斯因体积调整而减少的敏捷和基础防御下降2点，并具有等同本法术威力的天生防御<BR>卡西利亚斯在进行攻击判定时获得等同本法术威力两倍的修行加值。<BR>卡西利亚斯登场时，以其为中心，法术范围为半径球形区域内，所有目标受到等同本法术威力的力场严重伤害，具有魔法，正常攻击灵体特性，反射豁免，因此受到伤害的目标需要进行力量判定，并将体积调整座位附加成功计入，判定失败则倒地。<BR>卡西利亚斯死亡或法术结束时，以其为中心，法术范围为半径球形区域内，所有目标受到等同本法术威力*1.5的物理严重伤害，具有神兵特性，反射豁免。<BR>以一个6AP动作，卡西利亚斯可以移动至多两次移动的距离，这次移动不会被生物阻挡，并对移动路径上所有目标造成等同本法术威力的物理严重伤害，具有神兵特性，反射豁免。 
+<BR></FONT></P>
+<P><FONT face=宋体>A级法术<BR>黑月之噬<BR>专业：召唤<BR>威力：24<BR>价格：A+4000<BR>动作：6AP<BR>能耗：7点<BR>成分：语言，动作<BR>射程：自身<BR>范围：10米*智力*法术威力<BR>持续时间：一个场景或直到被摧毁<BR>效果：使用“蚀”的力量形成一轮黑色的月亮，这轮黑月是“蚀”的概念具现，任何看到你的生物都能感受到这轮黑月在你的背后照耀你。<BR>以你为中心，法术范围为半径的球形区域内，视为概念上的夜晚，即使当时是阳光明媚的白天也一样，处于区域中的生物能感受到这一影响，并能立刻发现你是这种夜晚力量的源头。<BR>在此区域中，所有你以本能力组或能力组下法术中召唤的生物在受到实际伤害时将伤害转由本法术承担，本法术不会再次进行伤害计算。<BR>本法术的生命值视同与本法术相同价格的物品，但不具备硬度，除这种伤害转移外，本法术也不会受到其他伤害。<BR>本法术生命耗尽时，法术效果结束，同时黑月爆散，对区域内所有敌方目标造成等同法术威力的纯能量严重伤害和目眩点数，具有魔法，幽冥特性，强韧同时豁免两者。你可以选择任意数量目标不受此效果影响。<BR>进化：额外支付175XP，你可以将本法术进化为传说召唤：月蚀之影<BR>本法术生效期间，你可以以一个6AP动作，冷却1轮，消耗7点魔力，在法术区域内产生本法术威力*1.5点混沌严重伤害，具有魔法，幽冥特性，强韧豁免。混沌伤害不受任何调整伤害的能力影响，你可以选择任意数量目标不受此效果影响。因此造成的每点实际伤害都能恢复本法术1点生命值。 
+<BR></FONT></P>
+<P><FONT face=宋体>传说召唤：逆月者拉莫斯<BR>专业：召唤<BR>威力：24<BR>价格：A+4000<BR>动作：6AP<BR>能耗：7点<BR>成分：语言，动作<BR>射程：自身<BR>范围：5米*智力*法术威力<BR>持续时间：一个场景<BR>效果：这道法术可以召唤逆月者拉莫斯，要召唤拉莫斯，你必须已经使用了黑月之噬法术，拉莫斯召唤时只能放置自身施展的黑月之噬法术区域内（仅召唤时限制，之后移动离开或是黑月之噬被摧毁都无关）。召唤师死亡时法术立刻结束，同一角色同时只能召唤一个拉莫斯。拉莫斯会在月光中降临，她体积5，身材纤细，全身着甲，使用拳头和蚀进行攻击。<BR>拉莫斯的所有属性等同本法术威力<BR>拉莫斯的所有技能视为15级并且有需要的专业。<BR>拉莫斯的体积为5<BR>其衍生属性如常计算。<BR>拉莫斯具有如下能力：<BR>拉莫斯视为具有天生武器，伤害等同本法术威力，并具有神兵特性。<BR>拉莫斯具有天生防御和盔甲防御等同本法术威力。<BR>拉莫斯模糊视觉范围内，每存在一个拉莫斯召唤者使用的本能力组技能树下的召唤法术召唤的对象，拉莫斯的天生武器伤害提升1点。<BR>拉莫斯登场时，以及其死亡或法术结束时，以其为中心，本法术区域为半径球形区域内造成等同本法术威力的纯能量严重伤害，具有魔法，幽冥特性，反射豁免，你可以选择任意数量目标不受此效果影响。<BR>拉莫斯以天生武器攻击目标时，无论是否命中，目标方格将产生爆炸，对目标造成等同拉莫斯天生武器的纯能量严重伤害，具有神兵特性，反射豁免。<BR>以一个6AP动作，拉莫斯可以用蚀横扫以其为中心，本法术区域为半径的球形区域内产生等同拉莫斯天生武器的混沌严重伤害，具有神兵特性，强韧豁免。混沌伤害不受任何调整伤害的能力影响，你可以选择任意数量目标不受此效果影响。<BR>以一个10AP动作，拉莫斯可以遁入黑月之噬法术中（若该法术尚存在），此时拉莫斯无法做出任何行动，但也不会受到任何影响。当黑月之噬受到实际伤害时，拉莫斯可以替代其承受实际伤害，不会再经过伤害计算。若此时黑月之噬法术被摧毁，拉莫斯召唤也将结束。<BR>此时拉莫斯只能做出两种动作：<BR>1.以一个10AP动作，出现在黑月之噬法术区域内的任意位置，并产生登场时的效果。<BR>2.以一个10AP动作，消耗拉莫斯7点意志和精力，引发黑月之噬中的蚀之力，在黑夜之噬法术区域内产生等同拉莫斯天生武器的混沌严重伤害和纠缠点数，具有神兵特性，强韧同时豁免两者。混沌伤害不受任何调整伤害的能力影响，你可以选择任意数量目标不受此效果影响。</FONT></P>
+<P><FONT face=宋体>至高精灵王<BR>需要：精灵召唤：伊伽贝拉<BR>专业：召唤<BR>威力：48<BR>价格：S+8000<BR>动作：6AP<BR>能耗：9点<BR>成分：语言，动作<BR>射程：自身<BR>范围：5米*智力*法术威力<BR>持续时间：立即<BR>冷却：3轮<BR>效果：此法术需施法者所召唤精灵王伊伽贝拉存在时才能使用。法术施展后将立刻使精灵王伊伽贝拉传送至施法者相邻方格，若传送被阻拦，法术即告结束，否则将继续注入大量蚀使其强化，被强化的精灵王伊伽贝拉由施法者选择一个方向，向该方向发射由蚀和多重属性复合形成的多束高密度激光，该方向上长度等同法术范围的锥体区域内所有敌方目标受到等同法术威力的混沌恶性伤害，所有受影响的目标可以进行反射豁免，每个成功数将1点伤害下降1级，可多次降级为无，你可以进行一次施法判定，成功数作为其反射豁免判定的减值。</FONT></P>
+<P><FONT face=宋体>魔月·德拉里昂<BR>专业：召唤<BR>威力：48<BR>价格：S+8000<BR>动作：10AP<BR>能耗：9点<BR>成分：语言，动作<BR>射程：自身<BR>范围：5米*智力*法术威力<BR>持续时间：全回合专注维持<BR>效果：施法者将以自身为中心，法术范围为半径的球形区域内所有选择的目标，以及自身传送至魔月·德拉里昂，该效果中选择目标无需效果线，因此至多可以将脚下的大地等环境直接挖去一块。<BR>魔月·德拉里昂会以蚀的力量无差别的湮灭其中的所有物质。<BR>每轮在你行动开始时，对所有除你之外的目标受到等同法术威力/2的混沌恶性伤害。<BR>魔月·德拉里昂视为一个无限大的独立位面，位面中失重且无法呼吸，视觉，听觉，嗅觉皆被蚀的力量隔断而无法使用（这三种模糊和敏感范围被限定在0），、，除非具有SSS级以上的侦测等级。<BR>此外，任何造成伤害的远程攻击或范围伤害，造成的伤害下降等同本法术威力点，若伤害降低至0，其将直接失效。<BR>法术结束时，施法者和所有尚存活的被本法术传送的目标将回到原本的位置。</FONT></P></font></FONT></font></div>	
+	<div id="winchm_template_footer"><font size="2px" font face="Microsoft YaHei">版权所有 (C) 2003-2018 lv20112668。</font></div>
+</div>
+
+</body>
+</html>

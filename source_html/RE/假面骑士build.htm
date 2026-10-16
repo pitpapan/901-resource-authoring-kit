@@ -1,0 +1,911 @@
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>假面骑士build</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Microsoft YaHei, Simsun, Arial, sans-serif;
+	font-size: 12pt;
+}
+</style>
+
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+</head>
+
+<body>
+
+<div id="winchm_template_top">
+	<div id="winchm_template_button"><A href="暗黑龙骑.htm" title="上一主题"><img id="winchm_template_prev" alt="上一主题" src="template2/btn_prev_n.gif" border="0"></a><A href="假面骑士blade.htm" title="下一主题"><img id="winchm_template_next" alt="下一主题" src="template2/btn_next_n.gif" border="0"></a></div>
+	<div id="winchm_template_navigation"><font size="2px" font face="Microsoft YaHei">帮助 &gt; 
+无限恐怖2.5RE_V1.03先行版 &gt; 资源相关 &gt; 改造 &gt; 无能量有技能树 &gt; </font></div>
+	<div id="winchm_template_title"><font size="2px" font face="Microsoft YaHei">假面骑士build</font></div>
+</div>
+<div id="winchm_template_container">
+	<div id="winchm_template_content"><font size="3px" font face="Microsoft YaHei"><font size="3" font face="Microsoft YaHei"><P><FONT face=宋体>假面骑士build<BR>改造-星云气体适性<BR>假面骑士build中的力量体系，原本人体在受到星云气体后才能确认自身的星云气体适应性。<BR>适应性过差会死亡或无法维持人间体成为无意识的猛击者。<BR>拥有足够适性的受体将从星云气体中获得力量，并能随自身的成长或纳入额外的星云气体提升这种力量，这种力量被称为危险等级。<BR>D+1000<BR>特性：危险等级3.0（六特性）<BR>技能树：星云气体适性改造专属物品<BR>特殊：没有能量池，额外获得两个特性<BR>危险等级3.0：你在星云气体中获得的力量让你在攻击，防御和豁免判定中获得3点内在加值。<BR>此外，危险等级在你产生强烈情感波动时将有所成长，每场景一次，当你处于能够被动开启基因锁的状况时（这不需要你有基因锁，因此包括丢锁或替锁的类似赛亚人或人造人在内都可以正常适用此能力），攻防豁免中的内在加值提升0.5点，上限为提升6点，合计9点。 
+</FONT> 
+</P>
+<P> 
+<BR><FONT face=宋体>C+2000<BR>特性：危险等级4.0（四特性）<BR>技能树：星云气体适性改造专属物品<BR>危险等级4.0：你在D级危险等级3.0的成长值中若尚未提升到最大，立刻提升到最大值。<BR>此外，危险等级在你产生强烈情感波动时将有所成长，每场景一次，当你处于能够开启基因锁的状况时（这不需要你有基因锁，因此包括丢锁或替锁的类似赛亚人或人造人在内都可以正常适用此能力），攻防豁免中的内在加值提升1点，上限为提升12点，最大合计21点。 
+</FONT> 
+</P>
+<P> 
+<BR><FONT face=宋体>B+4000<BR>特性：危险等级5.0（四特性）<BR>技能树：星云气体适性改造专属物品<BR>危险等级5.0：你在C级危险等级4.0的成长值中若尚未提升到最大，立刻提升到最大值。<BR>此外，危险等级在你产生强烈情感波动时将有所成长，每场景一次，当你处于能够开启基因锁的状况时（这不需要你有基因锁，因此包括丢锁或替锁的类似赛亚人或人造人在内都可以正常适用此能力），攻防豁免中的内在加值提升2点，上限为提升24点，最大合计45点。 
+<BR></FONT> 
+</P>
+<P><FONT face=宋体>A+8000<BR>特性：危险等级6.0（四特性）<BR>技能树：星云气体适性改造专属物品<BR>危险等级6.0：你在B级危险等级5.0的成长值中若尚未提升到最大，立刻提升到最大值。<BR>此外，危险等级在你产生强烈情感波动时将有所成长，每场景一次，当你处于能够开启基因锁的状况时（这不需要你有基因锁，因此包括丢锁或替锁的类似赛亚人或人造人在内都可以正常适用此能力），攻防豁免中的内在加值提升4点，上限为提升48点，最大合计93点。 
+</FONT> 
+</P>
+<P> 
+<BR><FONT face=宋体>S+16000<BR>特性：危险等级7.0（五特性）<BR>技能树：无<BR>危险等级7.0：你在A级危险等级6.0的成长值中若尚未提升到最大，立刻提升到最大值。<BR>当角色危险等级提升至7.0时，其可以选择一个自身持有的满装能量瓶，将其进化为进化能量瓶。<BR>进化能量瓶依据个人的精力和瓶子内容不同，将其视为一件S+16000的满装能量瓶（特性数等同本改造等级），与ST协商决定。<BR>该能量瓶的效果应该强化指定能量瓶的同一方面。 
+<BR>星云气体适性改造专属物品：<BR>以下物品虽然任何人都能购买和装备（或在有相应特异物品制造能力时制造），但只有拥有相应等级本改造的角色可以使用。<BR>本系列物品虽然是特异物品，但仅就解读图纸和制作需要的技能与专业而言，使用科学技能和相关专业。这不意味着它能以通常科技造物的方式进行，你依然需要有制造魔法和特异物品的能力。 
+</FONT> 
+</P>
+<P> 
+<BR><FONT face=宋体>build驱动器<BR>本质：特异本质<BR>价格：D+500/C+1000/B+2000/A+4000<BR>分类：腰带，<BR>描述：葛城忍参考“Evol驱动器”进行设计，通过插入两个满装能量瓶，可令自身变身为骑士的设备。<BR>效果：仅星云气体适性改造等级为本物品等级或更高的角色，在腰带已经插入两个满装能量瓶的状态下可以以自由动作启动腰带，进入变身状态。<BR>不再满足前述条件的下一轮，变身自动解除，也可以以自由动作解除变身。<BR>腰带带有三个满装瓶罐收纳器，将收纳器上的任意数量能量瓶与腰带上的任意数量能量瓶交换是一个2AP动作。<BR>填充任意数量收纳器中的能量瓶或腰带上的能量瓶也是2AP动作，但你需要提前持有。<BR>变身状态下，你将获得插入的能量瓶所述的好处，以及一套连体全覆盖式战斗装束，但腰带依旧在外侧，该战斗装束视为具有8/16/32/64点盔甲防御，封闭2/4/8/16，全伤害吸收0/1/2/4，防弹，防能量武器的轻装甲。<BR>并且使你获得伤害3/6/12/24L，破甲4/8/16/32的天生武器。<BR>升级物品：本物品可以支付差价升级到下一等级 </FONT> 
+</P>
+<P> 
+<BR><FONT face=宋体>挤压驱动器<BR>本质：特异本质<BR>价格：C+1000/B+2000/A+4000<BR>分类：腰带<BR>描述：桐生战兔在build驱动器残留的开发途中数据的基础上完成的新型假面骑士变身设备。<BR>效果：仅星云气体适性改造等级为本物品等级或更高的角色，在腰带已经插入一个满装能量瓶或挤压啫喱的状态下，可以以自由动作启动腰带，进入变身状态。<BR>不再满足前述条件的下一轮，变身自动解除，也可以以自由动作解除变身。<BR>腰带带有三个满装瓶罐收纳器，将收纳器上的任意数量能量瓶与腰带上的任意数量能量瓶交换是一个2AP动作。<BR>填充任意数量收纳器中的能量瓶或腰带上的能量瓶也是2AP动作，但你需要提前持有。<BR>变身状态下，你将获得插入的能量瓶所述的好处，以及一套连体全覆盖式战斗装束，但腰带依旧在外侧，该战斗装束视为具有16/32/64点盔甲防御，封闭4/8/16，全伤害吸收1/2/4，防弹，防能量武器的轻装甲。<BR>并且使你获得伤害6/12/24L，破甲8/16/32的天生武器。<BR>升级物品：本物品可以支付差价升级到下一等级 </FONT> 
+</P>
+<P> 
+<BR><FONT face=宋体>Evol驱动器<BR>本质：特异本质<BR>价格：B+2000/A+4000<BR>分类：腰带<BR>描述：build驱动器系列的原型，除build驱动器的功能外，其能够用于增强blood一族的能力。<BR>效果：对非blood一族而言，该物品等同同等级的build驱动器，对blood一族而言有额外的功能，见blood一族血统（等什么时候有了再说） 
+</FONT> 
+</P>
+<P> 
+<BR><FONT face=宋体>危险扳机<BR>本质：特异本质<BR>价格：D+500/C+1000/B+2000/A+4000<BR>分类：物品改造<BR>描述：葛城忍所设计、葛城巧所完成的“Build驱动器”用的机能扩张设备。<BR>该物品改造可安装于build驱动器，挤压驱动器或evol驱动器（此时叫做进化启动装置）<BR>当你处于以上述驱动器进行的变身状态时，你可以以一个6AP动作启动危险形态，危险形态至多持续一个场景，危险形态持续的每轮，你必须支付1/3/5/7点意志或降低1/2/3/4点沉着，由你在每轮选择，结束危险形态是另一个6AP动作。<BR>若你的沉着在危险形态下降低至0，你不会昏迷，而是变为无心智生物，被无尽的破坏冲动填塞，总是攻击最接近你的生物，若已无法感知到生物，则会无意义的进行破坏，此时不会再降低意志，而是每轮积累1点疲乏点数，此形态下你忽略此种疲乏点数产生的影响，直到疲乏点数累积进入严重后果，你会昏迷并结束危险形态和变身形态，直到你的疲乏点数脱离严重后果。<BR>危险形态下，同级改造赋予的危险等级特性中的加值加倍，不同等级之间的不会叠加而是取高。<BR>升级物品：本物品改造可以支付差价升级到下一等级。 </FONT> 
+</P>
+<P> 
+<BR><FONT face=宋体>能量瓶<BR>本质：特异本质<BR>价格：见后<BR>分类：携带物<BR>描述：假面骑士build体系中的核心物品，由宇宙邪恶生命体evolto创造，拥有星云气体的力量，又由地球科学家加工，出现了众多版本。<BR>无论哪个版本都可以由本改造等级至少等同能量瓶等级的角色用下列两种方法之一来激发效果<BR>-腰带变身：通过填充于evol驱动器，build驱动器或挤压驱动器，在变身时生效，此时持续时间等同你变身持续时间。<BR>-摇晃：有星云气体适性改造的角色可以以标准动作摇晃能量瓶使之生效，此时持续时间为一个场景，以这种方法生效时，你同时只能处于一个能量瓶效果影响之下，新的效果将覆盖旧的。<BR>能量瓶有一些特殊的规则如下：<BR>-配对：以插入两个能量瓶启动的腰带变身效果必须使用一个有机物名称能量瓶和一个无机物名称能量瓶进行，PC和ST应该有能力自行辨别（例如猩猩是有机物，钻石不是）<BR>-满装瓶罐：能量瓶标注的标准价格购买或制造，即称为满装瓶罐，这是最普通的能量瓶。<BR>-双瓶：以能量瓶标注的标准价格的三倍进行购买或制造，即称为双瓶满装能量瓶，这样的能量瓶产生的数值效果是普通能量瓶的两倍，它只能插入需要两种能量瓶的驱动器，并且同时占据两个能量瓶位置，在插入双瓶时，你使用等同你本改造等级或更低的危险扳机不会产生负面作用（但依旧需要动作启动）。<BR>-挤压啫喱：若你声明要购买或制造能量瓶的挤压啫喱版本，你可以用标注的标准价格来购买或制造它，挤压啫喱产生的数值效果是普通能量瓶的两倍，但挤压啫喱自生效轮（变身或插入）起，每轮你必须回合开始时支付1/3/5/7点意志或降低1/2/3/4点沉着，由你在每轮选择，在生效时就要立刻支付一次，具体支付的数量取决于能量瓶的等级（D-A对应四档）。<BR>若你的沉着因此降低至0，你不会昏迷，而是变为无心智生物，被无尽的破坏冲动填塞，总是攻击最接近你的生物，若已无法感知到生物，则会无意义的进行破坏，此时不会再降低意志，而是每轮积累应当支付的意志点疲乏点数，达到严重后果时，你会昏迷并结束危险形态和变身形态，直到你的疲乏点数脱离严重后果。<BR>-进化瓶罐：进化瓶罐是危险等级提升至7.0时个人独属的进化方式，见S级改造所述。<BR>-天才瓶罐：天才瓶罐是将多种不同的能量瓶混合产生的效果，它只能插入需要两种能量瓶的驱动器，天才瓶的兑换和制作价格相当于你选择的参与混合的能量瓶标准价格的叠加，但至少需要混入10种不同的能量瓶才能制作天才瓶。天才瓶不能混合双瓶或挤压啫喱，但可以混合精致瓶。天才瓶罐也不能再被双瓶或挤压啫喱调整，天才瓶会使所有你选择的参与混合的能量瓶效果一起生效。原本需要配对生效的效果，只能选择其中一种符合原本配对目标的来生效。<BR>例如，狮子，巫师，漫画，坦克的混合天才瓶，狮子的效果只能选择漫画和坦克之一生效，漫画也只能选择狮子和巫师之一生效。<BR>-精制：以能量瓶标注的标准价格的三倍进行购买或制造，可以获得精制版本满装瓶罐，这样的能量瓶产生的数值效果是普通能量瓶的两倍，并且可以进一步制作成双瓶，挤压啫喱，天才瓶罐，甚至再次进行精制<BR>此时价格，数值效果都以乘算放大（例如两次精制就是9倍价格） </FONT> 
+</P>
+<P><BR><FONT face=宋体>有机物能量瓶<BR>兔子 
+D+500<BR>生效时，你在速度上获得20米提升，反射豁免上获得6点增强加值，防御上获得3点闪避加值，攻击上获得3点增强加值 
+</FONT> 
+</P>
+<P> <BR><FONT face=宋体>猩猩 
+D+500<BR>生效时，你在以力量，耐力为关键属性的判定中获得4点内在加值。 </FONT> 
+</P>
+<P> <BR><FONT face=宋体>忍者 
+D+500<BR>生效时，你在以敏感，感知为关键属性的判定中获得4点内在加值。 </FONT> 
+</P>
+<P> <BR><FONT face=宋体>巫师 
+D+500<BR>生效时，你在智力上获得2点内在加值，并在以智力为关键属性的判定中获得4点内在加值。 </FONT> 
+</P>
+<P> <BR><FONT face=宋体>海贼 
+D+500<BR>生效时，你获得一把弓刃作为武器，在持续时间结束时消失。<BR>弓刃可以作为短剑来进行近战攻击，或者作为短弓来进行远程攻击，无论如何，其武器伤害为5L<BR>你可以以运动技能取代白刃技能来进行白刃格挡，并在攻击时视目标为D级措手不及影响。<BR>本能量瓶在进行双倍提升数值时，会提升武器伤害，以及攻击时目标的措手不及等级（D-C-B-A），以及短弓的射程 
+</FONT> 
+</P>
+<P> 
+<BR><FONT face=宋体>飞鹰 D+500<BR>生效时，你获得等同你移动速度1倍的飞行速度，机动性完美<BR>生效时，你的移动速度增加20米 </FONT> 
+</P>
+<P> <BR><FONT face=宋体>章鱼/蔷薇 
+D+500<BR>由于两瓶效果几近雷同，主神进行了合并<BR>生效时，每轮1次，当你在变身形态下的天生武器攻击成功造成伤害时，可以立刻尝试发起一次擒抱或摔拌。<BR>若这次擒抱获得成功，你可以立即尝试发起压制。<BR>若这次摔拌获得成功，你可以立即对其发起一次攻击。<BR>生效时，你在进行擒抱或摔拌的判定中获得3点内在加值。 </FONT> 
+</P>
+<P><BR><FONT face=宋体>狮子 
+D+500<BR>本能量瓶只能和其他能量瓶共同生效，无法单独生效。<BR>生效时，另一能量瓶等级若与本能量瓶等级相同或更低，另一能量瓶的数值效果加倍。如果它被精致了一般。 
+</FONT> </P>
+<P> 
+<BR><FONT face=宋体>无机物能量瓶<BR>坦克 D+500<BR>生效时，你的生命上限提升10点，获得6点天生防御 
+</FONT> </P>
+<P><BR><FONT face=宋体>钻石 D+500<BR>生效时，你获得DR1/-，全能量抗力1点，硬度2 </FONT> </P>
+<P><BR><FONT face=宋体>漫画 
+D+500<BR>本能量瓶只能和其他能量瓶共同生效，无法单独生效。<BR>生效时，你获得10点XP，用于无视前提的自学另一能量瓶在任何漫画中出现过的技艺，你并没有真正学会这项技艺，只是可以使用它。<BR>例如另一半是忍者，那么火影忍者符合条件，但你不能自学火影忍者里武士的技艺，另一半是海贼，那么海贼王符合条件，但并不能让你学习王下七武海的技艺。具体判断标准由ST决定（ST可以允许隐喻，例如将狮子隐喻至狮心王。）<BR>被学习的技艺需要得到st许可，会在生效结束时失去，即使其产生的效果能持续更长时间（甚至即效），效果也一并在失去时结束，并且同一场景内本类能量瓶在与另一类能量瓶搭配中做出的选择不能改变 
+</FONT> 
+</P>
+<P><BR><FONT face=宋体>电车 
+D+500<BR>生效时，以一个6AP动作，冷却时间3轮，你可以在进行攻击的基础上追加1次手持武器或天生武器攻击，但总计发起的攻击必须平均分配给至少两件不同的武器。<BR>以此方式做出的所有攻击中，破甲，破魔，高速提升1点。 </FONT> 
+</P>
+<P><BR><FONT face=宋体>加特林 
+D+500<BR>生效时，你获得一把加特林机枪作为武器，在持续时间结束时消失。<BR>这视为一把六管转轮机枪，没有使用前提且具有无限弹药。<BR>本能量瓶在进行双倍提升数值时，第一次会给予4点破甲和破魔，并且会将枪械基本的5点高速优势一并加倍，以及加特林的射程。 
+</FONT> 
+</P>
+<P><BR><FONT face=宋体>火箭 
+D+500<BR>生效时，你可以以4AP动作启动，直线移动500米。若中途撞上任何目标，你如同坠落向目标一般计算你需要受到的坠落伤害，目标受到等同你受到的实际伤害的坠落伤害，至多等同你的生命上限。<BR>你无法进行反射豁免来减少自身受到的坠落伤害，但目标可以，而且目标可以用自身的伤害减免能力进一步减少该伤害。<BR>你在移动过程中可以提前停止，这需要消耗一个6AP动作进行准备动作。（你可以在自己的回合中用4AP准备后用移动效果，之后触发6AP停止）。<BR>本能量瓶在进行双倍时，仅移动距离获得提升。 </FONT> 
+</P>
+<P><BR><FONT face=宋体>光 
+D+500<BR>生效时，每场景1次，你可以以自由动作对能以视觉精确定位你的敌人造成8点目眩点数，反射豁免。<BR>此外，你可以在半径耐力*5米球形区域内产生D级照明效果，并在两倍区域内产生昏暗照明效果。</FONT></P></FONT></font></div>	
+	<div id="winchm_template_footer"><font size="2px" font face="Microsoft YaHei">版权所有 (C) 2003-2018 lv20112668。</font></div>
+</div>
+
+</body>
+</html>

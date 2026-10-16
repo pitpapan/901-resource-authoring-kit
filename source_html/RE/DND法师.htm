@@ -1,0 +1,929 @@
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>DND法师/研习法师</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Microsoft YaHei, Simsun, Arial, sans-serif;
+	font-size: 12pt;
+}
+</style>
+
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+</head>
+
+<body>
+
+<div id="winchm_template_top">
+	<div id="winchm_template_button"><A href="废墟图书馆司书.htm" title="上一主题"><img id="winchm_template_prev" alt="上一主题" src="template2/btn_prev_n.gif" border="0"></a><A href="捆绑包-矢量操作.htm" title="下一主题"><img id="winchm_template_next" alt="下一主题" src="template2/btn_next_n.gif" border="0"></a></div>
+	<div id="winchm_template_navigation"><font size="2px" font face="Microsoft YaHei">帮助 &gt; 
+无限恐怖2.5RE_V1.03先行版 &gt; 资源相关 &gt; 捆绑包 &gt; </font></div>
+	<div id="winchm_template_title"><font size="2px" font face="Microsoft YaHei">DND法师/研习法师</font></div>
+</div>
+<div id="winchm_template_container">
+	<div id="winchm_template_content"><font size="3px" font face="Microsoft YaHei"><font size="3" font face="Microsoft YaHei"><P><FONT face=宋体>DND系法师/研习法师<BR>本质：魔幻本质<BR>龙与地下城系列中的法师使用法术位系统来施展法术而非常见的魔力，这种系统以续航能力为代价换取了更大的灵活性，此外他们通过学习与知识的积累掌握法术，对于他们而言，多数法术都可以通过对应的方式迅速习得。<BR>本能力视为两个能力组的打包购买，其价格为DD+2000/CC+4000/BB+8000/AA+16000/SS+32000<BR>也因此合计在D级拥有4+4+2+2+1+1=14个特性，之后则是每级10个。<BR><BR>D级<BR>前提：智力高于2点，神秘学技能3级。<BR>能量：特殊<BR>属性：智力+2<BR>特性：法术位系统·法师（六特性），魔宠（三特性），属性提升（双特性）<BR>技能树：D级施法职能以及其他技能<BR>法术位系统·法师：法术位系统并非真正的能量池，而是一套计数器。<BR>你能选择任意两个D级或更低的通用法术加入你的法术位系统，并拥有等同你传奇智力个D级法术位（下限为1），会随你传奇智力提升而变化。<BR>每当长休息后可以进行一次，你能花费15分钟在你的法术位上准备你选择的D级法术，准备完成后，你就能正常施展这些法术，一旦施展后，该法术就会被消耗掉，法术位变回空置状态，用于进行下一次准备（尽管没用掉也可以准备新的来替换旧的）。<BR>在施展这些法术时，你无需支付魔力消耗，但无法为这些法术消耗任何额外的魔力。其他成分均需要如常支付。<BR>若你由其他途径获得了其他的法术位，所有法术位独立计算。<BR>你经由其他途径获得的通用法术也可以准备于你的法术位中，但会受到法术位相关限制（例如无法消耗额外魔力）。<BR>你只需要支付一半的价格即可购买或升阶通用法术（表现为支付一份价格来获得2个法术，或只消耗向上取整的一半XP进行自学），但如此购买或升阶的通用法术只能用于准备在你的本能力组获得的法术位中时的选择权，无法经由其他方式施展，也不视为你获得了这些通用法术，也不能准备于其他来源获得的法术位，特殊的，这种购买或升阶方式可以受多施法职能减耗影响，先将原价格减半再进行减耗。<BR>以法术位施展的法术也视为由精神魔力产生的效果，这在与一些效果，例如解除魔法互动时成为其目标。<BR>不同职业的法术位系统有所冲突，你并不能以法术位系统·法师以及其后等级法术位系统提升提供的法术位准备仅能通过其他职业法术位系统准备的法术。<BR>D/C/B/A/S级的法术位基础只能记忆基础能耗不超过1/3/5/7/9点的法术。<BR>此外，若法术位系统准备的法术具有冷却时间，将冷却时间减少2轮，但此方法最多降低为1轮冷却时间。<BR>魔宠：你能施展C级法术使魔使役，无需能量消耗且持续时间变为立即，但，仅有一次，并且以此方式获得的使魔也同时只能有一只存在，若你失去了第一只，你可以支付10点XP来重新获得使用一次本特性的能力。<BR>以此方式创造的使魔比通常的使魔弱小，但与主人的连接更为紧密，它不会获得额外的1500构筑分。但它能和你一同被主神传送进入或离开影片。<BR>此外，若你与魔宠相邻或共格，你施展的通用魔法中任何以自身为目标的效果可以同样影响你的魔宠，但只要魔宠不再与你相邻就会不再受这些效果影响，而无关效果原本的持续时间<BR>此外，你施展的通用魔法若目标仅限自身，可以选择不对自身产生影响，而是对魔宠产生影响。 
+<BR><BR></FONT><FONT face=宋体>C级<BR>属性：智力+4<BR>特性：强化魔宠，法术位系统提升（六特性），属性提升（双特性）<BR>技能树：C级施法职能以及其他技能<BR>强化魔宠：你通过D级魔宠特性获得的魔宠智力上获得1点内在加值，天生防御获得3点加值，并能选择一门主人的一项语言专长获得<BR>法术位系统提升：你能选择任意两个C级或更低的通用法术加入你的法术位系统，并拥有等同你传奇智力个C级法术位（下限为1），会随你传奇智力提升而变化，高级法术位可以准备较低级的法术，例如C级法术位可以准备D级法术 
+<BR><BR> 
+</FONT><FONT face=宋体>B级<BR>属性：智力+8<BR>特性：强化魔宠，法术位系统提升（六特性），属性提升（双特性）<BR>技能树：B级施法职能以及其他技能<BR>强化魔宠：你通过D级魔宠特性获得的魔宠智力上来自C级特性的内在加值提升2点，天生防御提升6点，并获得8点法术抗力<BR>法术位系统提升：你能选择任意两个B级或更低的通用法术加入你的法术位系统，并拥有等同你传奇智力个B级法术位（下限为1），会随你传奇智力提升而变化，高级法术位可以准备较低级的法术，例如C级法术位可以准备D级法术 
+<BR><BR> 
+</FONT><FONT face=宋体>A级<BR>属性：智力+24<BR>特性：强化魔宠，法术位系统提升（六特性），属性提升（双特性）<BR>技能树：A级施法职能以及其他技能<BR>强化魔宠：你通过D级魔宠特性获得的魔宠智力上来自B级特性的内在加值提升4点，天生防御提升12点，当其受到范围伤害影响时，总是如同已经离开伤害范围般结算。<BR>法术位系统提升：你能选择任意两个A级或更低的通用法术加入你的法术位系统，并拥有等同你传奇智力个A级法术位（下限为1），会随你传奇智力提升而变化，高级法术位可以准备较低级的法术，例如C级法术位可以准备D级法术 
+<BR><BR> 
+</FONT><FONT face=宋体>S级<BR>属性：智力+48<BR>特性：强化魔宠，法术位系统提升（六特性），属性提升（双特性）<BR>技能树：S级施法职能以及其他技能<BR>强化魔宠：你通过D级魔宠特性获得的魔宠智力上来自A级特性的内在加值提升8点，天生防御提升24点，你可以随意的将自身的感官投射到魔宠位置，这不需要额外的动作，视同你同时拥有基于自身和魔宠两个位置的感官。<BR>法术位系统提升：你能选择任意两个S级或更低的通用法术加入你的法术位系统，并拥有等同你传奇智力个S级法术位（下限为1），会随你传奇智力提升而变化，高级法术位可以准备较低级的法术，例如C级法术位可以准备D级法术<BR>————————————————————————————————————————————————————————————————————————————————<BR></FONT><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt">法术书<BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt">法师可以通过研读来将以特殊方式记录的法术记忆在自己的法术位之中，若是被记录在纸张上并被装订成书即被称作“法术书”（之后统一称该物品为法术书），这并不会限制你使用其他方式进行记录，但想要使其成为真正生效，每一个记录的法术都需要投入分数使其生效/采用造物方式制造。（即使你记录在计算机内进行拷贝，也只有付出价格的那一个文件可以生效，）</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt"><BR>其运作方式与价格（以正常法术对应的价格购买后可以同时获得两个）等同你通过法术位系统购买的仅具有法术位选择权的法术一致，法师可以在准备法术位阶段将记载在法术书上的法术使用并填充进法术位，但这需要你在准备法术位阶段可以正常利用法术书获取信息。<BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt">想要购买、制造法术书，你的DND法师等级至少要等同于该法术书记载的法术等级。</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt">你向主神兑换或着自己进行制造的法术书全部都是以自己的所能理解的写法所著，其他的法师想要利用不属于自己的法术书准备其中的某个法术需要额外花费1小时</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">进行一个DC为该法术</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">（原本支线等级*2-1）的平方</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">+4</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">的辨识法术周期性检定，特殊的是在这一个小时内对方可以同时对复数自己持有的他人法术书进行辨识，而不占用额外时间，对每个法术书记载的法术进行的该周期性检定一天仅能进行一次。</SPAN></P>
+<P class=MsoNormal 
+style="TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt">特殊*：你可以将数张记录着法术的法术书订装（合并）在一起，此时法术书的硬度生命值等参数合并计算。</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt">你也可以要求主神兑换或在制造时将法术记录在魔导书、计算机等存储媒体上，此时计算该物品的硬度生命值等参数时也额外将这些法术书的价格计入考量，若是魔导书被摧毁，在重新恢复到最大生命值时这些记载的法术也会变得完好如初。</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt">ST有权阻止玩家在各种稀奇古怪的物品（包括但不限于武器，盾牌，护甲，饰品，载具）上乱涂乱画法术（大量记录法术）来达成让该物品更难以被摧毁之类的目的。</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">在兑换法术书时，可以以分数替换所需的支线，每1000分可替换一个D级支线，因此两个记载D级的法术书为D+500或1500分，可以以750分获得一个。<BR>SSS级以上的法术无法通过法术书记录。<BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">可选：通过法术位系统获得的法术可以以法术书的形式获得，该选项默认开启。</SPAN><BR><FONT face=宋体><BR>DND法师技能树：<BR>戏法掌握<BR>250<BR>你获得4个特殊的‘0级’法师法术位，该法术位仅能用于储存无支线魔法，同时仅限储存法术时你视作习得了所有你具有秘籍的无支线魔法，而无关你是否具有魔力池都能使用。</FONT></P>
+<P class=MsoNormal 
+style="TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan"><BR><FONT face=宋体>额外法术位:<BR>熟练的施法者也拥有着更多的法术位可供记忆。<BR>前提：通过DND法师获得了对应的法术位级别的施法职能。<BR>250/D+500/C+1000/B+2000/A+4000<BR>你额外获得1个D/C/B/A/S级法术位。<BR>你通过该兑换获得的额外法术位至多能够获得三个。<BR><BR>制造魔法物品250/D+500/C+1000/B+2000/A+4000<BR>法师作为魔幻世界中的主要生产者，拥有制造魔法物品的能力，能如同制造科技物品一般，制造D级或更低的特异物品和魔幻物品，其必须为该物品支付XP，等同将其视为自学技能计算XP后的65%，但在制造D级或更低/C/B/A/S级的物品时减少1/3/7/15/31点XP消耗，至少需要消耗1点。 
+<BR>本技艺D/C/B/A级时，你的任意一项手艺技能子项技能等级提升1/1/2/4级，至多提升至<SPAN 
+lang=EN-US>5/7/11/15级。</SPAN><BR><BR>法术位超魔 
+250<BR>你可以使用法术位系统来使用你已有的超魔技巧或为法术投入额外的魔力<BR>你必须提前在准备法术位时决定一个法术是否要搭配超魔专长或为法术投入额外的魔力，若搭配超魔专长或为法术投入额外的魔力，所有搭配的超魔专长额外消耗的魔力和投入的额外魔力每有2点，你在准备该法术时就会占用高一级的法术，这些消耗的魔力依旧会先计算你减少消耗的相关能力，最终除非投入的额外魔力为0，否则至少占用高一级<BR>举例而言，你可以在准备法术时将D级法术魔法射手搭配默发定发超魔技巧，总共提升了2点魔力消耗，因此将占用C级法术位，若你只搭配了默发，虽然只提升了1点，但也会占用C级法术位。 
+<BR></FONT></FONT><FONT face=宋体><BR></FONT><FONT face=宋体>法术辨识 
+250<BR>若你的敏感感知范围内有目标施展通用法术，你自动知晓，尽管你并不知晓他在施展什么法术<BR>若目标施展的通用法术等级为D/C/B/A/S级且你的神秘技能等级至少达到5/7/11/13/15，并拥有该法术的施法专业，你自动知晓他在施展的是什么法术。 
+<BR> 
+<BR></FONT><FONT face=宋体>法术反制 
+500<BR>前提：法术辨识<BR>你可以以一个准备动作来进行反制法术。<BR>若你的敏感感知范围内有目标施展一个你已经准备在法术位上的同名法术，你消耗该法术，该目标施展的法术自动失效，其动作，消耗等均被浪费掉<BR>将超魔，投入额外魔力消耗，包括升阶等调整施展法术的手法全部视为同名法术。<BR>只有你知晓他在施展的法术时，你才能进行法术反制。<BR> <BR></FONT><FONT face=宋体>专精法师 
+D+500<BR>你专精于一种法术流派而减少了对其他流派的研究<BR>D级时，你需要选择两个施法专业作为对立专业，选择一个施法专业作为专精专业，你在购买对立专业法术时需要支付双倍价格，即使你用于其他非法术位施法职能也一样。<BR>你在为专精法师选择用于法术位的法术时，也无法选择对立专业的法术<BR>你获得1个额外D级法术位，该法术位只能用于准备专精法术<BR>C/B/A/S级时，获得1个额外C/B/A/S级法术位，该法术位只能用于准备专精法术 
+<BR></FONT><FONT face=宋体><BR>专攻专精法师 
+D+500<BR>前提：专精法师<BR>D级时，你需要选择4个而不是2个施法专业作为对立专业，并失去1个D级法术位，但再获得2个只能用于准备专精法术的D级法术位<BR>C/B/A/S级时，失去1个C/B/A/S级法术位，获得2个额外C/B/A/S级法术位，该法术位只能用于准备专精法术 
+<BR></FONT><BR><FONT face=宋体>精通法术反制 
+D+500<BR>前提：法术反制<BR>若你没有同名法术，你可以消耗比该生物正在施展的法术等级高1级（例如对方施展D级法术，你需要消耗一个C级法术来反制）的法术来完成法术反制。这里会正常计算目标的法术等级，若其升阶法术，你需要以更高等级的法术来反制。<BR> 
+</FONT><BR><FONT face=宋体>直觉法术反制 
+D+500<BR>前提：法术反制<BR>你进行法术反制时不需要提前准备，一旦你知晓目标正在施展的法术，你可以以6AP反射动作进行法术反制。 
+<BR><BR>法术专攻 D+500<BR>选择一个施法专业，你在施展该专业的法术时，法术威力提升1点。<BR>对每个施法专业，你可以购买本技艺2次。</FONT><FONT face=宋体>&nbsp; <BR> </FONT></P>
+<P class=MsoNormal 
+style="TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">法术熟稔：D+500/A+4000</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">在投入了心力后，法师可以熟稔这些法术，轻松的记忆并施放这些法术。</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">你可以通过支付差价（一半价格）来将你只拥有法术位系统选择权的法术作为通常施法职能上的法术获得。</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">在支付该差价时你可以应用施法职能减耗。</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">A级时，你无需准备便可以将准备了法术的法术位中的法术替换为你可以通过其他职能类型正常施放，也可以正常记忆的法术。<BR><BR></SPAN><FONT face=宋体>究极奥术师 
+C+2000<BR>前提：拥有魔力<BR>你以多种方式穷尽魔法之道。<BR>万法同源：你施展的法术威力提升1点，选择一个至多C级你只拥有法术位系统选择权的法术，它将作为通常施法职能上的法术获得。<BR>法术同调：当你使用的法术位或以魔力施展的法术因超魔，增幅等需要投入额外魔力消耗时，你可以将另一侧的魔力导入来完成这一效果。<BR>你可以将D/C/B/A/S/SSS/九S级法术位上的法术消耗，作为1/3/5/7/9/11/13点魔力来投入以魔力施展的法术所需要的额外魔力消耗，或者直接以魔力消耗来为法术位法术投入额外的魔力消耗。 
+</FONT></P>
+<P class=MsoNormal 
+style="TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR>精灵通才法师：B+2000</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">精灵天生就热衷于魔法,许多历史中最著名的法师都是精灵。察觉到多才多艺的价值,精灵法师一般倾向于对魔法综合的掌握。</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">前提：购买本变体需要兑换者具有精灵或精灵相关的血统（如半精灵、娜雅斯特），并且不能与专精法师共存。</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">你通过DND法师D-S级别法术位系统·法师特性获得的可选择法术增加一个。</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">此外，你获得一个额外的法术位，其等级取决于DND法师能力组的等级。<BR></SPAN><BR><FONT face=宋体>博学士 
+B+2000<BR>你储备的知识包罗万象，世界的本质在你眼中无所遁形<BR>当你在模糊视觉中看到一件不高于S级的物品时，自动获知其全部作用和数据，但不包含它与其他事物产生的互动（例如你看到氪石可以知道它的硬度，名字，放射射线，但不会知道它能影响超人）<BR>当你在模糊视觉范围内看到一个生物时，自动获知其当前所有属性和技能等级，并获知其所有衍生属性和弱点，包括dr，能抗，伤害吸收，防御构成等，并了解其具有的能量池以及相关等级。<BR>当你在模糊视觉范围内看到施展的技艺，你自动了解其效果，此外，在该范围内，你能发现所有有持续时间的效果，并能了解每一个效果的全部内容，包括这些效果的移除方法。<BR>这是个B级探知效果。<BR>在任何你需要支付资源且并非为获取物品的时刻，你可以在资源中混合支付XP作为代替，每5XP可以替代一个D级支线，或者每1XP可以替代100分。<BR>你在进行锻炼以获取XP时无需指定而可以获取通用XP，但若一个效果能让锻炼指定项目获得额外好处，你不会获得。<BR>你不需要事前通过秘籍投入至少1点XP即可在任意时刻以自由动作消耗XP并完成自学。 <BR> </FONT><BR><FONT face=宋体>大法师 
+A+4000<BR>获得此技艺时，你获得5点购买点数用于投入下列内容：<BR>-奥火：投入1点购买点数，并失去一个A级法术位，你获得将已经准备的法术扭曲回法术能量轰击出去的方式，以一个6AP动作，冷却1轮，消耗一个已经准备的法术，你可以施展烈阳光束，但法术威力等同你消耗的法术。<BR>-远发法术：投入1点购买点数，并失去一个至少B级法术位，你能远发接触法术，你施展的接触法术射程变为你的智力*法术威力*5米。<BR>-精通反制：投入1点购买点数，并失去一个至少B级法术位，你若能以本能力组中的法术反制成功令目标施展的法术失效，你可以选择并非让法术失效，而是令法术如同由你释放般在该目标上或目标位置处生效。<BR>-元素掌控：投入1点购买点数，并失去一个至少C级法术位，你的通用法术造成火焰，寒冷，腐蚀，光能，音波，电击，纯能量伤害时可以转变为另一种，由你决定。<BR>-精通塑形：投入1点购买点数，并失去一个至少C级法术位，你的通用法术影响区域时可以选定任意区域不受影响<BR>-法术之力：投入1点购买点数，并失去一个至少B级法术位，你施展法术时威力提升3点，本选项可重复选取<BR>-随手法术：投入1点购买点数，选择一个你准备了法术的法术位，你失去这个法术位，但获得2个额外法术位，这些法术位只能用于准备因此失去的法术位上准备的那个法术，这些法术无需姿势和语言成分。本选项可重复选取 
+<BR><BR></FONT><FONT face=宋体>魔力融合 
+S+16000<BR>你可以将法术位转化为对应的精神魔力上限，施放法术位中的法术只需要消耗自己的魔力。<BR>你开启了精神魔力池，你每具有一个D/C/B/A/S/SSS/九S级法术位便获得1/3/5/7/9/11/13点精神魔力上限。<BR>若你具有其他法术位系统提供的法术位，则你也会将其转化为对应的魔力上限。（牧师同样为精神魔力）<BR>你的法术位不再对可以记忆的法术的能耗作限制。<BR>你可以消耗其本应消耗的魔力数额施放自身记忆在法术位中的法术而不消耗法术位中的法术，并且可以正常支付额外魔力消耗。<BR><BR>传奇施法者 
+S+16000<BR>描述：主神空间中的传奇施法者，遍历无穷宇宙掌握了无尽知识的他们远超DND中的传奇法师。<BR>你开启SSS级施法者职能，并获得2个SSS级法术位，但你仍然需要掌握SSS级法术才能以此记忆并施放SSS级法术。<BR><BR>终极施法者&nbsp;SSS+32000<BR>描述：你已经抵达了无穷世界中施法者造诣的顶端。<BR>你开启九S级施法者职能，并获得1个九S级法术位，但你仍然需要掌握九S级法术才能以此记忆并施放九S级法术。</FONT></P></font></font></div>	
+	<div id="winchm_template_footer"><font size="2px" font face="Microsoft YaHei">版权所有 (C) 2003-2018 lv20112668。</font></div>
+</div>
+
+</body>
+</html>

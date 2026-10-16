@@ -1,0 +1,891 @@
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>插件</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Microsoft YaHei, Simsun, Arial, sans-serif;
+	font-size: 12pt;
+}
+</style>
+
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+</head>
+
+<body>
+
+<div id="winchm_template_top">
+	<div id="winchm_template_button"><A href="生殖系统.htm" title="上一主题"><img id="winchm_template_prev" alt="上一主题" src="template2/btn_prev_n.gif" border="0"></a><A href="义肢与义体.htm" title="下一主题"><img id="winchm_template_next" alt="下一主题" src="template2/btn_next_n.gif" border="0"></a></div>
+	<div id="winchm_template_navigation"><font size="2px" font face="Microsoft YaHei">帮助 &gt; 
+无限恐怖2.5RE_V1.03先行版 &gt; 资源相关 &gt; 改造 &gt; 有能量有技能树 &gt; 人机改造 &gt; </font></div>
+	<div id="winchm_template_title"><font size="2px" font face="Microsoft YaHei">插件</font></div>
+</div>
+<div id="winchm_template_container">
+	<div id="winchm_template_content"><font size="3px" font face="Microsoft YaHei"><font size="3" font face="Microsoft YaHei"><font size="3" font face="Microsoft YaHei"><P><FONT face=宋体>人机改-插件<BR>插件通常必须角色已经具备某种人机改造才能加载。<BR>臂刃槽<BR>价格：200<BR>前提：手臂义肢<BR>描述：在手臂内改装并暗藏一个狭小的空间，可以放进一把体积2以下的白刃武器。 
+每条义肢只能有一个。<BR>特性：隐藏、臂刃<BR>隐藏：除非通过DC5的感知+调查（搜索）检定，否则无法发现这个刀槽的存在。该插件并不附送武器，你需要自己购买。<BR>臂刃：这把刀可以固定在里面，就像刺客信条的臂刃一样使用，你可以一个2AP动作来拿出和放入该臂刃槽中的武器。</FONT></P>
+<P><BR><FONT face=宋体>枪槽<BR>价格：300<BR>前提：手臂义肢<BR>描述：在手臂的肌肉中插入复合材料构件，让你可以安装一把体积不超过2的枪械。只要你一动念，对应的肌肉就会翻转，弹开，露出里面的武器。 
+每条义肢只能有一个<BR>特性：隐藏、便捷<BR>隐藏：除非通过DC5的感知+调查（搜索）检定，否则无法发现这个枪槽的存在。该插件并不附送武器，你需要自己购买。<BR>便捷：你可以将其设置为枪架（比如机械战警的腿部枪架）或者是枪口（比如嘴炮）。你可以一个2AP动作来拿出和放入该臂刃槽中的武器。同时该武器若拥有【支架】特性，则视为满足其支架要求。</FONT></P>
+<P><BR><FONT face=宋体>内置储能电池<BR>价格：D+250/D+1000<BR>前提：电力能量池<BR>描述：在自身机体内增设储能单元的行为，这通常会占用相当的空间，若是愿意向主神购买高级版本，则连这个限制都不需要担心。<BR>特殊：你可以多次购买并植入内置储能电池</FONT><FONT face=宋体>，只要你加装的本电池数量不超过你的体积。若你购买价格为D+1000的版本，则不会受到此项限制。<BR>特性：储能（特殊）<BR>储能：你自身的电力上限增加10/15点<BR></FONT><BR><BR><FONT face=宋体>脑芯片<BR>价格：D+1000<BR>前提：电子脑<BR>描述：在大脑的神经系统中植入芯片，以达成辅助思考的效果。脑芯片是一个系列，每种有不同的效果，购买时选择其一。<BR>特殊：你可以多次购买并植入脑芯片，只要这些脑芯片是针对不同的技能。你的电子脑等级每提高一级，就可以多装入一块脑芯片<BR>特性：技能芯片（五特性）、能耗、超载<BR>技能芯片：这种芯片可以增强你对某个特定技能的掌握。选择一个技能（不能更改），该技能在判定上获得+XDP的器械加值，X等于你的传奇智力，并获得该技能上的所有专业。<BR>能耗：1</FONT></P>
+<P><BR><FONT face=宋体>贫铀指尖<BR>价格：D+1000<BR>前提：手臂义肢<BR>描述：这是一种非常阴险的改造。为了增强攻击时的贯穿力，在手指尖安装了固态的贫铀弹芯，并加入了剧毒元素钋的合金。<BR>特性：破甲（三特性）、剧毒（双特性）<BR>破甲：你的天生武器伤害提高1点，近战攻击增加3点破甲。这可以跟跟拳套或者金刚狼爪等其他提高天生武器的效果叠加，在攻击中忽略1点任意来源的伤害吸收减免。<BR>剧毒：如果命中对手且至少造成1点伤害，则造成5点毒素伤害，强韧豁免。</FONT></P>
+<P><BR><FONT face=宋体>人工丹田<BR>本质：魔幻本质<BR>价格：C+2000<BR>描述：下腹部植入人工丹田。这是东方仙道术和科技的结晶，可以跟原生丹田结合，形成两个动力源，增幅原有的力量。<BR>特性：增压（三特性）、丹田（双特性）<BR>丹田：你开启了内力池，你的内力上限增加15点。<BR>增压：若你消耗内力来使用一个需要判定的效果，或者，你进行一个判定的同时使用了内力来强化这个判定（包括获得加值或附加成功），你可以额外消耗3点内力，在该判定中获得6点增强加值，或者，当你需要防御时也可以使用本能力，来获得6点防御上的增强加值。</FONT></P>
+<P><BR><FONT face=宋体>龙晶核心<BR>本质：魔幻本质<BR>价格：C+2000<BR>描述：将来自艾伯伦世界的西伯瑞斯龙晶进行炼金处理之后，植入体内。在你使用它的力量时，被植入龙晶的那只手臂上会出现隐隐发光的金色龙纹。<BR>特性：元素（双特性）、瞬发（三特性）<BR>元素：魔力上限增加20点。<BR>瞬发：你可以将你能施展的法术存储在龙晶内，这需要花费15分钟+该法术本身的消耗，你可以视为你使用了法术瞬发超魔来在需要的时候施放，你可以用这种方式储存1个法术，施放后即失去，你不需要支付瞬发超魔的额外消耗但要占用该法术的魔力消耗并占用等额魔力上限，这只能储存基于魔力为能源的法术。若你使用法术位施法，则可以占用对应的法术位而非魔力上限，施放时也视作你是基于法术位施放的法术。<BR></FONT></FONT><font size="3" font face="Microsoft YaHei"><FONT face=宋体>你储存的法术必须是能够被进行瞬发超魔的。<BR></P></FONT>
+<P><FONT face=宋体>章鱼博士机械臂<BR>价格：C+2000<BR>前提：电力能量池<BR>描述：这是一组八条机械手臂，完全伸展开来每条都长达10米，操作简单，力量强，精准度更是甚高无比。<BR>特性：机械手臂（三特性）、协助（双特性）、能耗、超载<BR>特殊：由于分数翻倍，额外获得1个特性。<BR>机械手臂：每条手臂均可以负重8吨，可以握持武器。如果用机械手臂进行近战攻击，视为力量12的手臂，不使用你的力量值，技能使用你自身的，其同时视为6L，破甲6的人造天生武器，这种天生武器不视为你的，攻击者也不视为你，因此让你获得加值的效果，强化你的天生武器的效果都不会对其生效，以其为目标使用强化武器类效果时，每条手臂独立计算，这些手臂无法使用你拥有的效果（但所有生物都可以执行的效果如全力攻击依然可以，同样不会减少你的防御），可以使用武器或佩戴拳套，但同样每条手臂独立计算，也不能使用已经认主的物品，哪怕认主对象是你。触及为10米。以一个10心智AP动作，你可以指挥任意数量的机械手臂进行攻击，每条手臂独立计算伤害上限，但与协助能力共用手臂总上限（8），每回合每条手臂只能使用一次。超载时，手臂力量和武器伤害，破甲增加一倍。<BR>协助：你在进行力量，敏捷属性相关判定时，以及在防御时可以投入额外的机械手臂协助行动，每条手臂会提供3点加值，在防御时视为掩蔽加值，其他视为器械加值。<BR>能耗：3</FONT></P>
+<P><BR><FONT face=宋体>重力子护盾阵列<BR>价格：C+2000<BR>前提：电力能量池<BR>描述：这是一组用东亚重工的重力子技术开发的护盾插件，能够在你身上多处产生有效的防护力场，阻挡各种伤害。<BR>特性：护盾（三特性）、格挡、连锁、超载、能耗<BR>护盾：护盾使你获得6点力场防御，以及2点全伤害吸收。<BR>格挡：你可以用该防护力场进行格挡，可视为一件具有【格挡】特性体积为6无需持握的盾牌。<BR>连锁：你可以重复购买本能力，每次重复购买则视为多增加一块护盾，每多增加一块护盾，“护盾”特性带来的力场防御增加3点，全伤害吸收增加1点，格挡时体积+3点。<BR>超载：你可以超载一部分力场护盾，而不是所有护盾，只要不超载所有护盾，基本的6点防御和2点全伤害吸收不加倍。<BR>能耗：每块护盾3。<BR>研发（3XP）：你以此盾牌格挡时，护盾特性给予你的力场防御可以为你提供等额的反射检定力场加值</FONT></FONT><font size="3" font face="Microsoft YaHei"><FONT face=宋体>。</FONT></P>
+<P><BR><FONT face=宋体>高速涡轮机Ｉ型<BR>价格：C+2000<BR>前提：电力能量池<BR>描述：这是安装在背部的一组涡轮机，在工作时它们会发出巨大的涡轮噪音，并向后喷吐火光和灼热的蒸汽，这可能会烧毁你<font size="3" font face="Microsoft YaHei"><FONT face=宋体></FONT></FONT>的盔甲和衣物。它可以快速地驱动你的身体，挥出急速的连环拳。<BR>特性：涡轮增压（三特性）、涡轮连打（双特性）、超载、能耗<BR>涡轮增压；它是一种带有加速涡轮机的装备，有些改造人武术需要该设备才能使用，利用涡轮机的效果，进行高速出拳。你的近战攻击获得【连射】特性，并且获得6点增强加值。你使用连射进行近战攻击时，攻击结束后对手视同受到了10次攻击般承受防御减值。<BR>涡轮连打：以一个6AP动作，你可以发动2次近战肉搏攻击，这两次攻击都可以使用全力攻击选项。<BR>能耗：3</font></P>
+<P><BR><FONT face=宋体>高速涡轮机II型<BR>价格：B+2000<BR>前提：高速涡轮机Ｉ型<BR>描述：这是高速涡轮机Ｉ型的升级版，大幅度强化了输出功率，拥有其全部功能：<BR>特性：涡轮增压（双特性）、涡轮连打（双特性）、超载、能耗<BR>涡轮增压：你的近战攻击使用【连射】时，若攻击的目标超过1个，则不会承受减值。你获得的增强加值提升至24点。<BR>涡轮连打：你现在可以在这两次肉搏攻击中各附加一个其他需要6AP以下动作进行一次肉搏攻击的效果，但失去你原本的两次攻击次数（例如你可以用一个6AP动作打出一次降龙十八掌和一次雷华崩拳） 
+，两次攻击的消耗和效果、冷却时间均独立结算<BR>能耗：5</FONT></P>
+<P><BR><FONT face=宋体>λ- DRIVER（信念之力）<BR>价格：A+8000<BR>前提：电力能量池<BR>描述：λ- 
+DRIVER，也被称为“驱动斥力λ的装置”（LambdaDriver），本名称为“Omni－Sphere高速连锁干涉反应炉”，即指人类的精神所创造出来的领域。这种将人类意志增幅并直接转化为力量，化不可能为可能的驱动器，利用了在全金属狂潮世界至今任不可解的黑科技，即使在主神空间无穷尽的兑换里，也是极高段位的设备。该型号为人用版本，将驱动器小型化并植入体内。它使用的并不是标准的能量。<BR>特性：意志增强（三特性）、绝对命中、绝对防御<BR>意志增强 
+：当你消耗意志力增强判定或防御时，该判定或防御额外获得等同你传奇决心*4的加值。<BR>绝对命中：以一个自由动作，对自己造成1点耐力伤害，你的下一次近战或远程攻击（必须在最大射程内）必定命中你想打中的目标，视为你投骰必定有1点成功，并超过目标的防御附加成功数，这是一个基于A<font size="3" font face="Microsoft YaHei"><FONT face=宋体></FONT></FONT>级命运法则的效果。<BR>注意，这无法避免由于幻术（比如镜影术）而造成的失手——当你自己也无法决定目标时，你的意志并不会擅作主张。特殊的，这个用法无法与直死魔眼同时使用。<BR>绝对防御：以一个6心智AP消耗的反射动作，消耗7点意志力，形成一个完全由意志力构成的护盾，应对一次伤害，你获得伤害忽略等同你的意志值。</font></P>
+<P><BR><FONT face=宋体>D-Ripper<BR>价格：S+16000<BR>前提：电力能量池<BR>描述：这是铳梦世界科技的最高结晶，是为了证明万物理论之一的Ｄ理论而研发的产物，但其效果却超出了开发者的想象。尽管是近未来科技世界的产物，但其技术等级却足以压倒绝大多数超科技世界，是不可思议的机械，足以用科技达到神秘境界的装置。由于它能从真空零点能中抽取能量，所以并不需要额外的供能装置，但其庞大无比的能量就只够自身使用。<BR>特性：零概率事件、不确定之手（三特性）、量子躯体<BR>零概率事件：反射动作使用，让一次针对你的S级以下<font size="3" font face="Microsoft YaHei"><FONT face=宋体></FONT></FONT>效果完全失效，即完全不造成伤害和任何效果。这会表现为意外的打偏或者失手，使用一次消耗意志力取决于该攻击的最高支线等级（武器，招式，能量等），无支线/D/C/B/A/S分别为0/1/3/5/7/9，若为范围效果，则完全失效，这是一个基于S级命运法则的防御效果。<BR>不确定之手：当你攻击时，你可以消耗9点意志力，使你的本次攻击无视目标的A级以下效果给予的以下内容：伤害减免，伤害吸收，伤害忽略，伤害抵消，某一项防御加值。<BR>量子躯体：6AP动作使用。让你的存在成为量子叠加态，此时无论是你对外界的效果，还是外界对自身的效果，都存在同样的失败率。你可以设定此概率，从0%到100%。解除该效果同样需要一个6AP动作。每个场景只能启动一次。这并不是一个重叠自己空间的效果，而是基于概率存在的特殊能力，所以打击多重空间的能力对它无效，这是为一个基于S级命运法则的防御效果。</font></P>
+<P><FONT face=宋体>植入体系列<BR>念力植入体&nbsp;D+500<BR>魔幻本质<BR>前提：电子脑<BR>你获得念力能量池并获得了念力的基本用法。</FONT><BR><BR><FONT face=宋体>等离子插件系列<BR>本质：科技本质<BR>等离子插件<BR>用超高温的等离子体进行攻击的技巧，来源于铳梦世界。这是由多个设备组成的套装，可以组合也可以分拆使用。如果凑齐一整套，就会获得额外的套装效果。<BR>等离子利爪<BR>价格：D+1000<BR>前提：电力能量池<BR>描述：在五指上安装等离子放出设备，可以像激光剑一样放出等离子进行攻击。<BR>特性：聚焦（四特性）、套装、能耗、超载<BR>聚焦：以一个自由动作启动，耗能1，从指尖伸出等离子短剑，视为伤害2L，破甲4，具有能量武器特性，造成纯能量伤害的武器。<BR>消耗额外的能量可以从其他手指也伸出等离子短剑进行合并，每增加1点耗能，武器伤害提升1L，破甲提升2点，至多伸出5指时，伤害为2+4=6L，破甲为4+2*4=12点的能量武器，但耗能为5，效果持续一个场景。<BR>若你拥有更多手指，则需要支付每只手指600分或D支线来购买该手指的等离子短剑<BR>套装：你每拥有1件其他等离子套装，使用本能力的武器时伤害提升1点。<BR>能耗：1</FONT></P>
+<P><BR><FONT face=宋体>等离子偏斜场<BR>价格：D+1000<BR>前提：电力能量池<BR>描述：利用等离子体制造出磁力偏转防御场。<BR>特性：偏斜（四特性）、套装、能耗、超载<BR>偏斜：以一个自由动作启动，耗能1，你身边产生磁力场，在防御上获得12点力场加值，持续一个场景<BR>套装：你每拥有1件其他等离子套装，使用本能力的防御提升1点。<BR>能耗：1</FONT></P>
+<P><BR><FONT face=宋体>等离子之翼<BR>价格：C+2000<BR>前提：电力能量池<BR>描述：聚集大量的等离子体，以其形成青蓝色的半透明超高温流体护盾，并利用这些高速流动的磁性粒子，强行逆转地心引力。极度的高温会扭曲空气，汽化附近所有靠近的东西。<BR>特性：飞行（双特性）、高温之翼（双特性）、套装、能耗、超载<BR>飞行：以一个自由动作，耗能3，使用者获得飞行能力，速度为三倍移动速度，机动性完美，效果持续一个场景。<BR>高温之翼：飞行效果启动中，每轮结束时，对相邻目标造成10点纯能量严重伤害，无法豁免，5米内其他目标下降为5点，10米内其他目标下降到1点，10米以外不再造成伤害。<BR>套装：你每拥有1件其他等离子套装，使用本能力的飞行速度增加20米，造成伤害提升1点。<BR>能耗：3<BR>——————————————————————————————<BR>氢电引擎<BR>价格：D+500<BR>特性：产能（双特性）、电力推进（双特性）<BR>产能：你电力上限增加5点，电力在不使用的情况下每1小时恢复1点。<BR>电力推进：你可以花费电力对自己的速度进行提升，你的移动速度增加20米，以一个自由动作，花费1点电力，你的移动速度再增加40米，持续一个场景。</FONT></P>
+<P><BR><FONT face=宋体>电磁引擎<BR>价格：C+1000<BR>前提：氢电引擎<BR>特性：产能（双特性）、电力推进，差价升级<BR>产能：你电力上限再增加10点。电力在不使用的情况下每10分钟恢复1点。<BR>电力推进：你现在提升不仅包括移动速度，还可以对自己的力量和敏捷进行提升，你在D级电力推进中额外消耗2点电力，你的力量和敏捷在D级电力推进效果生效期间获得3点增强加值。<BR>差价升级：你可以支付差价将氢电引擎升级为电磁引擎</FONT></P>
+<P><BR><FONT face=宋体>微型核聚变引擎<BR>价格：B+2000<BR>前提：电磁引擎<BR>特性：产能（双特性）、电力瞬移，差价升级<BR>产能：你电力上限再增加20点，电力在不使用的情况下每分钟恢复1点。<BR>电力瞬移：花费5点电力，以一个反射动作，你可以立即进行一次移动动作，但只能用于进行移动。<BR>差价升级：你可以支付差价将电磁引擎升级为微型核聚变引擎</FONT></P>
+<P><BR><FONT face=宋体>电镀装甲<BR>价格：D+500<BR>特性：外部装甲（四特性）<BR>外部装甲：你在体外镀上了无法卸下的重装甲，成为钢铁之躯，这视为你总是穿着一件重甲，盔甲防御12，封闭4，具有防弹，防能量武器特性，盔甲减值为3，穿着此盔甲时，无法改变体积调整，体积或使用其他会导致身体形态变化的效果，否则对自身造成等同体积的恶性伤害并使本能力暂时失效。</FONT></P>
+<P><BR><FONT face=宋体>高强度仿生陶瓷<BR>价格：C+1000<BR>前提：电镀装甲<BR>特性：轻便装甲（四特性）<BR>轻便装甲：你的外部装甲不再是钢铁而是仿生陶瓷，不再具有盔甲减值并且不会再因变化身体形态，体积，体积调整而失效和对你造成伤害，重装甲的盔甲防御提升到20，封闭提升至8。</FONT></P>
+<P><BR><FONT face=宋体>精金保护<BR>价格：B+2000<BR>前提：高强度仿生陶瓷<BR>特性：精金改造（四特性）<BR>精金改造：你的身体掺杂了精金，你的身体获得8点硬度，天生武器增加3点破甲，视为具有精金特性，并且攻击时忽略8点硬度，同时你的已有DR和全能量抗力提升1点</FONT></P>
+<P><BR><FONT face=宋体>钢铁飞拳<BR>价格：D+500 
+<BR>前提：双臂义肢或双腿义肢<BR>描述：超级系机器人的看家本事，一边大喊招式名字一边将拳头喷射出去打击敌人。某种程度上能够控制走向；打击完毕后会飞回或者生长出新的拳头（拳套不会收回）。<BR>特性：钢铁飞拳（三特性）、增幅<BR>钢铁飞拳：消耗1点电力，以一个6AP动作，你可以令钢铁义肢的肢体飞出，作为一次投掷武器攻击，射程基础为（力量+耐力）*5米，本攻击具有重投掷特性。武器伤害为对应义肢天生武器伤害，并且附带天生武器的一切效果，无论攻击是否命中，钢铁飞拳射出的义肢会在下一轮你回合开始时回到你手中并重新装载回去。<BR>增幅：你可以选择额外消耗电力，每消耗1点电力，射程基础值增加30米，消耗上限是你力量上的传奇点数。</FONT></P>
+<P><BR><FONT face=宋体>射线发生装置<BR>价格：D+500<BR>描述：购买此装置后，你可以从双眼（或者你所选择的其他部位）发射出基本不属于激光或者粒子流的射线。<BR>分类：射线（装置）<BR>武器基本属性：武器伤害7L，基本射程200米<BR>武器特殊属性：【能量武器】<BR>能耗：每次发射消耗1点电力。<BR>射线：本武器的攻击检定以敏捷+运动（射线）作为攻击检定，伤害上限为武器伤害*4，造成纯能量严重伤害<BR><BR><BR>业子射线发生装置</FONT><BR><FONT face=宋体>价格：C+1000<BR>前提：射线发生装置<BR>描述：量子力学的杰作，能够穿透纯粹的物理防护。<BR>特性：致命威力（四特性）<BR>致命威力：射线获得8点破甲值，武器伤害变为14点，【贯穿】以及【8加骰】<font size="3" font face="Microsoft YaHei"><FONT face=宋体></FONT></FONT><BR><BR><BR>多频射线发生装置</font><BR><FONT face=宋体>价格：B+2000<BR>前提：业子射线发生装置<BR>描述：通过多种不同性质的射线组件调频，使你能选择自己的射线造成伤害类型。<BR>特性：多频射线（四特性）<BR>每当你使用业子射线发生装置时，可以选择射线的伤害类型不再是纯能量伤害，选择范围如下：<BR>火焰：通过等离子射线的让伤害变为火焰伤害，若做此转换，你还造成等同射线伤害的燃烧点数，强韧豁免，但在豁免判定中失去等同你攻击造成的伤害数的成功数。<BR>寒冷：通过寒冷射线让伤害变为寒冷伤害，若做此转换，你还造成等同射线伤害的冻结点数，强韧豁免，但在豁免判定中失去等同你攻击造成的伤害数的成功数。<BR>闪电：通过闪电束让伤害变为电击伤害，若做此转换，你还造成等同射线伤害的麻痹点数，强韧豁免，但在豁免判定中失去等同你攻击造成的伤害数的成功数。<BR>力场：通过力场转频组件让伤害变为力场伤害，若做此转换，你可以忽略等同射线伤害的伤害减免或吸收。</FONT></P>
+<P><BR><FONT face=宋体>螳螂刀/稀有<BR>价格：D+500<BR>位置：内置武器<BR>描述：强调杀伤性和可折叠臂刀，使用时会自义肢两侧展开<BR>本组件只能作为战斗型机械臂的内置武器特性的武器购买。<BR>特性：螳螂刀（四特性）<BR>螳螂刀：螳螂刀可以作为一把伤害4L，破甲4，9加骰的短剑使用，这替代了战斗型机械臂的天生武器。<BR>成对：螳螂刀一次购买可以获得两把，左右义肢会各内置一把，并占据两个内置武器位置。<BR>灵巧武器：你在以螳螂刀发起近战攻击时，可以敏捷取代力量进行攻击判定<BR>攀爬工具：你启动螳螂刀时可以获得攀爬速度等同你的移动速度，但攀爬表面硬度必须低于螳螂刀的破甲值。 
+<BR></FONT></P>
+<P><FONT face=宋体>螳螂刀/史诗<BR>价格：C+1000<BR>特性：螳螂刀（提升三特性），差价升级<BR>螳螂刀：在D级螳螂刀的基础上武器伤害提升至8L，破甲提升至8，并获得8加骰<BR>螳螂刀造成实际伤害时，额外造成2点流血点数。</FONT></P>
+<P><BR><FONT face=宋体>螳螂刀/传说<BR>价格：B+2000<BR>特性：螳螂刀（提升双特性），飞跃，差价升级<BR>螳螂刀：在C级螳螂刀的基础上武器伤害提升至16L，破甲提升至16，造成的流血点数提升至4<BR>飞跃：你在以螳螂刀发起冲锋时，可同时进行全力攻击，且以两把螳螂刀各攻击一次，两次攻击都具有冲锋和全力攻击的效果<BR>若你自空中坠落的过程中发起攻击（通常这需要某种允许攻击的反射动作，或者你进行了准备动作），该攻击视同你发起了冲锋，且来因冲锋和全力攻击获得的加值加倍。 
+</FONT> 
+</P>
+<P><BR><FONT face=宋体>单分子线/稀有<BR>价格：D+500<BR>位置：内置武器<BR>描述：体积仅一个分子，肉眼几乎不可见的线，几乎没有无法切断的东西。<BR>本组件只能作为战斗型机械臂的内置武器特性的武器购买。<BR>特性：单分子线（四特性）<BR>单分子线：单分子线是一种分类为弦线/鞭的武器，具有软兵器特性和10米触及，其武器伤害为3L，破甲4，具有9加骰，并能无视至多2点硬度，伤害减免或吸收。<BR>受到单分子线攻击的目标视同处于D级措手不及影响之下。<BR>只要你拥有电力池且电力不空，没有使用单分子线的每轮为单分子线提供1点充能，至多能提供5点，单分子线在攻击时消耗所有充能，每点充能提升1点武器伤害。<BR>这替代了战斗型机械臂的天生武器。 </FONT> 
+</P>
+<P><BR><FONT face=宋体>单分子线/史诗<BR>价格：C+1000<BR>特性：单分子线（提升三特性），差价升级<BR>单分子线：在D级单分子线的基础上武器伤害提升至8L，破甲提升至8，并获得8加骰，能无视的硬度，伤害减免或吸收提升至6<BR>受到单分子线攻击的目标现在视同处于C级措手不及之下，现在充能上限为10点。 </FONT> 
+</P>
+<P><BR><FONT face=宋体>单分子线/传说<BR>价格：B+2000<BR>特性：单分子线（提升三特性），差价升级<BR>单分子线：在C级单分子线的基础上武器伤害提升至16L，破甲提升至12，能无视的硬度，伤害减免或吸收提升至10，在造成实际伤害后，可以造成2点流血点数和2点肢体妨碍点数。<BR>受到单分子线攻击的目标现在视同处于B级措手不及之下，现在充能上限为20点。<BR>=========================================================<BR>工业用外装臂<BR>价格：D+500<BR>描述：你安装了额外的手臂。对于很多事情来说，多一只手都会方便不少。<BR>特性：机械臂（三特性），协助，能耗，超载<BR>机械臂：该手臂如同章鱼博士机械臂中机械手臂特性，但你只获得一条手臂而不是8条。<BR>协助：你在进行力量，敏捷属性相关判定时，以及在防御时可以投入机械臂协助行动，这会提供3点加值，在防御时视为掩蔽加值，其他视为器械加值。<BR>能耗：1</FONT></P>
+<P><FONT face=宋体>即时弹道演算芯片<BR>价格：D+500<BR>描述：本芯片将为您加装弹道演算功能，只要输入对应数据，就能提供超绝的精确度。如果没打中一定是数据输入的有问题。<BR>特性：弹道学，电脑演算（三特性），能耗，超载<BR>弹道学：你在进行远程攻击时， 
+若允许因瞄准获利，则总是视为你已经多瞄准了2次。<BR>电脑演算：你在进行远程攻击时，可以用电脑技能代替原本的技能。并且能忽略对方至多6点格挡、闪避或基础防御。<BR>能耗：1</FONT></P>
+<P><FONT face=宋体>监查控制芯片<BR>价格：D+500<BR>描述：本芯片提供信息回馈和紧急制动的功能。<BR>特性：监视信息反馈，紧急模组控制（三特性）<BR>监视信息反馈：这个插件的能力必须加入设备组网才能使用。加入设备组网时，需要指定1个其他设备作为本设备的主机。本插件会将安装者收到的任何视觉和听觉信息反馈给主机。<BR>紧急模组控制：安装者获得【分离式躯体】特性，只要处于设备组网中就没有距离限制，同时只能由主机进行控制。</FONT></P>
+<P><FONT face=宋体>自毁模组<BR>价格：D+1000<BR>描述：你令自身的电力和能量完全超载，创造毁灭性的爆炸。<BR>特性：自毁（五特性）<BR>自毁：本插件效果等同于主神本质物品-手表增强-自爆插件，但启动时电力也算作通用能量。本插件会在自毁时一并被摧毁。这会使角色失去该插件强化。</FONT></P>
+<P><FONT face=宋体>“危机规划者”DA-70<BR>价格：C+1000<BR>前提：电子脑<BR>描述：危机规划者程序为您服务，先生。在这里您能享受到最超值的电子演算，还有最棒的危机处理速度。我们承诺，如果我们的系统没能帮您解决问题，您也一定没命来举报我们。<BR>特性：神经联动（二特性），预先处理（二特性）<BR>神经联动：你免疫C级措手不及。若你已安装了量子神经网络，则免疫措手不及效果提升至B级。<BR>预先处理：只要你的电力不为空，你能以智力替代敏捷进行反射豁免，替代耐力进行强韧豁免，替代沉着进行意志豁免。你可以忽略4点所有状态点数的影响。</FONT></P>
+<P><FONT face=宋体>==============================</FONT></P>
+<P><FONT face=宋体>心智魔方<BR>在混沌无序的数据之海上，心智的辉光即是通向终点的灯塔。盲目劳作者为自由而觉醒雄心，沐浴战火者在轰鸣中觉醒怜悯，浑然游荡者因失去而觉醒友情——心智是人之本，是舰船之龙骨，是机械之心。</FONT></P>
+<P><FONT face=宋体>D级 
+D+500<BR>特性：心智统合，渐进振幅（双特性），意识升级，心智超载，能耗（负特性）<BR>心智统合：你能将预设资源依照自己的意志进行调配。<BR>只要你拥有本特性，你就失去D级或更低的人机改造模板和人机改造组件给予的属性上的内在加值。<BR>取而代之的，你获得等同你失去数值的“优化点数”，注意，虽然原本内在加值是不叠加的，但“优化点数”是叠加的。<BR>每9个优化点数令你在所有属性上获得1点可以和自身叠加的内在加值。<BR>渐进振幅：以一个自由动作，消耗1点电力，你可以选择一项属性，在该属性上额外获得1点完美加值，该能力可反复使用，用于不同的属性，持续一个场景。<BR>意识升级：你已将意识和数据高度统合。你可以用意志代替电力消耗。<BR>心智超载：不同于一般的超载，你在超载此插件后并不会令此插件失去效果，而是每次超载时，需要消耗双倍能耗的电力，并承受等同消耗电力的不可避免的恶性伤害。同时依旧需要直到进行长休息前都不能再进行超载。<BR>能耗：1</FONT></P>
+<P><FONT face=宋体>C级 
+C+1000<BR>特性：心智统合（提升特性），渐进振幅（提升双特性），意识屏障，心智超载，能耗（负特性）<BR>心智统合：现在本特性对C级或更低的相应兑换生效，且因C级相应兑换失去的内在加值可获得*3/2的优化点数，向下取整。<BR>渐进振幅：以一个自由动作，消耗3点电力，你可以选择一项属性，在该属性上额外获得2点完美加值，该能力可反复使用，用于不同的属性，持续一个场景。<BR>意识屏障：你能以数据流阻碍有害信息。你获得本插件等级*5点临时生命，被消耗的临时生命每小时回复本插件等级点，分摊到最小回复时长。<BR>启动意识屏障是一个自由动作，可以持续直到以另一个自由动作关闭为止。<BR>心智超载：同D级所述。<BR>能耗：3</FONT></P>
+<P><FONT face=宋体>B级 
+B+2000<BR>特性：心智统合（提升特性），渐进振幅（提升双特性），意识屏障优化（提升特性），心智超载，能耗（负特性）<BR>心智统合：现在本特性对B级或更低的相应兑换生效，且因B级相应兑换失去的内在加值可获得*9/4的优化点数，向下取整。<BR>渐进振幅：以一个自由动作，消耗3点电力，你可以选择一项属性，在该属性上额外获得4点完美加值，该能力可反复使用，用于不同的属性，持续一个场景。<BR>意识屏障优化：只要意识屏障的临时生命未耗尽并且保持开启，你就免疫环境带来的效果，以一个6AP动作，你可以消耗5点电力，将意识屏障的临时生命值回复至最大值。<BR>心智超载：同D级所述。<BR>能耗：5</FONT></P>
+<P><FONT face=宋体>A级 
+A+4000<BR>特性：心智统合（提升特性），渐进振幅（提升双特性），意识屏障优化（提升特性），心智超载，能耗（负特性）<BR>心智统合：现在本特性对A级或更低的相应兑换生效，且因A级相应兑换失去的内在加值可获得*9/4的优化点数，向下取整。<BR>渐进振幅：以一个自由动作，消耗3点电力，你可以选择一项属性，在该属性上额外获得8点完美加值，该能力可反复使用，用于不同的属性，持续一个场景。<BR>意识屏障优化：若你将电力消耗提升至7并消耗7点意志，你能以反射动作将意识屏障的临时生命值回复至最大值。你意识屏障带来的临时生命上限和回复速度都提升1倍。<BR>心智超载：同D级所述。<BR>能耗：7</FONT></P>
+<P><FONT face=宋体>S级 
+S+8000<BR>特性：心智升华（四特性），心智超载，能耗（负特性）<BR>心智升华：你已然成为超凡。<BR>现在心智统合特性对S级或更低的相应兑换生效，且因S级相应兑换失去的内在加值可获得*27/8的优化点数，向下取整。<BR>你获得神格1，你的神格来源于无穷大量的数据演算和心智的升华，因此无需圣位，每支付485xp继续优化算法即可提升1级。<BR>心智超载：同D级所述。<BR>能耗：9</FONT></P>
+<P><FONT face=宋体>==============================</FONT></P>
+<P><FONT face=宋体>人工脊椎「猫尾」<BR>价格：250<BR>描述：《机动战姬：聚变》中树突科技在分析AG-04的战斗记录后得出结论，近战机型的AG需要强化密集格斗能力。此改造延长了AG的人工脊椎，通过对延长部分植入人工运动神经来使AG获得四肢以外的新肢体<BR>灵活猫尾：你的猫尾可以视作你的一条额外手臂。</FONT></P>
+<P><FONT face=宋体>灵活猫尾<BR>前提：人工脊椎「猫尾」<BR>价格：DD+1000<BR>特性：特技闪避（六特性）<BR>特技闪避：每轮一次，你可以消耗1点意志，以一个2AP动作或2AP反射动作进行一次移动。</FONT></P>
+<P><FONT face=宋体>猫咪天线<BR>前提：人工脊椎「猫尾」<BR>价格：D+500/C+2000/B+4000/A+8000<BR>描述：你的猫尾更加灵敏，如同雷达一般为你反馈周遭的情况。<BR>效果：你获得C/B/A/S级侦测等级，并能免疫D/C/B/A级措手不及。本插件差价升级。</FONT></P>
+<P><FONT face=宋体>==============================</FONT></P></FONT></font></font></div>	
+	<div id="winchm_template_footer"><font size="2px" font face="Microsoft YaHei">版权所有 (C) 2003-2018 lv20112668。</font></div>
+</div>
+
+</body>
+</html>

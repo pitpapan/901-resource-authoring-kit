@@ -1,0 +1,835 @@
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>一阶合成</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Microsoft YaHei, Simsun, Arial, sans-serif;
+	font-size: 12pt;
+}
+</style>
+
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+@media print
+{
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+document.getElementById('winchm_template_container').style.width = 'auto';
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+</head>
+
+<body>
+
+<div id="winchm_template_top">
+	<div id="winchm_template_button"><A href="无合成.htm" title="上一主题"><img id="winchm_template_prev" alt="上一主题" src="template2/btn_prev_n.gif" border="0"></a><A href="二阶合成.htm" title="下一主题"><img id="winchm_template_next" alt="下一主题" src="template2/btn_next_n.gif" border="0"></a></div>
+	<div id="winchm_template_navigation"><font size="2px" font face="Microsoft YaHei">帮助 &gt; 
+无限恐怖2.5RE_V1.03先行版 &gt; 资源相关 &gt; 物品 &gt; 魔幻物品 &gt; DOTA物品 &gt; </font></div>
+	<div id="winchm_template_title"><font size="2px" font face="Microsoft YaHei">一阶合成</font></div>
+</div>
+<div id="winchm_template_container">
+	<div id="winchm_template_content"><font size="3px" font face="Microsoft YaHei"><font size="3" font face="宋体" >攻击之爪 
+500<BR>本质：魔幻本质<BR>本武器视同基本冷兵器“铁爪”，但具有魔法，正常攻击灵体特性。<BR>强化攻击：持有者在攻击判定中获得3点增强加值。<BR>合成：本物品可以用于合成相位鞋，水晶剑，食尸鬼的臂章，见相应物品描述<BR>================================================================<BR>圆盾 
+250<BR>本质：魔幻本质<BR>本武器视同基本冷兵器“大盾”<BR>并在以本武器格挡时获得1点物理伤害吸收，若受到的是远程攻击，再提升1点。<BR>合成：本物品可以用于合成先锋盾，穷鬼盾，见相应物品描述<BR>================================================================<BR>加速手套<BR>本质：魔幻本质<BR>价格：250<BR>分类：手套<BR>攻速提升：你在攻击判定中获得3点增强加值<BR>合成：本物品可用于合成动力鞋，迈达斯之手，旋涡和食尸鬼的臂章<BR>================================================================<BR>艺人面具<BR>本质：魔幻本质<BR>价格：250<BR>分类：面具<BR>魔力恢复：你的魔力自然回复速度增加一倍。<BR>合成：本物品可用于合成灵魂之戒，影之灵龛，勇气勋章，王者之戒，EUL的神圣法杖和空明杖。<BR>================================================================<BR>速度之鞋<BR>本质：魔幻本质<BR>价格：250<BR>分类：鞋<BR>提升速度：你的移动速度增加20米<BR>合成：本物品可用于合成静谧之鞋，秘法鞋，相位鞋，动力鞋，远行鞋<BR>================================================================<BR>守护指环 
+250<BR>本质：魔幻本质<BR>分类：戒指<BR>效果：你在防御上的盔甲防御提升2点。<BR>合成：本物品可以用于合成王者之戒，静谧之鞋，见相应物品描述<BR>================================================================<BR>流浪法师斗篷<BR>本质：魔幻本质<BR>价格：250<BR>分类：衣物<BR>法术抗力：穿戴者获得2点法术抗力。<BR>合成：本物品可用于合成挑战头巾。<BR>================================================================<BR>魔棒<BR>本质：魔幻本质<BR>价格：500<BR>分类：短棍<BR>常规武器：本物品可以作为短棍使用<BR>吸纳能量：在你敏感视觉范围内的敌对目标消耗通用能量时，你自动知晓并让魔棒获得1点充能，魔棒充能上限为10点，你可以要求主神免费充能。<BR>治愈能量：你可以以2AP动作消耗魔棒中所有充能点数，获得等同充能点数的医疗点数和充能点数/5的魔力恢复。每4点医疗点数可以治疗1点恶性伤害，每1点治疗1点严重或冲击伤害。<BR>合成：本物品可用于合成魔杖<BR>================================================================<BR>锁子甲 
+500<BR>本质：魔幻本质<BR>本盔甲视同古典防具中的锁甲，但盔甲防御增加5点。<BR>合成：本物品可以用于合成勇气勋章，玄冥盾牌，刃甲，强袭装甲，见相应物品描述<BR>================================================================<BR>淬毒之珠<BR>本质：魔幻本质<BR>价格：500<BR>分类：杂物<BR>淬毒：携带本物品时，你在攻击造成实际伤害后，目标受到1点毒素严重伤害并移动速度减少10米，减速只持续1轮。这视为一个无支线毒素效果。<BR>合成：本物品可用于合成斯嘉蒂之眼<BR>================================================================<BR>阔剑<BR>本质：魔幻本质<BR>价格：D+500<BR>分类：长剑<BR>武器基本属性：武器伤害4L，破甲1，破魔1<BR>武器特殊属性：【魔法】【正常攻击灵体】<BR>强化攻击：持有者在攻击判定中获得9点增强加值<BR>合成：本物品可以用于合成狂战斧，水晶剑，刃甲，见相应物品描述<BR>================================================================<BR>短棍<BR>本质：魔幻本质<BR>价格：D+500<BR>分类：短棍<BR>武器基本属性：武器伤害4L，破甲1，破魔1<BR>武器特殊属性：【魔法】【正常攻击灵体】<BR>强化攻击：持有者在攻击判定中获得6点器械加值<BR>强化攻速：持有者在攻击判定中获得6点增强加值<BR>合成：本物品可用于合成蝴蝶，空明杖，见相应物品描述<BR>================================================================<BR>板甲<BR>本质：魔幻本质<BR>价格：D+500<BR>分类：重甲<BR>盔甲基本属性：盔甲防御12<BR>盔甲特殊属性：【防弹】【防能量武器】<BR>合成：本物品可用于合成强袭装甲，希瓦的守护，见相应物品描述<BR>================================================================<BR>力量手套/敏捷便鞋/智力斗篷<BR>本质：魔幻本质<BR>价格：D+500<BR>分类：手套/鞋/衣物<BR>体积：1<BR>属性提升：装备这件物品时，你在力量/敏捷/智力上获得3点增强加值。<BR>合成：力量手套可以用于合成护腕，影之灵龛。<BR>敏捷便鞋可用于合成幽灵系带，穷鬼盾。<BR>智力斗篷可用于合成空灵挂件。<BR>================================================================<BR>吸血面具<BR>本质：魔幻本质<BR>价格：D+500<BR>分类：面具<BR>汲取生命：你在每次攻击不具有持续时间或持续时间永久的生物时，若造成实际严重或恶性伤害，可以获得等同造成实际伤害/4的医疗点数，获得的医疗点数至多不能超过目标生命上限。<BR>每4点医疗点数可以治疗1点恶性伤害，1点治疗1点严重或冲击伤害。<BR>特殊的，你只有造成了生命值伤害才能汲取生命，若被临时生命吸收，汲取生命效果也不会发动。<BR>合成：本物品可用于合成吸血鬼祭品，疯狂面具，支配头盔<BR>================================================================<BR>闪避护符<BR>本质：魔幻本质<BR>价格：D+500<BR>分类：护符<BR>闪避：你在防御上获得9点闪避加值<BR>合成：本物品可用于合成蝴蝶，天堂之戟<BR>================================================================<BR>暗影护符<BR>本质：魔幻本质<BR>价格：D+500<BR>分类：护符<BR>攻速提升：你在攻击中获得6点增强加值。<BR>暗影之佑：以一个2AP动作，你令自身处于C级反侦测效果保护之下，但你的任何动作都会打破这一效果，无论标准还是自由动作。<BR>每场景一次，这个效果也可以赋予敏感视觉范围内一个自愿目标。<BR>合成：本物品可用于合成洛萨之锋<BR>================================================================<BR>恢复戒指<BR>本质：魔幻本质<BR>价格：D+500<BR>分类：戒指<BR>快速医疗：你获得1点快速医疗。<BR>改善合成：本物品在合成时抵扣额外500分。<BR>合成：本物品可用于合成静谧之鞋，灵魂之戒，恢复头巾，吸血鬼祭品，原力法杖，挑战头巾<BR>================================================================<BR>虚无宝石<BR>本质：魔幻本质<BR>价格：D+500<BR>分类：杂物<BR>魔力恢复：携带本物品能让你魔力的自然回复速度增加两倍。<BR>改善合成：本物品在合成时抵扣额外500分。<BR>合成：本物品可用于合成坚韧球，EUL的神圣法杖，Guinsoo的邪恶镰刀<BR>================================================================<BR>能量之球<BR>本质：魔幻本质<BR>价格：D+500<BR>分类：杂物<BR>能量容器：携带本物品能让你的魔力上限提升10点。<BR>改善合成：本物品在合成时抵扣额外500分。<BR>合成：本物品可用于合成秘法鞋，镇魂石<BR>================================================================<BR>精气之球<BR>本质：魔幻本质<BR>价格：D+500<BR>分类：杂物<BR>精气容器：携带本物品能让你的生命和魔力上限提升5点。<BR>改善合成：本物品在合成时抵扣额外500分。<BR>合成：本物品可用于合成阿哈利姆神杖，斯嘉蒂之眼，镇魂石<BR>================================================================<BR>活力之球<BR>本质：魔幻本质<BR>价格：D+500<BR>分类：杂物<BR>活力容器：携带本物品能让你的生命上限提升10点。<BR>改善合成：本物品在合成时抵扣额外500分。<BR>合成：本物品可用于合成阿托斯之棍，先锋盾，泰拉斯奎之心，镇魂石<BR>================================================================<BR>振奋宝石<BR>本质：魔幻本质<BR>价格：D+500<BR>分类：杂物<BR>攻速提升：携带本物品能让你在攻击判定中获得6点增强加值。<BR>改善合成：本物品在合成时抵扣额外500分。<BR>合成：本物品可用于合成雷神之锤，强袭装甲。<BR>================================================================<BR>铁意头盔<BR>本质：魔幻本质<BR>价格：D+1000<BR>分类：头盔<BR>体积：1<BR>盔甲强化：穿戴者防御上的盔甲防御提升4点<BR>快速医疗：穿戴者获得1点快速医疗<BR>合成：本物品可用于合成支配头盔，纷争面纱，食尸鬼的臂章见相应物品描述<BR>================================================================<BR>铁树枝干<BR>本质：魔幻本质<BR>价格：D+500<BR>分类：杂物<BR>体积：1<BR>属性提升：这件物品只要携带着，就会在力量，敏捷，智力上获得1点增强加值<BR>合成：本物品可以用于合成魔杖，回复头巾，玄冥盾牌见相应物品描述<BR>================================================================<BR>贵族圆环<BR>本质：魔幻本质<BR>价格：DD+1000<BR>分类：头盔<BR>体积：1<BR>属性提升：这件物品在装备时会让你在力量，敏捷，智力上获得2点增强加值<BR>合成：本物品可以用于合成护腕，幽灵系带，空灵挂件见相应物品描述<BR>================================================================<BR>大剑<BR>本质：魔幻本质<BR>价格：C+1000<BR>分类：重剑<BR>武器基本属性：武器伤害8L<BR>武器特殊属性：【魔法】【正常攻击灵体】<BR>强化攻击：持有者在攻击判定中获得18点增强加值<BR>合成：本物品可用于合成狂战斧，洛萨之锋，见相应物品描述<BR>================================================================<BR>食人魔巨力腰带/精灵皮靴/法师斗篷<BR>本质：魔幻本质<BR>价格：C+1000<BR>分类：腰带/鞋/衣物<BR>体积：1<BR>属性提升：装备这件物品时，你在力量/敏捷/智力上获得6点增强加值。<BR>合成：食人魔巨力腰带可以用于合成动力鞋，散华，碎颅锤，死灵书。<BR>精灵皮靴可用于合成动力鞋，夜叉。<BR>法师斗篷可用于合成动力鞋，先祖韧鼓，散失之刃，刃甲，空明杖，慧光。<BR>================================================================<BR>治疗指环<BR>本质：魔幻本质<BR>价格：C+1000<BR>分类：戒指<BR>快速医疗：你获得3点快速医疗<BR>合成：本物品可用于合成坚韧球，先锋盾，挑战头巾<BR>================================================================<BR>秘银锤<BR>本质：魔幻本质<BR>价格：C+1000<BR>分类：巨锤<BR>武器基本属性：武器伤害10L（已计入巨锤种类的武器伤害提升）<BR>武器特殊属性：【魔法】【正常攻击灵体】<BR>强化攻击：持有者在攻击判定中获得15点增强加值<BR>秘银武器：本武器的力量需求降低3点<BR>合成：本物品可用于合成黑皇杖，暗灭，旋涡见相应物品描述<BR>================================================================<BR>标枪<BR>本质：魔幻本质<BR>价格：C+1000<BR>分类：短矛<BR>武器基本属性：武器伤害8L<BR>武器特殊属性：【魔法】【正常攻击灵体】<BR>强化攻击：持有者在攻击判定中获得12点增强加值。<BR>穿透：本武器造成实际伤害时，额外造成2点同类伤害。<BR>合成：本物品可用于合成金箍棒，碎颅锤，见相应物品描述<BR>================================================================<BR>幽魂权杖<BR>本质：魔幻本质<BR>价格：B+2000<BR>分类：短棍<BR>属性提升：持有者在力量，敏捷，智力上获得4点加值<BR>灵魂形态：每场景一次，以一个自由动作，消耗5点魔力，指定一个在你敏感视觉范围内的目标，目标变为灵体，效果持续1轮，只需要魔法特性即可影响该灵体，并且视同具有幽冥般生效。<BR>合成：本物品可用于合成虚灵刀。<BR>================================================================<BR>恶魔刀锋<BR>本质：魔幻本质<BR>价格：B+2000<BR>分类：重剑<BR>武器基本属性：武器伤害16L<BR>武器特殊属性：【魔法】【正常攻击灵体】<BR>强化攻击：持有者在攻击判定中获得36点器械加值<BR>合成：本物品可用于合成金箍棒，弩炮，圣剑见相应物品描述<BR>================================================================<BR>食人魔之斧/欢欣之刃/魔力法杖<BR>本质：魔幻本质<BR>价格：B+2000<BR>分类：巨斧/匕首/短棍<BR>基本武器：食人魔之斧和欢饮之刃分别视为普通的巨斧和匕首，但武器伤害提升至16L（巨斧的武器伤害提升未计入），并具有魔法，正常攻击灵体特性，魔力法杖令持有者施展的法术威力提升2点。<BR>属性提升：装备这件物品时，你在力量/敏捷/智力上获得10点增强加值。<BR>合成：食人魔之斧可以用于合成阿哈利姆神杖，黑皇杖，散华。<BR>欢欣之刃可用于合成阿哈利姆神杖，夜叉，散失之刃。<BR>魔力法杖可用于合成达贡之神力，原力法杖，阿哈利姆神杖，EUL的神圣法杖，阿托斯之棍，死灵书，慧光。<BR>================================================================<BR>极限法球<BR>本质：魔幻本质<BR>价格：A+4000<BR>分类：杂物<BR>属性提升：携带本物品可让你在所有属性上获得9点增强加值<BR>合成：本物品可用于合成幻影斧，斯嘉蒂之眼，Guinsoo的邪恶镰刀，林肯法球<BR>================================================================<BR>圣者遗物<BR>本质：魔幻本质<BR>价格：A+4000<BR>分类：长棍<BR>武器基本属性：武器伤害32L<BR>武器特殊属性：【神兵】<BR>强化攻击：持有者在攻击判定中获得72点器械加值<BR>合成：本物品可用于合成辉耀，圣剑，深渊之刃见相应物品描述<BR>================================================================<BR>角鹰弓/梅塞斯密特的掠夺/神秘法杖<BR>本质：魔幻本质<BR>价格：A+4000<BR>分类：长弓/巨斧/长棍<BR>基本武器：角鹰弓和梅塞斯密特的掠夺分别视为普通的长弓和巨斧，但武器伤害提升至32L，并具有魔法，正常攻击灵体特性，神秘法杖令持有者施展的法术威力提升4点。<BR>属性提升：装备这件物品时，你在力量/敏捷/智力上获得20点增强加值。<BR>合成：角鹰弓可以用于合成虚灵刀，蝴蝶。<BR>梅塞斯密特的掠夺可用于合成撒旦之邪力，泰拉斯奎之心。<BR>神秘法杖可用于合成Guinsoo的邪恶镰刀，希瓦的守护。<BR>================================================================</FONT></font></div>	
+	<div id="winchm_template_footer"><font size="2px" font face="Microsoft YaHei">版权所有 (C) 2003-2018 lv20112668。</font></div>
+</div>
+
+</body>
+</html>
