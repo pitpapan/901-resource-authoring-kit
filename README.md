@@ -20,7 +20,10 @@
 
 - 模型工作约定：[AGENTS.md](AGENTS.md)；写作流程：[authoring/README.md](authoring/README.md)
 - 已采用规则：[rules/README.md](rules/README.md)；常用短卡：[common_rules.md](authoring/common_rules.md)
-- 特性预算：[traits.md](authoring/traits.md)；设计比较：[samples.md](authoring/samples.md)
+- 特性预算：[traits.md](authoring/traits.md)；设计比较：[samples.md](authoring/samples.md)；[类比核算与易错项](authoring/calibration.md)
+- 已整理资源：[帝国军伍完整稿](resources/imperial-military.md)，汇总两阶能力组、九项技艺、预算及 XP 依据；保留候选估价标注，不作为 RE 原文或定标样板。
+- 已整理资源：[启剑式·风·狂岚纯净版](resources/kuanglan.md)，暂定 C 级独立技艺、25 XP，保留待定免疫交互；[预算与样板依据](resources/kuanglan-notes.md)单列。
+- 已整理资源：[正十七纯净版](resources/zheng-shiqi.md)，暂定 C 级独立技艺、25 XP；[预算与样板依据](resources/zheng-shiqi-notes.md)保留 4C 容量下的类比分配及未决核算，不视为预算已核定。
 - 完整原书与检索方式见下文；规则快照日期为2026-10-17，历史证据与采用边界见[rules/source-notes.md](rules/source-notes.md)。
 
 已收录 **PHB v0.3 16 页＋RE v1.03先行版 964 页，共 980 页**。原有 185 页及其路径保留，补入 795 页；原始 HTML、HHC、HHK、配套图片与两份 CHM 均保留。完整指这两份原书实际存在的文件；原 RE 目录中两个本已缺失的目标仍作为来源缺口记录，不补造正文。
