@@ -34,7 +34,8 @@ def main():
     errors = []
     required = ['AGENTS.md', 'README.md', 'authoring/README.md', 'authoring/guide.md',
                 'authoring/common_rules.md', 'authoring/traits.md', 'authoring/samples.md',
-                'authoring/brief-template.md', 'rules/README.md',
+                'authoring/brief-template.md', 'authoring/lessons.md', 'resources/README.md',
+                'resources/imperial-mage.md', 'resources/imperial-magic/README.md', 'rules/README.md',
                 'rules/901-core-rules-v0.1.md', 'rules/901-open-decisions.md']
     for path in required:
         if not (ROOT/path).is_file():
@@ -69,7 +70,7 @@ def main():
             errors.append(f'Missing index: {name}')
     docs = [*sorted(ROOT.glob('*.md')), *sorted((ROOT/'indices').glob('*.md')),
             *sorted((ROOT/'authoring').glob('*.md')), *sorted((ROOT/'rules').rglob('*.md')),
-            *sorted((ROOT/'examples').rglob('*.md'))]
+            *sorted((ROOT/'examples').rglob('*.md')), *sorted((ROOT/'resources').rglob('*.md'))]
     for doc in docs:
         for link in re.findall(r'\]\(([^)]+)\)', doc.read_text(encoding='utf-8-sig')):
             if '://' in link or link.startswith('#'):

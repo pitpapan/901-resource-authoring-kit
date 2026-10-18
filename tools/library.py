@@ -254,8 +254,8 @@ def search(args):
 
 def read(args):
     p = (ROOT/args.path).resolve()
-    if not p.is_relative_to(ROOT/'content'):
-        raise ValueError('Read only paths under content/')
+    if not any(p.is_relative_to(ROOT/folder) for folder in ('content', 'resources')):
+        raise ValueError('Read only paths under content/ or resources/')
     lines = p.read_text(encoding='utf-8-sig').splitlines()
     end = min(len(lines), args.start+args.lines-1)
     print('\n'.join(f'{i+1}: {lines[i]}' for i in range(args.start-1, end)))

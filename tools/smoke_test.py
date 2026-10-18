@@ -19,6 +19,10 @@ def main():
         report = json.loads(run('check_library.py'))
         assert report['error_count'] == 0, report
         checks.append('package_integrity_and_local_links')
+        curated = json.loads(run('check_resources.py'))
+        assert curated['error_count'] == 0, curated
+        assert curated['source_occurrences'] == 222 and curated['imperial_legal'] == 208, curated
+        checks.append('curated_resources_and_spell_source_coverage')
         cards = run('library.py', 'cards', 'CR-04', 'TB-01', 'S-01')
         assert all(cid in cards for cid in ('CR-04', 'TB-01', 'S-01'))
         assert '### S-02' not in cards
@@ -34,6 +38,13 @@ def main():
         body = run('library.py', 'read', 'content/RE/02_resources/能力组/近战类型/武器类型/武士.md', '--start', '6', '--lines', '12')
         assert body.startswith('6: ') and 'D级' in body
         checks.append('source_lines_from_unrelated_cwd')
+        mage = run('library.py', 'read', 'resources/imperial-mage.md', '--start', '43', '--lines', '14')
+        assert '魔力增储' in mage and '上限＋10' in mage
+        checks.append('curated_resource_from_unrelated_cwd')
+        denied = subprocess.run([sys.executable, '-X', 'utf8', str(ROOT/'tools/library.py'),
+                                 'read', '../outside.md'], cwd=cwd, capture_output=True, encoding='utf-8')
+        assert denied.returncode != 0 and 'Read only paths under content/ or resources/' in denied.stderr
+        checks.append('read_rejects_paths_outside_allowed_folders')
     print(json.dumps({'passed': len(checks), 'checks': checks, 'python': sys.version.split()[0],
                       'model_generation_test': False}, ensure_ascii=False, indent=2))
 

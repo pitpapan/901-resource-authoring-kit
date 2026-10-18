@@ -2,6 +2,8 @@
 
 融合结论优先：[901 常用规则卡](../authoring/common_rules.md)。下列 RE 内容是原文与估价基准，不自动成为 901 通则。分类目录覆盖全书，本表只挑常用入口。
 
+已有改编资源先查[资源总索引](../resources/README.md)。帝国法师、九系专精及 D/C 通用魔法见[能力组](../resources/imperial-mage.md)、[法术目录](../resources/imperial-magic/README.md)和[本批施法通则](../resources/imperial-magic/00-施法通则.md)；核预算时再回到原书比较。
+
 | 问题／搜索别名 | 先读什么 | 原文或比较入口 |
 | --- | --- | --- |
 | 六属性；主技能、子技能；检定资格 | 常用卡 CR-02、CR-03 | [901 核心 §1—3](../rules/901-core-rules-v0.1.md) |

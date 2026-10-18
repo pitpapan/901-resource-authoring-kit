@@ -19,6 +19,8 @@
 ## 先看哪里
 
 - 模型工作约定：[AGENTS.md](AGENTS.md)；写作流程：[authoring/README.md](authoring/README.md)
+- [Sol 独立执行指南与踩坑经验](authoring/lessons.md)：最短流程、批量转换验收和可复制的启动请求；不依赖旧聊天。
+- [已整理资源总索引](resources/README.md)：从当前正文开始，再按需读核算；[帝国法师两阶能力组](resources/imperial-mage.md)、[208 项帝国通用法术](resources/imperial-magic/README.md)及补充炼金配方已正式收库，7 项死灵禁术另列。
 - 已采用规则：[rules/README.md](rules/README.md)；常用短卡：[common_rules.md](authoring/common_rules.md)
 - 特性预算：[traits.md](authoring/traits.md)；设计比较：[samples.md](authoring/samples.md)；[类比核算与易错项](authoring/calibration.md)
 - 已整理资源：[帝国军伍完整稿](resources/imperial-military.md)，汇总两阶能力组、九项技艺、预算及 XP 依据；保留候选估价标注，不作为 RE 原文或定标样板。
@@ -48,9 +50,12 @@ python -X utf8 tools/library.py search 剑盾战斗 --kind rules --limit 3
 python -X utf8 tools/library.py search --kind resources --tag 协作 --limit 5
 python -X utf8 tools/library.py search 武士 C级 --kind resources --limit 2
 python -X utf8 tools/library.py read 'content/RE/02_resources/能力组/近战类型/武器类型/武士.md' --start 6 --lines 32
+python -X utf8 tools/library.py read 'resources/imperial-mage.md' --start 43 --lines 14
 ```
 
 `catalog.jsonl`／`catalog.tsv` 为全页目录，含原文路径、版本、来源状态、哈希。`passages.jsonl` 为 **5004 个有少量重叠的定位片段**，包含行号、原文和粗略机制标签。它不是全书人工逐技能拆解，也不自动推断阶段价格和预算。默认搜索排除待重置、已移除、施工内容；确需比较时加 `--include-legacy`。`称号／训练→能力组`、`技能→技艺` 等别名仅帮助搜索，不修改原文名称。
+
+`search` 面向原书材料，`read` 支持 `content/` 和 `resources/` 内的文件。已经适配的资源从[已整理资源索引](resources/README.md)查找，帝国法术另有逐术链接和逐源覆盖表；原书索引重建不会覆盖这些人工维护的入口。
 
 ## 来源与维护
 
@@ -60,10 +65,11 @@ python -X utf8 tools/library.py read 'content/RE/02_resources/能力组/近战�
 
 ```powershell
 python -X utf8 tools/check_library.py
+python -X utf8 tools/check_resources.py
 python -X utf8 tools/library.py index
 ```
 
-第一条只读检查完整性及库内链接（含路径越界与文件名大小写）；第二条重建自动索引，不修改正文或人工规则／样板卡。运行 `python -X utf8 tools/smoke_test.py` 可从其他工作目录检查取卡、搜索和读取。若要重新核对保留的 HTML 并重建目录，可执行：
+前两条只读检查底库完整性、库内链接及已整理资源的逐源覆盖；最后一条重建原书自动索引，不修改正文或人工规则／样板卡。运行 `python -X utf8 tools/smoke_test.py` 可从其他工作目录检查完整性、资源覆盖、取卡、搜索和读取。若要重新核对保留的 HTML 并重建目录，可执行：
 
 ```powershell
 python -X utf8 tools/library.py import --re source_html/RE --phb source_html/PHB
