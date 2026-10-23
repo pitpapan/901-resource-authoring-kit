@@ -9,7 +9,7 @@
 | [帝国军伍](imperial-military.md) | 两阶能力组、九项配套技艺 | 预算与 XP 依据在同一文件；保留类比估价身份 |
 | [启剑式·风·狂岚](kuanglan.md) | 暂定 C 级独立技艺、25 XP | [核算依据](kuanglan-notes.md)；免疫交互仍待定 |
 | [正十七](zheng-shiqi.md) | 暂定 C 级独立技艺、25 XP | [核算依据](zheng-shiqi-notes.md)；4C 容量为单项口径，类比分配仍有未决核算 |
-| [观澜法·窥波](guanlan-fa.md) | 御临风D级血统＋能力组捆绑包；共享内力、统一技能树与六项本体特性 | [核算依据](guanlan-fa-notes.md)；14D，整体取得候选26XP |
+| [观澜法·窥波](guanlan-fa.md) | 御临风D级血统＋能力组捆绑包；不开独立能量池，使用已有非特殊通用能量；统一技能树、六项本体特性及指定成长减费 | [核算依据](guanlan-fa-notes.md)；2026-10-23冻结，14D分配含一理贯通3D类比估价，整体取得候选26XP |
 | [风游涉世步](fengyou-sheshibu.md) | D级身法；＋40米速度、受击五尺快步与化劲 | [核算依据](fengyou-sheshibu-notes.md)；D＋1000，5D；15XP，一理贯通后14XP |
 | [澄心玄鉴](chengxin-xuanjian.md) | D级心法，御临风《观澜法》技能树；四类目标观察取势、化劲与破隙 | [核算依据](chengxin-xuanjian-notes.md)；正文已确认收录，候选6D，原模板差1D，取得价未定 |
 
