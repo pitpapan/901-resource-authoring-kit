@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "imperial-magic:C:过去视",
+  "version": "2026-10-23.1",
+  "identity": {
+    "name": "过去视",
+    "grade": "C",
+    "category": "spell",
+    "tree": "imperial"
+  },
+  "reading": {
+    "path": "resources/imperial-magic/06-预言与诅咒.md",
+    "sha256": "9605c98875816313e985071ed8520755ae1ebcb4285b088f0b9c66c79a28dc3a",
+    "heading": "过去视"
+  },
+  "definition": {
+    "source": "resources/imperial-magic/06-预言与诅咒.md",
+    "grade": "C",
+    "prohibited": false,
+    "subskills": [
+      "预言"
+    ],
+    "effects": [],
+    "learning": {
+      "baseXP": 25,
+      "requiresKnownVersion": false
+    },
+    "requiresAllSchools": false,
+    "schools": [
+      "预言"
+    ]
+  },
+  "clauses": [
+    {
+      "heading": "过去视",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [],
+  "inputs": [],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

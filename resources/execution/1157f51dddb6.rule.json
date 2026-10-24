@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "imperial-magic:D:炽焰斩",
+  "version": "2026-10-23.1",
+  "identity": {
+    "name": "炽焰斩",
+    "grade": "D",
+    "category": "spell",
+    "tree": "imperial"
+  },
+  "reading": {
+    "path": "resources/imperial-magic/01-塑能.md",
+    "sha256": "59608609417e520c2328fd4593a42d9da86064c47b1e226911f670bb0dd636eb",
+    "heading": "炽焰斩"
+  },
+  "definition": {
+    "source": "resources/imperial-magic/01-塑能.md",
+    "grade": "D",
+    "prohibited": false,
+    "subskills": [
+      "塑能"
+    ],
+    "effects": [],
+    "learning": {
+      "baseXP": 10,
+      "requiresKnownVersion": false,
+      "upgradeC": {
+        "retainD": 25,
+        "replaceD": 15
+      }
+    },
+    "requiresAllSchools": false,
+    "schools": [
+      "塑能"
+    ],
+    "programs": {
+      "cast": {
+        "action": "swift",
+        "target": "self",
+        "casting": true,
+        "components": [
+          "posture",
+          "language",
+          "focus"
+        ],
+        "range": {
+          "op": "mul",
+          "args": [
+            10,
+            {
+              "context": "INT"
+            },
+            {
+              "context": "P"
+            }
+          ]
+        },
+        "steps": [
+          {
+            "op": "trigger",
+            "event": "hit",
+            "steps": [
+              {
+                "op": "damage",
+                "amount": {
+                  "context": "P"
+                },
+                "energy": "fire",
+                "severity": "L"
+              },
+              {
+                "op": "status",
+                "type": "燃烧",
+                "points": {
+                  "context": "P"
+                },
+                "resistance": "none",
+                "properties": {
+                  "fireKind": "magic",
+                  "tickBoundary": "turn"
+                }
+              }
+            ],
+            "count": 1,
+            "rounds": 1,
+            "target": "eventTarget",
+            "condition": {
+              "all": [
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "melee"
+                  },
+                  "right": true
+                },
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "skill"
+                  },
+                  "right": "白刃"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "clauses": [
+    {
+      "heading": "炽焰斩",
+      "effectStats": [],
+      "status": "partial"
+    }
+  ],
+  "actions": [
+    {
+      "id": "cast",
+      "name": "炽焰斩",
+      "operation": "cast",
+      "actionCost": "swift",
+      "requiredChoice": "actual-targets",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false,
+      "route": "mechanism",
+      "objectType": "kitResource"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "ownership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "casting",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "targetIds",
+      "type": "array",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "components",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "pool",
+      "type": "string",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "需执行级完整验证，检查等级/特殊关键词/版本变体；不可仅凭程序存在标记完成"
+  ],
+  "verification": {
+    "status": "partial",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "imperial-magic:D:召雷",
+  "version": "2026-10-23.1",
+  "identity": {
+    "name": "召雷",
+    "grade": "D",
+    "category": "spell",
+    "tree": "imperial"
+  },
+  "reading": {
+    "path": "resources/imperial-magic/01-塑能.md",
+    "sha256": "59608609417e520c2328fd4593a42d9da86064c47b1e226911f670bb0dd636eb",
+    "heading": "召雷"
+  },
+  "definition": {
+    "source": "resources/imperial-magic/01-塑能.md",
+    "grade": "D",
+    "prohibited": false,
+    "subskills": [
+      "塑能"
+    ],
+    "effects": [],
+    "learning": {
+      "baseXP": 10,
+      "requiresKnownVersion": false,
+      "upgradeC": {
+        "retainD": 25,
+        "replaceD": 15
+      }
+    },
+    "requiresAllSchools": false,
+    "schools": [
+      "塑能"
+    ]
+  },
+  "clauses": [
+    {
+      "heading": "召雷",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [],
+  "inputs": [],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "imperial-magic:D:精神护甲",
+  "version": "2026-10-23.1",
+  "identity": {
+    "name": "精神护甲",
+    "grade": "D",
+    "category": "spell",
+    "tree": "imperial"
+  },
+  "reading": {
+    "path": "resources/imperial-magic/04-结界与召唤.md",
+    "sha256": "dc2c01ebd19c5cea1610fe4cfc2433805eaf289a2ad461fbc0cfa4df59167b80",
+    "heading": "精神护甲"
+  },
+  "definition": {
+    "source": "resources/imperial-magic/04-结界与召唤.md",
+    "grade": "D",
+    "prohibited": false,
+    "subskills": [
+      "结界"
+    ],
+    "effects": [],
+    "learning": {
+      "baseXP": 10,
+      "requiresKnownVersion": false,
+      "upgradeC": {
+        "retainD": 25,
+        "replaceD": 15
+      }
+    },
+    "programs": {
+      "cast": {
+        "action": "standard",
+        "target": "single",
+        "casting": true,
+        "components": [
+          "posture",
+          "language",
+          "focus"
+        ],
+        "range": {
+          "op": "mul",
+          "args": [
+            10,
+            {
+              "context": "INT"
+            },
+            {
+              "context": "P"
+            }
+          ]
+        },
+        "steps": [
+          {
+            "op": "effect",
+            "effects": [
+              {
+                "stat": "defense",
+                "value": {
+                  "op": "mul",
+                  "args": [
+                    2,
+                    {
+                      "context": "P"
+                    }
+                  ]
+                },
+                "group": "force"
+              },
+              {
+                "stat": "hardness",
+                "value": {
+                  "op": "floor",
+                  "args": [
+                    {
+                      "op": "div",
+                      "args": [
+                        {
+                          "op": "mul",
+                          "args": [
+                            1,
+                            {
+                              "context": "P"
+                            }
+                          ]
+                        },
+                        3
+                      ]
+                    }
+                  ]
+                },
+                "group": "mentalArmor"
+              },
+              {
+                "stat": "absorb",
+                "value": {
+                  "op": "floor",
+                  "args": [
+                    {
+                      "op": "div",
+                      "args": [
+                        {
+                          "op": "mul",
+                          "args": [
+                            1,
+                            {
+                              "context": "P"
+                            }
+                          ]
+                        },
+                        3
+                      ]
+                    }
+                  ]
+                },
+                "group": "mentalArmor"
+              }
+            ],
+            "scene": true
+          },
+          {
+            "op": "capability",
+            "id": "mindImmunity",
+            "gradeBonus": 0,
+            "scene": true
+          }
+        ]
+      }
+    },
+    "schools": [
+      "结界"
+    ],
+    "requiresAllSchools": false
+  },
+  "clauses": [
+    {
+      "heading": "精神护甲",
+      "effectStats": [],
+      "status": "partial"
+    }
+  ],
+  "actions": [
+    {
+      "id": "cast",
+      "name": "精神护甲",
+      "operation": "cast",
+      "actionCost": "standard",
+      "requiredChoice": "actual-targets",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false,
+      "route": "mechanism",
+      "objectType": "kitResource"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "ownership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "casting",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "targetIds",
+      "type": "array",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "components",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "pool",
+      "type": "string",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "心灵免疫接状态阶段",
+    "需执行级完整验证，检查等级/特殊关键词/版本变体；不可仅凭程序存在标记完成"
+  ],
+  "verification": {
+    "status": "partial",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "later:黄泉",
+  "version": "2026-10-23.1",
+  "identity": {
+    "name": "谏山黄泉：能力与装备",
+    "grade": null,
+    "category": "character-template",
+    "tree": null
+  },
+  "reading": {
+    "path": "outputs/同伴RE资源调整/黄泉.md",
+    "sha256": "f58a4ec2c4cf33b9447c698f5088410e3e7346a5d977a419f0bebe6765fef6e3"
+  },
+  "definition": {
+    "source": "outputs/同伴RE资源调整/黄泉.md",
+    "grade": null,
+    "prohibited": false,
+    "subskills": [],
+    "effects": [],
+    "template": {
+      "period": "later-optional",
+      "applyMode": "individual-acquisitions",
+      "allowSnapshotOverwrite": false,
+      "resourceRefs": [
+        "huang.spiritual_constitution",
+        "huang.spirit_strike",
+        "huang.shinmei",
+        "huang.rock_cleaver",
+        "huang.thunder_sword",
+        "huang.true_mind_eye",
+        "huang.improved_initiative",
+        "huang.weapon_finesse",
+        "huang.exorcist",
+        "huang.swordsman",
+        "huang.iai",
+        "huang.mikazuchi",
+        "huang.silver_armor",
+        "later:狮子王",
+        "later:乱红莲"
+      ],
+      "notGrants": [
+        "attributes",
+        "skills",
+        "resources.current",
+        "health",
+        "inventory",
+        "cooldowns",
+        "T0"
+      ]
+    }
+  },
+  "clauses": [],
+  "actions": [],
+  "inputs": [],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "引用所列单项资源；各单项执行测试尚未全部完成，模板本身永不整卡写入"
+  ],
+  "verification": {
+    "status": "partial",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

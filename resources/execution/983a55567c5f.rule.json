@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "imperial-magic:D:镜像",
+  "version": "2026-10-23.1",
+  "identity": {
+    "name": "镜像",
+    "grade": "D",
+    "category": "spell",
+    "tree": "imperial"
+  },
+  "reading": {
+    "path": "resources/imperial-magic/05-精神与幻术.md",
+    "sha256": "2e78ec6f3234a34d82cb62296e232f59e5b6f0db2c16bc235a9d544e38c6dcf4",
+    "heading": "镜像"
+  },
+  "definition": {
+    "source": "resources/imperial-magic/05-精神与幻术.md",
+    "grade": "D",
+    "prohibited": false,
+    "subskills": [
+      "幻术"
+    ],
+    "effects": [],
+    "learning": {
+      "baseXP": 10,
+      "requiresKnownVersion": false,
+      "upgradeC": {
+        "retainD": 25,
+        "replaceD": 15
+      }
+    },
+    "requiresAllSchools": false,
+    "schools": [
+      "幻术"
+    ]
+  },
+  "clauses": [
+    {
+      "heading": "镜像",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [],
+  "inputs": [],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

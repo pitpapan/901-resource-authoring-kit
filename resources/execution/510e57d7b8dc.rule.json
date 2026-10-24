@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "imperial-magic:C:染毒疗法",
+  "version": "2026-10-23.1",
+  "identity": {
+    "name": "染毒疗法",
+    "grade": "C",
+    "category": "spell",
+    "tree": "imperial"
+  },
+  "reading": {
+    "path": "resources/imperial-magic/99-帝国禁用法术.md",
+    "sha256": "7c8993966d4d69c9aef511310039722e9411a1ff860638d4e5171f5442e61808",
+    "heading": "染毒疗法"
+  },
+  "definition": {
+    "source": "resources/imperial-magic/99-帝国禁用法术.md",
+    "grade": "C",
+    "prohibited": true,
+    "subskills": [
+      "死灵"
+    ],
+    "effects": [],
+    "requiresAllSchools": false,
+    "schools": [
+      "死灵"
+    ]
+  },
+  "clauses": [
+    {
+      "heading": "染毒疗法",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [],
+  "inputs": [],
+  "unresolvedRules": [],
+  "implementationGaps": [],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

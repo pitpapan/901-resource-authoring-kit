@@ -22,3 +22,7 @@
 `tools/library.py search` 检索 PHB／RE 原书，`cards` 读取规则／特性／样板卡；它们不混入本目录的改编资源。已整理法术按[等级与法系目录](imperial-magic/README.md)查找，其他资源可在本目录按机制文本搜索。`read` 同时支持本目录，例如 `python -X utf8 tools/library.py read resources/imperial-mage.md --start 43 --lines 14`。
 
 本库只需 Python 标准库。运行 `python -X utf8 tools/check_resources.py` 检查本目录的相对链接、法术逐源覆盖和正文目录；全库检查及迁移记录见[独立迁移验收](../PORTABILITY.md)。
+
+## 执行格式
+
+资源采用阅读版与执行版配对，见[格式与编写规则](../authoring/executable-resources.md)。首批结构化样本位于 `execution/`；执行状态逐条标注，不代表所有效果已接完。

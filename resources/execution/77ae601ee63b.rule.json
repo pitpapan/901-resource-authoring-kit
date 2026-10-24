@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "imperial-magic:D:裂魂术",
+  "version": "2026-10-23.1",
+  "identity": {
+    "name": "裂魂术",
+    "grade": "D",
+    "category": "spell",
+    "tree": "imperial"
+  },
+  "reading": {
+    "path": "resources/imperial-magic/99-帝国禁用法术.md",
+    "sha256": "7c8993966d4d69c9aef511310039722e9411a1ff860638d4e5171f5442e61808",
+    "heading": "裂魂术"
+  },
+  "definition": {
+    "source": "resources/imperial-magic/99-帝国禁用法术.md",
+    "grade": "D",
+    "prohibited": true,
+    "subskills": [
+      "死灵"
+    ],
+    "effects": [],
+    "requiresAllSchools": false,
+    "schools": [
+      "死灵"
+    ]
+  },
+  "clauses": [
+    {
+      "heading": "裂魂术",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [],
+  "inputs": [],
+  "unresolvedRules": [],
+  "implementationGaps": [],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

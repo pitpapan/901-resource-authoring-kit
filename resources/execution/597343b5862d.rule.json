@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "bright.iron_will",
+  "version": "2026-10-23.1",
+  "identity": {
+    "name": "钢铁意志2级",
+    "grade": null,
+    "category": "resource",
+    "tree": null
+  },
+  "reading": {
+    "path": "outputs/同伴RE资源调整/布莱特.md",
+    "sha256": "ddbc3354a9a21fd4231f9a55a64bfddd33c1212183f6cbed21d7b3419f31dd8d",
+    "heading": "钢铁意志2级",
+    "headingDepth": 2
+  },
+  "definition": {
+    "source": "outputs/同伴RE资源调整/布莱特.md",
+    "grade": null,
+    "prohibited": false,
+    "subskills": [],
+    "effects": [
+      {
+        "stat": "save",
+        "value": 6,
+        "group": "feat",
+        "when": {
+          "test": "eq",
+          "left": {
+            "context": "type"
+          },
+          "right": "will"
+        }
+      },
+      {
+        "stat": "willEnhancement",
+        "value": 2,
+        "group": "feat"
+      }
+    ],
+    "legacyProfile": {
+      "ruleset": "opening-20261022",
+      "kind": "bright",
+      "set": {
+        "steelWill": 0
+      }
+    }
+  },
+  "clauses": [
+    {
+      "heading": "钢铁意志2级",
+      "effectStats": [],
+      "status": "partial"
+    }
+  ],
+  "actions": [],
+  "inputs": [],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "被动运行效果已接入，取得前提及所有相关动作路径仍须完整验证"
+  ],
+  "verification": {
+    "status": "partial",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

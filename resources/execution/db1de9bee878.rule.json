@@ -1,0 +1,1089 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "imperial-mage",
+  "version": "2026-10-23.1",
+  "identity": {
+    "name": "帝国法师",
+    "grade": null,
+    "category": "resource",
+    "tree": null
+  },
+  "reading": {
+    "path": "resources/imperial-mage.md",
+    "sha256": "78fe510edecc6cc7b1cf9847d9924f7eee22cab4fbf2e084bddf32fe5e05968f"
+  },
+  "definition": {
+    "source": "resources/imperial-mage.md",
+    "grade": null,
+    "prohibited": false,
+    "subskills": [],
+    "effects": [
+      {
+        "stat": "check",
+        "value": 3,
+        "when": {
+          "all": [
+            {
+              "any": [
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceChoices.primary"
+                  },
+                  "right": "治愈"
+                },
+                {
+                  "all": [
+                    {
+                      "test": "eq",
+                      "left": {
+                        "context": "resourceGrade"
+                      },
+                      "right": "C"
+                    },
+                    {
+                      "test": "eq",
+                      "left": {
+                        "context": "resourceChoices.secondary"
+                      },
+                      "right": "治愈"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "test": "eq",
+              "left": {
+                "context": "skill"
+              },
+              "right": "医学"
+            },
+            {
+              "test": "eq",
+              "left": {
+                "context": "purpose"
+              },
+              "right": "treatment"
+            }
+          ]
+        },
+        "group": "training"
+      },
+      {
+        "stat": "check",
+        "value": 4,
+        "when": {
+          "all": [
+            {
+              "all": [
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceChoices.primary"
+                  },
+                  "right": "治愈"
+                },
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceGrade"
+                  },
+                  "right": "C"
+                }
+              ]
+            },
+            {
+              "all": [
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "casting"
+                  },
+                  "right": true
+                },
+                {
+                  "test": "contains",
+                  "left": {
+                    "context": "schools"
+                  },
+                  "right": "治愈"
+                }
+              ]
+            }
+          ]
+        },
+        "group": "training"
+      },
+      {
+        "stat": "spellPower",
+        "value": 1,
+        "when": {
+          "all": [
+            {
+              "all": [
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceChoices.primary"
+                  },
+                  "right": "治愈"
+                },
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceGrade"
+                  },
+                  "right": "C"
+                }
+              ]
+            },
+            {
+              "test": "contains",
+              "left": {
+                "context": "schools"
+              },
+              "right": "治愈"
+            }
+          ]
+        },
+        "group": "specialization"
+      },
+      {
+        "stat": "spellPower",
+        "value": 1,
+        "when": {
+          "all": [
+            {
+              "all": [
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceChoices.primary"
+                  },
+                  "right": "结界"
+                },
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceGrade"
+                  },
+                  "right": "C"
+                }
+              ]
+            },
+            {
+              "test": "contains",
+              "left": {
+                "context": "schools"
+              },
+              "right": "结界"
+            }
+          ]
+        },
+        "group": "specialization"
+      },
+      {
+        "stat": "spellPower",
+        "value": 1,
+        "when": {
+          "all": [
+            {
+              "all": [
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceChoices.primary"
+                  },
+                  "right": "塑能"
+                },
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceGrade"
+                  },
+                  "right": "C"
+                }
+              ]
+            },
+            {
+              "test": "contains",
+              "left": {
+                "context": "schools"
+              },
+              "right": "塑能"
+            }
+          ]
+        },
+        "group": "specialization"
+      },
+      {
+        "stat": "spellPower",
+        "value": 1,
+        "when": {
+          "all": [
+            {
+              "all": [
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceChoices.primary"
+                  },
+                  "right": "咒法"
+                },
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceGrade"
+                  },
+                  "right": "C"
+                }
+              ]
+            },
+            {
+              "test": "contains",
+              "left": {
+                "context": "schools"
+              },
+              "right": "咒法"
+            }
+          ]
+        },
+        "group": "specialization"
+      },
+      {
+        "stat": "spellPower",
+        "value": 1,
+        "when": {
+          "all": [
+            {
+              "all": [
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceChoices.primary"
+                  },
+                  "right": "心灵"
+                },
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceGrade"
+                  },
+                  "right": "C"
+                }
+              ]
+            },
+            {
+              "test": "contains",
+              "left": {
+                "context": "schools"
+              },
+              "right": "心灵"
+            }
+          ]
+        },
+        "group": "specialization"
+      },
+      {
+        "stat": "check",
+        "value": 1,
+        "when": {
+          "all": [
+            {
+              "any": [
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceChoices.primary"
+                  },
+                  "right": "炼金"
+                },
+                {
+                  "all": [
+                    {
+                      "test": "eq",
+                      "left": {
+                        "context": "resourceGrade"
+                      },
+                      "right": "C"
+                    },
+                    {
+                      "test": "eq",
+                      "left": {
+                        "context": "resourceChoices.secondary"
+                      },
+                      "right": "炼金"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "test": "eq",
+              "left": {
+                "context": "sub"
+              },
+              "right": "炼金"
+            }
+          ]
+        },
+        "group": "specialization"
+      },
+      {
+        "stat": "check",
+        "value": 4,
+        "when": {
+          "all": [
+            {
+              "all": [
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceChoices.primary"
+                  },
+                  "right": "炼金"
+                },
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceGrade"
+                  },
+                  "right": "C"
+                }
+              ]
+            },
+            {
+              "test": "eq",
+              "left": {
+                "context": "sub"
+              },
+              "right": "炼金"
+            }
+          ]
+        },
+        "group": "specialization"
+      },
+      {
+        "stat": "check",
+        "value": 2,
+        "when": {
+          "all": [
+            {
+              "any": [
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceChoices.primary"
+                  },
+                  "right": "炼金"
+                },
+                {
+                  "all": [
+                    {
+                      "test": "eq",
+                      "left": {
+                        "context": "resourceGrade"
+                      },
+                      "right": "C"
+                    },
+                    {
+                      "test": "eq",
+                      "left": {
+                        "context": "resourceChoices.secondary"
+                      },
+                      "right": "炼金"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "test": "eq",
+              "left": {
+                "context": "purpose"
+              },
+              "right": "alchemyIdentification"
+            }
+          ]
+        },
+        "group": "identification"
+      },
+      {
+        "stat": "craftTimeMultiplier",
+        "value": 0.5,
+        "when": {
+          "all": [
+            {
+              "all": [
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceChoices.primary"
+                  },
+                  "right": "炼金"
+                },
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceGrade"
+                  },
+                  "right": "C"
+                }
+              ]
+            },
+            {
+              "test": "eq",
+              "left": {
+                "context": "school"
+              },
+              "right": "炼金"
+            }
+          ]
+        },
+        "group": "specialization"
+      },
+      {
+        "stat": "check",
+        "value": 3,
+        "when": {
+          "all": [
+            {
+              "any": [
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceChoices.primary"
+                  },
+                  "right": "塑能"
+                },
+                {
+                  "all": [
+                    {
+                      "test": "eq",
+                      "left": {
+                        "context": "resourceGrade"
+                      },
+                      "right": "C"
+                    },
+                    {
+                      "test": "eq",
+                      "left": {
+                        "context": "resourceChoices.secondary"
+                      },
+                      "right": "塑能"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "all": [
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "casting"
+                  },
+                  "right": true
+                },
+                {
+                  "test": "contains",
+                  "left": {
+                    "context": "schools"
+                  },
+                  "right": "塑能"
+                }
+              ]
+            },
+            {
+              "test": "eq",
+              "left": {
+                "context": "attack"
+              },
+              "right": true
+            }
+          ]
+        },
+        "group": "training"
+      },
+      {
+        "stat": "check",
+        "value": 3,
+        "when": {
+          "all": [
+            {
+              "any": [
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceChoices.primary"
+                  },
+                  "right": "幻术"
+                },
+                {
+                  "all": [
+                    {
+                      "test": "eq",
+                      "left": {
+                        "context": "resourceGrade"
+                      },
+                      "right": "C"
+                    },
+                    {
+                      "test": "eq",
+                      "left": {
+                        "context": "resourceChoices.secondary"
+                      },
+                      "right": "幻术"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "all": [
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "casting"
+                  },
+                  "right": true
+                },
+                {
+                  "test": "contains",
+                  "left": {
+                    "context": "schools"
+                  },
+                  "right": "幻术"
+                }
+              ]
+            }
+          ]
+        },
+        "group": "training"
+      },
+      {
+        "stat": "mindStatusReduction",
+        "value": 4,
+        "when": {
+          "any": [
+            {
+              "test": "eq",
+              "left": {
+                "context": "resourceChoices.primary"
+              },
+              "right": "心灵"
+            },
+            {
+              "all": [
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceGrade"
+                  },
+                  "right": "C"
+                },
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceChoices.secondary"
+                  },
+                  "right": "心灵"
+                }
+              ]
+            }
+          ]
+        },
+        "group": "mindTraining"
+      },
+      {
+        "stat": "check",
+        "value": 3,
+        "when": {
+          "all": [
+            {
+              "any": [
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceChoices.primary"
+                  },
+                  "right": "预言"
+                },
+                {
+                  "all": [
+                    {
+                      "test": "eq",
+                      "left": {
+                        "context": "resourceGrade"
+                      },
+                      "right": "C"
+                    },
+                    {
+                      "test": "eq",
+                      "left": {
+                        "context": "resourceChoices.secondary"
+                      },
+                      "right": "预言"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "test": "eq",
+              "left": {
+                "context": "selfDivinationActive"
+              },
+              "right": true
+            },
+            {
+              "test": "in",
+              "left": {
+                "context": "purpose"
+              },
+              "values": [
+                "detection",
+                "magicIdentification"
+              ]
+            }
+          ]
+        },
+        "group": "training"
+      },
+      {
+        "stat": "check",
+        "value": 6,
+        "when": {
+          "all": [
+            {
+              "all": [
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceChoices.primary"
+                  },
+                  "right": "预言"
+                },
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceGrade"
+                  },
+                  "right": "C"
+                }
+              ]
+            },
+            {
+              "test": "eq",
+              "left": {
+                "context": "selfDivinationActive"
+              },
+              "right": true
+            },
+            {
+              "test": "in",
+              "left": {
+                "context": "purpose"
+              },
+              "values": [
+                "detection",
+                "magicIdentification"
+              ]
+            }
+          ]
+        },
+        "group": "training"
+      },
+      {
+        "stat": "check",
+        "value": 3,
+        "when": {
+          "all": [
+            {
+              "any": [
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceChoices.primary"
+                  },
+                  "right": "变化"
+                },
+                {
+                  "all": [
+                    {
+                      "test": "eq",
+                      "left": {
+                        "context": "resourceGrade"
+                      },
+                      "right": "C"
+                    },
+                    {
+                      "test": "eq",
+                      "left": {
+                        "context": "resourceChoices.secondary"
+                      },
+                      "right": "变化"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "test": "eq",
+              "left": {
+                "context": "selfMovementSpell"
+              },
+              "right": true
+            },
+            {
+              "test": "eq",
+              "left": {
+                "context": "skill"
+              },
+              "right": "运动"
+            }
+          ]
+        },
+        "group": "training"
+      },
+      {
+        "stat": "walkingMultiplier",
+        "value": 2,
+        "when": {
+          "all": [
+            {
+              "all": [
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceChoices.primary"
+                  },
+                  "right": "变化"
+                },
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceGrade"
+                  },
+                  "right": "C"
+                }
+              ]
+            },
+            {
+              "test": "eq",
+              "left": {
+                "context": "selfWalkingSpell"
+              },
+              "right": true
+            }
+          ]
+        },
+        "group": "transformation"
+      },
+      {
+        "stat": "selfProtectionDefense",
+        "value": 3,
+        "when": {
+          "all": [
+            {
+              "any": [
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "resourceChoices.primary"
+                  },
+                  "right": "结界"
+                },
+                {
+                  "all": [
+                    {
+                      "test": "eq",
+                      "left": {
+                        "context": "resourceGrade"
+                      },
+                      "right": "C"
+                    },
+                    {
+                      "test": "eq",
+                      "left": {
+                        "context": "resourceChoices.secondary"
+                      },
+                      "right": "结界"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "test": "eq",
+              "left": {
+                "context": "selfProtectionSpell"
+              },
+              "right": true
+            }
+          ]
+        },
+        "group": "protectionTraining"
+      }
+    ],
+    "learning": {
+      "byGrade": {
+        "D": 15,
+        "C": 35
+      },
+      "CRequiresD": true
+    },
+    "acquisition": {
+      "grades": [
+        "D",
+        "C"
+      ],
+      "choices": {
+        "primary": {
+          "values": [
+            "治愈",
+            "炼金",
+            "结界",
+            "塑能",
+            "变化",
+            "咒法",
+            "预言",
+            "幻术",
+            "心灵"
+          ],
+          "required": true
+        },
+        "secondary": {
+          "values": [
+            "治愈",
+            "炼金",
+            "结界",
+            "塑能",
+            "变化",
+            "咒法",
+            "预言",
+            "幻术",
+            "心灵"
+          ],
+          "required": false,
+          "distinctFrom": "primary",
+          "fromGrade": "C"
+        }
+      },
+      "pool": {
+        "capacity": {
+          "op": "floor",
+          "args": [
+            {
+              "op": "div",
+              "args": [
+                {
+                  "op": "add",
+                  "args": [
+                    {
+                      "context": "INT"
+                    },
+                    {
+                      "context": "PER"
+                    }
+                  ]
+                },
+                4
+              ]
+            }
+          ]
+        },
+        "recovery": {
+          "longRest": true,
+          "longRestHours": 8,
+          "meditation": {
+            "intervalMinutes": 60,
+            "attributeAutos": [
+              "智力",
+              "感知"
+            ]
+          }
+        }
+      },
+      "casting": "imperial",
+      "stages": {
+        "D": {
+          "effects": [
+            {
+              "type": "poolCapacity",
+              "value": 5,
+              "when": {
+                "test": "eq",
+                "left": {
+                  "context": "resourceChoices.primary"
+                },
+                "right": "咒法"
+              }
+            }
+          ],
+          "learningGrants": [
+            {
+              "id": "initial",
+              "count": 1,
+              "schoolChoice": "primary"
+            }
+          ]
+        },
+        "C": {
+          "effects": [
+            {
+              "type": "poolCapacity",
+              "value": 10
+            },
+            {
+              "type": "poolCapacity",
+              "value": 5,
+              "when": {
+                "test": "eq",
+                "left": {
+                  "context": "resourceChoices.secondary"
+                },
+                "right": "咒法"
+              }
+            }
+          ],
+          "learningGrants": [
+            {
+              "id": "alchemy",
+              "count": 1,
+              "school": "炼金",
+              "when": {
+                "test": "eq",
+                "left": {
+                  "context": "resourceChoices.primary"
+                },
+                "right": "炼金"
+              }
+            },
+            {
+              "id": "divination",
+              "count": 2,
+              "school": "预言",
+              "when": {
+                "test": "eq",
+                "left": {
+                  "context": "resourceChoices.primary"
+                },
+                "right": "预言"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "clauses": [
+    {
+      "heading": "法术训练（三特性）",
+      "effectStats": [],
+      "status": "partial"
+    },
+    {
+      "heading": "主专精入门（一特性）",
+      "effectStats": [],
+      "status": "partial"
+    },
+    {
+      "heading": "魔力增储",
+      "effectStats": [],
+      "status": "partial"
+    },
+    {
+      "heading": "普通魔力感官",
+      "effectStats": [],
+      "status": "partial"
+    },
+    {
+      "heading": "主修进阶",
+      "effectStats": [],
+      "status": "partial"
+    },
+    {
+      "heading": "副修入门",
+      "effectStats": [],
+      "status": "partial"
+    },
+    {
+      "heading": "治愈",
+      "effectStats": [],
+      "status": "partial"
+    },
+    {
+      "heading": "炼金",
+      "effectStats": [],
+      "status": "partial"
+    },
+    {
+      "heading": "防护／结界",
+      "effectStats": [],
+      "status": "partial"
+    },
+    {
+      "heading": "塑能／元素",
+      "effectStats": [],
+      "status": "partial"
+    },
+    {
+      "heading": "变化",
+      "effectStats": [],
+      "status": "partial"
+    },
+    {
+      "heading": "咒法／召唤",
+      "effectStats": [],
+      "status": "partial"
+    },
+    {
+      "heading": "预言／探知",
+      "effectStats": [],
+      "status": "partial"
+    },
+    {
+      "heading": "幻术",
+      "effectStats": [],
+      "status": "partial"
+    },
+    {
+      "heading": "惑控／心灵",
+      "effectStats": [],
+      "status": "partial"
+    }
+  ],
+  "actions": [
+    {
+      "id": "claimLearning",
+      "name": "选择已获得的授术名额",
+      "operation": "claimLearning",
+      "actionCost": "none",
+      "requiredChoice": "resourceIds",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false,
+      "route": "mechanism",
+      "objectType": "kitResource"
+    }
+  ],
+  "inputs": [],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "NPC法系辨识与实际感官资格",
+    "幻术C瞬发动作预占",
+    "变化/预言/防护特性须与持续法术来源联动",
+    "专精取得与免费授术执行级验证"
+  ],
+  "verification": {
+    "status": "partial",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

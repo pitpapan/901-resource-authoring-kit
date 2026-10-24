@@ -1,0 +1,465 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "guanlan-fa",
+  "version": "2026-10-23.1",
+  "identity": {
+    "name": "观澜法·窥波",
+    "grade": "D",
+    "category": "bundle",
+    "tree": null
+  },
+  "reading": {
+    "path": "resources/guanlan-fa.md",
+    "sha256": "7b61b431e0de6a8ca88aede9d7a4b272e70586cc8d884ba4be518fa60e76ce9f"
+  },
+  "definition": {
+    "source": "resources/guanlan-fa.md",
+    "ownership": {
+      "all": [
+        {
+          "test": "eq",
+          "left": {
+            "state": "guanlan.acquired",
+            "default": false
+          },
+          "right": true
+        },
+        {
+          "test": "present",
+          "left": {
+            "state": "guanlan.source"
+          }
+        }
+      ]
+    },
+    "effects": [
+      {
+        "stat": "attribute",
+        "when": {
+          "test": "eq",
+          "left": {
+            "context": "attribute"
+          },
+          "right": "力量"
+        },
+        "value": {
+          "state": "guanlan.initialAttributes.力量",
+          "default": 0
+        },
+        "group": "intrinsic:guanlan"
+      },
+      {
+        "stat": "attribute",
+        "when": {
+          "test": "eq",
+          "left": {
+            "context": "attribute"
+          },
+          "right": "敏捷"
+        },
+        "value": {
+          "state": "guanlan.initialAttributes.敏捷",
+          "default": 0
+        },
+        "group": "intrinsic:guanlan"
+      },
+      {
+        "stat": "attribute",
+        "when": {
+          "test": "eq",
+          "left": {
+            "context": "attribute"
+          },
+          "right": "智力"
+        },
+        "value": {
+          "state": "guanlan.initialAttributes.智力",
+          "default": 0
+        },
+        "group": "intrinsic:guanlan"
+      },
+      {
+        "stat": "attribute",
+        "when": {
+          "test": "eq",
+          "left": {
+            "context": "attribute"
+          },
+          "right": "感知"
+        },
+        "value": {
+          "state": "guanlan.initialAttributes.感知",
+          "default": 0
+        },
+        "group": "intrinsic:guanlan"
+      },
+      {
+        "stat": "attribute",
+        "when": {
+          "test": "eq",
+          "left": {
+            "context": "attribute"
+          },
+          "right": "意志"
+        },
+        "value": {
+          "state": "guanlan.initialAttributes.意志",
+          "default": 0
+        },
+        "group": "intrinsic:guanlan"
+      },
+      {
+        "stat": "attribute",
+        "when": {
+          "test": "eq",
+          "left": {
+            "context": "attribute"
+          },
+          "right": "风度"
+        },
+        "value": {
+          "state": "guanlan.initialAttributes.风度",
+          "default": 0
+        },
+        "group": "intrinsic:guanlan"
+      },
+      {
+        "stat": "attribute",
+        "when": {
+          "test": "eq",
+          "left": {
+            "context": "attribute"
+          },
+          "right": "感知"
+        },
+        "value": {
+          "state": "guanlan.accumulation.guanwei",
+          "default": 0
+        },
+        "group": "training"
+      },
+      {
+        "stat": "attack",
+        "value": {
+          "state": "guanlan.accumulation.yingwu",
+          "default": 0
+        },
+        "group": "training"
+      },
+      {
+        "stat": "save",
+        "value": {
+          "state": "guanlan.accumulation.yingwu",
+          "default": 0
+        },
+        "group": "training"
+      },
+      {
+        "stat": "defense",
+        "value": {
+          "state": "guanlan.accumulation.yingwu",
+          "default": 0
+        },
+        "group": "training"
+      },
+      {
+        "stat": "shortRestB",
+        "value": 1,
+        "group": "all"
+      },
+      {
+        "stat": "shortRestL",
+        "value": 1,
+        "group": "natural"
+      },
+      {
+        "stat": "learningDiscount",
+        "value": 1,
+        "group": "guanlan",
+        "minimumCost": 1,
+        "discountSource": "guanlan",
+        "when": {
+          "any": [
+            {
+              "all": [
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "kind"
+                  },
+                  "right": "attribute"
+                },
+                {
+                  "test": "in",
+                  "left": {
+                    "context": "attribute"
+                  },
+                  "values": [
+                    "力量",
+                    "敏捷",
+                    "智力",
+                    "感知",
+                    "意志",
+                    "风度"
+                  ]
+                }
+              ]
+            },
+            {
+              "all": [
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "kind"
+                  },
+                  "right": "skill"
+                },
+                {
+                  "test": "in",
+                  "left": {
+                    "context": "skill"
+                  },
+                  "values": [
+                    "白刃",
+                    "运动",
+                    "学识"
+                  ]
+                }
+              ]
+            },
+            {
+              "all": [
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "kind"
+                  },
+                  "right": "technique"
+                },
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "tree"
+                  },
+                  "right": "guanlan"
+                },
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "grade"
+                  },
+                  "right": "D"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "recovery": {
+      "A": {
+        "days": 2,
+        "longRests": 2
+      },
+      "replaceOrdinary": true
+    },
+    "payments": [
+      {
+        "id": "wufa",
+        "balancePath": "guanlan.wufaXP",
+        "eligibility": {
+          "all": [
+            {
+              "test": "eq",
+              "left": {
+                "context": "kind"
+              },
+              "right": "technique"
+            },
+            {
+              "test": "eq",
+              "left": {
+                "context": "tree"
+              },
+              "right": "guanlan"
+            },
+            {
+              "test": "eq",
+              "left": {
+                "context": "grade"
+              },
+              "right": "D"
+            }
+          ]
+        },
+        "completePaymentOnly": true,
+        "allowMixed": false,
+        "allowInstallments": false,
+        "afterDiscount": true
+      }
+    ]
+  },
+  "clauses": [
+    {
+      "heading": "身心初蜕",
+      "effectStats": [
+        "attribute"
+      ],
+      "status": "partial"
+    },
+    {
+      "heading": "观澜技艺",
+      "effectStats": [],
+      "status": "partial"
+    },
+    {
+      "heading": "演化无碍",
+      "effectStats": [],
+      "status": "partial"
+    },
+    {
+      "heading": "积健为雄",
+      "effectStats": [
+        "attribute",
+        "attack",
+        "save",
+        "defense"
+      ],
+      "status": "partial"
+    },
+    {
+      "heading": "一理贯通",
+      "effectStats": [],
+      "status": "implemented"
+    },
+    {
+      "heading": "行路见真",
+      "effectStats": [],
+      "status": "partial"
+    },
+    {
+      "heading": "知微察理",
+      "effectStats": [],
+      "status": "partial"
+    },
+    {
+      "heading": "周流不息",
+      "effectStats": [
+        "shortRestB",
+        "shortRestL"
+      ],
+      "status": "partial"
+    }
+  ],
+  "actions": [
+    {
+      "id": "initialAttributes",
+      "name": "分配身心初蜕",
+      "operation": "initialAttributes",
+      "requiredChoice": "attributes",
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "availability": "implemented-path-needs-full-verification",
+      "actionCost": "none",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false
+    },
+    {
+      "id": "accumulate",
+      "name": "选择积健为雄",
+      "operation": "accumulate",
+      "requiredChoice": "direction",
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "availability": "implemented-path-needs-full-verification",
+      "actionCost": "none",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false
+    },
+    {
+      "id": "insight",
+      "name": "危境开悟",
+      "operation": "insight",
+      "requiredChoice": "opportunity",
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "availability": "implemented-path-needs-full-verification",
+      "actionCost": "none",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false
+    },
+    {
+      "id": "sense",
+      "name": "知微察理",
+      "operation": "sense",
+      "requiredChoice": "target",
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "availability": "implemented-path-needs-full-verification",
+      "actionCost": "none",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "provider": "saved-state",
+      "requiredFor": "all",
+      "type": "object",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "playerChoices",
+      "provider": "player",
+      "requiredFor": "choices",
+      "type": "object",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "sceneFacts",
+      "provider": "host",
+      "requiredFor": "conditional-actions",
+      "type": "object",
+      "missingPolicy": "require_input_for_dependent_action"
+    }
+  ],
+  "unresolvedRules": [
+    {
+      "parameter": "bodyLearningPrice",
+      "basis": "guanlan-fa-notes.md本体26XP为候选价，未冒充原书明价",
+      "recommendation": "采用26XP候选价；正式学习报价须记录裁定来源"
+    }
+  ],
+  "implementationGaps": [
+    "属性取得后的全部派生状态同步与同类内在加值取最高",
+    "施法职能、专注中断、通用池单次支付与实际技艺执行联动",
+    "完整冒险与危境事件的实际触发条件检查",
+    "感知被隐匿目标的对抗及短休兼打坐规则"
+  ],
+  "verification": {
+    "status": "partial",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

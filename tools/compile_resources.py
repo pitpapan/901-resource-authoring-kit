@@ -1,0 +1,60 @@
+"""Validate paired resource contracts and generate runtime data/action indexes.
+
+No inference from prose, no model call, no gameplay-state writes. Unknown rules
+and unfinished implementations remain separate in the generated coverage list.
+"""
+from pathlib import Path
+import argparse,hashlib,json,re
+ROOT=Path(__file__).resolve().parents[1]
+def dump(p,data):
+    p.parent.mkdir(parents=True,exist_ok=True)
+    p.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+def load_contracts():
+    docs=[]
+    for p in sorted((ROOT/'resources/execution').glob('*.rule.json')):
+        d=json.loads(p.read_text(encoding='utf-8'))
+        required=['schemaVersion','id','version','identity','reading','definition','clauses','actions','inputs','unresolvedRules','implementationGaps','verification']
+        if any(k not in d for k in required):raise ValueError(f'{p.name}: missing contract fields')
+        if d['schemaVersion']!='901-resource/1':raise ValueError(f'{p.name}: unknown schema')
+        source=ROOT/d['reading']['path']
+        if not source.resolve().is_relative_to(ROOT.resolve()):raise ValueError('Reading source outside kit')
+        if hashlib.sha256(source.read_bytes()).hexdigest()!=d['reading']['sha256']:raise ValueError(f'{d["id"]}: 阅读版已变化，须重新核对执行版')
+        body=source.read_text(encoding='utf-8')
+        if d['reading'].get('heading'):
+            heading=d['reading']['heading']
+            match=re.search(r'^'+('#'*d['reading'].get('headingDepth',3))+' '+re.escape(heading)+r'\s*$',body,re.M)
+            if not match:raise ValueError('Source section not found: '+heading)
+            headings={heading}
+        else:headings=set(re.findall(r'^### (.+)$',body,re.M))
+        covered={c['heading'] for c in d['clauses']}
+        if headings!=covered:raise ValueError(f'{d["id"]}: 条款对应不完整 {headings^covered}')
+        if d['verification']['runtimeFullyVerified'] and (d['implementationGaps'] or any(c['status']!='implemented' for c in d['clauses'])):raise ValueError('未实现条款不能标记全部可执行')
+        if len({a['id'] for a in d['actions']})!=len(d['actions']):raise ValueError('Duplicate action ID')
+        for e in d['definition'].get('effects',[]):
+            if 'stat' not in e or 'value' not in e:raise ValueError('Effect requires stat and value')
+            if e.get('stacking') not in [None,'add']:raise ValueError('Unknown stacking operator')
+        supported={'save','attack','damage','status','heal','removeStatus','effect','capability','trigger'}
+        def validate_steps(steps):
+            for step in steps:
+                if step.get('op') not in supported:raise ValueError(f'{d["id"]}: unsupported operation {step.get("op")}')
+                if step['op']=='trigger':validate_steps(step['steps'])
+        for program in d['definition'].get('programs',{}).values():
+            validate_steps(program['steps'])
+        docs.append(d)
+    if len({d['id'] for d in docs})!=len(docs):raise ValueError('Duplicate resource ID')
+    return docs
+def compile_to(destination):
+    docs=load_contracts();definitions={d['id']:d['definition'] for d in docs}
+    for d in docs:
+        definitions[d['id']]['contractVersion']=d['version']
+        definitions[d['id']]['readingHash']=d['reading']['sha256']
+        definitions[d['id']]['operations']=[a['operation'] for a in d['actions']]
+    destination.mkdir(parents=True,exist_ok=True)
+    (destination/'resource-data.mjs').write_text('// Generated from paired .rule.json contracts. Do not edit.\nexport const RESOURCE_DATA='+json.dumps(definitions,ensure_ascii=False,separators=(',',':'))+';\n',encoding='utf-8')
+    index=[dict(resourceId=d['id'],version=d['version'],name=d['identity']['name'],actions=d['actions'],status=d['verification']['status'],runtimeFullyVerified=d['verification']['runtimeFullyVerified'],implementationGaps=d['implementationGaps'],unresolvedRules=d['unresolvedRules']) for d in docs]
+    (destination/'resource-action-index.mjs').write_text('// Generated classifier view, not a third authoring source.\nexport const RESOURCE_ACTION_INDEX='+json.dumps(index,ensure_ascii=False,separators=(',',':'))+';\n',encoding='utf-8')
+    dump(ROOT/'resources/execution/coverage.json',[dict(id=d['id'],version=d['version'],status=d['verification']['status'],unresolvedRules=d['unresolvedRules'],implementationGaps=d['implementationGaps']) for d in docs])
+    return {'contracts':len(docs),'actions':sum(len(d['actions']) for d in docs),'fullyVerified':sum(d['verification']['runtimeFullyVerified'] for d in docs)}
+if __name__=='__main__':
+    p=argparse.ArgumentParser();p.add_argument('--runtime-output',type=Path);a=p.parse_args()
+    print(json.dumps(compile_to(a.runtime_output) if a.runtime_output else {'validatedContracts':len(load_contracts())},ensure_ascii=False))

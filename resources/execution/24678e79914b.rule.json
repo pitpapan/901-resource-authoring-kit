@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "imperial-magic:D:识破隐形",
+  "version": "2026-10-23.1",
+  "identity": {
+    "name": "识破隐形",
+    "grade": "D",
+    "category": "spell",
+    "tree": "imperial"
+  },
+  "reading": {
+    "path": "resources/imperial-magic/06-预言与诅咒.md",
+    "sha256": "9605c98875816313e985071ed8520755ae1ebcb4285b088f0b9c66c79a28dc3a",
+    "heading": "识破隐形"
+  },
+  "definition": {
+    "source": "resources/imperial-magic/06-预言与诅咒.md",
+    "grade": "D",
+    "prohibited": false,
+    "subskills": [
+      "预言"
+    ],
+    "effects": [],
+    "learning": {
+      "baseXP": 10,
+      "requiresKnownVersion": false,
+      "upgradeC": {
+        "retainD": 25,
+        "replaceD": 15
+      }
+    },
+    "programs": {
+      "cast": {
+        "action": "standard",
+        "target": "single",
+        "casting": true,
+        "components": [
+          "posture",
+          "language",
+          "focus"
+        ],
+        "range": 1.5,
+        "steps": [
+          {
+            "op": "capability",
+            "id": "detectInvisibility",
+            "gradeBonus": 1,
+            "senses": {
+              "D": [
+                "blindSense"
+              ],
+              "C": [
+                "blindSense",
+                "blindSight"
+              ]
+            },
+            "rangePolicy": "existing-senses",
+            "lineOfEffect": true,
+            "scene": true
+          }
+        ],
+        "willing": true
+      }
+    },
+    "schools": [
+      "预言"
+    ],
+    "requiresAllSchools": false
+  },
+  "clauses": [
+    {
+      "heading": "识破隐形",
+      "effectStats": [],
+      "status": "partial"
+    }
+  ],
+  "actions": [
+    {
+      "id": "cast",
+      "name": "识破隐形",
+      "operation": "cast",
+      "actionCost": "standard",
+      "requiredChoice": "actual-targets",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false,
+      "route": "mechanism",
+      "objectType": "kitResource"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "ownership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "casting",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "targetIds",
+      "type": "array",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "components",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "pool",
+      "type": "string",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "感官范围与地图定位联动",
+    "需执行级完整验证，检查等级/特殊关键词/版本变体；不可仅凭程序存在标记完成"
+  ],
+  "verification": {
+    "status": "partial",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

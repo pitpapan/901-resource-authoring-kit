@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "huang.spirit_strike",
+  "version": "2026-10-23.1",
+  "identity": {
+    "name": "灵力攻击",
+    "grade": null,
+    "category": "resource",
+    "tree": null
+  },
+  "reading": {
+    "path": "outputs/同伴RE资源调整/黄泉.md",
+    "sha256": "f58a4ec2c4cf33b9447c698f5088410e3e7346a5d977a419f0bebe6765fef6e3",
+    "heading": "灵力攻击",
+    "headingDepth": 2
+  },
+  "definition": {
+    "source": "outputs/同伴RE资源调整/黄泉.md",
+    "grade": null,
+    "prohibited": false,
+    "subskills": [],
+    "effects": [
+      {
+        "stat": "weaponMagical",
+        "value": 1,
+        "group": "qualification"
+      },
+      {
+        "stat": "weaponSpirit",
+        "value": 1,
+        "group": "qualification"
+      }
+    ]
+  },
+  "clauses": [
+    {
+      "heading": "灵力攻击",
+      "effectStats": [],
+      "status": "partial"
+    }
+  ],
+  "actions": [],
+  "inputs": [],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "被动运行效果已接入，取得前提及所有相关动作路径仍须完整验证"
+  ],
+  "verification": {
+    "status": "partial",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

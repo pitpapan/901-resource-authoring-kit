@@ -1,0 +1,295 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "chengxin-xuanjian",
+  "version": "2026-10-23.1",
+  "identity": {
+    "name": "澄心玄鉴",
+    "grade": "D",
+    "category": "technique",
+    "tree": "guanlan"
+  },
+  "reading": {
+    "path": "resources/chengxin-xuanjian.md",
+    "sha256": "18f5a7c8a0a541a32e3a9f775fc61276fa90557a17ba707d3db74c5cccbd01dd"
+  },
+  "definition": {
+    "source": "resources/chengxin-xuanjian.md",
+    "requires": "guanlan-fa",
+    "acquire": [
+      {
+        "type": "skillGrant",
+        "skill": "学识",
+        "value": 1,
+        "cap": 5
+      },
+      {
+        "type": "counterCapacity",
+        "counter": "huaJin",
+        "value": 1
+      }
+    ],
+    "effects": [
+      {
+        "stat": "attack",
+        "value": 2,
+        "group": "insight",
+        "when": {
+          "all": [
+            {
+              "test": "eq",
+              "left": {
+                "context": "observed"
+              },
+              "right": true
+            },
+            {
+              "test": "eq",
+              "left": {
+                "context": "targetVisible"
+              },
+              "right": true
+            }
+          ]
+        }
+      },
+      {
+        "stat": "defense",
+        "value": 2,
+        "group": "insight",
+        "when": {
+          "all": [
+            {
+              "test": "eq",
+              "left": {
+                "context": "observed"
+              },
+              "right": true
+            },
+            {
+              "test": "eq",
+              "left": {
+                "context": "targetVisible"
+              },
+              "right": true
+            }
+          ]
+        }
+      },
+      {
+        "stat": "defenseBypass",
+        "value": 2,
+        "group": "shared",
+        "when": {
+          "all": [
+            {
+              "test": "eq",
+              "left": {
+                "context": "successfullyObserved"
+              },
+              "right": true
+            },
+            {
+              "test": "in",
+              "left": {
+                "context": "skill"
+              },
+              "values": [
+                "白刃",
+                "肉搏"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "observation": {
+      "action": "free",
+      "attribute": "智力",
+      "skill": "学识",
+      "dc": 3,
+      "limit": "sceneTargetEvidence",
+      "selection": "oneVisibleTarget"
+    },
+    "conversion": {
+      "counter": "huaJin",
+      "severities": [
+        "B",
+        "L"
+      ],
+      "excludedEnergy": [
+        "mental",
+        "poison"
+      ],
+      "emptyOnly": true,
+      "choice": "acceptNext"
+    },
+    "release": {
+      "action": "swift",
+      "skills": [
+        "白刃",
+        "肉搏"
+      ],
+      "maximumPerRound": 2,
+      "duration": "nextAttackThisTurn"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "知人识势",
+      "effectStats": [],
+      "status": "implemented"
+    },
+    {
+      "heading": "观隙取势",
+      "effectStats": [
+        "attack",
+        "defense"
+      ],
+      "status": "partial"
+    },
+    {
+      "heading": "导气归元",
+      "effectStats": [],
+      "status": "partial"
+    },
+    {
+      "heading": "破隙入微",
+      "effectStats": [
+        "defenseBypass"
+      ],
+      "status": "pending"
+    },
+    {
+      "heading": "心法与身法合用",
+      "effectStats": [],
+      "status": "partial"
+    }
+  ],
+  "actions": [
+    {
+      "id": "observe",
+      "name": "观隙取势",
+      "operation": "observe",
+      "requiredChoice": "target",
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "availability": "implemented-path-needs-full-verification",
+      "actionCost": "free",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false
+    },
+    {
+      "id": "selectObservation",
+      "name": "切换取势目标",
+      "operation": "selectObservation",
+      "requiredChoice": "target",
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "availability": "implemented-path-needs-full-verification",
+      "actionCost": "free",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false
+    },
+    {
+      "id": "clearJin",
+      "name": "散还天地",
+      "operation": "clearJin",
+      "requiredChoice": null,
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "availability": "implemented-path-needs-full-verification",
+      "actionCost": "free",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false
+    },
+    {
+      "id": "spendJin",
+      "name": "借劲出锋",
+      "operation": "spendJin",
+      "requiredChoice": "amount",
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "availability": "implemented-path-needs-full-verification",
+      "actionCost": "swift",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false
+    },
+    {
+      "id": "setConversion",
+      "name": "选择导气归元纳劲量",
+      "operation": "setConversion",
+      "requiredChoice": "amount",
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "availability": "implemented-path-needs-full-verification",
+      "actionCost": "none",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "provider": "saved-state",
+      "requiredFor": "all",
+      "type": "object",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "playerChoices",
+      "provider": "player",
+      "requiredFor": "choices",
+      "type": "object",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "sceneFacts",
+      "provider": "host",
+      "requiredFor": "conditional-actions",
+      "type": "object",
+      "missingPolicy": "require_input_for_dependent_action"
+    }
+  ],
+  "unresolvedRules": [
+    {
+      "parameter": "learningPrice",
+      "basis": "chengxin-xuanjian正文无价格，notes核算仍待定",
+      "recommendation": "保留效果；价格裁定后开放付费学习，不从D级标签自动定价"
+    }
+  ],
+  "implementationGaps": [
+    "失去观察与迹象替换的自动失效",
+    "共享2点防护忽略接入DR、吸收、抵消、转化和硬度各阶段",
+    "借劲出锋场外持续与反射锁、完整伤害转换顺序"
+  ],
+  "verification": {
+    "status": "partial",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

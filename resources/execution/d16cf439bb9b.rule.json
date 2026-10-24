@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "bright.marksman_talent",
+  "version": "2026-10-23.1",
+  "identity": {
+    "name": "射手天赋",
+    "grade": "C",
+    "category": "resource",
+    "tree": null
+  },
+  "reading": {
+    "path": "outputs/同伴RE资源调整/布莱特.md",
+    "sha256": "ddbc3354a9a21fd4231f9a55a64bfddd33c1212183f6cbed21d7b3419f31dd8d",
+    "heading": "射手天赋",
+    "headingDepth": 2
+  },
+  "definition": {
+    "source": "outputs/同伴RE资源调整/布莱特.md",
+    "grade": "C",
+    "prohibited": false,
+    "subskills": [],
+    "effects": []
+  },
+  "clauses": [
+    {
+      "heading": "射手天赋",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [],
+  "inputs": [],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

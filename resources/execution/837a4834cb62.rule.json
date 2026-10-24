@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "later:姜子尤",
+  "version": "2026-10-23.1",
+  "identity": {
+    "name": "姜子尤：能力与装备",
+    "grade": null,
+    "category": "character-template",
+    "tree": null
+  },
+  "reading": {
+    "path": "outputs/同伴RE资源调整/姜子尤.md",
+    "sha256": "73a04eab192a03cfb000f7dbdee3e1b95caad7e0c4d9ae11482aa6408706ded5"
+  },
+  "definition": {
+    "source": "outputs/同伴RE资源调整/姜子尤.md",
+    "grade": null,
+    "prohibited": false,
+    "subskills": [],
+    "effects": [],
+    "template": {
+      "period": "later-optional",
+      "applyMode": "individual-acquisitions",
+      "allowSnapshotOverwrite": false,
+      "resourceRefs": [
+        "jiang.martial_artist",
+        "jiang.steel_body",
+        "jiang.nanto",
+        "jiang.red_crane",
+        "jiang.body_breaker",
+        "jiang.new_kenpo",
+        "jiang.fist_adept",
+        "jiang.magic_slayer",
+        "jiang.spartan",
+        "jiang.improved_initiative",
+        "jiang.iron_will",
+        "jiang.taiji_neutral",
+        "later:龙象般若功"
+      ],
+      "notGrants": [
+        "attributes",
+        "skills",
+        "resources.current",
+        "health",
+        "inventory",
+        "cooldowns",
+        "T0"
+      ]
+    }
+  },
+  "clauses": [],
+  "actions": [],
+  "inputs": [],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "引用所列单项资源；各单项执行测试尚未全部完成，模板本身永不整卡写入"
+  ],
+  "verification": {
+    "status": "partial",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

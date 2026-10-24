@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "imperial-magic:C:狂战士之魂",
+  "version": "2026-10-23.1",
+  "identity": {
+    "name": "狂战士之魂",
+    "grade": "C",
+    "category": "spell",
+    "tree": "imperial"
+  },
+  "reading": {
+    "path": "resources/imperial-magic/03-变化与创造.md",
+    "sha256": "8d0986298b0d6cecdf1275819ea60ab47d2f8c29d4e24c47f117f1dee6d7b192",
+    "heading": "狂战士之魂"
+  },
+  "definition": {
+    "source": "resources/imperial-magic/03-变化与创造.md",
+    "grade": "C",
+    "prohibited": false,
+    "subskills": [],
+    "effects": [],
+    "learning": {
+      "baseXP": 25,
+      "requiresKnownVersion": false
+    },
+    "requiresAllSchools": false,
+    "schools": []
+  },
+  "clauses": [
+    {
+      "heading": "狂战士之魂",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [],
+  "inputs": [],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

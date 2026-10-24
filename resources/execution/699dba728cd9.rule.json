@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "zheng-shiqi",
+  "version": "2026-10-23.1",
+  "identity": {
+    "name": "正十七",
+    "grade": null,
+    "category": "resource",
+    "tree": null
+  },
+  "reading": {
+    "path": "resources/zheng-shiqi.md",
+    "sha256": "425ddf48a75013d60695c4b386ab38321b76956efc94015a3fa312140b6910a1"
+  },
+  "definition": {
+    "source": "resources/zheng-shiqi.md",
+    "grade": null,
+    "prohibited": false,
+    "subskills": [],
+    "effects": []
+  },
+  "clauses": [],
+  "actions": [],
+  "inputs": [],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

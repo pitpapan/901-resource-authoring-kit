@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "imperial-magic:C:防护",
+  "version": "2026-10-23.1",
+  "identity": {
+    "name": "防护",
+    "grade": "C",
+    "category": "spell",
+    "tree": "imperial"
+  },
+  "reading": {
+    "path": "resources/imperial-magic/02-咒法与附魔.md",
+    "sha256": "983f6224aea67dcd4e9b29c450a3516367bc89c71b0e249b767383143d93e216",
+    "heading": "防护"
+  },
+  "definition": {
+    "source": "resources/imperial-magic/02-咒法与附魔.md",
+    "grade": "C",
+    "prohibited": false,
+    "subskills": [
+      "附魔"
+    ],
+    "effects": [],
+    "learning": {
+      "baseXP": 25,
+      "requiresKnownVersion": false
+    },
+    "requiresAllSchools": false,
+    "schools": [
+      "附魔"
+    ]
+  },
+  "clauses": [
+    {
+      "heading": "防护",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [],
+  "inputs": [],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

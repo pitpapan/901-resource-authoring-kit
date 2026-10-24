@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "imperial-magic:D:导向射击",
+  "version": "2026-10-23.1",
+  "identity": {
+    "name": "导向射击",
+    "grade": "D",
+    "category": "spell",
+    "tree": "imperial"
+  },
+  "reading": {
+    "path": "resources/imperial-magic/03-变化与创造.md",
+    "sha256": "8d0986298b0d6cecdf1275819ea60ab47d2f8c29d4e24c47f117f1dee6d7b192",
+    "heading": "导向射击"
+  },
+  "definition": {
+    "source": "resources/imperial-magic/03-变化与创造.md",
+    "grade": "D",
+    "prohibited": false,
+    "subskills": [
+      "变化"
+    ],
+    "effects": [],
+    "learning": {
+      "baseXP": 10,
+      "requiresKnownVersion": false,
+      "upgradeC": {
+        "retainD": 25,
+        "replaceD": 15
+      }
+    },
+    "requiresAllSchools": false,
+    "schools": [
+      "变化"
+    ]
+  },
+  "clauses": [
+    {
+      "heading": "导向射击",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [],
+  "inputs": [],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

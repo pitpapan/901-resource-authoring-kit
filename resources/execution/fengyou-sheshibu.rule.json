@@ -1,0 +1,194 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "fengyou-sheshibu",
+  "version": "2026-10-23.1",
+  "identity": {
+    "name": "风游涉世步",
+    "grade": "D",
+    "category": "technique",
+    "tree": "guanlan"
+  },
+  "reading": {
+    "path": "resources/fengyou-sheshibu.md",
+    "sha256": "148337a417b03a5cc1d1ef5c39b887a7aa125a0687bc1b041630469a1ea5a993"
+  },
+  "definition": {
+    "source": "resources/fengyou-sheshibu.md",
+    "requires": "guanlan-fa",
+    "acquire": [
+      {
+        "type": "counterCapacity",
+        "counter": "huaJin",
+        "value": 1
+      }
+    ],
+    "effects": [
+      {
+        "stat": "speed",
+        "value": 40,
+        "group": "bodyMethod",
+        "when": {
+          "all": [
+            {
+              "test": "in",
+              "left": {
+                "state": "equippedArmorClass",
+                "default": null
+              },
+              "values": [
+                "none",
+                "light",
+                "medium"
+              ]
+            },
+            {
+              "pool": {
+                "minimum": 1
+              }
+            }
+          ]
+        }
+      },
+      {
+        "stat": "terrainFreedom",
+        "value": 1,
+        "when": {
+          "all": [
+            {
+              "test": "in",
+              "left": {
+                "state": "equippedArmorClass",
+                "default": null
+              },
+              "values": [
+                "none",
+                "light",
+                "medium"
+              ]
+            },
+            {
+              "pool": {
+                "minimum": 1
+              }
+            }
+          ]
+        }
+      },
+      {
+        "stat": "runningJump",
+        "value": 1,
+        "when": {
+          "all": [
+            {
+              "test": "in",
+              "left": {
+                "state": "equippedArmorClass",
+                "default": null
+              },
+              "values": [
+                "none",
+                "light",
+                "medium"
+              ]
+            },
+            {
+              "pool": {
+                "minimum": 1
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "reaction": {
+      "trigger": "afterMitigation",
+      "movement": "fiveFootStep",
+      "action": "reflex",
+      "conversion": {
+        "counter": "huaJin",
+        "severities": [
+          "B",
+          "L"
+        ],
+        "excludedEnergy": [
+          "mental",
+          "poison"
+        ],
+        "maximum": 1
+      }
+    }
+  },
+  "clauses": [
+    {
+      "heading": "踏风履险",
+      "effectStats": [
+        "speed",
+        "terrainFreedom",
+        "runningJump"
+      ],
+      "status": "partial"
+    },
+    {
+      "heading": "借势迁延",
+      "effectStats": [],
+      "status": "partial"
+    },
+    {
+      "heading": "旋规折隙",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "clearJin",
+      "name": "散还天地",
+      "operation": "clearJin",
+      "requiredChoice": null,
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "availability": "implemented-path-needs-full-verification",
+      "actionCost": "free",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "provider": "saved-state",
+      "requiredFor": "all",
+      "type": "object",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "playerChoices",
+      "provider": "player",
+      "requiredFor": "choices",
+      "type": "object",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "sceneFacts",
+      "provider": "host",
+      "requiredFor": "conditional-actions",
+      "type": "object",
+      "missingPolicy": "require_input_for_dependent_action"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "特殊地形、落脚点与助跑条件接地图",
+    "受击时五尺路径选择、反射锁和伤害转换的完整事务"
+  ],
+  "verification": {
+    "status": "partial",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

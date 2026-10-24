@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "later:布莱特",
+  "version": "2026-10-23.1",
+  "identity": {
+    "name": "卡西乌斯·布莱特：能力与装备",
+    "grade": null,
+    "category": "character-template",
+    "tree": null
+  },
+  "reading": {
+    "path": "outputs/同伴RE资源调整/布莱特.md",
+    "sha256": "ddbc3354a9a21fd4231f9a55a64bfddd33c1212183f6cbed21d7b3419f31dd8d"
+  },
+  "definition": {
+    "source": "outputs/同伴RE资源调整/布莱特.md",
+    "grade": null,
+    "prohibited": false,
+    "subskills": [],
+    "effects": [],
+    "template": {
+      "period": "later-optional",
+      "applyMode": "individual-acquisitions",
+      "allowSnapshotOverwrite": false,
+      "resourceRefs": [
+        "bright.mithril_chain",
+        "bright.orbment_gen3",
+        "bright.orbal_magic",
+        "bright.improved_initiative",
+        "bright.iron_will",
+        "bright.alertness",
+        "bright.shimada_twins",
+        "bright.wind_blindshot",
+        "bright.high_noon",
+        "bright.marksman_talent",
+        "bright.weakpoint_shot",
+        "bright.sky_bow"
+      ],
+      "notGrants": [
+        "attributes",
+        "skills",
+        "resources.current",
+        "health",
+        "inventory",
+        "cooldowns",
+        "T0"
+      ]
+    }
+  },
+  "clauses": [
+    {
+      "heading": "时属性攻击",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "时间加速",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [],
+  "inputs": [],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "引用所列单项资源；各单项执行测试尚未全部完成，模板本身永不整卡写入"
+  ],
+  "verification": {
+    "status": "partial",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "imperial-magic:C:防死结界",
+  "version": "2026-10-23.1",
+  "identity": {
+    "name": "防死结界",
+    "grade": "C",
+    "category": "spell",
+    "tree": "imperial"
+  },
+  "reading": {
+    "path": "resources/imperial-magic/04-结界与召唤.md",
+    "sha256": "dc2c01ebd19c5cea1610fe4cfc2433805eaf289a2ad461fbc0cfa4df59167b80",
+    "heading": "防死结界"
+  },
+  "definition": {
+    "source": "resources/imperial-magic/04-结界与召唤.md",
+    "grade": "C",
+    "prohibited": false,
+    "subskills": [
+      "结界"
+    ],
+    "effects": [],
+    "learning": {
+      "baseXP": 25,
+      "requiresKnownVersion": false
+    },
+    "requiresAllSchools": false,
+    "schools": [
+      "结界"
+    ]
+  },
+  "clauses": [
+    {
+      "heading": "防死结界",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [],
+  "inputs": [],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

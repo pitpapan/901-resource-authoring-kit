@@ -1,0 +1,208 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "imperial-magic:D:暗影箭",
+  "version": "2026-10-23.1",
+  "identity": {
+    "name": "暗影箭",
+    "grade": "D",
+    "category": "spell",
+    "tree": "imperial"
+  },
+  "reading": {
+    "path": "resources/imperial-magic/01-塑能.md",
+    "sha256": "59608609417e520c2328fd4593a42d9da86064c47b1e226911f670bb0dd636eb",
+    "heading": "暗影箭"
+  },
+  "definition": {
+    "source": "resources/imperial-magic/01-塑能.md",
+    "grade": "D",
+    "prohibited": false,
+    "subskills": [
+      "塑能"
+    ],
+    "effects": [],
+    "learning": {
+      "baseXP": 10,
+      "requiresKnownVersion": false,
+      "upgradeC": {
+        "retainD": 25,
+        "replaceD": 15
+      }
+    },
+    "programs": {
+      "cast": {
+        "action": "standard",
+        "target": "single",
+        "casting": true,
+        "components": [
+          "posture",
+          "language",
+          "focus"
+        ],
+        "range": {
+          "op": "mul",
+          "args": [
+            10,
+            {
+              "context": "INT"
+            },
+            {
+              "context": "P"
+            }
+          ]
+        },
+        "steps": [
+          {
+            "op": "attack",
+            "weapon": {
+              "op": "floor",
+              "args": [
+                {
+                  "op": "div",
+                  "args": [
+                    {
+                      "op": "mul",
+                      "args": [
+                        5,
+                        {
+                          "context": "P"
+                        }
+                      ]
+                    },
+                    3
+                  ]
+                }
+              ]
+            },
+            "ap": 0,
+            "magic": {
+              "op": "mul",
+              "args": [
+                2,
+                {
+                  "context": "P"
+                }
+              ]
+            },
+            "speed": {
+              "op": "mul",
+              "args": [
+                2,
+                {
+                  "context": "P"
+                }
+              ]
+            },
+            "contact": false,
+            "energyWeapon": true
+          },
+          {
+            "op": "damage",
+            "amount": {
+              "context": "damage"
+            },
+            "energy": "acid",
+            "severity": "L",
+            "energyWeapon": true,
+            "weapon": {
+              "op": "floor",
+              "args": [
+                {
+                  "op": "div",
+                  "args": [
+                    {
+                      "op": "mul",
+                      "args": [
+                        5,
+                        {
+                          "context": "P"
+                        }
+                      ]
+                    },
+                    3
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "cooldown": 1
+      }
+    },
+    "schools": [
+      "塑能"
+    ],
+    "requiresAllSchools": false
+  },
+  "clauses": [
+    {
+      "heading": "暗影箭",
+      "effectStats": [],
+      "status": "partial"
+    }
+  ],
+  "actions": [
+    {
+      "id": "cast",
+      "name": "暗影箭",
+      "operation": "cast",
+      "actionCost": "standard",
+      "requiredChoice": "actual-targets",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false,
+      "route": "mechanism",
+      "objectType": "kitResource"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "ownership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "casting",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "targetIds",
+      "type": "array",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "components",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "pool",
+      "type": "string",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "需执行级完整验证，检查等级/特殊关键词/版本变体；不可仅凭程序存在标记完成"
+  ],
+  "verification": {
+    "status": "partial",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}
