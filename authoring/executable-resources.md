@@ -65,3 +65,12 @@
 - `targetPolicy`：`touch`核对实际触及和距离，自身不额外索取外部触距；`living`同时核对生命类别和实际伤势死亡，主持计划不能覆盖已保存的死亡或非活物身份。声明政策的治疗程序在支付前验证`healOrder`只含不重复的A/L/B，治疗仍调用共用`healWounds`，不另建专属治疗器。
 
 这些字段须经具体执行场景测试后才能进入动作白名单。证明应固定program／action、契约版本、阅读及共享规则hash和相关执行代码hash；schema通过、program存在、某个cast通过均不等于学习事务、整段条款或全部候选已实现，也不表示已部署。
+
+
+## 显式学习政策接口（2026-10-25）
+
+`definition.learning.baseXP`为固定学习原价；`learning.policy`可显式声明允许的`grades`、`requiresCaster:false`、`requiredSubskills`，以及`pool:{choice:"magicPool",kind:"magic"}`。这是现有`growth-pricing`／`resource-acquisition`的可选政策：未声明者继续使用原D/C资格与取得逻辑。候选政策的报价须登记`contractVersion`，与当前合同完全相同，并沿用已有`adopted/source/actorIds/requirementsMet`事实；分类器仍只选择`action:"resource"`、`offerId`及可选`paymentId`。
+
+主持在报价的`acquisitionChoices.magicPool`选择实际已有池。池已有`kind:"magic"`时直接核验；旧卡未记类型时，须在该报价的`acquisitionQualifications.energyPools[池名]`登记`{kind:"magic",source:"实际确认来源"}`，不能因`generic:true`而视为魔力。咒法等专业核对人物实际技能。每次付款前都复核资格、池与当前版本；分期同时锁报价及合同价格、资格与身份，旧合同或旧分期签名不能绕过新政策。付清才记录取得版本、采用／来源、选择与核验过的资格，不创建能量池、不回能、不授予施法职能。
+
+计价、支付和保存复用现有事务。资源所属树仍取合同身份，外树无级法术不因此获得观澜本树减费或悟法XP支付资格。学习政策须独立测试并固定价格／资格政策、版本、正文／共享hash及相关计价、取得、持久化代码hash；施法证明不能代替学习证明。候选编译可以导出已验证政策，但报价仍由主持逐项登记，编译和注册定义均不授予实际人物资源。

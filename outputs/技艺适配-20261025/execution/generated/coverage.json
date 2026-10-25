@@ -81,7 +81,7 @@
     "candidate-901-spell-9c670c0e1082f405": "d664620995850f5cd0cf6c0fc7b594fac7aefc2567023630bb616af892a9dbbc",
     "candidate-901-spell-a17a0d1fcd3e429d": "c49db3b825b06d0c19fdab5f82b67bd0f2d29975821d2c6504c88c32102bc8e2",
     "candidate-901-spell-a319782b2bc938e7": "4dff06a1e67eaa311129a463bdf105bb5111e59f910e1c472a6678c210726a2d",
-    "candidate-901-spell-a3d953c556f47f6b": "eeb52b8b7986f0342964affbb36e35ef9f75ed09732e44027060af9298a62d76",
+    "candidate-901-spell-a3d953c556f47f6b": "da2b3a9adbc3f94886b7ec72e479f4fa28347d499fb34d51f70c2d0c6ba4350b",
     "candidate-901-spell-a4b183034db59218": "09e35c274dcefb91c7fd357b0988c06001d5da06f5f1b6a78a8c55cb6086c040",
     "candidate-901-spell-a649e14dc6f5e54d": "5cc8bfb011fa2903e1e933fc19d5b516f94a5b7ecd78c8d177a999c42354b6ac",
     "candidate-901-spell-a81e0d7817c845d7": "a9790c4b4d918e3fb5499fa5226729a69a6b5f97e715d3b1b98166583ba9be42",
@@ -282,6 +282,7 @@
     "structuredMechanismFragments": 222,
     "structuredUnits": 951,
     "unresolvedRuleCount": 4,
+    "verifiedAcquisitionTransactions": 1,
     "verifiedPassiveEffects": 8,
     "verifiedPassiveSlices": 4,
     "verifiedPrograms": 1
@@ -5049,6 +5050,23 @@
         "status": "pending"
       },
       "version": "2026-10-23.1"
+    }
+  ],
+  "verifiedAcquisitions": [
+    {
+      "resourceId": "candidate-901-spell-a3d953c556f47f6b",
+      "testCases": [
+        "ungraded external spell learns for three ordinary XP, persists source/version/choice, no caster or free grants",
+        "candidate offer must match adopted contract version, price, grade and tree",
+        "missing actual school, pool, magic classification, requirements or XP rejects unchanged",
+        "actual magic pool works without host reclassification; Wufa and relabelled tree cannot pay external spell",
+        "installments lock current definition/version and acquisition facts; only complete payment grants ownership",
+        "a legacy installment without contract signature cannot bypass new acquisition policy",
+        "candidate offer registration and classifier selectors never grant ownership or accept a model-supplied price",
+        "only explicit learning spends ordinary XP; reload, next message, repeat request and self cast preserve the same acquisition",
+        "questions, cancellation, Wufa-only declaration and unadopted offers do not silently buy the candidate"
+      ],
+      "verifiedScope": "registered-offer-learning-xp-and-acquisition; cast-independently-proven"
     }
   ],
   "verifiedPrograms": [

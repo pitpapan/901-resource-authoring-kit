@@ -43,12 +43,20 @@ def load():
  return docs,reuse
 SUPPORTED_STATS={'check','attack','defense','save','initiative','speed','extraSuccess','willEnhancement','willMax','spellPower','ignoreSpeed'}
 def program_fingerprint(d,operation):
- return digest({'program':d['definition']['programs'][operation],'actions':[a for a in d['actions'] if a['operation']==operation],'grade':d['definition'].get('grade'),'subskills':d['definition'].get('subskills'),'requiresAllSchools':d['definition'].get('requiresAllSchools'),'contractVersion':d['version'],'readingHash':d['reading']['sha256'],'sharedHash':d['definition']['authoringOnly']['sharedRulesLock']})
-def projection(docs,evidence=None,program_evidence=None):
- data={};passives=[];blocked=[];catalog=[];action_index=[];verified_programs=[]
+ return digest({'learning':d['definition'].get('learning'),'acquisition':d['definition'].get('acquisition'),'program':d['definition']['programs'][operation],'actions':[a for a in d['actions'] if a['operation']==operation],'grade':d['definition'].get('grade'),'subskills':d['definition'].get('subskills'),'requiresAllSchools':d['definition'].get('requiresAllSchools'),'contractVersion':d['version'],'readingHash':d['reading']['sha256'],'sharedHash':d['definition']['authoringOnly']['sharedRulesLock']})
+def acquisition_fingerprint(d):
+ return digest({'learning':d['definition'].get('learning'),'acquisition':d['definition'].get('acquisition'),'requires':d['definition'].get('requires'),'identity':d['identity'],'grade':d['definition'].get('grade'),'subskills':d['definition'].get('subskills'),'requiresAllSchools':d['definition'].get('requiresAllSchools'),'contractVersion':d['version'],'reading':d['reading'],'sharedHash':d['definition']['authoringOnly']['sharedRulesLock']})
+def projection(docs,evidence=None,program_evidence=None,acquisition_evidence=None):
+ data={};passives=[];blocked=[];catalog=[];action_index=[];verified_programs=[];verified_acquisitions=[]
  verified=(evidence or {}).get('slices',{})
  for d in docs:
   auth=d['definition']['authoringOnly'];catalog.append({'resourceId':d['id'],'version':d['version'],'identity':d['identity'],'reading':d['reading'],'units':auth['units'],'inputs':d['inputs'],'verification':d['verification'],'unresolvedRules':d['unresolvedRules'],'implementationGaps':d['implementationGaps']})
+  acquisition_proof=(acquisition_evidence or {}).get('acquisitions',{}).get(d['id'])
+  acquisition_verified=bool(acquisition_proof and acquisition_proof['result']=='passed' and acquisition_proof['fingerprint']==acquisition_fingerprint(d))
+  if acquisition_verified:
+   require(not d['unresolvedRules'],'unresolved acquisition cannot be promoted')
+   verified_acquisitions.append({'resourceId':d['id'],'verifiedScope':auth['runtimeAcquisition']['verifiedScope'],'testCases':acquisition_proof['testCases']})
+  catalog[-1]['learningVerification']={'status':'execution-verified' if acquisition_verified else 'unverified','requiresRegisteredOffer':True,'route':'resource'}
   accepted={};covered_units=set()
   for scope in auth.get('runtimePrograms',[]):
    operation=scope['operation'];proof=(program_evidence or {}).get('programs',{}).get(d['id']+'/'+operation)
@@ -57,7 +65,8 @@ def projection(docs,evidence=None,program_evidence=None):
     accepted[operation]=d['definition']['programs'][operation];covered_units.update(scope['clauseIds']);verified_programs.append({'resourceId':d['id'],'operation':operation,'verifiedScope':scope['verifiedScope'],'testCases':proof['testCases']})
   if accepted:
    actions=[dict(a,availability='execution-verified') for a in d['actions'] if a['operation'] in accepted]
-   action_index.append({'resourceId':d['id'],'version':d['version'],'name':d['identity']['name'],'reading':d['reading'],'sourceChecked':True,'actions':actions,'status':'partial','runtimeFullyVerified':False,'verifiedScope':'declared-programs-only; acquisition-excluded','implementationGaps':d['implementationGaps'],'unresolvedRules':d['unresolvedRules']})
+   action_index.append({'resourceId':d['id'],'version':d['version'],'name':d['identity']['name'],'reading':d['reading'],'sourceChecked':True,'actions':actions,'status':'partial','runtimeFullyVerified':False,'verifiedScope':'declared-programs-and-registered-offer-acquisition' if acquisition_verified else 'declared-programs-only; acquisition-excluded','implementationGaps':d['implementationGaps'],'unresolvedRules':d['unresolvedRules']})
+   if acquisition_verified:action_index[-1]['learning']={'action':'resource','availability':'execution-verified','requiresRegisteredOffer':True,'requestFields':['actorId','offerId','paymentId'],'allowsModelNumericEffects':False,'contractVersion':d['version']}
   for u in auth['units']:
    if u['id'] in covered_units and not u['implementationGaps']:continue
    blocked.append({'resourceId':d['id'],'clauseId':u['id'],'name':u['name'],'reading':u['reading'],'availability':'blocked','operation':None,'allowsModelNumericEffects':False,'gapCodes':u['implementationGaps'] or ['program-runtime-proof-not-current'],'unresolvedRuleIds':u['unresolvedRuleIds'],'actionCost':u['actions'],'mayPlanSelection':True,'mayExecute':False})
@@ -73,11 +82,12 @@ def projection(docs,evidence=None,program_evidence=None):
     require(not s.get('unresolvedRuleIds'),'unresolved slice promoted');chosen.extend(indexes)
     passives.append({'resourceId':d['id'],'sliceId':sid,'clauseId':s['clauseId'],'scope':'verified-passive-fragment','effectIndexes':indexes,'testCases':proof['testCases']})
    else:blocked.append({'resourceId':d['id'],'sliceId':sid,'name':s['name'],'availability':'blocked','operation':None,'gapCodes':['passive-runtime-test-not-current'],'mayExecute':False})
-  if chosen or accepted:
+  if chosen or accepted or acquisition_verified:
    data[d['id']]={k:v for k,v in d['definition'].items() if k not in ['authoringOnly','effects','programs']}
-   data[d['id']].update(effects=[d['definition']['effects'][i] for i in sorted(set(chosen))],programs=accepted,identity=d['identity'],contractVersion=d['version'],readingHash=d['reading']['sha256'],reading=d['reading'],verification={'status':'partial','sourceChecked':True,'runtimeFullyVerified':False,'verifiedScope':'programs-and-selected-passive-fragments' if accepted else 'collectEffects-only'},operations=list(accepted))
- return data,passives,blocked,catalog,action_index,verified_programs
-def build(docs,reuse,evidence=None,program_evidence=None):
+   if d['definition'].get('learning',{}).get('policy') and not acquisition_verified:data[d['id']].pop('learning',None)
+   data[d['id']].update(effects=[d['definition']['effects'][i] for i in sorted(set(chosen))],programs=accepted,identity=d['identity'],contractVersion=d['version'],readingHash=d['reading']['sha256'],reading=d['reading'],verification={'status':'partial','sourceChecked':True,'runtimeFullyVerified':False,'verifiedScope':'registered-offer-acquisition-and-programs' if acquisition_verified else 'programs-and-selected-passive-fragments' if accepted else 'collectEffects-only'},operations=list(accepted))
+ return data,passives,blocked,catalog,action_index,verified_programs,verified_acquisitions
+def build(docs,reuse,evidence=None,program_evidence=None,acquisition_evidence=None):
  if evidence:
   engine=(ROOT.parent/'901-tavern/work/rules_engine/resource-effects.mjs').resolve()
   require(Path(evidence['engine']['path']).resolve()==engine,'unexpected effect executor proof path')
@@ -85,16 +95,20 @@ def build(docs,reuse,evidence=None,program_evidence=None):
  if program_evidence:
   for module in program_evidence['engineModules']:
    require(sha(ROOT/module['path'])==module['sha256'],'program executor or test changed; execution proof stale: '+module['path'])
- data,passives,blocked,catalog,action_index,verified_programs=projection(docs,evidence,program_evidence)
- counts={'candidateContracts':len(docs),'structuredUnits':sum(len(d['definition']['authoringOnly']['units']) for d in docs),'structuredMechanismFragments':sum(len(u['mechanisms']) for d in docs for u in d['definition']['authoringOnly']['units']),'sourceCount':192,'officialReuseRecords':len(reuse),'officialUniqueIDs':len({r['resourceId'] for r in reuse}),'verifiedPassiveSlices':len(passives),'verifiedPassiveEffects':sum(len(v['effects']) for v in data.values()),'runnableActionWhitelist':sum(len(x['actions']) for x in action_index),'verifiedPrograms':len(verified_programs),'fullyExecutableCandidateContracts':0,'allSemanticsEncoded':False,'blockedUnits':len([x for x in blocked if x.get('clauseId')]),'blockedActionIntents':sum(len(d['actions']) for d in docs)-sum(len(x['actions']) for x in action_index),'unresolvedRuleCount':len({r['parameter'] for d in docs for r in d['unresolvedRules']})}
+ if acquisition_evidence:
+  for module in acquisition_evidence['engineModules']:
+   require(sha(ROOT/module['path'])==module['sha256'],'learning executor or test changed; acquisition proof stale: '+module['path'])
+ data,passives,blocked,catalog,action_index,verified_programs,verified_acquisitions=projection(docs,evidence,program_evidence,acquisition_evidence)
+ counts={'candidateContracts':len(docs),'structuredUnits':sum(len(d['definition']['authoringOnly']['units']) for d in docs),'structuredMechanismFragments':sum(len(u['mechanisms']) for d in docs for u in d['definition']['authoringOnly']['units']),'sourceCount':192,'officialReuseRecords':len(reuse),'officialUniqueIDs':len({r['resourceId'] for r in reuse}),'verifiedPassiveSlices':len(passives),'verifiedPassiveEffects':sum(len(v['effects']) for v in data.values()),'runnableActionWhitelist':sum(len(x['actions']) for x in action_index),'verifiedPrograms':len(verified_programs),'verifiedAcquisitionTransactions':len(verified_acquisitions),'fullyExecutableCandidateContracts':0,'allSemanticsEncoded':False,'blockedUnits':len([x for x in blocked if x.get('clauseId')]),'blockedActionIntents':sum(len(d['actions']) for d in docs)-sum(len(x['actions']) for x in action_index),'unresolvedRuleCount':len({r['parameter'] for d in docs for r in d['unresolvedRules']})}
  warning='// Generated from 901-resource/1 candidate contracts; do not edit. No adoption or installation implied.\n'
- artifacts={'resource-data.mjs':warning+'export const RESOURCE_DATA='+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';\n','resource-action-index.mjs':warning+'export const RESOURCE_ACTION_INDEX='+json.dumps(action_index,ensure_ascii=False,separators=(',',':'))+';\n','resource-blocked-index.mjs':warning+'export const RESOURCE_BLOCKED_INDEX='+json.dumps(blocked,ensure_ascii=False,separators=(',',':'))+';\n','resource-contract-index.mjs':warning+'export const RESOURCE_CONTRACT_INDEX='+json.dumps(catalog,ensure_ascii=False,separators=(',',':'))+';\n','coverage.json':encoded({'counts':counts,'passiveSlices':passives,'verifiedPrograms':verified_programs,'reuseReferences':reuse,'contractFingerprints':{d['id']:digest(d) for d in docs}})}
+ artifacts={'resource-data.mjs':warning+'export const RESOURCE_DATA='+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';\n','resource-action-index.mjs':warning+'export const RESOURCE_ACTION_INDEX='+json.dumps(action_index,ensure_ascii=False,separators=(',',':'))+';\n','resource-blocked-index.mjs':warning+'export const RESOURCE_BLOCKED_INDEX='+json.dumps(blocked,ensure_ascii=False,separators=(',',':'))+';\n','resource-contract-index.mjs':warning+'export const RESOURCE_CONTRACT_INDEX='+json.dumps(catalog,ensure_ascii=False,separators=(',',':'))+';\n','coverage.json':encoded({'counts':counts,'passiveSlices':passives,'verifiedPrograms':verified_programs,'verifiedAcquisitions':verified_acquisitions,'reuseReferences':reuse,'contractFingerprints':{d['id']:digest(d) for d in docs}})}
  return artifacts,counts
 if __name__=='__main__':
  ap=argparse.ArgumentParser();ap.add_argument('--check',action='store_true',help='read-only deterministic artifact validation');a=ap.parse_args()
  docs,reuse=load();proof=BASE/'execution/runtime-verification.json';evidence=json.loads(proof.read_text()) if proof.exists() else None
  program_proof=BASE/'execution/program-verification.json';program_evidence=json.loads(program_proof.read_text()) if program_proof.exists() else None
- artifacts,counts=build(docs,reuse,evidence,program_evidence)
+ acquisition_proof=BASE/'execution/acquisition-verification.json';acquisition_evidence=json.loads(acquisition_proof.read_text()) if acquisition_proof.exists() else None
+ artifacts,counts=build(docs,reuse,evidence,program_evidence,acquisition_evidence)
  for name,text in artifacts.items():
   p=OUT/name
   if a.check:require(p.exists() and p.read_text()==text,'generated artifact stale '+name)

@@ -1,0 +1,84 @@
+{
+  "acquisitions": {
+    "candidate-901-spell-a3d953c556f47f6b": {
+      "fingerprint": "600df73118d0d0dec2c42457a43494674a63fefb0c3afff88d1cbb30f82363c7",
+      "result": "passed",
+      "testCases": [
+        "ungraded external spell learns for three ordinary XP, persists source/version/choice, no caster or free grants",
+        "candidate offer must match adopted contract version, price, grade and tree",
+        "missing actual school, pool, magic classification, requirements or XP rejects unchanged",
+        "actual magic pool works without host reclassification; Wufa and relabelled tree cannot pay external spell",
+        "installments lock current definition/version and acquisition facts; only complete payment grants ownership",
+        "a legacy installment without contract signature cannot bypass new acquisition policy",
+        "candidate offer registration and classifier selectors never grant ownership or accept a model-supplied price",
+        "only explicit learning spends ordinary XP; reload, next message, repeat request and self cast preserve the same acquisition",
+        "questions, cancellation, Wufa-only declaration and unadopted offers do not silently buy the candidate"
+      ],
+      "testFiles": [
+        "../901-tavern/work/rules_engine/resource-learning-policy.test.mjs",
+        "../901-tavern/work/rules_engine/gm_runtime/resource-learning-flow.test.mjs"
+      ]
+    }
+  },
+  "engineModules": [
+    {
+      "path": "../901-tavern/work/rules_engine/core.mjs",
+      "sha256": "c1ae8be1b6369fb283277cc564e5d8c4e45ddc334c19d847c0c3c5cf44e3c9bf"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/gm_runtime/integrated.mjs",
+      "sha256": "d83866d9da23b62708d2b673b78cc0298a2f8b5b85286c099dbe8ddffd06f977"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/gm_runtime/replay-check.mjs",
+      "sha256": "2f6099ce46f3203e885c2787d1694e517d4a5359665f5227dd1d3aba2253d709"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/gm_runtime/resource-learning-flow.test.mjs",
+      "sha256": "370a9c58ca7828735964c8373c298c7cd64899346e78f3882d88953c6d8e128e"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/gm_runtime/rule-actions.mjs",
+      "sha256": "d62362852985637e33b05cdb75902d5a4d0edaa72e991fadc0d0044078463844"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/gm_runtime/rule-reference.mjs",
+      "sha256": "f3ecf630141ad68f6b39c86ae021291c82b0a70aa295173e283298512612c9ca"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/growth-pricing.mjs",
+      "sha256": "006baa31f43ac19988b4bd0583c8e5e5259c1e745ecf6090119c6b0393902edb"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/kit-state.mjs",
+      "sha256": "cc320946740c22352b29b82884719d6f68307f9a299c9448390187588be5b734"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/mvu_poc/adapter.mjs",
+      "sha256": "ecb83d3348113c6a645567869c4e671df5a8e9b6241d0c4d8be65a89aeff11a3"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/resource-acquisition.mjs",
+      "sha256": "5fb06a960ab5b03025b1850c0a5e13b9b38f6d0279895b6f05ef7a3d904d796a"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/resource-catalog.mjs",
+      "sha256": "8a87a331c196e48b6b06c02e631b59a6556a91c9aa700ecd454044a8dd887db0"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/resource-definitions.mjs",
+      "sha256": "2af826b18c9cb1e2556479059df34eb765164ee98254b51212933a0e1bea0bb0"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/resource-effects.mjs",
+      "sha256": "cb2b03fa18d7323bb7900196984334c04c9f244f5d8c914937a1de81e3402dd2"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/resource-learning-policy.test.mjs",
+      "sha256": "5b2a1e9ecc773980324818998acee34fc1853640701e105d98f32b13b32669b8"
+    }
+  ],
+  "result": "passed",
+  "testCount": 9,
+  "writes": 0
+}

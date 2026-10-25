@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "candidate-901-spell-a3d953c556f47f6b",
-  "version": "2026-10-25.machine.3",
+  "version": "2026-10-25.machine.4",
   "identity": {
     "name": "治疗微伤",
     "grade": "ungraded",
@@ -175,7 +175,7 @@
             }
           ],
           "learning": {
-            "semanticStatus": "partial",
+            "semanticStatus": "encoded",
             "prices": [
               {
                 "grade": null,
@@ -192,7 +192,8 @@
             ],
             "inheritCommonLearningConditions": true,
             "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
-            "transactionImplemented": false
+            "transactionImplemented": true,
+            "policyReference": "definition.learning.policy"
           },
           "actions": {
             "semanticStatus": "encoded",
@@ -212,7 +213,10 @@
             "all": [
               {
                 "kind": "actual-owned-contract-version",
-                "version": "2026-10-25.machine.3"
+                "version": "2026-10-25.machine.4",
+                "requiredFor": [
+                  "cast"
+                ]
               },
               {
                 "kind": "actual-acquisition-source"
@@ -432,7 +436,30 @@
             "../901-tavern/work/rules_engine/gm_runtime/resource-program-policy.test.mjs"
           ]
         }
-      ]
+      ],
+      "runtimeAcquisition": {
+        "verifiedScope": "registered-offer-learning-xp-and-acquisition; cast-independently-proven",
+        "testFiles": [
+          "../901-tavern/work/rules_engine/resource-learning-policy.test.mjs",
+          "../901-tavern/work/rules_engine/gm_runtime/resource-learning-flow.test.mjs"
+        ],
+        "engineModules": [
+          "../901-tavern/work/rules_engine/growth-pricing.mjs",
+          "../901-tavern/work/rules_engine/resource-acquisition.mjs",
+          "../901-tavern/work/rules_engine/kit-state.mjs",
+          "../901-tavern/work/rules_engine/resource-effects.mjs",
+          "../901-tavern/work/rules_engine/core.mjs",
+          "../901-tavern/work/rules_engine/gm_runtime/rule-actions.mjs",
+          "../901-tavern/work/rules_engine/gm_runtime/integrated.mjs",
+          "../901-tavern/work/rules_engine/gm_runtime/replay-check.mjs",
+          "../901-tavern/work/rules_engine/gm_runtime/rule-reference.mjs",
+          "../901-tavern/work/rules_engine/mvu_poc/adapter.mjs",
+          "../901-tavern/work/rules_engine/resource-learning-policy.test.mjs",
+          "../901-tavern/work/rules_engine/gm_runtime/resource-learning-flow.test.mjs",
+          "../901-tavern/work/rules_engine/resource-definitions.mjs",
+          "../901-tavern/work/rules_engine/resource-catalog.mjs"
+        ]
+      }
     },
     "grade": "ungraded",
     "subskills": [
@@ -444,7 +471,23 @@
     "requiresAllSchools": true,
     "learning": {
       "baseXP": 3,
-      "transactionImplemented": false
+      "transactionImplemented": true,
+      "policy": {
+        "grades": [
+          "ungraded"
+        ],
+        "requiresCaster": false,
+        "requiredSubskills": [
+          "咒法"
+        ],
+        "requireContractVersion": true,
+        "requireAdoption": true,
+        "requireSource": true,
+        "pool": {
+          "choice": "magicPool",
+          "kind": "magic"
+        }
+      }
     }
   },
   "clauses": [
@@ -480,7 +523,7 @@
       "type": "object",
       "provider": "saved-state",
       "requiredFor": [
-        "all"
+        "cast"
       ],
       "missingPolicy": "block-related-operation",
       "fields": [
@@ -610,13 +653,15 @@
     {
       "id": "magicPool",
       "type": "string",
-      "provider": "saved-state",
+      "provider": "host",
       "requiredFor": [
+        "learning",
         "cast"
       ],
       "missingPolicy": "block-cast",
       "path": "learnedResources.<id>.choices.magicPool",
-      "qualification": "actual pool kind magic or sourced acquisition energyPools binding"
+      "qualification": "actual pool kind magic or sourced acquisition energyPools binding",
+      "semantic": "registered learning choice, persisted on actual acquisition"
     },
     {
       "id": "targetLifeKind",
@@ -658,9 +703,7 @@
     }
   ],
   "unresolvedRules": [],
-  "implementationGaps": [
-    "learning-xp-and-acquisition-transaction-not-implemented"
-  ],
+  "implementationGaps": [],
   "verification": {
     "status": "partial",
     "sourceChecked": true,
