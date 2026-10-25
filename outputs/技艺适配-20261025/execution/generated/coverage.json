@@ -81,7 +81,7 @@
     "candidate-901-spell-9c670c0e1082f405": "d664620995850f5cd0cf6c0fc7b594fac7aefc2567023630bb616af892a9dbbc",
     "candidate-901-spell-a17a0d1fcd3e429d": "c49db3b825b06d0c19fdab5f82b67bd0f2d29975821d2c6504c88c32102bc8e2",
     "candidate-901-spell-a319782b2bc938e7": "4dff06a1e67eaa311129a463bdf105bb5111e59f910e1c472a6678c210726a2d",
-    "candidate-901-spell-a3d953c556f47f6b": "098dcf1c58a032c93e93f9078552e5cadc389e739182261fd166d85612cf07fa",
+    "candidate-901-spell-a3d953c556f47f6b": "eeb52b8b7986f0342964affbb36e35ef9f75ed09732e44027060af9298a62d76",
     "candidate-901-spell-a4b183034db59218": "09e35c274dcefb91c7fd357b0988c06001d5da06f5f1b6a78a8c55cb6086c040",
     "candidate-901-spell-a649e14dc6f5e54d": "5cc8bfb011fa2903e1e933fc19d5b516f94a5b7ecd78c8d177a999c42354b6ac",
     "candidate-901-spell-a81e0d7817c845d7": "a9790c4b4d918e3fb5499fa5226729a69a6b5f97e715d3b1b98166583ba9be42",
@@ -271,19 +271,20 @@
   },
   "counts": {
     "allSemanticsEncoded": false,
-    "blockedActionIntents": 490,
-    "blockedUnits": 951,
+    "blockedActionIntents": 489,
+    "blockedUnits": 950,
     "candidateContracts": 268,
     "fullyExecutableCandidateContracts": 0,
     "officialReuseRecords": 222,
     "officialUniqueIDs": 215,
-    "runnableActionWhitelist": 0,
+    "runnableActionWhitelist": 1,
     "sourceCount": 192,
-    "structuredMechanismFragments": 221,
+    "structuredMechanismFragments": 222,
     "structuredUnits": 951,
     "unresolvedRuleCount": 4,
     "verifiedPassiveEffects": 8,
-    "verifiedPassiveSlices": 4
+    "verifiedPassiveSlices": 4,
+    "verifiedPrograms": 1
   },
   "passiveSlices": [
     {
@@ -5048,6 +5049,24 @@
         "status": "pending"
       },
       "version": "2026-10-23.1"
+    }
+  ],
+  "verifiedPrograms": [
+    {
+      "operation": "cast",
+      "resourceId": "candidate-901-spell-a3d953c556f47f6b",
+      "testCases": [
+        "ungraded free base heals one B with zero mana and no caster record; no XP or stored healing",
+        "bounded augmentation pays actual mana once and heals L/A at 4/10 points",
+        "odd augmentation floors healing points and unused points never accumulate across save round trips",
+        "augmentation above actual cap, fractional choices, or absent caster input reject before payment",
+        "actual owned version, conjuration qualification and bound magic pool are required",
+        "touch, living type, actual death, components and allocation are checked before payment",
+        "actual wound restrictions survive healing and JSON save roundtrip",
+        "combat kit dispatch pays one standard and rejects a second cast without changing original state",
+        "self treatment needs living wounds and qualifications but no external touch distance"
+      ],
+      "verifiedScope": "full-use-program; acquisition-transaction-excluded"
     }
   ]
 }

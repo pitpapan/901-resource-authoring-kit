@@ -55,3 +55,13 @@
 - 效果条件里的 `snapshot` 在施放时固化选项或施术者ID，`context` 留给后续实际判定。例如解析抗力只削减对原施术者的抗力；不能扩散给他人，也不能把负抗力变成额外威力。`inspect` 仅读取声明的现有资源统计，不授予加值。
 - 临时属性效果写入与到期时重算有配置人物的派生值。生命容量缩小时复用已有PHB伤势槽溢出规则，不清除伤势、补满能量或重置XP。旧比较面板已计入的收益通过匹配版本的 `legacyProfiles` 替换，不能与新资源重复计入。
 - 以上是开发执行接口。合同的 `runtimeFullyVerified=false`、实现缺口和未决项继续随分类器及六书投影公开；生成或通过本地检查不等于已经安装到实际聊天。
+
+## 显式程序政策接口（2026-10-25）
+
+`definition.programs`可用以下附加字段声明通用执行政策；现有schema允许这些program字段，无需另建格式。缺省不改变原D/C程序路径。
+
+- `executionPolicy`：用`ranks`明确允许的等级、等级数值和固定威力；`requiresCaster:false`只免施法职能，不免成分、实际取得版本／来源／采用记录或`requiredSubskills`资格。`pool`可声明`selection:"learned-choice"`、取得时选择字段和实际能量类别；须由已保存的池类型或有来源的取得资格证明，普通通用池不能自动视为魔力。
+- `integerInputs`：登记玩家可选整数的默认值、最小值及有限公式上限；`maximumSource:"highestCasterLevel"`只读真实施法者记录。`allowMinimumWithoutMaximum`允许无增幅的基础用法不依赖尚缺的增幅等级。不得接受分类器提供P、治疗数或任意效果公式。
+- `targetPolicy`：`touch`核对实际触及和距离，自身不额外索取外部触距；`living`同时核对生命类别和实际伤势死亡，主持计划不能覆盖已保存的死亡或非活物身份。声明政策的治疗程序在支付前验证`healOrder`只含不重复的A/L/B，治疗仍调用共用`healWounds`，不另建专属治疗器。
+
+这些字段须经具体执行场景测试后才能进入动作白名单。证明应固定program／action、契约版本、阅读及共享规则hash和相关执行代码hash；schema通过、program存在、某个cast通过均不等于学习事务、整段条款或全部候选已实现，也不表示已部署。

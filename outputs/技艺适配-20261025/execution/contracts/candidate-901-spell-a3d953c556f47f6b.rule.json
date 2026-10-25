@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "candidate-901-spell-a3d953c556f47f6b",
-  "version": "2026-10-25.machine.2",
+  "version": "2026-10-25.machine.3",
   "identity": {
     "name": "治疗微伤",
     "grade": "ungraded",
@@ -61,7 +61,96 @@
   },
   "definition": {
     "effects": [],
-    "programs": {},
+    "programs": {
+      "cast": {
+        "action": "standard",
+        "target": "single",
+        "casting": true,
+        "components": [
+          "posture",
+          "language",
+          "focus"
+        ],
+        "targetPolicy": {
+          "touch": true,
+          "living": true
+        },
+        "executionPolicy": {
+          "requireVersion": true,
+          "requireAcquisitionSource": true,
+          "requireAdoption": true,
+          "requiresCaster": false,
+          "ranks": {
+            "ungraded": {
+              "level": 0,
+              "power": 1,
+              "allowPowerBonuses": false
+            }
+          },
+          "requiredSubskills": [
+            "咒法"
+          ],
+          "declaredInputsOnly": true,
+          "pool": {
+            "selection": "learned-choice",
+            "choice": "magicPool",
+            "kind": "magic"
+          }
+        },
+        "integerInputs": {
+          "augmentationEnergy": {
+            "minimum": 0,
+            "default": 0,
+            "maximum": {
+              "op": "mul",
+              "args": [
+                {
+                  "context": "highestCasterLevel"
+                },
+                2
+              ]
+            },
+            "maximumSource": "highestCasterLevel",
+            "allowMinimumWithoutMaximum": true
+          }
+        },
+        "cost": {
+          "context": "augmentationEnergy"
+        },
+        "steps": [
+          {
+            "op": "heal",
+            "amount": {
+              "op": "floor",
+              "args": [
+                {
+                  "op": "add",
+                  "args": [
+                    {
+                      "context": "P"
+                    },
+                    {
+                      "op": "mul",
+                      "args": [
+                        1.5,
+                        {
+                          "context": "augmentationEnergy"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "ratios": {
+              "B": 1,
+              "L": 4,
+              "A": 10
+            }
+          }
+        ]
+      }
+    },
     "authoringOnly": {
       "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
       "units": [
@@ -106,43 +195,43 @@
             "transactionImplemented": false
           },
           "actions": {
-            "semanticStatus": "partial",
+            "semanticStatus": "encoded",
+            "kind": "program",
             "observedActionCombinations": [
               [
                 "standard"
               ]
             ],
-            "programKeys": [],
-            "runtimeAvailable": false
+            "programKeys": [
+              "cast"
+            ],
+            "runtimeAvailable": "requires-current-execution-proof"
           },
           "requirements": {
-            "inheritUnitId": null,
-            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "semanticStatus": "encoded",
             "all": [
               {
-                "predicates": [
-                  {
-                    "kind": "energy-pool-exists",
-                    "names": [
-                      "魔力"
-                    ],
-                    "minimumPoolCount": 1
-                  },
-                  {
-                    "kind": "caster-grade-not-required"
-                  }
-                ],
-                "uncompiledCondition": false,
-                "semanticStatus": "encoded",
-                "sourceRef": {
-                  "path": "outputs/技艺适配-20261025/阅读版/通用魔法-新增.md",
-                  "anchor": "术127",
-                  "sectionSha256": "b485cc0bb29618c0e913616198a174e82965e10bb6c257750642247b0e51fa4e"
-                }
+                "kind": "actual-owned-contract-version",
+                "version": "2026-10-25.machine.3"
+              },
+              {
+                "kind": "actual-acquisition-source"
+              },
+              {
+                "kind": "adopted-acquisition-record"
+              },
+              {
+                "kind": "magic-pool-binding",
+                "choice": "magicPool"
+              },
+              {
+                "kind": "subskill-qualification",
+                "skill": "神秘",
+                "subskill": "咒法",
+                "minimum": 1
               }
             ],
-            "commonPolicy": "actual-learning-source-and-qualification",
-            "runtimeEnforced": false
+            "runtimeEnforced": true
           },
           "upgrades": {
             "semanticStatus": "partial",
@@ -152,20 +241,12 @@
             "runtimeEnforced": false
           },
           "target": {
-            "semanticStatus": "partial",
+            "semanticStatus": "encoded",
             "value": {
-              "range": [
-                {
-                  "semanticStatus": "not-encoded",
-                  "value": null,
-                  "sourceRef": {
-                    "path": "outputs/技艺适配-20261025/阅读版/通用魔法-新增.md",
-                    "anchor": "术127",
-                    "sectionSha256": "b485cc0bb29618c0e913616198a174e82965e10bb6c257750642247b0e51fa4e"
-                  }
-                }
-              ],
-              "area": []
+              "kind": "single-living-target",
+              "range": "actual-touch-reach",
+              "requiresActualLivingKind": true,
+              "deadTargetRejectedBeforePayment": true
             },
             "sourceRef": {
               "path": "outputs/技艺适配-20261025/阅读版/通用魔法-新增.md",
@@ -174,7 +255,7 @@
             }
           },
           "duration": {
-            "semanticStatus": "partial",
+            "semanticStatus": "encoded",
             "value": [
               {
                 "semanticStatus": "encoded",
@@ -195,8 +276,8 @@
             }
           },
           "cooldown": {
-            "semanticStatus": "partial",
-            "value": [],
+            "semanticStatus": "encoded",
+            "value": 0,
             "sourceRef": {
               "path": "outputs/技艺适配-20261025/阅读版/通用魔法-新增.md",
               "anchor": "术127",
@@ -258,8 +339,8 @@
             }
           },
           "stacking": {
-            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
-            "reference": "common/same-source-and-inheritance"
+            "semanticStatus": "encoded",
+            "value": "instant-healing; no carried healing points"
           },
           "power": {
             "semanticStatus": "encoded",
@@ -306,14 +387,19 @@
               "sectionSha256": "b485cc0bb29618c0e913616198a174e82965e10bb6c257750642247b0e51fa4e"
             }
           },
-          "mechanisms": [],
-          "implementationGaps": [
-            "semantic-effect-encoding",
-            "program-grade-fixed-D-C",
-            "program-pool-fixed-imperial-or-guanlan",
-            "action-qualification-and-upgrade-gate",
-            "duration-inheritance-and-no-implicit-refresh"
+          "mechanisms": [
+            {
+              "kind": "standard-program-reference",
+              "operation": "cast",
+              "semanticStatus": "encoded",
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/通用魔法-新增.md",
+                "anchor": "术127",
+                "sectionSha256": "b485cc0bb29618c0e913616198a174e82965e10bb6c257750642247b0e51fa4e"
+              }
+            }
           ],
+          "implementationGaps": [],
           "unresolvedRuleIds": []
         }
       ],
@@ -325,47 +411,67 @@
         "candidateDoesNotGrantImperialEligibility": true,
         "unresolvedBranchesRemainDisabled": true
       },
-      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+      "runtimePrograms": [
+        {
+          "operation": "cast",
+          "clauseIds": [
+            "candidate-901-spell-a3d953c556f47f6b--2bd4a9d3fc6d"
+          ],
+          "verifiedScope": "full-use-program; acquisition-transaction-excluded",
+          "testStatus": "pending",
+          "testFile": "../901-tavern/work/rules_engine/gm_runtime/resource-program-policy.test.mjs",
+          "engineModules": [
+            "../901-tavern/work/rules_engine/gm_runtime/resource-program.mjs",
+            "../901-tavern/work/rules_engine/gm_runtime/resource-program-policy.mjs",
+            "../901-tavern/work/rules_engine/healing.mjs",
+            "../901-tavern/work/rules_engine/core.mjs",
+            "../901-tavern/work/rules_engine/gm_runtime/kit-runtime.mjs",
+            "../901-tavern/work/rules_engine/gm_runtime/rule-actions.mjs",
+            "../901-tavern/work/rules_engine/gm_runtime/scene-rules.mjs",
+            "../901-tavern/work/rules_engine/gm_runtime/resource-program-policy.test.mjs"
+          ]
+        }
+      ]
+    },
+    "grade": "ungraded",
+    "subskills": [
+      "咒法"
+    ],
+    "schools": [
+      "咒法"
+    ],
+    "requiresAllSchools": true,
+    "learning": {
+      "baseXP": 3,
+      "transactionImplemented": false
     }
   },
   "clauses": [
     {
       "heading": "治疗微伤",
       "effectStats": [],
-      "status": "pending"
+      "status": "partial"
     }
   ],
   "actions": [
     {
-      "id": "candidate-901-spell-a3d953c556f47f6b--2bd4a9d3fc6d--intent",
+      "id": "cast",
       "name": "治疗微伤",
-      "operation": null,
-      "actionCost": {
-        "observedAlternatives": [
-          [
-            "standard"
-          ]
-        ],
-        "semanticStatus": "partial"
-      },
-      "requiredChoice": null,
+      "operation": "cast",
+      "actionCost": "standard",
+      "requiredChoice": "actual-target-and-optional-bounded-augmentation",
       "requestFields": [
         "actorId",
-        "resourceId",
-        "clauseId",
-        "targetIds",
-        "registeredChoice"
+        "objectId",
+        "operation",
+        "part"
       ],
       "allowsModelNumericEffects": false,
-      "availability": "blocked",
-      "clauseId": "candidate-901-spell-a3d953c556f47f6b--2bd4a9d3fc6d",
-      "blockedBy": [
-        "semantic-effect-encoding",
-        "program-grade-fixed-D-C",
-        "program-pool-fixed-imperial-or-guanlan",
-        "action-qualification-and-upgrade-gate",
-        "duration-inheritance-and-no-implicit-refresh"
-      ]
+      "availability": "requires-current-execution-proof",
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "clauseId": "candidate-901-spell-a3d953c556f47f6b--2bd4a9d3fc6d"
     }
   ],
   "inputs": [
@@ -465,18 +571,98 @@
         "enumerated-choices"
       ],
       "missingPolicy": "require-registered-choice-before-payment"
+    },
+    {
+      "id": "augmentationEnergy",
+      "type": "integer",
+      "provider": "player",
+      "requiredFor": [
+        "cast-optional-augmentation"
+      ],
+      "minimum": 0,
+      "default": 0,
+      "maximum": {
+        "op": "mul",
+        "args": [
+          {
+            "context": "highestCasterLevel"
+          },
+          2
+        ]
+      },
+      "missingPolicy": "use-declared-zero-default"
+    },
+    {
+      "id": "highestCasterLevel",
+      "type": "integer",
+      "provider": "saved-state",
+      "requiredFor": [
+        "positive-augmentation"
+      ],
+      "minimum": 0,
+      "missingPolicy": "block-augmentation-only",
+      "paths": [
+        "casting.highestLevel",
+        "learnedResources.<id>.qualifications.highestCasterLevel",
+        "actual-casting-records"
+      ]
+    },
+    {
+      "id": "magicPool",
+      "type": "string",
+      "provider": "saved-state",
+      "requiredFor": [
+        "cast"
+      ],
+      "missingPolicy": "block-cast",
+      "path": "learnedResources.<id>.choices.magicPool",
+      "qualification": "actual pool kind magic or sourced acquisition energyPools binding"
+    },
+    {
+      "id": "targetLifeKind",
+      "type": "enum",
+      "values": [
+        "living",
+        "undead",
+        "construct",
+        "object"
+      ],
+      "provider": "host",
+      "requiredFor": [
+        "cast"
+      ],
+      "missingPolicy": "block-cast",
+      "savedStateWins": true
+    },
+    {
+      "id": "healOrder",
+      "type": "array",
+      "provider": "player",
+      "requiredFor": [
+        "cast-allocation"
+      ],
+      "values": [
+        "A",
+        "L",
+        "B"
+      ],
+      "uniqueItems": true,
+      "minimumItems": 1,
+      "maximumItems": 3,
+      "default": [
+        "A",
+        "L",
+        "B"
+      ],
+      "missingPolicy": "use-declared-default"
     }
   ],
   "unresolvedRules": [],
   "implementationGaps": [
-    "semantic-effect-encoding",
-    "program-grade-fixed-D-C",
-    "program-pool-fixed-imperial-or-guanlan",
-    "action-qualification-and-upgrade-gate",
-    "duration-inheritance-and-no-implicit-refresh"
+    "learning-xp-and-acquisition-transaction-not-implemented"
   ],
   "verification": {
-    "status": "pending",
+    "status": "partial",
     "sourceChecked": true,
     "runtimeFullyVerified": false
   }

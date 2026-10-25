@@ -6,7 +6,7 @@ import importlib.util,json,subprocess
 from pathlib import Path
 BASE=Path(__file__).resolve().parents[1]
 spec=importlib.util.spec_from_file_location('candidate_compiler',BASE/'compiler/compile.py');compiler=importlib.util.module_from_spec(spec);spec.loader.exec_module(compiler)
-docs,reuse=compiler.load();proof=json.loads((BASE/'execution/runtime-verification.json').read_text());artifacts,counts=compiler.build(docs,reuse,proof)
+docs,reuse=compiler.load();proof=json.loads((BASE/'execution/runtime-verification.json').read_text());program_proof=json.loads((BASE/'execution/program-verification.json').read_text());artifacts,counts=compiler.build(docs,reuse,proof,program_proof)
 for name,text in artifacts.items():compiler.require((BASE/'execution/generated'/name).read_text()==text,'generated drift: '+name)
 # True unresolved rules and ordinary target/implementation inputs remain separate.
 compiler.require({r['parameter'] for d in docs for r in d['unresolvedRules']}=={'U01','U02','U03','U04'},'unresolved scope')
@@ -25,6 +25,8 @@ r=subprocess.run(['node',str(BASE/'compiler/runtime-check.mjs')],capture_output=
 compiler.require(actual==proof,'runtime proof is stale or differs from actual tests')
 s=subprocess.run([sys.executable,str(BASE/'compiler/semantic-check.py')],capture_output=True,text=True,check=True);semantics=json.loads(s.stdout)
 m=subprocess.run(['node',str(BASE/'compiler/module-check.mjs')],capture_output=True,text=True,check=True);modules=json.loads(m.stdout)
+p=subprocess.run([sys.executable,str(BASE/'compiler/check-programs.py')],capture_output=True,text=True,check=True);actual_programs=json.loads(p.stdout)
+compiler.require(actual_programs==program_proof,'program proof is stale or differs from actual execution')
 # Deterministic second build uses the same contracts and produces exactly the same artifacts.
-again,_=compiler.build(docs,reuse,proof);compiler.require(again==artifacts,'non-deterministic compiler')
-print(json.dumps({'result':'PASS','schema':'901-resource/1','counts':counts,'jsAssertions':actual['assertionCount'],'semanticRegression':semantics,'esm':modules,'writes':0},ensure_ascii=False))
+again,_=compiler.build(docs,reuse,proof,program_proof);compiler.require(again==artifacts,'non-deterministic compiler')
+print(json.dumps({'result':'PASS','schema':'901-resource/1','counts':counts,'jsAssertions':actual['assertionCount'],'programExecutionTests':actual_programs['testCount'],'semanticRegression':semantics,'esm':modules,'writes':0},ensure_ascii=False))

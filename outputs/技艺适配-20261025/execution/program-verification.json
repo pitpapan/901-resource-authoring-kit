@@ -1,0 +1,57 @@
+{
+  "engineModules": [
+    {
+      "path": "../901-tavern/work/rules_engine/core.mjs",
+      "sha256": "c1ae8be1b6369fb283277cc564e5d8c4e45ddc334c19d847c0c3c5cf44e3c9bf"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/gm_runtime/kit-runtime.mjs",
+      "sha256": "1aea0d8c714e573af2d0c081be8bd5d888bafa9ef8079c88d14f15870fb59337"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/gm_runtime/resource-program-policy.mjs",
+      "sha256": "a96b329107e8245fb0566f2f3924a506cb311d0ea403926acdf9bf16f8848d8a"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/gm_runtime/resource-program-policy.test.mjs",
+      "sha256": "5d472d1d6949b42b84e99ccf0b4a4359d96d5eb2b9ea9593d94a327ae6be619d"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/gm_runtime/resource-program.mjs",
+      "sha256": "0d01105976a074666bced910c87bd070661b5aff36d6c16a359dfe44bf14552e"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/gm_runtime/rule-actions.mjs",
+      "sha256": "d62362852985637e33b05cdb75902d5a4d0edaa72e991fadc0d0044078463844"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/gm_runtime/scene-rules.mjs",
+      "sha256": "ad509d03c6f146ae061d874059d5280448d6e71fb2ea7ec240a742dd948ba103"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/healing.mjs",
+      "sha256": "37ffa3b11ec5cfd774479b997324449662a4e82dcddfc8087b0a94e99b5c0d23"
+    }
+  ],
+  "programs": {
+    "candidate-901-spell-a3d953c556f47f6b/cast": {
+      "fingerprint": "21ce9698a329670ca8c550d912a00b93e6c386ef7bd50a9ad8e81ebe0ec7e135",
+      "result": "passed",
+      "testCases": [
+        "ungraded free base heals one B with zero mana and no caster record; no XP or stored healing",
+        "bounded augmentation pays actual mana once and heals L/A at 4/10 points",
+        "odd augmentation floors healing points and unused points never accumulate across save round trips",
+        "augmentation above actual cap, fractional choices, or absent caster input reject before payment",
+        "actual owned version, conjuration qualification and bound magic pool are required",
+        "touch, living type, actual death, components and allocation are checked before payment",
+        "actual wound restrictions survive healing and JSON save roundtrip",
+        "combat kit dispatch pays one standard and rejects a second cast without changing original state",
+        "self treatment needs living wounds and qualifications but no external touch distance"
+      ],
+      "testFile": "../901-tavern/work/rules_engine/gm_runtime/resource-program-policy.test.mjs"
+    }
+  },
+  "result": "passed",
+  "testCount": 9,
+  "writes": 0
+}
