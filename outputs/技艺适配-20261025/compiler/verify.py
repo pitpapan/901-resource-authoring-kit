@@ -35,7 +35,7 @@ changed=copy.deepcopy(docs)
 healing=next(d for d in changed if d['definition']['authoringOnly'].get('runtimeAcquisition'))
 healing['definition']['learning']['baseXP']+=1
 projected=compiler.projection(changed,proof,program_proof,acquisition_proof)
-compiler.require(not projected[-1],'changed learning price retained acquisition proof')
+compiler.require(not any(x['resourceId']==healing['id'] for x in projected[-1]),'changed learning price retained acquisition proof')
 without_learning=compiler.projection(docs,proof,program_proof,None)
 compiler.require(not without_learning[-1],'cast proof was mistaken for learning proof')
 compiler.require('learning' not in without_learning[0][healing['id']],'unverified learning policy leaked into runtime data')

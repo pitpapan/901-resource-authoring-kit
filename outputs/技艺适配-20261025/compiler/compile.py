@@ -35,6 +35,7 @@ def load():
  require(len(docs)==268,'candidate contract count');require(len({d['id'] for d in docs})==len(docs),'duplicate resource ID')
  manifest=json.loads((BASE/'execution/source-coverage.json').read_text());reuse=json.loads((BASE/'execution/reuse-map.json').read_text());require(len(manifest['sources'])==192,'192 sources')
  for path,h in manifest['sourceHashes'].items():require(sha(ROOT/path)==h,'source manifest stale '+path)
+ for dep in manifest['sharedDependencies']:require(sha(ROOT/dep['path'])==dep['sha256'],'source manifest shared dependency stale '+dep['path'])
  official={json.loads(p.read_text())['id']:json.loads(p.read_text()) for p in (ROOT/'resources/execution').glob('*.rule.json')}
  for r in reuse:
   d=official[r['resourceId']];require(d['version']==r['version'] and d['reading']==r['contractReading'],'reuse contract stale');require(r['curriculumProhibited']==(r['status']=='prohibited'),'prohibition scope')
@@ -65,7 +66,7 @@ def projection(docs,evidence=None,program_evidence=None,acquisition_evidence=Non
     accepted[operation]=d['definition']['programs'][operation];covered_units.update(scope['clauseIds']);verified_programs.append({'resourceId':d['id'],'operation':operation,'verifiedScope':scope['verifiedScope'],'testCases':proof['testCases']})
   if accepted:
    actions=[dict(a,availability='execution-verified') for a in d['actions'] if a['operation'] in accepted]
-   action_index.append({'resourceId':d['id'],'version':d['version'],'name':d['identity']['name'],'reading':d['reading'],'sourceChecked':True,'actions':actions,'status':'partial','runtimeFullyVerified':False,'verifiedScope':'declared-programs-and-registered-offer-acquisition' if acquisition_verified else 'declared-programs-only; acquisition-excluded','implementationGaps':d['implementationGaps'],'unresolvedRules':d['unresolvedRules']})
+   action_index.append({'resourceId':d['id'],'version':d['version'],'name':d['identity']['name'],'adoptionStatus':d['identity']['adoptionStatus'],'reading':d['reading'],'sourceChecked':True,'actions':actions,'status':'partial','runtimeFullyVerified':False,'verifiedScope':'declared-programs-and-registered-offer-acquisition' if acquisition_verified else 'declared-programs-only; acquisition-excluded','implementationGaps':d['implementationGaps'],'unresolvedRules':d['unresolvedRules']})
    if acquisition_verified:action_index[-1]['learning']={'action':'resource','availability':'execution-verified','requiresRegisteredOffer':True,'requestFields':['actorId','offerId','paymentId'],'allowsModelNumericEffects':False,'contractVersion':d['version']}
   for u in auth['units']:
    if u['id'] in covered_units and not u['implementationGaps']:continue
@@ -90,7 +91,7 @@ def projection(docs,evidence=None,program_evidence=None,acquisition_evidence=Non
 def build(docs,reuse,evidence=None,program_evidence=None,acquisition_evidence=None):
  if evidence:
   engine=(ROOT.parent/'901-tavern/work/rules_engine/resource-effects.mjs').resolve()
-  require(Path(evidence['engine']['path']).resolve()==engine,'unexpected effect executor proof path')
+  require((ROOT/evidence['engine']['path']).resolve()==engine,'unexpected effect executor proof path')
   require(sha(engine)==evidence['engine']['sha256'],'runtime executor changed; rerun collectEffects tests before promotion')
  if program_evidence:
   for module in program_evidence['engineModules']:

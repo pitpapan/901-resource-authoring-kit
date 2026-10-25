@@ -74,3 +74,23 @@
 主持在报价的`acquisitionChoices.magicPool`选择实际已有池。池已有`kind:"magic"`时直接核验；旧卡未记类型时，须在该报价的`acquisitionQualifications.energyPools[池名]`登记`{kind:"magic",source:"实际确认来源"}`，不能因`generic:true`而视为魔力。咒法等专业核对人物实际技能。每次付款前都复核资格、池与当前版本；分期同时锁报价及合同价格、资格与身份，旧合同或旧分期签名不能绕过新政策。付清才记录取得版本、采用／来源、选择与核验过的资格，不创建能量池、不回能、不授予施法职能。
 
 计价、支付和保存复用现有事务。资源所属树仍取合同身份，外树无级法术不因此获得观澜本树减费或悟法XP支付资格。学习政策须独立测试并固定价格／资格政策、版本、正文／共享hash及相关计价、取得、持久化代码hash；施法证明不能代替学习证明。候选编译可以导出已验证政策，但报价仍由主持逐项登记，编译和注册定义均不授予实际人物资源。
+
+
+## 物体、观察与独立期限接口（2026-10-25）
+
+标准程序可声明`targetEntity:"scene-object"`，目标来自主持已登记且有来源的`physicalObject.state`；`physical-target`也可指人物。`requiredTargetFacts`验证实际字段类型，`preconditions`以现有有限条件AST在付款前检查目标。`facts`只允许契约声明的有类型主持观察事实，须登记`factSource`，分类器不填写规则数值。
+
+通用step枚举新增：`observe`记录声明公式读取的本次观察；`setFact`仅更改已存在且类型匹配的`object.*`／`surface.*`字段，可显式同步已绑定地图字段；`removeEntries`按声明条件过滤这些域的现有列表。路径不得访问原型或人物XP／伤势，操作不得接受模型自由patch或赋值。它们不等于任意物体效果都已实现。
+
+`capability.lifetimePolicy:"independent"`保每次施放各自期限；查询取当前最高有效等级／范围，各自到期，无明文不刷新旧期限。物件期限参与实际时间、轮与场景结束；期限扣减的1e−9近零残差归零。缺省旧程序行为仍保留。物件使用／检定的主持计划可登记`underwater/waterPenalty/foggingPenalty/requiresSound`与实际动作、属性技能、难度；通用`physicalObject use/check`入口读取活跃防水／防雾／静音能力，实际调整检定或拒绝发声，分类器只选计划ID。防雾只指物件表面，不消除外界迷雾；静音物件不封其持有者语言。
+
+候选被编译进开发目录时仍须行级标注candidate。没有独立验证的`learning.policy`和已接入取得事务的候选不得退回人工报价购买；仅有被动／使用证明不能替代取得证明。共享schema扩展后，契约及覆盖清单均重锁其hash，执行与学习证明独立重建；不放宽未知op校验。
+
+
+## 通用伤害选型与伤势稳定（2026-10-25）
+
+`program.damageProfiles`登记有限伤型映射，`damage.profile`通过已枚举选择读取其`kind/energyType/tags`；不可从分类器取得任意伤害定义。远程接触`attack`与随后有命中条件的固定P伤害分开，未命中不伤害，不重复产生普通伤害。`attack-target`可指人物或有来源实际接触防御与结构耐久的physicalObject；物件复用通用结构伤害，不套人物伤槽。`cooldownPolicy.clock:"elapsed-rounds"`显式使用实际经过轮数；缺省旧程序路径保持。
+
+新通用step `stabilize`设置实际停止恶化记录，并保存指定轮数的伤势昏迷抑制能力。核心生命状态／行动资格直接消费该能力；保护仅抑制伤势昏迷，不抹伤、复活或解除其他失能，保护结束恢复原伤势后果，后续新伤按原规则重启恶化。B满原判定只用于防止伤势昏迷，保护期不另保留不存在的失败阻动作代价。
+
+`ruleContext`同时投影人物`resourceObservations`与`surface`，使观察和清洁结果在保存／重新加载后仍能供分类器读取；实际规则数值继续由JS生成。执行证明的路径使用相对约定资源库根的形式，同时校验解析后的准确执行器位置与内容hash；迁移不取消来源验证。

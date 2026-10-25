@@ -1,16 +1,36 @@
 {
   "engineModules": [
     {
+      "path": "../901-tavern/work/rules_engine/combat/engine.mjs",
+      "sha256": "669df703c2c8bcbd98161126e580cbfef8a553696010419fcaea494ca307b577"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/combat/map.mjs",
+      "sha256": "2f54fd13cfdc3fd170efcd5b2923bead37c4ded3375d77dbbc7632bf57618c00"
+    },
+    {
       "path": "../901-tavern/work/rules_engine/core.mjs",
-      "sha256": "c1ae8be1b6369fb283277cc564e5d8c4e45ddc334c19d847c0c3c5cf44e3c9bf"
+      "sha256": "d407a4f8938c2db145ce1e3f302a401405ae05f9bb064582862238967e62edd7"
     },
     {
       "path": "../901-tavern/work/rules_engine/gm_runtime/kit-runtime.mjs",
       "sha256": "1aea0d8c714e573af2d0c081be8bd5d888bafa9ef8079c88d14f15870fb59337"
     },
     {
+      "path": "../901-tavern/work/rules_engine/gm_runtime/object-use.mjs",
+      "sha256": "5546a9a277329af298c8a3f76a4be69332aff6c01d9fcb2a7776f9ff263e2d0a"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/gm_runtime/resource-object-program.mjs",
+      "sha256": "b01238ae4300f375dabbeb7b6dafcea60b86266c45bf811d0c91c8ce4d977305"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/gm_runtime/resource-object-program.test.mjs",
+      "sha256": "19029b80bc856470f84fc713f13022f1549b2f73a591b7b2a7b0161f4ca500e5"
+    },
+    {
       "path": "../901-tavern/work/rules_engine/gm_runtime/resource-program-policy.mjs",
-      "sha256": "a96b329107e8245fb0566f2f3924a506cb311d0ea403926acdf9bf16f8848d8a"
+      "sha256": "81777001750a8b9f2cbd5a6ac2587c12a25b8522d394247222a0e2429b46aacb"
     },
     {
       "path": "../901-tavern/work/rules_engine/gm_runtime/resource-program-policy.test.mjs",
@@ -18,7 +38,11 @@
     },
     {
       "path": "../901-tavern/work/rules_engine/gm_runtime/resource-program.mjs",
-      "sha256": "0d01105976a074666bced910c87bd070661b5aff36d6c16a359dfe44bf14552e"
+      "sha256": "793cb434b13932abda05e98aaf4bd888cc417c80e10b5f1334de69db65790605"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/gm_runtime/resource-wound-program.test.mjs",
+      "sha256": "58742ce8a4b1ded29df4ac50c07e1305dc30da373065919671c5f2da8184e841"
     },
     {
       "path": "../901-tavern/work/rules_engine/gm_runtime/rule-actions.mjs",
@@ -26,16 +50,170 @@
     },
     {
       "path": "../901-tavern/work/rules_engine/gm_runtime/scene-rules.mjs",
-      "sha256": "ad509d03c6f146ae061d874059d5280448d6e71fb2ea7ec240a742dd948ba103"
+      "sha256": "1885fd6078213b063d333efe818c45a69729a4d300f78f8edc23584bb7d199db"
     },
     {
       "path": "../901-tavern/work/rules_engine/healing.mjs",
       "sha256": "37ffa3b11ec5cfd774479b997324449662a4e82dcddfc8087b0a94e99b5c0d23"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/resource-lifecycle.mjs",
+      "sha256": "8656b74f563af5be81fef96a2a24034bf531273512f05b685b30a8994efc2e88"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/status-rules.mjs",
+      "sha256": "9fd1e9170b0b489d2982d709241ce9eb4a97fbd2a82740b85772a525216aa261"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/structural-damage.mjs",
+      "sha256": "f653c73c674927effbe506b7a7f6b908631d189b32837efee4b11a54644aa3ce"
     }
   ],
   "programs": {
+    "candidate-901-spell-07371ef0ebf4c5e6/cast": {
+      "fingerprint": "af6a9647527f9fa7f9a604c8664e94d3ad13aef4a5c31a878e31848edcc847eb",
+      "result": "passed",
+      "testCases": [
+        "光亮术 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "防水防湿 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "指北术 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "阿拉霍洞开 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "焕然一新 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "寂静门户 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "all six candidates reject unadopted/stale/wrong-price offers, missing school, nonmagic pool and Wufa without charging",
+        "light saves radius/minutes; live illumination changes actual darkness visibility and expires",
+        "recasting keeps separate clocks: old high light is not refreshed or inherited by new weak cast",
+        "waterproof prevents water/fog penalties only during scene, through save/reload and scene end",
+        "compass records only actual planet north; missing or arbitrary reference blocks before standard payment",
+        "unlock changes only an ordinary natural/technology lock, including linked map fact, never opens the door",
+        "cleaning removes only simply washable stains, preserves damage/curse and cannot repair or restore charges",
+        "object silence checks effective INT size/range, keeps fractional minutes, expires without silencing holder",
+        "touch, components, actual object kind and numeric-effect override reject atomically in combat",
+        "cleaning accepts a touched creature as well as an object and preserves its wounds",
+        "waterproof is consumed by actual object checks: removes water/fog penalties and preserves other modifiers",
+        "silence prevents actual sound-dependent object use before payment and releases exactly after four 0.1-minute ticks",
+        "saved observation and cleaned creature surface are visible in the actual classifier ruleContext after reload"
+      ],
+      "testFile": "../901-tavern/work/rules_engine/gm_runtime/resource-object-program.test.mjs"
+    },
+    "candidate-901-spell-4d06dee11ca4793b/cast": {
+      "fingerprint": "ff19be066c0c39005f6fe1ca0649aef24a596a0d16dede4b7dc014659fa0f4c2",
+      "result": "passed",
+      "testCases": [
+        "光亮术 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "防水防湿 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "指北术 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "阿拉霍洞开 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "焕然一新 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "寂静门户 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "all six candidates reject unadopted/stale/wrong-price offers, missing school, nonmagic pool and Wufa without charging",
+        "light saves radius/minutes; live illumination changes actual darkness visibility and expires",
+        "recasting keeps separate clocks: old high light is not refreshed or inherited by new weak cast",
+        "waterproof prevents water/fog penalties only during scene, through save/reload and scene end",
+        "compass records only actual planet north; missing or arbitrary reference blocks before standard payment",
+        "unlock changes only an ordinary natural/technology lock, including linked map fact, never opens the door",
+        "cleaning removes only simply washable stains, preserves damage/curse and cannot repair or restore charges",
+        "object silence checks effective INT size/range, keeps fractional minutes, expires without silencing holder",
+        "touch, components, actual object kind and numeric-effect override reject atomically in combat",
+        "cleaning accepts a touched creature as well as an object and preserves its wounds",
+        "waterproof is consumed by actual object checks: removes water/fog penalties and preserves other modifiers",
+        "silence prevents actual sound-dependent object use before payment and releases exactly after four 0.1-minute ticks",
+        "saved observation and cleaned creature surface are visible in the actual classifier ruleContext after reload"
+      ],
+      "testFile": "../901-tavern/work/rules_engine/gm_runtime/resource-object-program.test.mjs"
+    },
+    "candidate-901-spell-627e18466f034f0d/cast": {
+      "fingerprint": "25b6dabb2c22ab03d9ef73b605ca14dcbc0434ae3874b58aa7a184a7555629cf",
+      "result": "passed",
+      "testCases": [
+        "光亮术 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "防水防湿 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "指北术 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "阿拉霍洞开 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "焕然一新 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "寂静门户 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "all six candidates reject unadopted/stale/wrong-price offers, missing school, nonmagic pool and Wufa without charging",
+        "light saves radius/minutes; live illumination changes actual darkness visibility and expires",
+        "recasting keeps separate clocks: old high light is not refreshed or inherited by new weak cast",
+        "waterproof prevents water/fog penalties only during scene, through save/reload and scene end",
+        "compass records only actual planet north; missing or arbitrary reference blocks before standard payment",
+        "unlock changes only an ordinary natural/technology lock, including linked map fact, never opens the door",
+        "cleaning removes only simply washable stains, preserves damage/curse and cannot repair or restore charges",
+        "object silence checks effective INT size/range, keeps fractional minutes, expires without silencing holder",
+        "touch, components, actual object kind and numeric-effect override reject atomically in combat",
+        "cleaning accepts a touched creature as well as an object and preserves its wounds",
+        "waterproof is consumed by actual object checks: removes water/fog penalties and preserves other modifiers",
+        "silence prevents actual sound-dependent object use before payment and releases exactly after four 0.1-minute ticks",
+        "saved observation and cleaned creature surface are visible in the actual classifier ruleContext after reload"
+      ],
+      "testFile": "../901-tavern/work/rules_engine/gm_runtime/resource-object-program.test.mjs"
+    },
+    "candidate-901-spell-770efa8bbf3fb8d7/cast": {
+      "fingerprint": "bf55400078ced0c69d9fc2020bca5405787ce4c885db62a95027d3aafc6584ad",
+      "result": "passed",
+      "testCases": [
+        "造成伤害 learns for exactly 3 ordinary XP and persists the owned version without granting a caster",
+        "稳定伤势 learns for exactly 3 ordinary XP and persists the owned version without granting a caster",
+        "touch attack uses actual INT plus expertise, causes only one P of L on a hit, and never adds ordinary attack damage",
+        "miss deals no damage; forbidden/unknown types and numeric overrides reject before payment",
+        "all declared physical/energy profiles settle through actual damage, armor/absorption still applies",
+        "damage spell has actual range, standard payment and one-round cooldown through save/time",
+        "damage spell also attacks an actual object with sourced contact defense and structural durability, respecting hardness",
+        "stabilization stops actual A deterioration without healing; suppression expires after one round while stabilization remains",
+        "B-full protection prevents the only wound-coma failure; after expiry B-check returns and other incapacities persist",
+        "new wounds restart A deterioration but not premature coma during protection; death is never suppressed",
+        "stabilization is touch-only, does not clear sleeping, existing coma flags or wound penalties",
+        "both new spells reject stale/adoption/school/Wufa learning without XP or grants"
+      ],
+      "testFile": "../901-tavern/work/rules_engine/gm_runtime/resource-wound-program.test.mjs"
+    },
+    "candidate-901-spell-9545847235e16202/cast": {
+      "fingerprint": "ead77bb0c9e87eb5a285debb70fe3de06a8abab4eabb2b9ff5e79177f3c85bc9",
+      "result": "passed",
+      "testCases": [
+        "造成伤害 learns for exactly 3 ordinary XP and persists the owned version without granting a caster",
+        "稳定伤势 learns for exactly 3 ordinary XP and persists the owned version without granting a caster",
+        "touch attack uses actual INT plus expertise, causes only one P of L on a hit, and never adds ordinary attack damage",
+        "miss deals no damage; forbidden/unknown types and numeric overrides reject before payment",
+        "all declared physical/energy profiles settle through actual damage, armor/absorption still applies",
+        "damage spell has actual range, standard payment and one-round cooldown through save/time",
+        "damage spell also attacks an actual object with sourced contact defense and structural durability, respecting hardness",
+        "stabilization stops actual A deterioration without healing; suppression expires after one round while stabilization remains",
+        "B-full protection prevents the only wound-coma failure; after expiry B-check returns and other incapacities persist",
+        "new wounds restart A deterioration but not premature coma during protection; death is never suppressed",
+        "stabilization is touch-only, does not clear sleeping, existing coma flags or wound penalties",
+        "both new spells reject stale/adoption/school/Wufa learning without XP or grants"
+      ],
+      "testFile": "../901-tavern/work/rules_engine/gm_runtime/resource-wound-program.test.mjs"
+    },
+    "candidate-901-spell-9a688a9c8d132262/cast": {
+      "fingerprint": "fd84ce9ae7415e853a81dd4a04b0e67536e0f1bd565f3f153c1683eb79b33ad5",
+      "result": "passed",
+      "testCases": [
+        "光亮术 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "防水防湿 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "指北术 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "阿拉霍洞开 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "焕然一新 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "寂静门户 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "all six candidates reject unadopted/stale/wrong-price offers, missing school, nonmagic pool and Wufa without charging",
+        "light saves radius/minutes; live illumination changes actual darkness visibility and expires",
+        "recasting keeps separate clocks: old high light is not refreshed or inherited by new weak cast",
+        "waterproof prevents water/fog penalties only during scene, through save/reload and scene end",
+        "compass records only actual planet north; missing or arbitrary reference blocks before standard payment",
+        "unlock changes only an ordinary natural/technology lock, including linked map fact, never opens the door",
+        "cleaning removes only simply washable stains, preserves damage/curse and cannot repair or restore charges",
+        "object silence checks effective INT size/range, keeps fractional minutes, expires without silencing holder",
+        "touch, components, actual object kind and numeric-effect override reject atomically in combat",
+        "cleaning accepts a touched creature as well as an object and preserves its wounds",
+        "waterproof is consumed by actual object checks: removes water/fog penalties and preserves other modifiers",
+        "silence prevents actual sound-dependent object use before payment and releases exactly after four 0.1-minute ticks",
+        "saved observation and cleaned creature surface are visible in the actual classifier ruleContext after reload"
+      ],
+      "testFile": "../901-tavern/work/rules_engine/gm_runtime/resource-object-program.test.mjs"
+    },
     "candidate-901-spell-a3d953c556f47f6b/cast": {
-      "fingerprint": "1a4063556fd51825677ec76e99671f39f411288a3b84816eeb9b20315bab4482",
+      "fingerprint": "dd8f9c627f95361be8ab02977373521a05e4251ad1bb6287f6a7221ad2526ebd",
       "result": "passed",
       "testCases": [
         "ungraded free base heals one B with zero mana and no caster record; no XP or stored healing",
@@ -49,9 +227,61 @@
         "self treatment needs living wounds and qualifications but no external touch distance"
       ],
       "testFile": "../901-tavern/work/rules_engine/gm_runtime/resource-program-policy.test.mjs"
+    },
+    "candidate-901-spell-b19de39e68640282/cast": {
+      "fingerprint": "eeae7d39829338d1a708a001331b08e6d369e2189fb164f3c16d7b975ab1f70c",
+      "result": "passed",
+      "testCases": [
+        "光亮术 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "防水防湿 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "指北术 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "阿拉霍洞开 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "焕然一新 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "寂静门户 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "all six candidates reject unadopted/stale/wrong-price offers, missing school, nonmagic pool and Wufa without charging",
+        "light saves radius/minutes; live illumination changes actual darkness visibility and expires",
+        "recasting keeps separate clocks: old high light is not refreshed or inherited by new weak cast",
+        "waterproof prevents water/fog penalties only during scene, through save/reload and scene end",
+        "compass records only actual planet north; missing or arbitrary reference blocks before standard payment",
+        "unlock changes only an ordinary natural/technology lock, including linked map fact, never opens the door",
+        "cleaning removes only simply washable stains, preserves damage/curse and cannot repair or restore charges",
+        "object silence checks effective INT size/range, keeps fractional minutes, expires without silencing holder",
+        "touch, components, actual object kind and numeric-effect override reject atomically in combat",
+        "cleaning accepts a touched creature as well as an object and preserves its wounds",
+        "waterproof is consumed by actual object checks: removes water/fog penalties and preserves other modifiers",
+        "silence prevents actual sound-dependent object use before payment and releases exactly after four 0.1-minute ticks",
+        "saved observation and cleaned creature surface are visible in the actual classifier ruleContext after reload"
+      ],
+      "testFile": "../901-tavern/work/rules_engine/gm_runtime/resource-object-program.test.mjs"
+    },
+    "candidate-901-spell-e2c629c99e7394bd/cast": {
+      "fingerprint": "6f204ca09d7d156e08f1f552400304d1c8ea486064bfb1db788786ede6fb7b56",
+      "result": "passed",
+      "testCases": [
+        "光亮术 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "防水防湿 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "指北术 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "阿拉霍洞开 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "焕然一新 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "寂静门户 learns for 3XP then casts from saved ownership with zero magic and no caster",
+        "all six candidates reject unadopted/stale/wrong-price offers, missing school, nonmagic pool and Wufa without charging",
+        "light saves radius/minutes; live illumination changes actual darkness visibility and expires",
+        "recasting keeps separate clocks: old high light is not refreshed or inherited by new weak cast",
+        "waterproof prevents water/fog penalties only during scene, through save/reload and scene end",
+        "compass records only actual planet north; missing or arbitrary reference blocks before standard payment",
+        "unlock changes only an ordinary natural/technology lock, including linked map fact, never opens the door",
+        "cleaning removes only simply washable stains, preserves damage/curse and cannot repair or restore charges",
+        "object silence checks effective INT size/range, keeps fractional minutes, expires without silencing holder",
+        "touch, components, actual object kind and numeric-effect override reject atomically in combat",
+        "cleaning accepts a touched creature as well as an object and preserves its wounds",
+        "waterproof is consumed by actual object checks: removes water/fog penalties and preserves other modifiers",
+        "silence prevents actual sound-dependent object use before payment and releases exactly after four 0.1-minute ticks",
+        "saved observation and cleaned creature surface are visible in the actual classifier ruleContext after reload"
+      ],
+      "testFile": "../901-tavern/work/rules_engine/gm_runtime/resource-object-program.test.mjs"
     }
   },
   "result": "passed",
-  "testCount": 9,
+  "testCount": 40,
   "writes": 0
 }

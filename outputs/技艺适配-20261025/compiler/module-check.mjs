@@ -10,12 +10,12 @@ import {RESOURCE_CONTRACT_INDEX} from '../execution/generated/resource-contract-
 const BASE=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const engine=path.resolve(BASE,'../../../901-tavern/work/rules_engine/resource-effects.mjs');
 const {collectEffects,stackEffects}=await import(pathToFileURL(engine));
-assert.equal(RESOURCE_ACTION_INDEX.length,1);
+assert.equal(RESOURCE_ACTION_INDEX.length,9);
 assert.equal(RESOURCE_ACTION_INDEX[0].actions.length,1);
 assert.equal(RESOURCE_ACTION_INDEX[0].actions[0].operation,'cast');
 assert.equal(RESOURCE_CONTRACT_INDEX.length,268);
-assert.equal(Object.keys(RESOURCE_DATA).length,2);
-assert.equal(RESOURCE_BLOCKED_INDEX.length,950);
+assert.equal(Object.keys(RESOURCE_DATA).length,10);
+assert.equal(RESOURCE_BLOCKED_INDEX.length,942);
 assert(RESOURCE_BLOCKED_INDEX.every(x=>x.mayExecute===false&&x.operation===null));
 const [id,definition]=Object.entries(RESOURCE_DATA).find(([,d])=>d.effects.length===8);
 const contract=JSON.parse(fs.readFileSync(path.join(BASE,'execution/contracts',id+'.rule.json'),'utf8'));
@@ -25,7 +25,7 @@ assert.deepEqual(definition.programs,{});
 assert.equal(stackEffects(collectEffects({learnedResources:records},RESOURCE_DATA,'attack')).value,45);
 assert.equal(stackEffects(collectEffects({learnedResources:records},RESOURCE_DATA,'defense')).value,45);
 assert.equal(stackEffects(collectEffects({learnedResources:{[id]:{learned:true,version:contract.version,grade:'A'}}},RESOURCE_DATA,'attack')).value,0);
-const action=RESOURCE_ACTION_INDEX[0],healing=RESOURCE_DATA[action.resourceId];
+const action=RESOURCE_ACTION_INDEX.find(x=>x.resourceId==='candidate-901-spell-a3d953c556f47f6b'),healing=RESOURCE_DATA[action.resourceId];
 const healContract=JSON.parse(fs.readFileSync(path.join(BASE,'execution/contracts',action.resourceId+'.rule.json'),'utf8'));
 assert.deepEqual(healing.programs.cast,healContract.definition.programs.cast);
 assert.deepEqual(healing.operations,['cast']);
@@ -36,4 +36,10 @@ assert.equal(action.learning.availability,'execution-verified');
 assert.equal(healing.contractVersion,'2026-10-25.machine.4');
 assert(!RESOURCE_BLOCKED_INDEX.some(x=>x.resourceId===action.resourceId));
 assert(healing.verification.runtimeFullyVerified===false);
-console.log(JSON.stringify({result:'PASS',esmImports:4,exportedResources:2,passiveEffects:8,actionWhitelist:1}));
+for(const a of RESOURCE_ACTION_INDEX){
+ const c=JSON.parse(fs.readFileSync(path.join(BASE,'execution/contracts',a.resourceId+'.rule.json'),'utf8'));
+ assert.equal(a.adoptionStatus,'candidate');assert.equal(a.learning.availability,'execution-verified');
+ assert.deepEqual(RESOURCE_DATA[a.resourceId].learning,c.definition.learning);
+ assert.deepEqual(RESOURCE_DATA[a.resourceId].programs,c.definition.programs);
+}
+console.log(JSON.stringify({result:'PASS',esmImports:4,exportedResources:10,passiveEffects:8,actionWhitelist:9,verifiedLearningPolicies:9}));

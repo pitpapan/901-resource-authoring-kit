@@ -9,6 +9,24 @@ import compile_resources as compiler
 
 
 class ContractCompilerTest(unittest.TestCase):
+    def test_explicit_candidate_package_includes_only_verified_projection_and_preserves_identity(self):
+        package=compiler.ROOT/'outputs/技艺适配-20261025'
+        candidates,index,docs,_=compiler.load_candidate_package(package)
+        with tempfile.TemporaryDirectory() as tmp:
+            dest=Path(tmp)
+            with patch.object(compiler,'dump'):
+                counts=compiler.compile_to(dest,package)
+            data=json.loads((dest/'resource-data.mjs').read_text().split('=',1)[1].strip().removesuffix(';'))
+            actions=json.loads((dest/'resource-action-index.mjs').read_text().split('=',1)[1].strip().removesuffix(';'))
+            self.assertEqual(counts['developmentCandidates'],len(candidates))
+            projected={id:d for id,d in data.items() if d['identity'].get('adoptionStatus')=='candidate'}
+            self.assertEqual(projected,candidates)
+            self.assertEqual([a for a in actions if a['resourceId'] in candidates],index)
+            for id,d in projected.items():
+                self.assertEqual(d['contractVersion'],docs[id]['version'])
+                self.assertEqual(d['reading'],docs[id]['reading'])
+                self.assertFalse(d['verification']['runtimeFullyVerified'])
+
     def test_classifier_and_runtime_retain_exact_contract_provenance(self):
         docs = compiler.load_contracts()
         with tempfile.TemporaryDirectory() as tmp:

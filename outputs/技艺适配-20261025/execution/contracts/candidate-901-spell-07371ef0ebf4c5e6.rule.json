@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "candidate-901-spell-07371ef0ebf4c5e6",
-  "version": "2026-10-25.machine.1",
+  "version": "2026-10-25.machine.2",
   "identity": {
     "name": "防水防湿",
     "grade": "ungraded",
@@ -47,10 +47,10 @@
       },
       {
         "path": "resources/execution/resource.schema.json",
-        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+        "sha256": "bbf7521e7514bb9c807e6b5bf07fa55016853cf31ccacd69d2f725e54feb3758"
       }
     ],
-    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "sharedDependencyHash": "0ba53792ab79911cf6b44488e06878d75d617cd36d19c4bae467a4fed8a30396",
     "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
   },
   "reading": {
@@ -61,7 +61,57 @@
   },
   "definition": {
     "effects": [],
-    "programs": {},
+    "programs": {
+      "cast": {
+        "action": "standard",
+        "target": "single",
+        "casting": true,
+        "components": [
+          "posture",
+          "language",
+          "focus"
+        ],
+        "cost": 0,
+        "executionPolicy": {
+          "requireVersion": true,
+          "requireAcquisitionSource": true,
+          "requireAdoption": true,
+          "requiresCaster": false,
+          "ranks": {
+            "ungraded": {
+              "level": 0,
+              "power": 1,
+              "allowPowerBonuses": false
+            }
+          },
+          "requiredSubskills": [
+            "变化"
+          ],
+          "declaredInputsOnly": true,
+          "pool": {
+            "selection": "learned-choice",
+            "choice": "magicPool",
+            "kind": "magic"
+          }
+        },
+        "steps": [
+          {
+            "op": "capability",
+            "id": "waterproof",
+            "scene": true,
+            "lifetimePolicy": "independent",
+            "preventsFog": true,
+            "waterUsePenalty": 0,
+            "preventsWaterIngress": true
+          }
+        ],
+        "targetEntity": "scene-object",
+        "targetPolicy": {
+          "touch": true
+        },
+        "preconditions": []
+      }
+    },
     "authoringOnly": {
       "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
       "units": [
@@ -86,7 +136,7 @@
             }
           ],
           "learning": {
-            "semanticStatus": "partial",
+            "semanticStatus": "encoded",
             "prices": [
               {
                 "grade": null,
@@ -103,21 +153,27 @@
             ],
             "inheritCommonLearningConditions": true,
             "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
-            "transactionImplemented": false
+            "transactionImplemented": true,
+            "policyReference": "definition.learning.policy"
           },
           "actions": {
-            "semanticStatus": "partial",
+            "semanticStatus": "encoded",
             "observedActionCombinations": [
               [
                 "standard"
               ]
             ],
-            "programKeys": [],
-            "runtimeAvailable": false
+            "programKeys": [
+              "cast"
+            ],
+            "runtimeAvailable": "requires-current-execution-proof",
+            "kind": "program"
           },
           "requirements": {
-            "inheritUnitId": null,
-            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "semanticStatus": "encoded",
+            "learningPolicyReference": "definition.learning.policy",
+            "usePolicyReference": "definition.programs.cast.executionPolicy",
+            "runtimeEnforced": true,
             "all": [
               {
                 "predicates": [
@@ -140,40 +196,16 @@
                   "sectionSha256": "e3ae596aa1f5332e33293c92f0e684754b5b84b14f454740b53abd258aa547fa"
                 }
               }
-            ],
-            "commonPolicy": "actual-learning-source-and-qualification",
-            "runtimeEnforced": false
+            ]
           },
           "upgrades": {
-            "semanticStatus": "partial",
+            "semanticStatus": "encoded",
             "mode": "cannot-upgrade",
-            "explicitInheritanceObserved": false,
-            "defaultReference": "common/learning-and-inheritance",
-            "runtimeEnforced": false
+            "runtimeEnforced": true
           },
           "target": {
-            "semanticStatus": "partial",
-            "value": {
-              "range": [
-                {
-                  "semanticStatus": "encoded",
-                  "value": {
-                    "kind": "touch"
-                  },
-                  "sourceRef": {
-                    "path": "outputs/技艺适配-20261025/阅读版/通用魔法-新增.md",
-                    "anchor": "术110",
-                    "sectionSha256": "e3ae596aa1f5332e33293c92f0e684754b5b84b14f454740b53abd258aa547fa"
-                  }
-                }
-              ],
-              "area": []
-            },
-            "sourceRef": {
-              "path": "outputs/技艺适配-20261025/阅读版/通用魔法-新增.md",
-              "anchor": "术110",
-              "sectionSha256": "e3ae596aa1f5332e33293c92f0e684754b5b84b14f454740b53abd258aa547fa"
-            }
+            "semanticStatus": "encoded",
+            "programReference": "definition.programs.cast.targetPolicy"
           },
           "duration": {
             "semanticStatus": "partial",
@@ -231,8 +263,8 @@
             }
           },
           "stacking": {
-            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
-            "reference": "common/same-source-and-inheritance"
+            "semanticStatus": "encoded",
+            "value": "independent-cast-durations; strongest-live-capability; no-refresh"
           },
           "power": {
             "semanticStatus": "encoded",
@@ -279,14 +311,19 @@
               "sectionSha256": "e3ae596aa1f5332e33293c92f0e684754b5b84b14f454740b53abd258aa547fa"
             }
           },
-          "mechanisms": [],
-          "implementationGaps": [
-            "semantic-effect-encoding",
-            "program-grade-fixed-D-C",
-            "program-pool-fixed-imperial-or-guanlan",
-            "action-qualification-and-upgrade-gate",
-            "duration-inheritance-and-no-implicit-refresh"
+          "mechanisms": [
+            {
+              "kind": "standard-program-reference",
+              "operation": "cast",
+              "semanticStatus": "encoded",
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/通用魔法-新增.md",
+                "anchor": "术110",
+                "sectionSha256": "e3ae596aa1f5332e33293c92f0e684754b5b84b14f454740b53abd258aa547fa"
+              }
+            }
           ],
+          "implementationGaps": [],
           "unresolvedRuleIds": []
         }
       ],
@@ -298,47 +335,110 @@
         "candidateDoesNotGrantImperialEligibility": true,
         "unresolvedBranchesRemainDisabled": true
       },
-      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+      "sharedRulesLock": "0ba53792ab79911cf6b44488e06878d75d617cd36d19c4bae467a4fed8a30396",
+      "runtimePrograms": [
+        {
+          "operation": "cast",
+          "clauseIds": [
+            "candidate-901-spell-07371ef0ebf4c5e6--06273cf7cbd2"
+          ],
+          "verifiedScope": "full-object-or-observation-use; acquisition-independently-proven",
+          "testStatus": "pending",
+          "testFile": "../901-tavern/work/rules_engine/gm_runtime/resource-object-program.test.mjs",
+          "engineModules": [
+            "../901-tavern/work/rules_engine/gm_runtime/resource-program.mjs",
+            "../901-tavern/work/rules_engine/gm_runtime/resource-program-policy.mjs",
+            "../901-tavern/work/rules_engine/healing.mjs",
+            "../901-tavern/work/rules_engine/core.mjs",
+            "../901-tavern/work/rules_engine/gm_runtime/kit-runtime.mjs",
+            "../901-tavern/work/rules_engine/gm_runtime/rule-actions.mjs",
+            "../901-tavern/work/rules_engine/gm_runtime/scene-rules.mjs",
+            "../901-tavern/work/rules_engine/gm_runtime/resource-program-policy.test.mjs",
+            "../901-tavern/work/rules_engine/gm_runtime/resource-object-program.mjs",
+            "../901-tavern/work/rules_engine/gm_runtime/resource-object-program.test.mjs",
+            "../901-tavern/work/rules_engine/resource-lifecycle.mjs",
+            "../901-tavern/work/rules_engine/status-rules.mjs",
+            "../901-tavern/work/rules_engine/combat/map.mjs",
+            "../901-tavern/work/rules_engine/gm_runtime/object-use.mjs",
+            "../901-tavern/work/rules_engine/structural-damage.mjs",
+            "../901-tavern/work/rules_engine/combat/engine.mjs"
+          ]
+        }
+      ],
+      "runtimeAcquisition": {
+        "verifiedScope": "registered-offer-learning-xp-and-acquisition; cast-independently-proven",
+        "testFiles": [
+          "../901-tavern/work/rules_engine/gm_runtime/resource-object-program.test.mjs"
+        ],
+        "engineModules": [
+          "../901-tavern/work/rules_engine/growth-pricing.mjs",
+          "../901-tavern/work/rules_engine/resource-acquisition.mjs",
+          "../901-tavern/work/rules_engine/kit-state.mjs",
+          "../901-tavern/work/rules_engine/resource-effects.mjs",
+          "../901-tavern/work/rules_engine/core.mjs",
+          "../901-tavern/work/rules_engine/gm_runtime/rule-actions.mjs",
+          "../901-tavern/work/rules_engine/gm_runtime/integrated.mjs",
+          "../901-tavern/work/rules_engine/gm_runtime/replay-check.mjs",
+          "../901-tavern/work/rules_engine/gm_runtime/rule-reference.mjs",
+          "../901-tavern/work/rules_engine/mvu_poc/adapter.mjs",
+          "../901-tavern/work/rules_engine/gm_runtime/resource-object-program.test.mjs"
+        ]
+      }
+    },
+    "grade": "ungraded",
+    "subskills": [
+      "变化"
+    ],
+    "schools": [
+      "变化"
+    ],
+    "requiresAllSchools": true,
+    "learning": {
+      "baseXP": 3,
+      "transactionImplemented": true,
+      "policy": {
+        "grades": [
+          "ungraded"
+        ],
+        "requiresCaster": false,
+        "requiredSubskills": [
+          "变化"
+        ],
+        "requireContractVersion": true,
+        "requireAdoption": true,
+        "requireSource": true,
+        "pool": {
+          "choice": "magicPool",
+          "kind": "magic"
+        }
+      }
     }
   },
   "clauses": [
     {
       "heading": "防水防湿",
       "effectStats": [],
-      "status": "pending"
+      "status": "partial"
     }
   ],
   "actions": [
     {
-      "id": "candidate-901-spell-07371ef0ebf4c5e6--06273cf7cbd2--intent",
+      "id": "cast",
       "name": "防水防湿",
-      "operation": null,
-      "actionCost": {
-        "observedAlternatives": [
-          [
-            "standard"
-          ]
-        ],
-        "semanticStatus": "partial"
-      },
-      "requiredChoice": null,
+      "operation": "cast",
+      "actionCost": "standard",
+      "requiredChoice": "actual-target",
       "requestFields": [
         "actorId",
-        "resourceId",
-        "clauseId",
-        "targetIds",
-        "registeredChoice"
+        "objectId",
+        "operation",
+        "part"
       ],
       "allowsModelNumericEffects": false,
-      "availability": "blocked",
-      "clauseId": "candidate-901-spell-07371ef0ebf4c5e6--06273cf7cbd2",
-      "blockedBy": [
-        "semantic-effect-encoding",
-        "program-grade-fixed-D-C",
-        "program-pool-fixed-imperial-or-guanlan",
-        "action-qualification-and-upgrade-gate",
-        "duration-inheritance-and-no-implicit-refresh"
-      ]
+      "availability": "requires-current-execution-proof",
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "clauseId": "candidate-901-spell-07371ef0ebf4c5e6--06273cf7cbd2"
     }
   ],
   "inputs": [
@@ -347,7 +447,7 @@
       "type": "object",
       "provider": "saved-state",
       "requiredFor": [
-        "all"
+        "cast"
       ],
       "missingPolicy": "block-related-operation",
       "fields": [
@@ -438,16 +538,25 @@
         "enumerated-choices"
       ],
       "missingPolicy": "require-registered-choice-before-payment"
+    },
+    {
+      "id": "physicalObjectFacts",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "cast"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "type",
+        "source",
+        "state.object",
+        "position-or-holderId"
+      ]
     }
   ],
   "unresolvedRules": [],
-  "implementationGaps": [
-    "semantic-effect-encoding",
-    "program-grade-fixed-D-C",
-    "program-pool-fixed-imperial-or-guanlan",
-    "action-qualification-and-upgrade-gate",
-    "duration-inheritance-and-no-implicit-refresh"
-  ],
+  "implementationGaps": [],
   "verification": {
     "status": "pending",
     "sourceChecked": true,
