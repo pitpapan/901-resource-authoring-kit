@@ -1,0 +1,1551 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-a5dc37d697c18f49",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "风水术",
+    "grade": "D",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J12",
+    "aliases": [
+      "风水术",
+      "风水术基本",
+      "基本风水术",
+      "灵秀之地",
+      "养尸地",
+      "福地"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/施法类型/风水术.md",
+        "sha256": "86d2c0f819e91e2cc6a870f502f1fe6bde49f63b82ba492d4c0eb4ff93cdb459",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            73
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+    "sha256": "a5c9f2352b74ae574638ffb94017ffcbe9f605744e54014ac30d8dfbe559bf62"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-a5dc37d697c18f49--0ae594c1109f",
+          "name": "风水术",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+            "anchor": "条目",
+            "sectionSha256": "37e27e06b9d319e87a91a3319b4b9551af9fdbe8b08b8754787f54a15e0137ae"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/施法类型/风水术.md",
+              "sha256": "86d2c0f819e91e2cc6a870f502f1fe6bde49f63b82ba492d4c0eb4ff93cdb459",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  13
+                ],
+                [
+                  22,
+                  22
+                ],
+                [
+                  48,
+                  48
+                ],
+                [
+                  62,
+                  62
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "move"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "条目",
+              "sectionSha256": "37e27e06b9d319e87a91a3319b4b9551af9fdbe8b08b8754787f54a15e0137ae"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "条目",
+              "sectionSha256": "37e27e06b9d319e87a91a3319b4b9551af9fdbe8b08b8754787f54a15e0137ae"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "条目",
+              "sectionSha256": "37e27e06b9d319e87a91a3319b4b9551af9fdbe8b08b8754787f54a15e0137ae"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "条目",
+              "sectionSha256": "37e27e06b9d319e87a91a3319b4b9551af9fdbe8b08b8754787f54a15e0137ae"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "条目",
+              "sectionSha256": "37e27e06b9d319e87a91a3319b4b9551af9fdbe8b08b8754787f54a15e0137ae"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "条目",
+              "sectionSha256": "37e27e06b9d319e87a91a3319b4b9551af9fdbe8b08b8754787f54a15e0137ae"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-a5dc37d697c18f49--4e20baac66c8",
+          "name": "风水术基本",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+            "anchor": "L14",
+            "sectionSha256": "023e49d00cf1fa78f699e7047ad538e1eadd8438ac1b6a88a752ad6ff834b778"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/施法类型/风水术.md",
+              "sha256": "86d2c0f819e91e2cc6a870f502f1fe6bde49f63b82ba492d4c0eb4ff93cdb459",
+              "lineRanges": [
+                [
+                  14,
+                  21
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                  "anchor": "L14",
+                  "sectionSha256": "023e49d00cf1fa78f699e7047ad538e1eadd8438ac1b6a88a752ad6ff834b778"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ],
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-a5dc37d697c18f49--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L14",
+              "sectionSha256": "023e49d00cf1fa78f699e7047ad538e1eadd8438ac1b6a88a752ad6ff834b778"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L14",
+              "sectionSha256": "023e49d00cf1fa78f699e7047ad538e1eadd8438ac1b6a88a752ad6ff834b778"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L14",
+              "sectionSha256": "023e49d00cf1fa78f699e7047ad538e1eadd8438ac1b6a88a752ad6ff834b778"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L14",
+              "sectionSha256": "023e49d00cf1fa78f699e7047ad538e1eadd8438ac1b6a88a752ad6ff834b778"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L14",
+              "sectionSha256": "023e49d00cf1fa78f699e7047ad538e1eadd8438ac1b6a88a752ad6ff834b778"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L14",
+              "sectionSha256": "023e49d00cf1fa78f699e7047ad538e1eadd8438ac1b6a88a752ad6ff834b778"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-a5dc37d697c18f49--b4958c67124e",
+          "name": "基本风水术",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+            "anchor": "L23",
+            "sectionSha256": "0f36db186c7592329692c34f8e35b5cb9b1268edce66a0b8118cab1debb623e7"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/施法类型/风水术.md",
+              "sha256": "86d2c0f819e91e2cc6a870f502f1fe6bde49f63b82ba492d4c0eb4ff93cdb459",
+              "lineRanges": [
+                [
+                  23,
+                  36
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                  "anchor": "L23",
+                  "sectionSha256": "0f36db186c7592329692c34f8e35b5cb9b1268edce66a0b8118cab1debb623e7"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-a5dc37d697c18f49--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [
+                {
+                  "semanticStatus": "encoded",
+                  "value": {
+                    "kind": "self"
+                  },
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                    "anchor": "L23",
+                    "sectionSha256": "0f36db186c7592329692c34f8e35b5cb9b1268edce66a0b8118cab1debb623e7"
+                  }
+                }
+              ],
+              "area": [
+                {
+                  "semanticStatus": "not-encoded",
+                  "value": null,
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                    "anchor": "L23",
+                    "sectionSha256": "0f36db186c7592329692c34f8e35b5cb9b1268edce66a0b8118cab1debb623e7"
+                  }
+                }
+              ]
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L23",
+              "sectionSha256": "0f36db186c7592329692c34f8e35b5cb9b1268edce66a0b8118cab1debb623e7"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "not-encoded",
+                "value": null,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                  "anchor": "L23",
+                  "sectionSha256": "0f36db186c7592329692c34f8e35b5cb9b1268edce66a0b8118cab1debb623e7"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L23",
+              "sectionSha256": "0f36db186c7592329692c34f8e35b5cb9b1268edce66a0b8118cab1debb623e7"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L23",
+              "sectionSha256": "0f36db186c7592329692c34f8e35b5cb9b1268edce66a0b8118cab1debb623e7"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "道力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                  "anchor": "L23",
+                  "sectionSha256": "0f36db186c7592329692c34f8e35b5cb9b1268edce66a0b8118cab1debb623e7"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L23",
+              "sectionSha256": "0f36db186c7592329692c34f8e35b5cb9b1268edce66a0b8118cab1debb623e7"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": 3,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                  "anchor": "L23",
+                  "sectionSha256": "0f36db186c7592329692c34f8e35b5cb9b1268edce66a0b8118cab1debb623e7"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L23",
+              "sectionSha256": "0f36db186c7592329692c34f8e35b5cb9b1268edce66a0b8118cab1debb623e7"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "all-subskill-qualifications",
+                  "skill": "神秘",
+                  "subskills": [
+                    "风水术"
+                  ],
+                  "eachMinimum": 1
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                  "anchor": "L23",
+                  "sectionSha256": "0f36db186c7592329692c34f8e35b5cb9b1268edce66a0b8118cab1debb623e7"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L23",
+              "sectionSha256": "0f36db186c7592329692c34f8e35b5cb9b1268edce66a0b8118cab1debb623e7"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-a5dc37d697c18f49--62317f6d0509",
+          "name": "灵秀之地",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+            "anchor": "L37",
+            "sectionSha256": "61228fd9a44025b0951f5e3a5d86d1c93f2cf2ec40d180a5f160e8a60a41e07b"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/施法类型/风水术.md",
+              "sha256": "86d2c0f819e91e2cc6a870f502f1fe6bde49f63b82ba492d4c0eb4ff93cdb459",
+              "lineRanges": [
+                [
+                  37,
+                  47
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                  "anchor": "L37",
+                  "sectionSha256": "61228fd9a44025b0951f5e3a5d86d1c93f2cf2ec40d180a5f160e8a60a41e07b"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-a5dc37d697c18f49--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [
+                {
+                  "semanticStatus": "encoded",
+                  "value": {
+                    "kind": "self"
+                  },
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                    "anchor": "L37",
+                    "sectionSha256": "61228fd9a44025b0951f5e3a5d86d1c93f2cf2ec40d180a5f160e8a60a41e07b"
+                  }
+                }
+              ],
+              "area": [
+                {
+                  "semanticStatus": "not-encoded",
+                  "value": null,
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                    "anchor": "L37",
+                    "sectionSha256": "61228fd9a44025b0951f5e3a5d86d1c93f2cf2ec40d180a5f160e8a60a41e07b"
+                  }
+                }
+              ]
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L37",
+              "sectionSha256": "61228fd9a44025b0951f5e3a5d86d1c93f2cf2ec40d180a5f160e8a60a41e07b"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "not-encoded",
+                "value": null,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                  "anchor": "L37",
+                  "sectionSha256": "61228fd9a44025b0951f5e3a5d86d1c93f2cf2ec40d180a5f160e8a60a41e07b"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L37",
+              "sectionSha256": "61228fd9a44025b0951f5e3a5d86d1c93f2cf2ec40d180a5f160e8a60a41e07b"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L37",
+              "sectionSha256": "61228fd9a44025b0951f5e3a5d86d1c93f2cf2ec40d180a5f160e8a60a41e07b"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "道力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                  "anchor": "L37",
+                  "sectionSha256": "61228fd9a44025b0951f5e3a5d86d1c93f2cf2ec40d180a5f160e8a60a41e07b"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L37",
+              "sectionSha256": "61228fd9a44025b0951f5e3a5d86d1c93f2cf2ec40d180a5f160e8a60a41e07b"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": 3,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                  "anchor": "L37",
+                  "sectionSha256": "61228fd9a44025b0951f5e3a5d86d1c93f2cf2ec40d180a5f160e8a60a41e07b"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L37",
+              "sectionSha256": "61228fd9a44025b0951f5e3a5d86d1c93f2cf2ec40d180a5f160e8a60a41e07b"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "all-subskill-qualifications",
+                  "skill": "神秘",
+                  "subskills": [
+                    "风水术"
+                  ],
+                  "eachMinimum": 1
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                  "anchor": "L37",
+                  "sectionSha256": "61228fd9a44025b0951f5e3a5d86d1c93f2cf2ec40d180a5f160e8a60a41e07b"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L37",
+              "sectionSha256": "61228fd9a44025b0951f5e3a5d86d1c93f2cf2ec40d180a5f160e8a60a41e07b"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-a5dc37d697c18f49--704939189f8e",
+          "name": "养尸地",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+            "anchor": "L49",
+            "sectionSha256": "de2edfe33e278a37da7293caa11c448240057139cb35c5fa134f9c4d926ca1db"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/施法类型/风水术.md",
+              "sha256": "86d2c0f819e91e2cc6a870f502f1fe6bde49f63b82ba492d4c0eb4ff93cdb459",
+              "lineRanges": [
+                [
+                  49,
+                  61
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                  "anchor": "L49",
+                  "sectionSha256": "de2edfe33e278a37da7293caa11c448240057139cb35c5fa134f9c4d926ca1db"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-a5dc37d697c18f49--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [
+                {
+                  "semanticStatus": "encoded",
+                  "value": {
+                    "kind": "self"
+                  },
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                    "anchor": "L49",
+                    "sectionSha256": "de2edfe33e278a37da7293caa11c448240057139cb35c5fa134f9c4d926ca1db"
+                  }
+                }
+              ],
+              "area": [
+                {
+                  "semanticStatus": "not-encoded",
+                  "value": null,
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                    "anchor": "L49",
+                    "sectionSha256": "de2edfe33e278a37da7293caa11c448240057139cb35c5fa134f9c4d926ca1db"
+                  }
+                }
+              ]
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L49",
+              "sectionSha256": "de2edfe33e278a37da7293caa11c448240057139cb35c5fa134f9c4d926ca1db"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "not-encoded",
+                "value": null,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                  "anchor": "L49",
+                  "sectionSha256": "de2edfe33e278a37da7293caa11c448240057139cb35c5fa134f9c4d926ca1db"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L49",
+              "sectionSha256": "de2edfe33e278a37da7293caa11c448240057139cb35c5fa134f9c4d926ca1db"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L49",
+              "sectionSha256": "de2edfe33e278a37da7293caa11c448240057139cb35c5fa134f9c4d926ca1db"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "道力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                  "anchor": "L49",
+                  "sectionSha256": "de2edfe33e278a37da7293caa11c448240057139cb35c5fa134f9c4d926ca1db"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L49",
+              "sectionSha256": "de2edfe33e278a37da7293caa11c448240057139cb35c5fa134f9c4d926ca1db"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": 3,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                  "anchor": "L49",
+                  "sectionSha256": "de2edfe33e278a37da7293caa11c448240057139cb35c5fa134f9c4d926ca1db"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L49",
+              "sectionSha256": "de2edfe33e278a37da7293caa11c448240057139cb35c5fa134f9c4d926ca1db"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "all-subskill-qualifications",
+                  "skill": "神秘",
+                  "subskills": [
+                    "风水术"
+                  ],
+                  "eachMinimum": 1
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                  "anchor": "L49",
+                  "sectionSha256": "de2edfe33e278a37da7293caa11c448240057139cb35c5fa134f9c4d926ca1db"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L49",
+              "sectionSha256": "de2edfe33e278a37da7293caa11c448240057139cb35c5fa134f9c4d926ca1db"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "修行",
+              "value": 6,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                "anchor": "L49",
+                "sectionSha256": "de2edfe33e278a37da7293caa11c448240057139cb35c5fa134f9c4d926ca1db"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-a5dc37d697c18f49--c25ea38127aa",
+          "name": "福地",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+            "anchor": "L63",
+            "sectionSha256": "822746161cf1f7c67d5492e326a8ad223ee0fc0fd4e89a94127f6d573f4b904e"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/施法类型/风水术.md",
+              "sha256": "86d2c0f819e91e2cc6a870f502f1fe6bde49f63b82ba492d4c0eb4ff93cdb459",
+              "lineRanges": [
+                [
+                  63,
+                  73
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                  "anchor": "L63",
+                  "sectionSha256": "822746161cf1f7c67d5492e326a8ad223ee0fc0fd4e89a94127f6d573f4b904e"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-a5dc37d697c18f49--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [
+                {
+                  "semanticStatus": "encoded",
+                  "value": {
+                    "kind": "self"
+                  },
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                    "anchor": "L63",
+                    "sectionSha256": "822746161cf1f7c67d5492e326a8ad223ee0fc0fd4e89a94127f6d573f4b904e"
+                  }
+                }
+              ],
+              "area": [
+                {
+                  "semanticStatus": "not-encoded",
+                  "value": null,
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                    "anchor": "L63",
+                    "sectionSha256": "822746161cf1f7c67d5492e326a8ad223ee0fc0fd4e89a94127f6d573f4b904e"
+                  }
+                }
+              ]
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L63",
+              "sectionSha256": "822746161cf1f7c67d5492e326a8ad223ee0fc0fd4e89a94127f6d573f4b904e"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "not-encoded",
+                "value": null,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                  "anchor": "L63",
+                  "sectionSha256": "822746161cf1f7c67d5492e326a8ad223ee0fc0fd4e89a94127f6d573f4b904e"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L63",
+              "sectionSha256": "822746161cf1f7c67d5492e326a8ad223ee0fc0fd4e89a94127f6d573f4b904e"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L63",
+              "sectionSha256": "822746161cf1f7c67d5492e326a8ad223ee0fc0fd4e89a94127f6d573f4b904e"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "道力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                  "anchor": "L63",
+                  "sectionSha256": "822746161cf1f7c67d5492e326a8ad223ee0fc0fd4e89a94127f6d573f4b904e"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L63",
+              "sectionSha256": "822746161cf1f7c67d5492e326a8ad223ee0fc0fd4e89a94127f6d573f4b904e"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": 3,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                  "anchor": "L63",
+                  "sectionSha256": "822746161cf1f7c67d5492e326a8ad223ee0fc0fd4e89a94127f6d573f4b904e"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L63",
+              "sectionSha256": "822746161cf1f7c67d5492e326a8ad223ee0fc0fd4e89a94127f6d573f4b904e"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "all-subskill-qualifications",
+                  "skill": "神秘",
+                  "subskills": [
+                    "风水术"
+                  ],
+                  "eachMinimum": 1
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+                  "anchor": "L63",
+                  "sectionSha256": "822746161cf1f7c67d5492e326a8ad223ee0fc0fd4e89a94127f6d573f4b904e"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/141-风水术.md",
+              "anchor": "L63",
+              "sectionSha256": "822746161cf1f7c67d5492e326a8ad223ee0fc0fd4e89a94127f6d573f4b904e"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "风水术",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "风水术基本",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "基本风水术",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "灵秀之地",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "养尸地",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "福地",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-a5dc37d697c18f49--0ae594c1109f--intent",
+      "name": "风水术",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "move"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-a5dc37d697c18f49--0ae594c1109f",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-a5dc37d697c18f49--4e20baac66c8--intent",
+      "name": "风水术基本",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ],
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-a5dc37d697c18f49--4e20baac66c8",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-a5dc37d697c18f49--b4958c67124e--intent",
+      "name": "基本风水术",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-a5dc37d697c18f49--b4958c67124e",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-a5dc37d697c18f49--62317f6d0509--intent",
+      "name": "灵秀之地",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-a5dc37d697c18f49--62317f6d0509",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-a5dc37d697c18f49--704939189f8e--intent",
+      "name": "养尸地",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-a5dc37d697c18f49--704939189f8e",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-a5dc37d697c18f49--c25ea38127aa--intent",
+      "name": "福地",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-a5dc37d697c18f49--c25ea38127aa",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "duration-inheritance-and-no-implicit-refresh"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

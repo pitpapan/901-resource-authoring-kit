@@ -1,0 +1,1282 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-fa11b8d103bc0634",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "帝胄心经",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J01",
+    "aliases": [
+      "帝胄心经",
+      "龙气之躯",
+      "天命之胄",
+      "御灵之胄",
+      "龙王之胄",
+      "龙帝之胄"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/心法/帝胄心经.md",
+        "sha256": "80ee6ddb3910b965c1fc50885de32d34b0a89d449f1104a2ad0278fea526dc3a",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            37
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+    "sha256": "ec10f2e6cf950b891c9e86ac28c58d819ca275f2ddf78e1a3e88285f37f29ade"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-fa11b8d103bc0634--0ae594c1109f",
+          "name": "帝胄心经",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+            "anchor": "条目",
+            "sectionSha256": "1b52a3947cbb2ca762d100a48ba17f2f79a9616b3744f7448c8f8ca769ffe11f"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/帝胄心经.md",
+              "sha256": "80ee6ddb3910b965c1fc50885de32d34b0a89d449f1104a2ad0278fea526dc3a",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  8
+                ],
+                [
+                  10,
+                  10
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "条目",
+              "sectionSha256": "1b52a3947cbb2ca762d100a48ba17f2f79a9616b3744f7448c8f8ca769ffe11f"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "条目",
+              "sectionSha256": "1b52a3947cbb2ca762d100a48ba17f2f79a9616b3744f7448c8f8ca769ffe11f"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "条目",
+              "sectionSha256": "1b52a3947cbb2ca762d100a48ba17f2f79a9616b3744f7448c8f8ca769ffe11f"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "条目",
+              "sectionSha256": "1b52a3947cbb2ca762d100a48ba17f2f79a9616b3744f7448c8f8ca769ffe11f"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "条目",
+              "sectionSha256": "1b52a3947cbb2ca762d100a48ba17f2f79a9616b3744f7448c8f8ca769ffe11f"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "条目",
+              "sectionSha256": "1b52a3947cbb2ca762d100a48ba17f2f79a9616b3744f7448c8f8ca769ffe11f"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-fa11b8d103bc0634--90bc9c9c6e24",
+          "name": "龙气之躯",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+            "anchor": "L9",
+            "sectionSha256": "9ac137c6a8c8c190e9df549655ac63bbe00ab7a2e3c0c65f3d52c7ff3a8d04d7"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/帝胄心经.md",
+              "sha256": "80ee6ddb3910b965c1fc50885de32d34b0a89d449f1104a2ad0278fea526dc3a",
+              "lineRanges": [
+                [
+                  9,
+                  9
+                ],
+                [
+                  11,
+                  14
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+                  "anchor": "L9",
+                  "sectionSha256": "9ac137c6a8c8c190e9df549655ac63bbe00ab7a2e3c0c65f3d52c7ff3a8d04d7"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-fa11b8d103bc0634--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L9",
+              "sectionSha256": "9ac137c6a8c8c190e9df549655ac63bbe00ab7a2e3c0c65f3d52c7ff3a8d04d7"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L9",
+              "sectionSha256": "9ac137c6a8c8c190e9df549655ac63bbe00ab7a2e3c0c65f3d52c7ff3a8d04d7"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L9",
+              "sectionSha256": "9ac137c6a8c8c190e9df549655ac63bbe00ab7a2e3c0c65f3d52c7ff3a8d04d7"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L9",
+              "sectionSha256": "9ac137c6a8c8c190e9df549655ac63bbe00ab7a2e3c0c65f3d52c7ff3a8d04d7"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L9",
+              "sectionSha256": "9ac137c6a8c8c190e9df549655ac63bbe00ab7a2e3c0c65f3d52c7ff3a8d04d7"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L9",
+              "sectionSha256": "9ac137c6a8c8c190e9df549655ac63bbe00ab7a2e3c0c65f3d52c7ff3a8d04d7"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-fa11b8d103bc0634--ffb618ca2dd4",
+          "name": "天命之胄",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+            "anchor": "L15",
+            "sectionSha256": "97d1d7c5483b14775fd4eef034f8b2e9787aeea2b8803a60cba4359a37e92876"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/帝胄心经.md",
+              "sha256": "80ee6ddb3910b965c1fc50885de32d34b0a89d449f1104a2ad0278fea526dc3a",
+              "lineRanges": [
+                [
+                  15,
+                  24
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+                  "anchor": "L15",
+                  "sectionSha256": "97d1d7c5483b14775fd4eef034f8b2e9787aeea2b8803a60cba4359a37e92876"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-fa11b8d103bc0634--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+                  "anchor": "L15",
+                  "sectionSha256": "97d1d7c5483b14775fd4eef034f8b2e9787aeea2b8803a60cba4359a37e92876"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L15",
+              "sectionSha256": "97d1d7c5483b14775fd4eef034f8b2e9787aeea2b8803a60cba4359a37e92876"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L15",
+              "sectionSha256": "97d1d7c5483b14775fd4eef034f8b2e9787aeea2b8803a60cba4359a37e92876"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L15",
+              "sectionSha256": "97d1d7c5483b14775fd4eef034f8b2e9787aeea2b8803a60cba4359a37e92876"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L15",
+              "sectionSha256": "97d1d7c5483b14775fd4eef034f8b2e9787aeea2b8803a60cba4359a37e92876"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L15",
+              "sectionSha256": "97d1d7c5483b14775fd4eef034f8b2e9787aeea2b8803a60cba4359a37e92876"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L15",
+              "sectionSha256": "97d1d7c5483b14775fd4eef034f8b2e9787aeea2b8803a60cba4359a37e92876"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "numeric-modifier",
+              "stat": "speed",
+              "value": 60,
+              "mode": "increase",
+              "bonusType": "unspecified-in-fragment",
+              "target": "self",
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "full-conditions",
+                "inheritance-and-stacking"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+                "anchor": "L15",
+                "sectionSha256": "97d1d7c5483b14775fd4eef034f8b2e9787aeea2b8803a60cba4359a37e92876"
+              }
+            },
+            {
+              "kind": "capability-reference",
+              "capability": "快速医疗",
+              "semanticStatus": "not-encoded",
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+                "anchor": "L15",
+                "sectionSha256": "97d1d7c5483b14775fd4eef034f8b2e9787aeea2b8803a60cba4359a37e92876"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-fa11b8d103bc0634--cd5c8731ec1e",
+          "name": "御灵之胄",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+            "anchor": "L25",
+            "sectionSha256": "8dcdfcac4a27162a0ad859b2f6709ce33839917366b292f79d61f95c4d9ab6d0"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/帝胄心经.md",
+              "sha256": "80ee6ddb3910b965c1fc50885de32d34b0a89d449f1104a2ad0278fea526dc3a",
+              "lineRanges": [
+                [
+                  25,
+                  28
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 85,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+                  "anchor": "L25",
+                  "sectionSha256": "8dcdfcac4a27162a0ad859b2f6709ce33839917366b292f79d61f95c4d9ab6d0"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ],
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-fa11b8d103bc0634--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L25",
+              "sectionSha256": "8dcdfcac4a27162a0ad859b2f6709ce33839917366b292f79d61f95c4d9ab6d0"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L25",
+              "sectionSha256": "8dcdfcac4a27162a0ad859b2f6709ce33839917366b292f79d61f95c4d9ab6d0"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L25",
+              "sectionSha256": "8dcdfcac4a27162a0ad859b2f6709ce33839917366b292f79d61f95c4d9ab6d0"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L25",
+              "sectionSha256": "8dcdfcac4a27162a0ad859b2f6709ce33839917366b292f79d61f95c4d9ab6d0"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L25",
+              "sectionSha256": "8dcdfcac4a27162a0ad859b2f6709ce33839917366b292f79d61f95c4d9ab6d0"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L25",
+              "sectionSha256": "8dcdfcac4a27162a0ad859b2f6709ce33839917366b292f79d61f95c4d9ab6d0"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "增强",
+              "value": 1,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+                "anchor": "L25",
+                "sectionSha256": "8dcdfcac4a27162a0ad859b2f6709ce33839917366b292f79d61f95c4d9ab6d0"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-fa11b8d103bc0634--bc2b72915c17",
+          "name": "龙王之胄",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+            "anchor": "L29",
+            "sectionSha256": "97576d53bd2cfdda06ca101972086eab68c2c0f85dc434a03308eae824d2e99e"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/帝胄心经.md",
+              "sha256": "80ee6ddb3910b965c1fc50885de32d34b0a89d449f1104a2ad0278fea526dc3a",
+              "lineRanges": [
+                [
+                  29,
+                  32
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 215,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+                  "anchor": "L29",
+                  "sectionSha256": "97576d53bd2cfdda06ca101972086eab68c2c0f85dc434a03308eae824d2e99e"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ],
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-fa11b8d103bc0634--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L29",
+              "sectionSha256": "97576d53bd2cfdda06ca101972086eab68c2c0f85dc434a03308eae824d2e99e"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L29",
+              "sectionSha256": "97576d53bd2cfdda06ca101972086eab68c2c0f85dc434a03308eae824d2e99e"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L29",
+              "sectionSha256": "97576d53bd2cfdda06ca101972086eab68c2c0f85dc434a03308eae824d2e99e"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L29",
+              "sectionSha256": "97576d53bd2cfdda06ca101972086eab68c2c0f85dc434a03308eae824d2e99e"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L29",
+              "sectionSha256": "97576d53bd2cfdda06ca101972086eab68c2c0f85dc434a03308eae824d2e99e"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L29",
+              "sectionSha256": "97576d53bd2cfdda06ca101972086eab68c2c0f85dc434a03308eae824d2e99e"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-fa11b8d103bc0634--239a51838c73",
+          "name": "龙帝之胄",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+            "anchor": "L33",
+            "sectionSha256": "5b6a19b61cf8c8ae1a03e3b718a0b20978a0790bfe448d668dcff8bb0fa8085b"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/帝胄心经.md",
+              "sha256": "80ee6ddb3910b965c1fc50885de32d34b0a89d449f1104a2ad0278fea526dc3a",
+              "lineRanges": [
+                [
+                  33,
+                  37
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "S",
+                "currency": "XP",
+                "amount": 565,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+                  "anchor": "L33",
+                  "sectionSha256": "5b6a19b61cf8c8ae1a03e3b718a0b20978a0790bfe448d668dcff8bb0fa8085b"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-fa11b8d103bc0634--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L33",
+              "sectionSha256": "5b6a19b61cf8c8ae1a03e3b718a0b20978a0790bfe448d668dcff8bb0fa8085b"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L33",
+              "sectionSha256": "5b6a19b61cf8c8ae1a03e3b718a0b20978a0790bfe448d668dcff8bb0fa8085b"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L33",
+              "sectionSha256": "5b6a19b61cf8c8ae1a03e3b718a0b20978a0790bfe448d668dcff8bb0fa8085b"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L33",
+              "sectionSha256": "5b6a19b61cf8c8ae1a03e3b718a0b20978a0790bfe448d668dcff8bb0fa8085b"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L33",
+              "sectionSha256": "5b6a19b61cf8c8ae1a03e3b718a0b20978a0790bfe448d668dcff8bb0fa8085b"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+              "anchor": "L33",
+              "sectionSha256": "5b6a19b61cf8c8ae1a03e3b718a0b20978a0790bfe448d668dcff8bb0fa8085b"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "神圣",
+              "value": 48,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/005-帝胄心经.md",
+                "anchor": "L33",
+                "sectionSha256": "5b6a19b61cf8c8ae1a03e3b718a0b20978a0790bfe448d668dcff8bb0fa8085b"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "帝胄心经",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "龙气之躯",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "天命之胄",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "御灵之胄",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "龙王之胄",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "龙帝之胄",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-fa11b8d103bc0634--90bc9c9c6e24--intent",
+      "name": "龙气之躯",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-fa11b8d103bc0634--90bc9c9c6e24",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-fa11b8d103bc0634--ffb618ca2dd4--intent",
+      "name": "天命之胄",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-fa11b8d103bc0634--ffb618ca2dd4",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-fa11b8d103bc0634--cd5c8731ec1e--intent",
+      "name": "御灵之胄",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ],
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-fa11b8d103bc0634--cd5c8731ec1e",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-fa11b8d103bc0634--bc2b72915c17--intent",
+      "name": "龙王之胄",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ],
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-fa11b8d103bc0634--bc2b72915c17",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-fa11b8d103bc0634--239a51838c73--intent",
+      "name": "龙帝之胄",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-fa11b8d103bc0634--239a51838c73",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "duration-inheritance-and-no-implicit-refresh",
+    "prerequisite-logic-not-fully-encoded"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

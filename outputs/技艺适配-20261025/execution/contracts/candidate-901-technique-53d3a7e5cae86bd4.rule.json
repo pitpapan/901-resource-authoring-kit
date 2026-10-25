@@ -1,0 +1,1362 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-53d3a7e5cae86bd4",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "组合技",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J11",
+    "aliases": [
+      "组合技",
+      "双剑合璧",
+      "交替",
+      "合力施法",
+      "环法仪式",
+      "天罡北斗阵",
+      "雅典娜的惊叹"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/组合技/组合技.md",
+        "sha256": "6a47f732486a8bd031bc8b98eec5b3b3705910bdec6812a85136d806f5bb0552",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            50
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+    "sha256": "ed60295cbf4426d0a4c0d5547a708f1dc0f2e107d2cbb1098cfce49759fb5802"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-53d3a7e5cae86bd4--0ae594c1109f",
+          "name": "组合技",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+            "anchor": "条目",
+            "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/组合技/组合技.md",
+              "sha256": "6a47f732486a8bd031bc8b98eec5b3b3705910bdec6812a85136d806f5bb0552",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-53d3a7e5cae86bd4--b3cc20089aab",
+          "name": "双剑合璧",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+            "anchor": "L6",
+            "sectionSha256": "426935102e82c2c1137524708c94ba2d01cdc724ecbca463d76a55ccc218ae3b"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/组合技/组合技.md",
+              "sha256": "6a47f732486a8bd031bc8b98eec5b3b3705910bdec6812a85136d806f5bb0552",
+              "lineRanges": [
+                [
+                  6,
+                  13
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+                  "anchor": "L6",
+                  "sectionSha256": "426935102e82c2c1137524708c94ba2d01cdc724ecbca463d76a55ccc218ae3b"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-53d3a7e5cae86bd4--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L6",
+              "sectionSha256": "426935102e82c2c1137524708c94ba2d01cdc724ecbca463d76a55ccc218ae3b"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L6",
+              "sectionSha256": "426935102e82c2c1137524708c94ba2d01cdc724ecbca463d76a55ccc218ae3b"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L6",
+              "sectionSha256": "426935102e82c2c1137524708c94ba2d01cdc724ecbca463d76a55ccc218ae3b"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L6",
+              "sectionSha256": "426935102e82c2c1137524708c94ba2d01cdc724ecbca463d76a55ccc218ae3b"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L6",
+              "sectionSha256": "426935102e82c2c1137524708c94ba2d01cdc724ecbca463d76a55ccc218ae3b"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L6",
+              "sectionSha256": "426935102e82c2c1137524708c94ba2d01cdc724ecbca463d76a55ccc218ae3b"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-53d3a7e5cae86bd4--4e20baac66c8",
+          "name": "交替",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+            "anchor": "L14",
+            "sectionSha256": "1a9c00e0ba2fd4fd2c59e3b93aec79803be8ba48092199cd3bc781b9737e0bbe"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/组合技/组合技.md",
+              "sha256": "6a47f732486a8bd031bc8b98eec5b3b3705910bdec6812a85136d806f5bb0552",
+              "lineRanges": [
+                [
+                  14,
+                  18
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+                  "anchor": "L14",
+                  "sectionSha256": "1a9c00e0ba2fd4fd2c59e3b93aec79803be8ba48092199cd3bc781b9737e0bbe"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-53d3a7e5cae86bd4--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L14",
+              "sectionSha256": "1a9c00e0ba2fd4fd2c59e3b93aec79803be8ba48092199cd3bc781b9737e0bbe"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L14",
+              "sectionSha256": "1a9c00e0ba2fd4fd2c59e3b93aec79803be8ba48092199cd3bc781b9737e0bbe"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L14",
+              "sectionSha256": "1a9c00e0ba2fd4fd2c59e3b93aec79803be8ba48092199cd3bc781b9737e0bbe"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L14",
+              "sectionSha256": "1a9c00e0ba2fd4fd2c59e3b93aec79803be8ba48092199cd3bc781b9737e0bbe"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L14",
+              "sectionSha256": "1a9c00e0ba2fd4fd2c59e3b93aec79803be8ba48092199cd3bc781b9737e0bbe"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L14",
+              "sectionSha256": "1a9c00e0ba2fd4fd2c59e3b93aec79803be8ba48092199cd3bc781b9737e0bbe"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-53d3a7e5cae86bd4--7963c5b340e4",
+          "name": "合力施法",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+            "anchor": "L19",
+            "sectionSha256": "8f6153a46b85252d8cefd32b49f79c2fead485a7d71d6e7b1fe034dfb576b001"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/组合技/组合技.md",
+              "sha256": "6a47f732486a8bd031bc8b98eec5b3b3705910bdec6812a85136d806f5bb0552",
+              "lineRanges": [
+                [
+                  19,
+                  22
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+                  "anchor": "L19",
+                  "sectionSha256": "8f6153a46b85252d8cefd32b49f79c2fead485a7d71d6e7b1fe034dfb576b001"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-53d3a7e5cae86bd4--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L19",
+              "sectionSha256": "8f6153a46b85252d8cefd32b49f79c2fead485a7d71d6e7b1fe034dfb576b001"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L19",
+              "sectionSha256": "8f6153a46b85252d8cefd32b49f79c2fead485a7d71d6e7b1fe034dfb576b001"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L19",
+              "sectionSha256": "8f6153a46b85252d8cefd32b49f79c2fead485a7d71d6e7b1fe034dfb576b001"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L19",
+              "sectionSha256": "8f6153a46b85252d8cefd32b49f79c2fead485a7d71d6e7b1fe034dfb576b001"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L19",
+              "sectionSha256": "8f6153a46b85252d8cefd32b49f79c2fead485a7d71d6e7b1fe034dfb576b001"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L19",
+              "sectionSha256": "8f6153a46b85252d8cefd32b49f79c2fead485a7d71d6e7b1fe034dfb576b001"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-53d3a7e5cae86bd4--b4958c67124e",
+          "name": "环法仪式",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+            "anchor": "L23",
+            "sectionSha256": "41d5110f4020935aba2af31a6158d46145a185008ec01dc18fb5505158c55a40"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/组合技/组合技.md",
+              "sha256": "6a47f732486a8bd031bc8b98eec5b3b3705910bdec6812a85136d806f5bb0552",
+              "lineRanges": [
+                [
+                  23,
+                  30
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+                  "anchor": "L23",
+                  "sectionSha256": "41d5110f4020935aba2af31a6158d46145a185008ec01dc18fb5505158c55a40"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-53d3a7e5cae86bd4--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L23",
+              "sectionSha256": "41d5110f4020935aba2af31a6158d46145a185008ec01dc18fb5505158c55a40"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L23",
+              "sectionSha256": "41d5110f4020935aba2af31a6158d46145a185008ec01dc18fb5505158c55a40"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L23",
+              "sectionSha256": "41d5110f4020935aba2af31a6158d46145a185008ec01dc18fb5505158c55a40"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L23",
+              "sectionSha256": "41d5110f4020935aba2af31a6158d46145a185008ec01dc18fb5505158c55a40"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L23",
+              "sectionSha256": "41d5110f4020935aba2af31a6158d46145a185008ec01dc18fb5505158c55a40"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L23",
+              "sectionSha256": "41d5110f4020935aba2af31a6158d46145a185008ec01dc18fb5505158c55a40"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-53d3a7e5cae86bd4--6220cb3f3fad",
+          "name": "天罡北斗阵",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+            "anchor": "L31",
+            "sectionSha256": "6603ae6387b537bc48c8e1a9d55ad8725d7e3c27a3eb436d3a126837c6d3364f"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/组合技/组合技.md",
+              "sha256": "6a47f732486a8bd031bc8b98eec5b3b3705910bdec6812a85136d806f5bb0552",
+              "lineRanges": [
+                [
+                  31,
+                  35
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+                  "anchor": "L31",
+                  "sectionSha256": "6603ae6387b537bc48c8e1a9d55ad8725d7e3c27a3eb436d3a126837c6d3364f"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-53d3a7e5cae86bd4--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L31",
+              "sectionSha256": "6603ae6387b537bc48c8e1a9d55ad8725d7e3c27a3eb436d3a126837c6d3364f"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L31",
+              "sectionSha256": "6603ae6387b537bc48c8e1a9d55ad8725d7e3c27a3eb436d3a126837c6d3364f"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L31",
+              "sectionSha256": "6603ae6387b537bc48c8e1a9d55ad8725d7e3c27a3eb436d3a126837c6d3364f"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L31",
+              "sectionSha256": "6603ae6387b537bc48c8e1a9d55ad8725d7e3c27a3eb436d3a126837c6d3364f"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L31",
+              "sectionSha256": "6603ae6387b537bc48c8e1a9d55ad8725d7e3c27a3eb436d3a126837c6d3364f"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L31",
+              "sectionSha256": "6603ae6387b537bc48c8e1a9d55ad8725d7e3c27a3eb436d3a126837c6d3364f"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-53d3a7e5cae86bd4--dcf306fd971c",
+          "name": "雅典娜的惊叹",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+            "anchor": "L36",
+            "sectionSha256": "13bbb60ad770ff0ab945e38d709c1ce4e2faaa7e1a4be900e636b9a990772380"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/组合技/组合技.md",
+              "sha256": "6a47f732486a8bd031bc8b98eec5b3b3705910bdec6812a85136d806f5bb0552",
+              "lineRanges": [
+                [
+                  36,
+                  50
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+                  "anchor": "L36",
+                  "sectionSha256": "13bbb60ad770ff0ab945e38d709c1ce4e2faaa7e1a4be900e636b9a990772380"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ],
+              [
+                "standard",
+                "move"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-53d3a7e5cae86bd4--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L36",
+              "sectionSha256": "13bbb60ad770ff0ab945e38d709c1ce4e2faaa7e1a4be900e636b9a990772380"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L36",
+              "sectionSha256": "13bbb60ad770ff0ab945e38d709c1ce4e2faaa7e1a4be900e636b9a990772380"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L36",
+              "sectionSha256": "13bbb60ad770ff0ab945e38d709c1ce4e2faaa7e1a4be900e636b9a990772380"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L36",
+              "sectionSha256": "13bbb60ad770ff0ab945e38d709c1ce4e2faaa7e1a4be900e636b9a990772380"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L36",
+              "sectionSha256": "13bbb60ad770ff0ab945e38d709c1ce4e2faaa7e1a4be900e636b9a990772380"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/134-组合技.md",
+              "anchor": "L36",
+              "sectionSha256": "13bbb60ad770ff0ab945e38d709c1ce4e2faaa7e1a4be900e636b9a990772380"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "组合技",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "双剑合璧",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "交替",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "合力施法",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "环法仪式",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "天罡北斗阵",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "雅典娜的惊叹",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-53d3a7e5cae86bd4--b3cc20089aab--intent",
+      "name": "双剑合璧",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-53d3a7e5cae86bd4--b3cc20089aab",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-53d3a7e5cae86bd4--4e20baac66c8--intent",
+      "name": "交替",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-53d3a7e5cae86bd4--4e20baac66c8",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-53d3a7e5cae86bd4--7963c5b340e4--intent",
+      "name": "合力施法",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-53d3a7e5cae86bd4--7963c5b340e4",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-53d3a7e5cae86bd4--b4958c67124e--intent",
+      "name": "环法仪式",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-53d3a7e5cae86bd4--b4958c67124e",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-53d3a7e5cae86bd4--6220cb3f3fad--intent",
+      "name": "天罡北斗阵",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-53d3a7e5cae86bd4--6220cb3f3fad",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-53d3a7e5cae86bd4--dcf306fd971c--intent",
+      "name": "雅典娜的惊叹",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ],
+          [
+            "standard",
+            "move"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-53d3a7e5cae86bd4--dcf306fd971c",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "duration-inheritance-and-no-implicit-refresh",
+    "attack-program-hardcodes-INT-and-casting"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

@@ -1,0 +1,1680 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-bc2781c120fbcdce",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "自然本质技艺",
+    "grade": "ungraded",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J10",
+    "aliases": [
+      "自然本质技艺",
+      "传武八极-六大开",
+      "传武八极-活步",
+      "听劲",
+      "寸劲",
+      "禅宗射手",
+      "一发破的",
+      "传武太极-接",
+      "传武太极-化",
+      "传武太极-发"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/自然本质技艺.md",
+        "sha256": "def1e1b63669cbee205b0bc30e15e1e3eaecfd2ef3787b4e0603e8b238742480",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            38
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+    "sha256": "7ef243bce1ccff3697d864349db4488b4529760e284a2ffb4d3a82224e8e96bd"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-bc2781c120fbcdce--0ae594c1109f",
+          "name": "自然本质技艺",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+            "anchor": "条目",
+            "sectionSha256": "6f1d950012b1e776c51afe3b456eaa469af79c0083bb143a2f58eff41ae3e7e1"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/自然本质技艺.md",
+              "sha256": "def1e1b63669cbee205b0bc30e15e1e3eaecfd2ef3787b4e0603e8b238742480",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  8
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 3,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+                  "anchor": "条目",
+                  "sectionSha256": "6f1d950012b1e776c51afe3b456eaa469af79c0083bb143a2f58eff41ae3e7e1"
+                }
+              },
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 6,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+                  "anchor": "条目",
+                  "sectionSha256": "6f1d950012b1e776c51afe3b456eaa469af79c0083bb143a2f58eff41ae3e7e1"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "6f1d950012b1e776c51afe3b456eaa469af79c0083bb143a2f58eff41ae3e7e1"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "6f1d950012b1e776c51afe3b456eaa469af79c0083bb143a2f58eff41ae3e7e1"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "6f1d950012b1e776c51afe3b456eaa469af79c0083bb143a2f58eff41ae3e7e1"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "6f1d950012b1e776c51afe3b456eaa469af79c0083bb143a2f58eff41ae3e7e1"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "6f1d950012b1e776c51afe3b456eaa469af79c0083bb143a2f58eff41ae3e7e1"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "6f1d950012b1e776c51afe3b456eaa469af79c0083bb143a2f58eff41ae3e7e1"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-bc2781c120fbcdce--90bc9c9c6e24",
+          "name": "传武八极-六大开",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+            "anchor": "L9",
+            "sectionSha256": "154fef155a79ce923de8630bfb9173d0045e6ddf0ff989fd1c6df9d3e63adfdb"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/自然本质技艺.md",
+              "sha256": "def1e1b63669cbee205b0bc30e15e1e3eaecfd2ef3787b4e0603e8b238742480",
+              "lineRanges": [
+                [
+                  9,
+                  14
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 3,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+                  "anchor": "L9",
+                  "sectionSha256": "154fef155a79ce923de8630bfb9173d0045e6ddf0ff989fd1c6df9d3e63adfdb"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-bc2781c120fbcdce--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L9",
+              "sectionSha256": "154fef155a79ce923de8630bfb9173d0045e6ddf0ff989fd1c6df9d3e63adfdb"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L9",
+              "sectionSha256": "154fef155a79ce923de8630bfb9173d0045e6ddf0ff989fd1c6df9d3e63adfdb"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L9",
+              "sectionSha256": "154fef155a79ce923de8630bfb9173d0045e6ddf0ff989fd1c6df9d3e63adfdb"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L9",
+              "sectionSha256": "154fef155a79ce923de8630bfb9173d0045e6ddf0ff989fd1c6df9d3e63adfdb"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L9",
+              "sectionSha256": "154fef155a79ce923de8630bfb9173d0045e6ddf0ff989fd1c6df9d3e63adfdb"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L9",
+              "sectionSha256": "154fef155a79ce923de8630bfb9173d0045e6ddf0ff989fd1c6df9d3e63adfdb"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-bc2781c120fbcdce--ffb618ca2dd4",
+          "name": "传武八极-活步",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+            "anchor": "L15",
+            "sectionSha256": "50c21158a4a9651e25428d9e84712076dcc3dc69229e83d52a621014e72de242"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/自然本质技艺.md",
+              "sha256": "def1e1b63669cbee205b0bc30e15e1e3eaecfd2ef3787b4e0603e8b238742480",
+              "lineRanges": [
+                [
+                  15,
+                  17
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 3,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+                  "anchor": "L15",
+                  "sectionSha256": "50c21158a4a9651e25428d9e84712076dcc3dc69229e83d52a621014e72de242"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-bc2781c120fbcdce--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L15",
+              "sectionSha256": "50c21158a4a9651e25428d9e84712076dcc3dc69229e83d52a621014e72de242"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L15",
+              "sectionSha256": "50c21158a4a9651e25428d9e84712076dcc3dc69229e83d52a621014e72de242"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L15",
+              "sectionSha256": "50c21158a4a9651e25428d9e84712076dcc3dc69229e83d52a621014e72de242"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L15",
+              "sectionSha256": "50c21158a4a9651e25428d9e84712076dcc3dc69229e83d52a621014e72de242"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L15",
+              "sectionSha256": "50c21158a4a9651e25428d9e84712076dcc3dc69229e83d52a621014e72de242"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L15",
+              "sectionSha256": "50c21158a4a9651e25428d9e84712076dcc3dc69229e83d52a621014e72de242"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-bc2781c120fbcdce--cc1ba94005d5",
+          "name": "听劲",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+            "anchor": "L18",
+            "sectionSha256": "4b3737ec799c970442158ac9a6fc20c063b6d3c5778f367d2acebcdf50380485"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/自然本质技艺.md",
+              "sha256": "def1e1b63669cbee205b0bc30e15e1e3eaecfd2ef3787b4e0603e8b238742480",
+              "lineRanges": [
+                [
+                  18,
+                  20
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 3,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+                  "anchor": "L18",
+                  "sectionSha256": "4b3737ec799c970442158ac9a6fc20c063b6d3c5778f367d2acebcdf50380485"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-bc2781c120fbcdce--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L18",
+              "sectionSha256": "4b3737ec799c970442158ac9a6fc20c063b6d3c5778f367d2acebcdf50380485"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L18",
+              "sectionSha256": "4b3737ec799c970442158ac9a6fc20c063b6d3c5778f367d2acebcdf50380485"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L18",
+              "sectionSha256": "4b3737ec799c970442158ac9a6fc20c063b6d3c5778f367d2acebcdf50380485"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L18",
+              "sectionSha256": "4b3737ec799c970442158ac9a6fc20c063b6d3c5778f367d2acebcdf50380485"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L18",
+              "sectionSha256": "4b3737ec799c970442158ac9a6fc20c063b6d3c5778f367d2acebcdf50380485"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L18",
+              "sectionSha256": "4b3737ec799c970442158ac9a6fc20c063b6d3c5778f367d2acebcdf50380485"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "修行",
+              "value": 6,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+                "anchor": "L18",
+                "sectionSha256": "4b3737ec799c970442158ac9a6fc20c063b6d3c5778f367d2acebcdf50380485"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-bc2781c120fbcdce--f45c0059c181",
+          "name": "寸劲",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+            "anchor": "L21",
+            "sectionSha256": "8331a988f3eef6f7af431cd91ac4e9ebebd86f916f55c7835e9d5ff1b513c301"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/自然本质技艺.md",
+              "sha256": "def1e1b63669cbee205b0bc30e15e1e3eaecfd2ef3787b4e0603e8b238742480",
+              "lineRanges": [
+                [
+                  21,
+                  23
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 3,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+                  "anchor": "L21",
+                  "sectionSha256": "8331a988f3eef6f7af431cd91ac4e9ebebd86f916f55c7835e9d5ff1b513c301"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-bc2781c120fbcdce--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L21",
+              "sectionSha256": "8331a988f3eef6f7af431cd91ac4e9ebebd86f916f55c7835e9d5ff1b513c301"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L21",
+              "sectionSha256": "8331a988f3eef6f7af431cd91ac4e9ebebd86f916f55c7835e9d5ff1b513c301"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L21",
+              "sectionSha256": "8331a988f3eef6f7af431cd91ac4e9ebebd86f916f55c7835e9d5ff1b513c301"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L21",
+              "sectionSha256": "8331a988f3eef6f7af431cd91ac4e9ebebd86f916f55c7835e9d5ff1b513c301"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L21",
+              "sectionSha256": "8331a988f3eef6f7af431cd91ac4e9ebebd86f916f55c7835e9d5ff1b513c301"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L21",
+              "sectionSha256": "8331a988f3eef6f7af431cd91ac4e9ebebd86f916f55c7835e9d5ff1b513c301"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-bc2781c120fbcdce--ebe53cbe39d6",
+          "name": "禅宗射手",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+            "anchor": "L24",
+            "sectionSha256": "40a23db025fa72dbc20379cd1239e6ebb74b048a52f341b509a0869f5093ae35"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/自然本质技艺.md",
+              "sha256": "def1e1b63669cbee205b0bc30e15e1e3eaecfd2ef3787b4e0603e8b238742480",
+              "lineRanges": [
+                [
+                  24,
+                  26
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 3,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+                  "anchor": "L24",
+                  "sectionSha256": "40a23db025fa72dbc20379cd1239e6ebb74b048a52f341b509a0869f5093ae35"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-bc2781c120fbcdce--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L24",
+              "sectionSha256": "40a23db025fa72dbc20379cd1239e6ebb74b048a52f341b509a0869f5093ae35"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L24",
+              "sectionSha256": "40a23db025fa72dbc20379cd1239e6ebb74b048a52f341b509a0869f5093ae35"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L24",
+              "sectionSha256": "40a23db025fa72dbc20379cd1239e6ebb74b048a52f341b509a0869f5093ae35"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L24",
+              "sectionSha256": "40a23db025fa72dbc20379cd1239e6ebb74b048a52f341b509a0869f5093ae35"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L24",
+              "sectionSha256": "40a23db025fa72dbc20379cd1239e6ebb74b048a52f341b509a0869f5093ae35"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L24",
+              "sectionSha256": "40a23db025fa72dbc20379cd1239e6ebb74b048a52f341b509a0869f5093ae35"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-bc2781c120fbcdce--62cacaa0e286",
+          "name": "一发破的",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+            "anchor": "L27",
+            "sectionSha256": "fe5e478a879765f004509ddba03c094782221847c77546833af0c7796a243fd8"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/自然本质技艺.md",
+              "sha256": "def1e1b63669cbee205b0bc30e15e1e3eaecfd2ef3787b4e0603e8b238742480",
+              "lineRanges": [
+                [
+                  27,
+                  29
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 6,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+                  "anchor": "L27",
+                  "sectionSha256": "fe5e478a879765f004509ddba03c094782221847c77546833af0c7796a243fd8"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-bc2781c120fbcdce--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+                  "anchor": "L27",
+                  "sectionSha256": "fe5e478a879765f004509ddba03c094782221847c77546833af0c7796a243fd8"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L27",
+              "sectionSha256": "fe5e478a879765f004509ddba03c094782221847c77546833af0c7796a243fd8"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L27",
+              "sectionSha256": "fe5e478a879765f004509ddba03c094782221847c77546833af0c7796a243fd8"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L27",
+              "sectionSha256": "fe5e478a879765f004509ddba03c094782221847c77546833af0c7796a243fd8"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L27",
+              "sectionSha256": "fe5e478a879765f004509ddba03c094782221847c77546833af0c7796a243fd8"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L27",
+              "sectionSha256": "fe5e478a879765f004509ddba03c094782221847c77546833af0c7796a243fd8"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L27",
+              "sectionSha256": "fe5e478a879765f004509ddba03c094782221847c77546833af0c7796a243fd8"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-bc2781c120fbcdce--1c9f3c66445d",
+          "name": "传武太极-接",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+            "anchor": "L30",
+            "sectionSha256": "14c8e723bdd39037dfd0078189f29b8c6176f65851be2b7378a135231a684437"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/自然本质技艺.md",
+              "sha256": "def1e1b63669cbee205b0bc30e15e1e3eaecfd2ef3787b4e0603e8b238742480",
+              "lineRanges": [
+                [
+                  30,
+                  32
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 3,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+                  "anchor": "L30",
+                  "sectionSha256": "14c8e723bdd39037dfd0078189f29b8c6176f65851be2b7378a135231a684437"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-bc2781c120fbcdce--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L30",
+              "sectionSha256": "14c8e723bdd39037dfd0078189f29b8c6176f65851be2b7378a135231a684437"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L30",
+              "sectionSha256": "14c8e723bdd39037dfd0078189f29b8c6176f65851be2b7378a135231a684437"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L30",
+              "sectionSha256": "14c8e723bdd39037dfd0078189f29b8c6176f65851be2b7378a135231a684437"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L30",
+              "sectionSha256": "14c8e723bdd39037dfd0078189f29b8c6176f65851be2b7378a135231a684437"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L30",
+              "sectionSha256": "14c8e723bdd39037dfd0078189f29b8c6176f65851be2b7378a135231a684437"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L30",
+              "sectionSha256": "14c8e723bdd39037dfd0078189f29b8c6176f65851be2b7378a135231a684437"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-bc2781c120fbcdce--239a51838c73",
+          "name": "传武太极-化",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+            "anchor": "L33",
+            "sectionSha256": "b91d12cc60a5fbf6200a1a9aef474bcfbe22bb10676a84d3bd2381a5aaf55965"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/自然本质技艺.md",
+              "sha256": "def1e1b63669cbee205b0bc30e15e1e3eaecfd2ef3787b4e0603e8b238742480",
+              "lineRanges": [
+                [
+                  33,
+                  35
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 3,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+                  "anchor": "L33",
+                  "sectionSha256": "b91d12cc60a5fbf6200a1a9aef474bcfbe22bb10676a84d3bd2381a5aaf55965"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-bc2781c120fbcdce--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L33",
+              "sectionSha256": "b91d12cc60a5fbf6200a1a9aef474bcfbe22bb10676a84d3bd2381a5aaf55965"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L33",
+              "sectionSha256": "b91d12cc60a5fbf6200a1a9aef474bcfbe22bb10676a84d3bd2381a5aaf55965"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L33",
+              "sectionSha256": "b91d12cc60a5fbf6200a1a9aef474bcfbe22bb10676a84d3bd2381a5aaf55965"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L33",
+              "sectionSha256": "b91d12cc60a5fbf6200a1a9aef474bcfbe22bb10676a84d3bd2381a5aaf55965"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L33",
+              "sectionSha256": "b91d12cc60a5fbf6200a1a9aef474bcfbe22bb10676a84d3bd2381a5aaf55965"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L33",
+              "sectionSha256": "b91d12cc60a5fbf6200a1a9aef474bcfbe22bb10676a84d3bd2381a5aaf55965"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "招式",
+              "value": 3,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+                "anchor": "L33",
+                "sectionSha256": "b91d12cc60a5fbf6200a1a9aef474bcfbe22bb10676a84d3bd2381a5aaf55965"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-bc2781c120fbcdce--dcf306fd971c",
+          "name": "传武太极-发",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+            "anchor": "L36",
+            "sectionSha256": "6d0bcc327813701fd6de99d4ac5776d95d6fcdfcdd73aebfb518a59eeb85d3f6"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/自然本质技艺.md",
+              "sha256": "def1e1b63669cbee205b0bc30e15e1e3eaecfd2ef3787b4e0603e8b238742480",
+              "lineRanges": [
+                [
+                  36,
+                  38
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 3,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+                  "anchor": "L36",
+                  "sectionSha256": "6d0bcc327813701fd6de99d4ac5776d95d6fcdfcdd73aebfb518a59eeb85d3f6"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-bc2781c120fbcdce--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L36",
+              "sectionSha256": "6d0bcc327813701fd6de99d4ac5776d95d6fcdfcdd73aebfb518a59eeb85d3f6"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L36",
+              "sectionSha256": "6d0bcc327813701fd6de99d4ac5776d95d6fcdfcdd73aebfb518a59eeb85d3f6"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L36",
+              "sectionSha256": "6d0bcc327813701fd6de99d4ac5776d95d6fcdfcdd73aebfb518a59eeb85d3f6"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L36",
+              "sectionSha256": "6d0bcc327813701fd6de99d4ac5776d95d6fcdfcdd73aebfb518a59eeb85d3f6"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L36",
+              "sectionSha256": "6d0bcc327813701fd6de99d4ac5776d95d6fcdfcdd73aebfb518a59eeb85d3f6"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/133-自然本质技艺.md",
+              "anchor": "L36",
+              "sectionSha256": "6d0bcc327813701fd6de99d4ac5776d95d6fcdfcdd73aebfb518a59eeb85d3f6"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "自然本质技艺",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "传武八极-六大开",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "传武八极-活步",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "听劲",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "寸劲",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "禅宗射手",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "一发破的",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "传武太极-接",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "传武太极-化",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "传武太极-发",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-bc2781c120fbcdce--ffb618ca2dd4--intent",
+      "name": "传武八极-活步",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-bc2781c120fbcdce--ffb618ca2dd4",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-bc2781c120fbcdce--f45c0059c181--intent",
+      "name": "寸劲",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-bc2781c120fbcdce--f45c0059c181",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "attack-program-hardcodes-INT-and-casting",
+    "duration-inheritance-and-no-implicit-refresh",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "prerequisite-logic-not-fully-encoded"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

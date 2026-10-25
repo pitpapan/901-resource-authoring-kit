@@ -1,0 +1,1860 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-8cc580d4dd8e1424",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "诗词歌赋",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J09",
+    "aliases": [
+      "诗词歌赋",
+      "歌赋总决-出县",
+      "破——破甲",
+      "疾——高速",
+      "达府",
+      "鸣州",
+      "镇国",
+      "自题小像",
+      "诗词歌赋·自题小像（D级）",
+      "静夜思",
+      "床前明月光",
+      "疑是地上霜",
+      "举头望明月",
+      "低头思故乡",
+      "人民解放军解放南京",
+      "钟山风雨起苍黄",
+      "百万雄狮过大江",
+      "虎踞龙盘今胜昔",
+      "天翻地覆慨而慷",
+      "宜将剩勇追穷寇",
+      "不可沽名学霸王",
+      "天若有情天亦老",
+      "人间正道是沧桑",
+      "夏日绝句",
+      "生当做人杰",
+      "死亦为鬼雄",
+      "至今思项羽",
+      "不肯过江东"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/诗词歌赋.md",
+        "sha256": "7be938e71f66aa8d8f6ad248f5e997fcb9e1c4e475a18ffe25fa8e89098fafd9",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            129
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+    "sha256": "fcf04f0408990d47898e391c49594998afa4a9247ab256029e1b7df2a8168fa3"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-8cc580d4dd8e1424--0ae594c1109f",
+          "name": "诗词歌赋",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+            "anchor": "条目",
+            "sectionSha256": "debe5c21b787df81acf62291f85f9ef2d3feba64a35a34ea5e3e0913f3f0b080"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/诗词歌赋.md",
+              "sha256": "7be938e71f66aa8d8f6ad248f5e997fcb9e1c4e475a18ffe25fa8e89098fafd9",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  9
+                ],
+                [
+                  11,
+                  11
+                ],
+                [
+                  17,
+                  17
+                ],
+                [
+                  57,
+                  57
+                ],
+                [
+                  60,
+                  60
+                ],
+                [
+                  62,
+                  62
+                ],
+                [
+                  65,
+                  65
+                ],
+                [
+                  68,
+                  68
+                ],
+                [
+                  71,
+                  71
+                ],
+                [
+                  75,
+                  76
+                ],
+                [
+                  79,
+                  79
+                ],
+                [
+                  92,
+                  92
+                ],
+                [
+                  95,
+                  95
+                ],
+                [
+                  98,
+                  98
+                ],
+                [
+                  101,
+                  101
+                ],
+                [
+                  106,
+                  106
+                ],
+                [
+                  109,
+                  109
+                ],
+                [
+                  112,
+                  112
+                ],
+                [
+                  115,
+                  115
+                ],
+                [
+                  117,
+                  117
+                ],
+                [
+                  120,
+                  120
+                ],
+                [
+                  123,
+                  123
+                ],
+                [
+                  126,
+                  126
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "条目",
+              "sectionSha256": "debe5c21b787df81acf62291f85f9ef2d3feba64a35a34ea5e3e0913f3f0b080"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "条目",
+              "sectionSha256": "debe5c21b787df81acf62291f85f9ef2d3feba64a35a34ea5e3e0913f3f0b080"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "条目",
+              "sectionSha256": "debe5c21b787df81acf62291f85f9ef2d3feba64a35a34ea5e3e0913f3f0b080"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "条目",
+              "sectionSha256": "debe5c21b787df81acf62291f85f9ef2d3feba64a35a34ea5e3e0913f3f0b080"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "条目",
+              "sectionSha256": "debe5c21b787df81acf62291f85f9ef2d3feba64a35a34ea5e3e0913f3f0b080"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "条目",
+              "sectionSha256": "debe5c21b787df81acf62291f85f9ef2d3feba64a35a34ea5e3e0913f3f0b080"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8cc580d4dd8e1424--79cfaa5a36db",
+          "name": "歌赋总决-出县",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+            "anchor": "L10",
+            "sectionSha256": "00abae8da7db6d4a07d25d6c22c4d8cdc210ef1a6675e1d42e069f4e130c556b"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/诗词歌赋.md",
+              "sha256": "7be938e71f66aa8d8f6ad248f5e997fcb9e1c4e475a18ffe25fa8e89098fafd9",
+              "lineRanges": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  12,
+                  15
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+                  "anchor": "L10",
+                  "sectionSha256": "00abae8da7db6d4a07d25d6c22c4d8cdc210ef1a6675e1d42e069f4e130c556b"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8cc580d4dd8e1424--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L10",
+              "sectionSha256": "00abae8da7db6d4a07d25d6c22c4d8cdc210ef1a6675e1d42e069f4e130c556b"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L10",
+              "sectionSha256": "00abae8da7db6d4a07d25d6c22c4d8cdc210ef1a6675e1d42e069f4e130c556b"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L10",
+              "sectionSha256": "00abae8da7db6d4a07d25d6c22c4d8cdc210ef1a6675e1d42e069f4e130c556b"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L10",
+              "sectionSha256": "00abae8da7db6d4a07d25d6c22c4d8cdc210ef1a6675e1d42e069f4e130c556b"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L10",
+              "sectionSha256": "00abae8da7db6d4a07d25d6c22c4d8cdc210ef1a6675e1d42e069f4e130c556b"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L10",
+              "sectionSha256": "00abae8da7db6d4a07d25d6c22c4d8cdc210ef1a6675e1d42e069f4e130c556b"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8cc580d4dd8e1424--5f3f9d32a927",
+          "name": "达府",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+            "anchor": "L16",
+            "sectionSha256": "dcdf5bc3a4681bb519f18cc01fc59d2b236a371f024842644e4ec8d57d49f11f"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/诗词歌赋.md",
+              "sha256": "7be938e71f66aa8d8f6ad248f5e997fcb9e1c4e475a18ffe25fa8e89098fafd9",
+              "lineRanges": [
+                [
+                  16,
+                  16
+                ],
+                [
+                  18,
+                  28
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+                  "anchor": "L16",
+                  "sectionSha256": "dcdf5bc3a4681bb519f18cc01fc59d2b236a371f024842644e4ec8d57d49f11f"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8cc580d4dd8e1424--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L16",
+              "sectionSha256": "dcdf5bc3a4681bb519f18cc01fc59d2b236a371f024842644e4ec8d57d49f11f"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L16",
+              "sectionSha256": "dcdf5bc3a4681bb519f18cc01fc59d2b236a371f024842644e4ec8d57d49f11f"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L16",
+              "sectionSha256": "dcdf5bc3a4681bb519f18cc01fc59d2b236a371f024842644e4ec8d57d49f11f"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L16",
+              "sectionSha256": "dcdf5bc3a4681bb519f18cc01fc59d2b236a371f024842644e4ec8d57d49f11f"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L16",
+              "sectionSha256": "dcdf5bc3a4681bb519f18cc01fc59d2b236a371f024842644e4ec8d57d49f11f"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L16",
+              "sectionSha256": "dcdf5bc3a4681bb519f18cc01fc59d2b236a371f024842644e4ec8d57d49f11f"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8cc580d4dd8e1424--bc2b72915c17",
+          "name": "鸣州",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+            "anchor": "L29",
+            "sectionSha256": "474700b36e26b025437b764a2184f2047cb24b83965b4abd77d0674fb88d9deb"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/诗词歌赋.md",
+              "sha256": "7be938e71f66aa8d8f6ad248f5e997fcb9e1c4e475a18ffe25fa8e89098fafd9",
+              "lineRanges": [
+                [
+                  29,
+                  37
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+                  "anchor": "L29",
+                  "sectionSha256": "474700b36e26b025437b764a2184f2047cb24b83965b4abd77d0674fb88d9deb"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8cc580d4dd8e1424--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L29",
+              "sectionSha256": "474700b36e26b025437b764a2184f2047cb24b83965b4abd77d0674fb88d9deb"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L29",
+              "sectionSha256": "474700b36e26b025437b764a2184f2047cb24b83965b4abd77d0674fb88d9deb"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L29",
+              "sectionSha256": "474700b36e26b025437b764a2184f2047cb24b83965b4abd77d0674fb88d9deb"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L29",
+              "sectionSha256": "474700b36e26b025437b764a2184f2047cb24b83965b4abd77d0674fb88d9deb"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L29",
+              "sectionSha256": "474700b36e26b025437b764a2184f2047cb24b83965b4abd77d0674fb88d9deb"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L29",
+              "sectionSha256": "474700b36e26b025437b764a2184f2047cb24b83965b4abd77d0674fb88d9deb"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "招式",
+              "value": 24,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+                "anchor": "L29",
+                "sectionSha256": "474700b36e26b025437b764a2184f2047cb24b83965b4abd77d0674fb88d9deb"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8cc580d4dd8e1424--3f970821bb78",
+          "name": "镇国",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+            "anchor": "L38",
+            "sectionSha256": "529f1062052ddb85fee3ecdfdfcf1ef5df561e63d45193a9076acfe1f7fbb2e2"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/诗词歌赋.md",
+              "sha256": "7be938e71f66aa8d8f6ad248f5e997fcb9e1c4e475a18ffe25fa8e89098fafd9",
+              "lineRanges": [
+                [
+                  38,
+                  56
+                ],
+                [
+                  58,
+                  59
+                ],
+                [
+                  61,
+                  61
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+                  "anchor": "L38",
+                  "sectionSha256": "529f1062052ddb85fee3ecdfdfcf1ef5df561e63d45193a9076acfe1f7fbb2e2"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ],
+              [
+                "free"
+              ],
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8cc580d4dd8e1424--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L38",
+              "sectionSha256": "529f1062052ddb85fee3ecdfdfcf1ef5df561e63d45193a9076acfe1f7fbb2e2"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L38",
+              "sectionSha256": "529f1062052ddb85fee3ecdfdfcf1ef5df561e63d45193a9076acfe1f7fbb2e2"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L38",
+              "sectionSha256": "529f1062052ddb85fee3ecdfdfcf1ef5df561e63d45193a9076acfe1f7fbb2e2"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L38",
+              "sectionSha256": "529f1062052ddb85fee3ecdfdfcf1ef5df561e63d45193a9076acfe1f7fbb2e2"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L38",
+              "sectionSha256": "529f1062052ddb85fee3ecdfdfcf1ef5df561e63d45193a9076acfe1f7fbb2e2"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L38",
+              "sectionSha256": "529f1062052ddb85fee3ecdfdfcf1ef5df561e63d45193a9076acfe1f7fbb2e2"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8cc580d4dd8e1424--c25ea38127aa",
+          "name": "诗词歌赋·自题小像（D级）",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+            "anchor": "L63",
+            "sectionSha256": "354e36ec2d6e3abda37936734992a356e844db60255220b227976c7f4635326e"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/诗词歌赋.md",
+              "sha256": "7be938e71f66aa8d8f6ad248f5e997fcb9e1c4e475a18ffe25fa8e89098fafd9",
+              "lineRanges": [
+                [
+                  63,
+                  64
+                ],
+                [
+                  66,
+                  67
+                ],
+                [
+                  69,
+                  70
+                ],
+                [
+                  72,
+                  74
+                ],
+                [
+                  77,
+                  78
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+                  "anchor": "L63",
+                  "sectionSha256": "354e36ec2d6e3abda37936734992a356e844db60255220b227976c7f4635326e"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "move"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8cc580d4dd8e1424--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L63",
+              "sectionSha256": "354e36ec2d6e3abda37936734992a356e844db60255220b227976c7f4635326e"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L63",
+              "sectionSha256": "354e36ec2d6e3abda37936734992a356e844db60255220b227976c7f4635326e"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L63",
+              "sectionSha256": "354e36ec2d6e3abda37936734992a356e844db60255220b227976c7f4635326e"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L63",
+              "sectionSha256": "354e36ec2d6e3abda37936734992a356e844db60255220b227976c7f4635326e"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L63",
+              "sectionSha256": "354e36ec2d6e3abda37936734992a356e844db60255220b227976c7f4635326e"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L63",
+              "sectionSha256": "354e36ec2d6e3abda37936734992a356e844db60255220b227976c7f4635326e"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8cc580d4dd8e1424--44842f70d612",
+          "name": "静夜思",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+            "anchor": "L80",
+            "sectionSha256": "b4a2a885ddca16ea7394a8b5244f3175fa3ac14662a03590c4cc4e358464cb7f"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/诗词歌赋.md",
+              "sha256": "7be938e71f66aa8d8f6ad248f5e997fcb9e1c4e475a18ffe25fa8e89098fafd9",
+              "lineRanges": [
+                [
+                  80,
+                  91
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+                  "anchor": "L80",
+                  "sectionSha256": "b4a2a885ddca16ea7394a8b5244f3175fa3ac14662a03590c4cc4e358464cb7f"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "move"
+              ],
+              [
+                "standard",
+                "move"
+              ],
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8cc580d4dd8e1424--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L80",
+              "sectionSha256": "b4a2a885ddca16ea7394a8b5244f3175fa3ac14662a03590c4cc4e358464cb7f"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L80",
+              "sectionSha256": "b4a2a885ddca16ea7394a8b5244f3175fa3ac14662a03590c4cc4e358464cb7f"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L80",
+              "sectionSha256": "b4a2a885ddca16ea7394a8b5244f3175fa3ac14662a03590c4cc4e358464cb7f"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L80",
+              "sectionSha256": "b4a2a885ddca16ea7394a8b5244f3175fa3ac14662a03590c4cc4e358464cb7f"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L80",
+              "sectionSha256": "b4a2a885ddca16ea7394a8b5244f3175fa3ac14662a03590c4cc4e358464cb7f"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L80",
+              "sectionSha256": "b4a2a885ddca16ea7394a8b5244f3175fa3ac14662a03590c4cc4e358464cb7f"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8cc580d4dd8e1424--6e024da23253",
+          "name": "人民解放军解放南京",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+            "anchor": "L93",
+            "sectionSha256": "ef41b047167ed3b66d7acb6c4a96ff0791ba48e246403e103a823abc1eeb3973"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/诗词歌赋.md",
+              "sha256": "7be938e71f66aa8d8f6ad248f5e997fcb9e1c4e475a18ffe25fa8e89098fafd9",
+              "lineRanges": [
+                [
+                  93,
+                  94
+                ],
+                [
+                  96,
+                  97
+                ],
+                [
+                  99,
+                  100
+                ],
+                [
+                  102,
+                  105
+                ],
+                [
+                  107,
+                  108
+                ],
+                [
+                  110,
+                  111
+                ],
+                [
+                  113,
+                  114
+                ],
+                [
+                  116,
+                  116
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+                  "anchor": "L93",
+                  "sectionSha256": "ef41b047167ed3b66d7acb6c4a96ff0791ba48e246403e103a823abc1eeb3973"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ],
+              [
+                "standard"
+              ],
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8cc580d4dd8e1424--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L93",
+              "sectionSha256": "ef41b047167ed3b66d7acb6c4a96ff0791ba48e246403e103a823abc1eeb3973"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L93",
+              "sectionSha256": "ef41b047167ed3b66d7acb6c4a96ff0791ba48e246403e103a823abc1eeb3973"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L93",
+              "sectionSha256": "ef41b047167ed3b66d7acb6c4a96ff0791ba48e246403e103a823abc1eeb3973"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L93",
+              "sectionSha256": "ef41b047167ed3b66d7acb6c4a96ff0791ba48e246403e103a823abc1eeb3973"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L93",
+              "sectionSha256": "ef41b047167ed3b66d7acb6c4a96ff0791ba48e246403e103a823abc1eeb3973"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L93",
+              "sectionSha256": "ef41b047167ed3b66d7acb6c4a96ff0791ba48e246403e103a823abc1eeb3973"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "士气",
+              "value": 6,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+                "anchor": "L93",
+                "sectionSha256": "ef41b047167ed3b66d7acb6c4a96ff0791ba48e246403e103a823abc1eeb3973"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8cc580d4dd8e1424--fba51425645b",
+          "name": "夏日绝句",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+            "anchor": "L118",
+            "sectionSha256": "f082ae3fa1697ea1f177e9b8764d6a661711d7024a80dc540be72e1a7d37d8fb"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/诗词歌赋.md",
+              "sha256": "7be938e71f66aa8d8f6ad248f5e997fcb9e1c4e475a18ffe25fa8e89098fafd9",
+              "lineRanges": [
+                [
+                  118,
+                  119
+                ],
+                [
+                  121,
+                  122
+                ],
+                [
+                  124,
+                  125
+                ],
+                [
+                  127,
+                  129
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+                  "anchor": "L118",
+                  "sectionSha256": "f082ae3fa1697ea1f177e9b8764d6a661711d7024a80dc540be72e1a7d37d8fb"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ],
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8cc580d4dd8e1424--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L118",
+              "sectionSha256": "f082ae3fa1697ea1f177e9b8764d6a661711d7024a80dc540be72e1a7d37d8fb"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L118",
+              "sectionSha256": "f082ae3fa1697ea1f177e9b8764d6a661711d7024a80dc540be72e1a7d37d8fb"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L118",
+              "sectionSha256": "f082ae3fa1697ea1f177e9b8764d6a661711d7024a80dc540be72e1a7d37d8fb"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L118",
+              "sectionSha256": "f082ae3fa1697ea1f177e9b8764d6a661711d7024a80dc540be72e1a7d37d8fb"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L118",
+              "sectionSha256": "f082ae3fa1697ea1f177e9b8764d6a661711d7024a80dc540be72e1a7d37d8fb"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+              "anchor": "L118",
+              "sectionSha256": "f082ae3fa1697ea1f177e9b8764d6a661711d7024a80dc540be72e1a7d37d8fb"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "表现",
+              "value": 12,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/130-诗词歌赋.md",
+                "anchor": "L118",
+                "sectionSha256": "f082ae3fa1697ea1f177e9b8764d6a661711d7024a80dc540be72e1a7d37d8fb"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "诗词歌赋",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "歌赋总决-出县",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "达府",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "鸣州",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "镇国",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "诗词歌赋·自题小像（D级）",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "静夜思",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "人民解放军解放南京",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "夏日绝句",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-8cc580d4dd8e1424--3f970821bb78--intent",
+      "name": "镇国",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ],
+          [
+            "free"
+          ],
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-8cc580d4dd8e1424--3f970821bb78",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-8cc580d4dd8e1424--c25ea38127aa--intent",
+      "name": "诗词歌赋·自题小像（D级）",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "move"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-8cc580d4dd8e1424--c25ea38127aa",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-8cc580d4dd8e1424--44842f70d612--intent",
+      "name": "静夜思",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "move"
+          ],
+          [
+            "standard",
+            "move"
+          ],
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-8cc580d4dd8e1424--44842f70d612",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-8cc580d4dd8e1424--6e024da23253--intent",
+      "name": "人民解放军解放南京",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ],
+          [
+            "standard"
+          ],
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-8cc580d4dd8e1424--6e024da23253",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-8cc580d4dd8e1424--fba51425645b--intent",
+      "name": "夏日绝句",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ],
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-8cc580d4dd8e1424--fba51425645b",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "duration-inheritance-and-no-implicit-refresh",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "attack-program-hardcodes-INT-and-casting"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

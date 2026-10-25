@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "bright.shimada_twins",
-  "version": "2026-10-23.1",
+  "version": "2026-10-24.1",
   "identity": {
     "name": "岛田双雄",
     "grade": "D",
@@ -37,7 +37,16 @@
       "add": {
         "speed": -10
       }
-    }
+    },
+    "legacyProfiles": [
+      {
+        "ruleset": "comparison-20261020",
+        "kind": "bright",
+        "add": {
+          "speed": -20
+        }
+      }
+    ]
   },
   "clauses": [
     {

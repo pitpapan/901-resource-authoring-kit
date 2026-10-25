@@ -1,0 +1,2566 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-46ff66686d698826",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "圣堂防身术",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J05",
+    "aliases": [
+      "圣堂防身术",
+      "圣堂防身术-0",
+      "圣堂防身术-1",
+      "圣堂防身术-5",
+      "圣堂防身术-7",
+      "圣堂防身术-13",
+      "圣堂防身术-25",
+      "圣堂防身术-33",
+      "圣堂防身术-49",
+      "圣堂防身术-54",
+      "圣堂防身术-73",
+      "圣堂防身术-83"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/圣堂防身术.md",
+        "sha256": "8fa393c72dfc5fbba6f1631534a5e5803684fa96f04169d3d51947a4f03ece70",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            84
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+    "sha256": "4f9a1a0e1ab8f3707f25dba60ad4e95095ecc9357e546b77c9389b919b3e8a1c"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-46ff66686d698826--0ae594c1109f",
+          "name": "圣堂防身术",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+            "anchor": "条目",
+            "sectionSha256": "de331c52e3565c0619afee290358c052e16ce4ad0057865b5a2715c39093f9ad"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/圣堂防身术.md",
+              "sha256": "8fa393c72dfc5fbba6f1631534a5e5803684fa96f04169d3d51947a4f03ece70",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  9
+                ],
+                [
+                  12,
+                  12
+                ],
+                [
+                  18,
+                  18
+                ],
+                [
+                  25,
+                  25
+                ],
+                [
+                  32,
+                  32
+                ],
+                [
+                  39,
+                  39
+                ],
+                [
+                  46,
+                  46
+                ],
+                [
+                  53,
+                  53
+                ],
+                [
+                  59,
+                  59
+                ],
+                [
+                  66,
+                  66
+                ],
+                [
+                  73,
+                  73
+                ],
+                [
+                  80,
+                  80
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "条目",
+              "sectionSha256": "de331c52e3565c0619afee290358c052e16ce4ad0057865b5a2715c39093f9ad"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "条目",
+              "sectionSha256": "de331c52e3565c0619afee290358c052e16ce4ad0057865b5a2715c39093f9ad"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "条目",
+              "sectionSha256": "de331c52e3565c0619afee290358c052e16ce4ad0057865b5a2715c39093f9ad"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "意志"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                  "anchor": "条目",
+                  "sectionSha256": "de331c52e3565c0619afee290358c052e16ce4ad0057865b5a2715c39093f9ad"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "条目",
+              "sectionSha256": "de331c52e3565c0619afee290358c052e16ce4ad0057865b5a2715c39093f9ad"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "条目",
+              "sectionSha256": "de331c52e3565c0619afee290358c052e16ce4ad0057865b5a2715c39093f9ad"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "条目",
+              "sectionSha256": "de331c52e3565c0619afee290358c052e16ce4ad0057865b5a2715c39093f9ad"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-46ff66686d698826--79cfaa5a36db",
+          "name": "圣堂防身术-0",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+            "anchor": "L10",
+            "sectionSha256": "fd05532de8ee6727859476775081bbacacfd5a91c2ea403ea3ee809a5594c274"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/圣堂防身术.md",
+              "sha256": "8fa393c72dfc5fbba6f1631534a5e5803684fa96f04169d3d51947a4f03ece70",
+              "lineRanges": [
+                [
+                  10,
+                  11
+                ],
+                [
+                  13,
+                  15
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                  "anchor": "L10",
+                  "sectionSha256": "fd05532de8ee6727859476775081bbacacfd5a91c2ea403ea3ee809a5594c274"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "move"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-46ff66686d698826--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "敏捷",
+                    "minimum": 3
+                  },
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "感知",
+                    "minimum": 3
+                  },
+                  {
+                    "kind": "expertise-minimum",
+                    "skill": "肉搏",
+                    "minimum": 3,
+                    "skillModel": "primary-plus-one-subskill"
+                  }
+                ],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                  "anchor": "L10",
+                  "sectionSha256": "fd05532de8ee6727859476775081bbacacfd5a91c2ea403ea3ee809a5594c274"
+                },
+                "semanticStatus": "partial"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L10",
+              "sectionSha256": "fd05532de8ee6727859476775081bbacacfd5a91c2ea403ea3ee809a5594c274"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L10",
+              "sectionSha256": "fd05532de8ee6727859476775081bbacacfd5a91c2ea403ea3ee809a5594c274"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L10",
+              "sectionSha256": "fd05532de8ee6727859476775081bbacacfd5a91c2ea403ea3ee809a5594c274"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L10",
+              "sectionSha256": "fd05532de8ee6727859476775081bbacacfd5a91c2ea403ea3ee809a5594c274"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L10",
+              "sectionSha256": "fd05532de8ee6727859476775081bbacacfd5a91c2ea403ea3ee809a5594c274"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L10",
+              "sectionSha256": "fd05532de8ee6727859476775081bbacacfd5a91c2ea403ea3ee809a5594c274"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "numeric-modifier",
+              "stat": "baseDefense",
+              "value": 3,
+              "mode": "increase",
+              "bonusType": "unspecified-in-fragment",
+              "target": "self",
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "full-conditions",
+                "inheritance-and-stacking"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                "anchor": "L10",
+                "sectionSha256": "fd05532de8ee6727859476775081bbacacfd5a91c2ea403ea3ee809a5594c274"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-46ff66686d698826--5f3f9d32a927",
+          "name": "圣堂防身术-1",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+            "anchor": "L16",
+            "sectionSha256": "e308e65183e263a6c6a8d34021a10c81f61d8ea48f2eeab65b75f5a5e846b1fa"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/圣堂防身术.md",
+              "sha256": "8fa393c72dfc5fbba6f1631534a5e5803684fa96f04169d3d51947a4f03ece70",
+              "lineRanges": [
+                [
+                  16,
+                  17
+                ],
+                [
+                  19,
+                  22
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                  "anchor": "L16",
+                  "sectionSha256": "e308e65183e263a6c6a8d34021a10c81f61d8ea48f2eeab65b75f5a5e846b1fa"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-46ff66686d698826--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "意志",
+                    "minimum": 4
+                  },
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "敏捷",
+                    "minimum": 4
+                  }
+                ],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                  "anchor": "L16",
+                  "sectionSha256": "e308e65183e263a6c6a8d34021a10c81f61d8ea48f2eeab65b75f5a5e846b1fa"
+                },
+                "semanticStatus": "partial"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L16",
+              "sectionSha256": "e308e65183e263a6c6a8d34021a10c81f61d8ea48f2eeab65b75f5a5e846b1fa"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L16",
+              "sectionSha256": "e308e65183e263a6c6a8d34021a10c81f61d8ea48f2eeab65b75f5a5e846b1fa"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L16",
+              "sectionSha256": "e308e65183e263a6c6a8d34021a10c81f61d8ea48f2eeab65b75f5a5e846b1fa"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L16",
+              "sectionSha256": "e308e65183e263a6c6a8d34021a10c81f61d8ea48f2eeab65b75f5a5e846b1fa"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L16",
+              "sectionSha256": "e308e65183e263a6c6a8d34021a10c81f61d8ea48f2eeab65b75f5a5e846b1fa"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L16",
+              "sectionSha256": "e308e65183e263a6c6a8d34021a10c81f61d8ea48f2eeab65b75f5a5e846b1fa"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-46ff66686d698826--b4958c67124e",
+          "name": "圣堂防身术-5",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+            "anchor": "L23",
+            "sectionSha256": "a135f1ca644afa2d112df1dd6e4ef48b6f62c39ae7fbc494db3fbf0b64b255f6"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/圣堂防身术.md",
+              "sha256": "8fa393c72dfc5fbba6f1631534a5e5803684fa96f04169d3d51947a4f03ece70",
+              "lineRanges": [
+                [
+                  23,
+                  24
+                ],
+                [
+                  26,
+                  29
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                  "anchor": "L23",
+                  "sectionSha256": "a135f1ca644afa2d112df1dd6e4ef48b6f62c39ae7fbc494db3fbf0b64b255f6"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-46ff66686d698826--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "力量",
+                    "minimum": 4
+                  },
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "敏捷",
+                    "minimum": 4
+                  },
+                  {
+                    "kind": "expertise-minimum",
+                    "skill": "肉搏",
+                    "minimum": 4,
+                    "skillModel": "primary-plus-one-subskill"
+                  }
+                ],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                  "anchor": "L23",
+                  "sectionSha256": "a135f1ca644afa2d112df1dd6e4ef48b6f62c39ae7fbc494db3fbf0b64b255f6"
+                },
+                "semanticStatus": "partial"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L23",
+              "sectionSha256": "a135f1ca644afa2d112df1dd6e4ef48b6f62c39ae7fbc494db3fbf0b64b255f6"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L23",
+              "sectionSha256": "a135f1ca644afa2d112df1dd6e4ef48b6f62c39ae7fbc494db3fbf0b64b255f6"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L23",
+              "sectionSha256": "a135f1ca644afa2d112df1dd6e4ef48b6f62c39ae7fbc494db3fbf0b64b255f6"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L23",
+              "sectionSha256": "a135f1ca644afa2d112df1dd6e4ef48b6f62c39ae7fbc494db3fbf0b64b255f6"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L23",
+              "sectionSha256": "a135f1ca644afa2d112df1dd6e4ef48b6f62c39ae7fbc494db3fbf0b64b255f6"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L23",
+              "sectionSha256": "a135f1ca644afa2d112df1dd6e4ef48b6f62c39ae7fbc494db3fbf0b64b255f6"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-46ff66686d698826--1c9f3c66445d",
+          "name": "圣堂防身术-7",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+            "anchor": "L30",
+            "sectionSha256": "b9886992f211a9778cd40c061f1fb89943e875c4efda9ac7c4fe816e2d2cd5cf"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/圣堂防身术.md",
+              "sha256": "8fa393c72dfc5fbba6f1631534a5e5803684fa96f04169d3d51947a4f03ece70",
+              "lineRanges": [
+                [
+                  30,
+                  31
+                ],
+                [
+                  33,
+                  36
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                  "anchor": "L30",
+                  "sectionSha256": "b9886992f211a9778cd40c061f1fb89943e875c4efda9ac7c4fe816e2d2cd5cf"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-46ff66686d698826--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "力量",
+                    "minimum": 5
+                  },
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "感知",
+                    "minimum": 3
+                  },
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "智力",
+                    "minimum": 3
+                  }
+                ],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                  "anchor": "L30",
+                  "sectionSha256": "b9886992f211a9778cd40c061f1fb89943e875c4efda9ac7c4fe816e2d2cd5cf"
+                },
+                "semanticStatus": "partial"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L30",
+              "sectionSha256": "b9886992f211a9778cd40c061f1fb89943e875c4efda9ac7c4fe816e2d2cd5cf"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L30",
+              "sectionSha256": "b9886992f211a9778cd40c061f1fb89943e875c4efda9ac7c4fe816e2d2cd5cf"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L30",
+              "sectionSha256": "b9886992f211a9778cd40c061f1fb89943e875c4efda9ac7c4fe816e2d2cd5cf"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L30",
+              "sectionSha256": "b9886992f211a9778cd40c061f1fb89943e875c4efda9ac7c4fe816e2d2cd5cf"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L30",
+              "sectionSha256": "b9886992f211a9778cd40c061f1fb89943e875c4efda9ac7c4fe816e2d2cd5cf"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L30",
+              "sectionSha256": "b9886992f211a9778cd40c061f1fb89943e875c4efda9ac7c4fe816e2d2cd5cf"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-46ff66686d698826--62317f6d0509",
+          "name": "圣堂防身术-13",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+            "anchor": "L37",
+            "sectionSha256": "23132475d1243ecf603c286ee54624242166549caa6f52646b3daa8c0cecf69d"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/圣堂防身术.md",
+              "sha256": "8fa393c72dfc5fbba6f1631534a5e5803684fa96f04169d3d51947a4f03ece70",
+              "lineRanges": [
+                [
+                  37,
+                  38
+                ],
+                [
+                  40,
+                  43
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                  "anchor": "L37",
+                  "sectionSha256": "23132475d1243ecf603c286ee54624242166549caa6f52646b3daa8c0cecf69d"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-46ff66686d698826--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "意志",
+                    "minimum": 5
+                  },
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "感知",
+                    "minimum": 4
+                  },
+                  {
+                    "kind": "expertise-minimum",
+                    "skill": "肉搏",
+                    "minimum": 5,
+                    "skillModel": "primary-plus-one-subskill"
+                  }
+                ],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                  "anchor": "L37",
+                  "sectionSha256": "23132475d1243ecf603c286ee54624242166549caa6f52646b3daa8c0cecf69d"
+                },
+                "semanticStatus": "partial"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L37",
+              "sectionSha256": "23132475d1243ecf603c286ee54624242166549caa6f52646b3daa8c0cecf69d"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L37",
+              "sectionSha256": "23132475d1243ecf603c286ee54624242166549caa6f52646b3daa8c0cecf69d"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L37",
+              "sectionSha256": "23132475d1243ecf603c286ee54624242166549caa6f52646b3daa8c0cecf69d"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L37",
+              "sectionSha256": "23132475d1243ecf603c286ee54624242166549caa6f52646b3daa8c0cecf69d"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L37",
+              "sectionSha256": "23132475d1243ecf603c286ee54624242166549caa6f52646b3daa8c0cecf69d"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L37",
+              "sectionSha256": "23132475d1243ecf603c286ee54624242166549caa6f52646b3daa8c0cecf69d"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-46ff66686d698826--fe846e5da0c9",
+          "name": "圣堂防身术-25",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+            "anchor": "L44",
+            "sectionSha256": "d53aa4b68cba752c9a46f43fabe9a436e6bfab338f33e0742a70d0d39536d8b7"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/圣堂防身术.md",
+              "sha256": "8fa393c72dfc5fbba6f1631534a5e5803684fa96f04169d3d51947a4f03ece70",
+              "lineRanges": [
+                [
+                  44,
+                  45
+                ],
+                [
+                  47,
+                  50
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                  "anchor": "L44",
+                  "sectionSha256": "d53aa4b68cba752c9a46f43fabe9a436e6bfab338f33e0742a70d0d39536d8b7"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-46ff66686d698826--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [
+                  {
+                    "kind": "expertise-minimum",
+                    "skill": "运动",
+                    "minimum": 4,
+                    "skillModel": "primary-plus-one-subskill"
+                  }
+                ],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                  "anchor": "L44",
+                  "sectionSha256": "d53aa4b68cba752c9a46f43fabe9a436e6bfab338f33e0742a70d0d39536d8b7"
+                },
+                "semanticStatus": "partial"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L44",
+              "sectionSha256": "d53aa4b68cba752c9a46f43fabe9a436e6bfab338f33e0742a70d0d39536d8b7"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L44",
+              "sectionSha256": "d53aa4b68cba752c9a46f43fabe9a436e6bfab338f33e0742a70d0d39536d8b7"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L44",
+              "sectionSha256": "d53aa4b68cba752c9a46f43fabe9a436e6bfab338f33e0742a70d0d39536d8b7"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L44",
+              "sectionSha256": "d53aa4b68cba752c9a46f43fabe9a436e6bfab338f33e0742a70d0d39536d8b7"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L44",
+              "sectionSha256": "d53aa4b68cba752c9a46f43fabe9a436e6bfab338f33e0742a70d0d39536d8b7"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L44",
+              "sectionSha256": "d53aa4b68cba752c9a46f43fabe9a436e6bfab338f33e0742a70d0d39536d8b7"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-46ff66686d698826--e5d2745e476a",
+          "name": "圣堂防身术-33",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+            "anchor": "L51",
+            "sectionSha256": "2f2a6dd30481f4d01811c28de258adfd323129cdd396079a6896c748e01ca9d2"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/圣堂防身术.md",
+              "sha256": "8fa393c72dfc5fbba6f1631534a5e5803684fa96f04169d3d51947a4f03ece70",
+              "lineRanges": [
+                [
+                  51,
+                  52
+                ],
+                [
+                  54,
+                  56
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                  "anchor": "L51",
+                  "sectionSha256": "2f2a6dd30481f4d01811c28de258adfd323129cdd396079a6896c748e01ca9d2"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-46ff66686d698826--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                  "anchor": "L51",
+                  "sectionSha256": "2f2a6dd30481f4d01811c28de258adfd323129cdd396079a6896c748e01ca9d2"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L51",
+              "sectionSha256": "2f2a6dd30481f4d01811c28de258adfd323129cdd396079a6896c748e01ca9d2"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L51",
+              "sectionSha256": "2f2a6dd30481f4d01811c28de258adfd323129cdd396079a6896c748e01ca9d2"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L51",
+              "sectionSha256": "2f2a6dd30481f4d01811c28de258adfd323129cdd396079a6896c748e01ca9d2"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L51",
+              "sectionSha256": "2f2a6dd30481f4d01811c28de258adfd323129cdd396079a6896c748e01ca9d2"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L51",
+              "sectionSha256": "2f2a6dd30481f4d01811c28de258adfd323129cdd396079a6896c748e01ca9d2"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L51",
+              "sectionSha256": "2f2a6dd30481f4d01811c28de258adfd323129cdd396079a6896c748e01ca9d2"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-46ff66686d698826--bf62b41b168d",
+          "name": "圣堂防身术-49",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+            "anchor": "L57",
+            "sectionSha256": "bd2a84a5324e2d14c71256f066d269eda4f1d89b50d013dd433364acaf2f762e"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/圣堂防身术.md",
+              "sha256": "8fa393c72dfc5fbba6f1631534a5e5803684fa96f04169d3d51947a4f03ece70",
+              "lineRanges": [
+                [
+                  57,
+                  58
+                ],
+                [
+                  60,
+                  63
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                  "anchor": "L57",
+                  "sectionSha256": "bd2a84a5324e2d14c71256f066d269eda4f1d89b50d013dd433364acaf2f762e"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-46ff66686d698826--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                  "anchor": "L57",
+                  "sectionSha256": "bd2a84a5324e2d14c71256f066d269eda4f1d89b50d013dd433364acaf2f762e"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L57",
+              "sectionSha256": "bd2a84a5324e2d14c71256f066d269eda4f1d89b50d013dd433364acaf2f762e"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L57",
+              "sectionSha256": "bd2a84a5324e2d14c71256f066d269eda4f1d89b50d013dd433364acaf2f762e"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                  "anchor": "L57",
+                  "sectionSha256": "bd2a84a5324e2d14c71256f066d269eda4f1d89b50d013dd433364acaf2f762e"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                  "anchor": "L57",
+                  "sectionSha256": "bd2a84a5324e2d14c71256f066d269eda4f1d89b50d013dd433364acaf2f762e"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L57",
+              "sectionSha256": "bd2a84a5324e2d14c71256f066d269eda4f1d89b50d013dd433364acaf2f762e"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                  "anchor": "L57",
+                  "sectionSha256": "bd2a84a5324e2d14c71256f066d269eda4f1d89b50d013dd433364acaf2f762e"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L57",
+              "sectionSha256": "bd2a84a5324e2d14c71256f066d269eda4f1d89b50d013dd433364acaf2f762e"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L57",
+              "sectionSha256": "bd2a84a5324e2d14c71256f066d269eda4f1d89b50d013dd433364acaf2f762e"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L57",
+              "sectionSha256": "bd2a84a5324e2d14c71256f066d269eda4f1d89b50d013dd433364acaf2f762e"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "numeric-modifier",
+              "stat": "speed",
+              "value": 20,
+              "mode": "increase",
+              "bonusType": "unspecified-in-fragment",
+              "target": "self",
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "full-conditions",
+                "inheritance-and-stacking"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                "anchor": "L57",
+                "sectionSha256": "bd2a84a5324e2d14c71256f066d269eda4f1d89b50d013dd433364acaf2f762e"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-46ff66686d698826--fb0a5f456401",
+          "name": "圣堂防身术-54",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+            "anchor": "L64",
+            "sectionSha256": "0af3f1d7a8bc260eafc221faed42c6cd3d59a937e2c3ed0a19dc3c41b4aaafe0"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/圣堂防身术.md",
+              "sha256": "8fa393c72dfc5fbba6f1631534a5e5803684fa96f04169d3d51947a4f03ece70",
+              "lineRanges": [
+                [
+                  64,
+                  65
+                ],
+                [
+                  67,
+                  70
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                  "anchor": "L64",
+                  "sectionSha256": "0af3f1d7a8bc260eafc221faed42c6cd3d59a937e2c3ed0a19dc3c41b4aaafe0"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-46ff66686d698826--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                  "anchor": "L64",
+                  "sectionSha256": "0af3f1d7a8bc260eafc221faed42c6cd3d59a937e2c3ed0a19dc3c41b4aaafe0"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L64",
+              "sectionSha256": "0af3f1d7a8bc260eafc221faed42c6cd3d59a937e2c3ed0a19dc3c41b4aaafe0"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L64",
+              "sectionSha256": "0af3f1d7a8bc260eafc221faed42c6cd3d59a937e2c3ed0a19dc3c41b4aaafe0"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L64",
+              "sectionSha256": "0af3f1d7a8bc260eafc221faed42c6cd3d59a937e2c3ed0a19dc3c41b4aaafe0"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L64",
+              "sectionSha256": "0af3f1d7a8bc260eafc221faed42c6cd3d59a937e2c3ed0a19dc3c41b4aaafe0"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L64",
+              "sectionSha256": "0af3f1d7a8bc260eafc221faed42c6cd3d59a937e2c3ed0a19dc3c41b4aaafe0"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L64",
+              "sectionSha256": "0af3f1d7a8bc260eafc221faed42c6cd3d59a937e2c3ed0a19dc3c41b4aaafe0"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-46ff66686d698826--3bb4f37f6d3a",
+          "name": "圣堂防身术-73",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+            "anchor": "L71",
+            "sectionSha256": "a2ec0bcbfd876df4803dfd2e13b2df2cfcd64b4001012f90db50913952559a88"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/圣堂防身术.md",
+              "sha256": "8fa393c72dfc5fbba6f1631534a5e5803684fa96f04169d3d51947a4f03ece70",
+              "lineRanges": [
+                [
+                  71,
+                  72
+                ],
+                [
+                  74,
+                  77
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                  "anchor": "L71",
+                  "sectionSha256": "a2ec0bcbfd876df4803dfd2e13b2df2cfcd64b4001012f90db50913952559a88"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-46ff66686d698826--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "敏捷",
+                    "minimum": 6
+                  },
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "感知",
+                    "minimum": 6
+                  },
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "力量",
+                    "minimum": 6
+                  }
+                ],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                  "anchor": "L71",
+                  "sectionSha256": "a2ec0bcbfd876df4803dfd2e13b2df2cfcd64b4001012f90db50913952559a88"
+                },
+                "semanticStatus": "partial"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L71",
+              "sectionSha256": "a2ec0bcbfd876df4803dfd2e13b2df2cfcd64b4001012f90db50913952559a88"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L71",
+              "sectionSha256": "a2ec0bcbfd876df4803dfd2e13b2df2cfcd64b4001012f90db50913952559a88"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                  "anchor": "L71",
+                  "sectionSha256": "a2ec0bcbfd876df4803dfd2e13b2df2cfcd64b4001012f90db50913952559a88"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L71",
+              "sectionSha256": "a2ec0bcbfd876df4803dfd2e13b2df2cfcd64b4001012f90db50913952559a88"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L71",
+              "sectionSha256": "a2ec0bcbfd876df4803dfd2e13b2df2cfcd64b4001012f90db50913952559a88"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L71",
+              "sectionSha256": "a2ec0bcbfd876df4803dfd2e13b2df2cfcd64b4001012f90db50913952559a88"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L71",
+              "sectionSha256": "a2ec0bcbfd876df4803dfd2e13b2df2cfcd64b4001012f90db50913952559a88"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-46ff66686d698826--98b85ce2d168",
+          "name": "圣堂防身术-83",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+            "anchor": "L78",
+            "sectionSha256": "a322619ceae7ccc4e7cad2ce728de581ef01692603aa3435b3581616dd53d3b3"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/圣堂防身术.md",
+              "sha256": "8fa393c72dfc5fbba6f1631534a5e5803684fa96f04169d3d51947a4f03ece70",
+              "lineRanges": [
+                [
+                  78,
+                  79
+                ],
+                [
+                  81,
+                  84
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                  "anchor": "L78",
+                  "sectionSha256": "a322619ceae7ccc4e7cad2ce728de581ef01692603aa3435b3581616dd53d3b3"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard",
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-46ff66686d698826--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "力量",
+                    "minimum": 7
+                  },
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "敏捷",
+                    "minimum": 7
+                  },
+                  {
+                    "kind": "expertise-minimum",
+                    "skill": "肉搏",
+                    "minimum": 5,
+                    "skillModel": "primary-plus-one-subskill"
+                  }
+                ],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                  "anchor": "L78",
+                  "sectionSha256": "a322619ceae7ccc4e7cad2ce728de581ef01692603aa3435b3581616dd53d3b3"
+                },
+                "semanticStatus": "partial"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L78",
+              "sectionSha256": "a322619ceae7ccc4e7cad2ce728de581ef01692603aa3435b3581616dd53d3b3"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L78",
+              "sectionSha256": "a322619ceae7ccc4e7cad2ce728de581ef01692603aa3435b3581616dd53d3b3"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                  "anchor": "L78",
+                  "sectionSha256": "a322619ceae7ccc4e7cad2ce728de581ef01692603aa3435b3581616dd53d3b3"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L78",
+              "sectionSha256": "a322619ceae7ccc4e7cad2ce728de581ef01692603aa3435b3581616dd53d3b3"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L78",
+              "sectionSha256": "a322619ceae7ccc4e7cad2ce728de581ef01692603aa3435b3581616dd53d3b3"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L78",
+              "sectionSha256": "a322619ceae7ccc4e7cad2ce728de581ef01692603aa3435b3581616dd53d3b3"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+              "anchor": "L78",
+              "sectionSha256": "a322619ceae7ccc4e7cad2ce728de581ef01692603aa3435b3581616dd53d3b3"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "numeric-modifier",
+              "stat": "baseDefense",
+              "value": 3,
+              "mode": "increase",
+              "bonusType": "unspecified-in-fragment",
+              "target": "self",
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "full-conditions",
+                "inheritance-and-stacking"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/059-圣堂防身术.md",
+                "anchor": "L78",
+                "sectionSha256": "a322619ceae7ccc4e7cad2ce728de581ef01692603aa3435b3581616dd53d3b3"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "圣堂防身术",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "圣堂防身术-0",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "圣堂防身术-1",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "圣堂防身术-5",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "圣堂防身术-7",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "圣堂防身术-13",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "圣堂防身术-25",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "圣堂防身术-33",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "圣堂防身术-49",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "圣堂防身术-54",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "圣堂防身术-73",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "圣堂防身术-83",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-46ff66686d698826--0ae594c1109f--intent",
+      "name": "圣堂防身术",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-46ff66686d698826--0ae594c1109f",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-46ff66686d698826--79cfaa5a36db--intent",
+      "name": "圣堂防身术-0",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "move"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-46ff66686d698826--79cfaa5a36db",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-46ff66686d698826--62317f6d0509--intent",
+      "name": "圣堂防身术-13",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-46ff66686d698826--62317f6d0509",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-46ff66686d698826--fe846e5da0c9--intent",
+      "name": "圣堂防身术-25",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-46ff66686d698826--fe846e5da0c9",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-46ff66686d698826--bf62b41b168d--intent",
+      "name": "圣堂防身术-49",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-46ff66686d698826--bf62b41b168d",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-46ff66686d698826--3bb4f37f6d3a--intent",
+      "name": "圣堂防身术-73",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-46ff66686d698826--3bb4f37f6d3a",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-46ff66686d698826--98b85ce2d168--intent",
+      "name": "圣堂防身术-83",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard",
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-46ff66686d698826--98b85ce2d168",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "duration-inheritance-and-no-implicit-refresh",
+    "prerequisite-logic-not-fully-encoded",
+    "attack-program-hardcodes-INT-and-casting"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

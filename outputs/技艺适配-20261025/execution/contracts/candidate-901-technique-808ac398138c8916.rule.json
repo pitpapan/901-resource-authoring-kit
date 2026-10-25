@@ -1,0 +1,3202 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-808ac398138c8916",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "魔力宝贝通用技艺",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J07",
+    "aliases": [
+      "魔力宝贝通用技艺",
+      "魔力宝贝通用战斗技艺",
+      "崩击",
+      "战栗袭心",
+      "乾坤一掷/诸刃",
+      "连击/乱射",
+      "气功弹",
+      "迅捷果敢",
+      "戒骄戒躁",
+      "阳炎",
+      "反击",
+      "护卫",
+      "圣盾",
+      "明镜止水"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/魔力宝贝通用技艺.md",
+        "sha256": "46c55695fd7628fe666549bce4d495eae20cf6ff1ee44a53776797713a837447",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            49
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+    "sha256": "e927f75e3925ae0586c5e5140d8840e78e2897958bebf1ccd5ae7f891ff41ebb"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-808ac398138c8916--0ae594c1109f",
+          "name": "魔力宝贝通用技艺",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+            "anchor": "条目",
+            "sectionSha256": "11a29ed8e36b872aa38af54ad2c03cec74435575749628a0da8cdbb6010e9a42"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/魔力宝贝通用技艺.md",
+              "sha256": "46c55695fd7628fe666549bce4d495eae20cf6ff1ee44a53776797713a837447",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  6
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "11a29ed8e36b872aa38af54ad2c03cec74435575749628a0da8cdbb6010e9a42"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "11a29ed8e36b872aa38af54ad2c03cec74435575749628a0da8cdbb6010e9a42"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "11a29ed8e36b872aa38af54ad2c03cec74435575749628a0da8cdbb6010e9a42"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "11a29ed8e36b872aa38af54ad2c03cec74435575749628a0da8cdbb6010e9a42"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "11a29ed8e36b872aa38af54ad2c03cec74435575749628a0da8cdbb6010e9a42"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "11a29ed8e36b872aa38af54ad2c03cec74435575749628a0da8cdbb6010e9a42"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-808ac398138c8916--ee292cd1d6c1",
+          "name": "崩击",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+            "anchor": "L7",
+            "sectionSha256": "ec910848f9958056fc1bbfc4a60743b4ce055d2888a30445ed37d647ddf95588"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/魔力宝贝通用技艺.md",
+              "sha256": "46c55695fd7628fe666549bce4d495eae20cf6ff1ee44a53776797713a837447",
+              "lineRanges": [
+                [
+                  7,
+                  9
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L7",
+                  "sectionSha256": "ec910848f9958056fc1bbfc4a60743b4ce055d2888a30445ed37d647ddf95588"
+                }
+              },
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L7",
+                  "sectionSha256": "ec910848f9958056fc1bbfc4a60743b4ce055d2888a30445ed37d647ddf95588"
+                }
+              },
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L7",
+                  "sectionSha256": "ec910848f9958056fc1bbfc4a60743b4ce055d2888a30445ed37d647ddf95588"
+                }
+              },
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L7",
+                  "sectionSha256": "ec910848f9958056fc1bbfc4a60743b4ce055d2888a30445ed37d647ddf95588"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-808ac398138c8916--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "difference",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L7",
+              "sectionSha256": "ec910848f9958056fc1bbfc4a60743b4ce055d2888a30445ed37d647ddf95588"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L7",
+              "sectionSha256": "ec910848f9958056fc1bbfc4a60743b4ce055d2888a30445ed37d647ddf95588"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L7",
+                  "sectionSha256": "ec910848f9958056fc1bbfc4a60743b4ce055d2888a30445ed37d647ddf95588"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L7",
+              "sectionSha256": "ec910848f9958056fc1bbfc4a60743b4ce055d2888a30445ed37d647ddf95588"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "partial",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": {
+                    "kind": "rank-vector",
+                    "values": [
+                      1,
+                      3,
+                      5,
+                      7
+                    ]
+                  },
+                  "pool": "魔力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L7",
+                  "sectionSha256": "ec910848f9958056fc1bbfc4a60743b4ce055d2888a30445ed37d647ddf95588"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L7",
+              "sectionSha256": "ec910848f9958056fc1bbfc4a60743b4ce055d2888a30445ed37d647ddf95588"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L7",
+              "sectionSha256": "ec910848f9958056fc1bbfc4a60743b4ce055d2888a30445ed37d647ddf95588"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L7",
+              "sectionSha256": "ec910848f9958056fc1bbfc4a60743b4ce055d2888a30445ed37d647ddf95588"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "招式",
+              "value": 72,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                "anchor": "L7",
+                "sectionSha256": "ec910848f9958056fc1bbfc4a60743b4ce055d2888a30445ed37d647ddf95588"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-808ac398138c8916--79cfaa5a36db",
+          "name": "战栗袭心",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+            "anchor": "L10",
+            "sectionSha256": "5963d212870a2b125bb93dee69ca97fabaecc7e88160cc51e58306795063f72e"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/魔力宝贝通用技艺.md",
+              "sha256": "46c55695fd7628fe666549bce4d495eae20cf6ff1ee44a53776797713a837447",
+              "lineRanges": [
+                [
+                  10,
+                  13
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L10",
+                  "sectionSha256": "5963d212870a2b125bb93dee69ca97fabaecc7e88160cc51e58306795063f72e"
+                }
+              },
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L10",
+                  "sectionSha256": "5963d212870a2b125bb93dee69ca97fabaecc7e88160cc51e58306795063f72e"
+                }
+              },
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L10",
+                  "sectionSha256": "5963d212870a2b125bb93dee69ca97fabaecc7e88160cc51e58306795063f72e"
+                }
+              },
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L10",
+                  "sectionSha256": "5963d212870a2b125bb93dee69ca97fabaecc7e88160cc51e58306795063f72e"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-808ac398138c8916--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "difference",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L10",
+              "sectionSha256": "5963d212870a2b125bb93dee69ca97fabaecc7e88160cc51e58306795063f72e"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L10",
+              "sectionSha256": "5963d212870a2b125bb93dee69ca97fabaecc7e88160cc51e58306795063f72e"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L10",
+                  "sectionSha256": "5963d212870a2b125bb93dee69ca97fabaecc7e88160cc51e58306795063f72e"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L10",
+              "sectionSha256": "5963d212870a2b125bb93dee69ca97fabaecc7e88160cc51e58306795063f72e"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "partial",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": {
+                    "kind": "rank-vector",
+                    "values": [
+                      1,
+                      3,
+                      5,
+                      7
+                    ]
+                  },
+                  "pool": "魔力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L10",
+                  "sectionSha256": "5963d212870a2b125bb93dee69ca97fabaecc7e88160cc51e58306795063f72e"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L10",
+              "sectionSha256": "5963d212870a2b125bb93dee69ca97fabaecc7e88160cc51e58306795063f72e"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L10",
+              "sectionSha256": "5963d212870a2b125bb93dee69ca97fabaecc7e88160cc51e58306795063f72e"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L10",
+              "sectionSha256": "5963d212870a2b125bb93dee69ca97fabaecc7e88160cc51e58306795063f72e"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-808ac398138c8916--4e20baac66c8",
+          "name": "乾坤一掷/诸刃",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+            "anchor": "L14",
+            "sectionSha256": "61a3b5a7d3ad181483726a330b858a15dea822c883a1cd1de58ecc0ea96432cc"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/魔力宝贝通用技艺.md",
+              "sha256": "46c55695fd7628fe666549bce4d495eae20cf6ff1ee44a53776797713a837447",
+              "lineRanges": [
+                [
+                  14,
+                  16
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L14",
+                  "sectionSha256": "61a3b5a7d3ad181483726a330b858a15dea822c883a1cd1de58ecc0ea96432cc"
+                }
+              },
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L14",
+                  "sectionSha256": "61a3b5a7d3ad181483726a330b858a15dea822c883a1cd1de58ecc0ea96432cc"
+                }
+              },
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L14",
+                  "sectionSha256": "61a3b5a7d3ad181483726a330b858a15dea822c883a1cd1de58ecc0ea96432cc"
+                }
+              },
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L14",
+                  "sectionSha256": "61a3b5a7d3ad181483726a330b858a15dea822c883a1cd1de58ecc0ea96432cc"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-808ac398138c8916--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "difference",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L14",
+              "sectionSha256": "61a3b5a7d3ad181483726a330b858a15dea822c883a1cd1de58ecc0ea96432cc"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L14",
+              "sectionSha256": "61a3b5a7d3ad181483726a330b858a15dea822c883a1cd1de58ecc0ea96432cc"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L14",
+                  "sectionSha256": "61a3b5a7d3ad181483726a330b858a15dea822c883a1cd1de58ecc0ea96432cc"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L14",
+              "sectionSha256": "61a3b5a7d3ad181483726a330b858a15dea822c883a1cd1de58ecc0ea96432cc"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "partial",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": {
+                    "kind": "rank-vector",
+                    "values": [
+                      1,
+                      3,
+                      5,
+                      7
+                    ]
+                  },
+                  "pool": "魔力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L14",
+                  "sectionSha256": "61a3b5a7d3ad181483726a330b858a15dea822c883a1cd1de58ecc0ea96432cc"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L14",
+              "sectionSha256": "61a3b5a7d3ad181483726a330b858a15dea822c883a1cd1de58ecc0ea96432cc"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L14",
+              "sectionSha256": "61a3b5a7d3ad181483726a330b858a15dea822c883a1cd1de58ecc0ea96432cc"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L14",
+              "sectionSha256": "61a3b5a7d3ad181483726a330b858a15dea822c883a1cd1de58ecc0ea96432cc"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "招式",
+              "value": 72,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                "anchor": "L14",
+                "sectionSha256": "61a3b5a7d3ad181483726a330b858a15dea822c883a1cd1de58ecc0ea96432cc"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-808ac398138c8916--094e95ffe05e",
+          "name": "连击/乱射",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+            "anchor": "L17",
+            "sectionSha256": "4acc98aae608d15ac2c059bc09d2e4f62ac97f62ef9fc1da120705e1b302769d"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/魔力宝贝通用技艺.md",
+              "sha256": "46c55695fd7628fe666549bce4d495eae20cf6ff1ee44a53776797713a837447",
+              "lineRanges": [
+                [
+                  17,
+                  19
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L17",
+                  "sectionSha256": "4acc98aae608d15ac2c059bc09d2e4f62ac97f62ef9fc1da120705e1b302769d"
+                }
+              },
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L17",
+                  "sectionSha256": "4acc98aae608d15ac2c059bc09d2e4f62ac97f62ef9fc1da120705e1b302769d"
+                }
+              },
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L17",
+                  "sectionSha256": "4acc98aae608d15ac2c059bc09d2e4f62ac97f62ef9fc1da120705e1b302769d"
+                }
+              },
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L17",
+                  "sectionSha256": "4acc98aae608d15ac2c059bc09d2e4f62ac97f62ef9fc1da120705e1b302769d"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard",
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-808ac398138c8916--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "difference",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L17",
+              "sectionSha256": "4acc98aae608d15ac2c059bc09d2e4f62ac97f62ef9fc1da120705e1b302769d"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L17",
+              "sectionSha256": "4acc98aae608d15ac2c059bc09d2e4f62ac97f62ef9fc1da120705e1b302769d"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L17",
+                  "sectionSha256": "4acc98aae608d15ac2c059bc09d2e4f62ac97f62ef9fc1da120705e1b302769d"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L17",
+              "sectionSha256": "4acc98aae608d15ac2c059bc09d2e4f62ac97f62ef9fc1da120705e1b302769d"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "partial",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": {
+                    "kind": "rank-vector",
+                    "values": [
+                      1,
+                      3,
+                      5,
+                      7
+                    ]
+                  },
+                  "pool": "魔力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L17",
+                  "sectionSha256": "4acc98aae608d15ac2c059bc09d2e4f62ac97f62ef9fc1da120705e1b302769d"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L17",
+              "sectionSha256": "4acc98aae608d15ac2c059bc09d2e4f62ac97f62ef9fc1da120705e1b302769d"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L17",
+              "sectionSha256": "4acc98aae608d15ac2c059bc09d2e4f62ac97f62ef9fc1da120705e1b302769d"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L17",
+              "sectionSha256": "4acc98aae608d15ac2c059bc09d2e4f62ac97f62ef9fc1da120705e1b302769d"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-808ac398138c8916--bbbae651d4e8",
+          "name": "气功弹",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+            "anchor": "L20",
+            "sectionSha256": "61c906af1660fb3114b723fe1a96d6e25c325ea798c039921f8d9181cd434d47"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/魔力宝贝通用技艺.md",
+              "sha256": "46c55695fd7628fe666549bce4d495eae20cf6ff1ee44a53776797713a837447",
+              "lineRanges": [
+                [
+                  20,
+                  22
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L20",
+                  "sectionSha256": "61c906af1660fb3114b723fe1a96d6e25c325ea798c039921f8d9181cd434d47"
+                }
+              },
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L20",
+                  "sectionSha256": "61c906af1660fb3114b723fe1a96d6e25c325ea798c039921f8d9181cd434d47"
+                }
+              },
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 85,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L20",
+                  "sectionSha256": "61c906af1660fb3114b723fe1a96d6e25c325ea798c039921f8d9181cd434d47"
+                }
+              },
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 215,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L20",
+                  "sectionSha256": "61c906af1660fb3114b723fe1a96d6e25c325ea798c039921f8d9181cd434d47"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-808ac398138c8916--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "difference",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L20",
+              "sectionSha256": "61c906af1660fb3114b723fe1a96d6e25c325ea798c039921f8d9181cd434d47"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L20",
+              "sectionSha256": "61c906af1660fb3114b723fe1a96d6e25c325ea798c039921f8d9181cd434d47"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L20",
+              "sectionSha256": "61c906af1660fb3114b723fe1a96d6e25c325ea798c039921f8d9181cd434d47"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L20",
+              "sectionSha256": "61c906af1660fb3114b723fe1a96d6e25c325ea798c039921f8d9181cd434d47"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L20",
+              "sectionSha256": "61c906af1660fb3114b723fe1a96d6e25c325ea798c039921f8d9181cd434d47"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L20",
+              "sectionSha256": "61c906af1660fb3114b723fe1a96d6e25c325ea798c039921f8d9181cd434d47"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-808ac398138c8916--b4958c67124e",
+          "name": "迅捷果敢",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+            "anchor": "L23",
+            "sectionSha256": "30217397e34aea31841e1bb591dee582cfa87bd50160fe4d23132a6bd41ccd24"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/魔力宝贝通用技艺.md",
+              "sha256": "46c55695fd7628fe666549bce4d495eae20cf6ff1ee44a53776797713a837447",
+              "lineRanges": [
+                [
+                  23,
+                  25
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L23",
+                  "sectionSha256": "30217397e34aea31841e1bb591dee582cfa87bd50160fe4d23132a6bd41ccd24"
+                }
+              },
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L23",
+                  "sectionSha256": "30217397e34aea31841e1bb591dee582cfa87bd50160fe4d23132a6bd41ccd24"
+                }
+              },
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L23",
+                  "sectionSha256": "30217397e34aea31841e1bb591dee582cfa87bd50160fe4d23132a6bd41ccd24"
+                }
+              },
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L23",
+                  "sectionSha256": "30217397e34aea31841e1bb591dee582cfa87bd50160fe4d23132a6bd41ccd24"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ],
+              [
+                "move"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-808ac398138c8916--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "difference",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L23",
+              "sectionSha256": "30217397e34aea31841e1bb591dee582cfa87bd50160fe4d23132a6bd41ccd24"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L23",
+              "sectionSha256": "30217397e34aea31841e1bb591dee582cfa87bd50160fe4d23132a6bd41ccd24"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 3,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L23",
+                  "sectionSha256": "30217397e34aea31841e1bb591dee582cfa87bd50160fe4d23132a6bd41ccd24"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L23",
+              "sectionSha256": "30217397e34aea31841e1bb591dee582cfa87bd50160fe4d23132a6bd41ccd24"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L23",
+              "sectionSha256": "30217397e34aea31841e1bb591dee582cfa87bd50160fe4d23132a6bd41ccd24"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L23",
+              "sectionSha256": "30217397e34aea31841e1bb591dee582cfa87bd50160fe4d23132a6bd41ccd24"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L23",
+              "sectionSha256": "30217397e34aea31841e1bb591dee582cfa87bd50160fe4d23132a6bd41ccd24"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-808ac398138c8916--fbf7776a3be2",
+          "name": "戒骄戒躁",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+            "anchor": "L26",
+            "sectionSha256": "db255ecd312cffe12812acaab17a0e7ce52613112c71dde8ad0839f0c6a3da1b"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/魔力宝贝通用技艺.md",
+              "sha256": "46c55695fd7628fe666549bce4d495eae20cf6ff1ee44a53776797713a837447",
+              "lineRanges": [
+                [
+                  26,
+                  29
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L26",
+                  "sectionSha256": "db255ecd312cffe12812acaab17a0e7ce52613112c71dde8ad0839f0c6a3da1b"
+                }
+              },
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L26",
+                  "sectionSha256": "db255ecd312cffe12812acaab17a0e7ce52613112c71dde8ad0839f0c6a3da1b"
+                }
+              },
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L26",
+                  "sectionSha256": "db255ecd312cffe12812acaab17a0e7ce52613112c71dde8ad0839f0c6a3da1b"
+                }
+              },
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L26",
+                  "sectionSha256": "db255ecd312cffe12812acaab17a0e7ce52613112c71dde8ad0839f0c6a3da1b"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-808ac398138c8916--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "difference",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L26",
+              "sectionSha256": "db255ecd312cffe12812acaab17a0e7ce52613112c71dde8ad0839f0c6a3da1b"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L26",
+              "sectionSha256": "db255ecd312cffe12812acaab17a0e7ce52613112c71dde8ad0839f0c6a3da1b"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L26",
+                  "sectionSha256": "db255ecd312cffe12812acaab17a0e7ce52613112c71dde8ad0839f0c6a3da1b"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L26",
+              "sectionSha256": "db255ecd312cffe12812acaab17a0e7ce52613112c71dde8ad0839f0c6a3da1b"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "partial",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": {
+                    "kind": "rank-vector",
+                    "values": [
+                      1,
+                      3,
+                      5,
+                      7
+                    ]
+                  },
+                  "pool": "魔力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L26",
+                  "sectionSha256": "db255ecd312cffe12812acaab17a0e7ce52613112c71dde8ad0839f0c6a3da1b"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L26",
+              "sectionSha256": "db255ecd312cffe12812acaab17a0e7ce52613112c71dde8ad0839f0c6a3da1b"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L26",
+              "sectionSha256": "db255ecd312cffe12812acaab17a0e7ce52613112c71dde8ad0839f0c6a3da1b"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L26",
+              "sectionSha256": "db255ecd312cffe12812acaab17a0e7ce52613112c71dde8ad0839f0c6a3da1b"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "招式",
+              "value": 72,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                "anchor": "L26",
+                "sectionSha256": "db255ecd312cffe12812acaab17a0e7ce52613112c71dde8ad0839f0c6a3da1b"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-808ac398138c8916--1c9f3c66445d",
+          "name": "阳炎",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+            "anchor": "L30",
+            "sectionSha256": "059da75d169561a7c34fd72d1348ce7b9f3a9f756c5ed4f6d46a93878da34847"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/魔力宝贝通用技艺.md",
+              "sha256": "46c55695fd7628fe666549bce4d495eae20cf6ff1ee44a53776797713a837447",
+              "lineRanges": [
+                [
+                  30,
+                  32
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L30",
+                  "sectionSha256": "059da75d169561a7c34fd72d1348ce7b9f3a9f756c5ed4f6d46a93878da34847"
+                }
+              },
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L30",
+                  "sectionSha256": "059da75d169561a7c34fd72d1348ce7b9f3a9f756c5ed4f6d46a93878da34847"
+                }
+              },
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L30",
+                  "sectionSha256": "059da75d169561a7c34fd72d1348ce7b9f3a9f756c5ed4f6d46a93878da34847"
+                }
+              },
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L30",
+                  "sectionSha256": "059da75d169561a7c34fd72d1348ce7b9f3a9f756c5ed4f6d46a93878da34847"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-808ac398138c8916--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "difference",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L30",
+              "sectionSha256": "059da75d169561a7c34fd72d1348ce7b9f3a9f756c5ed4f6d46a93878da34847"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L30",
+              "sectionSha256": "059da75d169561a7c34fd72d1348ce7b9f3a9f756c5ed4f6d46a93878da34847"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L30",
+                  "sectionSha256": "059da75d169561a7c34fd72d1348ce7b9f3a9f756c5ed4f6d46a93878da34847"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L30",
+              "sectionSha256": "059da75d169561a7c34fd72d1348ce7b9f3a9f756c5ed4f6d46a93878da34847"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "partial",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": {
+                    "kind": "rank-vector",
+                    "values": [
+                      1,
+                      3,
+                      5,
+                      7
+                    ]
+                  },
+                  "pool": "魔力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L30",
+                  "sectionSha256": "059da75d169561a7c34fd72d1348ce7b9f3a9f756c5ed4f6d46a93878da34847"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L30",
+              "sectionSha256": "059da75d169561a7c34fd72d1348ce7b9f3a9f756c5ed4f6d46a93878da34847"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L30",
+              "sectionSha256": "059da75d169561a7c34fd72d1348ce7b9f3a9f756c5ed4f6d46a93878da34847"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L30",
+              "sectionSha256": "059da75d169561a7c34fd72d1348ce7b9f3a9f756c5ed4f6d46a93878da34847"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "招式",
+              "value": 72,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                "anchor": "L30",
+                "sectionSha256": "059da75d169561a7c34fd72d1348ce7b9f3a9f756c5ed4f6d46a93878da34847"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-808ac398138c8916--239a51838c73",
+          "name": "反击",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+            "anchor": "L33",
+            "sectionSha256": "499b8aaaaf454df2d90f012cc8cd1d3a0c43adb4178fd38de227c8a13b87d39c"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/魔力宝贝通用技艺.md",
+              "sha256": "46c55695fd7628fe666549bce4d495eae20cf6ff1ee44a53776797713a837447",
+              "lineRanges": [
+                [
+                  33,
+                  39
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L33",
+                  "sectionSha256": "499b8aaaaf454df2d90f012cc8cd1d3a0c43adb4178fd38de227c8a13b87d39c"
+                }
+              },
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L33",
+                  "sectionSha256": "499b8aaaaf454df2d90f012cc8cd1d3a0c43adb4178fd38de227c8a13b87d39c"
+                }
+              },
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L33",
+                  "sectionSha256": "499b8aaaaf454df2d90f012cc8cd1d3a0c43adb4178fd38de227c8a13b87d39c"
+                }
+              },
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L33",
+                  "sectionSha256": "499b8aaaaf454df2d90f012cc8cd1d3a0c43adb4178fd38de227c8a13b87d39c"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-808ac398138c8916--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "difference",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L33",
+              "sectionSha256": "499b8aaaaf454df2d90f012cc8cd1d3a0c43adb4178fd38de227c8a13b87d39c"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L33",
+              "sectionSha256": "499b8aaaaf454df2d90f012cc8cd1d3a0c43adb4178fd38de227c8a13b87d39c"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L33",
+              "sectionSha256": "499b8aaaaf454df2d90f012cc8cd1d3a0c43adb4178fd38de227c8a13b87d39c"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "partial",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": {
+                    "kind": "rank-vector",
+                    "values": [
+                      1,
+                      3,
+                      5,
+                      7
+                    ]
+                  },
+                  "pool": "魔力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L33",
+                  "sectionSha256": "499b8aaaaf454df2d90f012cc8cd1d3a0c43adb4178fd38de227c8a13b87d39c"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L33",
+              "sectionSha256": "499b8aaaaf454df2d90f012cc8cd1d3a0c43adb4178fd38de227c8a13b87d39c"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L33",
+              "sectionSha256": "499b8aaaaf454df2d90f012cc8cd1d3a0c43adb4178fd38de227c8a13b87d39c"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L33",
+              "sectionSha256": "499b8aaaaf454df2d90f012cc8cd1d3a0c43adb4178fd38de227c8a13b87d39c"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-808ac398138c8916--101c7ae8fdaf",
+          "name": "护卫",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+            "anchor": "L40",
+            "sectionSha256": "f6bfcf61ff5f68527f5a78809bab2c133a796af19fea36da838de923e3ef0de6"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/魔力宝贝通用技艺.md",
+              "sha256": "46c55695fd7628fe666549bce4d495eae20cf6ff1ee44a53776797713a837447",
+              "lineRanges": [
+                [
+                  40,
+                  43
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L40",
+                  "sectionSha256": "f6bfcf61ff5f68527f5a78809bab2c133a796af19fea36da838de923e3ef0de6"
+                }
+              },
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L40",
+                  "sectionSha256": "f6bfcf61ff5f68527f5a78809bab2c133a796af19fea36da838de923e3ef0de6"
+                }
+              },
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L40",
+                  "sectionSha256": "f6bfcf61ff5f68527f5a78809bab2c133a796af19fea36da838de923e3ef0de6"
+                }
+              },
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L40",
+                  "sectionSha256": "f6bfcf61ff5f68527f5a78809bab2c133a796af19fea36da838de923e3ef0de6"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-808ac398138c8916--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "difference",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L40",
+              "sectionSha256": "f6bfcf61ff5f68527f5a78809bab2c133a796af19fea36da838de923e3ef0de6"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L40",
+              "sectionSha256": "f6bfcf61ff5f68527f5a78809bab2c133a796af19fea36da838de923e3ef0de6"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L40",
+              "sectionSha256": "f6bfcf61ff5f68527f5a78809bab2c133a796af19fea36da838de923e3ef0de6"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "partial",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": {
+                    "kind": "rank-vector",
+                    "values": [
+                      1,
+                      3,
+                      5,
+                      7
+                    ]
+                  },
+                  "pool": "魔力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L40",
+                  "sectionSha256": "f6bfcf61ff5f68527f5a78809bab2c133a796af19fea36da838de923e3ef0de6"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L40",
+              "sectionSha256": "f6bfcf61ff5f68527f5a78809bab2c133a796af19fea36da838de923e3ef0de6"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L40",
+              "sectionSha256": "f6bfcf61ff5f68527f5a78809bab2c133a796af19fea36da838de923e3ef0de6"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L40",
+              "sectionSha256": "f6bfcf61ff5f68527f5a78809bab2c133a796af19fea36da838de923e3ef0de6"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "招式",
+              "value": 32,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                "anchor": "L40",
+                "sectionSha256": "f6bfcf61ff5f68527f5a78809bab2c133a796af19fea36da838de923e3ef0de6"
+              }
+            },
+            {
+              "kind": "typed-bonus",
+              "bonusType": "招式",
+              "value": 64,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                "anchor": "L40",
+                "sectionSha256": "f6bfcf61ff5f68527f5a78809bab2c133a796af19fea36da838de923e3ef0de6"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-808ac398138c8916--fe846e5da0c9",
+          "name": "圣盾",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+            "anchor": "L44",
+            "sectionSha256": "d65234d3d3795e709480e7353768eeaa2b6f1bfb981bec77cac59651364b6a20"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/魔力宝贝通用技艺.md",
+              "sha256": "46c55695fd7628fe666549bce4d495eae20cf6ff1ee44a53776797713a837447",
+              "lineRanges": [
+                [
+                  44,
+                  46
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L44",
+                  "sectionSha256": "d65234d3d3795e709480e7353768eeaa2b6f1bfb981bec77cac59651364b6a20"
+                }
+              },
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L44",
+                  "sectionSha256": "d65234d3d3795e709480e7353768eeaa2b6f1bfb981bec77cac59651364b6a20"
+                }
+              },
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L44",
+                  "sectionSha256": "d65234d3d3795e709480e7353768eeaa2b6f1bfb981bec77cac59651364b6a20"
+                }
+              },
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L44",
+                  "sectionSha256": "d65234d3d3795e709480e7353768eeaa2b6f1bfb981bec77cac59651364b6a20"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-808ac398138c8916--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "difference",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L44",
+              "sectionSha256": "d65234d3d3795e709480e7353768eeaa2b6f1bfb981bec77cac59651364b6a20"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L44",
+              "sectionSha256": "d65234d3d3795e709480e7353768eeaa2b6f1bfb981bec77cac59651364b6a20"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L44",
+              "sectionSha256": "d65234d3d3795e709480e7353768eeaa2b6f1bfb981bec77cac59651364b6a20"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "partial",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": {
+                    "kind": "rank-vector",
+                    "values": [
+                      1,
+                      3,
+                      5,
+                      7
+                    ]
+                  },
+                  "pool": "魔力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L44",
+                  "sectionSha256": "d65234d3d3795e709480e7353768eeaa2b6f1bfb981bec77cac59651364b6a20"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L44",
+              "sectionSha256": "d65234d3d3795e709480e7353768eeaa2b6f1bfb981bec77cac59651364b6a20"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L44",
+              "sectionSha256": "d65234d3d3795e709480e7353768eeaa2b6f1bfb981bec77cac59651364b6a20"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L44",
+              "sectionSha256": "d65234d3d3795e709480e7353768eeaa2b6f1bfb981bec77cac59651364b6a20"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "神圣",
+              "value": 72,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                "anchor": "L44",
+                "sectionSha256": "d65234d3d3795e709480e7353768eeaa2b6f1bfb981bec77cac59651364b6a20"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-808ac398138c8916--8172b22c0855",
+          "name": "明镜止水",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+            "anchor": "L47",
+            "sectionSha256": "e1156c449afdc47365df77204dfa6c3135ba57827cf2f818e5ff115295794cdf"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/魔力宝贝通用技艺.md",
+              "sha256": "46c55695fd7628fe666549bce4d495eae20cf6ff1ee44a53776797713a837447",
+              "lineRanges": [
+                [
+                  47,
+                  49
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L47",
+                  "sectionSha256": "e1156c449afdc47365df77204dfa6c3135ba57827cf2f818e5ff115295794cdf"
+                }
+              },
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L47",
+                  "sectionSha256": "e1156c449afdc47365df77204dfa6c3135ba57827cf2f818e5ff115295794cdf"
+                }
+              },
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L47",
+                  "sectionSha256": "e1156c449afdc47365df77204dfa6c3135ba57827cf2f818e5ff115295794cdf"
+                }
+              },
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L47",
+                  "sectionSha256": "e1156c449afdc47365df77204dfa6c3135ba57827cf2f818e5ff115295794cdf"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-808ac398138c8916--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "difference",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L47",
+              "sectionSha256": "e1156c449afdc47365df77204dfa6c3135ba57827cf2f818e5ff115295794cdf"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L47",
+              "sectionSha256": "e1156c449afdc47365df77204dfa6c3135ba57827cf2f818e5ff115295794cdf"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L47",
+                  "sectionSha256": "e1156c449afdc47365df77204dfa6c3135ba57827cf2f818e5ff115295794cdf"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L47",
+              "sectionSha256": "e1156c449afdc47365df77204dfa6c3135ba57827cf2f818e5ff115295794cdf"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "partial",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": {
+                    "kind": "rank-vector",
+                    "values": [
+                      1,
+                      3,
+                      5,
+                      7
+                    ]
+                  },
+                  "pool": "魔力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+                  "anchor": "L47",
+                  "sectionSha256": "e1156c449afdc47365df77204dfa6c3135ba57827cf2f818e5ff115295794cdf"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L47",
+              "sectionSha256": "e1156c449afdc47365df77204dfa6c3135ba57827cf2f818e5ff115295794cdf"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L47",
+              "sectionSha256": "e1156c449afdc47365df77204dfa6c3135ba57827cf2f818e5ff115295794cdf"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/103-魔力宝贝通用技艺.md",
+              "anchor": "L47",
+              "sectionSha256": "e1156c449afdc47365df77204dfa6c3135ba57827cf2f818e5ff115295794cdf"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "魔力宝贝通用技艺",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "崩击",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "战栗袭心",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "乾坤一掷/诸刃",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "连击/乱射",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "气功弹",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "迅捷果敢",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "戒骄戒躁",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "阳炎",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "反击",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "护卫",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "圣盾",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "明镜止水",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-808ac398138c8916--ee292cd1d6c1--intent",
+      "name": "崩击",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-808ac398138c8916--ee292cd1d6c1",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-808ac398138c8916--79cfaa5a36db--intent",
+      "name": "战栗袭心",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-808ac398138c8916--79cfaa5a36db",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-808ac398138c8916--4e20baac66c8--intent",
+      "name": "乾坤一掷/诸刃",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-808ac398138c8916--4e20baac66c8",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-808ac398138c8916--094e95ffe05e--intent",
+      "name": "连击/乱射",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard",
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-808ac398138c8916--094e95ffe05e",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-808ac398138c8916--b4958c67124e--intent",
+      "name": "迅捷果敢",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ],
+          [
+            "move"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-808ac398138c8916--b4958c67124e",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-808ac398138c8916--fbf7776a3be2--intent",
+      "name": "戒骄戒躁",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-808ac398138c8916--fbf7776a3be2",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-808ac398138c8916--1c9f3c66445d--intent",
+      "name": "阳炎",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-808ac398138c8916--1c9f3c66445d",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-808ac398138c8916--239a51838c73--intent",
+      "name": "反击",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-808ac398138c8916--239a51838c73",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-808ac398138c8916--101c7ae8fdaf--intent",
+      "name": "护卫",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-808ac398138c8916--101c7ae8fdaf",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-808ac398138c8916--8172b22c0855--intent",
+      "name": "明镜止水",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-808ac398138c8916--8172b22c0855",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "attack-program-hardcodes-INT-and-casting",
+    "duration-inheritance-and-no-implicit-refresh"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

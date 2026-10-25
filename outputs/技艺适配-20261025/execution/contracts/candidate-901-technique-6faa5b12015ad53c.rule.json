@@ -1,0 +1,1605 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-6faa5b12015ad53c",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "三刀三剑",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J04",
+    "aliases": [
+      "三刀三剑",
+      "一剑藏空",
+      "千刀不尽",
+      "百剑无终",
+      "十刀破极",
+      "万剑归元",
+      "一刀绝空"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/三刀三剑.md",
+        "sha256": "c8ccaeece51534c58fbc6ab60ef6dfaba93158764f92bc41bb91674f1716b4be",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            53
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+    "sha256": "a5d046d53b82fddaf3356384715c659d73eff25480ace3c0ba5da43c6510ba6c"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-6faa5b12015ad53c--0ae594c1109f",
+          "name": "三刀三剑",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+            "anchor": "条目",
+            "sectionSha256": "1da187db14ec5f527195a930b8625a2b6152edfcd704065173ae46b8a3c6012f"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/三刀三剑.md",
+              "sha256": "c8ccaeece51534c58fbc6ab60ef6dfaba93158764f92bc41bb91674f1716b4be",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  8
+                ],
+                [
+                  10,
+                  10
+                ],
+                [
+                  16,
+                  16
+                ],
+                [
+                  25,
+                  25
+                ],
+                [
+                  30,
+                  30
+                ],
+                [
+                  34,
+                  34
+                ],
+                [
+                  41,
+                  41
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "条目",
+              "sectionSha256": "1da187db14ec5f527195a930b8625a2b6152edfcd704065173ae46b8a3c6012f"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "条目",
+              "sectionSha256": "1da187db14ec5f527195a930b8625a2b6152edfcd704065173ae46b8a3c6012f"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "条目",
+              "sectionSha256": "1da187db14ec5f527195a930b8625a2b6152edfcd704065173ae46b8a3c6012f"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "条目",
+              "sectionSha256": "1da187db14ec5f527195a930b8625a2b6152edfcd704065173ae46b8a3c6012f"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "条目",
+              "sectionSha256": "1da187db14ec5f527195a930b8625a2b6152edfcd704065173ae46b8a3c6012f"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "条目",
+              "sectionSha256": "1da187db14ec5f527195a930b8625a2b6152edfcd704065173ae46b8a3c6012f"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-6faa5b12015ad53c--90bc9c9c6e24",
+          "name": "一剑藏空",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+            "anchor": "L9",
+            "sectionSha256": "14d1e42ac95060063dd1486da405597d7ac59fb8c7fe236d9ed516afd7a69bc4"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/三刀三剑.md",
+              "sha256": "c8ccaeece51534c58fbc6ab60ef6dfaba93158764f92bc41bb91674f1716b4be",
+              "lineRanges": [
+                [
+                  9,
+                  9
+                ],
+                [
+                  11,
+                  14
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+                  "anchor": "L9",
+                  "sectionSha256": "14d1e42ac95060063dd1486da405597d7ac59fb8c7fe236d9ed516afd7a69bc4"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ],
+              [
+                "standard",
+                "move"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-6faa5b12015ad53c--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L9",
+              "sectionSha256": "14d1e42ac95060063dd1486da405597d7ac59fb8c7fe236d9ed516afd7a69bc4"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+                  "anchor": "L9",
+                  "sectionSha256": "14d1e42ac95060063dd1486da405597d7ac59fb8c7fe236d9ed516afd7a69bc4"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L9",
+              "sectionSha256": "14d1e42ac95060063dd1486da405597d7ac59fb8c7fe236d9ed516afd7a69bc4"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 2,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+                  "anchor": "L9",
+                  "sectionSha256": "14d1e42ac95060063dd1486da405597d7ac59fb8c7fe236d9ed516afd7a69bc4"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L9",
+              "sectionSha256": "14d1e42ac95060063dd1486da405597d7ac59fb8c7fe236d9ed516afd7a69bc4"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "内力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+                  "anchor": "L9",
+                  "sectionSha256": "14d1e42ac95060063dd1486da405597d7ac59fb8c7fe236d9ed516afd7a69bc4"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L9",
+              "sectionSha256": "14d1e42ac95060063dd1486da405597d7ac59fb8c7fe236d9ed516afd7a69bc4"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L9",
+              "sectionSha256": "14d1e42ac95060063dd1486da405597d7ac59fb8c7fe236d9ed516afd7a69bc4"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L9",
+              "sectionSha256": "14d1e42ac95060063dd1486da405597d7ac59fb8c7fe236d9ed516afd7a69bc4"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-6faa5b12015ad53c--ffb618ca2dd4",
+          "name": "千刀不尽",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+            "anchor": "L15",
+            "sectionSha256": "1cd3b34c7a839ed4483e8816aab80dd62eed681929b89ac2d5dd788cb080566e"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/三刀三剑.md",
+              "sha256": "c8ccaeece51534c58fbc6ab60ef6dfaba93158764f92bc41bb91674f1716b4be",
+              "lineRanges": [
+                [
+                  15,
+                  15
+                ],
+                [
+                  17,
+                  23
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+                  "anchor": "L15",
+                  "sectionSha256": "1cd3b34c7a839ed4483e8816aab80dd62eed681929b89ac2d5dd788cb080566e"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ],
+              [
+                "standard",
+                "move"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-6faa5b12015ad53c--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L15",
+              "sectionSha256": "1cd3b34c7a839ed4483e8816aab80dd62eed681929b89ac2d5dd788cb080566e"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L15",
+              "sectionSha256": "1cd3b34c7a839ed4483e8816aab80dd62eed681929b89ac2d5dd788cb080566e"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+                  "anchor": "L15",
+                  "sectionSha256": "1cd3b34c7a839ed4483e8816aab80dd62eed681929b89ac2d5dd788cb080566e"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L15",
+              "sectionSha256": "1cd3b34c7a839ed4483e8816aab80dd62eed681929b89ac2d5dd788cb080566e"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "内力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+                  "anchor": "L15",
+                  "sectionSha256": "1cd3b34c7a839ed4483e8816aab80dd62eed681929b89ac2d5dd788cb080566e"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L15",
+              "sectionSha256": "1cd3b34c7a839ed4483e8816aab80dd62eed681929b89ac2d5dd788cb080566e"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L15",
+              "sectionSha256": "1cd3b34c7a839ed4483e8816aab80dd62eed681929b89ac2d5dd788cb080566e"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L15",
+              "sectionSha256": "1cd3b34c7a839ed4483e8816aab80dd62eed681929b89ac2d5dd788cb080566e"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-6faa5b12015ad53c--ebe53cbe39d6",
+          "name": "百剑无终",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+            "anchor": "L24",
+            "sectionSha256": "776eadccf0631e9c525a191d714040a33f0fcda0fbd74d61816b911384052de4"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/三刀三剑.md",
+              "sha256": "c8ccaeece51534c58fbc6ab60ef6dfaba93158764f92bc41bb91674f1716b4be",
+              "lineRanges": [
+                [
+                  24,
+                  24
+                ],
+                [
+                  26,
+                  28
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+                  "anchor": "L24",
+                  "sectionSha256": "776eadccf0631e9c525a191d714040a33f0fcda0fbd74d61816b911384052de4"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ],
+              [
+                "standard",
+                "move"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-6faa5b12015ad53c--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L24",
+              "sectionSha256": "776eadccf0631e9c525a191d714040a33f0fcda0fbd74d61816b911384052de4"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L24",
+              "sectionSha256": "776eadccf0631e9c525a191d714040a33f0fcda0fbd74d61816b911384052de4"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 3,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+                  "anchor": "L24",
+                  "sectionSha256": "776eadccf0631e9c525a191d714040a33f0fcda0fbd74d61816b911384052de4"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L24",
+              "sectionSha256": "776eadccf0631e9c525a191d714040a33f0fcda0fbd74d61816b911384052de4"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 5,
+                  "pool": "内力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+                  "anchor": "L24",
+                  "sectionSha256": "776eadccf0631e9c525a191d714040a33f0fcda0fbd74d61816b911384052de4"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L24",
+              "sectionSha256": "776eadccf0631e9c525a191d714040a33f0fcda0fbd74d61816b911384052de4"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L24",
+              "sectionSha256": "776eadccf0631e9c525a191d714040a33f0fcda0fbd74d61816b911384052de4"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L24",
+              "sectionSha256": "776eadccf0631e9c525a191d714040a33f0fcda0fbd74d61816b911384052de4"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-6faa5b12015ad53c--bc2b72915c17",
+          "name": "十刀破极",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+            "anchor": "L29",
+            "sectionSha256": "3d451eb2f1b76e552ee456f88244ee3ee52c983b66a0b77b9d2e337d89060ac1"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/三刀三剑.md",
+              "sha256": "c8ccaeece51534c58fbc6ab60ef6dfaba93158764f92bc41bb91674f1716b4be",
+              "lineRanges": [
+                [
+                  29,
+                  29
+                ],
+                [
+                  31,
+                  32
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+                  "anchor": "L29",
+                  "sectionSha256": "3d451eb2f1b76e552ee456f88244ee3ee52c983b66a0b77b9d2e337d89060ac1"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-6faa5b12015ad53c--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L29",
+              "sectionSha256": "3d451eb2f1b76e552ee456f88244ee3ee52c983b66a0b77b9d2e337d89060ac1"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L29",
+              "sectionSha256": "3d451eb2f1b76e552ee456f88244ee3ee52c983b66a0b77b9d2e337d89060ac1"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 10,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+                  "anchor": "L29",
+                  "sectionSha256": "3d451eb2f1b76e552ee456f88244ee3ee52c983b66a0b77b9d2e337d89060ac1"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L29",
+              "sectionSha256": "3d451eb2f1b76e552ee456f88244ee3ee52c983b66a0b77b9d2e337d89060ac1"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 15,
+                  "pool": "内力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+                  "anchor": "L29",
+                  "sectionSha256": "3d451eb2f1b76e552ee456f88244ee3ee52c983b66a0b77b9d2e337d89060ac1"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L29",
+              "sectionSha256": "3d451eb2f1b76e552ee456f88244ee3ee52c983b66a0b77b9d2e337d89060ac1"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L29",
+              "sectionSha256": "3d451eb2f1b76e552ee456f88244ee3ee52c983b66a0b77b9d2e337d89060ac1"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L29",
+              "sectionSha256": "3d451eb2f1b76e552ee456f88244ee3ee52c983b66a0b77b9d2e337d89060ac1"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-6faa5b12015ad53c--239a51838c73",
+          "name": "万剑归元",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+            "anchor": "L33",
+            "sectionSha256": "f15a3a7ad0011ab24c101a43ff4bf67da7c732e070f63cd16cfb9c2dab4da989"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/三刀三剑.md",
+              "sha256": "c8ccaeece51534c58fbc6ab60ef6dfaba93158764f92bc41bb91674f1716b4be",
+              "lineRanges": [
+                [
+                  33,
+                  33
+                ],
+                [
+                  35,
+                  39
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+                  "anchor": "L33",
+                  "sectionSha256": "f15a3a7ad0011ab24c101a43ff4bf67da7c732e070f63cd16cfb9c2dab4da989"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard",
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-6faa5b12015ad53c--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L33",
+              "sectionSha256": "f15a3a7ad0011ab24c101a43ff4bf67da7c732e070f63cd16cfb9c2dab4da989"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L33",
+              "sectionSha256": "f15a3a7ad0011ab24c101a43ff4bf67da7c732e070f63cd16cfb9c2dab4da989"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 3,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+                  "anchor": "L33",
+                  "sectionSha256": "f15a3a7ad0011ab24c101a43ff4bf67da7c732e070f63cd16cfb9c2dab4da989"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L33",
+              "sectionSha256": "f15a3a7ad0011ab24c101a43ff4bf67da7c732e070f63cd16cfb9c2dab4da989"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 7,
+                  "pool": "内力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+                  "anchor": "L33",
+                  "sectionSha256": "f15a3a7ad0011ab24c101a43ff4bf67da7c732e070f63cd16cfb9c2dab4da989"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L33",
+              "sectionSha256": "f15a3a7ad0011ab24c101a43ff4bf67da7c732e070f63cd16cfb9c2dab4da989"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L33",
+              "sectionSha256": "f15a3a7ad0011ab24c101a43ff4bf67da7c732e070f63cd16cfb9c2dab4da989"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L33",
+              "sectionSha256": "f15a3a7ad0011ab24c101a43ff4bf67da7c732e070f63cd16cfb9c2dab4da989"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-6faa5b12015ad53c--101c7ae8fdaf",
+          "name": "一刀绝空",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+            "anchor": "L40",
+            "sectionSha256": "d5d556fca1893babf7cd833dcf49f65c9a608e33f9396ef0e080717b25f22cae"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/三刀三剑.md",
+              "sha256": "c8ccaeece51534c58fbc6ab60ef6dfaba93158764f92bc41bb91674f1716b4be",
+              "lineRanges": [
+                [
+                  40,
+                  40
+                ],
+                [
+                  42,
+                  53
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+                  "anchor": "L40",
+                  "sectionSha256": "d5d556fca1893babf7cd833dcf49f65c9a608e33f9396ef0e080717b25f22cae"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-6faa5b12015ad53c--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L40",
+              "sectionSha256": "d5d556fca1893babf7cd833dcf49f65c9a608e33f9396ef0e080717b25f22cae"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L40",
+              "sectionSha256": "d5d556fca1893babf7cd833dcf49f65c9a608e33f9396ef0e080717b25f22cae"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 10,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+                  "anchor": "L40",
+                  "sectionSha256": "d5d556fca1893babf7cd833dcf49f65c9a608e33f9396ef0e080717b25f22cae"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L40",
+              "sectionSha256": "d5d556fca1893babf7cd833dcf49f65c9a608e33f9396ef0e080717b25f22cae"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 7,
+                  "pool": "内力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+                  "anchor": "L40",
+                  "sectionSha256": "d5d556fca1893babf7cd833dcf49f65c9a608e33f9396ef0e080717b25f22cae"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L40",
+              "sectionSha256": "d5d556fca1893babf7cd833dcf49f65c9a608e33f9396ef0e080717b25f22cae"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L40",
+              "sectionSha256": "d5d556fca1893babf7cd833dcf49f65c9a608e33f9396ef0e080717b25f22cae"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+              "anchor": "L40",
+              "sectionSha256": "d5d556fca1893babf7cd833dcf49f65c9a608e33f9396ef0e080717b25f22cae"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "完美",
+              "value": 15,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/025-三刀三剑.md",
+                "anchor": "L40",
+                "sectionSha256": "d5d556fca1893babf7cd833dcf49f65c9a608e33f9396ef0e080717b25f22cae"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "三刀三剑",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "一剑藏空",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "千刀不尽",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "百剑无终",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "十刀破极",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "万剑归元",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "一刀绝空",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-6faa5b12015ad53c--90bc9c9c6e24--intent",
+      "name": "一剑藏空",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ],
+          [
+            "standard",
+            "move"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-6faa5b12015ad53c--90bc9c9c6e24",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-6faa5b12015ad53c--ffb618ca2dd4--intent",
+      "name": "千刀不尽",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ],
+          [
+            "standard",
+            "move"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-6faa5b12015ad53c--ffb618ca2dd4",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-6faa5b12015ad53c--ebe53cbe39d6--intent",
+      "name": "百剑无终",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ],
+          [
+            "standard",
+            "move"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-6faa5b12015ad53c--ebe53cbe39d6",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-6faa5b12015ad53c--239a51838c73--intent",
+      "name": "万剑归元",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard",
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-6faa5b12015ad53c--239a51838c73",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-6faa5b12015ad53c--101c7ae8fdaf--intent",
+      "name": "一刀绝空",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-6faa5b12015ad53c--101c7ae8fdaf",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "attack-program-hardcodes-INT-and-casting",
+    "duration-inheritance-and-no-implicit-refresh"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "chengxin-xuanjian",
-  "version": "2026-10-23.1",
+  "version": "2026-10-24.1",
   "identity": {
     "name": "澄心玄鉴",
     "grade": "D",
@@ -278,8 +278,9 @@
   "unresolvedRules": [
     {
       "parameter": "learningPrice",
-      "basis": "chengxin-xuanjian正文无价格，notes核算仍待定",
-      "recommendation": "保留效果；价格裁定后开放付费学习，不从D级标签自动定价"
+      "basis": "resources/chengxin-xuanjian-notes.md:7,45：候选实投6D，原树下模板5D，完整取得价格未定。",
+      "impact": "完整付费学习报价不能自动生成；已持有者的明确效果仍可执行。",
+      "recommendation": "保留当前效果和6D核算，不擅加动作代价或补正费；单独确定完整价格后再登记采用报价。"
     }
   ],
   "implementationGaps": [

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:C:万叶冥响",
-  "version": "2026-10-23.1",
+  "version": "2026-10-24.1",
   "identity": {
     "name": "万叶冥响",
     "grade": "C",
@@ -17,14 +17,20 @@
     "source": "resources/imperial-magic/04-结界与召唤.md",
     "grade": "C",
     "prohibited": false,
-    "subskills": [],
+    "subskills": [
+      "召唤",
+      "结界"
+    ],
     "effects": [],
     "learning": {
       "baseXP": 25,
       "requiresKnownVersion": false
     },
-    "requiresAllSchools": false,
-    "schools": []
+    "requiresAllSchools": true,
+    "schools": [
+      "召唤",
+      "结界"
+    ]
   },
   "clauses": [
     {

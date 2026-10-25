@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:D:幻雾术",
-  "version": "2026-10-23.1",
+  "version": "2026-10-24.1",
   "identity": {
     "name": "幻雾术",
     "grade": "D",
@@ -18,7 +18,8 @@
     "grade": "D",
     "prohibited": false,
     "subskills": [
-      "咒法或神秘·幻术取最贴切一项"
+      "咒法",
+      "幻术"
     ],
     "effects": [],
     "learning": {
@@ -29,9 +30,10 @@
         "replaceD": 15
       }
     },
-    "requiresAllSchools": false,
+    "requiresAllSchools": true,
     "schools": [
-      "咒法或神秘·幻术取最贴切一项"
+      "咒法",
+      "幻术"
     ]
   },
   "clauses": [

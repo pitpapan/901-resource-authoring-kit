@@ -1,0 +1,1239 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-cbbdc9b69d0b69c3",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "金钟罩",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J03",
+    "aliases": [
+      "金钟罩",
+      "金钟入门",
+      "金钟气劲",
+      "神功初成",
+      "金钟大成"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/护身劲/金钟罩.md",
+        "sha256": "95815a027489af05dde28302bbb15a23ba0fd54def90a0bf4fb9945696de8e30",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            37
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+    "sha256": "1875f83dca3aa24204775395bf83ce2a05df7d08c5c6e98984c0f40ca3af0384"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-cbbdc9b69d0b69c3--0ae594c1109f",
+          "name": "金钟罩",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+            "anchor": "条目",
+            "sectionSha256": "062a7acc2ce6cb67909ea10e25c2054ccf9f18ad055f16147ce7a60c67b4003b"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/护身劲/金钟罩.md",
+              "sha256": "95815a027489af05dde28302bbb15a23ba0fd54def90a0bf4fb9945696de8e30",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  10
+                ],
+                [
+                  13,
+                  14
+                ],
+                [
+                  21,
+                  22
+                ],
+                [
+                  28,
+                  29
+                ],
+                [
+                  35,
+                  35
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "条目",
+              "sectionSha256": "062a7acc2ce6cb67909ea10e25c2054ccf9f18ad055f16147ce7a60c67b4003b"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "条目",
+              "sectionSha256": "062a7acc2ce6cb67909ea10e25c2054ccf9f18ad055f16147ce7a60c67b4003b"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "条目",
+              "sectionSha256": "062a7acc2ce6cb67909ea10e25c2054ccf9f18ad055f16147ce7a60c67b4003b"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "条目",
+              "sectionSha256": "062a7acc2ce6cb67909ea10e25c2054ccf9f18ad055f16147ce7a60c67b4003b"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "条目",
+              "sectionSha256": "062a7acc2ce6cb67909ea10e25c2054ccf9f18ad055f16147ce7a60c67b4003b"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "条目",
+              "sectionSha256": "062a7acc2ce6cb67909ea10e25c2054ccf9f18ad055f16147ce7a60c67b4003b"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-cbbdc9b69d0b69c3--04a90cd5d050",
+          "name": "金钟入门",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+            "anchor": "L11",
+            "sectionSha256": "56eb50b08f0addeb70479e71c033e8091f4a746ece9345efd2d34238f29ab804"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/护身劲/金钟罩.md",
+              "sha256": "95815a027489af05dde28302bbb15a23ba0fd54def90a0bf4fb9945696de8e30",
+              "lineRanges": [
+                [
+                  11,
+                  12
+                ],
+                [
+                  15,
+                  19
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+                  "anchor": "L11",
+                  "sectionSha256": "56eb50b08f0addeb70479e71c033e8091f4a746ece9345efd2d34238f29ab804"
+                }
+              },
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 15.0,
+                "mode": "explicit-purchase-or-repeat",
+                "basis": "reading-explicit-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+                  "anchor": "L11",
+                  "sectionSha256": "56eb50b08f0addeb70479e71c033e8091f4a746ece9345efd2d34238f29ab804"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-cbbdc9b69d0b69c3--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+                  "anchor": "L11",
+                  "sectionSha256": "56eb50b08f0addeb70479e71c033e8091f4a746ece9345efd2d34238f29ab804"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "L11",
+              "sectionSha256": "56eb50b08f0addeb70479e71c033e8091f4a746ece9345efd2d34238f29ab804"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 5,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+                  "anchor": "L11",
+                  "sectionSha256": "56eb50b08f0addeb70479e71c033e8091f4a746ece9345efd2d34238f29ab804"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "L11",
+              "sectionSha256": "56eb50b08f0addeb70479e71c033e8091f4a746ece9345efd2d34238f29ab804"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "L11",
+              "sectionSha256": "56eb50b08f0addeb70479e71c033e8091f4a746ece9345efd2d34238f29ab804"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+                  "anchor": "L11",
+                  "sectionSha256": "56eb50b08f0addeb70479e71c033e8091f4a746ece9345efd2d34238f29ab804"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "L11",
+              "sectionSha256": "56eb50b08f0addeb70479e71c033e8091f4a746ece9345efd2d34238f29ab804"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "L11",
+              "sectionSha256": "56eb50b08f0addeb70479e71c033e8091f4a746ece9345efd2d34238f29ab804"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "L11",
+              "sectionSha256": "56eb50b08f0addeb70479e71c033e8091f4a746ece9345efd2d34238f29ab804"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-cbbdc9b69d0b69c3--bbbae651d4e8",
+          "name": "金钟气劲",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+            "anchor": "L20",
+            "sectionSha256": "3a01fc87a5baa89b278f6231522fc8394222161d73921db9f641ec7f929b64fa"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/护身劲/金钟罩.md",
+              "sha256": "95815a027489af05dde28302bbb15a23ba0fd54def90a0bf4fb9945696de8e30",
+              "lineRanges": [
+                [
+                  20,
+                  20
+                ],
+                [
+                  23,
+                  26
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+                  "anchor": "L20",
+                  "sectionSha256": "3a01fc87a5baa89b278f6231522fc8394222161d73921db9f641ec7f929b64fa"
+                }
+              },
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 20.0,
+                "mode": "explicit-purchase-or-repeat",
+                "basis": "reading-explicit-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+                  "anchor": "L20",
+                  "sectionSha256": "3a01fc87a5baa89b278f6231522fc8394222161d73921db9f641ec7f929b64fa"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-cbbdc9b69d0b69c3--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "L20",
+              "sectionSha256": "3a01fc87a5baa89b278f6231522fc8394222161d73921db9f641ec7f929b64fa"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 5,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+                  "anchor": "L20",
+                  "sectionSha256": "3a01fc87a5baa89b278f6231522fc8394222161d73921db9f641ec7f929b64fa"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "L20",
+              "sectionSha256": "3a01fc87a5baa89b278f6231522fc8394222161d73921db9f641ec7f929b64fa"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "L20",
+              "sectionSha256": "3a01fc87a5baa89b278f6231522fc8394222161d73921db9f641ec7f929b64fa"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+                  "anchor": "L20",
+                  "sectionSha256": "3a01fc87a5baa89b278f6231522fc8394222161d73921db9f641ec7f929b64fa"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "L20",
+              "sectionSha256": "3a01fc87a5baa89b278f6231522fc8394222161d73921db9f641ec7f929b64fa"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "L20",
+              "sectionSha256": "3a01fc87a5baa89b278f6231522fc8394222161d73921db9f641ec7f929b64fa"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "L20",
+              "sectionSha256": "3a01fc87a5baa89b278f6231522fc8394222161d73921db9f641ec7f929b64fa"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-cbbdc9b69d0b69c3--62cacaa0e286",
+          "name": "神功初成",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+            "anchor": "L27",
+            "sectionSha256": "e40577b892f8c3bb4563d1b8ec6a2a9da41434441267ab9bb80f72db9f26092e"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/护身劲/金钟罩.md",
+              "sha256": "95815a027489af05dde28302bbb15a23ba0fd54def90a0bf4fb9945696de8e30",
+              "lineRanges": [
+                [
+                  27,
+                  27
+                ],
+                [
+                  30,
+                  32
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+                  "anchor": "L27",
+                  "sectionSha256": "e40577b892f8c3bb4563d1b8ec6a2a9da41434441267ab9bb80f72db9f26092e"
+                }
+              },
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 65.0,
+                "mode": "explicit-purchase-or-repeat",
+                "basis": "reading-explicit-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+                  "anchor": "L27",
+                  "sectionSha256": "e40577b892f8c3bb4563d1b8ec6a2a9da41434441267ab9bb80f72db9f26092e"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ],
+              [
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-cbbdc9b69d0b69c3--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "L27",
+              "sectionSha256": "e40577b892f8c3bb4563d1b8ec6a2a9da41434441267ab9bb80f72db9f26092e"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 5,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+                  "anchor": "L27",
+                  "sectionSha256": "e40577b892f8c3bb4563d1b8ec6a2a9da41434441267ab9bb80f72db9f26092e"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "L27",
+              "sectionSha256": "e40577b892f8c3bb4563d1b8ec6a2a9da41434441267ab9bb80f72db9f26092e"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "L27",
+              "sectionSha256": "e40577b892f8c3bb4563d1b8ec6a2a9da41434441267ab9bb80f72db9f26092e"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 5,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+                  "anchor": "L27",
+                  "sectionSha256": "e40577b892f8c3bb4563d1b8ec6a2a9da41434441267ab9bb80f72db9f26092e"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 5,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+                  "anchor": "L27",
+                  "sectionSha256": "e40577b892f8c3bb4563d1b8ec6a2a9da41434441267ab9bb80f72db9f26092e"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "L27",
+              "sectionSha256": "e40577b892f8c3bb4563d1b8ec6a2a9da41434441267ab9bb80f72db9f26092e"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "L27",
+              "sectionSha256": "e40577b892f8c3bb4563d1b8ec6a2a9da41434441267ab9bb80f72db9f26092e"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "L27",
+              "sectionSha256": "e40577b892f8c3bb4563d1b8ec6a2a9da41434441267ab9bb80f72db9f26092e"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-cbbdc9b69d0b69c3--239a51838c73",
+          "name": "金钟大成",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+            "anchor": "L33",
+            "sectionSha256": "b3065e912b03680c22be5a1c5b29b226f8c5d4122447482871618c41f46851b3"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/护身劲/金钟罩.md",
+              "sha256": "95815a027489af05dde28302bbb15a23ba0fd54def90a0bf4fb9945696de8e30",
+              "lineRanges": [
+                [
+                  33,
+                  34
+                ],
+                [
+                  36,
+                  37
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+                  "anchor": "L33",
+                  "sectionSha256": "b3065e912b03680c22be5a1c5b29b226f8c5d4122447482871618c41f46851b3"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-cbbdc9b69d0b69c3--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "L33",
+              "sectionSha256": "b3065e912b03680c22be5a1c5b29b226f8c5d4122447482871618c41f46851b3"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 5,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+                  "anchor": "L33",
+                  "sectionSha256": "b3065e912b03680c22be5a1c5b29b226f8c5d4122447482871618c41f46851b3"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "L33",
+              "sectionSha256": "b3065e912b03680c22be5a1c5b29b226f8c5d4122447482871618c41f46851b3"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "L33",
+              "sectionSha256": "b3065e912b03680c22be5a1c5b29b226f8c5d4122447482871618c41f46851b3"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 7,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+                  "anchor": "L33",
+                  "sectionSha256": "b3065e912b03680c22be5a1c5b29b226f8c5d4122447482871618c41f46851b3"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "L33",
+              "sectionSha256": "b3065e912b03680c22be5a1c5b29b226f8c5d4122447482871618c41f46851b3"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "L33",
+              "sectionSha256": "b3065e912b03680c22be5a1c5b29b226f8c5d4122447482871618c41f46851b3"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/023-金钟罩.md",
+              "anchor": "L33",
+              "sectionSha256": "b3065e912b03680c22be5a1c5b29b226f8c5d4122447482871618c41f46851b3"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "金钟罩",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "金钟入门",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "金钟气劲",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "神功初成",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "金钟大成",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-cbbdc9b69d0b69c3--04a90cd5d050--intent",
+      "name": "金钟入门",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-cbbdc9b69d0b69c3--04a90cd5d050",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-cbbdc9b69d0b69c3--bbbae651d4e8--intent",
+      "name": "金钟气劲",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-cbbdc9b69d0b69c3--bbbae651d4e8",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-cbbdc9b69d0b69c3--62cacaa0e286--intent",
+      "name": "神功初成",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ],
+          [
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-cbbdc9b69d0b69c3--62cacaa0e286",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-cbbdc9b69d0b69c3--239a51838c73--intent",
+      "name": "金钟大成",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-cbbdc9b69d0b69c3--239a51838c73",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "attack-program-hardcodes-INT-and-casting",
+    "duration-inheritance-and-no-implicit-refresh",
+    "prerequisite-logic-not-fully-encoded"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "guanlan-fa",
-  "version": "2026-10-23.1",
+  "version": "2026-10-24.1",
   "identity": {
     "name": "观澜法·窥波",
     "grade": "D",
@@ -447,8 +447,9 @@
   "unresolvedRules": [
     {
       "parameter": "bodyLearningPrice",
-      "basis": "guanlan-fa-notes.md本体26XP为候选价，未冒充原书明价",
-      "recommendation": "采用26XP候选价；正式学习报价须记录裁定来源"
+      "basis": "resources/guanlan-fa-notes.md:5,29：26XP仅为候选整体取得价，且须通过剧情形成。",
+      "impact": "不自动开放本体付费取得；不影响已确认持有者的减费与悟法XP。",
+      "recommendation": "采用26XP作为候选报价，实际取得须有已采用的报价和剧情来源；不得重收或重置旧收益。"
     }
   ],
   "implementationGaps": [

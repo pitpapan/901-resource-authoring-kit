@@ -1,0 +1,2194 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-6dcaae0da7d17d44",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "凶星剑诀",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J04",
+    "aliases": [
+      "凶星剑诀",
+      "凶星剑 计都",
+      "星魂解放",
+      "凶星剑诀·D级阶段",
+      "凶星剑诀·C级阶段",
+      "凶星剑诀·B级阶段",
+      "凶星剑诀·A级阶段"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/凶星剑诀.md",
+        "sha256": "8f6ddfd107455ef62f74b5201599c556df9c1a3757269a5f64d772884bcab59c",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            97
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+    "sha256": "bdc8489be9e86d7de55ae8e4dfa5925cc604119640acfcb970bffb9cdacbc697"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-6dcaae0da7d17d44--0ae594c1109f",
+          "name": "凶星剑诀",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+            "anchor": "条目",
+            "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/凶星剑诀.md",
+              "sha256": "8f6ddfd107455ef62f74b5201599c556df9c1a3757269a5f64d772884bcab59c",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  6
+                ],
+                [
+                  8,
+                  9
+                ],
+                [
+                  18,
+                  18
+                ],
+                [
+                  23,
+                  23
+                ],
+                [
+                  31,
+                  31
+                ],
+                [
+                  35,
+                  35
+                ],
+                [
+                  38,
+                  38
+                ],
+                [
+                  41,
+                  41
+                ],
+                [
+                  44,
+                  44
+                ],
+                [
+                  48,
+                  48
+                ],
+                [
+                  52,
+                  52
+                ],
+                [
+                  56,
+                  56
+                ],
+                [
+                  60,
+                  60
+                ],
+                [
+                  65,
+                  65
+                ],
+                [
+                  72,
+                  72
+                ],
+                [
+                  76,
+                  76
+                ],
+                [
+                  82,
+                  82
+                ],
+                [
+                  86,
+                  87
+                ],
+                [
+                  90,
+                  90
+                ],
+                [
+                  95,
+                  95
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-6dcaae0da7d17d44--ee292cd1d6c1",
+          "name": "凶星剑 计都",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+            "anchor": "L7",
+            "sectionSha256": "1d2ae21934f7c400329d40efdefbd2b31731ec88c4eb065f39db858250d5b86f"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/凶星剑诀.md",
+              "sha256": "8f6ddfd107455ef62f74b5201599c556df9c1a3757269a5f64d772884bcab59c",
+              "lineRanges": [
+                [
+                  7,
+                  7
+                ],
+                [
+                  10,
+                  15
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L7",
+                  "sectionSha256": "1d2ae21934f7c400329d40efdefbd2b31731ec88c4eb065f39db858250d5b86f"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-6dcaae0da7d17d44--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L7",
+              "sectionSha256": "1d2ae21934f7c400329d40efdefbd2b31731ec88c4eb065f39db858250d5b86f"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L7",
+              "sectionSha256": "1d2ae21934f7c400329d40efdefbd2b31731ec88c4eb065f39db858250d5b86f"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L7",
+              "sectionSha256": "1d2ae21934f7c400329d40efdefbd2b31731ec88c4eb065f39db858250d5b86f"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "意志"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L7",
+                  "sectionSha256": "1d2ae21934f7c400329d40efdefbd2b31731ec88c4eb065f39db858250d5b86f"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L7",
+              "sectionSha256": "1d2ae21934f7c400329d40efdefbd2b31731ec88c4eb065f39db858250d5b86f"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L7",
+              "sectionSha256": "1d2ae21934f7c400329d40efdefbd2b31731ec88c4eb065f39db858250d5b86f"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L7",
+              "sectionSha256": "1d2ae21934f7c400329d40efdefbd2b31731ec88c4eb065f39db858250d5b86f"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-6dcaae0da7d17d44--5f3f9d32a927",
+          "name": "星魂解放",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+            "anchor": "L16",
+            "sectionSha256": "a69d887e6288cda10bf5e59a0c5e4ec4cabe20c88ca1a3b8ad47eae2cee8ffd3"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/凶星剑诀.md",
+              "sha256": "8f6ddfd107455ef62f74b5201599c556df9c1a3757269a5f64d772884bcab59c",
+              "lineRanges": [
+                [
+                  16,
+                  17
+                ],
+                [
+                  19,
+                  22
+                ],
+                [
+                  24,
+                  24
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L16",
+                  "sectionSha256": "a69d887e6288cda10bf5e59a0c5e4ec4cabe20c88ca1a3b8ad47eae2cee8ffd3"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ],
+              [
+                "standard",
+                "move"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-6dcaae0da7d17d44--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L16",
+                  "sectionSha256": "a69d887e6288cda10bf5e59a0c5e4ec4cabe20c88ca1a3b8ad47eae2cee8ffd3"
+                },
+                "semanticStatus": "not-encoded"
+              },
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L16",
+                  "sectionSha256": "a69d887e6288cda10bf5e59a0c5e4ec4cabe20c88ca1a3b8ad47eae2cee8ffd3"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L16",
+              "sectionSha256": "a69d887e6288cda10bf5e59a0c5e4ec4cabe20c88ca1a3b8ad47eae2cee8ffd3"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L16",
+              "sectionSha256": "a69d887e6288cda10bf5e59a0c5e4ec4cabe20c88ca1a3b8ad47eae2cee8ffd3"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L16",
+              "sectionSha256": "a69d887e6288cda10bf5e59a0c5e4ec4cabe20c88ca1a3b8ad47eae2cee8ffd3"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "意志"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L16",
+                  "sectionSha256": "a69d887e6288cda10bf5e59a0c5e4ec4cabe20c88ca1a3b8ad47eae2cee8ffd3"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L16",
+              "sectionSha256": "a69d887e6288cda10bf5e59a0c5e4ec4cabe20c88ca1a3b8ad47eae2cee8ffd3"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L16",
+              "sectionSha256": "a69d887e6288cda10bf5e59a0c5e4ec4cabe20c88ca1a3b8ad47eae2cee8ffd3"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L16",
+              "sectionSha256": "a69d887e6288cda10bf5e59a0c5e4ec4cabe20c88ca1a3b8ad47eae2cee8ffd3"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-6dcaae0da7d17d44--cd5c8731ec1e",
+          "name": "凶星剑诀·D级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+            "anchor": "L25",
+            "sectionSha256": "395a794f2294a59524275d5fb86aa0c70fbfa7bd41cf9d12e250e97a354753de"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/凶星剑诀.md",
+              "sha256": "8f6ddfd107455ef62f74b5201599c556df9c1a3757269a5f64d772884bcab59c",
+              "lineRanges": [
+                [
+                  25,
+                  25
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L25",
+                  "sectionSha256": "395a794f2294a59524275d5fb86aa0c70fbfa7bd41cf9d12e250e97a354753de"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-6dcaae0da7d17d44--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L25",
+              "sectionSha256": "395a794f2294a59524275d5fb86aa0c70fbfa7bd41cf9d12e250e97a354753de"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L25",
+              "sectionSha256": "395a794f2294a59524275d5fb86aa0c70fbfa7bd41cf9d12e250e97a354753de"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L25",
+              "sectionSha256": "395a794f2294a59524275d5fb86aa0c70fbfa7bd41cf9d12e250e97a354753de"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L25",
+              "sectionSha256": "395a794f2294a59524275d5fb86aa0c70fbfa7bd41cf9d12e250e97a354753de"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L25",
+              "sectionSha256": "395a794f2294a59524275d5fb86aa0c70fbfa7bd41cf9d12e250e97a354753de"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L25",
+              "sectionSha256": "395a794f2294a59524275d5fb86aa0c70fbfa7bd41cf9d12e250e97a354753de"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-6dcaae0da7d17d44--fbf7776a3be2",
+          "name": "凶星剑诀·C级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+            "anchor": "L26",
+            "sectionSha256": "39c76e6fa8ce164e465e0c4734705360c04de2abcc48ae2934eb527e6e942b1e"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/凶星剑诀.md",
+              "sha256": "8f6ddfd107455ef62f74b5201599c556df9c1a3757269a5f64d772884bcab59c",
+              "lineRanges": [
+                [
+                  26,
+                  26
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L26",
+                  "sectionSha256": "39c76e6fa8ce164e465e0c4734705360c04de2abcc48ae2934eb527e6e942b1e"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-6dcaae0da7d17d44--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L26",
+              "sectionSha256": "39c76e6fa8ce164e465e0c4734705360c04de2abcc48ae2934eb527e6e942b1e"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L26",
+              "sectionSha256": "39c76e6fa8ce164e465e0c4734705360c04de2abcc48ae2934eb527e6e942b1e"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L26",
+              "sectionSha256": "39c76e6fa8ce164e465e0c4734705360c04de2abcc48ae2934eb527e6e942b1e"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L26",
+              "sectionSha256": "39c76e6fa8ce164e465e0c4734705360c04de2abcc48ae2934eb527e6e942b1e"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L26",
+              "sectionSha256": "39c76e6fa8ce164e465e0c4734705360c04de2abcc48ae2934eb527e6e942b1e"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L26",
+              "sectionSha256": "39c76e6fa8ce164e465e0c4734705360c04de2abcc48ae2934eb527e6e942b1e"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-6dcaae0da7d17d44--62cacaa0e286",
+          "name": "凶星剑诀·B级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+            "anchor": "L27",
+            "sectionSha256": "f740425b145d092843bc261a86391c11743e3be8740629df1d7b1f92440c16c6"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/凶星剑诀.md",
+              "sha256": "8f6ddfd107455ef62f74b5201599c556df9c1a3757269a5f64d772884bcab59c",
+              "lineRanges": [
+                [
+                  27,
+                  27
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 85,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L27",
+                  "sectionSha256": "f740425b145d092843bc261a86391c11743e3be8740629df1d7b1f92440c16c6"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-6dcaae0da7d17d44--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L27",
+              "sectionSha256": "f740425b145d092843bc261a86391c11743e3be8740629df1d7b1f92440c16c6"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L27",
+              "sectionSha256": "f740425b145d092843bc261a86391c11743e3be8740629df1d7b1f92440c16c6"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L27",
+              "sectionSha256": "f740425b145d092843bc261a86391c11743e3be8740629df1d7b1f92440c16c6"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L27",
+              "sectionSha256": "f740425b145d092843bc261a86391c11743e3be8740629df1d7b1f92440c16c6"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L27",
+              "sectionSha256": "f740425b145d092843bc261a86391c11743e3be8740629df1d7b1f92440c16c6"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L27",
+              "sectionSha256": "f740425b145d092843bc261a86391c11743e3be8740629df1d7b1f92440c16c6"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-6dcaae0da7d17d44--36402ecb137e",
+          "name": "凶星剑诀·A级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+            "anchor": "L28",
+            "sectionSha256": "894b94e8eae4fcdee9f797196c58cf26bb58372f86c252679e19a6ced8a94fbb"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/凶星剑诀.md",
+              "sha256": "8f6ddfd107455ef62f74b5201599c556df9c1a3757269a5f64d772884bcab59c",
+              "lineRanges": [
+                [
+                  28,
+                  28
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 215,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L28",
+                  "sectionSha256": "894b94e8eae4fcdee9f797196c58cf26bb58372f86c252679e19a6ced8a94fbb"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-6dcaae0da7d17d44--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L28",
+              "sectionSha256": "894b94e8eae4fcdee9f797196c58cf26bb58372f86c252679e19a6ced8a94fbb"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L28",
+              "sectionSha256": "894b94e8eae4fcdee9f797196c58cf26bb58372f86c252679e19a6ced8a94fbb"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L28",
+              "sectionSha256": "894b94e8eae4fcdee9f797196c58cf26bb58372f86c252679e19a6ced8a94fbb"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L28",
+              "sectionSha256": "894b94e8eae4fcdee9f797196c58cf26bb58372f86c252679e19a6ced8a94fbb"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L28",
+              "sectionSha256": "894b94e8eae4fcdee9f797196c58cf26bb58372f86c252679e19a6ced8a94fbb"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L28",
+              "sectionSha256": "894b94e8eae4fcdee9f797196c58cf26bb58372f86c252679e19a6ced8a94fbb"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-6dcaae0da7d17d44--bc2b72915c17",
+          "name": "凶星剑诀·D级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+            "anchor": "L29",
+            "sectionSha256": "c92f88a00ebf9cb7aea327082ab86e1c17aec929aa2facc29b4310fecb80a665"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/凶星剑诀.md",
+              "sha256": "8f6ddfd107455ef62f74b5201599c556df9c1a3757269a5f64d772884bcab59c",
+              "lineRanges": [
+                [
+                  29,
+                  30
+                ],
+                [
+                  32,
+                  34
+                ],
+                [
+                  36,
+                  37
+                ],
+                [
+                  39,
+                  40
+                ],
+                [
+                  42,
+                  43
+                ],
+                [
+                  45,
+                  45
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-6dcaae0da7d17d44--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L29",
+              "sectionSha256": "c92f88a00ebf9cb7aea327082ab86e1c17aec929aa2facc29b4310fecb80a665"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L29",
+                  "sectionSha256": "c92f88a00ebf9cb7aea327082ab86e1c17aec929aa2facc29b4310fecb80a665"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L29",
+              "sectionSha256": "c92f88a00ebf9cb7aea327082ab86e1c17aec929aa2facc29b4310fecb80a665"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L29",
+                  "sectionSha256": "c92f88a00ebf9cb7aea327082ab86e1c17aec929aa2facc29b4310fecb80a665"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L29",
+              "sectionSha256": "c92f88a00ebf9cb7aea327082ab86e1c17aec929aa2facc29b4310fecb80a665"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L29",
+                  "sectionSha256": "c92f88a00ebf9cb7aea327082ab86e1c17aec929aa2facc29b4310fecb80a665"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L29",
+                  "sectionSha256": "c92f88a00ebf9cb7aea327082ab86e1c17aec929aa2facc29b4310fecb80a665"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L29",
+                  "sectionSha256": "c92f88a00ebf9cb7aea327082ab86e1c17aec929aa2facc29b4310fecb80a665"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L29",
+                  "sectionSha256": "c92f88a00ebf9cb7aea327082ab86e1c17aec929aa2facc29b4310fecb80a665"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L29",
+                  "sectionSha256": "c92f88a00ebf9cb7aea327082ab86e1c17aec929aa2facc29b4310fecb80a665"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L29",
+              "sectionSha256": "c92f88a00ebf9cb7aea327082ab86e1c17aec929aa2facc29b4310fecb80a665"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L29",
+              "sectionSha256": "c92f88a00ebf9cb7aea327082ab86e1c17aec929aa2facc29b4310fecb80a665"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L29",
+              "sectionSha256": "c92f88a00ebf9cb7aea327082ab86e1c17aec929aa2facc29b4310fecb80a665"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-6dcaae0da7d17d44--adb17ae1473a",
+          "name": "凶星剑诀·C级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+            "anchor": "L46",
+            "sectionSha256": "176112765d20d3f93a79a4b3b213e668486e1761a686469b7ff64992a417178a"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/凶星剑诀.md",
+              "sha256": "8f6ddfd107455ef62f74b5201599c556df9c1a3757269a5f64d772884bcab59c",
+              "lineRanges": [
+                [
+                  46,
+                  47
+                ],
+                [
+                  49,
+                  51
+                ],
+                [
+                  53,
+                  55
+                ],
+                [
+                  57,
+                  59
+                ],
+                [
+                  61,
+                  62
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-6dcaae0da7d17d44--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L46",
+              "sectionSha256": "176112765d20d3f93a79a4b3b213e668486e1761a686469b7ff64992a417178a"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 5,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L46",
+                  "sectionSha256": "176112765d20d3f93a79a4b3b213e668486e1761a686469b7ff64992a417178a"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L46",
+              "sectionSha256": "176112765d20d3f93a79a4b3b213e668486e1761a686469b7ff64992a417178a"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L46",
+              "sectionSha256": "176112765d20d3f93a79a4b3b213e668486e1761a686469b7ff64992a417178a"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L46",
+                  "sectionSha256": "176112765d20d3f93a79a4b3b213e668486e1761a686469b7ff64992a417178a"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L46",
+                  "sectionSha256": "176112765d20d3f93a79a4b3b213e668486e1761a686469b7ff64992a417178a"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L46",
+                  "sectionSha256": "176112765d20d3f93a79a4b3b213e668486e1761a686469b7ff64992a417178a"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L46",
+              "sectionSha256": "176112765d20d3f93a79a4b3b213e668486e1761a686469b7ff64992a417178a"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L46",
+              "sectionSha256": "176112765d20d3f93a79a4b3b213e668486e1761a686469b7ff64992a417178a"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L46",
+              "sectionSha256": "176112765d20d3f93a79a4b3b213e668486e1761a686469b7ff64992a417178a"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-6dcaae0da7d17d44--c25ea38127aa",
+          "name": "凶星剑诀·B级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+            "anchor": "L63",
+            "sectionSha256": "8ff0480178cf17fd25bd17cafb24976ebf6ccf0fde231bd56175e2c01ce25f6d"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/凶星剑诀.md",
+              "sha256": "8f6ddfd107455ef62f74b5201599c556df9c1a3757269a5f64d772884bcab59c",
+              "lineRanges": [
+                [
+                  63,
+                  64
+                ],
+                [
+                  66,
+                  71
+                ],
+                [
+                  73,
+                  75
+                ],
+                [
+                  77,
+                  81
+                ],
+                [
+                  83,
+                  84
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-6dcaae0da7d17d44--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L63",
+                  "sectionSha256": "8ff0480178cf17fd25bd17cafb24976ebf6ccf0fde231bd56175e2c01ce25f6d"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L63",
+              "sectionSha256": "8ff0480178cf17fd25bd17cafb24976ebf6ccf0fde231bd56175e2c01ce25f6d"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L63",
+              "sectionSha256": "8ff0480178cf17fd25bd17cafb24976ebf6ccf0fde231bd56175e2c01ce25f6d"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L63",
+                  "sectionSha256": "8ff0480178cf17fd25bd17cafb24976ebf6ccf0fde231bd56175e2c01ce25f6d"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L63",
+              "sectionSha256": "8ff0480178cf17fd25bd17cafb24976ebf6ccf0fde231bd56175e2c01ce25f6d"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 5,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L63",
+                  "sectionSha256": "8ff0480178cf17fd25bd17cafb24976ebf6ccf0fde231bd56175e2c01ce25f6d"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 5,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L63",
+                  "sectionSha256": "8ff0480178cf17fd25bd17cafb24976ebf6ccf0fde231bd56175e2c01ce25f6d"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 5,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L63",
+                  "sectionSha256": "8ff0480178cf17fd25bd17cafb24976ebf6ccf0fde231bd56175e2c01ce25f6d"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L63",
+              "sectionSha256": "8ff0480178cf17fd25bd17cafb24976ebf6ccf0fde231bd56175e2c01ce25f6d"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L63",
+              "sectionSha256": "8ff0480178cf17fd25bd17cafb24976ebf6ccf0fde231bd56175e2c01ce25f6d"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L63",
+              "sectionSha256": "8ff0480178cf17fd25bd17cafb24976ebf6ccf0fde231bd56175e2c01ce25f6d"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-6dcaae0da7d17d44--d25075ca3de5",
+          "name": "凶星剑诀·A级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+            "anchor": "L85",
+            "sectionSha256": "2213310a959e7dc09ce6deee818eb5e4453baf7604bb6e2c649e400ed97a5b67"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/凶星剑诀.md",
+              "sha256": "8f6ddfd107455ef62f74b5201599c556df9c1a3757269a5f64d772884bcab59c",
+              "lineRanges": [
+                [
+                  85,
+                  85
+                ],
+                [
+                  88,
+                  89
+                ],
+                [
+                  91,
+                  94
+                ],
+                [
+                  96,
+                  97
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-6dcaae0da7d17d44--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L85",
+              "sectionSha256": "2213310a959e7dc09ce6deee818eb5e4453baf7604bb6e2c649e400ed97a5b67"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L85",
+              "sectionSha256": "2213310a959e7dc09ce6deee818eb5e4453baf7604bb6e2c649e400ed97a5b67"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 3,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L85",
+                  "sectionSha256": "2213310a959e7dc09ce6deee818eb5e4453baf7604bb6e2c649e400ed97a5b67"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 10,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L85",
+                  "sectionSha256": "2213310a959e7dc09ce6deee818eb5e4453baf7604bb6e2c649e400ed97a5b67"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L85",
+              "sectionSha256": "2213310a959e7dc09ce6deee818eb5e4453baf7604bb6e2c649e400ed97a5b67"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 7,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L85",
+                  "sectionSha256": "2213310a959e7dc09ce6deee818eb5e4453baf7604bb6e2c649e400ed97a5b67"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L85",
+                  "sectionSha256": "2213310a959e7dc09ce6deee818eb5e4453baf7604bb6e2c649e400ed97a5b67"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 9,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                  "anchor": "L85",
+                  "sectionSha256": "2213310a959e7dc09ce6deee818eb5e4453baf7604bb6e2c649e400ed97a5b67"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L85",
+              "sectionSha256": "2213310a959e7dc09ce6deee818eb5e4453baf7604bb6e2c649e400ed97a5b67"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L85",
+              "sectionSha256": "2213310a959e7dc09ce6deee818eb5e4453baf7604bb6e2c649e400ed97a5b67"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+              "anchor": "L85",
+              "sectionSha256": "2213310a959e7dc09ce6deee818eb5e4453baf7604bb6e2c649e400ed97a5b67"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "增强",
+              "value": 5,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/031-凶星剑诀.md",
+                "anchor": "L85",
+                "sectionSha256": "2213310a959e7dc09ce6deee818eb5e4453baf7604bb6e2c649e400ed97a5b67"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "凶星剑诀",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "凶星剑 计都",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "星魂解放",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "凶星剑诀·D级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "凶星剑诀·C级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "凶星剑诀·B级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "凶星剑诀·A级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "凶星剑诀·D级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "凶星剑诀·C级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "凶星剑诀·B级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "凶星剑诀·A级阶段",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-6dcaae0da7d17d44--5f3f9d32a927--intent",
+      "name": "星魂解放",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ],
+          [
+            "standard",
+            "move"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-6dcaae0da7d17d44--5f3f9d32a927",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-6dcaae0da7d17d44--c25ea38127aa--intent",
+      "name": "凶星剑诀·B级阶段",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-6dcaae0da7d17d44--c25ea38127aa",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "duration-inheritance-and-no-implicit-refresh",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "prerequisite-logic-not-fully-encoded"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

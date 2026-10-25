@@ -1,0 +1,3095 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-5900c31c327e0a84",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "THE_LAND通用技艺",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J09",
+    "aliases": [
+      "THE_LAND通用技艺",
+      "THE LAND通用技艺",
+      "奇妙握法",
+      "集中回避",
+      "集中冥想",
+      "魔力增幅",
+      "分析",
+      "魔力控制",
+      "变换施法",
+      "有备无患",
+      "反手一击",
+      "死中求活",
+      "意志坚定",
+      "明镜止水",
+      "绝境反击",
+      "苦行僧",
+      "身强体壮",
+      "修养生息",
+      "处决"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/THE_LAND通用技艺.md",
+        "sha256": "7ff54a7765bf8313f1e237f5922486ba6907d21be30b848e2c7ae0c2e2109e7b",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            62
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+    "sha256": "6e95d896aeb5f172bcc8b8058063b65968f75269433aa21784d97faff7b4e2a4"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-5900c31c327e0a84--0ae594c1109f",
+          "name": "THE_LAND通用技艺",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+            "anchor": "条目",
+            "sectionSha256": "f418b05b20262df9ee7cc5006c991f084d41998ae1a8d52c285157014545874a"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/THE_LAND通用技艺.md",
+              "sha256": "7ff54a7765bf8313f1e237f5922486ba6907d21be30b848e2c7ae0c2e2109e7b",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  7
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "f418b05b20262df9ee7cc5006c991f084d41998ae1a8d52c285157014545874a"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "f418b05b20262df9ee7cc5006c991f084d41998ae1a8d52c285157014545874a"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "f418b05b20262df9ee7cc5006c991f084d41998ae1a8d52c285157014545874a"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "f418b05b20262df9ee7cc5006c991f084d41998ae1a8d52c285157014545874a"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "f418b05b20262df9ee7cc5006c991f084d41998ae1a8d52c285157014545874a"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "f418b05b20262df9ee7cc5006c991f084d41998ae1a8d52c285157014545874a"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-5900c31c327e0a84--4ecb58f262e8",
+          "name": "奇妙握法",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+            "anchor": "L8",
+            "sectionSha256": "0e5abecfdad7d6ff5e922f9d369831d496bf3476dedd25026eb8264e6adff653"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/THE_LAND通用技艺.md",
+              "sha256": "7ff54a7765bf8313f1e237f5922486ba6907d21be30b848e2c7ae0c2e2109e7b",
+              "lineRanges": [
+                [
+                  8,
+                  10
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L8",
+                  "sectionSha256": "0e5abecfdad7d6ff5e922f9d369831d496bf3476dedd25026eb8264e6adff653"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-5900c31c327e0a84--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L8",
+                  "sectionSha256": "0e5abecfdad7d6ff5e922f9d369831d496bf3476dedd25026eb8264e6adff653"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L8",
+              "sectionSha256": "0e5abecfdad7d6ff5e922f9d369831d496bf3476dedd25026eb8264e6adff653"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L8",
+              "sectionSha256": "0e5abecfdad7d6ff5e922f9d369831d496bf3476dedd25026eb8264e6adff653"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L8",
+              "sectionSha256": "0e5abecfdad7d6ff5e922f9d369831d496bf3476dedd25026eb8264e6adff653"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L8",
+              "sectionSha256": "0e5abecfdad7d6ff5e922f9d369831d496bf3476dedd25026eb8264e6adff653"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L8",
+              "sectionSha256": "0e5abecfdad7d6ff5e922f9d369831d496bf3476dedd25026eb8264e6adff653"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L8",
+              "sectionSha256": "0e5abecfdad7d6ff5e922f9d369831d496bf3476dedd25026eb8264e6adff653"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-5900c31c327e0a84--04a90cd5d050",
+          "name": "集中回避",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+            "anchor": "L11",
+            "sectionSha256": "a04ad70370eb23516588f18e0158014ab25ca7703eb741a705cf44b0363f53e3"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/THE_LAND通用技艺.md",
+              "sha256": "7ff54a7765bf8313f1e237f5922486ba6907d21be30b848e2c7ae0c2e2109e7b",
+              "lineRanges": [
+                [
+                  11,
+                  13
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L11",
+                  "sectionSha256": "a04ad70370eb23516588f18e0158014ab25ca7703eb741a705cf44b0363f53e3"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-5900c31c327e0a84--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L11",
+                  "sectionSha256": "a04ad70370eb23516588f18e0158014ab25ca7703eb741a705cf44b0363f53e3"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L11",
+              "sectionSha256": "a04ad70370eb23516588f18e0158014ab25ca7703eb741a705cf44b0363f53e3"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L11",
+              "sectionSha256": "a04ad70370eb23516588f18e0158014ab25ca7703eb741a705cf44b0363f53e3"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L11",
+              "sectionSha256": "a04ad70370eb23516588f18e0158014ab25ca7703eb741a705cf44b0363f53e3"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L11",
+              "sectionSha256": "a04ad70370eb23516588f18e0158014ab25ca7703eb741a705cf44b0363f53e3"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L11",
+              "sectionSha256": "a04ad70370eb23516588f18e0158014ab25ca7703eb741a705cf44b0363f53e3"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L11",
+              "sectionSha256": "a04ad70370eb23516588f18e0158014ab25ca7703eb741a705cf44b0363f53e3"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-5900c31c327e0a84--4e20baac66c8",
+          "name": "集中冥想",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+            "anchor": "L14",
+            "sectionSha256": "960f46a6ee8c5cc7a6397cea1f9e473a8c20da2ee1010bfd98b47db1522f3356"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/THE_LAND通用技艺.md",
+              "sha256": "7ff54a7765bf8313f1e237f5922486ba6907d21be30b848e2c7ae0c2e2109e7b",
+              "lineRanges": [
+                [
+                  14,
+                  16
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L14",
+                  "sectionSha256": "960f46a6ee8c5cc7a6397cea1f9e473a8c20da2ee1010bfd98b47db1522f3356"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-5900c31c327e0a84--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L14",
+                  "sectionSha256": "960f46a6ee8c5cc7a6397cea1f9e473a8c20da2ee1010bfd98b47db1522f3356"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L14",
+              "sectionSha256": "960f46a6ee8c5cc7a6397cea1f9e473a8c20da2ee1010bfd98b47db1522f3356"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L14",
+              "sectionSha256": "960f46a6ee8c5cc7a6397cea1f9e473a8c20da2ee1010bfd98b47db1522f3356"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L14",
+              "sectionSha256": "960f46a6ee8c5cc7a6397cea1f9e473a8c20da2ee1010bfd98b47db1522f3356"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "意志"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L14",
+                  "sectionSha256": "960f46a6ee8c5cc7a6397cea1f9e473a8c20da2ee1010bfd98b47db1522f3356"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L14",
+              "sectionSha256": "960f46a6ee8c5cc7a6397cea1f9e473a8c20da2ee1010bfd98b47db1522f3356"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L14",
+              "sectionSha256": "960f46a6ee8c5cc7a6397cea1f9e473a8c20da2ee1010bfd98b47db1522f3356"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L14",
+              "sectionSha256": "960f46a6ee8c5cc7a6397cea1f9e473a8c20da2ee1010bfd98b47db1522f3356"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-5900c31c327e0a84--094e95ffe05e",
+          "name": "魔力增幅",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+            "anchor": "L17",
+            "sectionSha256": "3af7bd3e03e597399daa8ba3de09601e39dd57cae8f5527f376296472a1734d2"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/THE_LAND通用技艺.md",
+              "sha256": "7ff54a7765bf8313f1e237f5922486ba6907d21be30b848e2c7ae0c2e2109e7b",
+              "lineRanges": [
+                [
+                  17,
+                  19
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L17",
+                  "sectionSha256": "3af7bd3e03e597399daa8ba3de09601e39dd57cae8f5527f376296472a1734d2"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-5900c31c327e0a84--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L17",
+                  "sectionSha256": "3af7bd3e03e597399daa8ba3de09601e39dd57cae8f5527f376296472a1734d2"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L17",
+              "sectionSha256": "3af7bd3e03e597399daa8ba3de09601e39dd57cae8f5527f376296472a1734d2"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L17",
+              "sectionSha256": "3af7bd3e03e597399daa8ba3de09601e39dd57cae8f5527f376296472a1734d2"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L17",
+              "sectionSha256": "3af7bd3e03e597399daa8ba3de09601e39dd57cae8f5527f376296472a1734d2"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "意志"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L17",
+                  "sectionSha256": "3af7bd3e03e597399daa8ba3de09601e39dd57cae8f5527f376296472a1734d2"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L17",
+              "sectionSha256": "3af7bd3e03e597399daa8ba3de09601e39dd57cae8f5527f376296472a1734d2"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L17",
+              "sectionSha256": "3af7bd3e03e597399daa8ba3de09601e39dd57cae8f5527f376296472a1734d2"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L17",
+              "sectionSha256": "3af7bd3e03e597399daa8ba3de09601e39dd57cae8f5527f376296472a1734d2"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-5900c31c327e0a84--bbbae651d4e8",
+          "name": "分析",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+            "anchor": "L20",
+            "sectionSha256": "f72d072eae2a3726c7f5761ae3c55c586980df21961e3c638e091fae7bc12a4e"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/THE_LAND通用技艺.md",
+              "sha256": "7ff54a7765bf8313f1e237f5922486ba6907d21be30b848e2c7ae0c2e2109e7b",
+              "lineRanges": [
+                [
+                  20,
+                  24
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L20",
+                  "sectionSha256": "f72d072eae2a3726c7f5761ae3c55c586980df21961e3c638e091fae7bc12a4e"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-5900c31c327e0a84--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L20",
+                  "sectionSha256": "f72d072eae2a3726c7f5761ae3c55c586980df21961e3c638e091fae7bc12a4e"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L20",
+              "sectionSha256": "f72d072eae2a3726c7f5761ae3c55c586980df21961e3c638e091fae7bc12a4e"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L20",
+              "sectionSha256": "f72d072eae2a3726c7f5761ae3c55c586980df21961e3c638e091fae7bc12a4e"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L20",
+              "sectionSha256": "f72d072eae2a3726c7f5761ae3c55c586980df21961e3c638e091fae7bc12a4e"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L20",
+              "sectionSha256": "f72d072eae2a3726c7f5761ae3c55c586980df21961e3c638e091fae7bc12a4e"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L20",
+              "sectionSha256": "f72d072eae2a3726c7f5761ae3c55c586980df21961e3c638e091fae7bc12a4e"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L20",
+              "sectionSha256": "f72d072eae2a3726c7f5761ae3c55c586980df21961e3c638e091fae7bc12a4e"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-5900c31c327e0a84--cd5c8731ec1e",
+          "name": "魔力控制",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+            "anchor": "L25",
+            "sectionSha256": "c609c525b621ce6785b37e2df13c1417400a0891f3e4f98f1a063e841df48718"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/THE_LAND通用技艺.md",
+              "sha256": "7ff54a7765bf8313f1e237f5922486ba6907d21be30b848e2c7ae0c2e2109e7b",
+              "lineRanges": [
+                [
+                  25,
+                  27
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "DD",
+                "currency": "XP",
+                "amount": 20,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L25",
+                  "sectionSha256": "c609c525b621ce6785b37e2df13c1417400a0891f3e4f98f1a063e841df48718"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-5900c31c327e0a84--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L25",
+                  "sectionSha256": "c609c525b621ce6785b37e2df13c1417400a0891f3e4f98f1a063e841df48718"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L25",
+              "sectionSha256": "c609c525b621ce6785b37e2df13c1417400a0891f3e4f98f1a063e841df48718"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L25",
+              "sectionSha256": "c609c525b621ce6785b37e2df13c1417400a0891f3e4f98f1a063e841df48718"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L25",
+              "sectionSha256": "c609c525b621ce6785b37e2df13c1417400a0891f3e4f98f1a063e841df48718"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L25",
+              "sectionSha256": "c609c525b621ce6785b37e2df13c1417400a0891f3e4f98f1a063e841df48718"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L25",
+              "sectionSha256": "c609c525b621ce6785b37e2df13c1417400a0891f3e4f98f1a063e841df48718"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L25",
+              "sectionSha256": "c609c525b621ce6785b37e2df13c1417400a0891f3e4f98f1a063e841df48718"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-5900c31c327e0a84--36402ecb137e",
+          "name": "变换施法",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+            "anchor": "L28",
+            "sectionSha256": "be626b7ce453b6dd2ad837e950484d64a3152eda85fd3bc05de46b352f90b6e1"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/THE_LAND通用技艺.md",
+              "sha256": "7ff54a7765bf8313f1e237f5922486ba6907d21be30b848e2c7ae0c2e2109e7b",
+              "lineRanges": [
+                [
+                  28,
+                  30
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L28",
+                  "sectionSha256": "be626b7ce453b6dd2ad837e950484d64a3152eda85fd3bc05de46b352f90b6e1"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-5900c31c327e0a84--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L28",
+                  "sectionSha256": "be626b7ce453b6dd2ad837e950484d64a3152eda85fd3bc05de46b352f90b6e1"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L28",
+              "sectionSha256": "be626b7ce453b6dd2ad837e950484d64a3152eda85fd3bc05de46b352f90b6e1"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L28",
+              "sectionSha256": "be626b7ce453b6dd2ad837e950484d64a3152eda85fd3bc05de46b352f90b6e1"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L28",
+              "sectionSha256": "be626b7ce453b6dd2ad837e950484d64a3152eda85fd3bc05de46b352f90b6e1"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L28",
+              "sectionSha256": "be626b7ce453b6dd2ad837e950484d64a3152eda85fd3bc05de46b352f90b6e1"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L28",
+              "sectionSha256": "be626b7ce453b6dd2ad837e950484d64a3152eda85fd3bc05de46b352f90b6e1"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L28",
+              "sectionSha256": "be626b7ce453b6dd2ad837e950484d64a3152eda85fd3bc05de46b352f90b6e1"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "招式",
+              "value": 6,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                "anchor": "L28",
+                "sectionSha256": "be626b7ce453b6dd2ad837e950484d64a3152eda85fd3bc05de46b352f90b6e1"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-5900c31c327e0a84--6220cb3f3fad",
+          "name": "有备无患",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+            "anchor": "L31",
+            "sectionSha256": "0ce39acbd2b9a01b30cb07c8ee7460c9c6f6fc639dc43461a27e073dfc6c87fc"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/THE_LAND通用技艺.md",
+              "sha256": "7ff54a7765bf8313f1e237f5922486ba6907d21be30b848e2c7ae0c2e2109e7b",
+              "lineRanges": [
+                [
+                  31,
+                  33
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L31",
+                  "sectionSha256": "0ce39acbd2b9a01b30cb07c8ee7460c9c6f6fc639dc43461a27e073dfc6c87fc"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-5900c31c327e0a84--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L31",
+                  "sectionSha256": "0ce39acbd2b9a01b30cb07c8ee7460c9c6f6fc639dc43461a27e073dfc6c87fc"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L31",
+              "sectionSha256": "0ce39acbd2b9a01b30cb07c8ee7460c9c6f6fc639dc43461a27e073dfc6c87fc"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L31",
+              "sectionSha256": "0ce39acbd2b9a01b30cb07c8ee7460c9c6f6fc639dc43461a27e073dfc6c87fc"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L31",
+              "sectionSha256": "0ce39acbd2b9a01b30cb07c8ee7460c9c6f6fc639dc43461a27e073dfc6c87fc"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L31",
+              "sectionSha256": "0ce39acbd2b9a01b30cb07c8ee7460c9c6f6fc639dc43461a27e073dfc6c87fc"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L31",
+              "sectionSha256": "0ce39acbd2b9a01b30cb07c8ee7460c9c6f6fc639dc43461a27e073dfc6c87fc"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L31",
+              "sectionSha256": "0ce39acbd2b9a01b30cb07c8ee7460c9c6f6fc639dc43461a27e073dfc6c87fc"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-5900c31c327e0a84--03ec39d1be65",
+          "name": "反手一击",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+            "anchor": "L34",
+            "sectionSha256": "ed23e9cba407288b6927ec091feacecc8fdad1c2d3850dac37673734ff3bbe32"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/THE_LAND通用技艺.md",
+              "sha256": "7ff54a7765bf8313f1e237f5922486ba6907d21be30b848e2c7ae0c2e2109e7b",
+              "lineRanges": [
+                [
+                  34,
+                  36
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L34",
+                  "sectionSha256": "ed23e9cba407288b6927ec091feacecc8fdad1c2d3850dac37673734ff3bbe32"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-5900c31c327e0a84--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L34",
+                  "sectionSha256": "ed23e9cba407288b6927ec091feacecc8fdad1c2d3850dac37673734ff3bbe32"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L34",
+              "sectionSha256": "ed23e9cba407288b6927ec091feacecc8fdad1c2d3850dac37673734ff3bbe32"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L34",
+              "sectionSha256": "ed23e9cba407288b6927ec091feacecc8fdad1c2d3850dac37673734ff3bbe32"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L34",
+              "sectionSha256": "ed23e9cba407288b6927ec091feacecc8fdad1c2d3850dac37673734ff3bbe32"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L34",
+              "sectionSha256": "ed23e9cba407288b6927ec091feacecc8fdad1c2d3850dac37673734ff3bbe32"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L34",
+              "sectionSha256": "ed23e9cba407288b6927ec091feacecc8fdad1c2d3850dac37673734ff3bbe32"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L34",
+              "sectionSha256": "ed23e9cba407288b6927ec091feacecc8fdad1c2d3850dac37673734ff3bbe32"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-5900c31c327e0a84--62317f6d0509",
+          "name": "死中求活",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+            "anchor": "L37",
+            "sectionSha256": "dcb7ed9b8753a35da40cb21ead716a9fef344b6bf4a5555b412630827011cbe5"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/THE_LAND通用技艺.md",
+              "sha256": "7ff54a7765bf8313f1e237f5922486ba6907d21be30b848e2c7ae0c2e2109e7b",
+              "lineRanges": [
+                [
+                  37,
+                  40
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L37",
+                  "sectionSha256": "dcb7ed9b8753a35da40cb21ead716a9fef344b6bf4a5555b412630827011cbe5"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-5900c31c327e0a84--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L37",
+                  "sectionSha256": "dcb7ed9b8753a35da40cb21ead716a9fef344b6bf4a5555b412630827011cbe5"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L37",
+              "sectionSha256": "dcb7ed9b8753a35da40cb21ead716a9fef344b6bf4a5555b412630827011cbe5"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L37",
+              "sectionSha256": "dcb7ed9b8753a35da40cb21ead716a9fef344b6bf4a5555b412630827011cbe5"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L37",
+              "sectionSha256": "dcb7ed9b8753a35da40cb21ead716a9fef344b6bf4a5555b412630827011cbe5"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L37",
+              "sectionSha256": "dcb7ed9b8753a35da40cb21ead716a9fef344b6bf4a5555b412630827011cbe5"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L37",
+              "sectionSha256": "dcb7ed9b8753a35da40cb21ead716a9fef344b6bf4a5555b412630827011cbe5"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L37",
+              "sectionSha256": "dcb7ed9b8753a35da40cb21ead716a9fef344b6bf4a5555b412630827011cbe5"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-5900c31c327e0a84--c7e5d9889852",
+          "name": "意志坚定",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+            "anchor": "L41",
+            "sectionSha256": "890d4ae42df4823726f044e94b32b1a7be1c7af22bb911374e2a59a7f7198c62"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/THE_LAND通用技艺.md",
+              "sha256": "7ff54a7765bf8313f1e237f5922486ba6907d21be30b848e2c7ae0c2e2109e7b",
+              "lineRanges": [
+                [
+                  41,
+                  43
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L41",
+                  "sectionSha256": "890d4ae42df4823726f044e94b32b1a7be1c7af22bb911374e2a59a7f7198c62"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-5900c31c327e0a84--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L41",
+                  "sectionSha256": "890d4ae42df4823726f044e94b32b1a7be1c7af22bb911374e2a59a7f7198c62"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L41",
+              "sectionSha256": "890d4ae42df4823726f044e94b32b1a7be1c7af22bb911374e2a59a7f7198c62"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L41",
+              "sectionSha256": "890d4ae42df4823726f044e94b32b1a7be1c7af22bb911374e2a59a7f7198c62"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L41",
+              "sectionSha256": "890d4ae42df4823726f044e94b32b1a7be1c7af22bb911374e2a59a7f7198c62"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L41",
+              "sectionSha256": "890d4ae42df4823726f044e94b32b1a7be1c7af22bb911374e2a59a7f7198c62"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L41",
+              "sectionSha256": "890d4ae42df4823726f044e94b32b1a7be1c7af22bb911374e2a59a7f7198c62"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L41",
+              "sectionSha256": "890d4ae42df4823726f044e94b32b1a7be1c7af22bb911374e2a59a7f7198c62"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-5900c31c327e0a84--fe846e5da0c9",
+          "name": "明镜止水",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+            "anchor": "L44",
+            "sectionSha256": "260a24cff49c57c3f06db825febabcc568778518b7494d1ef9fadd5eef7432bd"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/THE_LAND通用技艺.md",
+              "sha256": "7ff54a7765bf8313f1e237f5922486ba6907d21be30b848e2c7ae0c2e2109e7b",
+              "lineRanges": [
+                [
+                  44,
+                  46
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L44",
+                  "sectionSha256": "260a24cff49c57c3f06db825febabcc568778518b7494d1ef9fadd5eef7432bd"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-5900c31c327e0a84--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L44",
+                  "sectionSha256": "260a24cff49c57c3f06db825febabcc568778518b7494d1ef9fadd5eef7432bd"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L44",
+              "sectionSha256": "260a24cff49c57c3f06db825febabcc568778518b7494d1ef9fadd5eef7432bd"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L44",
+              "sectionSha256": "260a24cff49c57c3f06db825febabcc568778518b7494d1ef9fadd5eef7432bd"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L44",
+              "sectionSha256": "260a24cff49c57c3f06db825febabcc568778518b7494d1ef9fadd5eef7432bd"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L44",
+              "sectionSha256": "260a24cff49c57c3f06db825febabcc568778518b7494d1ef9fadd5eef7432bd"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L44",
+              "sectionSha256": "260a24cff49c57c3f06db825febabcc568778518b7494d1ef9fadd5eef7432bd"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L44",
+              "sectionSha256": "260a24cff49c57c3f06db825febabcc568778518b7494d1ef9fadd5eef7432bd"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-5900c31c327e0a84--8172b22c0855",
+          "name": "绝境反击",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+            "anchor": "L47",
+            "sectionSha256": "879c8f529adef4f0a32bda664d18209e4d16842daf434c35cfcf73f4c3387c31"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/THE_LAND通用技艺.md",
+              "sha256": "7ff54a7765bf8313f1e237f5922486ba6907d21be30b848e2c7ae0c2e2109e7b",
+              "lineRanges": [
+                [
+                  47,
+                  49
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L47",
+                  "sectionSha256": "879c8f529adef4f0a32bda664d18209e4d16842daf434c35cfcf73f4c3387c31"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-5900c31c327e0a84--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L47",
+                  "sectionSha256": "879c8f529adef4f0a32bda664d18209e4d16842daf434c35cfcf73f4c3387c31"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L47",
+              "sectionSha256": "879c8f529adef4f0a32bda664d18209e4d16842daf434c35cfcf73f4c3387c31"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L47",
+              "sectionSha256": "879c8f529adef4f0a32bda664d18209e4d16842daf434c35cfcf73f4c3387c31"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L47",
+              "sectionSha256": "879c8f529adef4f0a32bda664d18209e4d16842daf434c35cfcf73f4c3387c31"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L47",
+              "sectionSha256": "879c8f529adef4f0a32bda664d18209e4d16842daf434c35cfcf73f4c3387c31"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L47",
+              "sectionSha256": "879c8f529adef4f0a32bda664d18209e4d16842daf434c35cfcf73f4c3387c31"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L47",
+              "sectionSha256": "879c8f529adef4f0a32bda664d18209e4d16842daf434c35cfcf73f4c3387c31"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-5900c31c327e0a84--6228e9d3d391",
+          "name": "苦行僧",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+            "anchor": "L50",
+            "sectionSha256": "1271c79aec682ff3e053ac42a722f5054a00bf4e938aa7d97290c00246d36a92"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/THE_LAND通用技艺.md",
+              "sha256": "7ff54a7765bf8313f1e237f5922486ba6907d21be30b848e2c7ae0c2e2109e7b",
+              "lineRanges": [
+                [
+                  50,
+                  52
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L50",
+                  "sectionSha256": "1271c79aec682ff3e053ac42a722f5054a00bf4e938aa7d97290c00246d36a92"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-5900c31c327e0a84--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "力量",
+                    "minimum": 6
+                  }
+                ],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L50",
+                  "sectionSha256": "1271c79aec682ff3e053ac42a722f5054a00bf4e938aa7d97290c00246d36a92"
+                },
+                "semanticStatus": "partial"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L50",
+              "sectionSha256": "1271c79aec682ff3e053ac42a722f5054a00bf4e938aa7d97290c00246d36a92"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L50",
+              "sectionSha256": "1271c79aec682ff3e053ac42a722f5054a00bf4e938aa7d97290c00246d36a92"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L50",
+              "sectionSha256": "1271c79aec682ff3e053ac42a722f5054a00bf4e938aa7d97290c00246d36a92"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L50",
+              "sectionSha256": "1271c79aec682ff3e053ac42a722f5054a00bf4e938aa7d97290c00246d36a92"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L50",
+              "sectionSha256": "1271c79aec682ff3e053ac42a722f5054a00bf4e938aa7d97290c00246d36a92"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L50",
+              "sectionSha256": "1271c79aec682ff3e053ac42a722f5054a00bf4e938aa7d97290c00246d36a92"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-5900c31c327e0a84--47a5635347b1",
+          "name": "身强体壮",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+            "anchor": "L53",
+            "sectionSha256": "9f4e665fade92e0bd4154a8795da125e438608325557d39266b51c9485ee70ec"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/THE_LAND通用技艺.md",
+              "sha256": "7ff54a7765bf8313f1e237f5922486ba6907d21be30b848e2c7ae0c2e2109e7b",
+              "lineRanges": [
+                [
+                  53,
+                  55
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L53",
+                  "sectionSha256": "9f4e665fade92e0bd4154a8795da125e438608325557d39266b51c9485ee70ec"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-5900c31c327e0a84--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "力量",
+                    "minimum": 6
+                  }
+                ],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L53",
+                  "sectionSha256": "9f4e665fade92e0bd4154a8795da125e438608325557d39266b51c9485ee70ec"
+                },
+                "semanticStatus": "partial"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L53",
+              "sectionSha256": "9f4e665fade92e0bd4154a8795da125e438608325557d39266b51c9485ee70ec"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L53",
+              "sectionSha256": "9f4e665fade92e0bd4154a8795da125e438608325557d39266b51c9485ee70ec"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L53",
+              "sectionSha256": "9f4e665fade92e0bd4154a8795da125e438608325557d39266b51c9485ee70ec"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L53",
+              "sectionSha256": "9f4e665fade92e0bd4154a8795da125e438608325557d39266b51c9485ee70ec"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L53",
+              "sectionSha256": "9f4e665fade92e0bd4154a8795da125e438608325557d39266b51c9485ee70ec"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L53",
+              "sectionSha256": "9f4e665fade92e0bd4154a8795da125e438608325557d39266b51c9485ee70ec"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-5900c31c327e0a84--0e3f48a30eac",
+          "name": "修养生息",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+            "anchor": "L56",
+            "sectionSha256": "2f553a3f95a75fc25fecf1a7d2c8b829bf77c5543c433dffb8fec5a647bdac58"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/THE_LAND通用技艺.md",
+              "sha256": "7ff54a7765bf8313f1e237f5922486ba6907d21be30b848e2c7ae0c2e2109e7b",
+              "lineRanges": [
+                [
+                  56,
+                  58
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L56",
+                  "sectionSha256": "2f553a3f95a75fc25fecf1a7d2c8b829bf77c5543c433dffb8fec5a647bdac58"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-5900c31c327e0a84--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "力量",
+                    "minimum": 6
+                  }
+                ],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L56",
+                  "sectionSha256": "2f553a3f95a75fc25fecf1a7d2c8b829bf77c5543c433dffb8fec5a647bdac58"
+                },
+                "semanticStatus": "partial"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L56",
+              "sectionSha256": "2f553a3f95a75fc25fecf1a7d2c8b829bf77c5543c433dffb8fec5a647bdac58"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L56",
+              "sectionSha256": "2f553a3f95a75fc25fecf1a7d2c8b829bf77c5543c433dffb8fec5a647bdac58"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L56",
+              "sectionSha256": "2f553a3f95a75fc25fecf1a7d2c8b829bf77c5543c433dffb8fec5a647bdac58"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L56",
+              "sectionSha256": "2f553a3f95a75fc25fecf1a7d2c8b829bf77c5543c433dffb8fec5a647bdac58"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L56",
+              "sectionSha256": "2f553a3f95a75fc25fecf1a7d2c8b829bf77c5543c433dffb8fec5a647bdac58"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L56",
+              "sectionSha256": "2f553a3f95a75fc25fecf1a7d2c8b829bf77c5543c433dffb8fec5a647bdac58"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-5900c31c327e0a84--ee7222473280",
+          "name": "处决",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+            "anchor": "L59",
+            "sectionSha256": "e59483401dc7cd9be54f3dad4000afa6f8bcc130e58b84fa6e76bbe4e4ff1571"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/THE_LAND通用技艺.md",
+              "sha256": "7ff54a7765bf8313f1e237f5922486ba6907d21be30b848e2c7ae0c2e2109e7b",
+              "lineRanges": [
+                [
+                  59,
+                  62
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L59",
+                  "sectionSha256": "e59483401dc7cd9be54f3dad4000afa6f8bcc130e58b84fa6e76bbe4e4ff1571"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard",
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-5900c31c327e0a84--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L59",
+                  "sectionSha256": "e59483401dc7cd9be54f3dad4000afa6f8bcc130e58b84fa6e76bbe4e4ff1571"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L59",
+              "sectionSha256": "e59483401dc7cd9be54f3dad4000afa6f8bcc130e58b84fa6e76bbe4e4ff1571"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L59",
+              "sectionSha256": "e59483401dc7cd9be54f3dad4000afa6f8bcc130e58b84fa6e76bbe4e4ff1571"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L59",
+              "sectionSha256": "e59483401dc7cd9be54f3dad4000afa6f8bcc130e58b84fa6e76bbe4e4ff1571"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "精力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                  "anchor": "L59",
+                  "sectionSha256": "e59483401dc7cd9be54f3dad4000afa6f8bcc130e58b84fa6e76bbe4e4ff1571"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L59",
+              "sectionSha256": "e59483401dc7cd9be54f3dad4000afa6f8bcc130e58b84fa6e76bbe4e4ff1571"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L59",
+              "sectionSha256": "e59483401dc7cd9be54f3dad4000afa6f8bcc130e58b84fa6e76bbe4e4ff1571"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+              "anchor": "L59",
+              "sectionSha256": "e59483401dc7cd9be54f3dad4000afa6f8bcc130e58b84fa6e76bbe4e4ff1571"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "表现",
+              "value": 18,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/117-THE_LAND通用技艺.md",
+                "anchor": "L59",
+                "sectionSha256": "e59483401dc7cd9be54f3dad4000afa6f8bcc130e58b84fa6e76bbe4e4ff1571"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "THE_LAND通用技艺",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "奇妙握法",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "集中回避",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "集中冥想",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "魔力增幅",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "分析",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "魔力控制",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "变换施法",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "有备无患",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "反手一击",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "死中求活",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "意志坚定",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "明镜止水",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "绝境反击",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "苦行僧",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "身强体壮",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "修养生息",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "处决",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-5900c31c327e0a84--4e20baac66c8--intent",
+      "name": "集中冥想",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-5900c31c327e0a84--4e20baac66c8",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-5900c31c327e0a84--094e95ffe05e--intent",
+      "name": "魔力增幅",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-5900c31c327e0a84--094e95ffe05e",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-5900c31c327e0a84--bbbae651d4e8--intent",
+      "name": "分析",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-5900c31c327e0a84--bbbae651d4e8",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-5900c31c327e0a84--03ec39d1be65--intent",
+      "name": "反手一击",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-5900c31c327e0a84--03ec39d1be65",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-5900c31c327e0a84--ee7222473280--intent",
+      "name": "处决",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard",
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-5900c31c327e0a84--ee7222473280",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "prerequisite-logic-not-fully-encoded",
+    "duration-inheritance-and-no-implicit-refresh",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "attack-program-hardcodes-INT-and-casting"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

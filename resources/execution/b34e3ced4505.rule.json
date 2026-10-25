@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:D:杰斯的觅灵影",
-  "version": "2026-10-23.1",
+  "version": "2026-10-24.1",
   "identity": {
     "name": "杰斯的觅灵影",
     "grade": "D",
@@ -18,7 +18,8 @@
     "grade": "D",
     "prohibited": false,
     "subskills": [
-      "幻术或神秘·心灵取最贴切一项"
+      "幻术",
+      "心灵"
     ],
     "effects": [],
     "learning": {
@@ -29,9 +30,10 @@
         "replaceD": 15
       }
     },
-    "requiresAllSchools": false,
+    "requiresAllSchools": true,
     "schools": [
-      "幻术或神秘·心灵取最贴切一项"
+      "幻术",
+      "心灵"
     ]
   },
   "clauses": [

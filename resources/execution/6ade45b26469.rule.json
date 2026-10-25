@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "kuanglan",
-  "version": "2026-10-23.1",
+  "version": "2026-10-24.1",
   "identity": {
     "name": "启剑式·风·狂岚",
     "grade": null,
@@ -22,7 +22,20 @@
   "clauses": [],
   "actions": [],
   "inputs": [],
-  "unresolvedRules": [],
+  "unresolvedRules": [
+    {
+      "parameter": "learningPrice",
+      "basis": "resources/kuanglan.md:3：独立技艺，暂定C级25XP。",
+      "impact": "25XP不能默认为已经确认的付费取得价；不影响已取得者的本击效果。",
+      "recommendation": "沿用C级25XP作为推荐候选价，实际学习报价保留明确采用来源。"
+    },
+    {
+      "parameter": "defenseReductionInteractions",
+      "basis": "resources/kuanglan.md:10：单体减8的类型未另指定；混合来源减防、免疫及同类叠加交互待定。",
+      "impact": "涉及特定减防免疫或同类叠加时不能把整体减值推为无视防御。",
+      "recommendation": "单体整体减防8、群袭整体减防3各只对本击扣一次；不拆份额、不另赠免疫穿透，特殊免疫交互另行确认。"
+    }
+  ],
   "implementationGaps": [
     "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
   ],

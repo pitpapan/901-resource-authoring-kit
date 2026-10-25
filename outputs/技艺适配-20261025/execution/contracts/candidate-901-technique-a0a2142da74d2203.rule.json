@@ -1,0 +1,949 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-a0a2142da74d2203",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "能量池强化",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J08",
+    "aliases": [
+      "能量池强化",
+      "基础能量强化",
+      "次级能量强化",
+      "中级能量强化",
+      "高级能量强化"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/能量池强化.md",
+        "sha256": "f97170407194fd1265ae7b01f5162d6f250f5acfcccb8aaf211bbeae6c2a65b5",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            29
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+    "sha256": "2f5b732813c3be1a50a2492f70ac078ec18a26995ccc93a8efad5db64d4173eb"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-a0a2142da74d2203--0ae594c1109f",
+          "name": "能量池强化",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+            "anchor": "条目",
+            "sectionSha256": "02ef79dc8a047f16b086766eaa2975b89bc6d0e5ba009c2a7fb6d2b8d1800a3d"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/能量池强化.md",
+              "sha256": "f97170407194fd1265ae7b01f5162d6f250f5acfcccb8aaf211bbeae6c2a65b5",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  10
+                ],
+                [
+                  12,
+                  12
+                ],
+                [
+                  17,
+                  17
+                ],
+                [
+                  22,
+                  22
+                ],
+                [
+                  27,
+                  27
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+                  "anchor": "条目",
+                  "sectionSha256": "02ef79dc8a047f16b086766eaa2975b89bc6d0e5ba009c2a7fb6d2b8d1800a3d"
+                },
+                "semanticStatus": "not-encoded"
+              },
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+                  "anchor": "条目",
+                  "sectionSha256": "02ef79dc8a047f16b086766eaa2975b89bc6d0e5ba009c2a7fb6d2b8d1800a3d"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "条目",
+              "sectionSha256": "02ef79dc8a047f16b086766eaa2975b89bc6d0e5ba009c2a7fb6d2b8d1800a3d"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "条目",
+              "sectionSha256": "02ef79dc8a047f16b086766eaa2975b89bc6d0e5ba009c2a7fb6d2b8d1800a3d"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "条目",
+              "sectionSha256": "02ef79dc8a047f16b086766eaa2975b89bc6d0e5ba009c2a7fb6d2b8d1800a3d"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "条目",
+              "sectionSha256": "02ef79dc8a047f16b086766eaa2975b89bc6d0e5ba009c2a7fb6d2b8d1800a3d"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "条目",
+              "sectionSha256": "02ef79dc8a047f16b086766eaa2975b89bc6d0e5ba009c2a7fb6d2b8d1800a3d"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "条目",
+              "sectionSha256": "02ef79dc8a047f16b086766eaa2975b89bc6d0e5ba009c2a7fb6d2b8d1800a3d"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-a0a2142da74d2203--04a90cd5d050",
+          "name": "基础能量强化",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+            "anchor": "L11",
+            "sectionSha256": "7098ab68860c2c7313344069b7692cc6f46921163a5f8332f257e342ac787071"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/能量池强化.md",
+              "sha256": "f97170407194fd1265ae7b01f5162d6f250f5acfcccb8aaf211bbeae6c2a65b5",
+              "lineRanges": [
+                [
+                  11,
+                  11
+                ],
+                [
+                  13,
+                  14
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+                  "anchor": "L11",
+                  "sectionSha256": "7098ab68860c2c7313344069b7692cc6f46921163a5f8332f257e342ac787071"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-a0a2142da74d2203--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "L11",
+              "sectionSha256": "7098ab68860c2c7313344069b7692cc6f46921163a5f8332f257e342ac787071"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "L11",
+              "sectionSha256": "7098ab68860c2c7313344069b7692cc6f46921163a5f8332f257e342ac787071"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "L11",
+              "sectionSha256": "7098ab68860c2c7313344069b7692cc6f46921163a5f8332f257e342ac787071"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "L11",
+              "sectionSha256": "7098ab68860c2c7313344069b7692cc6f46921163a5f8332f257e342ac787071"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "L11",
+              "sectionSha256": "7098ab68860c2c7313344069b7692cc6f46921163a5f8332f257e342ac787071"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "L11",
+              "sectionSha256": "7098ab68860c2c7313344069b7692cc6f46921163a5f8332f257e342ac787071"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-a0a2142da74d2203--ffb618ca2dd4",
+          "name": "次级能量强化",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+            "anchor": "L15",
+            "sectionSha256": "604d34f38b5284a33d8ec5974f65257a7e2f293602ec3284169e73e2bbe1e309"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/能量池强化.md",
+              "sha256": "f97170407194fd1265ae7b01f5162d6f250f5acfcccb8aaf211bbeae6c2a65b5",
+              "lineRanges": [
+                [
+                  15,
+                  16
+                ],
+                [
+                  18,
+                  19
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+                  "anchor": "L15",
+                  "sectionSha256": "604d34f38b5284a33d8ec5974f65257a7e2f293602ec3284169e73e2bbe1e309"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-a0a2142da74d2203--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+                  "anchor": "L15",
+                  "sectionSha256": "604d34f38b5284a33d8ec5974f65257a7e2f293602ec3284169e73e2bbe1e309"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "L15",
+              "sectionSha256": "604d34f38b5284a33d8ec5974f65257a7e2f293602ec3284169e73e2bbe1e309"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "L15",
+              "sectionSha256": "604d34f38b5284a33d8ec5974f65257a7e2f293602ec3284169e73e2bbe1e309"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "L15",
+              "sectionSha256": "604d34f38b5284a33d8ec5974f65257a7e2f293602ec3284169e73e2bbe1e309"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "L15",
+              "sectionSha256": "604d34f38b5284a33d8ec5974f65257a7e2f293602ec3284169e73e2bbe1e309"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "L15",
+              "sectionSha256": "604d34f38b5284a33d8ec5974f65257a7e2f293602ec3284169e73e2bbe1e309"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "L15",
+              "sectionSha256": "604d34f38b5284a33d8ec5974f65257a7e2f293602ec3284169e73e2bbe1e309"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-a0a2142da74d2203--bbbae651d4e8",
+          "name": "中级能量强化",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+            "anchor": "L20",
+            "sectionSha256": "bb6fa91c5f1ec9c9bde5773ac79885e4b0db09724a0b4edddbc9eae2646d0a1b"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/能量池强化.md",
+              "sha256": "f97170407194fd1265ae7b01f5162d6f250f5acfcccb8aaf211bbeae6c2a65b5",
+              "lineRanges": [
+                [
+                  20,
+                  21
+                ],
+                [
+                  23,
+                  24
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+                  "anchor": "L20",
+                  "sectionSha256": "bb6fa91c5f1ec9c9bde5773ac79885e4b0db09724a0b4edddbc9eae2646d0a1b"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-a0a2142da74d2203--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+                  "anchor": "L20",
+                  "sectionSha256": "bb6fa91c5f1ec9c9bde5773ac79885e4b0db09724a0b4edddbc9eae2646d0a1b"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "L20",
+              "sectionSha256": "bb6fa91c5f1ec9c9bde5773ac79885e4b0db09724a0b4edddbc9eae2646d0a1b"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "L20",
+              "sectionSha256": "bb6fa91c5f1ec9c9bde5773ac79885e4b0db09724a0b4edddbc9eae2646d0a1b"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "L20",
+              "sectionSha256": "bb6fa91c5f1ec9c9bde5773ac79885e4b0db09724a0b4edddbc9eae2646d0a1b"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "L20",
+              "sectionSha256": "bb6fa91c5f1ec9c9bde5773ac79885e4b0db09724a0b4edddbc9eae2646d0a1b"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "L20",
+              "sectionSha256": "bb6fa91c5f1ec9c9bde5773ac79885e4b0db09724a0b4edddbc9eae2646d0a1b"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "L20",
+              "sectionSha256": "bb6fa91c5f1ec9c9bde5773ac79885e4b0db09724a0b4edddbc9eae2646d0a1b"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-a0a2142da74d2203--cd5c8731ec1e",
+          "name": "高级能量强化",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+            "anchor": "L25",
+            "sectionSha256": "abf65f469818e141494ed97e8e22edc934f2cd5c91c3bcd8f6f48f380d9ef3cf"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/能量池强化.md",
+              "sha256": "f97170407194fd1265ae7b01f5162d6f250f5acfcccb8aaf211bbeae6c2a65b5",
+              "lineRanges": [
+                [
+                  25,
+                  26
+                ],
+                [
+                  28,
+                  29
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+                  "anchor": "L25",
+                  "sectionSha256": "abf65f469818e141494ed97e8e22edc934f2cd5c91c3bcd8f6f48f380d9ef3cf"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-a0a2142da74d2203--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+                  "anchor": "L25",
+                  "sectionSha256": "abf65f469818e141494ed97e8e22edc934f2cd5c91c3bcd8f6f48f380d9ef3cf"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "L25",
+              "sectionSha256": "abf65f469818e141494ed97e8e22edc934f2cd5c91c3bcd8f6f48f380d9ef3cf"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "L25",
+              "sectionSha256": "abf65f469818e141494ed97e8e22edc934f2cd5c91c3bcd8f6f48f380d9ef3cf"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "L25",
+              "sectionSha256": "abf65f469818e141494ed97e8e22edc934f2cd5c91c3bcd8f6f48f380d9ef3cf"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "L25",
+              "sectionSha256": "abf65f469818e141494ed97e8e22edc934f2cd5c91c3bcd8f6f48f380d9ef3cf"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "L25",
+              "sectionSha256": "abf65f469818e141494ed97e8e22edc934f2cd5c91c3bcd8f6f48f380d9ef3cf"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/114-能量池强化.md",
+              "anchor": "L25",
+              "sectionSha256": "abf65f469818e141494ed97e8e22edc934f2cd5c91c3bcd8f6f48f380d9ef3cf"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "能量池强化",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "基础能量强化",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "次级能量强化",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "中级能量强化",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "高级能量强化",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "duration-inheritance-and-no-implicit-refresh",
+    "prerequisite-logic-not-fully-encoded"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

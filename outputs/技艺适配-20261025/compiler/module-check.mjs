@@ -1,0 +1,26 @@
+// Read-only generated-module integration smoke test.
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath,pathToFileURL} from 'node:url';
+import {RESOURCE_DATA} from '../execution/generated/resource-data.mjs';
+import {RESOURCE_ACTION_INDEX} from '../execution/generated/resource-action-index.mjs';
+import {RESOURCE_BLOCKED_INDEX} from '../execution/generated/resource-blocked-index.mjs';
+import {RESOURCE_CONTRACT_INDEX} from '../execution/generated/resource-contract-index.mjs';
+const BASE=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const engine=path.resolve(BASE,'../../../901-tavern/work/rules_engine/resource-effects.mjs');
+const {collectEffects,stackEffects}=await import(pathToFileURL(engine));
+assert.equal(RESOURCE_ACTION_INDEX.length,0);
+assert.equal(RESOURCE_CONTRACT_INDEX.length,268);
+assert.equal(Object.keys(RESOURCE_DATA).length,1);
+assert(RESOURCE_BLOCKED_INDEX.length>=951);
+assert(RESOURCE_BLOCKED_INDEX.every(x=>x.mayExecute===false&&x.operation===null));
+const [id,definition]=Object.entries(RESOURCE_DATA)[0];
+const contract=JSON.parse(fs.readFileSync(path.join(BASE,'execution/contracts',id+'.rule.json'),'utf8'));
+const records=Object.fromEntries(contract.definition.authoringOnly.runtimeSlices.map(s=>[s.stageResourceId,s.requiredAcquisitionRecord]));
+assert.equal(definition.effects.length,8);
+assert.deepEqual(definition.programs,{});
+assert.equal(stackEffects(collectEffects({learnedResources:records},RESOURCE_DATA,'attack')).value,45);
+assert.equal(stackEffects(collectEffects({learnedResources:records},RESOURCE_DATA,'defense')).value,45);
+assert.equal(stackEffects(collectEffects({learnedResources:{[id]:{learned:true,version:contract.version,grade:'A'}}},RESOURCE_DATA,'attack')).value,0);
+console.log(JSON.stringify({result:'PASS',esmImports:4,exportedResources:1,passiveEffects:8,actionWhitelist:0}));

@@ -1,0 +1,1758 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-d505016d2134a77d",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "沧海杀法",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J01",
+    "aliases": [
+      "沧海杀法",
+      "沧海杀法（心法）",
+      "雷气鸣破击",
+      "雷鸣气杀破",
+      "雷牙破碎袭",
+      "雷龙怒鸣击",
+      "帝式——帝雷歼碎爆山河",
+      "霸式——霸雷破道毁十方",
+      "皇式——皇雷杀极灭寰宇"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/心法/沧海杀法.md",
+        "sha256": "d7de1baa04a2a400962878803a1e39cf0273830f7a0e78812c12270b18259846",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            43
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+    "sha256": "84915ec1dfce28bd5276959138f6aca03de67e5c4efd6b01088a0e9d08390600"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-d505016d2134a77d--0ae594c1109f",
+          "name": "沧海杀法",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+            "anchor": "条目",
+            "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/沧海杀法.md",
+              "sha256": "d7de1baa04a2a400962878803a1e39cf0273830f7a0e78812c12270b18259846",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  9,
+                  9
+                ],
+                [
+                  15,
+                  15
+                ],
+                [
+                  19,
+                  19
+                ],
+                [
+                  23,
+                  23
+                ],
+                [
+                  28,
+                  28
+                ],
+                [
+                  30,
+                  30
+                ],
+                [
+                  33,
+                  33
+                ],
+                [
+                  37,
+                  37
+                ],
+                [
+                  41,
+                  41
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-d505016d2134a77d--b3cc20089aab",
+          "name": "沧海杀法（心法）",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+            "anchor": "L6",
+            "sectionSha256": "22cd467f7fb3430185d53d3dc7970c55490f2f19f670917615d15efe5c06cd0b"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/沧海杀法.md",
+              "sha256": "d7de1baa04a2a400962878803a1e39cf0273830f7a0e78812c12270b18259846",
+              "lineRanges": [
+                [
+                  6,
+                  8
+                ],
+                [
+                  10,
+                  12
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+                  "anchor": "L6",
+                  "sectionSha256": "22cd467f7fb3430185d53d3dc7970c55490f2f19f670917615d15efe5c06cd0b"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-d505016d2134a77d--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+                  "anchor": "L6",
+                  "sectionSha256": "22cd467f7fb3430185d53d3dc7970c55490f2f19f670917615d15efe5c06cd0b"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L6",
+              "sectionSha256": "22cd467f7fb3430185d53d3dc7970c55490f2f19f670917615d15efe5c06cd0b"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L6",
+              "sectionSha256": "22cd467f7fb3430185d53d3dc7970c55490f2f19f670917615d15efe5c06cd0b"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L6",
+              "sectionSha256": "22cd467f7fb3430185d53d3dc7970c55490f2f19f670917615d15efe5c06cd0b"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L6",
+              "sectionSha256": "22cd467f7fb3430185d53d3dc7970c55490f2f19f670917615d15efe5c06cd0b"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L6",
+              "sectionSha256": "22cd467f7fb3430185d53d3dc7970c55490f2f19f670917615d15efe5c06cd0b"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L6",
+              "sectionSha256": "22cd467f7fb3430185d53d3dc7970c55490f2f19f670917615d15efe5c06cd0b"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "增强",
+              "value": 6,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+                "anchor": "L6",
+                "sectionSha256": "22cd467f7fb3430185d53d3dc7970c55490f2f19f670917615d15efe5c06cd0b"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-d505016d2134a77d--305b22853ae6",
+          "name": "雷气鸣破击",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+            "anchor": "L13",
+            "sectionSha256": "9c4549e172e019231119af42ac8bf5b02754775610bbbf3387770a4599210097"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/沧海杀法.md",
+              "sha256": "d7de1baa04a2a400962878803a1e39cf0273830f7a0e78812c12270b18259846",
+              "lineRanges": [
+                [
+                  13,
+                  14
+                ],
+                [
+                  16,
+                  16
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+                  "anchor": "L13",
+                  "sectionSha256": "9c4549e172e019231119af42ac8bf5b02754775610bbbf3387770a4599210097"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-d505016d2134a77d--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+                  "anchor": "L13",
+                  "sectionSha256": "9c4549e172e019231119af42ac8bf5b02754775610bbbf3387770a4599210097"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L13",
+              "sectionSha256": "9c4549e172e019231119af42ac8bf5b02754775610bbbf3387770a4599210097"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L13",
+              "sectionSha256": "9c4549e172e019231119af42ac8bf5b02754775610bbbf3387770a4599210097"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+                  "anchor": "L13",
+                  "sectionSha256": "9c4549e172e019231119af42ac8bf5b02754775610bbbf3387770a4599210097"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L13",
+              "sectionSha256": "9c4549e172e019231119af42ac8bf5b02754775610bbbf3387770a4599210097"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+                  "anchor": "L13",
+                  "sectionSha256": "9c4549e172e019231119af42ac8bf5b02754775610bbbf3387770a4599210097"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L13",
+              "sectionSha256": "9c4549e172e019231119af42ac8bf5b02754775610bbbf3387770a4599210097"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L13",
+              "sectionSha256": "9c4549e172e019231119af42ac8bf5b02754775610bbbf3387770a4599210097"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L13",
+              "sectionSha256": "9c4549e172e019231119af42ac8bf5b02754775610bbbf3387770a4599210097"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-d505016d2134a77d--094e95ffe05e",
+          "name": "雷鸣气杀破",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+            "anchor": "L17",
+            "sectionSha256": "01535b9d7a7bfc559d2beee11c01c0a3f9acbc4fee7a0fba821924f4259a6dd7"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/沧海杀法.md",
+              "sha256": "d7de1baa04a2a400962878803a1e39cf0273830f7a0e78812c12270b18259846",
+              "lineRanges": [
+                [
+                  17,
+                  18
+                ],
+                [
+                  20,
+                  20
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+                  "anchor": "L17",
+                  "sectionSha256": "01535b9d7a7bfc559d2beee11c01c0a3f9acbc4fee7a0fba821924f4259a6dd7"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-d505016d2134a77d--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+                  "anchor": "L17",
+                  "sectionSha256": "01535b9d7a7bfc559d2beee11c01c0a3f9acbc4fee7a0fba821924f4259a6dd7"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L17",
+              "sectionSha256": "01535b9d7a7bfc559d2beee11c01c0a3f9acbc4fee7a0fba821924f4259a6dd7"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L17",
+              "sectionSha256": "01535b9d7a7bfc559d2beee11c01c0a3f9acbc4fee7a0fba821924f4259a6dd7"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L17",
+              "sectionSha256": "01535b9d7a7bfc559d2beee11c01c0a3f9acbc4fee7a0fba821924f4259a6dd7"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L17",
+              "sectionSha256": "01535b9d7a7bfc559d2beee11c01c0a3f9acbc4fee7a0fba821924f4259a6dd7"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L17",
+              "sectionSha256": "01535b9d7a7bfc559d2beee11c01c0a3f9acbc4fee7a0fba821924f4259a6dd7"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L17",
+              "sectionSha256": "01535b9d7a7bfc559d2beee11c01c0a3f9acbc4fee7a0fba821924f4259a6dd7"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "增强",
+              "value": 6,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+                "anchor": "L17",
+                "sectionSha256": "01535b9d7a7bfc559d2beee11c01c0a3f9acbc4fee7a0fba821924f4259a6dd7"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-d505016d2134a77d--f45c0059c181",
+          "name": "雷牙破碎袭",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+            "anchor": "L21",
+            "sectionSha256": "105cd70e5fc68b07944c7852167f12ee64b68d767bff1954427c631cdf3dcb92"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/沧海杀法.md",
+              "sha256": "d7de1baa04a2a400962878803a1e39cf0273830f7a0e78812c12270b18259846",
+              "lineRanges": [
+                [
+                  21,
+                  22
+                ],
+                [
+                  24,
+                  25
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+                  "anchor": "L21",
+                  "sectionSha256": "105cd70e5fc68b07944c7852167f12ee64b68d767bff1954427c631cdf3dcb92"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-d505016d2134a77d--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+                  "anchor": "L21",
+                  "sectionSha256": "105cd70e5fc68b07944c7852167f12ee64b68d767bff1954427c631cdf3dcb92"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L21",
+              "sectionSha256": "105cd70e5fc68b07944c7852167f12ee64b68d767bff1954427c631cdf3dcb92"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 3,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+                  "anchor": "L21",
+                  "sectionSha256": "105cd70e5fc68b07944c7852167f12ee64b68d767bff1954427c631cdf3dcb92"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L21",
+              "sectionSha256": "105cd70e5fc68b07944c7852167f12ee64b68d767bff1954427c631cdf3dcb92"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L21",
+              "sectionSha256": "105cd70e5fc68b07944c7852167f12ee64b68d767bff1954427c631cdf3dcb92"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L21",
+              "sectionSha256": "105cd70e5fc68b07944c7852167f12ee64b68d767bff1954427c631cdf3dcb92"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L21",
+              "sectionSha256": "105cd70e5fc68b07944c7852167f12ee64b68d767bff1954427c631cdf3dcb92"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L21",
+              "sectionSha256": "105cd70e5fc68b07944c7852167f12ee64b68d767bff1954427c631cdf3dcb92"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-d505016d2134a77d--fbf7776a3be2",
+          "name": "雷龙怒鸣击",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+            "anchor": "L26",
+            "sectionSha256": "c1c9942ecf77cb5edc4e261eb34928530df744a9dc44d69daf039c9ca2a630c0"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/沧海杀法.md",
+              "sha256": "d7de1baa04a2a400962878803a1e39cf0273830f7a0e78812c12270b18259846",
+              "lineRanges": [
+                [
+                  26,
+                  27
+                ],
+                [
+                  29,
+                  29
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+                  "anchor": "L26",
+                  "sectionSha256": "c1c9942ecf77cb5edc4e261eb34928530df744a9dc44d69daf039c9ca2a630c0"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-d505016d2134a77d--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+                  "anchor": "L26",
+                  "sectionSha256": "c1c9942ecf77cb5edc4e261eb34928530df744a9dc44d69daf039c9ca2a630c0"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L26",
+              "sectionSha256": "c1c9942ecf77cb5edc4e261eb34928530df744a9dc44d69daf039c9ca2a630c0"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L26",
+              "sectionSha256": "c1c9942ecf77cb5edc4e261eb34928530df744a9dc44d69daf039c9ca2a630c0"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L26",
+              "sectionSha256": "c1c9942ecf77cb5edc4e261eb34928530df744a9dc44d69daf039c9ca2a630c0"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L26",
+              "sectionSha256": "c1c9942ecf77cb5edc4e261eb34928530df744a9dc44d69daf039c9ca2a630c0"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L26",
+              "sectionSha256": "c1c9942ecf77cb5edc4e261eb34928530df744a9dc44d69daf039c9ca2a630c0"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L26",
+              "sectionSha256": "c1c9942ecf77cb5edc4e261eb34928530df744a9dc44d69daf039c9ca2a630c0"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-d505016d2134a77d--6220cb3f3fad",
+          "name": "帝式——帝雷歼碎爆山河",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+            "anchor": "L31",
+            "sectionSha256": "456dcbe0e4644721dba775a6ead41c06f1a9216ca358e7b3c876f824e7392385"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/沧海杀法.md",
+              "sha256": "d7de1baa04a2a400962878803a1e39cf0273830f7a0e78812c12270b18259846",
+              "lineRanges": [
+                [
+                  31,
+                  32
+                ],
+                [
+                  34,
+                  34
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+                  "anchor": "L31",
+                  "sectionSha256": "456dcbe0e4644721dba775a6ead41c06f1a9216ca358e7b3c876f824e7392385"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-d505016d2134a77d--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+                  "anchor": "L31",
+                  "sectionSha256": "456dcbe0e4644721dba775a6ead41c06f1a9216ca358e7b3c876f824e7392385"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L31",
+              "sectionSha256": "456dcbe0e4644721dba775a6ead41c06f1a9216ca358e7b3c876f824e7392385"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L31",
+              "sectionSha256": "456dcbe0e4644721dba775a6ead41c06f1a9216ca358e7b3c876f824e7392385"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 3,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+                  "anchor": "L31",
+                  "sectionSha256": "456dcbe0e4644721dba775a6ead41c06f1a9216ca358e7b3c876f824e7392385"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L31",
+              "sectionSha256": "456dcbe0e4644721dba775a6ead41c06f1a9216ca358e7b3c876f824e7392385"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 5,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+                  "anchor": "L31",
+                  "sectionSha256": "456dcbe0e4644721dba775a6ead41c06f1a9216ca358e7b3c876f824e7392385"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L31",
+              "sectionSha256": "456dcbe0e4644721dba775a6ead41c06f1a9216ca358e7b3c876f824e7392385"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L31",
+              "sectionSha256": "456dcbe0e4644721dba775a6ead41c06f1a9216ca358e7b3c876f824e7392385"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L31",
+              "sectionSha256": "456dcbe0e4644721dba775a6ead41c06f1a9216ca358e7b3c876f824e7392385"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-d505016d2134a77d--5668a86e7a81",
+          "name": "霸式——霸雷破道毁十方",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+            "anchor": "L35",
+            "sectionSha256": "87716d471e959adc7f30e370562450f8f0f7fa84738f5b3a994c47809950503d"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/沧海杀法.md",
+              "sha256": "d7de1baa04a2a400962878803a1e39cf0273830f7a0e78812c12270b18259846",
+              "lineRanges": [
+                [
+                  35,
+                  36
+                ],
+                [
+                  38,
+                  38
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 85,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+                  "anchor": "L35",
+                  "sectionSha256": "87716d471e959adc7f30e370562450f8f0f7fa84738f5b3a994c47809950503d"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-d505016d2134a77d--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+                  "anchor": "L35",
+                  "sectionSha256": "87716d471e959adc7f30e370562450f8f0f7fa84738f5b3a994c47809950503d"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L35",
+              "sectionSha256": "87716d471e959adc7f30e370562450f8f0f7fa84738f5b3a994c47809950503d"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L35",
+              "sectionSha256": "87716d471e959adc7f30e370562450f8f0f7fa84738f5b3a994c47809950503d"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 6,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+                  "anchor": "L35",
+                  "sectionSha256": "87716d471e959adc7f30e370562450f8f0f7fa84738f5b3a994c47809950503d"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L35",
+              "sectionSha256": "87716d471e959adc7f30e370562450f8f0f7fa84738f5b3a994c47809950503d"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 5,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+                  "anchor": "L35",
+                  "sectionSha256": "87716d471e959adc7f30e370562450f8f0f7fa84738f5b3a994c47809950503d"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L35",
+              "sectionSha256": "87716d471e959adc7f30e370562450f8f0f7fa84738f5b3a994c47809950503d"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L35",
+              "sectionSha256": "87716d471e959adc7f30e370562450f8f0f7fa84738f5b3a994c47809950503d"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L35",
+              "sectionSha256": "87716d471e959adc7f30e370562450f8f0f7fa84738f5b3a994c47809950503d"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-d505016d2134a77d--0d61d03a27af",
+          "name": "皇式——皇雷杀极灭寰宇",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+            "anchor": "L39",
+            "sectionSha256": "b71c9de6752ac9d0c0d8f27ec465a7cf5d58b2ecca3cf9c5ac9a87c3b9e9679c"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/沧海杀法.md",
+              "sha256": "d7de1baa04a2a400962878803a1e39cf0273830f7a0e78812c12270b18259846",
+              "lineRanges": [
+                [
+                  39,
+                  40
+                ],
+                [
+                  42,
+                  43
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+                  "anchor": "L39",
+                  "sectionSha256": "b71c9de6752ac9d0c0d8f27ec465a7cf5d58b2ecca3cf9c5ac9a87c3b9e9679c"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-d505016d2134a77d--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+                  "anchor": "L39",
+                  "sectionSha256": "b71c9de6752ac9d0c0d8f27ec465a7cf5d58b2ecca3cf9c5ac9a87c3b9e9679c"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L39",
+              "sectionSha256": "b71c9de6752ac9d0c0d8f27ec465a7cf5d58b2ecca3cf9c5ac9a87c3b9e9679c"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L39",
+              "sectionSha256": "b71c9de6752ac9d0c0d8f27ec465a7cf5d58b2ecca3cf9c5ac9a87c3b9e9679c"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 10,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+                  "anchor": "L39",
+                  "sectionSha256": "b71c9de6752ac9d0c0d8f27ec465a7cf5d58b2ecca3cf9c5ac9a87c3b9e9679c"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L39",
+              "sectionSha256": "b71c9de6752ac9d0c0d8f27ec465a7cf5d58b2ecca3cf9c5ac9a87c3b9e9679c"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 7,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+                  "anchor": "L39",
+                  "sectionSha256": "b71c9de6752ac9d0c0d8f27ec465a7cf5d58b2ecca3cf9c5ac9a87c3b9e9679c"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L39",
+              "sectionSha256": "b71c9de6752ac9d0c0d8f27ec465a7cf5d58b2ecca3cf9c5ac9a87c3b9e9679c"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L39",
+              "sectionSha256": "b71c9de6752ac9d0c0d8f27ec465a7cf5d58b2ecca3cf9c5ac9a87c3b9e9679c"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/009-沧海杀法.md",
+              "anchor": "L39",
+              "sectionSha256": "b71c9de6752ac9d0c0d8f27ec465a7cf5d58b2ecca3cf9c5ac9a87c3b9e9679c"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "沧海杀法",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "沧海杀法（心法）",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "雷气鸣破击",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "雷鸣气杀破",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "雷牙破碎袭",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "雷龙怒鸣击",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "帝式——帝雷歼碎爆山河",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "霸式——霸雷破道毁十方",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "皇式——皇雷杀极灭寰宇",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-d505016d2134a77d--305b22853ae6--intent",
+      "name": "雷气鸣破击",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-d505016d2134a77d--305b22853ae6",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "prerequisite-logic-not-fully-encoded",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "attack-program-hardcodes-INT-and-casting",
+    "duration-inheritance-and-no-implicit-refresh"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

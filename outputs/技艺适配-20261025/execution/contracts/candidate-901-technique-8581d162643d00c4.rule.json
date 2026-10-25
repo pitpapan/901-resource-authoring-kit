@@ -1,0 +1,1034 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-8581d162643d00c4",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "法球箭",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J06",
+    "aliases": [
+      "法球箭",
+      "灼热之箭",
+      "寒冷之箭",
+      "黑暗之箭",
+      "黑暗之奴"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/远程类型/法球箭.md",
+        "sha256": "499a59f77de6c6f443ab581493faec22048b4eba0693e0afb20c4e8659c1590f",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            40
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+    "sha256": "7384980e6239581c2fba43995e7d96fc668e1c120ce12267b8df7cf91e8e015a"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-8581d162643d00c4--0ae594c1109f",
+          "name": "法球箭",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+            "anchor": "条目",
+            "sectionSha256": "f539e83efd4660a82119b1dc09053bb3f5e0ebb546cabc9c8b9006edfe9318ca"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/远程类型/法球箭.md",
+              "sha256": "499a59f77de6c6f443ab581493faec22048b4eba0693e0afb20c4e8659c1590f",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  7
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "条目",
+              "sectionSha256": "f539e83efd4660a82119b1dc09053bb3f5e0ebb546cabc9c8b9006edfe9318ca"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "条目",
+              "sectionSha256": "f539e83efd4660a82119b1dc09053bb3f5e0ebb546cabc9c8b9006edfe9318ca"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "条目",
+              "sectionSha256": "f539e83efd4660a82119b1dc09053bb3f5e0ebb546cabc9c8b9006edfe9318ca"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "条目",
+              "sectionSha256": "f539e83efd4660a82119b1dc09053bb3f5e0ebb546cabc9c8b9006edfe9318ca"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "条目",
+              "sectionSha256": "f539e83efd4660a82119b1dc09053bb3f5e0ebb546cabc9c8b9006edfe9318ca"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "条目",
+              "sectionSha256": "f539e83efd4660a82119b1dc09053bb3f5e0ebb546cabc9c8b9006edfe9318ca"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8581d162643d00c4--4ecb58f262e8",
+          "name": "根据原著效果，你同时只能使用一种法球箭",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+            "anchor": "L8",
+            "sectionSha256": "74ed1686073f735848cd8a30727ec526b712453425307a0ab8a919f49075ab6d"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/远程类型/法球箭.md",
+              "sha256": "499a59f77de6c6f443ab581493faec22048b4eba0693e0afb20c4e8659c1590f",
+              "lineRanges": [
+                [
+                  8,
+                  9
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8581d162643d00c4--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+                  "anchor": "L8",
+                  "sectionSha256": "74ed1686073f735848cd8a30727ec526b712453425307a0ab8a919f49075ab6d"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "L8",
+              "sectionSha256": "74ed1686073f735848cd8a30727ec526b712453425307a0ab8a919f49075ab6d"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "L8",
+              "sectionSha256": "74ed1686073f735848cd8a30727ec526b712453425307a0ab8a919f49075ab6d"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "L8",
+              "sectionSha256": "74ed1686073f735848cd8a30727ec526b712453425307a0ab8a919f49075ab6d"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "L8",
+              "sectionSha256": "74ed1686073f735848cd8a30727ec526b712453425307a0ab8a919f49075ab6d"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "L8",
+              "sectionSha256": "74ed1686073f735848cd8a30727ec526b712453425307a0ab8a919f49075ab6d"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "L8",
+              "sectionSha256": "74ed1686073f735848cd8a30727ec526b712453425307a0ab8a919f49075ab6d"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8581d162643d00c4--79cfaa5a36db",
+          "name": "灼热之箭",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+            "anchor": "L10",
+            "sectionSha256": "6befa6149ccb53cd67a1f5331405ea97f2a5b2a7473d956f1d484f1b478cdeae"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/远程类型/法球箭.md",
+              "sha256": "499a59f77de6c6f443ab581493faec22048b4eba0693e0afb20c4e8659c1590f",
+              "lineRanges": [
+                [
+                  10,
+                  13
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+                  "anchor": "L10",
+                  "sectionSha256": "6befa6149ccb53cd67a1f5331405ea97f2a5b2a7473d956f1d484f1b478cdeae"
+                }
+              },
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+                  "anchor": "L10",
+                  "sectionSha256": "6befa6149ccb53cd67a1f5331405ea97f2a5b2a7473d956f1d484f1b478cdeae"
+                }
+              },
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 85,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+                  "anchor": "L10",
+                  "sectionSha256": "6befa6149ccb53cd67a1f5331405ea97f2a5b2a7473d956f1d484f1b478cdeae"
+                }
+              },
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 215,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+                  "anchor": "L10",
+                  "sectionSha256": "6befa6149ccb53cd67a1f5331405ea97f2a5b2a7473d956f1d484f1b478cdeae"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8581d162643d00c4--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "difference",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "L10",
+              "sectionSha256": "6befa6149ccb53cd67a1f5331405ea97f2a5b2a7473d956f1d484f1b478cdeae"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "L10",
+              "sectionSha256": "6befa6149ccb53cd67a1f5331405ea97f2a5b2a7473d956f1d484f1b478cdeae"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "L10",
+              "sectionSha256": "6befa6149ccb53cd67a1f5331405ea97f2a5b2a7473d956f1d484f1b478cdeae"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "魔力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+                  "anchor": "L10",
+                  "sectionSha256": "6befa6149ccb53cd67a1f5331405ea97f2a5b2a7473d956f1d484f1b478cdeae"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "L10",
+              "sectionSha256": "6befa6149ccb53cd67a1f5331405ea97f2a5b2a7473d956f1d484f1b478cdeae"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "L10",
+              "sectionSha256": "6befa6149ccb53cd67a1f5331405ea97f2a5b2a7473d956f1d484f1b478cdeae"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "L10",
+              "sectionSha256": "6befa6149ccb53cd67a1f5331405ea97f2a5b2a7473d956f1d484f1b478cdeae"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8581d162643d00c4--4e20baac66c8",
+          "name": "寒冷之箭",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+            "anchor": "L14",
+            "sectionSha256": "1e089eeddf012da467de5fb4601864258dc1e4964358c4cd6059ed52b7ac5986"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/远程类型/法球箭.md",
+              "sha256": "499a59f77de6c6f443ab581493faec22048b4eba0693e0afb20c4e8659c1590f",
+              "lineRanges": [
+                [
+                  14,
+                  17
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+                  "anchor": "L14",
+                  "sectionSha256": "1e089eeddf012da467de5fb4601864258dc1e4964358c4cd6059ed52b7ac5986"
+                }
+              },
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+                  "anchor": "L14",
+                  "sectionSha256": "1e089eeddf012da467de5fb4601864258dc1e4964358c4cd6059ed52b7ac5986"
+                }
+              },
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 85,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+                  "anchor": "L14",
+                  "sectionSha256": "1e089eeddf012da467de5fb4601864258dc1e4964358c4cd6059ed52b7ac5986"
+                }
+              },
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 215,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+                  "anchor": "L14",
+                  "sectionSha256": "1e089eeddf012da467de5fb4601864258dc1e4964358c4cd6059ed52b7ac5986"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8581d162643d00c4--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "difference",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "L14",
+              "sectionSha256": "1e089eeddf012da467de5fb4601864258dc1e4964358c4cd6059ed52b7ac5986"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 3,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+                  "anchor": "L14",
+                  "sectionSha256": "1e089eeddf012da467de5fb4601864258dc1e4964358c4cd6059ed52b7ac5986"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "L14",
+              "sectionSha256": "1e089eeddf012da467de5fb4601864258dc1e4964358c4cd6059ed52b7ac5986"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "L14",
+              "sectionSha256": "1e089eeddf012da467de5fb4601864258dc1e4964358c4cd6059ed52b7ac5986"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "魔力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+                  "anchor": "L14",
+                  "sectionSha256": "1e089eeddf012da467de5fb4601864258dc1e4964358c4cd6059ed52b7ac5986"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "L14",
+              "sectionSha256": "1e089eeddf012da467de5fb4601864258dc1e4964358c4cd6059ed52b7ac5986"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "L14",
+              "sectionSha256": "1e089eeddf012da467de5fb4601864258dc1e4964358c4cd6059ed52b7ac5986"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "L14",
+              "sectionSha256": "1e089eeddf012da467de5fb4601864258dc1e4964358c4cd6059ed52b7ac5986"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8581d162643d00c4--cc1ba94005d5",
+          "name": "黑暗之箭",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+            "anchor": "L18",
+            "sectionSha256": "89425e322fb14a8536559bda7f14eb14565f37444ccbdf35afc2eb8648d25c83"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/远程类型/法球箭.md",
+              "sha256": "499a59f77de6c6f443ab581493faec22048b4eba0693e0afb20c4e8659c1590f",
+              "lineRanges": [
+                [
+                  18,
+                  40
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+                  "anchor": "L18",
+                  "sectionSha256": "89425e322fb14a8536559bda7f14eb14565f37444ccbdf35afc2eb8648d25c83"
+                }
+              },
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+                  "anchor": "L18",
+                  "sectionSha256": "89425e322fb14a8536559bda7f14eb14565f37444ccbdf35afc2eb8648d25c83"
+                }
+              },
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 85,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+                  "anchor": "L18",
+                  "sectionSha256": "89425e322fb14a8536559bda7f14eb14565f37444ccbdf35afc2eb8648d25c83"
+                }
+              },
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 215,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+                  "anchor": "L18",
+                  "sectionSha256": "89425e322fb14a8536559bda7f14eb14565f37444ccbdf35afc2eb8648d25c83"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8581d162643d00c4--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "difference",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": [
+                {
+                  "semanticStatus": "not-encoded",
+                  "value": null,
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+                    "anchor": "L18",
+                    "sectionSha256": "89425e322fb14a8536559bda7f14eb14565f37444ccbdf35afc2eb8648d25c83"
+                  }
+                }
+              ]
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "L18",
+              "sectionSha256": "89425e322fb14a8536559bda7f14eb14565f37444ccbdf35afc2eb8648d25c83"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "L18",
+              "sectionSha256": "89425e322fb14a8536559bda7f14eb14565f37444ccbdf35afc2eb8648d25c83"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "L18",
+              "sectionSha256": "89425e322fb14a8536559bda7f14eb14565f37444ccbdf35afc2eb8648d25c83"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "魔力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+                  "anchor": "L18",
+                  "sectionSha256": "89425e322fb14a8536559bda7f14eb14565f37444ccbdf35afc2eb8648d25c83"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "L18",
+              "sectionSha256": "89425e322fb14a8536559bda7f14eb14565f37444ccbdf35afc2eb8648d25c83"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "L18",
+              "sectionSha256": "89425e322fb14a8536559bda7f14eb14565f37444ccbdf35afc2eb8648d25c83"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/078-法球箭.md",
+              "anchor": "L18",
+              "sectionSha256": "89425e322fb14a8536559bda7f14eb14565f37444ccbdf35afc2eb8648d25c83"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "法球箭",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "根据原著效果，你同时只能使用一种法球箭",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "灼热之箭",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "寒冷之箭",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "黑暗之箭",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "prerequisite-logic-not-fully-encoded",
+    "duration-inheritance-and-no-implicit-refresh"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

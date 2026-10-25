@@ -1,0 +1,951 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-c43970343f8e2e93",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "海虎爆破拳",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J05",
+    "aliases": [
+      "海虎爆破拳",
+      "气灌双拳",
+      "海虎爆破拳·C级阶段",
+      "海虎爆破拳·B级阶段",
+      "天空爆破拳",
+      "海虎爆破拳·A级阶段"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/海虎爆破拳.md",
+        "sha256": "dfb9b723fe94a63678f140fe2c0da475ea41505757ef4bd2fde9305079bc73a8",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            33
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+    "sha256": "c55e9a113d2a217c5ad63c435290c9530ab30c344766bffa28efe0bf39038358"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-c43970343f8e2e93--0ae594c1109f",
+          "name": "海虎爆破拳",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+            "anchor": "条目",
+            "sectionSha256": "4bc33c6046be5c1b97269427fc3ed8820978368942202bdc643aed53bf19194e"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/海虎爆破拳.md",
+              "sha256": "dfb9b723fe94a63678f140fe2c0da475ea41505757ef4bd2fde9305079bc73a8",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  8
+                ],
+                [
+                  11,
+                  11
+                ],
+                [
+                  16,
+                  16
+                ],
+                [
+                  21,
+                  21
+                ],
+                [
+                  27,
+                  30
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+                  "anchor": "条目",
+                  "sectionSha256": "4bc33c6046be5c1b97269427fc3ed8820978368942202bdc643aed53bf19194e"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "条目",
+              "sectionSha256": "4bc33c6046be5c1b97269427fc3ed8820978368942202bdc643aed53bf19194e"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "条目",
+              "sectionSha256": "4bc33c6046be5c1b97269427fc3ed8820978368942202bdc643aed53bf19194e"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "条目",
+              "sectionSha256": "4bc33c6046be5c1b97269427fc3ed8820978368942202bdc643aed53bf19194e"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "条目",
+              "sectionSha256": "4bc33c6046be5c1b97269427fc3ed8820978368942202bdc643aed53bf19194e"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "条目",
+              "sectionSha256": "4bc33c6046be5c1b97269427fc3ed8820978368942202bdc643aed53bf19194e"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "条目",
+              "sectionSha256": "4bc33c6046be5c1b97269427fc3ed8820978368942202bdc643aed53bf19194e"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-c43970343f8e2e93--90bc9c9c6e24",
+          "name": "气灌双拳",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+            "anchor": "L9",
+            "sectionSha256": "84af9bb1a1769d4b602051d5ce8858839afdcc5646cab19a9fb3d42fe14c7c28"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/海虎爆破拳.md",
+              "sha256": "dfb9b723fe94a63678f140fe2c0da475ea41505757ef4bd2fde9305079bc73a8",
+              "lineRanges": [
+                [
+                  9,
+                  10
+                ],
+                [
+                  12,
+                  14
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+                  "anchor": "L9",
+                  "sectionSha256": "84af9bb1a1769d4b602051d5ce8858839afdcc5646cab19a9fb3d42fe14c7c28"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-c43970343f8e2e93--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "L9",
+              "sectionSha256": "84af9bb1a1769d4b602051d5ce8858839afdcc5646cab19a9fb3d42fe14c7c28"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "L9",
+              "sectionSha256": "84af9bb1a1769d4b602051d5ce8858839afdcc5646cab19a9fb3d42fe14c7c28"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "L9",
+              "sectionSha256": "84af9bb1a1769d4b602051d5ce8858839afdcc5646cab19a9fb3d42fe14c7c28"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+                  "anchor": "L9",
+                  "sectionSha256": "84af9bb1a1769d4b602051d5ce8858839afdcc5646cab19a9fb3d42fe14c7c28"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "L9",
+              "sectionSha256": "84af9bb1a1769d4b602051d5ce8858839afdcc5646cab19a9fb3d42fe14c7c28"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "L9",
+              "sectionSha256": "84af9bb1a1769d4b602051d5ce8858839afdcc5646cab19a9fb3d42fe14c7c28"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "L9",
+              "sectionSha256": "84af9bb1a1769d4b602051d5ce8858839afdcc5646cab19a9fb3d42fe14c7c28"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "招式",
+              "value": 3,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+                "anchor": "L9",
+                "sectionSha256": "84af9bb1a1769d4b602051d5ce8858839afdcc5646cab19a9fb3d42fe14c7c28"
+              }
+            },
+            {
+              "kind": "typed-bonus",
+              "bonusType": "招式",
+              "value": 3,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+                "anchor": "L9",
+                "sectionSha256": "84af9bb1a1769d4b602051d5ce8858839afdcc5646cab19a9fb3d42fe14c7c28"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-c43970343f8e2e93--ffb618ca2dd4",
+          "name": "海虎爆破拳·C级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+            "anchor": "L15",
+            "sectionSha256": "a8ac0a9b3b5c33f0088df84d7067f04ab715037f8b78e35305b741f3d6192f86"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/海虎爆破拳.md",
+              "sha256": "dfb9b723fe94a63678f140fe2c0da475ea41505757ef4bd2fde9305079bc73a8",
+              "lineRanges": [
+                [
+                  15,
+                  15
+                ],
+                [
+                  17,
+                  18
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+                  "anchor": "L15",
+                  "sectionSha256": "a8ac0a9b3b5c33f0088df84d7067f04ab715037f8b78e35305b741f3d6192f86"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-c43970343f8e2e93--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "L15",
+              "sectionSha256": "a8ac0a9b3b5c33f0088df84d7067f04ab715037f8b78e35305b741f3d6192f86"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "L15",
+              "sectionSha256": "a8ac0a9b3b5c33f0088df84d7067f04ab715037f8b78e35305b741f3d6192f86"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "L15",
+              "sectionSha256": "a8ac0a9b3b5c33f0088df84d7067f04ab715037f8b78e35305b741f3d6192f86"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "L15",
+              "sectionSha256": "a8ac0a9b3b5c33f0088df84d7067f04ab715037f8b78e35305b741f3d6192f86"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "L15",
+              "sectionSha256": "a8ac0a9b3b5c33f0088df84d7067f04ab715037f8b78e35305b741f3d6192f86"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "L15",
+              "sectionSha256": "a8ac0a9b3b5c33f0088df84d7067f04ab715037f8b78e35305b741f3d6192f86"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-c43970343f8e2e93--7963c5b340e4",
+          "name": "海虎爆破拳·B级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+            "anchor": "L19",
+            "sectionSha256": "c1dc80ad5e88cee2b6e93b2d5d6ee4242230fad2d47c31e4293a9be4f80861e8"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/海虎爆破拳.md",
+              "sha256": "dfb9b723fe94a63678f140fe2c0da475ea41505757ef4bd2fde9305079bc73a8",
+              "lineRanges": [
+                [
+                  19,
+                  20
+                ],
+                [
+                  22,
+                  24
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+                  "anchor": "L19",
+                  "sectionSha256": "c1dc80ad5e88cee2b6e93b2d5d6ee4242230fad2d47c31e4293a9be4f80861e8"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-c43970343f8e2e93--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "L19",
+              "sectionSha256": "c1dc80ad5e88cee2b6e93b2d5d6ee4242230fad2d47c31e4293a9be4f80861e8"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "L19",
+              "sectionSha256": "c1dc80ad5e88cee2b6e93b2d5d6ee4242230fad2d47c31e4293a9be4f80861e8"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "L19",
+              "sectionSha256": "c1dc80ad5e88cee2b6e93b2d5d6ee4242230fad2d47c31e4293a9be4f80861e8"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "L19",
+              "sectionSha256": "c1dc80ad5e88cee2b6e93b2d5d6ee4242230fad2d47c31e4293a9be4f80861e8"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "L19",
+              "sectionSha256": "c1dc80ad5e88cee2b6e93b2d5d6ee4242230fad2d47c31e4293a9be4f80861e8"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "L19",
+              "sectionSha256": "c1dc80ad5e88cee2b6e93b2d5d6ee4242230fad2d47c31e4293a9be4f80861e8"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-c43970343f8e2e93--cd5c8731ec1e",
+          "name": "海虎爆破拳·A级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+            "anchor": "L25",
+            "sectionSha256": "9f56700c57240f4f70bb2c63d795c92d01153c68d8df121d5c9793b547590361"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/海虎爆破拳.md",
+              "sha256": "dfb9b723fe94a63678f140fe2c0da475ea41505757ef4bd2fde9305079bc73a8",
+              "lineRanges": [
+                [
+                  25,
+                  26
+                ],
+                [
+                  31,
+                  33
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+                  "anchor": "L25",
+                  "sectionSha256": "9f56700c57240f4f70bb2c63d795c92d01153c68d8df121d5c9793b547590361"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-c43970343f8e2e93--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "L25",
+              "sectionSha256": "9f56700c57240f4f70bb2c63d795c92d01153c68d8df121d5c9793b547590361"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "L25",
+              "sectionSha256": "9f56700c57240f4f70bb2c63d795c92d01153c68d8df121d5c9793b547590361"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "L25",
+              "sectionSha256": "9f56700c57240f4f70bb2c63d795c92d01153c68d8df121d5c9793b547590361"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "L25",
+              "sectionSha256": "9f56700c57240f4f70bb2c63d795c92d01153c68d8df121d5c9793b547590361"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "L25",
+              "sectionSha256": "9f56700c57240f4f70bb2c63d795c92d01153c68d8df121d5c9793b547590361"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/064-海虎爆破拳.md",
+              "anchor": "L25",
+              "sectionSha256": "9f56700c57240f4f70bb2c63d795c92d01153c68d8df121d5c9793b547590361"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "海虎爆破拳",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "气灌双拳",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "海虎爆破拳·C级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "海虎爆破拳·B级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "海虎爆破拳·A级阶段",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "prerequisite-logic-not-fully-encoded",
+    "attack-program-hardcodes-INT-and-casting",
+    "duration-inheritance-and-no-implicit-refresh"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

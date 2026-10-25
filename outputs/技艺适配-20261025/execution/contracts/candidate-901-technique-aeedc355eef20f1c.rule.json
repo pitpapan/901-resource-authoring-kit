@@ -1,0 +1,2525 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-aeedc355eef20f1c",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "拳修",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J05",
+    "aliases": [
+      "拳修",
+      "【人仙绝顶】",
+      "【血肉衍生】",
+      "【千变万化】",
+      "【终极崩坏】",
+      "【无距】",
+      "【胜天】",
+      "拳修·学习补正α",
+      "拳修·学习补正β",
+      "拳修·武生（D级）",
+      "拳修·武徒（D级）",
+      "拳修·武士（D级）",
+      "拳修·武师（C级）",
+      "拳修·先天武师（C级）",
+      "拳修·大宗师（B级）",
+      "拳修·武圣（A级）",
+      "拳修·人仙（S级）",
+      "【外在】",
+      "【无漏真仙】",
+      "【一窍通百窍】",
+      "【以拳通神】",
+      "拳修·人仙绝顶（S级）",
+      "【拳意实质】",
+      "拳修·破碎虚空（SSS级）"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/拳修.md",
+        "sha256": "4024bbe4718bfee31c5bbb7d38a1f2284af89cc8bf74b64b89f791d41583b3b4",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            118
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+    "sha256": "47edfdac9c70ffa880adbb089675323917cb24d878e44b7c27ff59b77e5d91ce"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-aeedc355eef20f1c--0ae594c1109f",
+          "name": "拳修",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+            "anchor": "条目",
+            "sectionSha256": "419ab2110318b8fae0dbc21c5f9b28bd0a5cc0c6b4f6eb559923e42ce7c1d432"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/拳修.md",
+              "sha256": "4024bbe4718bfee31c5bbb7d38a1f2284af89cc8bf74b64b89f791d41583b3b4",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  9
+                ],
+                [
+                  15,
+                  15
+                ],
+                [
+                  19,
+                  19
+                ],
+                [
+                  22,
+                  22
+                ],
+                [
+                  26,
+                  26
+                ],
+                [
+                  30,
+                  30
+                ],
+                [
+                  34,
+                  34
+                ],
+                [
+                  45,
+                  45
+                ],
+                [
+                  54,
+                  54
+                ],
+                [
+                  56,
+                  56
+                ],
+                [
+                  61,
+                  61
+                ],
+                [
+                  64,
+                  64
+                ],
+                [
+                  68,
+                  68
+                ],
+                [
+                  72,
+                  73
+                ],
+                [
+                  75,
+                  76
+                ],
+                [
+                  87,
+                  87
+                ],
+                [
+                  95,
+                  95
+                ],
+                [
+                  105,
+                  107
+                ],
+                [
+                  110,
+                  110
+                ],
+                [
+                  116,
+                  117
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "条目",
+              "sectionSha256": "419ab2110318b8fae0dbc21c5f9b28bd0a5cc0c6b4f6eb559923e42ce7c1d432"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "条目",
+              "sectionSha256": "419ab2110318b8fae0dbc21c5f9b28bd0a5cc0c6b4f6eb559923e42ce7c1d432"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "条目",
+              "sectionSha256": "419ab2110318b8fae0dbc21c5f9b28bd0a5cc0c6b4f6eb559923e42ce7c1d432"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "条目",
+              "sectionSha256": "419ab2110318b8fae0dbc21c5f9b28bd0a5cc0c6b4f6eb559923e42ce7c1d432"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "条目",
+              "sectionSha256": "419ab2110318b8fae0dbc21c5f9b28bd0a5cc0c6b4f6eb559923e42ce7c1d432"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "条目",
+              "sectionSha256": "419ab2110318b8fae0dbc21c5f9b28bd0a5cc0c6b4f6eb559923e42ce7c1d432"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-aeedc355eef20f1c--79cfaa5a36db",
+          "name": "拳修·学习补正α",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+            "anchor": "L10",
+            "sectionSha256": "9ff586a26d467305e49dbd195be526d467c9a94069b134ff00b2f4984faf53a2"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/拳修.md",
+              "sha256": "4024bbe4718bfee31c5bbb7d38a1f2284af89cc8bf74b64b89f791d41583b3b4",
+              "lineRanges": [
+                [
+                  10,
+                  11
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                  "anchor": "L10",
+                  "sectionSha256": "9ff586a26d467305e49dbd195be526d467c9a94069b134ff00b2f4984faf53a2"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-aeedc355eef20f1c--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L10",
+              "sectionSha256": "9ff586a26d467305e49dbd195be526d467c9a94069b134ff00b2f4984faf53a2"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L10",
+              "sectionSha256": "9ff586a26d467305e49dbd195be526d467c9a94069b134ff00b2f4984faf53a2"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L10",
+              "sectionSha256": "9ff586a26d467305e49dbd195be526d467c9a94069b134ff00b2f4984faf53a2"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L10",
+              "sectionSha256": "9ff586a26d467305e49dbd195be526d467c9a94069b134ff00b2f4984faf53a2"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L10",
+              "sectionSha256": "9ff586a26d467305e49dbd195be526d467c9a94069b134ff00b2f4984faf53a2"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L10",
+              "sectionSha256": "9ff586a26d467305e49dbd195be526d467c9a94069b134ff00b2f4984faf53a2"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "修行",
+              "value": 3,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                "anchor": "L10",
+                "sectionSha256": "9ff586a26d467305e49dbd195be526d467c9a94069b134ff00b2f4984faf53a2"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-aeedc355eef20f1c--3f6b5ef2df8d",
+          "name": "拳修·学习补正β",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+            "anchor": "L12",
+            "sectionSha256": "ac718b85318bf3267c3f076cfea52248d520b23fc43b1f8540dc86d41996a318"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/拳修.md",
+              "sha256": "4024bbe4718bfee31c5bbb7d38a1f2284af89cc8bf74b64b89f791d41583b3b4",
+              "lineRanges": [
+                [
+                  12,
+                  13
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                  "anchor": "L12",
+                  "sectionSha256": "ac718b85318bf3267c3f076cfea52248d520b23fc43b1f8540dc86d41996a318"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-aeedc355eef20f1c--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L12",
+              "sectionSha256": "ac718b85318bf3267c3f076cfea52248d520b23fc43b1f8540dc86d41996a318"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L12",
+              "sectionSha256": "ac718b85318bf3267c3f076cfea52248d520b23fc43b1f8540dc86d41996a318"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L12",
+              "sectionSha256": "ac718b85318bf3267c3f076cfea52248d520b23fc43b1f8540dc86d41996a318"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L12",
+              "sectionSha256": "ac718b85318bf3267c3f076cfea52248d520b23fc43b1f8540dc86d41996a318"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L12",
+              "sectionSha256": "ac718b85318bf3267c3f076cfea52248d520b23fc43b1f8540dc86d41996a318"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L12",
+              "sectionSha256": "ac718b85318bf3267c3f076cfea52248d520b23fc43b1f8540dc86d41996a318"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "修行",
+              "value": 3,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                "anchor": "L12",
+                "sectionSha256": "ac718b85318bf3267c3f076cfea52248d520b23fc43b1f8540dc86d41996a318"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-aeedc355eef20f1c--4e20baac66c8",
+          "name": "拳修·武生（D级）",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+            "anchor": "L14",
+            "sectionSha256": "684063f30654e8e07552661e3908af07ff1caa937e693198f81b22a0a163ea54"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/拳修.md",
+              "sha256": "4024bbe4718bfee31c5bbb7d38a1f2284af89cc8bf74b64b89f791d41583b3b4",
+              "lineRanges": [
+                [
+                  14,
+                  14
+                ],
+                [
+                  16,
+                  17
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                  "anchor": "L14",
+                  "sectionSha256": "684063f30654e8e07552661e3908af07ff1caa937e693198f81b22a0a163ea54"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ],
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-aeedc355eef20f1c--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L14",
+              "sectionSha256": "684063f30654e8e07552661e3908af07ff1caa937e693198f81b22a0a163ea54"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L14",
+              "sectionSha256": "684063f30654e8e07552661e3908af07ff1caa937e693198f81b22a0a163ea54"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L14",
+              "sectionSha256": "684063f30654e8e07552661e3908af07ff1caa937e693198f81b22a0a163ea54"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L14",
+              "sectionSha256": "684063f30654e8e07552661e3908af07ff1caa937e693198f81b22a0a163ea54"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L14",
+              "sectionSha256": "684063f30654e8e07552661e3908af07ff1caa937e693198f81b22a0a163ea54"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L14",
+              "sectionSha256": "684063f30654e8e07552661e3908af07ff1caa937e693198f81b22a0a163ea54"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "capability-reference",
+              "capability": "快速医疗",
+              "semanticStatus": "not-encoded",
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                "anchor": "L14",
+                "sectionSha256": "684063f30654e8e07552661e3908af07ff1caa937e693198f81b22a0a163ea54"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-aeedc355eef20f1c--cc1ba94005d5",
+          "name": "拳修·武徒（D级）",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+            "anchor": "L18",
+            "sectionSha256": "575ae9add567a335d7eb12b15df371524b1bba60c9d83d92930168b2c47f00cf"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/拳修.md",
+              "sha256": "4024bbe4718bfee31c5bbb7d38a1f2284af89cc8bf74b64b89f791d41583b3b4",
+              "lineRanges": [
+                [
+                  18,
+                  18
+                ],
+                [
+                  20,
+                  20
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                  "anchor": "L18",
+                  "sectionSha256": "575ae9add567a335d7eb12b15df371524b1bba60c9d83d92930168b2c47f00cf"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-aeedc355eef20f1c--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L18",
+              "sectionSha256": "575ae9add567a335d7eb12b15df371524b1bba60c9d83d92930168b2c47f00cf"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L18",
+              "sectionSha256": "575ae9add567a335d7eb12b15df371524b1bba60c9d83d92930168b2c47f00cf"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L18",
+              "sectionSha256": "575ae9add567a335d7eb12b15df371524b1bba60c9d83d92930168b2c47f00cf"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L18",
+              "sectionSha256": "575ae9add567a335d7eb12b15df371524b1bba60c9d83d92930168b2c47f00cf"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L18",
+              "sectionSha256": "575ae9add567a335d7eb12b15df371524b1bba60c9d83d92930168b2c47f00cf"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L18",
+              "sectionSha256": "575ae9add567a335d7eb12b15df371524b1bba60c9d83d92930168b2c47f00cf"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "numeric-modifier",
+              "stat": "initiative",
+              "value": 8,
+              "mode": "increase",
+              "bonusType": "unspecified-in-fragment",
+              "target": "self",
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "full-conditions",
+                "inheritance-and-stacking"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                "anchor": "L18",
+                "sectionSha256": "575ae9add567a335d7eb12b15df371524b1bba60c9d83d92930168b2c47f00cf"
+              }
+            },
+            {
+              "kind": "numeric-modifier",
+              "stat": "speed",
+              "value": 20,
+              "mode": "increase",
+              "bonusType": "unspecified-in-fragment",
+              "target": "self",
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "full-conditions",
+                "inheritance-and-stacking"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                "anchor": "L18",
+                "sectionSha256": "575ae9add567a335d7eb12b15df371524b1bba60c9d83d92930168b2c47f00cf"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-aeedc355eef20f1c--f45c0059c181",
+          "name": "拳修·武士（D级）",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+            "anchor": "L21",
+            "sectionSha256": "52d65c1aa7efa69f5cc3d995cf3dfb9aa97a92c3846d65b019ecf940baa46ea0"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/拳修.md",
+              "sha256": "4024bbe4718bfee31c5bbb7d38a1f2284af89cc8bf74b64b89f791d41583b3b4",
+              "lineRanges": [
+                [
+                  21,
+                  21
+                ],
+                [
+                  23,
+                  24
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                  "anchor": "L21",
+                  "sectionSha256": "52d65c1aa7efa69f5cc3d995cf3dfb9aa97a92c3846d65b019ecf940baa46ea0"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-aeedc355eef20f1c--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                  "anchor": "L21",
+                  "sectionSha256": "52d65c1aa7efa69f5cc3d995cf3dfb9aa97a92c3846d65b019ecf940baa46ea0"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L21",
+              "sectionSha256": "52d65c1aa7efa69f5cc3d995cf3dfb9aa97a92c3846d65b019ecf940baa46ea0"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L21",
+              "sectionSha256": "52d65c1aa7efa69f5cc3d995cf3dfb9aa97a92c3846d65b019ecf940baa46ea0"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L21",
+              "sectionSha256": "52d65c1aa7efa69f5cc3d995cf3dfb9aa97a92c3846d65b019ecf940baa46ea0"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L21",
+              "sectionSha256": "52d65c1aa7efa69f5cc3d995cf3dfb9aa97a92c3846d65b019ecf940baa46ea0"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L21",
+              "sectionSha256": "52d65c1aa7efa69f5cc3d995cf3dfb9aa97a92c3846d65b019ecf940baa46ea0"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L21",
+              "sectionSha256": "52d65c1aa7efa69f5cc3d995cf3dfb9aa97a92c3846d65b019ecf940baa46ea0"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "招式",
+              "value": 6,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                "anchor": "L21",
+                "sectionSha256": "52d65c1aa7efa69f5cc3d995cf3dfb9aa97a92c3846d65b019ecf940baa46ea0"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-aeedc355eef20f1c--cd5c8731ec1e",
+          "name": "拳修·武师（C级）",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+            "anchor": "L25",
+            "sectionSha256": "07ac9f27d86c574b44e7e3c7814cd86cd2fe8b666da29959bc63682e6dabf732"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/拳修.md",
+              "sha256": "4024bbe4718bfee31c5bbb7d38a1f2284af89cc8bf74b64b89f791d41583b3b4",
+              "lineRanges": [
+                [
+                  25,
+                  25
+                ],
+                [
+                  27,
+                  28
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                  "anchor": "L25",
+                  "sectionSha256": "07ac9f27d86c574b44e7e3c7814cd86cd2fe8b666da29959bc63682e6dabf732"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-aeedc355eef20f1c--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L25",
+              "sectionSha256": "07ac9f27d86c574b44e7e3c7814cd86cd2fe8b666da29959bc63682e6dabf732"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L25",
+              "sectionSha256": "07ac9f27d86c574b44e7e3c7814cd86cd2fe8b666da29959bc63682e6dabf732"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L25",
+              "sectionSha256": "07ac9f27d86c574b44e7e3c7814cd86cd2fe8b666da29959bc63682e6dabf732"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L25",
+              "sectionSha256": "07ac9f27d86c574b44e7e3c7814cd86cd2fe8b666da29959bc63682e6dabf732"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L25",
+              "sectionSha256": "07ac9f27d86c574b44e7e3c7814cd86cd2fe8b666da29959bc63682e6dabf732"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L25",
+              "sectionSha256": "07ac9f27d86c574b44e7e3c7814cd86cd2fe8b666da29959bc63682e6dabf732"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-aeedc355eef20f1c--bc2b72915c17",
+          "name": "拳修·先天武师（C级）",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+            "anchor": "L29",
+            "sectionSha256": "17c6cd748a6aebdd11f0145ed6c2d9dda7af6e2c6636aee86756bcbbf440f09c"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/拳修.md",
+              "sha256": "4024bbe4718bfee31c5bbb7d38a1f2284af89cc8bf74b64b89f791d41583b3b4",
+              "lineRanges": [
+                [
+                  29,
+                  29
+                ],
+                [
+                  31,
+                  32
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                  "anchor": "L29",
+                  "sectionSha256": "17c6cd748a6aebdd11f0145ed6c2d9dda7af6e2c6636aee86756bcbbf440f09c"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-aeedc355eef20f1c--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                  "anchor": "L29",
+                  "sectionSha256": "17c6cd748a6aebdd11f0145ed6c2d9dda7af6e2c6636aee86756bcbbf440f09c"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L29",
+              "sectionSha256": "17c6cd748a6aebdd11f0145ed6c2d9dda7af6e2c6636aee86756bcbbf440f09c"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L29",
+              "sectionSha256": "17c6cd748a6aebdd11f0145ed6c2d9dda7af6e2c6636aee86756bcbbf440f09c"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L29",
+              "sectionSha256": "17c6cd748a6aebdd11f0145ed6c2d9dda7af6e2c6636aee86756bcbbf440f09c"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L29",
+              "sectionSha256": "17c6cd748a6aebdd11f0145ed6c2d9dda7af6e2c6636aee86756bcbbf440f09c"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L29",
+              "sectionSha256": "17c6cd748a6aebdd11f0145ed6c2d9dda7af6e2c6636aee86756bcbbf440f09c"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L29",
+              "sectionSha256": "17c6cd748a6aebdd11f0145ed6c2d9dda7af6e2c6636aee86756bcbbf440f09c"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-aeedc355eef20f1c--239a51838c73",
+          "name": "拳修·大宗师（B级）",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+            "anchor": "L33",
+            "sectionSha256": "39437d450669f064408369249117ebfc19f49067b10281906896481063713728"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/拳修.md",
+              "sha256": "4024bbe4718bfee31c5bbb7d38a1f2284af89cc8bf74b64b89f791d41583b3b4",
+              "lineRanges": [
+                [
+                  33,
+                  33
+                ],
+                [
+                  35,
+                  42
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 85,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                  "anchor": "L33",
+                  "sectionSha256": "39437d450669f064408369249117ebfc19f49067b10281906896481063713728"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-aeedc355eef20f1c--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L33",
+              "sectionSha256": "39437d450669f064408369249117ebfc19f49067b10281906896481063713728"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L33",
+              "sectionSha256": "39437d450669f064408369249117ebfc19f49067b10281906896481063713728"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L33",
+              "sectionSha256": "39437d450669f064408369249117ebfc19f49067b10281906896481063713728"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L33",
+              "sectionSha256": "39437d450669f064408369249117ebfc19f49067b10281906896481063713728"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L33",
+              "sectionSha256": "39437d450669f064408369249117ebfc19f49067b10281906896481063713728"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L33",
+              "sectionSha256": "39437d450669f064408369249117ebfc19f49067b10281906896481063713728"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "洞察",
+              "value": 1,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                "anchor": "L33",
+                "sectionSha256": "39437d450669f064408369249117ebfc19f49067b10281906896481063713728"
+              }
+            },
+            {
+              "kind": "typed-bonus",
+              "bonusType": "完美",
+              "value": 5,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                "anchor": "L33",
+                "sectionSha256": "39437d450669f064408369249117ebfc19f49067b10281906896481063713728"
+              }
+            },
+            {
+              "kind": "numeric-modifier",
+              "stat": "speed",
+              "value": 20,
+              "mode": "increase",
+              "bonusType": "unspecified-in-fragment",
+              "target": "self",
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "full-conditions",
+                "inheritance-and-stacking"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                "anchor": "L33",
+                "sectionSha256": "39437d450669f064408369249117ebfc19f49067b10281906896481063713728"
+              }
+            },
+            {
+              "kind": "typed-bonus",
+              "bonusType": "完美",
+              "value": 5,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                "anchor": "L33",
+                "sectionSha256": "39437d450669f064408369249117ebfc19f49067b10281906896481063713728"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-aeedc355eef20f1c--67e9820fa83b",
+          "name": "拳修·武圣（A级）",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+            "anchor": "L43",
+            "sectionSha256": "4bd4977d4903daf763a5a6d59eeb1905fc39e9ee09724bb6ab30f96aca691801"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/拳修.md",
+              "sha256": "4024bbe4718bfee31c5bbb7d38a1f2284af89cc8bf74b64b89f791d41583b3b4",
+              "lineRanges": [
+                [
+                  43,
+                  44
+                ],
+                [
+                  46,
+                  50
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 215,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                  "anchor": "L43",
+                  "sectionSha256": "4bd4977d4903daf763a5a6d59eeb1905fc39e9ee09724bb6ab30f96aca691801"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-aeedc355eef20f1c--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                  "anchor": "L43",
+                  "sectionSha256": "4bd4977d4903daf763a5a6d59eeb1905fc39e9ee09724bb6ab30f96aca691801"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L43",
+              "sectionSha256": "4bd4977d4903daf763a5a6d59eeb1905fc39e9ee09724bb6ab30f96aca691801"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L43",
+              "sectionSha256": "4bd4977d4903daf763a5a6d59eeb1905fc39e9ee09724bb6ab30f96aca691801"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L43",
+              "sectionSha256": "4bd4977d4903daf763a5a6d59eeb1905fc39e9ee09724bb6ab30f96aca691801"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L43",
+              "sectionSha256": "4bd4977d4903daf763a5a6d59eeb1905fc39e9ee09724bb6ab30f96aca691801"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L43",
+              "sectionSha256": "4bd4977d4903daf763a5a6d59eeb1905fc39e9ee09724bb6ab30f96aca691801"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L43",
+              "sectionSha256": "4bd4977d4903daf763a5a6d59eeb1905fc39e9ee09724bb6ab30f96aca691801"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "士气",
+              "value": 3,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                "anchor": "L43",
+                "sectionSha256": "4bd4977d4903daf763a5a6d59eeb1905fc39e9ee09724bb6ab30f96aca691801"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-aeedc355eef20f1c--e5d2745e476a",
+          "name": "拳修·人仙（S级）",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+            "anchor": "L51",
+            "sectionSha256": "689aba2de85b6f19556e3bfbe0f4000db57d3a16c30fd8a77a0136b9b5722bfe"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/拳修.md",
+              "sha256": "4024bbe4718bfee31c5bbb7d38a1f2284af89cc8bf74b64b89f791d41583b3b4",
+              "lineRanges": [
+                [
+                  51,
+                  53
+                ],
+                [
+                  55,
+                  55
+                ],
+                [
+                  57,
+                  60
+                ],
+                [
+                  62,
+                  63
+                ],
+                [
+                  65,
+                  65
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "S",
+                "currency": "XP",
+                "amount": 565,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                  "anchor": "L51",
+                  "sectionSha256": "689aba2de85b6f19556e3bfbe0f4000db57d3a16c30fd8a77a0136b9b5722bfe"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-aeedc355eef20f1c--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                  "anchor": "L51",
+                  "sectionSha256": "689aba2de85b6f19556e3bfbe0f4000db57d3a16c30fd8a77a0136b9b5722bfe"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L51",
+              "sectionSha256": "689aba2de85b6f19556e3bfbe0f4000db57d3a16c30fd8a77a0136b9b5722bfe"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L51",
+              "sectionSha256": "689aba2de85b6f19556e3bfbe0f4000db57d3a16c30fd8a77a0136b9b5722bfe"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L51",
+              "sectionSha256": "689aba2de85b6f19556e3bfbe0f4000db57d3a16c30fd8a77a0136b9b5722bfe"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L51",
+              "sectionSha256": "689aba2de85b6f19556e3bfbe0f4000db57d3a16c30fd8a77a0136b9b5722bfe"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L51",
+              "sectionSha256": "689aba2de85b6f19556e3bfbe0f4000db57d3a16c30fd8a77a0136b9b5722bfe"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L51",
+              "sectionSha256": "689aba2de85b6f19556e3bfbe0f4000db57d3a16c30fd8a77a0136b9b5722bfe"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-aeedc355eef20f1c--2c99b4654317",
+          "name": "拳修·人仙绝顶（S级）",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+            "anchor": "L66",
+            "sectionSha256": "ad8a4dc5be258f87dab5959481a0827743edb5c6c81537bf65bf8cfab00707ef"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/拳修.md",
+              "sha256": "4024bbe4718bfee31c5bbb7d38a1f2284af89cc8bf74b64b89f791d41583b3b4",
+              "lineRanges": [
+                [
+                  66,
+                  67
+                ],
+                [
+                  69,
+                  71
+                ],
+                [
+                  74,
+                  74
+                ],
+                [
+                  77,
+                  86
+                ],
+                [
+                  88,
+                  94
+                ],
+                [
+                  96,
+                  102
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "S",
+                "currency": "XP",
+                "amount": 725,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                  "anchor": "L66",
+                  "sectionSha256": "ad8a4dc5be258f87dab5959481a0827743edb5c6c81537bf65bf8cfab00707ef"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ],
+              [
+                "swift"
+              ],
+              [
+                "move"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-aeedc355eef20f1c--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                  "anchor": "L66",
+                  "sectionSha256": "ad8a4dc5be258f87dab5959481a0827743edb5c6c81537bf65bf8cfab00707ef"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L66",
+              "sectionSha256": "ad8a4dc5be258f87dab5959481a0827743edb5c6c81537bf65bf8cfab00707ef"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L66",
+              "sectionSha256": "ad8a4dc5be258f87dab5959481a0827743edb5c6c81537bf65bf8cfab00707ef"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L66",
+              "sectionSha256": "ad8a4dc5be258f87dab5959481a0827743edb5c6c81537bf65bf8cfab00707ef"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L66",
+              "sectionSha256": "ad8a4dc5be258f87dab5959481a0827743edb5c6c81537bf65bf8cfab00707ef"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L66",
+              "sectionSha256": "ad8a4dc5be258f87dab5959481a0827743edb5c6c81537bf65bf8cfab00707ef"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L66",
+              "sectionSha256": "ad8a4dc5be258f87dab5959481a0827743edb5c6c81537bf65bf8cfab00707ef"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-aeedc355eef20f1c--04ad1a4ba6cc",
+          "name": "拳修·破碎虚空（SSS级）",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+            "anchor": "L103",
+            "sectionSha256": "11aae4ab7201797376bd81ce663937632d5df89611af7e709ec7fcd3e0846c7f"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/拳修.md",
+              "sha256": "4024bbe4718bfee31c5bbb7d38a1f2284af89cc8bf74b64b89f791d41583b3b4",
+              "lineRanges": [
+                [
+                  103,
+                  104
+                ],
+                [
+                  108,
+                  109
+                ],
+                [
+                  111,
+                  115
+                ],
+                [
+                  118,
+                  118
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "SSS",
+                "currency": "XP",
+                "amount": 1535,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                  "anchor": "L103",
+                  "sectionSha256": "11aae4ab7201797376bd81ce663937632d5df89611af7e709ec7fcd3e0846c7f"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "move"
+              ],
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-aeedc355eef20f1c--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                  "anchor": "L103",
+                  "sectionSha256": "11aae4ab7201797376bd81ce663937632d5df89611af7e709ec7fcd3e0846c7f"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L103",
+              "sectionSha256": "11aae4ab7201797376bd81ce663937632d5df89611af7e709ec7fcd3e0846c7f"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L103",
+              "sectionSha256": "11aae4ab7201797376bd81ce663937632d5df89611af7e709ec7fcd3e0846c7f"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L103",
+              "sectionSha256": "11aae4ab7201797376bd81ce663937632d5df89611af7e709ec7fcd3e0846c7f"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "意志"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                  "anchor": "L103",
+                  "sectionSha256": "11aae4ab7201797376bd81ce663937632d5df89611af7e709ec7fcd3e0846c7f"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 11,
+                  "pool": "精力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                  "anchor": "L103",
+                  "sectionSha256": "11aae4ab7201797376bd81ce663937632d5df89611af7e709ec7fcd3e0846c7f"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L103",
+              "sectionSha256": "11aae4ab7201797376bd81ce663937632d5df89611af7e709ec7fcd3e0846c7f"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L103",
+              "sectionSha256": "11aae4ab7201797376bd81ce663937632d5df89611af7e709ec7fcd3e0846c7f"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+              "anchor": "L103",
+              "sectionSha256": "11aae4ab7201797376bd81ce663937632d5df89611af7e709ec7fcd3e0846c7f"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "完美",
+              "value": 72,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/061-拳修.md",
+                "anchor": "L103",
+                "sectionSha256": "11aae4ab7201797376bd81ce663937632d5df89611af7e709ec7fcd3e0846c7f"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "拳修",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "拳修·学习补正α",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "拳修·学习补正β",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "拳修·武生（D级）",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "拳修·武徒（D级）",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "拳修·武士（D级）",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "拳修·武师（C级）",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "拳修·先天武师（C级）",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "拳修·大宗师（B级）",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "拳修·武圣（A级）",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "拳修·人仙（S级）",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "拳修·人仙绝顶（S级）",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "拳修·破碎虚空（SSS级）",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-aeedc355eef20f1c--4e20baac66c8--intent",
+      "name": "拳修·武生（D级）",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ],
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-aeedc355eef20f1c--4e20baac66c8",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-aeedc355eef20f1c--2c99b4654317--intent",
+      "name": "拳修·人仙绝顶（S级）",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ],
+          [
+            "swift"
+          ],
+          [
+            "move"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-aeedc355eef20f1c--2c99b4654317",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-aeedc355eef20f1c--04ad1a4ba6cc--intent",
+      "name": "拳修·破碎虚空（SSS级）",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "move"
+          ],
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-aeedc355eef20f1c--04ad1a4ba6cc",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "attack-program-hardcodes-INT-and-casting",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "prerequisite-logic-not-fully-encoded",
+    "duration-inheritance-and-no-implicit-refresh"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

@@ -1,0 +1,1106 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-b8c4c41675d8acca",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "劲柔拳",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J05",
+    "aliases": [
+      "劲柔拳",
+      "劲柔拳·D级阶段",
+      "劲柔拳·C级阶段",
+      "劲柔拳·B级阶段",
+      "劲柔拳·A级阶段"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/劲柔拳.md",
+        "sha256": "f71b15ccd6f6bf23f79fe24c4a31e724c03ef2eb47fa61c8f75d470e0d5bc572",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            32
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+    "sha256": "48d91a90e941ca4a741bbccaee074cb855da8b0e040c89a8cce6460c69fba850"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-b8c4c41675d8acca--0ae594c1109f",
+          "name": "劲柔拳",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+            "anchor": "条目",
+            "sectionSha256": "5ef1ed82d399cf051e2192f9f91ecf7b9339f10c1b5a9b052dbc32cdf0bc1288"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/劲柔拳.md",
+              "sha256": "f71b15ccd6f6bf23f79fe24c4a31e724c03ef2eb47fa61c8f75d470e0d5bc572",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  8
+                ],
+                [
+                  10,
+                  10
+                ],
+                [
+                  16,
+                  16
+                ],
+                [
+                  22,
+                  22
+                ],
+                [
+                  25,
+                  25
+                ],
+                [
+                  28,
+                  28
+                ],
+                [
+                  31,
+                  31
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+                  "anchor": "条目",
+                  "sectionSha256": "5ef1ed82d399cf051e2192f9f91ecf7b9339f10c1b5a9b052dbc32cdf0bc1288"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "条目",
+              "sectionSha256": "5ef1ed82d399cf051e2192f9f91ecf7b9339f10c1b5a9b052dbc32cdf0bc1288"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "条目",
+              "sectionSha256": "5ef1ed82d399cf051e2192f9f91ecf7b9339f10c1b5a9b052dbc32cdf0bc1288"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "条目",
+              "sectionSha256": "5ef1ed82d399cf051e2192f9f91ecf7b9339f10c1b5a9b052dbc32cdf0bc1288"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "条目",
+              "sectionSha256": "5ef1ed82d399cf051e2192f9f91ecf7b9339f10c1b5a9b052dbc32cdf0bc1288"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "条目",
+              "sectionSha256": "5ef1ed82d399cf051e2192f9f91ecf7b9339f10c1b5a9b052dbc32cdf0bc1288"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "条目",
+              "sectionSha256": "5ef1ed82d399cf051e2192f9f91ecf7b9339f10c1b5a9b052dbc32cdf0bc1288"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-b8c4c41675d8acca--90bc9c9c6e24",
+          "name": "劲柔拳·D级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+            "anchor": "L9",
+            "sectionSha256": "3060089ce2e76989a94b7c5a4983163e0ee668a113e29c19e26bfd3fdf2c97af"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/劲柔拳.md",
+              "sha256": "f71b15ccd6f6bf23f79fe24c4a31e724c03ef2eb47fa61c8f75d470e0d5bc572",
+              "lineRanges": [
+                [
+                  9,
+                  9
+                ],
+                [
+                  11,
+                  14
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+                  "anchor": "L9",
+                  "sectionSha256": "3060089ce2e76989a94b7c5a4983163e0ee668a113e29c19e26bfd3fdf2c97af"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-b8c4c41675d8acca--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "L9",
+              "sectionSha256": "3060089ce2e76989a94b7c5a4983163e0ee668a113e29c19e26bfd3fdf2c97af"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "L9",
+              "sectionSha256": "3060089ce2e76989a94b7c5a4983163e0ee668a113e29c19e26bfd3fdf2c97af"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+                  "anchor": "L9",
+                  "sectionSha256": "3060089ce2e76989a94b7c5a4983163e0ee668a113e29c19e26bfd3fdf2c97af"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "L9",
+              "sectionSha256": "3060089ce2e76989a94b7c5a4983163e0ee668a113e29c19e26bfd3fdf2c97af"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+                  "anchor": "L9",
+                  "sectionSha256": "3060089ce2e76989a94b7c5a4983163e0ee668a113e29c19e26bfd3fdf2c97af"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+                  "anchor": "L9",
+                  "sectionSha256": "3060089ce2e76989a94b7c5a4983163e0ee668a113e29c19e26bfd3fdf2c97af"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "L9",
+              "sectionSha256": "3060089ce2e76989a94b7c5a4983163e0ee668a113e29c19e26bfd3fdf2c97af"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "L9",
+              "sectionSha256": "3060089ce2e76989a94b7c5a4983163e0ee668a113e29c19e26bfd3fdf2c97af"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "L9",
+              "sectionSha256": "3060089ce2e76989a94b7c5a4983163e0ee668a113e29c19e26bfd3fdf2c97af"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-b8c4c41675d8acca--ffb618ca2dd4",
+          "name": "劲柔拳·C级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+            "anchor": "L15",
+            "sectionSha256": "20ee25128e50a3f96a4796824dbe652a735ef5ef51e5c2d6a4b38b265ad4cddf"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/劲柔拳.md",
+              "sha256": "f71b15ccd6f6bf23f79fe24c4a31e724c03ef2eb47fa61c8f75d470e0d5bc572",
+              "lineRanges": [
+                [
+                  15,
+                  15
+                ],
+                [
+                  17,
+                  20
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+                  "anchor": "L15",
+                  "sectionSha256": "20ee25128e50a3f96a4796824dbe652a735ef5ef51e5c2d6a4b38b265ad4cddf"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-b8c4c41675d8acca--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "L15",
+              "sectionSha256": "20ee25128e50a3f96a4796824dbe652a735ef5ef51e5c2d6a4b38b265ad4cddf"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "L15",
+              "sectionSha256": "20ee25128e50a3f96a4796824dbe652a735ef5ef51e5c2d6a4b38b265ad4cddf"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 3,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+                  "anchor": "L15",
+                  "sectionSha256": "20ee25128e50a3f96a4796824dbe652a735ef5ef51e5c2d6a4b38b265ad4cddf"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+                  "anchor": "L15",
+                  "sectionSha256": "20ee25128e50a3f96a4796824dbe652a735ef5ef51e5c2d6a4b38b265ad4cddf"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "L15",
+              "sectionSha256": "20ee25128e50a3f96a4796824dbe652a735ef5ef51e5c2d6a4b38b265ad4cddf"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+                  "anchor": "L15",
+                  "sectionSha256": "20ee25128e50a3f96a4796824dbe652a735ef5ef51e5c2d6a4b38b265ad4cddf"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+                  "anchor": "L15",
+                  "sectionSha256": "20ee25128e50a3f96a4796824dbe652a735ef5ef51e5c2d6a4b38b265ad4cddf"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "L15",
+              "sectionSha256": "20ee25128e50a3f96a4796824dbe652a735ef5ef51e5c2d6a4b38b265ad4cddf"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "L15",
+              "sectionSha256": "20ee25128e50a3f96a4796824dbe652a735ef5ef51e5c2d6a4b38b265ad4cddf"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "L15",
+              "sectionSha256": "20ee25128e50a3f96a4796824dbe652a735ef5ef51e5c2d6a4b38b265ad4cddf"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-b8c4c41675d8acca--f45c0059c181",
+          "name": "劲柔拳·B级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+            "anchor": "L21",
+            "sectionSha256": "747820447c0b56e182fc742428ffd3482b1e5f558480e12c4881ad608a2fe209"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/劲柔拳.md",
+              "sha256": "f71b15ccd6f6bf23f79fe24c4a31e724c03ef2eb47fa61c8f75d470e0d5bc572",
+              "lineRanges": [
+                [
+                  21,
+                  21
+                ],
+                [
+                  23,
+                  24
+                ],
+                [
+                  26,
+                  26
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 85,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+                  "anchor": "L21",
+                  "sectionSha256": "747820447c0b56e182fc742428ffd3482b1e5f558480e12c4881ad608a2fe209"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-b8c4c41675d8acca--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "L21",
+              "sectionSha256": "747820447c0b56e182fc742428ffd3482b1e5f558480e12c4881ad608a2fe209"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "L21",
+              "sectionSha256": "747820447c0b56e182fc742428ffd3482b1e5f558480e12c4881ad608a2fe209"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 3,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+                  "anchor": "L21",
+                  "sectionSha256": "747820447c0b56e182fc742428ffd3482b1e5f558480e12c4881ad608a2fe209"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "L21",
+              "sectionSha256": "747820447c0b56e182fc742428ffd3482b1e5f558480e12c4881ad608a2fe209"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 5,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+                  "anchor": "L21",
+                  "sectionSha256": "747820447c0b56e182fc742428ffd3482b1e5f558480e12c4881ad608a2fe209"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "L21",
+              "sectionSha256": "747820447c0b56e182fc742428ffd3482b1e5f558480e12c4881ad608a2fe209"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "L21",
+              "sectionSha256": "747820447c0b56e182fc742428ffd3482b1e5f558480e12c4881ad608a2fe209"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "L21",
+              "sectionSha256": "747820447c0b56e182fc742428ffd3482b1e5f558480e12c4881ad608a2fe209"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-b8c4c41675d8acca--62cacaa0e286",
+          "name": "劲柔拳·A级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+            "anchor": "L27",
+            "sectionSha256": "8af7ab0746de84beed376f6064dfa8263cada00036353d3b99ecefe283f5df1b"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/劲柔拳.md",
+              "sha256": "f71b15ccd6f6bf23f79fe24c4a31e724c03ef2eb47fa61c8f75d470e0d5bc572",
+              "lineRanges": [
+                [
+                  27,
+                  27
+                ],
+                [
+                  29,
+                  30
+                ],
+                [
+                  32,
+                  32
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 215,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+                  "anchor": "L27",
+                  "sectionSha256": "8af7ab0746de84beed376f6064dfa8263cada00036353d3b99ecefe283f5df1b"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-b8c4c41675d8acca--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "L27",
+              "sectionSha256": "8af7ab0746de84beed376f6064dfa8263cada00036353d3b99ecefe283f5df1b"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "L27",
+              "sectionSha256": "8af7ab0746de84beed376f6064dfa8263cada00036353d3b99ecefe283f5df1b"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "L27",
+              "sectionSha256": "8af7ab0746de84beed376f6064dfa8263cada00036353d3b99ecefe283f5df1b"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 7,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+                  "anchor": "L27",
+                  "sectionSha256": "8af7ab0746de84beed376f6064dfa8263cada00036353d3b99ecefe283f5df1b"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "L27",
+              "sectionSha256": "8af7ab0746de84beed376f6064dfa8263cada00036353d3b99ecefe283f5df1b"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "L27",
+              "sectionSha256": "8af7ab0746de84beed376f6064dfa8263cada00036353d3b99ecefe283f5df1b"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/058-劲柔拳.md",
+              "anchor": "L27",
+              "sectionSha256": "8af7ab0746de84beed376f6064dfa8263cada00036353d3b99ecefe283f5df1b"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "劲柔拳",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "劲柔拳·D级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "劲柔拳·C级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "劲柔拳·B级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "劲柔拳·A级阶段",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-b8c4c41675d8acca--ffb618ca2dd4--intent",
+      "name": "劲柔拳·C级阶段",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-b8c4c41675d8acca--ffb618ca2dd4",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "prerequisite-logic-not-fully-encoded",
+    "attack-program-hardcodes-INT-and-casting",
+    "duration-inheritance-and-no-implicit-refresh",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

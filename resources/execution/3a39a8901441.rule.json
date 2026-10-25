@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:D:魔法飞弹",
-  "version": "2026-10-23.1",
+  "version": "2026-10-24.1",
   "identity": {
     "name": "魔法飞弹",
     "grade": "D",
@@ -32,7 +32,7 @@
     "programs": {
       "cast": {
         "action": "standard",
-        "target": "single",
+        "target": "multiple",
         "casting": true,
         "components": [
           "posture",
@@ -86,7 +86,13 @@
             "severity": "L"
           }
         ],
-        "cooldown": 1
+        "cooldown": 1,
+        "repetition": {
+          "maximum": {
+            "context": "casterLevel"
+          },
+          "extraCost": 2
+        }
       }
     },
     "schools": [
@@ -158,7 +164,7 @@
   ],
   "unresolvedRules": [],
   "implementationGaps": [
-    "多枚、悬浮与穿透进化需专用声明和投射物事件",
+    "独立物体、反射拦截、悬浮与穿透进化须继续接入物体和投射物事件",
     "需执行级完整验证，检查等级/特殊关键词/版本变体；不可仅凭程序存在标记完成"
   ],
   "verification": {

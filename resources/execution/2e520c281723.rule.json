@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:C:放逐术",
-  "version": "2026-10-23.1",
+  "version": "2026-10-24.1",
   "identity": {
     "name": "放逐术",
     "grade": "C",
@@ -17,14 +17,20 @@
     "source": "resources/imperial-magic/04-结界与召唤.md",
     "grade": "C",
     "prohibited": false,
-    "subskills": [],
+    "subskills": [
+      "结界",
+      "诅咒"
+    ],
     "effects": [],
     "learning": {
       "baseXP": 25,
       "requiresKnownVersion": false
     },
-    "requiresAllSchools": false,
-    "schools": []
+    "requiresAllSchools": true,
+    "schools": [
+      "结界",
+      "诅咒"
+    ]
   },
   "clauses": [
     {

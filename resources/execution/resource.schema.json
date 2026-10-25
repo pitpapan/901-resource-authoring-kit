@@ -56,7 +56,10 @@
           "type": "string"
         },
         "headingDepth": {
-          "enum": [2,3]
+          "enum": [
+            2,
+            3
+          ]
         }
       },
       "additionalProperties": false
@@ -68,6 +71,12 @@
           "type": "array",
           "items": {
             "$ref": "#/$defs/effect"
+          }
+        },
+        "programs": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/program"
           }
         }
       }
@@ -153,7 +162,25 @@
           "parameter",
           "basis",
           "recommendation"
-        ]
+        ],
+        "properties": {
+          "parameter": {
+            "type": "string",
+            "minLength": 1
+          },
+          "basis": {
+            "type": "string",
+            "minLength": 1
+          },
+          "recommendation": {
+            "type": "string",
+            "minLength": 1
+          },
+          "impact": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
       }
     },
     "implementationGaps": {
@@ -205,6 +232,9 @@
         },
         "group": {
           "type": "string"
+        },
+        "when": {
+          "$ref": "#/$defs/condition"
         }
       }
     },
@@ -272,6 +302,343 @@
           "additionalProperties": false
         }
       ]
+    },
+    "conditionValue": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/value"
+        },
+        {
+          "type": "object",
+          "required": [
+            "snapshot"
+          ],
+          "properties": {
+            "snapshot": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": false
+        }
+      ]
+    },
+    "condition": {
+      "type": "object",
+      "properties": {
+        "all": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/condition"
+          }
+        },
+        "any": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/condition"
+          }
+        },
+        "not": {
+          "$ref": "#/$defs/condition"
+        },
+        "test": {
+          "enum": [
+            "eq",
+            "ne",
+            "gte",
+            "lte",
+            "in",
+            "contains",
+            "present"
+          ]
+        },
+        "left": {
+          "$ref": "#/$defs/conditionValue"
+        },
+        "right": {
+          "$ref": "#/$defs/conditionValue"
+        }
+      }
+    },
+    "step": {
+      "type": "object",
+      "required": [
+        "op"
+      ],
+      "properties": {
+        "op": {
+          "enum": [
+            "save",
+            "attack",
+            "damage",
+            "status",
+            "heal",
+            "removeStatus",
+            "effect",
+            "capability",
+            "trigger",
+            "inspect"
+          ]
+        },
+        "when": {
+          "$ref": "#/$defs/condition"
+        },
+        "effects": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/effect"
+          }
+        },
+        "steps": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/step"
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "op": {
+                "const": "save"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "type"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "op": {
+                "const": "attack"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "weapon"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "op": {
+                "const": "damage"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "amount"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "op": {
+                "const": "status"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "type",
+              "points"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "op": {
+                "const": "heal"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "amount"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "op": {
+                "const": "removeStatus"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "amount"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "op": {
+                "const": "effect"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "effects"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "op": {
+                "const": "capability"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "id"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "op": {
+                "const": "trigger"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "event",
+              "steps"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "op": {
+                "const": "inspect"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "stat"
+            ]
+          }
+        }
+      ]
+    },
+    "program": {
+      "type": "object",
+      "required": [
+        "action",
+        "target",
+        "steps"
+      ],
+      "properties": {
+        "action": {
+          "oneOf": [
+            {
+              "enum": [
+                "standard",
+                "move",
+                "swift",
+                "free",
+                "reflex"
+              ]
+            },
+            {
+              "type": "array",
+              "items": {
+                "enum": [
+                  "standard",
+                  "move",
+                  "swift",
+                  "free",
+                  "reflex"
+                ]
+              },
+              "minItems": 1
+            }
+          ]
+        },
+        "target": {
+          "enum": [
+            "single",
+            "self",
+            "multiple",
+            "area"
+          ]
+        },
+        "steps": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/step"
+          }
+        },
+        "choices": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "required": [
+              "values"
+            ],
+            "properties": {
+              "values": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true
+              }
+            }
+          }
+        },
+        "ignoreSpellResistance": {
+          "type": "boolean"
+        },
+        "repetition": {
+          "type": "object",
+          "anyOf": [
+            {
+              "required": [
+                "count"
+              ]
+            },
+            {
+              "required": [
+                "maximum"
+              ]
+            }
+          ],
+          "properties": {
+            "count": {
+              "$ref": "#/$defs/value"
+            },
+            "maximum": {
+              "$ref": "#/$defs/value"
+            },
+            "extraCost": {
+              "$ref": "#/$defs/value"
+            },
+            "extraCondition": {
+              "$ref": "#/$defs/condition"
+            }
+          },
+          "additionalProperties": false
+        }
+      }
     }
   }
 }

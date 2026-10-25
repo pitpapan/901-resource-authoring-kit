@@ -1,0 +1,1815 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-42052cbf9ad4c612",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "呼寄之剑",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J07",
+    "aliases": [
+      "呼寄之剑",
+      "鬼之无月华",
+      "鬼之天狂奔",
+      "鬼之一线悬",
+      "鬼之斩无赦",
+      "鬼之千月光",
+      "奥义：幽月梦情",
+      "奥义：梦月绯天",
+      "奥义：心月碎天"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/呼寄之剑.md",
+        "sha256": "a04140a4dba552d8dfb1f9df3df531ebe4777b4c1a3438ca2d47ad7dc767c0df",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            72
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+    "sha256": "72c2f9993e277ab7e1e220841fcd5d43dcc0e0f4131a512ac6a94ae38667fa84"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-42052cbf9ad4c612--0ae594c1109f",
+          "name": "呼寄之剑",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+            "anchor": "条目",
+            "sectionSha256": "9fee1583d878bbe55477c4da17b2689b1000bfbd2b3f3ea09c2c0e1d0d3a85e5"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/呼寄之剑.md",
+              "sha256": "a04140a4dba552d8dfb1f9df3df531ebe4777b4c1a3438ca2d47ad7dc767c0df",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  13
+                ],
+                [
+                  68,
+                  68
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "条目",
+              "sectionSha256": "9fee1583d878bbe55477c4da17b2689b1000bfbd2b3f3ea09c2c0e1d0d3a85e5"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "条目",
+              "sectionSha256": "9fee1583d878bbe55477c4da17b2689b1000bfbd2b3f3ea09c2c0e1d0d3a85e5"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+                  "anchor": "条目",
+                  "sectionSha256": "9fee1583d878bbe55477c4da17b2689b1000bfbd2b3f3ea09c2c0e1d0d3a85e5"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "条目",
+              "sectionSha256": "9fee1583d878bbe55477c4da17b2689b1000bfbd2b3f3ea09c2c0e1d0d3a85e5"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "条目",
+              "sectionSha256": "9fee1583d878bbe55477c4da17b2689b1000bfbd2b3f3ea09c2c0e1d0d3a85e5"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "条目",
+              "sectionSha256": "9fee1583d878bbe55477c4da17b2689b1000bfbd2b3f3ea09c2c0e1d0d3a85e5"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "条目",
+              "sectionSha256": "9fee1583d878bbe55477c4da17b2689b1000bfbd2b3f3ea09c2c0e1d0d3a85e5"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-42052cbf9ad4c612--4e20baac66c8",
+          "name": "鬼之无月华",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+            "anchor": "L14",
+            "sectionSha256": "4af99709ab428a1abce407f504a57367a68385023bd6b9dab746d8d48cf073e0"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/呼寄之剑.md",
+              "sha256": "a04140a4dba552d8dfb1f9df3df531ebe4777b4c1a3438ca2d47ad7dc767c0df",
+              "lineRanges": [
+                [
+                  14,
+                  19
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+                  "anchor": "L14",
+                  "sectionSha256": "4af99709ab428a1abce407f504a57367a68385023bd6b9dab746d8d48cf073e0"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-42052cbf9ad4c612--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L14",
+              "sectionSha256": "4af99709ab428a1abce407f504a57367a68385023bd6b9dab746d8d48cf073e0"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L14",
+              "sectionSha256": "4af99709ab428a1abce407f504a57367a68385023bd6b9dab746d8d48cf073e0"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L14",
+              "sectionSha256": "4af99709ab428a1abce407f504a57367a68385023bd6b9dab746d8d48cf073e0"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L14",
+              "sectionSha256": "4af99709ab428a1abce407f504a57367a68385023bd6b9dab746d8d48cf073e0"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L14",
+              "sectionSha256": "4af99709ab428a1abce407f504a57367a68385023bd6b9dab746d8d48cf073e0"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L14",
+              "sectionSha256": "4af99709ab428a1abce407f504a57367a68385023bd6b9dab746d8d48cf073e0"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "招式",
+              "value": 6,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+                "anchor": "L14",
+                "sectionSha256": "4af99709ab428a1abce407f504a57367a68385023bd6b9dab746d8d48cf073e0"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-42052cbf9ad4c612--bbbae651d4e8",
+          "name": "鬼之天狂奔",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+            "anchor": "L20",
+            "sectionSha256": "324ddd848c68ba211c527bdbabc114914409f438e67aaabb2e3e272fbba1c44b"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/呼寄之剑.md",
+              "sha256": "a04140a4dba552d8dfb1f9df3df531ebe4777b4c1a3438ca2d47ad7dc767c0df",
+              "lineRanges": [
+                [
+                  20,
+                  25
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+                  "anchor": "L20",
+                  "sectionSha256": "324ddd848c68ba211c527bdbabc114914409f438e67aaabb2e3e272fbba1c44b"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard",
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-42052cbf9ad4c612--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L20",
+              "sectionSha256": "324ddd848c68ba211c527bdbabc114914409f438e67aaabb2e3e272fbba1c44b"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L20",
+              "sectionSha256": "324ddd848c68ba211c527bdbabc114914409f438e67aaabb2e3e272fbba1c44b"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L20",
+              "sectionSha256": "324ddd848c68ba211c527bdbabc114914409f438e67aaabb2e3e272fbba1c44b"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L20",
+              "sectionSha256": "324ddd848c68ba211c527bdbabc114914409f438e67aaabb2e3e272fbba1c44b"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L20",
+              "sectionSha256": "324ddd848c68ba211c527bdbabc114914409f438e67aaabb2e3e272fbba1c44b"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L20",
+              "sectionSha256": "324ddd848c68ba211c527bdbabc114914409f438e67aaabb2e3e272fbba1c44b"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-42052cbf9ad4c612--fbf7776a3be2",
+          "name": "鬼之一线悬",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+            "anchor": "L26",
+            "sectionSha256": "b37dbe145eebcfd2a42fa0deef2c53c907cdd486a9cadcdd16da7e6684a0e063"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/呼寄之剑.md",
+              "sha256": "a04140a4dba552d8dfb1f9df3df531ebe4777b4c1a3438ca2d47ad7dc767c0df",
+              "lineRanges": [
+                [
+                  26,
+                  32
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+                  "anchor": "L26",
+                  "sectionSha256": "b37dbe145eebcfd2a42fa0deef2c53c907cdd486a9cadcdd16da7e6684a0e063"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-42052cbf9ad4c612--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+                  "anchor": "L26",
+                  "sectionSha256": "b37dbe145eebcfd2a42fa0deef2c53c907cdd486a9cadcdd16da7e6684a0e063"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L26",
+              "sectionSha256": "b37dbe145eebcfd2a42fa0deef2c53c907cdd486a9cadcdd16da7e6684a0e063"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L26",
+              "sectionSha256": "b37dbe145eebcfd2a42fa0deef2c53c907cdd486a9cadcdd16da7e6684a0e063"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L26",
+              "sectionSha256": "b37dbe145eebcfd2a42fa0deef2c53c907cdd486a9cadcdd16da7e6684a0e063"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L26",
+              "sectionSha256": "b37dbe145eebcfd2a42fa0deef2c53c907cdd486a9cadcdd16da7e6684a0e063"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L26",
+              "sectionSha256": "b37dbe145eebcfd2a42fa0deef2c53c907cdd486a9cadcdd16da7e6684a0e063"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L26",
+              "sectionSha256": "b37dbe145eebcfd2a42fa0deef2c53c907cdd486a9cadcdd16da7e6684a0e063"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-42052cbf9ad4c612--239a51838c73",
+          "name": "鬼之斩无赦",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+            "anchor": "L33",
+            "sectionSha256": "0f90eb0f306f60397da0009b8600bada900e4d45b2d4b9e5697201fb8e9ecd1c"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/呼寄之剑.md",
+              "sha256": "a04140a4dba552d8dfb1f9df3df531ebe4777b4c1a3438ca2d47ad7dc767c0df",
+              "lineRanges": [
+                [
+                  33,
+                  40
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+                  "anchor": "L33",
+                  "sectionSha256": "0f90eb0f306f60397da0009b8600bada900e4d45b2d4b9e5697201fb8e9ecd1c"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard",
+                "swift"
+              ],
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-42052cbf9ad4c612--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+                  "anchor": "L33",
+                  "sectionSha256": "0f90eb0f306f60397da0009b8600bada900e4d45b2d4b9e5697201fb8e9ecd1c"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L33",
+              "sectionSha256": "0f90eb0f306f60397da0009b8600bada900e4d45b2d4b9e5697201fb8e9ecd1c"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L33",
+              "sectionSha256": "0f90eb0f306f60397da0009b8600bada900e4d45b2d4b9e5697201fb8e9ecd1c"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 6,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+                  "anchor": "L33",
+                  "sectionSha256": "0f90eb0f306f60397da0009b8600bada900e4d45b2d4b9e5697201fb8e9ecd1c"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 6,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+                  "anchor": "L33",
+                  "sectionSha256": "0f90eb0f306f60397da0009b8600bada900e4d45b2d4b9e5697201fb8e9ecd1c"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L33",
+              "sectionSha256": "0f90eb0f306f60397da0009b8600bada900e4d45b2d4b9e5697201fb8e9ecd1c"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L33",
+              "sectionSha256": "0f90eb0f306f60397da0009b8600bada900e4d45b2d4b9e5697201fb8e9ecd1c"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L33",
+              "sectionSha256": "0f90eb0f306f60397da0009b8600bada900e4d45b2d4b9e5697201fb8e9ecd1c"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L33",
+              "sectionSha256": "0f90eb0f306f60397da0009b8600bada900e4d45b2d4b9e5697201fb8e9ecd1c"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-42052cbf9ad4c612--c7e5d9889852",
+          "name": "鬼之千月光",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+            "anchor": "L41",
+            "sectionSha256": "94e599cc049770365b4f803c9cd1e109a7eb93da2597973584993652dfa78f4b"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/呼寄之剑.md",
+              "sha256": "a04140a4dba552d8dfb1f9df3df531ebe4777b4c1a3438ca2d47ad7dc767c0df",
+              "lineRanges": [
+                [
+                  41,
+                  48
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+                  "anchor": "L41",
+                  "sectionSha256": "94e599cc049770365b4f803c9cd1e109a7eb93da2597973584993652dfa78f4b"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-42052cbf9ad4c612--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+                  "anchor": "L41",
+                  "sectionSha256": "94e599cc049770365b4f803c9cd1e109a7eb93da2597973584993652dfa78f4b"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L41",
+              "sectionSha256": "94e599cc049770365b4f803c9cd1e109a7eb93da2597973584993652dfa78f4b"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L41",
+              "sectionSha256": "94e599cc049770365b4f803c9cd1e109a7eb93da2597973584993652dfa78f4b"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L41",
+              "sectionSha256": "94e599cc049770365b4f803c9cd1e109a7eb93da2597973584993652dfa78f4b"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L41",
+              "sectionSha256": "94e599cc049770365b4f803c9cd1e109a7eb93da2597973584993652dfa78f4b"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L41",
+              "sectionSha256": "94e599cc049770365b4f803c9cd1e109a7eb93da2597973584993652dfa78f4b"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L41",
+              "sectionSha256": "94e599cc049770365b4f803c9cd1e109a7eb93da2597973584993652dfa78f4b"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-42052cbf9ad4c612--704939189f8e",
+          "name": "奥义：幽月梦情",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+            "anchor": "L49",
+            "sectionSha256": "01f2ddb0b0bc151d6e9f19a5f2728f562214c80f2a86dafa63c6a0ed27e9c693"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/呼寄之剑.md",
+              "sha256": "a04140a4dba552d8dfb1f9df3df531ebe4777b4c1a3438ca2d47ad7dc767c0df",
+              "lineRanges": [
+                [
+                  49,
+                  55
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+                  "anchor": "L49",
+                  "sectionSha256": "01f2ddb0b0bc151d6e9f19a5f2728f562214c80f2a86dafa63c6a0ed27e9c693"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-42052cbf9ad4c612--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+                  "anchor": "L49",
+                  "sectionSha256": "01f2ddb0b0bc151d6e9f19a5f2728f562214c80f2a86dafa63c6a0ed27e9c693"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L49",
+              "sectionSha256": "01f2ddb0b0bc151d6e9f19a5f2728f562214c80f2a86dafa63c6a0ed27e9c693"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L49",
+              "sectionSha256": "01f2ddb0b0bc151d6e9f19a5f2728f562214c80f2a86dafa63c6a0ed27e9c693"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L49",
+              "sectionSha256": "01f2ddb0b0bc151d6e9f19a5f2728f562214c80f2a86dafa63c6a0ed27e9c693"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L49",
+              "sectionSha256": "01f2ddb0b0bc151d6e9f19a5f2728f562214c80f2a86dafa63c6a0ed27e9c693"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L49",
+              "sectionSha256": "01f2ddb0b0bc151d6e9f19a5f2728f562214c80f2a86dafa63c6a0ed27e9c693"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L49",
+              "sectionSha256": "01f2ddb0b0bc151d6e9f19a5f2728f562214c80f2a86dafa63c6a0ed27e9c693"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-42052cbf9ad4c612--0e3f48a30eac",
+          "name": "奥义：梦月绯天",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+            "anchor": "L56",
+            "sectionSha256": "70947d3723b28f7c23199fe417f8fbac870a71faeed8f038d218004ec3e1bb36"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/呼寄之剑.md",
+              "sha256": "a04140a4dba552d8dfb1f9df3df531ebe4777b4c1a3438ca2d47ad7dc767c0df",
+              "lineRanges": [
+                [
+                  56,
+                  63
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+                  "anchor": "L56",
+                  "sectionSha256": "70947d3723b28f7c23199fe417f8fbac870a71faeed8f038d218004ec3e1bb36"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-42052cbf9ad4c612--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+                  "anchor": "L56",
+                  "sectionSha256": "70947d3723b28f7c23199fe417f8fbac870a71faeed8f038d218004ec3e1bb36"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L56",
+              "sectionSha256": "70947d3723b28f7c23199fe417f8fbac870a71faeed8f038d218004ec3e1bb36"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L56",
+              "sectionSha256": "70947d3723b28f7c23199fe417f8fbac870a71faeed8f038d218004ec3e1bb36"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 3,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+                  "anchor": "L56",
+                  "sectionSha256": "70947d3723b28f7c23199fe417f8fbac870a71faeed8f038d218004ec3e1bb36"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L56",
+              "sectionSha256": "70947d3723b28f7c23199fe417f8fbac870a71faeed8f038d218004ec3e1bb36"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L56",
+              "sectionSha256": "70947d3723b28f7c23199fe417f8fbac870a71faeed8f038d218004ec3e1bb36"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L56",
+              "sectionSha256": "70947d3723b28f7c23199fe417f8fbac870a71faeed8f038d218004ec3e1bb36"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L56",
+              "sectionSha256": "70947d3723b28f7c23199fe417f8fbac870a71faeed8f038d218004ec3e1bb36"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-42052cbf9ad4c612--fb0a5f456401",
+          "name": "奥义：心月碎天",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+            "anchor": "L64",
+            "sectionSha256": "67381b908a83a75f05f055b576b05fe9a26e5e4f6a407c26b87ad613f3b94d3d"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/呼寄之剑.md",
+              "sha256": "a04140a4dba552d8dfb1f9df3df531ebe4777b4c1a3438ca2d47ad7dc767c0df",
+              "lineRanges": [
+                [
+                  64,
+                  67
+                ],
+                [
+                  69,
+                  72
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+                  "anchor": "L64",
+                  "sectionSha256": "67381b908a83a75f05f055b576b05fe9a26e5e4f6a407c26b87ad613f3b94d3d"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard",
+                "move"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-42052cbf9ad4c612--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+                  "anchor": "L64",
+                  "sectionSha256": "67381b908a83a75f05f055b576b05fe9a26e5e4f6a407c26b87ad613f3b94d3d"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L64",
+              "sectionSha256": "67381b908a83a75f05f055b576b05fe9a26e5e4f6a407c26b87ad613f3b94d3d"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L64",
+              "sectionSha256": "67381b908a83a75f05f055b576b05fe9a26e5e4f6a407c26b87ad613f3b94d3d"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 10,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+                  "anchor": "L64",
+                  "sectionSha256": "67381b908a83a75f05f055b576b05fe9a26e5e4f6a407c26b87ad613f3b94d3d"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L64",
+              "sectionSha256": "67381b908a83a75f05f055b576b05fe9a26e5e4f6a407c26b87ad613f3b94d3d"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L64",
+              "sectionSha256": "67381b908a83a75f05f055b576b05fe9a26e5e4f6a407c26b87ad613f3b94d3d"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L64",
+              "sectionSha256": "67381b908a83a75f05f055b576b05fe9a26e5e4f6a407c26b87ad613f3b94d3d"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/088-呼寄之剑.md",
+              "anchor": "L64",
+              "sectionSha256": "67381b908a83a75f05f055b576b05fe9a26e5e4f6a407c26b87ad613f3b94d3d"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "呼寄之剑",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "鬼之无月华",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "鬼之天狂奔",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "鬼之一线悬",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "鬼之斩无赦",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "鬼之千月光",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "奥义：幽月梦情",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "奥义：梦月绯天",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "奥义：心月碎天",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-42052cbf9ad4c612--bbbae651d4e8--intent",
+      "name": "鬼之天狂奔",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard",
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-42052cbf9ad4c612--bbbae651d4e8",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-42052cbf9ad4c612--fbf7776a3be2--intent",
+      "name": "鬼之一线悬",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-42052cbf9ad4c612--fbf7776a3be2",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-42052cbf9ad4c612--239a51838c73--intent",
+      "name": "鬼之斩无赦",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard",
+            "swift"
+          ],
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-42052cbf9ad4c612--239a51838c73",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-42052cbf9ad4c612--c7e5d9889852--intent",
+      "name": "鬼之千月光",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-42052cbf9ad4c612--c7e5d9889852",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-42052cbf9ad4c612--0e3f48a30eac--intent",
+      "name": "奥义：梦月绯天",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-42052cbf9ad4c612--0e3f48a30eac",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-42052cbf9ad4c612--fb0a5f456401--intent",
+      "name": "奥义：心月碎天",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard",
+            "move"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-42052cbf9ad4c612--fb0a5f456401",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "duration-inheritance-and-no-implicit-refresh",
+    "attack-program-hardcodes-INT-and-casting",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "prerequisite-logic-not-fully-encoded"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

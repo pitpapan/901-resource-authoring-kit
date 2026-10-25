@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:D:魔眼工程",
-  "version": "2026-10-23.1",
+  "version": "2026-10-24.1",
   "identity": {
     "name": "魔眼工程",
     "grade": "D",
@@ -18,7 +18,8 @@
     "grade": "D",
     "prohibited": false,
     "subskills": [
-      "相应子技能"
+      "附魔",
+      "变化"
     ],
     "effects": [],
     "learning": {
@@ -31,8 +32,10 @@
     },
     "requiresAllSchools": false,
     "schools": [
-      "相应子技能"
-    ]
+      "附魔",
+      "变化"
+    ],
+    "schoolChoiceAtLearning": true
   },
   "clauses": [
     {

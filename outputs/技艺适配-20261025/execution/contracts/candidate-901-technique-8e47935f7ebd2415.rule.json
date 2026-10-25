@@ -1,0 +1,2433 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-8e47935f7ebd2415",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "艾因格朗特流剑技",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J04",
+    "aliases": [
+      "艾因格朗特流剑技",
+      "艾因格朗特二刀流剑技",
+      "夺命刺击",
+      "音速冲击",
+      "旋舞终结斩",
+      "蛇咬",
+      "垂直连斩",
+      "深度冲击",
+      "水平四方斩",
+      "猩红飞溅",
+      "剑技组合",
+      "星爆气流斩",
+      "日食"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/艾因格朗特二刀流剑技.md",
+        "sha256": "2b38e6421830e62c53e6edaff3ce2e96bcb6390750f6be3fd1010b048ae25a48",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            40
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+    "sha256": "d4d818d7c4f5ed0938037ad348609dfedeb4b600aa444dac9008142a7ac0b4b9"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-8e47935f7ebd2415--0ae594c1109f",
+          "name": "艾因格朗特流剑技",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+            "anchor": "条目",
+            "sectionSha256": "6ae81fdf37901cee8ead22d58dc1589c3eeb6b829c2d5bb1df0da3f66d0fa525"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/艾因格朗特二刀流剑技.md",
+              "sha256": "2b38e6421830e62c53e6edaff3ce2e96bcb6390750f6be3fd1010b048ae25a48",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  9
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "条目",
+              "sectionSha256": "6ae81fdf37901cee8ead22d58dc1589c3eeb6b829c2d5bb1df0da3f66d0fa525"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "条目",
+              "sectionSha256": "6ae81fdf37901cee8ead22d58dc1589c3eeb6b829c2d5bb1df0da3f66d0fa525"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "条目",
+              "sectionSha256": "6ae81fdf37901cee8ead22d58dc1589c3eeb6b829c2d5bb1df0da3f66d0fa525"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "条目",
+              "sectionSha256": "6ae81fdf37901cee8ead22d58dc1589c3eeb6b829c2d5bb1df0da3f66d0fa525"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "条目",
+              "sectionSha256": "6ae81fdf37901cee8ead22d58dc1589c3eeb6b829c2d5bb1df0da3f66d0fa525"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "条目",
+              "sectionSha256": "6ae81fdf37901cee8ead22d58dc1589c3eeb6b829c2d5bb1df0da3f66d0fa525"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8e47935f7ebd2415--79cfaa5a36db",
+          "name": "夺命刺击",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+            "anchor": "L10",
+            "sectionSha256": "ddc9d451b71d6e38b953b2dee8a35fe82bdd25a6a99d090c8b242bfb7e904210"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/艾因格朗特二刀流剑技.md",
+              "sha256": "2b38e6421830e62c53e6edaff3ce2e96bcb6390750f6be3fd1010b048ae25a48",
+              "lineRanges": [
+                [
+                  10,
+                  12
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L10",
+                  "sectionSha256": "ddc9d451b71d6e38b953b2dee8a35fe82bdd25a6a99d090c8b242bfb7e904210"
+                }
+              },
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 25.0,
+                "mode": "explicit-purchase-or-repeat",
+                "basis": "reading-explicit-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L10",
+                  "sectionSha256": "ddc9d451b71d6e38b953b2dee8a35fe82bdd25a6a99d090c8b242bfb7e904210"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard",
+                "move"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8e47935f7ebd2415--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L10",
+              "sectionSha256": "ddc9d451b71d6e38b953b2dee8a35fe82bdd25a6a99d090c8b242bfb7e904210"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L10",
+              "sectionSha256": "ddc9d451b71d6e38b953b2dee8a35fe82bdd25a6a99d090c8b242bfb7e904210"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 3,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L10",
+                  "sectionSha256": "ddc9d451b71d6e38b953b2dee8a35fe82bdd25a6a99d090c8b242bfb7e904210"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L10",
+              "sectionSha256": "ddc9d451b71d6e38b953b2dee8a35fe82bdd25a6a99d090c8b242bfb7e904210"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "精力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L10",
+                  "sectionSha256": "ddc9d451b71d6e38b953b2dee8a35fe82bdd25a6a99d090c8b242bfb7e904210"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L10",
+              "sectionSha256": "ddc9d451b71d6e38b953b2dee8a35fe82bdd25a6a99d090c8b242bfb7e904210"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L10",
+              "sectionSha256": "ddc9d451b71d6e38b953b2dee8a35fe82bdd25a6a99d090c8b242bfb7e904210"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L10",
+              "sectionSha256": "ddc9d451b71d6e38b953b2dee8a35fe82bdd25a6a99d090c8b242bfb7e904210"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8e47935f7ebd2415--305b22853ae6",
+          "name": "音速冲击",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+            "anchor": "L13",
+            "sectionSha256": "a90593c1d37bb6a305364670afb976f1f14cff1a43031e5dbe5f222200a25e57"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/艾因格朗特二刀流剑技.md",
+              "sha256": "2b38e6421830e62c53e6edaff3ce2e96bcb6390750f6be3fd1010b048ae25a48",
+              "lineRanges": [
+                [
+                  13,
+                  14
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L13",
+                  "sectionSha256": "a90593c1d37bb6a305364670afb976f1f14cff1a43031e5dbe5f222200a25e57"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard",
+                "move"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8e47935f7ebd2415--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L13",
+              "sectionSha256": "a90593c1d37bb6a305364670afb976f1f14cff1a43031e5dbe5f222200a25e57"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L13",
+              "sectionSha256": "a90593c1d37bb6a305364670afb976f1f14cff1a43031e5dbe5f222200a25e57"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 3,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L13",
+                  "sectionSha256": "a90593c1d37bb6a305364670afb976f1f14cff1a43031e5dbe5f222200a25e57"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L13",
+              "sectionSha256": "a90593c1d37bb6a305364670afb976f1f14cff1a43031e5dbe5f222200a25e57"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "精力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L13",
+                  "sectionSha256": "a90593c1d37bb6a305364670afb976f1f14cff1a43031e5dbe5f222200a25e57"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L13",
+              "sectionSha256": "a90593c1d37bb6a305364670afb976f1f14cff1a43031e5dbe5f222200a25e57"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L13",
+              "sectionSha256": "a90593c1d37bb6a305364670afb976f1f14cff1a43031e5dbe5f222200a25e57"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L13",
+              "sectionSha256": "a90593c1d37bb6a305364670afb976f1f14cff1a43031e5dbe5f222200a25e57"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8e47935f7ebd2415--ffb618ca2dd4",
+          "name": "旋舞终结斩",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+            "anchor": "L15",
+            "sectionSha256": "685bc661eebfb0d833c09ce1f79bcd1016ffb6bdcbb9ac8327a19e9030eb4b4d"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/艾因格朗特二刀流剑技.md",
+              "sha256": "2b38e6421830e62c53e6edaff3ce2e96bcb6390750f6be3fd1010b048ae25a48",
+              "lineRanges": [
+                [
+                  15,
+                  16
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L15",
+                  "sectionSha256": "685bc661eebfb0d833c09ce1f79bcd1016ffb6bdcbb9ac8327a19e9030eb4b4d"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard",
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8e47935f7ebd2415--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L15",
+              "sectionSha256": "685bc661eebfb0d833c09ce1f79bcd1016ffb6bdcbb9ac8327a19e9030eb4b4d"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L15",
+              "sectionSha256": "685bc661eebfb0d833c09ce1f79bcd1016ffb6bdcbb9ac8327a19e9030eb4b4d"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L15",
+                  "sectionSha256": "685bc661eebfb0d833c09ce1f79bcd1016ffb6bdcbb9ac8327a19e9030eb4b4d"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L15",
+              "sectionSha256": "685bc661eebfb0d833c09ce1f79bcd1016ffb6bdcbb9ac8327a19e9030eb4b4d"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "精力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L15",
+                  "sectionSha256": "685bc661eebfb0d833c09ce1f79bcd1016ffb6bdcbb9ac8327a19e9030eb4b4d"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L15",
+              "sectionSha256": "685bc661eebfb0d833c09ce1f79bcd1016ffb6bdcbb9ac8327a19e9030eb4b4d"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L15",
+              "sectionSha256": "685bc661eebfb0d833c09ce1f79bcd1016ffb6bdcbb9ac8327a19e9030eb4b4d"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L15",
+              "sectionSha256": "685bc661eebfb0d833c09ce1f79bcd1016ffb6bdcbb9ac8327a19e9030eb4b4d"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8e47935f7ebd2415--094e95ffe05e",
+          "name": "蛇咬",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+            "anchor": "L17",
+            "sectionSha256": "d9f045fc8dddf6497a47a3abd2820ab1112371a81322c969445275232b476f2f"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/艾因格朗特二刀流剑技.md",
+              "sha256": "2b38e6421830e62c53e6edaff3ce2e96bcb6390750f6be3fd1010b048ae25a48",
+              "lineRanges": [
+                [
+                  17,
+                  18
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L17",
+                  "sectionSha256": "d9f045fc8dddf6497a47a3abd2820ab1112371a81322c969445275232b476f2f"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8e47935f7ebd2415--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L17",
+              "sectionSha256": "d9f045fc8dddf6497a47a3abd2820ab1112371a81322c969445275232b476f2f"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L17",
+              "sectionSha256": "d9f045fc8dddf6497a47a3abd2820ab1112371a81322c969445275232b476f2f"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 3,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L17",
+                  "sectionSha256": "d9f045fc8dddf6497a47a3abd2820ab1112371a81322c969445275232b476f2f"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L17",
+              "sectionSha256": "d9f045fc8dddf6497a47a3abd2820ab1112371a81322c969445275232b476f2f"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "精力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L17",
+                  "sectionSha256": "d9f045fc8dddf6497a47a3abd2820ab1112371a81322c969445275232b476f2f"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L17",
+              "sectionSha256": "d9f045fc8dddf6497a47a3abd2820ab1112371a81322c969445275232b476f2f"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L17",
+              "sectionSha256": "d9f045fc8dddf6497a47a3abd2820ab1112371a81322c969445275232b476f2f"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L17",
+              "sectionSha256": "d9f045fc8dddf6497a47a3abd2820ab1112371a81322c969445275232b476f2f"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8e47935f7ebd2415--7963c5b340e4",
+          "name": "垂直连斩",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+            "anchor": "L19",
+            "sectionSha256": "7ac680e3fda80f0434d4fd1ae55cfff40ea59958c6bae531c0615169d34d41c7"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/艾因格朗特二刀流剑技.md",
+              "sha256": "2b38e6421830e62c53e6edaff3ce2e96bcb6390750f6be3fd1010b048ae25a48",
+              "lineRanges": [
+                [
+                  19,
+                  20
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L19",
+                  "sectionSha256": "7ac680e3fda80f0434d4fd1ae55cfff40ea59958c6bae531c0615169d34d41c7"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard",
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8e47935f7ebd2415--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L19",
+              "sectionSha256": "7ac680e3fda80f0434d4fd1ae55cfff40ea59958c6bae531c0615169d34d41c7"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L19",
+              "sectionSha256": "7ac680e3fda80f0434d4fd1ae55cfff40ea59958c6bae531c0615169d34d41c7"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 3,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L19",
+                  "sectionSha256": "7ac680e3fda80f0434d4fd1ae55cfff40ea59958c6bae531c0615169d34d41c7"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L19",
+              "sectionSha256": "7ac680e3fda80f0434d4fd1ae55cfff40ea59958c6bae531c0615169d34d41c7"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "精力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L19",
+                  "sectionSha256": "7ac680e3fda80f0434d4fd1ae55cfff40ea59958c6bae531c0615169d34d41c7"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L19",
+              "sectionSha256": "7ac680e3fda80f0434d4fd1ae55cfff40ea59958c6bae531c0615169d34d41c7"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L19",
+              "sectionSha256": "7ac680e3fda80f0434d4fd1ae55cfff40ea59958c6bae531c0615169d34d41c7"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L19",
+              "sectionSha256": "7ac680e3fda80f0434d4fd1ae55cfff40ea59958c6bae531c0615169d34d41c7"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8e47935f7ebd2415--f45c0059c181",
+          "name": "深度冲击",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+            "anchor": "L21",
+            "sectionSha256": "452d7e145714e779ecf884daaf725b05265d0a25c9878902f5c515a143c5d954"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/艾因格朗特二刀流剑技.md",
+              "sha256": "2b38e6421830e62c53e6edaff3ce2e96bcb6390750f6be3fd1010b048ae25a48",
+              "lineRanges": [
+                [
+                  21,
+                  25
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L21",
+                  "sectionSha256": "452d7e145714e779ecf884daaf725b05265d0a25c9878902f5c515a143c5d954"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8e47935f7ebd2415--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L21",
+              "sectionSha256": "452d7e145714e779ecf884daaf725b05265d0a25c9878902f5c515a143c5d954"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L21",
+              "sectionSha256": "452d7e145714e779ecf884daaf725b05265d0a25c9878902f5c515a143c5d954"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 3,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L21",
+                  "sectionSha256": "452d7e145714e779ecf884daaf725b05265d0a25c9878902f5c515a143c5d954"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L21",
+              "sectionSha256": "452d7e145714e779ecf884daaf725b05265d0a25c9878902f5c515a143c5d954"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "精力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L21",
+                  "sectionSha256": "452d7e145714e779ecf884daaf725b05265d0a25c9878902f5c515a143c5d954"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L21",
+              "sectionSha256": "452d7e145714e779ecf884daaf725b05265d0a25c9878902f5c515a143c5d954"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L21",
+              "sectionSha256": "452d7e145714e779ecf884daaf725b05265d0a25c9878902f5c515a143c5d954"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L21",
+              "sectionSha256": "452d7e145714e779ecf884daaf725b05265d0a25c9878902f5c515a143c5d954"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8e47935f7ebd2415--fbf7776a3be2",
+          "name": "水平四方斩",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+            "anchor": "L26",
+            "sectionSha256": "cd6c6bce6e8222662fc0704dd056ca72826844f64e3a8784286af935d5ea6b61"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/艾因格朗特二刀流剑技.md",
+              "sha256": "2b38e6421830e62c53e6edaff3ce2e96bcb6390750f6be3fd1010b048ae25a48",
+              "lineRanges": [
+                [
+                  26,
+                  27
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L26",
+                  "sectionSha256": "cd6c6bce6e8222662fc0704dd056ca72826844f64e3a8784286af935d5ea6b61"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard",
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8e47935f7ebd2415--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L26",
+              "sectionSha256": "cd6c6bce6e8222662fc0704dd056ca72826844f64e3a8784286af935d5ea6b61"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L26",
+              "sectionSha256": "cd6c6bce6e8222662fc0704dd056ca72826844f64e3a8784286af935d5ea6b61"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 3,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L26",
+                  "sectionSha256": "cd6c6bce6e8222662fc0704dd056ca72826844f64e3a8784286af935d5ea6b61"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L26",
+              "sectionSha256": "cd6c6bce6e8222662fc0704dd056ca72826844f64e3a8784286af935d5ea6b61"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 5,
+                  "pool": "精力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L26",
+                  "sectionSha256": "cd6c6bce6e8222662fc0704dd056ca72826844f64e3a8784286af935d5ea6b61"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L26",
+              "sectionSha256": "cd6c6bce6e8222662fc0704dd056ca72826844f64e3a8784286af935d5ea6b61"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L26",
+              "sectionSha256": "cd6c6bce6e8222662fc0704dd056ca72826844f64e3a8784286af935d5ea6b61"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L26",
+              "sectionSha256": "cd6c6bce6e8222662fc0704dd056ca72826844f64e3a8784286af935d5ea6b61"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8e47935f7ebd2415--36402ecb137e",
+          "name": "猩红飞溅",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+            "anchor": "L28",
+            "sectionSha256": "6a29dd00720d4a8cf6280a3093611be86d1a174b003be4363c214dff1236d3c2"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/艾因格朗特二刀流剑技.md",
+              "sha256": "2b38e6421830e62c53e6edaff3ce2e96bcb6390750f6be3fd1010b048ae25a48",
+              "lineRanges": [
+                [
+                  28,
+                  30
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L28",
+                  "sectionSha256": "6a29dd00720d4a8cf6280a3093611be86d1a174b003be4363c214dff1236d3c2"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8e47935f7ebd2415--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L28",
+              "sectionSha256": "6a29dd00720d4a8cf6280a3093611be86d1a174b003be4363c214dff1236d3c2"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L28",
+              "sectionSha256": "6a29dd00720d4a8cf6280a3093611be86d1a174b003be4363c214dff1236d3c2"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 6,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L28",
+                  "sectionSha256": "6a29dd00720d4a8cf6280a3093611be86d1a174b003be4363c214dff1236d3c2"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L28",
+              "sectionSha256": "6a29dd00720d4a8cf6280a3093611be86d1a174b003be4363c214dff1236d3c2"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 5,
+                  "pool": "精力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L28",
+                  "sectionSha256": "6a29dd00720d4a8cf6280a3093611be86d1a174b003be4363c214dff1236d3c2"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L28",
+              "sectionSha256": "6a29dd00720d4a8cf6280a3093611be86d1a174b003be4363c214dff1236d3c2"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L28",
+              "sectionSha256": "6a29dd00720d4a8cf6280a3093611be86d1a174b003be4363c214dff1236d3c2"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L28",
+              "sectionSha256": "6a29dd00720d4a8cf6280a3093611be86d1a174b003be4363c214dff1236d3c2"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8e47935f7ebd2415--6220cb3f3fad",
+          "name": "剑技组合",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+            "anchor": "L31",
+            "sectionSha256": "d6153c23d7249f6923c0f428764cdf37098945fd271012408207d66b83e2f45a"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/艾因格朗特二刀流剑技.md",
+              "sha256": "2b38e6421830e62c53e6edaff3ce2e96bcb6390750f6be3fd1010b048ae25a48",
+              "lineRanges": [
+                [
+                  31,
+                  34
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L31",
+                  "sectionSha256": "d6153c23d7249f6923c0f428764cdf37098945fd271012408207d66b83e2f45a"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "none"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8e47935f7ebd2415--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L31",
+              "sectionSha256": "d6153c23d7249f6923c0f428764cdf37098945fd271012408207d66b83e2f45a"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L31",
+              "sectionSha256": "d6153c23d7249f6923c0f428764cdf37098945fd271012408207d66b83e2f45a"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L31",
+              "sectionSha256": "d6153c23d7249f6923c0f428764cdf37098945fd271012408207d66b83e2f45a"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L31",
+              "sectionSha256": "d6153c23d7249f6923c0f428764cdf37098945fd271012408207d66b83e2f45a"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L31",
+              "sectionSha256": "d6153c23d7249f6923c0f428764cdf37098945fd271012408207d66b83e2f45a"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L31",
+              "sectionSha256": "d6153c23d7249f6923c0f428764cdf37098945fd271012408207d66b83e2f45a"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8e47935f7ebd2415--5668a86e7a81",
+          "name": "星爆气流斩",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+            "anchor": "L35",
+            "sectionSha256": "d151381a7730de1f1c18a5c66f0a9740b05505f9a087f9ff71457bbd8ae70fc6"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/艾因格朗特二刀流剑技.md",
+              "sha256": "2b38e6421830e62c53e6edaff3ce2e96bcb6390750f6be3fd1010b048ae25a48",
+              "lineRanges": [
+                [
+                  35,
+                  37
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L35",
+                  "sectionSha256": "d151381a7730de1f1c18a5c66f0a9740b05505f9a087f9ff71457bbd8ae70fc6"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8e47935f7ebd2415--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L35",
+              "sectionSha256": "d151381a7730de1f1c18a5c66f0a9740b05505f9a087f9ff71457bbd8ae70fc6"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L35",
+              "sectionSha256": "d151381a7730de1f1c18a5c66f0a9740b05505f9a087f9ff71457bbd8ae70fc6"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 6,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L35",
+                  "sectionSha256": "d151381a7730de1f1c18a5c66f0a9740b05505f9a087f9ff71457bbd8ae70fc6"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L35",
+              "sectionSha256": "d151381a7730de1f1c18a5c66f0a9740b05505f9a087f9ff71457bbd8ae70fc6"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 7,
+                  "pool": "精力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L35",
+                  "sectionSha256": "d151381a7730de1f1c18a5c66f0a9740b05505f9a087f9ff71457bbd8ae70fc6"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L35",
+              "sectionSha256": "d151381a7730de1f1c18a5c66f0a9740b05505f9a087f9ff71457bbd8ae70fc6"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L35",
+              "sectionSha256": "d151381a7730de1f1c18a5c66f0a9740b05505f9a087f9ff71457bbd8ae70fc6"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L35",
+              "sectionSha256": "d151381a7730de1f1c18a5c66f0a9740b05505f9a087f9ff71457bbd8ae70fc6"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8e47935f7ebd2415--3f970821bb78",
+          "name": "日食",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+            "anchor": "L38",
+            "sectionSha256": "4729edb340aad3a611cbe919fbd532968439d4d6a1bd23631c0e46b6b4edd2db"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/艾因格朗特二刀流剑技.md",
+              "sha256": "2b38e6421830e62c53e6edaff3ce2e96bcb6390750f6be3fd1010b048ae25a48",
+              "lineRanges": [
+                [
+                  38,
+                  40
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 215,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L38",
+                  "sectionSha256": "4729edb340aad3a611cbe919fbd532968439d4d6a1bd23631c0e46b6b4edd2db"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8e47935f7ebd2415--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L38",
+              "sectionSha256": "4729edb340aad3a611cbe919fbd532968439d4d6a1bd23631c0e46b6b4edd2db"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L38",
+              "sectionSha256": "4729edb340aad3a611cbe919fbd532968439d4d6a1bd23631c0e46b6b4edd2db"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 10,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L38",
+                  "sectionSha256": "4729edb340aad3a611cbe919fbd532968439d4d6a1bd23631c0e46b6b4edd2db"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L38",
+              "sectionSha256": "4729edb340aad3a611cbe919fbd532968439d4d6a1bd23631c0e46b6b4edd2db"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "精力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L38",
+                  "sectionSha256": "4729edb340aad3a611cbe919fbd532968439d4d6a1bd23631c0e46b6b4edd2db"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 21,
+                  "pool": "精力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+                  "anchor": "L38",
+                  "sectionSha256": "4729edb340aad3a611cbe919fbd532968439d4d6a1bd23631c0e46b6b4edd2db"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L38",
+              "sectionSha256": "4729edb340aad3a611cbe919fbd532968439d4d6a1bd23631c0e46b6b4edd2db"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L38",
+              "sectionSha256": "4729edb340aad3a611cbe919fbd532968439d4d6a1bd23631c0e46b6b4edd2db"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/043-艾因格朗特流剑技.md",
+              "anchor": "L38",
+              "sectionSha256": "4729edb340aad3a611cbe919fbd532968439d4d6a1bd23631c0e46b6b4edd2db"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "艾因格朗特流剑技",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "夺命刺击",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "音速冲击",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "旋舞终结斩",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "蛇咬",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "垂直连斩",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "深度冲击",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "水平四方斩",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "猩红飞溅",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "剑技组合",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "星爆气流斩",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "日食",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-8e47935f7ebd2415--79cfaa5a36db--intent",
+      "name": "夺命刺击",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard",
+            "move"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-8e47935f7ebd2415--79cfaa5a36db",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-8e47935f7ebd2415--305b22853ae6--intent",
+      "name": "音速冲击",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard",
+            "move"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-8e47935f7ebd2415--305b22853ae6",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-8e47935f7ebd2415--ffb618ca2dd4--intent",
+      "name": "旋舞终结斩",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard",
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-8e47935f7ebd2415--ffb618ca2dd4",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-8e47935f7ebd2415--094e95ffe05e--intent",
+      "name": "蛇咬",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-8e47935f7ebd2415--094e95ffe05e",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-8e47935f7ebd2415--7963c5b340e4--intent",
+      "name": "垂直连斩",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard",
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-8e47935f7ebd2415--7963c5b340e4",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-8e47935f7ebd2415--fbf7776a3be2--intent",
+      "name": "水平四方斩",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard",
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-8e47935f7ebd2415--fbf7776a3be2",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-8e47935f7ebd2415--6220cb3f3fad--intent",
+      "name": "剑技组合",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "none"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-8e47935f7ebd2415--6220cb3f3fad",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-8e47935f7ebd2415--3f970821bb78--intent",
+      "name": "日食",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-8e47935f7ebd2415--3f970821bb78",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "duration-inheritance-and-no-implicit-refresh",
+    "attack-program-hardcodes-INT-and-casting"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

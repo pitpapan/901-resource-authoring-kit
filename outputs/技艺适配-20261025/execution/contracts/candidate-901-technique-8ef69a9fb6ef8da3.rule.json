@@ -1,0 +1,1171 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-8ef69a9fb6ef8da3",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "波动拳",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J05",
+    "aliases": [
+      "波动拳",
+      "真 波动拳",
+      "豪波动",
+      "灼热波动拳",
+      "真空波动拳"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/波动拳.md",
+        "sha256": "8a0ca430643cf084bedf289b2bee61ed8a097e2398304e868cfbe01ad960a430",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            24
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+    "sha256": "fd779d008bda340f3cca5c00c8cadb62c0a27a8b0ccca9a803fc1618c00ef19f"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-8ef69a9fb6ef8da3--0ae594c1109f",
+          "name": "波动拳",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+            "anchor": "条目",
+            "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/波动拳.md",
+              "sha256": "8a0ca430643cf084bedf289b2bee61ed8a097e2398304e868cfbe01ad960a430",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  8,
+                  8
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8ef69a9fb6ef8da3--b3cc20089aab",
+          "name": "波动拳",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+            "anchor": "L6",
+            "sectionSha256": "5d92a4f3f837be12abeeb7cd388b801d375850f96cefc103aa1e0f9672396824"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/波动拳.md",
+              "sha256": "8a0ca430643cf084bedf289b2bee61ed8a097e2398304e868cfbe01ad960a430",
+              "lineRanges": [
+                [
+                  6,
+                  7
+                ],
+                [
+                  9,
+                  10
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 5,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+                  "anchor": "L6",
+                  "sectionSha256": "5d92a4f3f837be12abeeb7cd388b801d375850f96cefc103aa1e0f9672396824"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8ef69a9fb6ef8da3--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+                  "anchor": "L6",
+                  "sectionSha256": "5d92a4f3f837be12abeeb7cd388b801d375850f96cefc103aa1e0f9672396824"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L6",
+              "sectionSha256": "5d92a4f3f837be12abeeb7cd388b801d375850f96cefc103aa1e0f9672396824"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L6",
+              "sectionSha256": "5d92a4f3f837be12abeeb7cd388b801d375850f96cefc103aa1e0f9672396824"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+                  "anchor": "L6",
+                  "sectionSha256": "5d92a4f3f837be12abeeb7cd388b801d375850f96cefc103aa1e0f9672396824"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L6",
+              "sectionSha256": "5d92a4f3f837be12abeeb7cd388b801d375850f96cefc103aa1e0f9672396824"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+                  "anchor": "L6",
+                  "sectionSha256": "5d92a4f3f837be12abeeb7cd388b801d375850f96cefc103aa1e0f9672396824"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L6",
+              "sectionSha256": "5d92a4f3f837be12abeeb7cd388b801d375850f96cefc103aa1e0f9672396824"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L6",
+              "sectionSha256": "5d92a4f3f837be12abeeb7cd388b801d375850f96cefc103aa1e0f9672396824"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L6",
+              "sectionSha256": "5d92a4f3f837be12abeeb7cd388b801d375850f96cefc103aa1e0f9672396824"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8ef69a9fb6ef8da3--04a90cd5d050",
+          "name": "真 波动拳",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+            "anchor": "L11",
+            "sectionSha256": "f62dbefe0789bb61bd05c125823096b6ce961fef912ad7cc890bb43fb35ddd45"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/波动拳.md",
+              "sha256": "8a0ca430643cf084bedf289b2bee61ed8a097e2398304e868cfbe01ad960a430",
+              "lineRanges": [
+                [
+                  11,
+                  14
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+                  "anchor": "L11",
+                  "sectionSha256": "f62dbefe0789bb61bd05c125823096b6ce961fef912ad7cc890bb43fb35ddd45"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8ef69a9fb6ef8da3--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+                  "anchor": "L11",
+                  "sectionSha256": "f62dbefe0789bb61bd05c125823096b6ce961fef912ad7cc890bb43fb35ddd45"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L11",
+              "sectionSha256": "f62dbefe0789bb61bd05c125823096b6ce961fef912ad7cc890bb43fb35ddd45"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L11",
+              "sectionSha256": "f62dbefe0789bb61bd05c125823096b6ce961fef912ad7cc890bb43fb35ddd45"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L11",
+              "sectionSha256": "f62dbefe0789bb61bd05c125823096b6ce961fef912ad7cc890bb43fb35ddd45"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+                  "anchor": "L11",
+                  "sectionSha256": "f62dbefe0789bb61bd05c125823096b6ce961fef912ad7cc890bb43fb35ddd45"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L11",
+              "sectionSha256": "f62dbefe0789bb61bd05c125823096b6ce961fef912ad7cc890bb43fb35ddd45"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L11",
+              "sectionSha256": "f62dbefe0789bb61bd05c125823096b6ce961fef912ad7cc890bb43fb35ddd45"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L11",
+              "sectionSha256": "f62dbefe0789bb61bd05c125823096b6ce961fef912ad7cc890bb43fb35ddd45"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8ef69a9fb6ef8da3--ffb618ca2dd4",
+          "name": "豪波动",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+            "anchor": "L15",
+            "sectionSha256": "0ba741bf099de94ed5b1e89ad392f1ec5e6c683c2a5e6ce2184ad02523bd3131"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/波动拳.md",
+              "sha256": "8a0ca430643cf084bedf289b2bee61ed8a097e2398304e868cfbe01ad960a430",
+              "lineRanges": [
+                [
+                  15,
+                  18
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+                  "anchor": "L15",
+                  "sectionSha256": "0ba741bf099de94ed5b1e89ad392f1ec5e6c683c2a5e6ce2184ad02523bd3131"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8ef69a9fb6ef8da3--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+                  "anchor": "L15",
+                  "sectionSha256": "0ba741bf099de94ed5b1e89ad392f1ec5e6c683c2a5e6ce2184ad02523bd3131"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L15",
+              "sectionSha256": "0ba741bf099de94ed5b1e89ad392f1ec5e6c683c2a5e6ce2184ad02523bd3131"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L15",
+              "sectionSha256": "0ba741bf099de94ed5b1e89ad392f1ec5e6c683c2a5e6ce2184ad02523bd3131"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L15",
+              "sectionSha256": "0ba741bf099de94ed5b1e89ad392f1ec5e6c683c2a5e6ce2184ad02523bd3131"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+                  "anchor": "L15",
+                  "sectionSha256": "0ba741bf099de94ed5b1e89ad392f1ec5e6c683c2a5e6ce2184ad02523bd3131"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L15",
+              "sectionSha256": "0ba741bf099de94ed5b1e89ad392f1ec5e6c683c2a5e6ce2184ad02523bd3131"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L15",
+              "sectionSha256": "0ba741bf099de94ed5b1e89ad392f1ec5e6c683c2a5e6ce2184ad02523bd3131"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L15",
+              "sectionSha256": "0ba741bf099de94ed5b1e89ad392f1ec5e6c683c2a5e6ce2184ad02523bd3131"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8ef69a9fb6ef8da3--7963c5b340e4",
+          "name": "灼热波动拳",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+            "anchor": "L19",
+            "sectionSha256": "03826059a6268aca9141fde10da407b2d37251841fddcb4519c38e82d43bc74b"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/波动拳.md",
+              "sha256": "8a0ca430643cf084bedf289b2bee61ed8a097e2398304e868cfbe01ad960a430",
+              "lineRanges": [
+                [
+                  19,
+                  21
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+                  "anchor": "L19",
+                  "sectionSha256": "03826059a6268aca9141fde10da407b2d37251841fddcb4519c38e82d43bc74b"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8ef69a9fb6ef8da3--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+                  "anchor": "L19",
+                  "sectionSha256": "03826059a6268aca9141fde10da407b2d37251841fddcb4519c38e82d43bc74b"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L19",
+              "sectionSha256": "03826059a6268aca9141fde10da407b2d37251841fddcb4519c38e82d43bc74b"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L19",
+              "sectionSha256": "03826059a6268aca9141fde10da407b2d37251841fddcb4519c38e82d43bc74b"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L19",
+              "sectionSha256": "03826059a6268aca9141fde10da407b2d37251841fddcb4519c38e82d43bc74b"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L19",
+              "sectionSha256": "03826059a6268aca9141fde10da407b2d37251841fddcb4519c38e82d43bc74b"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L19",
+              "sectionSha256": "03826059a6268aca9141fde10da407b2d37251841fddcb4519c38e82d43bc74b"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L19",
+              "sectionSha256": "03826059a6268aca9141fde10da407b2d37251841fddcb4519c38e82d43bc74b"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8ef69a9fb6ef8da3--eb6e35b9eeab",
+          "name": "真空波动拳",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+            "anchor": "L22",
+            "sectionSha256": "2a36f6b26730cd672bfac1f3763b5652ebde1cc2754106d34aecad3cad8004d7"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/波动拳.md",
+              "sha256": "8a0ca430643cf084bedf289b2bee61ed8a097e2398304e868cfbe01ad960a430",
+              "lineRanges": [
+                [
+                  22,
+                  24
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+                  "anchor": "L22",
+                  "sectionSha256": "2a36f6b26730cd672bfac1f3763b5652ebde1cc2754106d34aecad3cad8004d7"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8ef69a9fb6ef8da3--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+                  "anchor": "L22",
+                  "sectionSha256": "2a36f6b26730cd672bfac1f3763b5652ebde1cc2754106d34aecad3cad8004d7"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L22",
+              "sectionSha256": "2a36f6b26730cd672bfac1f3763b5652ebde1cc2754106d34aecad3cad8004d7"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L22",
+              "sectionSha256": "2a36f6b26730cd672bfac1f3763b5652ebde1cc2754106d34aecad3cad8004d7"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L22",
+              "sectionSha256": "2a36f6b26730cd672bfac1f3763b5652ebde1cc2754106d34aecad3cad8004d7"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+                  "anchor": "L22",
+                  "sectionSha256": "2a36f6b26730cd672bfac1f3763b5652ebde1cc2754106d34aecad3cad8004d7"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L22",
+              "sectionSha256": "2a36f6b26730cd672bfac1f3763b5652ebde1cc2754106d34aecad3cad8004d7"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L22",
+              "sectionSha256": "2a36f6b26730cd672bfac1f3763b5652ebde1cc2754106d34aecad3cad8004d7"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/063-波动拳.md",
+              "anchor": "L22",
+              "sectionSha256": "2a36f6b26730cd672bfac1f3763b5652ebde1cc2754106d34aecad3cad8004d7"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "波动拳",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "波动拳",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "真 波动拳",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "豪波动",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "灼热波动拳",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "真空波动拳",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-8ef69a9fb6ef8da3--b3cc20089aab--intent",
+      "name": "波动拳",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-8ef69a9fb6ef8da3--b3cc20089aab",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "attack-program-hardcodes-INT-and-casting",
+    "duration-inheritance-and-no-implicit-refresh",
+    "prerequisite-logic-not-fully-encoded"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

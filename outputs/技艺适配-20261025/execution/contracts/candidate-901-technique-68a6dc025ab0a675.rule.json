@@ -1,0 +1,1371 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-68a6dc025ab0a675",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "辉石法咒",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J12",
+    "aliases": [
+      "辉石法咒",
+      "宝石刻印",
+      "辉石星带",
+      "碎石星弹",
+      "辉石八重咒"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/施法类型/辉石法咒.md",
+        "sha256": "997413df7cc6bf8702a04b806849ae466c3be50eafdbb30a193d715e85361065",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            63
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+    "sha256": "787a737cd53252d07562b3747ecab93bb0289327480b4de3ed2c7f8baa69492d"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-68a6dc025ab0a675--0ae594c1109f",
+          "name": "辉石法咒",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+            "anchor": "条目",
+            "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/施法类型/辉石法咒.md",
+              "sha256": "997413df7cc6bf8702a04b806849ae466c3be50eafdbb30a193d715e85361065",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  8,
+                  8
+                ],
+                [
+                  37,
+                  37
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-68a6dc025ab0a675--b3cc20089aab",
+          "name": "辉石法咒",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+            "anchor": "L6",
+            "sectionSha256": "1ea5e4891d8af282b4e1452da3076163bd01bb5ac6093db8a6f85708cdeec28d"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/施法类型/辉石法咒.md",
+              "sha256": "997413df7cc6bf8702a04b806849ae466c3be50eafdbb30a193d715e85361065",
+              "lineRanges": [
+                [
+                  6,
+                  7
+                ],
+                [
+                  9,
+                  12
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+                  "anchor": "L6",
+                  "sectionSha256": "1ea5e4891d8af282b4e1452da3076163bd01bb5ac6093db8a6f85708cdeec28d"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-68a6dc025ab0a675--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+                  "anchor": "L6",
+                  "sectionSha256": "1ea5e4891d8af282b4e1452da3076163bd01bb5ac6093db8a6f85708cdeec28d"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L6",
+              "sectionSha256": "1ea5e4891d8af282b4e1452da3076163bd01bb5ac6093db8a6f85708cdeec28d"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L6",
+              "sectionSha256": "1ea5e4891d8af282b4e1452da3076163bd01bb5ac6093db8a6f85708cdeec28d"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L6",
+              "sectionSha256": "1ea5e4891d8af282b4e1452da3076163bd01bb5ac6093db8a6f85708cdeec28d"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L6",
+              "sectionSha256": "1ea5e4891d8af282b4e1452da3076163bd01bb5ac6093db8a6f85708cdeec28d"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L6",
+              "sectionSha256": "1ea5e4891d8af282b4e1452da3076163bd01bb5ac6093db8a6f85708cdeec28d"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "all-subskill-qualifications",
+                  "skill": "神秘",
+                  "subskills": [
+                    "宝石雕琢）"
+                  ],
+                  "eachMinimum": 1
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+                  "anchor": "L6",
+                  "sectionSha256": "1ea5e4891d8af282b4e1452da3076163bd01bb5ac6093db8a6f85708cdeec28d"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L6",
+              "sectionSha256": "1ea5e4891d8af282b4e1452da3076163bd01bb5ac6093db8a6f85708cdeec28d"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-68a6dc025ab0a675--305b22853ae6",
+          "name": "宝石刻印",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+            "anchor": "L13",
+            "sectionSha256": "4323dd78b1b1d3d77d4a7ba2d5fa4f390301d5b557ab138f4a9c5199b2b94f36"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/施法类型/辉石法咒.md",
+              "sha256": "997413df7cc6bf8702a04b806849ae466c3be50eafdbb30a193d715e85361065",
+              "lineRanges": [
+                [
+                  13,
+                  21
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+                  "anchor": "L13",
+                  "sectionSha256": "4323dd78b1b1d3d77d4a7ba2d5fa4f390301d5b557ab138f4a9c5199b2b94f36"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-68a6dc025ab0a675--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+                  "anchor": "L13",
+                  "sectionSha256": "4323dd78b1b1d3d77d4a7ba2d5fa4f390301d5b557ab138f4a9c5199b2b94f36"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L13",
+              "sectionSha256": "4323dd78b1b1d3d77d4a7ba2d5fa4f390301d5b557ab138f4a9c5199b2b94f36"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L13",
+              "sectionSha256": "4323dd78b1b1d3d77d4a7ba2d5fa4f390301d5b557ab138f4a9c5199b2b94f36"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L13",
+              "sectionSha256": "4323dd78b1b1d3d77d4a7ba2d5fa4f390301d5b557ab138f4a9c5199b2b94f36"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L13",
+              "sectionSha256": "4323dd78b1b1d3d77d4a7ba2d5fa4f390301d5b557ab138f4a9c5199b2b94f36"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L13",
+              "sectionSha256": "4323dd78b1b1d3d77d4a7ba2d5fa4f390301d5b557ab138f4a9c5199b2b94f36"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L13",
+              "sectionSha256": "4323dd78b1b1d3d77d4a7ba2d5fa4f390301d5b557ab138f4a9c5199b2b94f36"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-68a6dc025ab0a675--eb6e35b9eeab",
+          "name": "辉石星带",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+            "anchor": "L22",
+            "sectionSha256": "7fa0af46fddd9bde3b742e62876428b87338382d87ee2c8ca5d4ffd643d4868f"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/施法类型/辉石法咒.md",
+              "sha256": "997413df7cc6bf8702a04b806849ae466c3be50eafdbb30a193d715e85361065",
+              "lineRanges": [
+                [
+                  22,
+                  29
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+                  "anchor": "L22",
+                  "sectionSha256": "7fa0af46fddd9bde3b742e62876428b87338382d87ee2c8ca5d4ffd643d4868f"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ],
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-68a6dc025ab0a675--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+                  "anchor": "L22",
+                  "sectionSha256": "7fa0af46fddd9bde3b742e62876428b87338382d87ee2c8ca5d4ffd643d4868f"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L22",
+              "sectionSha256": "7fa0af46fddd9bde3b742e62876428b87338382d87ee2c8ca5d4ffd643d4868f"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L22",
+              "sectionSha256": "7fa0af46fddd9bde3b742e62876428b87338382d87ee2c8ca5d4ffd643d4868f"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L22",
+              "sectionSha256": "7fa0af46fddd9bde3b742e62876428b87338382d87ee2c8ca5d4ffd643d4868f"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "魔力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+                  "anchor": "L22",
+                  "sectionSha256": "7fa0af46fddd9bde3b742e62876428b87338382d87ee2c8ca5d4ffd643d4868f"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L22",
+              "sectionSha256": "7fa0af46fddd9bde3b742e62876428b87338382d87ee2c8ca5d4ffd643d4868f"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L22",
+              "sectionSha256": "7fa0af46fddd9bde3b742e62876428b87338382d87ee2c8ca5d4ffd643d4868f"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L22",
+              "sectionSha256": "7fa0af46fddd9bde3b742e62876428b87338382d87ee2c8ca5d4ffd643d4868f"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-68a6dc025ab0a675--1c9f3c66445d",
+          "name": "碎石星弹",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+            "anchor": "L30",
+            "sectionSha256": "b5680a65c0a9cab06d90a4620daba42473700773d401dd4f85669682c14ed43f"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/施法类型/辉石法咒.md",
+              "sha256": "997413df7cc6bf8702a04b806849ae466c3be50eafdbb30a193d715e85361065",
+              "lineRanges": [
+                [
+                  30,
+                  34
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+                  "anchor": "L30",
+                  "sectionSha256": "b5680a65c0a9cab06d90a4620daba42473700773d401dd4f85669682c14ed43f"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ],
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-68a6dc025ab0a675--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+                  "anchor": "L30",
+                  "sectionSha256": "b5680a65c0a9cab06d90a4620daba42473700773d401dd4f85669682c14ed43f"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L30",
+              "sectionSha256": "b5680a65c0a9cab06d90a4620daba42473700773d401dd4f85669682c14ed43f"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L30",
+              "sectionSha256": "b5680a65c0a9cab06d90a4620daba42473700773d401dd4f85669682c14ed43f"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L30",
+              "sectionSha256": "b5680a65c0a9cab06d90a4620daba42473700773d401dd4f85669682c14ed43f"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "魔力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+                  "anchor": "L30",
+                  "sectionSha256": "b5680a65c0a9cab06d90a4620daba42473700773d401dd4f85669682c14ed43f"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L30",
+              "sectionSha256": "b5680a65c0a9cab06d90a4620daba42473700773d401dd4f85669682c14ed43f"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L30",
+              "sectionSha256": "b5680a65c0a9cab06d90a4620daba42473700773d401dd4f85669682c14ed43f"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L30",
+              "sectionSha256": "b5680a65c0a9cab06d90a4620daba42473700773d401dd4f85669682c14ed43f"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-68a6dc025ab0a675--5668a86e7a81",
+          "name": "辉石八重咒",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+            "anchor": "L35",
+            "sectionSha256": "f8b855906504b46ff4e4a21d59ffae2529fd8e4f5bf1b83211add1500597f11b"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/施法类型/辉石法咒.md",
+              "sha256": "997413df7cc6bf8702a04b806849ae466c3be50eafdbb30a193d715e85361065",
+              "lineRanges": [
+                [
+                  35,
+                  36
+                ],
+                [
+                  38,
+                  63
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+                  "anchor": "L35",
+                  "sectionSha256": "f8b855906504b46ff4e4a21d59ffae2529fd8e4f5bf1b83211add1500597f11b"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-68a6dc025ab0a675--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+                  "anchor": "L35",
+                  "sectionSha256": "f8b855906504b46ff4e4a21d59ffae2529fd8e4f5bf1b83211add1500597f11b"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "difference",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [
+                {
+                  "semanticStatus": "encoded",
+                  "value": {
+                    "op": "mul",
+                    "args": [
+                      {
+                        "op": "mul",
+                        "args": [
+                          10,
+                          {
+                            "context": "INT"
+                          }
+                        ]
+                      },
+                      {
+                        "context": "P"
+                      }
+                    ]
+                  },
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+                    "anchor": "L35",
+                    "sectionSha256": "f8b855906504b46ff4e4a21d59ffae2529fd8e4f5bf1b83211add1500597f11b"
+                  }
+                }
+              ],
+              "area": [
+                {
+                  "semanticStatus": "encoded",
+                  "value": {
+                    "op": "mul",
+                    "args": [
+                      {
+                        "op": "mul",
+                        "args": [
+                          5,
+                          {
+                            "context": "INT"
+                          }
+                        ]
+                      },
+                      {
+                        "context": "P"
+                      }
+                    ]
+                  },
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+                    "anchor": "L35",
+                    "sectionSha256": "f8b855906504b46ff4e4a21d59ffae2529fd8e4f5bf1b83211add1500597f11b"
+                  }
+                }
+              ]
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L35",
+              "sectionSha256": "f8b855906504b46ff4e4a21d59ffae2529fd8e4f5bf1b83211add1500597f11b"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "instant"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+                  "anchor": "L35",
+                  "sectionSha256": "f8b855906504b46ff4e4a21d59ffae2529fd8e4f5bf1b83211add1500597f11b"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L35",
+              "sectionSha256": "f8b855906504b46ff4e4a21d59ffae2529fd8e4f5bf1b83211add1500597f11b"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L35",
+              "sectionSha256": "f8b855906504b46ff4e4a21d59ffae2529fd8e4f5bf1b83211add1500597f11b"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "not-encoded",
+                "value": null,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+                  "anchor": "L35",
+                  "sectionSha256": "f8b855906504b46ff4e4a21d59ffae2529fd8e4f5bf1b83211add1500597f11b"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L35",
+              "sectionSha256": "f8b855906504b46ff4e4a21d59ffae2529fd8e4f5bf1b83211add1500597f11b"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": 3,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+                  "anchor": "L35",
+                  "sectionSha256": "f8b855906504b46ff4e4a21d59ffae2529fd8e4f5bf1b83211add1500597f11b"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L35",
+              "sectionSha256": "f8b855906504b46ff4e4a21d59ffae2529fd8e4f5bf1b83211add1500597f11b"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/139-辉石法咒.md",
+              "anchor": "L35",
+              "sectionSha256": "f8b855906504b46ff4e4a21d59ffae2529fd8e4f5bf1b83211add1500597f11b"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": [
+            "U04"
+          ]
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "辉石法咒",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "辉石法咒",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "宝石刻印",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "辉石星带",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "碎石星弹",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "辉石八重咒",
+      "effectStats": [],
+      "status": "rule-unresolved"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-68a6dc025ab0a675--b3cc20089aab--intent",
+      "name": "辉石法咒",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-68a6dc025ab0a675--b3cc20089aab",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-68a6dc025ab0a675--eb6e35b9eeab--intent",
+      "name": "辉石星带",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ],
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-68a6dc025ab0a675--eb6e35b9eeab",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-68a6dc025ab0a675--1c9f3c66445d--intent",
+      "name": "碎石星弹",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ],
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-68a6dc025ab0a675--1c9f3c66445d",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-68a6dc025ab0a675--5668a86e7a81--intent",
+      "name": "辉石八重咒",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-68a6dc025ab0a675--5668a86e7a81",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [
+    {
+      "parameter": "U04",
+      "basis": "晶钻·光辉：将魔力注入钻石之后，钻石会变成一团纯粹的光，握在手心时甚至还能感到阵阵微弱的脉动。将这个术式解放时，这团光会无限的向外绽放，你将光团抛出，化为流星射向目标，这视为一个施法判定进行的远程攻击，武器威力等同法术威力，造成光能严重伤害，破甲，破魔，高速等同法术威力/3，具有魔法，能正常攻击灵体，能量武器特性，法术等级达到B级时额外获得贯穿特性，B级时变为超级贯穿，受到攻击的目标还会受到等同法术威力/3的目眩点数，无法豁免且在攻击判定前结算。",
+      "recommendation": "推荐B级最终采用超级贯穿并包含低档贯穿；本轮先关冲突升级，不擅改为A级",
+      "impact": "同一B级同时记贯穿与变超级贯穿，升级层次不唯一"
+    }
+  ],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "prerequisite-logic-not-fully-encoded",
+    "duration-inheritance-and-no-implicit-refresh"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

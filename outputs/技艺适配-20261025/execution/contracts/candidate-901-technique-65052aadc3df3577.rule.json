@@ -1,0 +1,1689 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-65052aadc3df3577",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "释迦掷象功",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J05",
+    "aliases": [
+      "释迦掷象功",
+      "狮子缚手·释迦稳固体式",
+      "狮子缚手·大摔碑式",
+      "狮子缚手·如露如电",
+      "狮子缚手·罗摩擒龙",
+      "掷象秘传·飞星传恨",
+      "掷象秘传·金刚粉碎",
+      "掷象秘传·达摩拔山",
+      "掷象秘传·须弥周流"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/释迦掷象功.md",
+        "sha256": "df8c14993430497c81cd74232f1b35ffe04f658abbb1998184bef63278683d70",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            48
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+    "sha256": "878ebe60852f4d98a1545ea13ed432622d0f8489d8049c0662c0e91ee5026def"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-65052aadc3df3577--0ae594c1109f",
+          "name": "释迦掷象功",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+            "anchor": "条目",
+            "sectionSha256": "4e8c38e1891139aedc54c8c95b747709df03d17778f130cc377647cd49069555"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/释迦掷象功.md",
+              "sha256": "df8c14993430497c81cd74232f1b35ffe04f658abbb1998184bef63278683d70",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  9
+                ],
+                [
+                  24,
+                  24
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "条目",
+              "sectionSha256": "4e8c38e1891139aedc54c8c95b747709df03d17778f130cc377647cd49069555"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "条目",
+              "sectionSha256": "4e8c38e1891139aedc54c8c95b747709df03d17778f130cc377647cd49069555"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "条目",
+              "sectionSha256": "4e8c38e1891139aedc54c8c95b747709df03d17778f130cc377647cd49069555"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "条目",
+              "sectionSha256": "4e8c38e1891139aedc54c8c95b747709df03d17778f130cc377647cd49069555"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "条目",
+              "sectionSha256": "4e8c38e1891139aedc54c8c95b747709df03d17778f130cc377647cd49069555"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "条目",
+              "sectionSha256": "4e8c38e1891139aedc54c8c95b747709df03d17778f130cc377647cd49069555"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-65052aadc3df3577--79cfaa5a36db",
+          "name": "狮子缚手·释迦稳固体式",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+            "anchor": "L10",
+            "sectionSha256": "99339cd5fc890130aba8335d50e6b47f2b0d1489b4eb0ff9014de078f01101ca"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/释迦掷象功.md",
+              "sha256": "df8c14993430497c81cd74232f1b35ffe04f658abbb1998184bef63278683d70",
+              "lineRanges": [
+                [
+                  10,
+                  12
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+                  "anchor": "L10",
+                  "sectionSha256": "99339cd5fc890130aba8335d50e6b47f2b0d1489b4eb0ff9014de078f01101ca"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-65052aadc3df3577--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L10",
+              "sectionSha256": "99339cd5fc890130aba8335d50e6b47f2b0d1489b4eb0ff9014de078f01101ca"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L10",
+              "sectionSha256": "99339cd5fc890130aba8335d50e6b47f2b0d1489b4eb0ff9014de078f01101ca"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L10",
+              "sectionSha256": "99339cd5fc890130aba8335d50e6b47f2b0d1489b4eb0ff9014de078f01101ca"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "内力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+                  "anchor": "L10",
+                  "sectionSha256": "99339cd5fc890130aba8335d50e6b47f2b0d1489b4eb0ff9014de078f01101ca"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L10",
+              "sectionSha256": "99339cd5fc890130aba8335d50e6b47f2b0d1489b4eb0ff9014de078f01101ca"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L10",
+              "sectionSha256": "99339cd5fc890130aba8335d50e6b47f2b0d1489b4eb0ff9014de078f01101ca"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L10",
+              "sectionSha256": "99339cd5fc890130aba8335d50e6b47f2b0d1489b4eb0ff9014de078f01101ca"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "招式",
+              "value": 6,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+                "anchor": "L10",
+                "sectionSha256": "99339cd5fc890130aba8335d50e6b47f2b0d1489b4eb0ff9014de078f01101ca"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-65052aadc3df3577--305b22853ae6",
+          "name": "狮子缚手·大摔碑式",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+            "anchor": "L13",
+            "sectionSha256": "c9218917f60225c8b93655e9fae8b495fe78d3cac3ab43f12eb83151fded38ca"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/释迦掷象功.md",
+              "sha256": "df8c14993430497c81cd74232f1b35ffe04f658abbb1998184bef63278683d70",
+              "lineRanges": [
+                [
+                  13,
+                  17
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+                  "anchor": "L13",
+                  "sectionSha256": "c9218917f60225c8b93655e9fae8b495fe78d3cac3ab43f12eb83151fded38ca"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-65052aadc3df3577--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+                  "anchor": "L13",
+                  "sectionSha256": "c9218917f60225c8b93655e9fae8b495fe78d3cac3ab43f12eb83151fded38ca"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L13",
+              "sectionSha256": "c9218917f60225c8b93655e9fae8b495fe78d3cac3ab43f12eb83151fded38ca"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L13",
+              "sectionSha256": "c9218917f60225c8b93655e9fae8b495fe78d3cac3ab43f12eb83151fded38ca"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L13",
+              "sectionSha256": "c9218917f60225c8b93655e9fae8b495fe78d3cac3ab43f12eb83151fded38ca"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L13",
+              "sectionSha256": "c9218917f60225c8b93655e9fae8b495fe78d3cac3ab43f12eb83151fded38ca"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L13",
+              "sectionSha256": "c9218917f60225c8b93655e9fae8b495fe78d3cac3ab43f12eb83151fded38ca"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L13",
+              "sectionSha256": "c9218917f60225c8b93655e9fae8b495fe78d3cac3ab43f12eb83151fded38ca"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-65052aadc3df3577--cc1ba94005d5",
+          "name": "狮子缚手·如露如电",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+            "anchor": "L18",
+            "sectionSha256": "83e3ee40654af137edf64feacbab8ad24f17eaa49cac9dd10967dfb20b8dda80"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/释迦掷象功.md",
+              "sha256": "df8c14993430497c81cd74232f1b35ffe04f658abbb1998184bef63278683d70",
+              "lineRanges": [
+                [
+                  18,
+                  21
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+                  "anchor": "L18",
+                  "sectionSha256": "83e3ee40654af137edf64feacbab8ad24f17eaa49cac9dd10967dfb20b8dda80"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-65052aadc3df3577--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+                  "anchor": "L18",
+                  "sectionSha256": "83e3ee40654af137edf64feacbab8ad24f17eaa49cac9dd10967dfb20b8dda80"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L18",
+              "sectionSha256": "83e3ee40654af137edf64feacbab8ad24f17eaa49cac9dd10967dfb20b8dda80"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L18",
+              "sectionSha256": "83e3ee40654af137edf64feacbab8ad24f17eaa49cac9dd10967dfb20b8dda80"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L18",
+              "sectionSha256": "83e3ee40654af137edf64feacbab8ad24f17eaa49cac9dd10967dfb20b8dda80"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L18",
+              "sectionSha256": "83e3ee40654af137edf64feacbab8ad24f17eaa49cac9dd10967dfb20b8dda80"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L18",
+              "sectionSha256": "83e3ee40654af137edf64feacbab8ad24f17eaa49cac9dd10967dfb20b8dda80"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L18",
+              "sectionSha256": "83e3ee40654af137edf64feacbab8ad24f17eaa49cac9dd10967dfb20b8dda80"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-65052aadc3df3577--eb6e35b9eeab",
+          "name": "狮子缚手·罗摩擒龙",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+            "anchor": "L22",
+            "sectionSha256": "e2c65a0de3d5c224fc782b04192eb7cb68a501403071b00b988984971d450a48"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/释迦掷象功.md",
+              "sha256": "df8c14993430497c81cd74232f1b35ffe04f658abbb1998184bef63278683d70",
+              "lineRanges": [
+                [
+                  22,
+                  23
+                ],
+                [
+                  25,
+                  27
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+                  "anchor": "L22",
+                  "sectionSha256": "e2c65a0de3d5c224fc782b04192eb7cb68a501403071b00b988984971d450a48"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-65052aadc3df3577--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+                  "anchor": "L22",
+                  "sectionSha256": "e2c65a0de3d5c224fc782b04192eb7cb68a501403071b00b988984971d450a48"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L22",
+              "sectionSha256": "e2c65a0de3d5c224fc782b04192eb7cb68a501403071b00b988984971d450a48"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L22",
+              "sectionSha256": "e2c65a0de3d5c224fc782b04192eb7cb68a501403071b00b988984971d450a48"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L22",
+              "sectionSha256": "e2c65a0de3d5c224fc782b04192eb7cb68a501403071b00b988984971d450a48"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L22",
+              "sectionSha256": "e2c65a0de3d5c224fc782b04192eb7cb68a501403071b00b988984971d450a48"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L22",
+              "sectionSha256": "e2c65a0de3d5c224fc782b04192eb7cb68a501403071b00b988984971d450a48"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L22",
+              "sectionSha256": "e2c65a0de3d5c224fc782b04192eb7cb68a501403071b00b988984971d450a48"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-65052aadc3df3577--36402ecb137e",
+          "name": "掷象秘传·飞星传恨",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+            "anchor": "L28",
+            "sectionSha256": "4b557eb6b83f1a17ee8f0d49a5ed4a7d80544f708099cadcf9109856bf982dec"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/释迦掷象功.md",
+              "sha256": "df8c14993430497c81cd74232f1b35ffe04f658abbb1998184bef63278683d70",
+              "lineRanges": [
+                [
+                  28,
+                  34
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+                  "anchor": "L28",
+                  "sectionSha256": "4b557eb6b83f1a17ee8f0d49a5ed4a7d80544f708099cadcf9109856bf982dec"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ],
+              [
+                "move"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-65052aadc3df3577--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L28",
+              "sectionSha256": "4b557eb6b83f1a17ee8f0d49a5ed4a7d80544f708099cadcf9109856bf982dec"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L28",
+              "sectionSha256": "4b557eb6b83f1a17ee8f0d49a5ed4a7d80544f708099cadcf9109856bf982dec"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L28",
+              "sectionSha256": "4b557eb6b83f1a17ee8f0d49a5ed4a7d80544f708099cadcf9109856bf982dec"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L28",
+              "sectionSha256": "4b557eb6b83f1a17ee8f0d49a5ed4a7d80544f708099cadcf9109856bf982dec"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L28",
+              "sectionSha256": "4b557eb6b83f1a17ee8f0d49a5ed4a7d80544f708099cadcf9109856bf982dec"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L28",
+              "sectionSha256": "4b557eb6b83f1a17ee8f0d49a5ed4a7d80544f708099cadcf9109856bf982dec"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-65052aadc3df3577--5668a86e7a81",
+          "name": "掷象秘传·金刚粉碎",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+            "anchor": "L35",
+            "sectionSha256": "ba029c5dd01d595a33203c45ed4c2da1f0c856136e9755bdf495327a035a5d8c"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/释迦掷象功.md",
+              "sha256": "df8c14993430497c81cd74232f1b35ffe04f658abbb1998184bef63278683d70",
+              "lineRanges": [
+                [
+                  35,
+                  39
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+                  "anchor": "L35",
+                  "sectionSha256": "ba029c5dd01d595a33203c45ed4c2da1f0c856136e9755bdf495327a035a5d8c"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-65052aadc3df3577--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+                  "anchor": "L35",
+                  "sectionSha256": "ba029c5dd01d595a33203c45ed4c2da1f0c856136e9755bdf495327a035a5d8c"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L35",
+              "sectionSha256": "ba029c5dd01d595a33203c45ed4c2da1f0c856136e9755bdf495327a035a5d8c"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L35",
+              "sectionSha256": "ba029c5dd01d595a33203c45ed4c2da1f0c856136e9755bdf495327a035a5d8c"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L35",
+              "sectionSha256": "ba029c5dd01d595a33203c45ed4c2da1f0c856136e9755bdf495327a035a5d8c"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "内力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+                  "anchor": "L35",
+                  "sectionSha256": "ba029c5dd01d595a33203c45ed4c2da1f0c856136e9755bdf495327a035a5d8c"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L35",
+              "sectionSha256": "ba029c5dd01d595a33203c45ed4c2da1f0c856136e9755bdf495327a035a5d8c"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L35",
+              "sectionSha256": "ba029c5dd01d595a33203c45ed4c2da1f0c856136e9755bdf495327a035a5d8c"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L35",
+              "sectionSha256": "ba029c5dd01d595a33203c45ed4c2da1f0c856136e9755bdf495327a035a5d8c"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-65052aadc3df3577--101c7ae8fdaf",
+          "name": "掷象秘传·达摩拔山",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+            "anchor": "L40",
+            "sectionSha256": "1a886504748c50c806978fdd1eba3640fe33ba491e9efe2dd8c801ce6ec3bb7b"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/释迦掷象功.md",
+              "sha256": "df8c14993430497c81cd74232f1b35ffe04f658abbb1998184bef63278683d70",
+              "lineRanges": [
+                [
+                  40,
+                  44
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+                  "anchor": "L40",
+                  "sectionSha256": "1a886504748c50c806978fdd1eba3640fe33ba491e9efe2dd8c801ce6ec3bb7b"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-65052aadc3df3577--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+                  "anchor": "L40",
+                  "sectionSha256": "1a886504748c50c806978fdd1eba3640fe33ba491e9efe2dd8c801ce6ec3bb7b"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L40",
+              "sectionSha256": "1a886504748c50c806978fdd1eba3640fe33ba491e9efe2dd8c801ce6ec3bb7b"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L40",
+              "sectionSha256": "1a886504748c50c806978fdd1eba3640fe33ba491e9efe2dd8c801ce6ec3bb7b"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L40",
+              "sectionSha256": "1a886504748c50c806978fdd1eba3640fe33ba491e9efe2dd8c801ce6ec3bb7b"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L40",
+              "sectionSha256": "1a886504748c50c806978fdd1eba3640fe33ba491e9efe2dd8c801ce6ec3bb7b"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L40",
+              "sectionSha256": "1a886504748c50c806978fdd1eba3640fe33ba491e9efe2dd8c801ce6ec3bb7b"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L40",
+              "sectionSha256": "1a886504748c50c806978fdd1eba3640fe33ba491e9efe2dd8c801ce6ec3bb7b"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-65052aadc3df3577--534d62d82647",
+          "name": "掷象秘传·须弥周流",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+            "anchor": "L45",
+            "sectionSha256": "d32db380b0c0c5bb1db7be8813bf3676a48f981a92f1af49b98af55ab0428f9b"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/释迦掷象功.md",
+              "sha256": "df8c14993430497c81cd74232f1b35ffe04f658abbb1998184bef63278683d70",
+              "lineRanges": [
+                [
+                  45,
+                  48
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+                  "anchor": "L45",
+                  "sectionSha256": "d32db380b0c0c5bb1db7be8813bf3676a48f981a92f1af49b98af55ab0428f9b"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-65052aadc3df3577--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+                  "anchor": "L45",
+                  "sectionSha256": "d32db380b0c0c5bb1db7be8813bf3676a48f981a92f1af49b98af55ab0428f9b"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L45",
+              "sectionSha256": "d32db380b0c0c5bb1db7be8813bf3676a48f981a92f1af49b98af55ab0428f9b"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L45",
+              "sectionSha256": "d32db380b0c0c5bb1db7be8813bf3676a48f981a92f1af49b98af55ab0428f9b"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L45",
+              "sectionSha256": "d32db380b0c0c5bb1db7be8813bf3676a48f981a92f1af49b98af55ab0428f9b"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 7,
+                  "pool": "内力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+                  "anchor": "L45",
+                  "sectionSha256": "d32db380b0c0c5bb1db7be8813bf3676a48f981a92f1af49b98af55ab0428f9b"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L45",
+              "sectionSha256": "d32db380b0c0c5bb1db7be8813bf3676a48f981a92f1af49b98af55ab0428f9b"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L45",
+              "sectionSha256": "d32db380b0c0c5bb1db7be8813bf3676a48f981a92f1af49b98af55ab0428f9b"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/068-释迦掷象功.md",
+              "anchor": "L45",
+              "sectionSha256": "d32db380b0c0c5bb1db7be8813bf3676a48f981a92f1af49b98af55ab0428f9b"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "释迦掷象功",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "狮子缚手·释迦稳固体式",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "狮子缚手·大摔碑式",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "狮子缚手·如露如电",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "狮子缚手·罗摩擒龙",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "掷象秘传·飞星传恨",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "掷象秘传·金刚粉碎",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "掷象秘传·达摩拔山",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "掷象秘传·须弥周流",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-65052aadc3df3577--79cfaa5a36db--intent",
+      "name": "狮子缚手·释迦稳固体式",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-65052aadc3df3577--79cfaa5a36db",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-65052aadc3df3577--cc1ba94005d5--intent",
+      "name": "狮子缚手·如露如电",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-65052aadc3df3577--cc1ba94005d5",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-65052aadc3df3577--eb6e35b9eeab--intent",
+      "name": "狮子缚手·罗摩擒龙",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-65052aadc3df3577--eb6e35b9eeab",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-65052aadc3df3577--36402ecb137e--intent",
+      "name": "掷象秘传·飞星传恨",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ],
+          [
+            "move"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-65052aadc3df3577--36402ecb137e",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "prerequisite-logic-not-fully-encoded",
+    "duration-inheritance-and-no-implicit-refresh"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

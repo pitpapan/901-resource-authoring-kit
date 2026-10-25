@@ -1,0 +1,1468 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-b84cfa7e5e4d343d",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "镰影伤天法",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J04",
+    "aliases": [
+      "镰影伤天法",
+      "镰影伤天法·学习补正α",
+      "镰影伤天法·学习补正β",
+      "镰影伤天法·D级阶段",
+      "镰影伤天法·C级阶段",
+      "镰影伤天法·B级阶段",
+      "镰影伤天法·A级阶段"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/镰影伤天法.md",
+        "sha256": "90409558a45ef6a15eba2d79d10fa35c214e05a072cc1f7fa8f1fda11a873978",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            40
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+    "sha256": "d52d20e1c82aafdea68a2bed6cb83ae2acb0f612befa8872cdaa60b13f888aff"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-b84cfa7e5e4d343d--0ae594c1109f",
+          "name": "镰影伤天法",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+            "anchor": "条目",
+            "sectionSha256": "cd0d790d5f1b551170cb5b55eb15f0a2d136e9e0f63c487e5e1f165bceb71881"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/镰影伤天法.md",
+              "sha256": "90409558a45ef6a15eba2d79d10fa35c214e05a072cc1f7fa8f1fda11a873978",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  9
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "条目",
+              "sectionSha256": "cd0d790d5f1b551170cb5b55eb15f0a2d136e9e0f63c487e5e1f165bceb71881"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "条目",
+              "sectionSha256": "cd0d790d5f1b551170cb5b55eb15f0a2d136e9e0f63c487e5e1f165bceb71881"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "条目",
+              "sectionSha256": "cd0d790d5f1b551170cb5b55eb15f0a2d136e9e0f63c487e5e1f165bceb71881"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "条目",
+              "sectionSha256": "cd0d790d5f1b551170cb5b55eb15f0a2d136e9e0f63c487e5e1f165bceb71881"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "条目",
+              "sectionSha256": "cd0d790d5f1b551170cb5b55eb15f0a2d136e9e0f63c487e5e1f165bceb71881"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "条目",
+              "sectionSha256": "cd0d790d5f1b551170cb5b55eb15f0a2d136e9e0f63c487e5e1f165bceb71881"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-b84cfa7e5e4d343d--79cfaa5a36db",
+          "name": "镰影伤天法·学习补正α",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+            "anchor": "L10",
+            "sectionSha256": "9ff586a26d467305e49dbd195be526d467c9a94069b134ff00b2f4984faf53a2"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/镰影伤天法.md",
+              "sha256": "90409558a45ef6a15eba2d79d10fa35c214e05a072cc1f7fa8f1fda11a873978",
+              "lineRanges": [
+                [
+                  10,
+                  11
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+                  "anchor": "L10",
+                  "sectionSha256": "9ff586a26d467305e49dbd195be526d467c9a94069b134ff00b2f4984faf53a2"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-b84cfa7e5e4d343d--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L10",
+              "sectionSha256": "9ff586a26d467305e49dbd195be526d467c9a94069b134ff00b2f4984faf53a2"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L10",
+              "sectionSha256": "9ff586a26d467305e49dbd195be526d467c9a94069b134ff00b2f4984faf53a2"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L10",
+              "sectionSha256": "9ff586a26d467305e49dbd195be526d467c9a94069b134ff00b2f4984faf53a2"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L10",
+              "sectionSha256": "9ff586a26d467305e49dbd195be526d467c9a94069b134ff00b2f4984faf53a2"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L10",
+              "sectionSha256": "9ff586a26d467305e49dbd195be526d467c9a94069b134ff00b2f4984faf53a2"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L10",
+              "sectionSha256": "9ff586a26d467305e49dbd195be526d467c9a94069b134ff00b2f4984faf53a2"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "修行",
+              "value": 3,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+                "anchor": "L10",
+                "sectionSha256": "9ff586a26d467305e49dbd195be526d467c9a94069b134ff00b2f4984faf53a2"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-b84cfa7e5e4d343d--3f6b5ef2df8d",
+          "name": "镰影伤天法·学习补正β",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+            "anchor": "L12",
+            "sectionSha256": "303c58879ffad410e54b90dd926d8086d0464b2c6b43aa86219f4bf15e30a2c6"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/镰影伤天法.md",
+              "sha256": "90409558a45ef6a15eba2d79d10fa35c214e05a072cc1f7fa8f1fda11a873978",
+              "lineRanges": [
+                [
+                  12,
+                  14
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+                  "anchor": "L12",
+                  "sectionSha256": "303c58879ffad410e54b90dd926d8086d0464b2c6b43aa86219f4bf15e30a2c6"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-b84cfa7e5e4d343d--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L12",
+              "sectionSha256": "303c58879ffad410e54b90dd926d8086d0464b2c6b43aa86219f4bf15e30a2c6"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L12",
+              "sectionSha256": "303c58879ffad410e54b90dd926d8086d0464b2c6b43aa86219f4bf15e30a2c6"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L12",
+              "sectionSha256": "303c58879ffad410e54b90dd926d8086d0464b2c6b43aa86219f4bf15e30a2c6"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L12",
+              "sectionSha256": "303c58879ffad410e54b90dd926d8086d0464b2c6b43aa86219f4bf15e30a2c6"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L12",
+              "sectionSha256": "303c58879ffad410e54b90dd926d8086d0464b2c6b43aa86219f4bf15e30a2c6"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L12",
+              "sectionSha256": "303c58879ffad410e54b90dd926d8086d0464b2c6b43aa86219f4bf15e30a2c6"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "修行",
+              "value": 3,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+                "anchor": "L12",
+                "sectionSha256": "303c58879ffad410e54b90dd926d8086d0464b2c6b43aa86219f4bf15e30a2c6"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-b84cfa7e5e4d343d--ffb618ca2dd4",
+          "name": "镰影伤天法·D级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+            "anchor": "L15",
+            "sectionSha256": "f230f252404b45ff22d2e57b42228d800fc2c1265b6c9a428aae838957c98416"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/镰影伤天法.md",
+              "sha256": "90409558a45ef6a15eba2d79d10fa35c214e05a072cc1f7fa8f1fda11a873978",
+              "lineRanges": [
+                [
+                  15,
+                  18
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+                  "anchor": "L15",
+                  "sectionSha256": "f230f252404b45ff22d2e57b42228d800fc2c1265b6c9a428aae838957c98416"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-b84cfa7e5e4d343d--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L15",
+              "sectionSha256": "f230f252404b45ff22d2e57b42228d800fc2c1265b6c9a428aae838957c98416"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L15",
+              "sectionSha256": "f230f252404b45ff22d2e57b42228d800fc2c1265b6c9a428aae838957c98416"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L15",
+              "sectionSha256": "f230f252404b45ff22d2e57b42228d800fc2c1265b6c9a428aae838957c98416"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L15",
+              "sectionSha256": "f230f252404b45ff22d2e57b42228d800fc2c1265b6c9a428aae838957c98416"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L15",
+              "sectionSha256": "f230f252404b45ff22d2e57b42228d800fc2c1265b6c9a428aae838957c98416"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "all-subskill-qualifications",
+                  "skill": "神秘",
+                  "subskills": [
+                    "巨镰"
+                  ],
+                  "eachMinimum": 1
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+                  "anchor": "L15",
+                  "sectionSha256": "f230f252404b45ff22d2e57b42228d800fc2c1265b6c9a428aae838957c98416"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "all-subskill-qualifications",
+                  "skill": "神秘",
+                  "subskills": [
+                    "巨镰",
+                    "则攻击DP",
+                    "防御+4",
+                    "若有",
+                    "则改为+2",
+                    "这视为环境加值。"
+                  ],
+                  "eachMinimum": 1
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+                  "anchor": "L15",
+                  "sectionSha256": "f230f252404b45ff22d2e57b42228d800fc2c1265b6c9a428aae838957c98416"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L15",
+              "sectionSha256": "f230f252404b45ff22d2e57b42228d800fc2c1265b6c9a428aae838957c98416"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-b84cfa7e5e4d343d--7963c5b340e4",
+          "name": "镰影伤天法·C级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+            "anchor": "L19",
+            "sectionSha256": "0b26d99e7daacd27aa166d099c02acee38cf073314dc3ce6af2e59d77ac43d97"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/镰影伤天法.md",
+              "sha256": "90409558a45ef6a15eba2d79d10fa35c214e05a072cc1f7fa8f1fda11a873978",
+              "lineRanges": [
+                [
+                  19,
+                  23
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+                  "anchor": "L19",
+                  "sectionSha256": "0b26d99e7daacd27aa166d099c02acee38cf073314dc3ce6af2e59d77ac43d97"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "move"
+              ],
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-b84cfa7e5e4d343d--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L19",
+              "sectionSha256": "0b26d99e7daacd27aa166d099c02acee38cf073314dc3ce6af2e59d77ac43d97"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 5,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+                  "anchor": "L19",
+                  "sectionSha256": "0b26d99e7daacd27aa166d099c02acee38cf073314dc3ce6af2e59d77ac43d97"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+                  "anchor": "L19",
+                  "sectionSha256": "0b26d99e7daacd27aa166d099c02acee38cf073314dc3ce6af2e59d77ac43d97"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L19",
+              "sectionSha256": "0b26d99e7daacd27aa166d099c02acee38cf073314dc3ce6af2e59d77ac43d97"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L19",
+              "sectionSha256": "0b26d99e7daacd27aa166d099c02acee38cf073314dc3ce6af2e59d77ac43d97"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+                  "anchor": "L19",
+                  "sectionSha256": "0b26d99e7daacd27aa166d099c02acee38cf073314dc3ce6af2e59d77ac43d97"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+                  "anchor": "L19",
+                  "sectionSha256": "0b26d99e7daacd27aa166d099c02acee38cf073314dc3ce6af2e59d77ac43d97"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L19",
+              "sectionSha256": "0b26d99e7daacd27aa166d099c02acee38cf073314dc3ce6af2e59d77ac43d97"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L19",
+              "sectionSha256": "0b26d99e7daacd27aa166d099c02acee38cf073314dc3ce6af2e59d77ac43d97"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L19",
+              "sectionSha256": "0b26d99e7daacd27aa166d099c02acee38cf073314dc3ce6af2e59d77ac43d97"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-b84cfa7e5e4d343d--ebe53cbe39d6",
+          "name": "镰影伤天法·B级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+            "anchor": "L24",
+            "sectionSha256": "7e7377d1814be8b04133f891cb4c298ab010fa2ec809259c618a6cfc6ee38af9"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/镰影伤天法.md",
+              "sha256": "90409558a45ef6a15eba2d79d10fa35c214e05a072cc1f7fa8f1fda11a873978",
+              "lineRanges": [
+                [
+                  24,
+                  33
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+                  "anchor": "L24",
+                  "sectionSha256": "7e7377d1814be8b04133f891cb4c298ab010fa2ec809259c618a6cfc6ee38af9"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ],
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-b84cfa7e5e4d343d--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L24",
+              "sectionSha256": "7e7377d1814be8b04133f891cb4c298ab010fa2ec809259c618a6cfc6ee38af9"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L24",
+              "sectionSha256": "7e7377d1814be8b04133f891cb4c298ab010fa2ec809259c618a6cfc6ee38af9"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 3,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+                  "anchor": "L24",
+                  "sectionSha256": "7e7377d1814be8b04133f891cb4c298ab010fa2ec809259c618a6cfc6ee38af9"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L24",
+              "sectionSha256": "7e7377d1814be8b04133f891cb4c298ab010fa2ec809259c618a6cfc6ee38af9"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 5,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+                  "anchor": "L24",
+                  "sectionSha256": "7e7377d1814be8b04133f891cb4c298ab010fa2ec809259c618a6cfc6ee38af9"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L24",
+              "sectionSha256": "7e7377d1814be8b04133f891cb4c298ab010fa2ec809259c618a6cfc6ee38af9"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L24",
+              "sectionSha256": "7e7377d1814be8b04133f891cb4c298ab010fa2ec809259c618a6cfc6ee38af9"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L24",
+              "sectionSha256": "7e7377d1814be8b04133f891cb4c298ab010fa2ec809259c618a6cfc6ee38af9"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-b84cfa7e5e4d343d--03ec39d1be65",
+          "name": "镰影伤天法·A级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+            "anchor": "L34",
+            "sectionSha256": "dedadd9a1a7d8afde6da58a79e3efb3b30767160eafc7ec35c7f71ceaa52c572"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/镰影伤天法.md",
+              "sha256": "90409558a45ef6a15eba2d79d10fa35c214e05a072cc1f7fa8f1fda11a873978",
+              "lineRanges": [
+                [
+                  34,
+                  40
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+                  "anchor": "L34",
+                  "sectionSha256": "dedadd9a1a7d8afde6da58a79e3efb3b30767160eafc7ec35c7f71ceaa52c572"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ],
+              [
+                "swift"
+              ],
+              [
+                "move"
+              ],
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-b84cfa7e5e4d343d--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L34",
+              "sectionSha256": "dedadd9a1a7d8afde6da58a79e3efb3b30767160eafc7ec35c7f71ceaa52c572"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+                  "anchor": "L34",
+                  "sectionSha256": "dedadd9a1a7d8afde6da58a79e3efb3b30767160eafc7ec35c7f71ceaa52c572"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L34",
+              "sectionSha256": "dedadd9a1a7d8afde6da58a79e3efb3b30767160eafc7ec35c7f71ceaa52c572"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 10,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+                  "anchor": "L34",
+                  "sectionSha256": "dedadd9a1a7d8afde6da58a79e3efb3b30767160eafc7ec35c7f71ceaa52c572"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L34",
+              "sectionSha256": "dedadd9a1a7d8afde6da58a79e3efb3b30767160eafc7ec35c7f71ceaa52c572"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 7,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+                  "anchor": "L34",
+                  "sectionSha256": "dedadd9a1a7d8afde6da58a79e3efb3b30767160eafc7ec35c7f71ceaa52c572"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L34",
+              "sectionSha256": "dedadd9a1a7d8afde6da58a79e3efb3b30767160eafc7ec35c7f71ceaa52c572"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L34",
+              "sectionSha256": "dedadd9a1a7d8afde6da58a79e3efb3b30767160eafc7ec35c7f71ceaa52c572"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/046-镰影伤天法.md",
+              "anchor": "L34",
+              "sectionSha256": "dedadd9a1a7d8afde6da58a79e3efb3b30767160eafc7ec35c7f71ceaa52c572"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "镰影伤天法",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "镰影伤天法·学习补正α",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "镰影伤天法·学习补正β",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "镰影伤天法·D级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "镰影伤天法·C级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "镰影伤天法·B级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "镰影伤天法·A级阶段",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-b84cfa7e5e4d343d--7963c5b340e4--intent",
+      "name": "镰影伤天法·C级阶段",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "move"
+          ],
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-b84cfa7e5e4d343d--7963c5b340e4",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-b84cfa7e5e4d343d--ebe53cbe39d6--intent",
+      "name": "镰影伤天法·B级阶段",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ],
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-b84cfa7e5e4d343d--ebe53cbe39d6",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-b84cfa7e5e4d343d--03ec39d1be65--intent",
+      "name": "镰影伤天法·A级阶段",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ],
+          [
+            "swift"
+          ],
+          [
+            "move"
+          ],
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-b84cfa7e5e4d343d--03ec39d1be65",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "attack-program-hardcodes-INT-and-casting",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "duration-inheritance-and-no-implicit-refresh"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

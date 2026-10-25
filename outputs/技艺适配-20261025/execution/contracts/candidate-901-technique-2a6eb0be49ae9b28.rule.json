@@ -1,0 +1,1322 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-2a6eb0be49ae9b28",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "雪乃流奥义",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J04",
+    "aliases": [
+      "雪乃流奥义",
+      "落雪",
+      "风转",
+      "雪印",
+      "飘雪",
+      "飞雪"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/雪乃流奥义.md",
+        "sha256": "9eadb773529235e78a9bc74640c93e7235cb46ed042d4b333d0cee87c386a764",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            55
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+    "sha256": "70ad2265b9aacf83f15c1a027f2b570d1096301737da0babf64a964bdc380e01"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-2a6eb0be49ae9b28--0ae594c1109f",
+          "name": "雪乃流奥义",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+            "anchor": "条目",
+            "sectionSha256": "ce1dc2c8eb4c150012fb8cdf66e763527c9177eb88359fe5be1392307c1a8a66"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/雪乃流奥义.md",
+              "sha256": "9eadb773529235e78a9bc74640c93e7235cb46ed042d4b333d0cee87c386a764",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  11
+                ],
+                [
+                  17,
+                  18
+                ],
+                [
+                  26,
+                  26
+                ],
+                [
+                  43,
+                  43
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+                  "anchor": "条目",
+                  "sectionSha256": "ce1dc2c8eb4c150012fb8cdf66e763527c9177eb88359fe5be1392307c1a8a66"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "条目",
+              "sectionSha256": "ce1dc2c8eb4c150012fb8cdf66e763527c9177eb88359fe5be1392307c1a8a66"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "条目",
+              "sectionSha256": "ce1dc2c8eb4c150012fb8cdf66e763527c9177eb88359fe5be1392307c1a8a66"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "条目",
+              "sectionSha256": "ce1dc2c8eb4c150012fb8cdf66e763527c9177eb88359fe5be1392307c1a8a66"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "条目",
+              "sectionSha256": "ce1dc2c8eb4c150012fb8cdf66e763527c9177eb88359fe5be1392307c1a8a66"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "条目",
+              "sectionSha256": "ce1dc2c8eb4c150012fb8cdf66e763527c9177eb88359fe5be1392307c1a8a66"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "条目",
+              "sectionSha256": "ce1dc2c8eb4c150012fb8cdf66e763527c9177eb88359fe5be1392307c1a8a66"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-2a6eb0be49ae9b28--3f6b5ef2df8d",
+          "name": "落雪",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+            "anchor": "L12",
+            "sectionSha256": "af92a7de29026fe725cd8c326da2e1dcdce29ffaa0be7efea7ad11551d3982f8"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/雪乃流奥义.md",
+              "sha256": "9eadb773529235e78a9bc74640c93e7235cb46ed042d4b333d0cee87c386a764",
+              "lineRanges": [
+                [
+                  12,
+                  16
+                ],
+                [
+                  19,
+                  20
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+                  "anchor": "L12",
+                  "sectionSha256": "af92a7de29026fe725cd8c326da2e1dcdce29ffaa0be7efea7ad11551d3982f8"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard",
+                "move"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-2a6eb0be49ae9b28--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L12",
+              "sectionSha256": "af92a7de29026fe725cd8c326da2e1dcdce29ffaa0be7efea7ad11551d3982f8"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L12",
+              "sectionSha256": "af92a7de29026fe725cd8c326da2e1dcdce29ffaa0be7efea7ad11551d3982f8"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 6,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+                  "anchor": "L12",
+                  "sectionSha256": "af92a7de29026fe725cd8c326da2e1dcdce29ffaa0be7efea7ad11551d3982f8"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L12",
+              "sectionSha256": "af92a7de29026fe725cd8c326da2e1dcdce29ffaa0be7efea7ad11551d3982f8"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L12",
+              "sectionSha256": "af92a7de29026fe725cd8c326da2e1dcdce29ffaa0be7efea7ad11551d3982f8"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L12",
+              "sectionSha256": "af92a7de29026fe725cd8c326da2e1dcdce29ffaa0be7efea7ad11551d3982f8"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L12",
+              "sectionSha256": "af92a7de29026fe725cd8c326da2e1dcdce29ffaa0be7efea7ad11551d3982f8"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-2a6eb0be49ae9b28--f45c0059c181",
+          "name": "风转",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+            "anchor": "L21",
+            "sectionSha256": "7ae3f4fd6ea9a1ffbb7a4844696f205fb1cbff08215bdbd520a6015de6d9f1c9"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/雪乃流奥义.md",
+              "sha256": "9eadb773529235e78a9bc74640c93e7235cb46ed042d4b333d0cee87c386a764",
+              "lineRanges": [
+                [
+                  21,
+                  25
+                ],
+                [
+                  27,
+                  27
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+                  "anchor": "L21",
+                  "sectionSha256": "7ae3f4fd6ea9a1ffbb7a4844696f205fb1cbff08215bdbd520a6015de6d9f1c9"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-2a6eb0be49ae9b28--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L21",
+              "sectionSha256": "7ae3f4fd6ea9a1ffbb7a4844696f205fb1cbff08215bdbd520a6015de6d9f1c9"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "instant"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+                  "anchor": "L21",
+                  "sectionSha256": "7ae3f4fd6ea9a1ffbb7a4844696f205fb1cbff08215bdbd520a6015de6d9f1c9"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L21",
+              "sectionSha256": "7ae3f4fd6ea9a1ffbb7a4844696f205fb1cbff08215bdbd520a6015de6d9f1c9"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L21",
+              "sectionSha256": "7ae3f4fd6ea9a1ffbb7a4844696f205fb1cbff08215bdbd520a6015de6d9f1c9"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L21",
+              "sectionSha256": "7ae3f4fd6ea9a1ffbb7a4844696f205fb1cbff08215bdbd520a6015de6d9f1c9"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L21",
+              "sectionSha256": "7ae3f4fd6ea9a1ffbb7a4844696f205fb1cbff08215bdbd520a6015de6d9f1c9"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L21",
+              "sectionSha256": "7ae3f4fd6ea9a1ffbb7a4844696f205fb1cbff08215bdbd520a6015de6d9f1c9"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "招式",
+              "value": 6,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+                "anchor": "L21",
+                "sectionSha256": "7ae3f4fd6ea9a1ffbb7a4844696f205fb1cbff08215bdbd520a6015de6d9f1c9"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-2a6eb0be49ae9b28--36402ecb137e",
+          "name": "雪印",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+            "anchor": "L28",
+            "sectionSha256": "7a1bed0307c0fbb1a77e05dcf05885a0c5fbf2f90d4b4e65dfba12b79fd29d74"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/雪乃流奥义.md",
+              "sha256": "9eadb773529235e78a9bc74640c93e7235cb46ed042d4b333d0cee87c386a764",
+              "lineRanges": [
+                [
+                  28,
+                  36
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+                  "anchor": "L28",
+                  "sectionSha256": "7a1bed0307c0fbb1a77e05dcf05885a0c5fbf2f90d4b4e65dfba12b79fd29d74"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-2a6eb0be49ae9b28--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+                  "anchor": "L28",
+                  "sectionSha256": "7a1bed0307c0fbb1a77e05dcf05885a0c5fbf2f90d4b4e65dfba12b79fd29d74"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L28",
+              "sectionSha256": "7a1bed0307c0fbb1a77e05dcf05885a0c5fbf2f90d4b4e65dfba12b79fd29d74"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L28",
+              "sectionSha256": "7a1bed0307c0fbb1a77e05dcf05885a0c5fbf2f90d4b4e65dfba12b79fd29d74"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+                  "anchor": "L28",
+                  "sectionSha256": "7a1bed0307c0fbb1a77e05dcf05885a0c5fbf2f90d4b4e65dfba12b79fd29d74"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L28",
+              "sectionSha256": "7a1bed0307c0fbb1a77e05dcf05885a0c5fbf2f90d4b4e65dfba12b79fd29d74"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L28",
+              "sectionSha256": "7a1bed0307c0fbb1a77e05dcf05885a0c5fbf2f90d4b4e65dfba12b79fd29d74"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L28",
+              "sectionSha256": "7a1bed0307c0fbb1a77e05dcf05885a0c5fbf2f90d4b4e65dfba12b79fd29d74"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L28",
+              "sectionSha256": "7a1bed0307c0fbb1a77e05dcf05885a0c5fbf2f90d4b4e65dfba12b79fd29d74"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-2a6eb0be49ae9b28--62317f6d0509",
+          "name": "飘雪",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+            "anchor": "L37",
+            "sectionSha256": "1224109c78b3b4c6101d400903ac4f293baa356489735022c6f1e5930a57c77c"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/雪乃流奥义.md",
+              "sha256": "9eadb773529235e78a9bc74640c93e7235cb46ed042d4b333d0cee87c386a764",
+              "lineRanges": [
+                [
+                  37,
+                  42
+                ],
+                [
+                  44,
+                  44
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 85,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+                  "anchor": "L37",
+                  "sectionSha256": "1224109c78b3b4c6101d400903ac4f293baa356489735022c6f1e5930a57c77c"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-2a6eb0be49ae9b28--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+                  "anchor": "L37",
+                  "sectionSha256": "1224109c78b3b4c6101d400903ac4f293baa356489735022c6f1e5930a57c77c"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L37",
+              "sectionSha256": "1224109c78b3b4c6101d400903ac4f293baa356489735022c6f1e5930a57c77c"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "not-encoded",
+                "value": null,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+                  "anchor": "L37",
+                  "sectionSha256": "1224109c78b3b4c6101d400903ac4f293baa356489735022c6f1e5930a57c77c"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L37",
+              "sectionSha256": "1224109c78b3b4c6101d400903ac4f293baa356489735022c6f1e5930a57c77c"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L37",
+              "sectionSha256": "1224109c78b3b4c6101d400903ac4f293baa356489735022c6f1e5930a57c77c"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L37",
+              "sectionSha256": "1224109c78b3b4c6101d400903ac4f293baa356489735022c6f1e5930a57c77c"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L37",
+              "sectionSha256": "1224109c78b3b4c6101d400903ac4f293baa356489735022c6f1e5930a57c77c"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L37",
+              "sectionSha256": "1224109c78b3b4c6101d400903ac4f293baa356489735022c6f1e5930a57c77c"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-2a6eb0be49ae9b28--534d62d82647",
+          "name": "飞雪",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+            "anchor": "L45",
+            "sectionSha256": "d1b9b72046d12f889a9bfc36704aa017fe7d0b619964a7f3239a1e5e4cc26643"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/雪乃流奥义.md",
+              "sha256": "9eadb773529235e78a9bc74640c93e7235cb46ed042d4b333d0cee87c386a764",
+              "lineRanges": [
+                [
+                  45,
+                  55
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 85,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+                  "anchor": "L45",
+                  "sectionSha256": "d1b9b72046d12f889a9bfc36704aa017fe7d0b619964a7f3239a1e5e4cc26643"
+                }
+              },
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 10.0,
+                "mode": "explicit-purchase-or-repeat",
+                "basis": "reading-explicit-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+                  "anchor": "L45",
+                  "sectionSha256": "d1b9b72046d12f889a9bfc36704aa017fe7d0b619964a7f3239a1e5e4cc26643"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-2a6eb0be49ae9b28--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+                  "anchor": "L45",
+                  "sectionSha256": "d1b9b72046d12f889a9bfc36704aa017fe7d0b619964a7f3239a1e5e4cc26643"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L45",
+              "sectionSha256": "d1b9b72046d12f889a9bfc36704aa017fe7d0b619964a7f3239a1e5e4cc26643"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L45",
+              "sectionSha256": "d1b9b72046d12f889a9bfc36704aa017fe7d0b619964a7f3239a1e5e4cc26643"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 10,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+                  "anchor": "L45",
+                  "sectionSha256": "d1b9b72046d12f889a9bfc36704aa017fe7d0b619964a7f3239a1e5e4cc26643"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L45",
+              "sectionSha256": "d1b9b72046d12f889a9bfc36704aa017fe7d0b619964a7f3239a1e5e4cc26643"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L45",
+              "sectionSha256": "d1b9b72046d12f889a9bfc36704aa017fe7d0b619964a7f3239a1e5e4cc26643"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L45",
+              "sectionSha256": "d1b9b72046d12f889a9bfc36704aa017fe7d0b619964a7f3239a1e5e4cc26643"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/047-雪乃流奥义.md",
+              "anchor": "L45",
+              "sectionSha256": "d1b9b72046d12f889a9bfc36704aa017fe7d0b619964a7f3239a1e5e4cc26643"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "雪乃流奥义",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "落雪",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "风转",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "雪印",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "飘雪",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "飞雪",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-2a6eb0be49ae9b28--3f6b5ef2df8d--intent",
+      "name": "落雪",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard",
+            "move"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-2a6eb0be49ae9b28--3f6b5ef2df8d",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-2a6eb0be49ae9b28--f45c0059c181--intent",
+      "name": "风转",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-2a6eb0be49ae9b28--f45c0059c181",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-2a6eb0be49ae9b28--36402ecb137e--intent",
+      "name": "雪印",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-2a6eb0be49ae9b28--36402ecb137e",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-2a6eb0be49ae9b28--62317f6d0509--intent",
+      "name": "飘雪",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-2a6eb0be49ae9b28--62317f6d0509",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "prerequisite-logic-not-fully-encoded",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "duration-inheritance-and-no-implicit-refresh",
+    "attack-program-hardcodes-INT-and-casting"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

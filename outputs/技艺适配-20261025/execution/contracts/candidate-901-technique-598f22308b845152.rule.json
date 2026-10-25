@@ -1,0 +1,2386 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-598f22308b845152",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "剑道十三章",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J04",
+    "aliases": [
+      "剑道十三章",
+      "天道剑势　　　　花间游",
+      "第一二章 剑-离经易道 剑-幽游人间",
+      "第三四章 剑-封禁　　 剑-太局针剑",
+      "第五六章 剑-阴阳无极 剑-花海踏晨",
+      "第七八章 剑-风林火山 剑-坐忘无我",
+      "第九十章 剑-一剑逍遥 剑-归去归来",
+      "最后三章 剑-莫途销魂",
+      "剑道十三章·第一二章",
+      "剑-离经易道",
+      "剑-幽游人间",
+      "剑道十三章·第三四章",
+      "剑-封禁",
+      "剑-太局针剑",
+      "剑道十三章·第五六章",
+      "剑-阴阳无极",
+      "剑-花海踏晨",
+      "剑道十三章·第七八章",
+      "剑-风林火山",
+      "剑-坐忘无我",
+      "剑道十三章·第九十章",
+      "剑-一剑逍遥",
+      "剑-归去归来",
+      "最后三章",
+      "剑-莫途销魂"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/剑道十三章.md",
+        "sha256": "4e3122f7f93f2c3b931a45f3cda4a5aeee9f0e5c10153a5156345fab4614ef45",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            99
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+    "sha256": "5fca0049f3dfaf2430530e0197d1e8ded01e888935a5f34732d9cc11d5c4ed35"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-598f22308b845152--0ae594c1109f",
+          "name": "剑道十三章",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+            "anchor": "条目",
+            "sectionSha256": "2c43b97bfcfa42640faf1846db141a0ad2184df70423c94f10f66cab2cd96748"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/剑道十三章.md",
+              "sha256": "4e3122f7f93f2c3b931a45f3cda4a5aeee9f0e5c10153a5156345fab4614ef45",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  15
+                ],
+                [
+                  17,
+                  18
+                ],
+                [
+                  23,
+                  24
+                ],
+                [
+                  29,
+                  30
+                ],
+                [
+                  34,
+                  35
+                ],
+                [
+                  41,
+                  42
+                ],
+                [
+                  47,
+                  48
+                ],
+                [
+                  54,
+                  55
+                ],
+                [
+                  61,
+                  62
+                ],
+                [
+                  70,
+                  71
+                ],
+                [
+                  76,
+                  77
+                ],
+                [
+                  85,
+                  85
+                ],
+                [
+                  87,
+                  87
+                ],
+                [
+                  89,
+                  89
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "条目",
+              "sectionSha256": "2c43b97bfcfa42640faf1846db141a0ad2184df70423c94f10f66cab2cd96748"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "条目",
+              "sectionSha256": "2c43b97bfcfa42640faf1846db141a0ad2184df70423c94f10f66cab2cd96748"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "条目",
+              "sectionSha256": "2c43b97bfcfa42640faf1846db141a0ad2184df70423c94f10f66cab2cd96748"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "条目",
+              "sectionSha256": "2c43b97bfcfa42640faf1846db141a0ad2184df70423c94f10f66cab2cd96748"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "条目",
+              "sectionSha256": "2c43b97bfcfa42640faf1846db141a0ad2184df70423c94f10f66cab2cd96748"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "条目",
+              "sectionSha256": "2c43b97bfcfa42640faf1846db141a0ad2184df70423c94f10f66cab2cd96748"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-598f22308b845152--5f3f9d32a927",
+          "name": "剑-离经易道",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+            "anchor": "L16",
+            "sectionSha256": "857cc0cefe5ecf28ccc7cf1620aa84b6f5da61169193955498612731d7ba85bb"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/剑道十三章.md",
+              "sha256": "4e3122f7f93f2c3b931a45f3cda4a5aeee9f0e5c10153a5156345fab4614ef45",
+              "lineRanges": [
+                [
+                  16,
+                  16
+                ],
+                [
+                  19,
+                  21
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+                  "anchor": "L16",
+                  "sectionSha256": "857cc0cefe5ecf28ccc7cf1620aa84b6f5da61169193955498612731d7ba85bb"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-598f22308b845152--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L16",
+              "sectionSha256": "857cc0cefe5ecf28ccc7cf1620aa84b6f5da61169193955498612731d7ba85bb"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L16",
+              "sectionSha256": "857cc0cefe5ecf28ccc7cf1620aa84b6f5da61169193955498612731d7ba85bb"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+                  "anchor": "L16",
+                  "sectionSha256": "857cc0cefe5ecf28ccc7cf1620aa84b6f5da61169193955498612731d7ba85bb"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L16",
+              "sectionSha256": "857cc0cefe5ecf28ccc7cf1620aa84b6f5da61169193955498612731d7ba85bb"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+                  "anchor": "L16",
+                  "sectionSha256": "857cc0cefe5ecf28ccc7cf1620aa84b6f5da61169193955498612731d7ba85bb"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L16",
+              "sectionSha256": "857cc0cefe5ecf28ccc7cf1620aa84b6f5da61169193955498612731d7ba85bb"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L16",
+              "sectionSha256": "857cc0cefe5ecf28ccc7cf1620aa84b6f5da61169193955498612731d7ba85bb"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L16",
+              "sectionSha256": "857cc0cefe5ecf28ccc7cf1620aa84b6f5da61169193955498612731d7ba85bb"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-598f22308b845152--eb6e35b9eeab",
+          "name": "剑-幽游人间",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+            "anchor": "L22",
+            "sectionSha256": "dca4535cbc05eee36dc3bb96abae42fd61bcb7772c5a98d1f175e81323608dcf"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/剑道十三章.md",
+              "sha256": "4e3122f7f93f2c3b931a45f3cda4a5aeee9f0e5c10153a5156345fab4614ef45",
+              "lineRanges": [
+                [
+                  22,
+                  22
+                ],
+                [
+                  25,
+                  27
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+                  "anchor": "L22",
+                  "sectionSha256": "dca4535cbc05eee36dc3bb96abae42fd61bcb7772c5a98d1f175e81323608dcf"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-598f22308b845152--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L22",
+              "sectionSha256": "dca4535cbc05eee36dc3bb96abae42fd61bcb7772c5a98d1f175e81323608dcf"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+                  "anchor": "L22",
+                  "sectionSha256": "dca4535cbc05eee36dc3bb96abae42fd61bcb7772c5a98d1f175e81323608dcf"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L22",
+              "sectionSha256": "dca4535cbc05eee36dc3bb96abae42fd61bcb7772c5a98d1f175e81323608dcf"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L22",
+              "sectionSha256": "dca4535cbc05eee36dc3bb96abae42fd61bcb7772c5a98d1f175e81323608dcf"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L22",
+              "sectionSha256": "dca4535cbc05eee36dc3bb96abae42fd61bcb7772c5a98d1f175e81323608dcf"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L22",
+              "sectionSha256": "dca4535cbc05eee36dc3bb96abae42fd61bcb7772c5a98d1f175e81323608dcf"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L22",
+              "sectionSha256": "dca4535cbc05eee36dc3bb96abae42fd61bcb7772c5a98d1f175e81323608dcf"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-598f22308b845152--36402ecb137e",
+          "name": "剑-封禁",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+            "anchor": "L28",
+            "sectionSha256": "cd21f60f4120ef94b0bbedaf03a92368699acbd8c6d8e061bac00259280127a1"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/剑道十三章.md",
+              "sha256": "4e3122f7f93f2c3b931a45f3cda4a5aeee9f0e5c10153a5156345fab4614ef45",
+              "lineRanges": [
+                [
+                  28,
+                  28
+                ],
+                [
+                  31,
+                  32
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+                  "anchor": "L28",
+                  "sectionSha256": "cd21f60f4120ef94b0bbedaf03a92368699acbd8c6d8e061bac00259280127a1"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-598f22308b845152--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L28",
+              "sectionSha256": "cd21f60f4120ef94b0bbedaf03a92368699acbd8c6d8e061bac00259280127a1"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L28",
+              "sectionSha256": "cd21f60f4120ef94b0bbedaf03a92368699acbd8c6d8e061bac00259280127a1"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L28",
+              "sectionSha256": "cd21f60f4120ef94b0bbedaf03a92368699acbd8c6d8e061bac00259280127a1"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L28",
+              "sectionSha256": "cd21f60f4120ef94b0bbedaf03a92368699acbd8c6d8e061bac00259280127a1"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L28",
+              "sectionSha256": "cd21f60f4120ef94b0bbedaf03a92368699acbd8c6d8e061bac00259280127a1"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L28",
+              "sectionSha256": "cd21f60f4120ef94b0bbedaf03a92368699acbd8c6d8e061bac00259280127a1"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-598f22308b845152--239a51838c73",
+          "name": "剑-太局针剑",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+            "anchor": "L33",
+            "sectionSha256": "4f61f3b78bfc8beb2f2fc38e29d109873471fff75ca6b8897361bd9c3a878d29"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/剑道十三章.md",
+              "sha256": "4e3122f7f93f2c3b931a45f3cda4a5aeee9f0e5c10153a5156345fab4614ef45",
+              "lineRanges": [
+                [
+                  33,
+                  33
+                ],
+                [
+                  36,
+                  39
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+                  "anchor": "L33",
+                  "sectionSha256": "4f61f3b78bfc8beb2f2fc38e29d109873471fff75ca6b8897361bd9c3a878d29"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "move"
+              ],
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-598f22308b845152--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L33",
+              "sectionSha256": "4f61f3b78bfc8beb2f2fc38e29d109873471fff75ca6b8897361bd9c3a878d29"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L33",
+              "sectionSha256": "4f61f3b78bfc8beb2f2fc38e29d109873471fff75ca6b8897361bd9c3a878d29"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 2,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+                  "anchor": "L33",
+                  "sectionSha256": "4f61f3b78bfc8beb2f2fc38e29d109873471fff75ca6b8897361bd9c3a878d29"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L33",
+              "sectionSha256": "4f61f3b78bfc8beb2f2fc38e29d109873471fff75ca6b8897361bd9c3a878d29"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L33",
+              "sectionSha256": "4f61f3b78bfc8beb2f2fc38e29d109873471fff75ca6b8897361bd9c3a878d29"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L33",
+              "sectionSha256": "4f61f3b78bfc8beb2f2fc38e29d109873471fff75ca6b8897361bd9c3a878d29"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L33",
+              "sectionSha256": "4f61f3b78bfc8beb2f2fc38e29d109873471fff75ca6b8897361bd9c3a878d29"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-598f22308b845152--101c7ae8fdaf",
+          "name": "剑-阴阳无极",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+            "anchor": "L40",
+            "sectionSha256": "cd5861834c59d8195e965e00374786866d754b833e3fa1ab1237043a2a98677e"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/剑道十三章.md",
+              "sha256": "4e3122f7f93f2c3b931a45f3cda4a5aeee9f0e5c10153a5156345fab4614ef45",
+              "lineRanges": [
+                [
+                  40,
+                  40
+                ],
+                [
+                  43,
+                  45
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 85,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+                  "anchor": "L40",
+                  "sectionSha256": "cd5861834c59d8195e965e00374786866d754b833e3fa1ab1237043a2a98677e"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-598f22308b845152--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L40",
+              "sectionSha256": "cd5861834c59d8195e965e00374786866d754b833e3fa1ab1237043a2a98677e"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+                  "anchor": "L40",
+                  "sectionSha256": "cd5861834c59d8195e965e00374786866d754b833e3fa1ab1237043a2a98677e"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L40",
+              "sectionSha256": "cd5861834c59d8195e965e00374786866d754b833e3fa1ab1237043a2a98677e"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L40",
+              "sectionSha256": "cd5861834c59d8195e965e00374786866d754b833e3fa1ab1237043a2a98677e"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L40",
+              "sectionSha256": "cd5861834c59d8195e965e00374786866d754b833e3fa1ab1237043a2a98677e"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L40",
+              "sectionSha256": "cd5861834c59d8195e965e00374786866d754b833e3fa1ab1237043a2a98677e"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L40",
+              "sectionSha256": "cd5861834c59d8195e965e00374786866d754b833e3fa1ab1237043a2a98677e"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-598f22308b845152--adb17ae1473a",
+          "name": "剑-花海踏晨",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+            "anchor": "L46",
+            "sectionSha256": "cd49ca50dc29ea279501bda25176739fad56283fe99d0c1e01e46ce68e5b39d6"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/剑道十三章.md",
+              "sha256": "4e3122f7f93f2c3b931a45f3cda4a5aeee9f0e5c10153a5156345fab4614ef45",
+              "lineRanges": [
+                [
+                  46,
+                  46
+                ],
+                [
+                  49,
+                  52
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+                  "anchor": "L46",
+                  "sectionSha256": "cd49ca50dc29ea279501bda25176739fad56283fe99d0c1e01e46ce68e5b39d6"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "move"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-598f22308b845152--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L46",
+              "sectionSha256": "cd49ca50dc29ea279501bda25176739fad56283fe99d0c1e01e46ce68e5b39d6"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L46",
+              "sectionSha256": "cd49ca50dc29ea279501bda25176739fad56283fe99d0c1e01e46ce68e5b39d6"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+                  "anchor": "L46",
+                  "sectionSha256": "cd49ca50dc29ea279501bda25176739fad56283fe99d0c1e01e46ce68e5b39d6"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L46",
+              "sectionSha256": "cd49ca50dc29ea279501bda25176739fad56283fe99d0c1e01e46ce68e5b39d6"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L46",
+              "sectionSha256": "cd49ca50dc29ea279501bda25176739fad56283fe99d0c1e01e46ce68e5b39d6"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L46",
+              "sectionSha256": "cd49ca50dc29ea279501bda25176739fad56283fe99d0c1e01e46ce68e5b39d6"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L46",
+              "sectionSha256": "cd49ca50dc29ea279501bda25176739fad56283fe99d0c1e01e46ce68e5b39d6"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-598f22308b845152--47a5635347b1",
+          "name": "剑-风林火山",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+            "anchor": "L53",
+            "sectionSha256": "1617f13fe0f8719a935a5a9d5cefce474c4f8ca9bcc55d9fb347a0c941beb8eb"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/剑道十三章.md",
+              "sha256": "4e3122f7f93f2c3b931a45f3cda4a5aeee9f0e5c10153a5156345fab4614ef45",
+              "lineRanges": [
+                [
+                  53,
+                  53
+                ],
+                [
+                  56,
+                  59
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+                  "anchor": "L53",
+                  "sectionSha256": "1617f13fe0f8719a935a5a9d5cefce474c4f8ca9bcc55d9fb347a0c941beb8eb"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-598f22308b845152--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L53",
+              "sectionSha256": "1617f13fe0f8719a935a5a9d5cefce474c4f8ca9bcc55d9fb347a0c941beb8eb"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L53",
+              "sectionSha256": "1617f13fe0f8719a935a5a9d5cefce474c4f8ca9bcc55d9fb347a0c941beb8eb"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L53",
+              "sectionSha256": "1617f13fe0f8719a935a5a9d5cefce474c4f8ca9bcc55d9fb347a0c941beb8eb"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L53",
+              "sectionSha256": "1617f13fe0f8719a935a5a9d5cefce474c4f8ca9bcc55d9fb347a0c941beb8eb"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L53",
+              "sectionSha256": "1617f13fe0f8719a935a5a9d5cefce474c4f8ca9bcc55d9fb347a0c941beb8eb"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L53",
+              "sectionSha256": "1617f13fe0f8719a935a5a9d5cefce474c4f8ca9bcc55d9fb347a0c941beb8eb"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-598f22308b845152--9ae2a83404bb",
+          "name": "剑-坐忘无我",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+            "anchor": "L60",
+            "sectionSha256": "1da2cb1d6d9efacf34efc74c84cec5ec62513813a0aa794070e779c76b3c19e7"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/剑道十三章.md",
+              "sha256": "4e3122f7f93f2c3b931a45f3cda4a5aeee9f0e5c10153a5156345fab4614ef45",
+              "lineRanges": [
+                [
+                  60,
+                  60
+                ],
+                [
+                  63,
+                  68
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+                  "anchor": "L60",
+                  "sectionSha256": "1da2cb1d6d9efacf34efc74c84cec5ec62513813a0aa794070e779c76b3c19e7"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "move"
+              ],
+              [
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-598f22308b845152--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L60",
+              "sectionSha256": "1da2cb1d6d9efacf34efc74c84cec5ec62513813a0aa794070e779c76b3c19e7"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L60",
+              "sectionSha256": "1da2cb1d6d9efacf34efc74c84cec5ec62513813a0aa794070e779c76b3c19e7"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L60",
+              "sectionSha256": "1da2cb1d6d9efacf34efc74c84cec5ec62513813a0aa794070e779c76b3c19e7"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L60",
+              "sectionSha256": "1da2cb1d6d9efacf34efc74c84cec5ec62513813a0aa794070e779c76b3c19e7"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L60",
+              "sectionSha256": "1da2cb1d6d9efacf34efc74c84cec5ec62513813a0aa794070e779c76b3c19e7"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L60",
+              "sectionSha256": "1da2cb1d6d9efacf34efc74c84cec5ec62513813a0aa794070e779c76b3c19e7"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "洞察",
+              "value": 48,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+                "anchor": "L60",
+                "sectionSha256": "1da2cb1d6d9efacf34efc74c84cec5ec62513813a0aa794070e779c76b3c19e7"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-598f22308b845152--0a7d6bd9b5bd",
+          "name": "剑-一剑逍遥",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+            "anchor": "L69",
+            "sectionSha256": "ec39c9ee0142f02e2f449be858035c1c6337d93baf0af3905cb5082c0d34f3f4"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/剑道十三章.md",
+              "sha256": "4e3122f7f93f2c3b931a45f3cda4a5aeee9f0e5c10153a5156345fab4614ef45",
+              "lineRanges": [
+                [
+                  69,
+                  69
+                ],
+                [
+                  72,
+                  74
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 215,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+                  "anchor": "L69",
+                  "sectionSha256": "ec39c9ee0142f02e2f449be858035c1c6337d93baf0af3905cb5082c0d34f3f4"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-598f22308b845152--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L69",
+              "sectionSha256": "ec39c9ee0142f02e2f449be858035c1c6337d93baf0af3905cb5082c0d34f3f4"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L69",
+              "sectionSha256": "ec39c9ee0142f02e2f449be858035c1c6337d93baf0af3905cb5082c0d34f3f4"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 15,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+                  "anchor": "L69",
+                  "sectionSha256": "ec39c9ee0142f02e2f449be858035c1c6337d93baf0af3905cb5082c0d34f3f4"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L69",
+              "sectionSha256": "ec39c9ee0142f02e2f449be858035c1c6337d93baf0af3905cb5082c0d34f3f4"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L69",
+              "sectionSha256": "ec39c9ee0142f02e2f449be858035c1c6337d93baf0af3905cb5082c0d34f3f4"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L69",
+              "sectionSha256": "ec39c9ee0142f02e2f449be858035c1c6337d93baf0af3905cb5082c0d34f3f4"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L69",
+              "sectionSha256": "ec39c9ee0142f02e2f449be858035c1c6337d93baf0af3905cb5082c0d34f3f4"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-598f22308b845152--125d02ee0994",
+          "name": "剑-归去归来",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+            "anchor": "L75",
+            "sectionSha256": "a33156134c4bed6e96b744e6eec687f412f2685ff4e17e7b8637f409e918276d"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/剑道十三章.md",
+              "sha256": "4e3122f7f93f2c3b931a45f3cda4a5aeee9f0e5c10153a5156345fab4614ef45",
+              "lineRanges": [
+                [
+                  75,
+                  75
+                ],
+                [
+                  78,
+                  82
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 215,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+                  "anchor": "L75",
+                  "sectionSha256": "a33156134c4bed6e96b744e6eec687f412f2685ff4e17e7b8637f409e918276d"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard",
+                "swift"
+              ],
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-598f22308b845152--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L75",
+              "sectionSha256": "a33156134c4bed6e96b744e6eec687f412f2685ff4e17e7b8637f409e918276d"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L75",
+              "sectionSha256": "a33156134c4bed6e96b744e6eec687f412f2685ff4e17e7b8637f409e918276d"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 10,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+                  "anchor": "L75",
+                  "sectionSha256": "a33156134c4bed6e96b744e6eec687f412f2685ff4e17e7b8637f409e918276d"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L75",
+              "sectionSha256": "a33156134c4bed6e96b744e6eec687f412f2685ff4e17e7b8637f409e918276d"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L75",
+              "sectionSha256": "a33156134c4bed6e96b744e6eec687f412f2685ff4e17e7b8637f409e918276d"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L75",
+              "sectionSha256": "a33156134c4bed6e96b744e6eec687f412f2685ff4e17e7b8637f409e918276d"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L75",
+              "sectionSha256": "a33156134c4bed6e96b744e6eec687f412f2685ff4e17e7b8637f409e918276d"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-598f22308b845152--c6c06922eb4a",
+          "name": "最后三章",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+            "anchor": "L83",
+            "sectionSha256": "5e9cfac12b73ffa685255e07eb08a10cb877aa53777692304bf8b56b79f74b80"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/剑道十三章.md",
+              "sha256": "4e3122f7f93f2c3b931a45f3cda4a5aeee9f0e5c10153a5156345fab4614ef45",
+              "lineRanges": [
+                [
+                  83,
+                  84
+                ],
+                [
+                  86,
+                  86
+                ],
+                [
+                  88,
+                  88
+                ],
+                [
+                  90,
+                  99
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "S",
+                "currency": "XP",
+                "amount": 565,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+                  "anchor": "L83",
+                  "sectionSha256": "5e9cfac12b73ffa685255e07eb08a10cb877aa53777692304bf8b56b79f74b80"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard",
+                "move"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-598f22308b845152--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+                  "anchor": "L83",
+                  "sectionSha256": "5e9cfac12b73ffa685255e07eb08a10cb877aa53777692304bf8b56b79f74b80"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L83",
+              "sectionSha256": "5e9cfac12b73ffa685255e07eb08a10cb877aa53777692304bf8b56b79f74b80"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L83",
+              "sectionSha256": "5e9cfac12b73ffa685255e07eb08a10cb877aa53777692304bf8b56b79f74b80"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L83",
+              "sectionSha256": "5e9cfac12b73ffa685255e07eb08a10cb877aa53777692304bf8b56b79f74b80"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L83",
+              "sectionSha256": "5e9cfac12b73ffa685255e07eb08a10cb877aa53777692304bf8b56b79f74b80"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L83",
+              "sectionSha256": "5e9cfac12b73ffa685255e07eb08a10cb877aa53777692304bf8b56b79f74b80"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/032-剑道十三章.md",
+              "anchor": "L83",
+              "sectionSha256": "5e9cfac12b73ffa685255e07eb08a10cb877aa53777692304bf8b56b79f74b80"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "剑道十三章",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "剑-离经易道",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "剑-幽游人间",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "剑-封禁",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "剑-太局针剑",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "剑-阴阳无极",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "剑-花海踏晨",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "剑-风林火山",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "剑-坐忘无我",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "剑-一剑逍遥",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "剑-归去归来",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "最后三章",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-598f22308b845152--5f3f9d32a927--intent",
+      "name": "剑-离经易道",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-598f22308b845152--5f3f9d32a927",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-598f22308b845152--eb6e35b9eeab--intent",
+      "name": "剑-幽游人间",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-598f22308b845152--eb6e35b9eeab",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-598f22308b845152--239a51838c73--intent",
+      "name": "剑-太局针剑",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "move"
+          ],
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-598f22308b845152--239a51838c73",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-598f22308b845152--adb17ae1473a--intent",
+      "name": "剑-花海踏晨",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "move"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-598f22308b845152--adb17ae1473a",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-598f22308b845152--47a5635347b1--intent",
+      "name": "剑-风林火山",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-598f22308b845152--47a5635347b1",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-598f22308b845152--9ae2a83404bb--intent",
+      "name": "剑-坐忘无我",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "move"
+          ],
+          [
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-598f22308b845152--9ae2a83404bb",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-598f22308b845152--125d02ee0994--intent",
+      "name": "剑-归去归来",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard",
+            "swift"
+          ],
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-598f22308b845152--125d02ee0994",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-598f22308b845152--c6c06922eb4a--intent",
+      "name": "最后三章",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard",
+            "move"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-598f22308b845152--c6c06922eb4a",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "duration-inheritance-and-no-implicit-refresh",
+    "prerequisite-logic-not-fully-encoded"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

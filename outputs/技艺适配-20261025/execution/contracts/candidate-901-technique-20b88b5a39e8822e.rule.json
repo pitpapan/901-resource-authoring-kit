@@ -1,0 +1,2256 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-20b88b5a39e8822e",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "浑天宝鉴",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J01",
+    "aliases": [
+      "浑天宝鉴",
+      "入门",
+      "第一层：白云烟",
+      "第二层：玫霞荡",
+      "第三层：土昆仑",
+      "第四层：碧雪冰",
+      "第五层：紫星河",
+      "第六层：暗混沌",
+      "第七层：靛沧海",
+      "第八层：金晨曦",
+      "第九层：天晶·血苍穹"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/心法/浑天宝鉴.md",
+        "sha256": "4dd0d9507d302c4fcac7a87205cfe0dc51099fab1253b156bf7321633cf22865",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            101
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+    "sha256": "7e659a78deed6d1b1f3ce130391abc415953ccab89ff3bc431f18f36d2c2ad2a"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-20b88b5a39e8822e--0ae594c1109f",
+          "name": "浑天宝鉴",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+            "anchor": "条目",
+            "sectionSha256": "44d9ce5c1617c8c72ed9e2a210f26d9e307f2c55bae1215a441a1494bc6dc043"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/浑天宝鉴.md",
+              "sha256": "4dd0d9507d302c4fcac7a87205cfe0dc51099fab1253b156bf7321633cf22865",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  21
+                ],
+                [
+                  23,
+                  23
+                ],
+                [
+                  26,
+                  26
+                ],
+                [
+                  29,
+                  30
+                ],
+                [
+                  37,
+                  38
+                ],
+                [
+                  44,
+                  45
+                ],
+                [
+                  57,
+                  58
+                ],
+                [
+                  64,
+                  65
+                ],
+                [
+                  72,
+                  72
+                ],
+                [
+                  78,
+                  79
+                ],
+                [
+                  90,
+                  91
+                ],
+                [
+                  97,
+                  98
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "条目",
+              "sectionSha256": "44d9ce5c1617c8c72ed9e2a210f26d9e307f2c55bae1215a441a1494bc6dc043"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "条目",
+              "sectionSha256": "44d9ce5c1617c8c72ed9e2a210f26d9e307f2c55bae1215a441a1494bc6dc043"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "条目",
+              "sectionSha256": "44d9ce5c1617c8c72ed9e2a210f26d9e307f2c55bae1215a441a1494bc6dc043"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "条目",
+              "sectionSha256": "44d9ce5c1617c8c72ed9e2a210f26d9e307f2c55bae1215a441a1494bc6dc043"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "条目",
+              "sectionSha256": "44d9ce5c1617c8c72ed9e2a210f26d9e307f2c55bae1215a441a1494bc6dc043"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "条目",
+              "sectionSha256": "44d9ce5c1617c8c72ed9e2a210f26d9e307f2c55bae1215a441a1494bc6dc043"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-20b88b5a39e8822e--eb6e35b9eeab",
+          "name": "入门",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+            "anchor": "L22",
+            "sectionSha256": "d9b878da133035fe2ac2706b63c619e0c4f68d88c16434f2aab8584a3504647b"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/浑天宝鉴.md",
+              "sha256": "4dd0d9507d302c4fcac7a87205cfe0dc51099fab1253b156bf7321633cf22865",
+              "lineRanges": [
+                [
+                  22,
+                  22
+                ],
+                [
+                  24,
+                  25
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+                  "anchor": "L22",
+                  "sectionSha256": "d9b878da133035fe2ac2706b63c619e0c4f68d88c16434f2aab8584a3504647b"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-20b88b5a39e8822e--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L22",
+              "sectionSha256": "d9b878da133035fe2ac2706b63c619e0c4f68d88c16434f2aab8584a3504647b"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L22",
+              "sectionSha256": "d9b878da133035fe2ac2706b63c619e0c4f68d88c16434f2aab8584a3504647b"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L22",
+              "sectionSha256": "d9b878da133035fe2ac2706b63c619e0c4f68d88c16434f2aab8584a3504647b"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L22",
+              "sectionSha256": "d9b878da133035fe2ac2706b63c619e0c4f68d88c16434f2aab8584a3504647b"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L22",
+              "sectionSha256": "d9b878da133035fe2ac2706b63c619e0c4f68d88c16434f2aab8584a3504647b"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L22",
+              "sectionSha256": "d9b878da133035fe2ac2706b63c619e0c4f68d88c16434f2aab8584a3504647b"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-20b88b5a39e8822e--62cacaa0e286",
+          "name": "第一层：白云烟",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+            "anchor": "L27",
+            "sectionSha256": "6d92b69f79b69b6c6fe3ed0d290c7f8866e24258118c20d39bb907b6a4e5539e"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/浑天宝鉴.md",
+              "sha256": "4dd0d9507d302c4fcac7a87205cfe0dc51099fab1253b156bf7321633cf22865",
+              "lineRanges": [
+                [
+                  27,
+                  28
+                ],
+                [
+                  31,
+                  34
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+                  "anchor": "L27",
+                  "sectionSha256": "6d92b69f79b69b6c6fe3ed0d290c7f8866e24258118c20d39bb907b6a4e5539e"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-20b88b5a39e8822e--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L27",
+              "sectionSha256": "6d92b69f79b69b6c6fe3ed0d290c7f8866e24258118c20d39bb907b6a4e5539e"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L27",
+              "sectionSha256": "6d92b69f79b69b6c6fe3ed0d290c7f8866e24258118c20d39bb907b6a4e5539e"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L27",
+              "sectionSha256": "6d92b69f79b69b6c6fe3ed0d290c7f8866e24258118c20d39bb907b6a4e5539e"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L27",
+              "sectionSha256": "6d92b69f79b69b6c6fe3ed0d290c7f8866e24258118c20d39bb907b6a4e5539e"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L27",
+              "sectionSha256": "6d92b69f79b69b6c6fe3ed0d290c7f8866e24258118c20d39bb907b6a4e5539e"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L27",
+              "sectionSha256": "6d92b69f79b69b6c6fe3ed0d290c7f8866e24258118c20d39bb907b6a4e5539e"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "numeric-modifier",
+              "stat": "speed",
+              "value": 20,
+              "mode": "increase",
+              "bonusType": "unspecified-in-fragment",
+              "target": "self",
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "full-conditions",
+                "inheritance-and-stacking"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+                "anchor": "L27",
+                "sectionSha256": "6d92b69f79b69b6c6fe3ed0d290c7f8866e24258118c20d39bb907b6a4e5539e"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-20b88b5a39e8822e--5668a86e7a81",
+          "name": "第二层：玫霞荡",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+            "anchor": "L35",
+            "sectionSha256": "8f315b79082e14f4e2558e0a0bbc14f739206bbac801f6befcd1fd7ea6f424f3"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/浑天宝鉴.md",
+              "sha256": "4dd0d9507d302c4fcac7a87205cfe0dc51099fab1253b156bf7321633cf22865",
+              "lineRanges": [
+                [
+                  35,
+                  36
+                ],
+                [
+                  39,
+                  41
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+                  "anchor": "L35",
+                  "sectionSha256": "8f315b79082e14f4e2558e0a0bbc14f739206bbac801f6befcd1fd7ea6f424f3"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ],
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-20b88b5a39e8822e--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L35",
+              "sectionSha256": "8f315b79082e14f4e2558e0a0bbc14f739206bbac801f6befcd1fd7ea6f424f3"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L35",
+              "sectionSha256": "8f315b79082e14f4e2558e0a0bbc14f739206bbac801f6befcd1fd7ea6f424f3"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L35",
+              "sectionSha256": "8f315b79082e14f4e2558e0a0bbc14f739206bbac801f6befcd1fd7ea6f424f3"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L35",
+              "sectionSha256": "8f315b79082e14f4e2558e0a0bbc14f739206bbac801f6befcd1fd7ea6f424f3"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L35",
+              "sectionSha256": "8f315b79082e14f4e2558e0a0bbc14f739206bbac801f6befcd1fd7ea6f424f3"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L35",
+              "sectionSha256": "8f315b79082e14f4e2558e0a0bbc14f739206bbac801f6befcd1fd7ea6f424f3"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "增强",
+              "value": 1,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+                "anchor": "L35",
+                "sectionSha256": "8f315b79082e14f4e2558e0a0bbc14f739206bbac801f6befcd1fd7ea6f424f3"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-20b88b5a39e8822e--277d906bc615",
+          "name": "第三层：土昆仑",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+            "anchor": "L42",
+            "sectionSha256": "753b41d4a1aecc17cb41a4fa8dbd79bb02a3881caf7874813c8a58c2837772d9"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/浑天宝鉴.md",
+              "sha256": "4dd0d9507d302c4fcac7a87205cfe0dc51099fab1253b156bf7321633cf22865",
+              "lineRanges": [
+                [
+                  42,
+                  43
+                ],
+                [
+                  46,
+                  54
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+                  "anchor": "L42",
+                  "sectionSha256": "753b41d4a1aecc17cb41a4fa8dbd79bb02a3881caf7874813c8a58c2837772d9"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "move"
+              ],
+              [
+                "reflex"
+              ],
+              [
+                "free"
+              ],
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-20b88b5a39e8822e--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L42",
+              "sectionSha256": "753b41d4a1aecc17cb41a4fa8dbd79bb02a3881caf7874813c8a58c2837772d9"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L42",
+              "sectionSha256": "753b41d4a1aecc17cb41a4fa8dbd79bb02a3881caf7874813c8a58c2837772d9"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L42",
+              "sectionSha256": "753b41d4a1aecc17cb41a4fa8dbd79bb02a3881caf7874813c8a58c2837772d9"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L42",
+              "sectionSha256": "753b41d4a1aecc17cb41a4fa8dbd79bb02a3881caf7874813c8a58c2837772d9"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L42",
+              "sectionSha256": "753b41d4a1aecc17cb41a4fa8dbd79bb02a3881caf7874813c8a58c2837772d9"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L42",
+              "sectionSha256": "753b41d4a1aecc17cb41a4fa8dbd79bb02a3881caf7874813c8a58c2837772d9"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "增强",
+              "value": 1,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+                "anchor": "L42",
+                "sectionSha256": "753b41d4a1aecc17cb41a4fa8dbd79bb02a3881caf7874813c8a58c2837772d9"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-20b88b5a39e8822e--3ab8b12e4a75",
+          "name": "第四层：碧雪冰",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+            "anchor": "L55",
+            "sectionSha256": "eddd4adb9193b1226bd3b079d7a0380aa682fdcab9f3b97284747cf199cf9619"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/浑天宝鉴.md",
+              "sha256": "4dd0d9507d302c4fcac7a87205cfe0dc51099fab1253b156bf7321633cf22865",
+              "lineRanges": [
+                [
+                  55,
+                  56
+                ],
+                [
+                  59,
+                  61
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+                  "anchor": "L55",
+                  "sectionSha256": "eddd4adb9193b1226bd3b079d7a0380aa682fdcab9f3b97284747cf199cf9619"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "move"
+              ],
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-20b88b5a39e8822e--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L55",
+              "sectionSha256": "eddd4adb9193b1226bd3b079d7a0380aa682fdcab9f3b97284747cf199cf9619"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L55",
+              "sectionSha256": "eddd4adb9193b1226bd3b079d7a0380aa682fdcab9f3b97284747cf199cf9619"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L55",
+              "sectionSha256": "eddd4adb9193b1226bd3b079d7a0380aa682fdcab9f3b97284747cf199cf9619"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L55",
+              "sectionSha256": "eddd4adb9193b1226bd3b079d7a0380aa682fdcab9f3b97284747cf199cf9619"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L55",
+              "sectionSha256": "eddd4adb9193b1226bd3b079d7a0380aa682fdcab9f3b97284747cf199cf9619"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L55",
+              "sectionSha256": "eddd4adb9193b1226bd3b079d7a0380aa682fdcab9f3b97284747cf199cf9619"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "增强",
+              "value": 1,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+                "anchor": "L55",
+                "sectionSha256": "eddd4adb9193b1226bd3b079d7a0380aa682fdcab9f3b97284747cf199cf9619"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-20b88b5a39e8822e--b0d09c95f993",
+          "name": "第五层：紫星河",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+            "anchor": "L62",
+            "sectionSha256": "427d55105a6328d2524eb2f98335b4d8650be6ba4481fb30621de7aa8ec5f770"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/浑天宝鉴.md",
+              "sha256": "4dd0d9507d302c4fcac7a87205cfe0dc51099fab1253b156bf7321633cf22865",
+              "lineRanges": [
+                [
+                  62,
+                  63
+                ],
+                [
+                  66,
+                  69
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+                  "anchor": "L62",
+                  "sectionSha256": "427d55105a6328d2524eb2f98335b4d8650be6ba4481fb30621de7aa8ec5f770"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ],
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-20b88b5a39e8822e--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L62",
+              "sectionSha256": "427d55105a6328d2524eb2f98335b4d8650be6ba4481fb30621de7aa8ec5f770"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L62",
+              "sectionSha256": "427d55105a6328d2524eb2f98335b4d8650be6ba4481fb30621de7aa8ec5f770"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L62",
+              "sectionSha256": "427d55105a6328d2524eb2f98335b4d8650be6ba4481fb30621de7aa8ec5f770"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L62",
+              "sectionSha256": "427d55105a6328d2524eb2f98335b4d8650be6ba4481fb30621de7aa8ec5f770"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L62",
+              "sectionSha256": "427d55105a6328d2524eb2f98335b4d8650be6ba4481fb30621de7aa8ec5f770"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L62",
+              "sectionSha256": "427d55105a6328d2524eb2f98335b4d8650be6ba4481fb30621de7aa8ec5f770"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-20b88b5a39e8822e--ab02b663a64b",
+          "name": "第六层：暗混沌",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+            "anchor": "L70",
+            "sectionSha256": "e172cb62630a9a46fc8637141fdd2d7df6a856be19c2256d26b7f4453a1d1056"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/浑天宝鉴.md",
+              "sha256": "4dd0d9507d302c4fcac7a87205cfe0dc51099fab1253b156bf7321633cf22865",
+              "lineRanges": [
+                [
+                  70,
+                  71
+                ],
+                [
+                  73,
+                  75
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 85,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+                  "anchor": "L70",
+                  "sectionSha256": "e172cb62630a9a46fc8637141fdd2d7df6a856be19c2256d26b7f4453a1d1056"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ],
+              [
+                "reflex"
+              ],
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-20b88b5a39e8822e--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L70",
+              "sectionSha256": "e172cb62630a9a46fc8637141fdd2d7df6a856be19c2256d26b7f4453a1d1056"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L70",
+              "sectionSha256": "e172cb62630a9a46fc8637141fdd2d7df6a856be19c2256d26b7f4453a1d1056"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L70",
+              "sectionSha256": "e172cb62630a9a46fc8637141fdd2d7df6a856be19c2256d26b7f4453a1d1056"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L70",
+              "sectionSha256": "e172cb62630a9a46fc8637141fdd2d7df6a856be19c2256d26b7f4453a1d1056"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L70",
+              "sectionSha256": "e172cb62630a9a46fc8637141fdd2d7df6a856be19c2256d26b7f4453a1d1056"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L70",
+              "sectionSha256": "e172cb62630a9a46fc8637141fdd2d7df6a856be19c2256d26b7f4453a1d1056"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-20b88b5a39e8822e--0be0b4fff624",
+          "name": "第七层：靛沧海",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+            "anchor": "L76",
+            "sectionSha256": "459e65ec97cf70274dd7d1af883f59039c547dbe1bc61322c139a83434e0a5b5"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/浑天宝鉴.md",
+              "sha256": "4dd0d9507d302c4fcac7a87205cfe0dc51099fab1253b156bf7321633cf22865",
+              "lineRanges": [
+                [
+                  76,
+                  77
+                ],
+                [
+                  80,
+                  87
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+                  "anchor": "L76",
+                  "sectionSha256": "459e65ec97cf70274dd7d1af883f59039c547dbe1bc61322c139a83434e0a5b5"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ],
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-20b88b5a39e8822e--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L76",
+              "sectionSha256": "459e65ec97cf70274dd7d1af883f59039c547dbe1bc61322c139a83434e0a5b5"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L76",
+              "sectionSha256": "459e65ec97cf70274dd7d1af883f59039c547dbe1bc61322c139a83434e0a5b5"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L76",
+              "sectionSha256": "459e65ec97cf70274dd7d1af883f59039c547dbe1bc61322c139a83434e0a5b5"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L76",
+              "sectionSha256": "459e65ec97cf70274dd7d1af883f59039c547dbe1bc61322c139a83434e0a5b5"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L76",
+              "sectionSha256": "459e65ec97cf70274dd7d1af883f59039c547dbe1bc61322c139a83434e0a5b5"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L76",
+              "sectionSha256": "459e65ec97cf70274dd7d1af883f59039c547dbe1bc61322c139a83434e0a5b5"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-20b88b5a39e8822e--ea5361312176",
+          "name": "第八层：金晨曦",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+            "anchor": "L88",
+            "sectionSha256": "7cf20c9cfca7cc8adb49f9fdcdc533936de7558d7977181a2637b9881ce1d4ae"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/浑天宝鉴.md",
+              "sha256": "4dd0d9507d302c4fcac7a87205cfe0dc51099fab1253b156bf7321633cf22865",
+              "lineRanges": [
+                [
+                  88,
+                  89
+                ],
+                [
+                  92,
+                  94
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 215,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+                  "anchor": "L88",
+                  "sectionSha256": "7cf20c9cfca7cc8adb49f9fdcdc533936de7558d7977181a2637b9881ce1d4ae"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ],
+              [
+                "reflex"
+              ],
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-20b88b5a39e8822e--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L88",
+              "sectionSha256": "7cf20c9cfca7cc8adb49f9fdcdc533936de7558d7977181a2637b9881ce1d4ae"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L88",
+              "sectionSha256": "7cf20c9cfca7cc8adb49f9fdcdc533936de7558d7977181a2637b9881ce1d4ae"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 3,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+                  "anchor": "L88",
+                  "sectionSha256": "7cf20c9cfca7cc8adb49f9fdcdc533936de7558d7977181a2637b9881ce1d4ae"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L88",
+              "sectionSha256": "7cf20c9cfca7cc8adb49f9fdcdc533936de7558d7977181a2637b9881ce1d4ae"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L88",
+              "sectionSha256": "7cf20c9cfca7cc8adb49f9fdcdc533936de7558d7977181a2637b9881ce1d4ae"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L88",
+              "sectionSha256": "7cf20c9cfca7cc8adb49f9fdcdc533936de7558d7977181a2637b9881ce1d4ae"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L88",
+              "sectionSha256": "7cf20c9cfca7cc8adb49f9fdcdc533936de7558d7977181a2637b9881ce1d4ae"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "增强",
+              "value": 3,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+                "anchor": "L88",
+                "sectionSha256": "7cf20c9cfca7cc8adb49f9fdcdc533936de7558d7977181a2637b9881ce1d4ae"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-20b88b5a39e8822e--4c68cb8b80cd",
+          "name": "第九层：天晶·血苍穹",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+            "anchor": "L95",
+            "sectionSha256": "a98beb6bb388cefa25e21dff3d84f819574c4d45be0da8951d4e61a188303862"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/浑天宝鉴.md",
+              "sha256": "4dd0d9507d302c4fcac7a87205cfe0dc51099fab1253b156bf7321633cf22865",
+              "lineRanges": [
+                [
+                  95,
+                  96
+                ],
+                [
+                  99,
+                  101
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "S",
+                "currency": "XP",
+                "amount": 485,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+                  "anchor": "L95",
+                  "sectionSha256": "a98beb6bb388cefa25e21dff3d84f819574c4d45be0da8951d4e61a188303862"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-20b88b5a39e8822e--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L95",
+              "sectionSha256": "a98beb6bb388cefa25e21dff3d84f819574c4d45be0da8951d4e61a188303862"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L95",
+              "sectionSha256": "a98beb6bb388cefa25e21dff3d84f819574c4d45be0da8951d4e61a188303862"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L95",
+              "sectionSha256": "a98beb6bb388cefa25e21dff3d84f819574c4d45be0da8951d4e61a188303862"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L95",
+              "sectionSha256": "a98beb6bb388cefa25e21dff3d84f819574c4d45be0da8951d4e61a188303862"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L95",
+              "sectionSha256": "a98beb6bb388cefa25e21dff3d84f819574c4d45be0da8951d4e61a188303862"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/010-浑天宝鉴.md",
+              "anchor": "L95",
+              "sectionSha256": "a98beb6bb388cefa25e21dff3d84f819574c4d45be0da8951d4e61a188303862"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "浑天宝鉴",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "入门",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "第一层：白云烟",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "第二层：玫霞荡",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "第三层：土昆仑",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "第四层：碧雪冰",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "第五层：紫星河",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "第六层：暗混沌",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "第七层：靛沧海",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "第八层：金晨曦",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "第九层：天晶·血苍穹",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-20b88b5a39e8822e--62cacaa0e286--intent",
+      "name": "第一层：白云烟",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-20b88b5a39e8822e--62cacaa0e286",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-20b88b5a39e8822e--5668a86e7a81--intent",
+      "name": "第二层：玫霞荡",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ],
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-20b88b5a39e8822e--5668a86e7a81",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-20b88b5a39e8822e--277d906bc615--intent",
+      "name": "第三层：土昆仑",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "move"
+          ],
+          [
+            "reflex"
+          ],
+          [
+            "free"
+          ],
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-20b88b5a39e8822e--277d906bc615",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-20b88b5a39e8822e--3ab8b12e4a75--intent",
+      "name": "第四层：碧雪冰",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "move"
+          ],
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-20b88b5a39e8822e--3ab8b12e4a75",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-20b88b5a39e8822e--b0d09c95f993--intent",
+      "name": "第五层：紫星河",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ],
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-20b88b5a39e8822e--b0d09c95f993",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-20b88b5a39e8822e--ab02b663a64b--intent",
+      "name": "第六层：暗混沌",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ],
+          [
+            "reflex"
+          ],
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-20b88b5a39e8822e--ab02b663a64b",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-20b88b5a39e8822e--0be0b4fff624--intent",
+      "name": "第七层：靛沧海",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ],
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-20b88b5a39e8822e--0be0b4fff624",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-20b88b5a39e8822e--ea5361312176--intent",
+      "name": "第八层：金晨曦",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ],
+          [
+            "reflex"
+          ],
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-20b88b5a39e8822e--ea5361312176",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-20b88b5a39e8822e--4c68cb8b80cd--intent",
+      "name": "第九层：天晶·血苍穹",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-20b88b5a39e8822e--4c68cb8b80cd",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "duration-inheritance-and-no-implicit-refresh",
+    "attack-program-hardcodes-INT-and-casting"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

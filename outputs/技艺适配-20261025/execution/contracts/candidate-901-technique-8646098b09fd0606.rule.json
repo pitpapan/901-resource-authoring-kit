@@ -1,0 +1,1280 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-8646098b09fd0606",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "黎明杀机逃生者技能",
+    "grade": "D",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J09",
+    "aliases": [
+      "黎明杀机逃生者技能",
+      "同族",
+      "毛骨悚然",
+      "钢筋铁骨",
+      "恩赐:暗影步",
+      "恩赐:治疗之环",
+      "恩赐:指数增长",
+      "恩赐:黑暗理论"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/黎明杀机逃生者技能.md",
+        "sha256": "e719f6c14d6471d4015e79fd0c00833901a13e0017cab64588aa22d78073043d",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            52
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+    "sha256": "d95940764104180f6b88f302927711d5113267a5066b606a1708b1a9f4ec854a"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-8646098b09fd0606--0ae594c1109f",
+          "name": "黎明杀机逃生者技能",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+            "anchor": "条目",
+            "sectionSha256": "360171e31247b9b50f6d26da9409cdeb238f735b17bef09734225a695a7dd641"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/黎明杀机逃生者技能.md",
+              "sha256": "e719f6c14d6471d4015e79fd0c00833901a13e0017cab64588aa22d78073043d",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  10
+                ],
+                [
+                  13,
+                  13
+                ],
+                [
+                  18,
+                  18
+                ],
+                [
+                  23,
+                  23
+                ],
+                [
+                  31,
+                  31
+                ],
+                [
+                  39,
+                  39
+                ],
+                [
+                  47,
+                  47
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 5,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+                  "anchor": "条目",
+                  "sectionSha256": "360171e31247b9b50f6d26da9409cdeb238f735b17bef09734225a695a7dd641"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "条目",
+              "sectionSha256": "360171e31247b9b50f6d26da9409cdeb238f735b17bef09734225a695a7dd641"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+                  "anchor": "条目",
+                  "sectionSha256": "360171e31247b9b50f6d26da9409cdeb238f735b17bef09734225a695a7dd641"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "条目",
+              "sectionSha256": "360171e31247b9b50f6d26da9409cdeb238f735b17bef09734225a695a7dd641"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "条目",
+              "sectionSha256": "360171e31247b9b50f6d26da9409cdeb238f735b17bef09734225a695a7dd641"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "条目",
+              "sectionSha256": "360171e31247b9b50f6d26da9409cdeb238f735b17bef09734225a695a7dd641"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "条目",
+              "sectionSha256": "360171e31247b9b50f6d26da9409cdeb238f735b17bef09734225a695a7dd641"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "条目",
+              "sectionSha256": "360171e31247b9b50f6d26da9409cdeb238f735b17bef09734225a695a7dd641"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8646098b09fd0606--04a90cd5d050",
+          "name": "毛骨悚然",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+            "anchor": "L11",
+            "sectionSha256": "abb040d3880cbd87657dbc5dd4472d01857440dd7a8826651562361b35318b9b"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/黎明杀机逃生者技能.md",
+              "sha256": "e719f6c14d6471d4015e79fd0c00833901a13e0017cab64588aa22d78073043d",
+              "lineRanges": [
+                [
+                  11,
+                  12
+                ],
+                [
+                  14,
+                  17
+                ],
+                [
+                  19,
+                  20
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+                  "anchor": "L11",
+                  "sectionSha256": "abb040d3880cbd87657dbc5dd4472d01857440dd7a8826651562361b35318b9b"
+                }
+              },
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+                  "anchor": "L11",
+                  "sectionSha256": "abb040d3880cbd87657dbc5dd4472d01857440dd7a8826651562361b35318b9b"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8646098b09fd0606--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L11",
+              "sectionSha256": "abb040d3880cbd87657dbc5dd4472d01857440dd7a8826651562361b35318b9b"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L11",
+              "sectionSha256": "abb040d3880cbd87657dbc5dd4472d01857440dd7a8826651562361b35318b9b"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L11",
+              "sectionSha256": "abb040d3880cbd87657dbc5dd4472d01857440dd7a8826651562361b35318b9b"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L11",
+              "sectionSha256": "abb040d3880cbd87657dbc5dd4472d01857440dd7a8826651562361b35318b9b"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L11",
+              "sectionSha256": "abb040d3880cbd87657dbc5dd4472d01857440dd7a8826651562361b35318b9b"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L11",
+              "sectionSha256": "abb040d3880cbd87657dbc5dd4472d01857440dd7a8826651562361b35318b9b"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "士气",
+              "value": 3,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+                "anchor": "L11",
+                "sectionSha256": "abb040d3880cbd87657dbc5dd4472d01857440dd7a8826651562361b35318b9b"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8646098b09fd0606--f45c0059c181",
+          "name": "恩赐:暗影步",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+            "anchor": "L21",
+            "sectionSha256": "ede92d4e6e9b64321b7d2e0646d7d665d8ba40a6c8b36018b9b8b9d98c49e0cf"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/黎明杀机逃生者技能.md",
+              "sha256": "e719f6c14d6471d4015e79fd0c00833901a13e0017cab64588aa22d78073043d",
+              "lineRanges": [
+                [
+                  21,
+                  22
+                ],
+                [
+                  24,
+                  28
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+                  "anchor": "L21",
+                  "sectionSha256": "ede92d4e6e9b64321b7d2e0646d7d665d8ba40a6c8b36018b9b8b9d98c49e0cf"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8646098b09fd0606--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L21",
+              "sectionSha256": "ede92d4e6e9b64321b7d2e0646d7d665d8ba40a6c8b36018b9b8b9d98c49e0cf"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L21",
+              "sectionSha256": "ede92d4e6e9b64321b7d2e0646d7d665d8ba40a6c8b36018b9b8b9d98c49e0cf"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L21",
+              "sectionSha256": "ede92d4e6e9b64321b7d2e0646d7d665d8ba40a6c8b36018b9b8b9d98c49e0cf"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L21",
+              "sectionSha256": "ede92d4e6e9b64321b7d2e0646d7d665d8ba40a6c8b36018b9b8b9d98c49e0cf"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L21",
+              "sectionSha256": "ede92d4e6e9b64321b7d2e0646d7d665d8ba40a6c8b36018b9b8b9d98c49e0cf"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L21",
+              "sectionSha256": "ede92d4e6e9b64321b7d2e0646d7d665d8ba40a6c8b36018b9b8b9d98c49e0cf"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8646098b09fd0606--bc2b72915c17",
+          "name": "恩赐:治疗之环",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+            "anchor": "L29",
+            "sectionSha256": "9f555ffc31b247ef78ff65e04344711655340055cf8c211521568ca5b0542a9f"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/黎明杀机逃生者技能.md",
+              "sha256": "e719f6c14d6471d4015e79fd0c00833901a13e0017cab64588aa22d78073043d",
+              "lineRanges": [
+                [
+                  29,
+                  30
+                ],
+                [
+                  32,
+                  36
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+                  "anchor": "L29",
+                  "sectionSha256": "9f555ffc31b247ef78ff65e04344711655340055cf8c211521568ca5b0542a9f"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8646098b09fd0606--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L29",
+              "sectionSha256": "9f555ffc31b247ef78ff65e04344711655340055cf8c211521568ca5b0542a9f"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L29",
+              "sectionSha256": "9f555ffc31b247ef78ff65e04344711655340055cf8c211521568ca5b0542a9f"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L29",
+              "sectionSha256": "9f555ffc31b247ef78ff65e04344711655340055cf8c211521568ca5b0542a9f"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L29",
+              "sectionSha256": "9f555ffc31b247ef78ff65e04344711655340055cf8c211521568ca5b0542a9f"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L29",
+              "sectionSha256": "9f555ffc31b247ef78ff65e04344711655340055cf8c211521568ca5b0542a9f"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L29",
+              "sectionSha256": "9f555ffc31b247ef78ff65e04344711655340055cf8c211521568ca5b0542a9f"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "capability-reference",
+              "capability": "快速医疗",
+              "semanticStatus": "not-encoded",
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+                "anchor": "L29",
+                "sectionSha256": "9f555ffc31b247ef78ff65e04344711655340055cf8c211521568ca5b0542a9f"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8646098b09fd0606--62317f6d0509",
+          "name": "恩赐:指数增长",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+            "anchor": "L37",
+            "sectionSha256": "598381e10d81ea0b3e3c18b4c8e9b2f4c0a9a1bf4955018820eb647dabedc135"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/黎明杀机逃生者技能.md",
+              "sha256": "e719f6c14d6471d4015e79fd0c00833901a13e0017cab64588aa22d78073043d",
+              "lineRanges": [
+                [
+                  37,
+                  38
+                ],
+                [
+                  40,
+                  44
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+                  "anchor": "L37",
+                  "sectionSha256": "598381e10d81ea0b3e3c18b4c8e9b2f4c0a9a1bf4955018820eb647dabedc135"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8646098b09fd0606--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L37",
+              "sectionSha256": "598381e10d81ea0b3e3c18b4c8e9b2f4c0a9a1bf4955018820eb647dabedc135"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L37",
+              "sectionSha256": "598381e10d81ea0b3e3c18b4c8e9b2f4c0a9a1bf4955018820eb647dabedc135"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L37",
+              "sectionSha256": "598381e10d81ea0b3e3c18b4c8e9b2f4c0a9a1bf4955018820eb647dabedc135"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L37",
+              "sectionSha256": "598381e10d81ea0b3e3c18b4c8e9b2f4c0a9a1bf4955018820eb647dabedc135"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L37",
+              "sectionSha256": "598381e10d81ea0b3e3c18b4c8e9b2f4c0a9a1bf4955018820eb647dabedc135"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L37",
+              "sectionSha256": "598381e10d81ea0b3e3c18b4c8e9b2f4c0a9a1bf4955018820eb647dabedc135"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8646098b09fd0606--534d62d82647",
+          "name": "恩赐:黑暗理论",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+            "anchor": "L45",
+            "sectionSha256": "1f1115ce2f9f04c16d73e6d959f17dd06e8ad2949cb96b07da9e660e73ce34ea"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/黎明杀机逃生者技能.md",
+              "sha256": "e719f6c14d6471d4015e79fd0c00833901a13e0017cab64588aa22d78073043d",
+              "lineRanges": [
+                [
+                  45,
+                  46
+                ],
+                [
+                  48,
+                  52
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+                  "anchor": "L45",
+                  "sectionSha256": "1f1115ce2f9f04c16d73e6d959f17dd06e8ad2949cb96b07da9e660e73ce34ea"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8646098b09fd0606--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L45",
+              "sectionSha256": "1f1115ce2f9f04c16d73e6d959f17dd06e8ad2949cb96b07da9e660e73ce34ea"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L45",
+              "sectionSha256": "1f1115ce2f9f04c16d73e6d959f17dd06e8ad2949cb96b07da9e660e73ce34ea"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L45",
+              "sectionSha256": "1f1115ce2f9f04c16d73e6d959f17dd06e8ad2949cb96b07da9e660e73ce34ea"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L45",
+              "sectionSha256": "1f1115ce2f9f04c16d73e6d959f17dd06e8ad2949cb96b07da9e660e73ce34ea"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L45",
+              "sectionSha256": "1f1115ce2f9f04c16d73e6d959f17dd06e8ad2949cb96b07da9e660e73ce34ea"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+              "anchor": "L45",
+              "sectionSha256": "1f1115ce2f9f04c16d73e6d959f17dd06e8ad2949cb96b07da9e660e73ce34ea"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "numeric-modifier",
+              "stat": "speed",
+              "value": 40,
+              "mode": "increase",
+              "bonusType": "unspecified-in-fragment",
+              "target": "self",
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "full-conditions",
+                "inheritance-and-stacking"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/132-黎明杀机逃生者技能.md",
+                "anchor": "L45",
+                "sectionSha256": "1f1115ce2f9f04c16d73e6d959f17dd06e8ad2949cb96b07da9e660e73ce34ea"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "黎明杀机逃生者技能",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "毛骨悚然",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "恩赐:暗影步",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "恩赐:治疗之环",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "恩赐:指数增长",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "恩赐:黑暗理论",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-8646098b09fd0606--f45c0059c181--intent",
+      "name": "恩赐:暗影步",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-8646098b09fd0606--f45c0059c181",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-8646098b09fd0606--bc2b72915c17--intent",
+      "name": "恩赐:治疗之环",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-8646098b09fd0606--bc2b72915c17",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-8646098b09fd0606--62317f6d0509--intent",
+      "name": "恩赐:指数增长",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-8646098b09fd0606--62317f6d0509",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-8646098b09fd0606--534d62d82647--intent",
+      "name": "恩赐:黑暗理论",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-8646098b09fd0606--534d62d82647",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "duration-inheritance-and-no-implicit-refresh",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

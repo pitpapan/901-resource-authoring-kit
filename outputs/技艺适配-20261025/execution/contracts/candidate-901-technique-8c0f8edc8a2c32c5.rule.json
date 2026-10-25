@@ -1,0 +1,1528 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-8c0f8edc8a2c32c5",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "气魔剑",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J01",
+    "aliases": [
+      "气魔剑",
+      "形态：青魔",
+      "形态：红牙",
+      "形态：无妄",
+      "形态：黑杀",
+      "形态：金魂",
+      "形态：彩虹"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/心法/气魔剑.md",
+        "sha256": "7a73513b903ed7fbd3b6c25bc451c4f713f657c71fc3f88256b2ad60e3812db1",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            37
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+    "sha256": "ebdee4ee1a3e241fa41b2893f837fff342b3061e6c2c51a22f742b3ecd7ebdad"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-8c0f8edc8a2c32c5--0ae594c1109f",
+          "name": "气魔剑",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+            "anchor": "条目",
+            "sectionSha256": "206ebc72b151ae327af1354da6c9f1871c8050e4aa8fb4b2f7bf6d580849f22c"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/气魔剑.md",
+              "sha256": "7a73513b903ed7fbd3b6c25bc451c4f713f657c71fc3f88256b2ad60e3812db1",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  11
+                ],
+                [
+                  13,
+                  13
+                ],
+                [
+                  16,
+                  16
+                ],
+                [
+                  20,
+                  20
+                ],
+                [
+                  25,
+                  25
+                ],
+                [
+                  29,
+                  29
+                ],
+                [
+                  35,
+                  35
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+                  "anchor": "条目",
+                  "sectionSha256": "206ebc72b151ae327af1354da6c9f1871c8050e4aa8fb4b2f7bf6d580849f22c"
+                },
+                "semanticStatus": "not-encoded"
+              },
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+                  "anchor": "条目",
+                  "sectionSha256": "206ebc72b151ae327af1354da6c9f1871c8050e4aa8fb4b2f7bf6d580849f22c"
+                },
+                "semanticStatus": "not-encoded"
+              },
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+                  "anchor": "条目",
+                  "sectionSha256": "206ebc72b151ae327af1354da6c9f1871c8050e4aa8fb4b2f7bf6d580849f22c"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "difference",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "条目",
+              "sectionSha256": "206ebc72b151ae327af1354da6c9f1871c8050e4aa8fb4b2f7bf6d580849f22c"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "条目",
+              "sectionSha256": "206ebc72b151ae327af1354da6c9f1871c8050e4aa8fb4b2f7bf6d580849f22c"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "条目",
+              "sectionSha256": "206ebc72b151ae327af1354da6c9f1871c8050e4aa8fb4b2f7bf6d580849f22c"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "条目",
+              "sectionSha256": "206ebc72b151ae327af1354da6c9f1871c8050e4aa8fb4b2f7bf6d580849f22c"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "条目",
+              "sectionSha256": "206ebc72b151ae327af1354da6c9f1871c8050e4aa8fb4b2f7bf6d580849f22c"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "条目",
+              "sectionSha256": "206ebc72b151ae327af1354da6c9f1871c8050e4aa8fb4b2f7bf6d580849f22c"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8c0f8edc8a2c32c5--3f6b5ef2df8d",
+          "name": "形态：青魔",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+            "anchor": "L12",
+            "sectionSha256": "a12c9565fa018f85e585f81fffb94d9ae9b3aaac788d9259595e79b85543ff92"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/气魔剑.md",
+              "sha256": "7a73513b903ed7fbd3b6c25bc451c4f713f657c71fc3f88256b2ad60e3812db1",
+              "lineRanges": [
+                [
+                  12,
+                  12
+                ],
+                [
+                  14,
+                  14
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 5,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+                  "anchor": "L12",
+                  "sectionSha256": "a12c9565fa018f85e585f81fffb94d9ae9b3aaac788d9259595e79b85543ff92"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8c0f8edc8a2c32c5--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L12",
+              "sectionSha256": "a12c9565fa018f85e585f81fffb94d9ae9b3aaac788d9259595e79b85543ff92"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L12",
+              "sectionSha256": "a12c9565fa018f85e585f81fffb94d9ae9b3aaac788d9259595e79b85543ff92"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L12",
+              "sectionSha256": "a12c9565fa018f85e585f81fffb94d9ae9b3aaac788d9259595e79b85543ff92"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+                  "anchor": "L12",
+                  "sectionSha256": "a12c9565fa018f85e585f81fffb94d9ae9b3aaac788d9259595e79b85543ff92"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L12",
+              "sectionSha256": "a12c9565fa018f85e585f81fffb94d9ae9b3aaac788d9259595e79b85543ff92"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L12",
+              "sectionSha256": "a12c9565fa018f85e585f81fffb94d9ae9b3aaac788d9259595e79b85543ff92"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L12",
+              "sectionSha256": "a12c9565fa018f85e585f81fffb94d9ae9b3aaac788d9259595e79b85543ff92"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8c0f8edc8a2c32c5--ffb618ca2dd4",
+          "name": "形态：红牙",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+            "anchor": "L15",
+            "sectionSha256": "c409caeb2fac1b264a84bb25ff88e2be656854974cc2a0dc25d4cdbb09df4adc"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/气魔剑.md",
+              "sha256": "7a73513b903ed7fbd3b6c25bc451c4f713f657c71fc3f88256b2ad60e3812db1",
+              "lineRanges": [
+                [
+                  15,
+                  15
+                ],
+                [
+                  17,
+                  18
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+                  "anchor": "L15",
+                  "sectionSha256": "c409caeb2fac1b264a84bb25ff88e2be656854974cc2a0dc25d4cdbb09df4adc"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8c0f8edc8a2c32c5--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L15",
+              "sectionSha256": "c409caeb2fac1b264a84bb25ff88e2be656854974cc2a0dc25d4cdbb09df4adc"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L15",
+              "sectionSha256": "c409caeb2fac1b264a84bb25ff88e2be656854974cc2a0dc25d4cdbb09df4adc"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L15",
+              "sectionSha256": "c409caeb2fac1b264a84bb25ff88e2be656854974cc2a0dc25d4cdbb09df4adc"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+                  "anchor": "L15",
+                  "sectionSha256": "c409caeb2fac1b264a84bb25ff88e2be656854974cc2a0dc25d4cdbb09df4adc"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L15",
+              "sectionSha256": "c409caeb2fac1b264a84bb25ff88e2be656854974cc2a0dc25d4cdbb09df4adc"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L15",
+              "sectionSha256": "c409caeb2fac1b264a84bb25ff88e2be656854974cc2a0dc25d4cdbb09df4adc"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L15",
+              "sectionSha256": "c409caeb2fac1b264a84bb25ff88e2be656854974cc2a0dc25d4cdbb09df4adc"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8c0f8edc8a2c32c5--7963c5b340e4",
+          "name": "形态：无妄",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+            "anchor": "L19",
+            "sectionSha256": "c2b0fc03074b30ca7ae679f6175f3077fd3ea8a485e86b3237f0ea80a6d69ada"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/气魔剑.md",
+              "sha256": "7a73513b903ed7fbd3b6c25bc451c4f713f657c71fc3f88256b2ad60e3812db1",
+              "lineRanges": [
+                [
+                  19,
+                  19
+                ],
+                [
+                  21,
+                  23
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "DD",
+                "currency": "XP",
+                "amount": 20,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+                  "anchor": "L19",
+                  "sectionSha256": "c2b0fc03074b30ca7ae679f6175f3077fd3ea8a485e86b3237f0ea80a6d69ada"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8c0f8edc8a2c32c5--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L19",
+              "sectionSha256": "c2b0fc03074b30ca7ae679f6175f3077fd3ea8a485e86b3237f0ea80a6d69ada"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L19",
+              "sectionSha256": "c2b0fc03074b30ca7ae679f6175f3077fd3ea8a485e86b3237f0ea80a6d69ada"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L19",
+              "sectionSha256": "c2b0fc03074b30ca7ae679f6175f3077fd3ea8a485e86b3237f0ea80a6d69ada"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 2,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+                  "anchor": "L19",
+                  "sectionSha256": "c2b0fc03074b30ca7ae679f6175f3077fd3ea8a485e86b3237f0ea80a6d69ada"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L19",
+              "sectionSha256": "c2b0fc03074b30ca7ae679f6175f3077fd3ea8a485e86b3237f0ea80a6d69ada"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L19",
+              "sectionSha256": "c2b0fc03074b30ca7ae679f6175f3077fd3ea8a485e86b3237f0ea80a6d69ada"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L19",
+              "sectionSha256": "c2b0fc03074b30ca7ae679f6175f3077fd3ea8a485e86b3237f0ea80a6d69ada"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8c0f8edc8a2c32c5--ebe53cbe39d6",
+          "name": "形态：黑杀",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+            "anchor": "L24",
+            "sectionSha256": "10cf30758dd6a47da5cd8213b3abc774fd9e15fe4374d4dec731d3246ec0783b"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/气魔剑.md",
+              "sha256": "7a73513b903ed7fbd3b6c25bc451c4f713f657c71fc3f88256b2ad60e3812db1",
+              "lineRanges": [
+                [
+                  24,
+                  24
+                ],
+                [
+                  26,
+                  27
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+                  "anchor": "L24",
+                  "sectionSha256": "10cf30758dd6a47da5cd8213b3abc774fd9e15fe4374d4dec731d3246ec0783b"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8c0f8edc8a2c32c5--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L24",
+              "sectionSha256": "10cf30758dd6a47da5cd8213b3abc774fd9e15fe4374d4dec731d3246ec0783b"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L24",
+              "sectionSha256": "10cf30758dd6a47da5cd8213b3abc774fd9e15fe4374d4dec731d3246ec0783b"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L24",
+              "sectionSha256": "10cf30758dd6a47da5cd8213b3abc774fd9e15fe4374d4dec731d3246ec0783b"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+                  "anchor": "L24",
+                  "sectionSha256": "10cf30758dd6a47da5cd8213b3abc774fd9e15fe4374d4dec731d3246ec0783b"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 2,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+                  "anchor": "L24",
+                  "sectionSha256": "10cf30758dd6a47da5cd8213b3abc774fd9e15fe4374d4dec731d3246ec0783b"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L24",
+              "sectionSha256": "10cf30758dd6a47da5cd8213b3abc774fd9e15fe4374d4dec731d3246ec0783b"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L24",
+              "sectionSha256": "10cf30758dd6a47da5cd8213b3abc774fd9e15fe4374d4dec731d3246ec0783b"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L24",
+              "sectionSha256": "10cf30758dd6a47da5cd8213b3abc774fd9e15fe4374d4dec731d3246ec0783b"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8c0f8edc8a2c32c5--36402ecb137e",
+          "name": "形态：金魂",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+            "anchor": "L28",
+            "sectionSha256": "32f26da154ac9891c2c48565cd8df60d7865e5de3e0f24b3897a4b0694ea84c8"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/气魔剑.md",
+              "sha256": "7a73513b903ed7fbd3b6c25bc451c4f713f657c71fc3f88256b2ad60e3812db1",
+              "lineRanges": [
+                [
+                  28,
+                  28
+                ],
+                [
+                  30,
+                  33
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 85,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+                  "anchor": "L28",
+                  "sectionSha256": "32f26da154ac9891c2c48565cd8df60d7865e5de3e0f24b3897a4b0694ea84c8"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8c0f8edc8a2c32c5--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L28",
+              "sectionSha256": "32f26da154ac9891c2c48565cd8df60d7865e5de3e0f24b3897a4b0694ea84c8"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L28",
+              "sectionSha256": "32f26da154ac9891c2c48565cd8df60d7865e5de3e0f24b3897a4b0694ea84c8"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L28",
+              "sectionSha256": "32f26da154ac9891c2c48565cd8df60d7865e5de3e0f24b3897a4b0694ea84c8"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 5,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+                  "anchor": "L28",
+                  "sectionSha256": "32f26da154ac9891c2c48565cd8df60d7865e5de3e0f24b3897a4b0694ea84c8"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L28",
+              "sectionSha256": "32f26da154ac9891c2c48565cd8df60d7865e5de3e0f24b3897a4b0694ea84c8"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L28",
+              "sectionSha256": "32f26da154ac9891c2c48565cd8df60d7865e5de3e0f24b3897a4b0694ea84c8"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L28",
+              "sectionSha256": "32f26da154ac9891c2c48565cd8df60d7865e5de3e0f24b3897a4b0694ea84c8"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8c0f8edc8a2c32c5--03ec39d1be65",
+          "name": "形态：彩虹",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+            "anchor": "L34",
+            "sectionSha256": "dd9fce1219d4fb84d0066de68b02baa1f6f6b8965bcf7b0155c8b4d844d2f6a4"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/气魔剑.md",
+              "sha256": "7a73513b903ed7fbd3b6c25bc451c4f713f657c71fc3f88256b2ad60e3812db1",
+              "lineRanges": [
+                [
+                  34,
+                  34
+                ],
+                [
+                  36,
+                  37
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 215,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+                  "anchor": "L34",
+                  "sectionSha256": "dd9fce1219d4fb84d0066de68b02baa1f6f6b8965bcf7b0155c8b4d844d2f6a4"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8c0f8edc8a2c32c5--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L34",
+              "sectionSha256": "dd9fce1219d4fb84d0066de68b02baa1f6f6b8965bcf7b0155c8b4d844d2f6a4"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L34",
+              "sectionSha256": "dd9fce1219d4fb84d0066de68b02baa1f6f6b8965bcf7b0155c8b4d844d2f6a4"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L34",
+              "sectionSha256": "dd9fce1219d4fb84d0066de68b02baa1f6f6b8965bcf7b0155c8b4d844d2f6a4"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 7,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+                  "anchor": "L34",
+                  "sectionSha256": "dd9fce1219d4fb84d0066de68b02baa1f6f6b8965bcf7b0155c8b4d844d2f6a4"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L34",
+              "sectionSha256": "dd9fce1219d4fb84d0066de68b02baa1f6f6b8965bcf7b0155c8b4d844d2f6a4"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L34",
+              "sectionSha256": "dd9fce1219d4fb84d0066de68b02baa1f6f6b8965bcf7b0155c8b4d844d2f6a4"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/008-气魔剑.md",
+              "anchor": "L34",
+              "sectionSha256": "dd9fce1219d4fb84d0066de68b02baa1f6f6b8965bcf7b0155c8b4d844d2f6a4"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "气魔剑",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "形态：青魔",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "形态：红牙",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "形态：无妄",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "形态：黑杀",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "形态：金魂",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "形态：彩虹",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-8c0f8edc8a2c32c5--3f6b5ef2df8d--intent",
+      "name": "形态：青魔",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-8c0f8edc8a2c32c5--3f6b5ef2df8d",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-8c0f8edc8a2c32c5--ffb618ca2dd4--intent",
+      "name": "形态：红牙",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-8c0f8edc8a2c32c5--ffb618ca2dd4",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-8c0f8edc8a2c32c5--7963c5b340e4--intent",
+      "name": "形态：无妄",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-8c0f8edc8a2c32c5--7963c5b340e4",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-8c0f8edc8a2c32c5--ebe53cbe39d6--intent",
+      "name": "形态：黑杀",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-8c0f8edc8a2c32c5--ebe53cbe39d6",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-8c0f8edc8a2c32c5--36402ecb137e--intent",
+      "name": "形态：金魂",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-8c0f8edc8a2c32c5--36402ecb137e",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-8c0f8edc8a2c32c5--03ec39d1be65--intent",
+      "name": "形态：彩虹",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-8c0f8edc8a2c32c5--03ec39d1be65",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "duration-inheritance-and-no-implicit-refresh",
+    "prerequisite-logic-not-fully-encoded",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

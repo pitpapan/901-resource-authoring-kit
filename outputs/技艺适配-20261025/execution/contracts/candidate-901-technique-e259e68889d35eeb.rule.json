@@ -1,0 +1,1300 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-e259e68889d35eeb",
+  "version": "2026-10-25.machine.2",
+  "identity": {
+    "name": "紫薇玄鉴",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J01",
+    "aliases": [
+      "紫薇玄鉴",
+      "紫薇玄鉴·D级阶段",
+      "紫薇玄鉴·C级阶段",
+      "紫薇玄鉴·B级阶段",
+      "紫薇玄鉴·A级阶段",
+      "紫薇玄鉴·S级阶段"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/心法/紫薇玄鉴.md",
+        "sha256": "e5b6ed276e872068ef663b5bace000b0f1ccbd71e93fe8fd53899dae3baf885c",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            65
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+    "sha256": "25325140bcffad91e8e31ea595f1c2721bdc71710f5a654030a3e6acd34f9452"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-e259e68889d35eeb--0ae594c1109f",
+          "name": "紫薇玄鉴",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+            "anchor": "条目",
+            "sectionSha256": "eb50442ce94a0e218e9a370af5d86f87dfbdc41aabbafb177f7212310850219d"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/紫薇玄鉴.md",
+              "sha256": "e5b6ed276e872068ef663b5bace000b0f1ccbd71e93fe8fd53899dae3baf885c",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  9
+                ],
+                [
+                  11,
+                  11
+                ],
+                [
+                  22,
+                  22
+                ],
+                [
+                  36,
+                  36
+                ],
+                [
+                  45,
+                  45
+                ],
+                [
+                  57,
+                  57
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "智力",
+                    "minimum": 6
+                  }
+                ],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+                  "anchor": "条目",
+                  "sectionSha256": "eb50442ce94a0e218e9a370af5d86f87dfbdc41aabbafb177f7212310850219d"
+                },
+                "semanticStatus": "partial"
+              },
+              {
+                "predicates": [
+                  {
+                    "kind": "energy-pool-exists",
+                    "minimumPoolCount": 2,
+                    "background": null,
+                    "names": [
+                      "内力",
+                      "魔力"
+                    ],
+                    "nameMatch": "all"
+                  }
+                ],
+                "uncompiledCondition": true,
+                "semanticStatus": "partial",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+                  "anchor": "条目",
+                  "sectionSha256": "eb50442ce94a0e218e9a370af5d86f87dfbdc41aabbafb177f7212310850219d"
+                }
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "条目",
+              "sectionSha256": "eb50442ce94a0e218e9a370af5d86f87dfbdc41aabbafb177f7212310850219d"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "条目",
+              "sectionSha256": "eb50442ce94a0e218e9a370af5d86f87dfbdc41aabbafb177f7212310850219d"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "条目",
+              "sectionSha256": "eb50442ce94a0e218e9a370af5d86f87dfbdc41aabbafb177f7212310850219d"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "条目",
+              "sectionSha256": "eb50442ce94a0e218e9a370af5d86f87dfbdc41aabbafb177f7212310850219d"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "条目",
+              "sectionSha256": "eb50442ce94a0e218e9a370af5d86f87dfbdc41aabbafb177f7212310850219d"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "条目",
+              "sectionSha256": "eb50442ce94a0e218e9a370af5d86f87dfbdc41aabbafb177f7212310850219d"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-e259e68889d35eeb--79cfaa5a36db",
+          "name": "紫薇玄鉴·D级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+            "anchor": "L10",
+            "sectionSha256": "3c56e8920743abe806a95e227dcf96e21bd2685bc72ecfcc98ec3ef4b06ad35f"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/紫薇玄鉴.md",
+              "sha256": "e5b6ed276e872068ef663b5bace000b0f1ccbd71e93fe8fd53899dae3baf885c",
+              "lineRanges": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  12,
+                  20
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+                  "anchor": "L10",
+                  "sectionSha256": "3c56e8920743abe806a95e227dcf96e21bd2685bc72ecfcc98ec3ef4b06ad35f"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ],
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-e259e68889d35eeb--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L10",
+              "sectionSha256": "3c56e8920743abe806a95e227dcf96e21bd2685bc72ecfcc98ec3ef4b06ad35f"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L10",
+              "sectionSha256": "3c56e8920743abe806a95e227dcf96e21bd2685bc72ecfcc98ec3ef4b06ad35f"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L10",
+              "sectionSha256": "3c56e8920743abe806a95e227dcf96e21bd2685bc72ecfcc98ec3ef4b06ad35f"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L10",
+              "sectionSha256": "3c56e8920743abe806a95e227dcf96e21bd2685bc72ecfcc98ec3ef4b06ad35f"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L10",
+              "sectionSha256": "3c56e8920743abe806a95e227dcf96e21bd2685bc72ecfcc98ec3ef4b06ad35f"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L10",
+              "sectionSha256": "3c56e8920743abe806a95e227dcf96e21bd2685bc72ecfcc98ec3ef4b06ad35f"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-e259e68889d35eeb--f45c0059c181",
+          "name": "紫薇玄鉴·C级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+            "anchor": "L21",
+            "sectionSha256": "b6e4bb31bf451b093c39388a5666741b7604f3086669f97af5aa39b43dc66261"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/紫薇玄鉴.md",
+              "sha256": "e5b6ed276e872068ef663b5bace000b0f1ccbd71e93fe8fd53899dae3baf885c",
+              "lineRanges": [
+                [
+                  21,
+                  21
+                ],
+                [
+                  23,
+                  34
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+                  "anchor": "L21",
+                  "sectionSha256": "b6e4bb31bf451b093c39388a5666741b7604f3086669f97af5aa39b43dc66261"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "reflex"
+              ],
+              [
+                "move"
+              ],
+              [
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-e259e68889d35eeb--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L21",
+              "sectionSha256": "b6e4bb31bf451b093c39388a5666741b7604f3086669f97af5aa39b43dc66261"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L21",
+              "sectionSha256": "b6e4bb31bf451b093c39388a5666741b7604f3086669f97af5aa39b43dc66261"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L21",
+              "sectionSha256": "b6e4bb31bf451b093c39388a5666741b7604f3086669f97af5aa39b43dc66261"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L21",
+              "sectionSha256": "b6e4bb31bf451b093c39388a5666741b7604f3086669f97af5aa39b43dc66261"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L21",
+              "sectionSha256": "b6e4bb31bf451b093c39388a5666741b7604f3086669f97af5aa39b43dc66261"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L21",
+              "sectionSha256": "b6e4bb31bf451b093c39388a5666741b7604f3086669f97af5aa39b43dc66261"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-e259e68889d35eeb--5668a86e7a81",
+          "name": "紫薇玄鉴·B级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+            "anchor": "L35",
+            "sectionSha256": "a415284e69ab02162c4315762c1a62496418a7387f402238fd96dff59f5ea229"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/紫薇玄鉴.md",
+              "sha256": "e5b6ed276e872068ef663b5bace000b0f1ccbd71e93fe8fd53899dae3baf885c",
+              "lineRanges": [
+                [
+                  35,
+                  35
+                ],
+                [
+                  37,
+                  43
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 85,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+                  "anchor": "L35",
+                  "sectionSha256": "a415284e69ab02162c4315762c1a62496418a7387f402238fd96dff59f5ea229"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-e259e68889d35eeb--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L35",
+              "sectionSha256": "a415284e69ab02162c4315762c1a62496418a7387f402238fd96dff59f5ea229"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L35",
+              "sectionSha256": "a415284e69ab02162c4315762c1a62496418a7387f402238fd96dff59f5ea229"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L35",
+              "sectionSha256": "a415284e69ab02162c4315762c1a62496418a7387f402238fd96dff59f5ea229"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L35",
+              "sectionSha256": "a415284e69ab02162c4315762c1a62496418a7387f402238fd96dff59f5ea229"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L35",
+              "sectionSha256": "a415284e69ab02162c4315762c1a62496418a7387f402238fd96dff59f5ea229"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L35",
+              "sectionSha256": "a415284e69ab02162c4315762c1a62496418a7387f402238fd96dff59f5ea229"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-e259e68889d35eeb--fe846e5da0c9",
+          "name": "紫薇玄鉴·A级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+            "anchor": "L44",
+            "sectionSha256": "facd24e3bce9ddd90e59b1381068138e09c787c4cb4ba05fd94c9d13cf092843"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/紫薇玄鉴.md",
+              "sha256": "e5b6ed276e872068ef663b5bace000b0f1ccbd71e93fe8fd53899dae3baf885c",
+              "lineRanges": [
+                [
+                  44,
+                  44
+                ],
+                [
+                  46,
+                  55
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 215,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+                  "anchor": "L44",
+                  "sectionSha256": "facd24e3bce9ddd90e59b1381068138e09c787c4cb4ba05fd94c9d13cf092843"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-e259e68889d35eeb--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L44",
+              "sectionSha256": "facd24e3bce9ddd90e59b1381068138e09c787c4cb4ba05fd94c9d13cf092843"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L44",
+              "sectionSha256": "facd24e3bce9ddd90e59b1381068138e09c787c4cb4ba05fd94c9d13cf092843"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L44",
+              "sectionSha256": "facd24e3bce9ddd90e59b1381068138e09c787c4cb4ba05fd94c9d13cf092843"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L44",
+              "sectionSha256": "facd24e3bce9ddd90e59b1381068138e09c787c4cb4ba05fd94c9d13cf092843"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L44",
+              "sectionSha256": "facd24e3bce9ddd90e59b1381068138e09c787c4cb4ba05fd94c9d13cf092843"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L44",
+              "sectionSha256": "facd24e3bce9ddd90e59b1381068138e09c787c4cb4ba05fd94c9d13cf092843"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-e259e68889d35eeb--0e3f48a30eac",
+          "name": "紫薇玄鉴·S级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+            "anchor": "L56",
+            "sectionSha256": "97213b3f356823deb37dd7326669adb894f2344f64a203352da3bb7f65ca8621"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/紫薇玄鉴.md",
+              "sha256": "e5b6ed276e872068ef663b5bace000b0f1ccbd71e93fe8fd53899dae3baf885c",
+              "lineRanges": [
+                [
+                  56,
+                  56
+                ],
+                [
+                  58,
+                  65
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "S",
+                "currency": "XP",
+                "amount": 565,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+                  "anchor": "L56",
+                  "sectionSha256": "97213b3f356823deb37dd7326669adb894f2344f64a203352da3bb7f65ca8621"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard",
+                "move"
+              ],
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-e259e68889d35eeb--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L56",
+              "sectionSha256": "97213b3f356823deb37dd7326669adb894f2344f64a203352da3bb7f65ca8621"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L56",
+              "sectionSha256": "97213b3f356823deb37dd7326669adb894f2344f64a203352da3bb7f65ca8621"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L56",
+              "sectionSha256": "97213b3f356823deb37dd7326669adb894f2344f64a203352da3bb7f65ca8621"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L56",
+              "sectionSha256": "97213b3f356823deb37dd7326669adb894f2344f64a203352da3bb7f65ca8621"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L56",
+              "sectionSha256": "97213b3f356823deb37dd7326669adb894f2344f64a203352da3bb7f65ca8621"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/012-紫薇玄鉴.md",
+              "anchor": "L56",
+              "sectionSha256": "97213b3f356823deb37dd7326669adb894f2344f64a203352da3bb7f65ca8621"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "紫薇玄鉴",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "紫薇玄鉴·D级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "紫薇玄鉴·C级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "紫薇玄鉴·B级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "紫薇玄鉴·A级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "紫薇玄鉴·S级阶段",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-e259e68889d35eeb--79cfaa5a36db--intent",
+      "name": "紫薇玄鉴·D级阶段",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ],
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-e259e68889d35eeb--79cfaa5a36db",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-e259e68889d35eeb--f45c0059c181--intent",
+      "name": "紫薇玄鉴·C级阶段",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "reflex"
+          ],
+          [
+            "move"
+          ],
+          [
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-e259e68889d35eeb--f45c0059c181",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-e259e68889d35eeb--5668a86e7a81--intent",
+      "name": "紫薇玄鉴·B级阶段",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-e259e68889d35eeb--5668a86e7a81",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-e259e68889d35eeb--fe846e5da0c9--intent",
+      "name": "紫薇玄鉴·A级阶段",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-e259e68889d35eeb--fe846e5da0c9",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-e259e68889d35eeb--0e3f48a30eac--intent",
+      "name": "紫薇玄鉴·S级阶段",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard",
+            "move"
+          ],
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-e259e68889d35eeb--0e3f48a30eac",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "prerequisite-logic-not-fully-encoded",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "attack-program-hardcodes-INT-and-casting",
+    "duration-inheritance-and-no-implicit-refresh"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

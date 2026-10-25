@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "jiang.improved_initiative",
-  "version": "2026-10-23.1",
+  "version": "2026-10-24.1",
   "identity": {
     "name": "精通先攻1级",
     "grade": null,
@@ -36,7 +36,16 @@
         "initiativeDefense": 0
       }
     },
-    "capabilities": []
+    "capabilities": [],
+    "legacyProfiles": [
+      {
+        "ruleset": "comparison-20261020",
+        "kind": "jiang",
+        "add": {
+          "initiative": -4
+        }
+      }
+    ]
   },
   "clauses": [
     {

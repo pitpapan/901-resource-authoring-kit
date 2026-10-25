@@ -1,0 +1,1832 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-8588803788899994",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "霸气",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J01",
+    "aliases": [
+      "霸气",
+      "武装色霸气",
+      "武装色霸气·D级阶段",
+      "武装色霸气·C级阶段",
+      "武装色霸气·B级阶段",
+      "武装色霸气·A级阶段",
+      "见闻色霸气",
+      "见闻色霸气·D级阶段",
+      "见闻色霸气·C级阶段",
+      "见闻色霸气·B级阶段",
+      "见闻色霸气·A级阶段",
+      "霸王色霸气"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/心法/霸气.md",
+        "sha256": "8a209c78349724aa4934be7068952174e2f5ffdeba261a33630eb0aa90939978",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            49
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+    "sha256": "50c50745ceeeea19df95f6d84faa1e83f608426f405c4787d6d57993c3e18d67"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-8588803788899994--0ae594c1109f",
+          "name": "霸气",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+            "anchor": "条目",
+            "sectionSha256": "0ef681a11ae40ae2934c5e35fd193015fe96099eab15e3016ed1b4d0ccc1c80d"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/霸气.md",
+              "sha256": "8a209c78349724aa4934be7068952174e2f5ffdeba261a33630eb0aa90939978",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  11
+                ],
+                [
+                  24,
+                  24
+                ],
+                [
+                  26,
+                  26
+                ],
+                [
+                  39,
+                  39
+                ],
+                [
+                  43,
+                  43
+                ],
+                [
+                  49,
+                  49
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "条目",
+              "sectionSha256": "0ef681a11ae40ae2934c5e35fd193015fe96099eab15e3016ed1b4d0ccc1c80d"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "条目",
+              "sectionSha256": "0ef681a11ae40ae2934c5e35fd193015fe96099eab15e3016ed1b4d0ccc1c80d"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "条目",
+              "sectionSha256": "0ef681a11ae40ae2934c5e35fd193015fe96099eab15e3016ed1b4d0ccc1c80d"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "条目",
+              "sectionSha256": "0ef681a11ae40ae2934c5e35fd193015fe96099eab15e3016ed1b4d0ccc1c80d"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "条目",
+              "sectionSha256": "0ef681a11ae40ae2934c5e35fd193015fe96099eab15e3016ed1b4d0ccc1c80d"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "条目",
+              "sectionSha256": "0ef681a11ae40ae2934c5e35fd193015fe96099eab15e3016ed1b4d0ccc1c80d"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8588803788899994--3f6b5ef2df8d",
+          "name": "武装色霸气·D级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+            "anchor": "L12",
+            "sectionSha256": "ae9064bbadd7a260b7941b8a201069c912b82173922127cadfae62b8cd1a6155"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/霸气.md",
+              "sha256": "8a209c78349724aa4934be7068952174e2f5ffdeba261a33630eb0aa90939978",
+              "lineRanges": [
+                [
+                  12,
+                  14
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+                  "anchor": "L12",
+                  "sectionSha256": "ae9064bbadd7a260b7941b8a201069c912b82173922127cadfae62b8cd1a6155"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8588803788899994--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L12",
+              "sectionSha256": "ae9064bbadd7a260b7941b8a201069c912b82173922127cadfae62b8cd1a6155"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L12",
+              "sectionSha256": "ae9064bbadd7a260b7941b8a201069c912b82173922127cadfae62b8cd1a6155"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L12",
+              "sectionSha256": "ae9064bbadd7a260b7941b8a201069c912b82173922127cadfae62b8cd1a6155"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "意志"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+                  "anchor": "L12",
+                  "sectionSha256": "ae9064bbadd7a260b7941b8a201069c912b82173922127cadfae62b8cd1a6155"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L12",
+              "sectionSha256": "ae9064bbadd7a260b7941b8a201069c912b82173922127cadfae62b8cd1a6155"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L12",
+              "sectionSha256": "ae9064bbadd7a260b7941b8a201069c912b82173922127cadfae62b8cd1a6155"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L12",
+              "sectionSha256": "ae9064bbadd7a260b7941b8a201069c912b82173922127cadfae62b8cd1a6155"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8588803788899994--ffb618ca2dd4",
+          "name": "武装色霸气·C级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+            "anchor": "L15",
+            "sectionSha256": "a29cff46515516ac53b82c3b1b339f45bc44041792f6a36b5c0524543068c4f4"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/霸气.md",
+              "sha256": "8a209c78349724aa4934be7068952174e2f5ffdeba261a33630eb0aa90939978",
+              "lineRanges": [
+                [
+                  15,
+                  17
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+                  "anchor": "L15",
+                  "sectionSha256": "a29cff46515516ac53b82c3b1b339f45bc44041792f6a36b5c0524543068c4f4"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8588803788899994--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L15",
+              "sectionSha256": "a29cff46515516ac53b82c3b1b339f45bc44041792f6a36b5c0524543068c4f4"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L15",
+              "sectionSha256": "a29cff46515516ac53b82c3b1b339f45bc44041792f6a36b5c0524543068c4f4"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L15",
+              "sectionSha256": "a29cff46515516ac53b82c3b1b339f45bc44041792f6a36b5c0524543068c4f4"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "意志"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+                  "anchor": "L15",
+                  "sectionSha256": "a29cff46515516ac53b82c3b1b339f45bc44041792f6a36b5c0524543068c4f4"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L15",
+              "sectionSha256": "a29cff46515516ac53b82c3b1b339f45bc44041792f6a36b5c0524543068c4f4"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L15",
+              "sectionSha256": "a29cff46515516ac53b82c3b1b339f45bc44041792f6a36b5c0524543068c4f4"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L15",
+              "sectionSha256": "a29cff46515516ac53b82c3b1b339f45bc44041792f6a36b5c0524543068c4f4"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8588803788899994--cc1ba94005d5",
+          "name": "武装色霸气·B级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+            "anchor": "L18",
+            "sectionSha256": "96584169ced1d97fc12698600c50beb243c0caca18e150a14ef0f4d456c3420a"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/霸气.md",
+              "sha256": "8a209c78349724aa4934be7068952174e2f5ffdeba261a33630eb0aa90939978",
+              "lineRanges": [
+                [
+                  18,
+                  20
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+                  "anchor": "L18",
+                  "sectionSha256": "96584169ced1d97fc12698600c50beb243c0caca18e150a14ef0f4d456c3420a"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8588803788899994--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L18",
+              "sectionSha256": "96584169ced1d97fc12698600c50beb243c0caca18e150a14ef0f4d456c3420a"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L18",
+              "sectionSha256": "96584169ced1d97fc12698600c50beb243c0caca18e150a14ef0f4d456c3420a"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L18",
+              "sectionSha256": "96584169ced1d97fc12698600c50beb243c0caca18e150a14ef0f4d456c3420a"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 5,
+                  "pool": "意志"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+                  "anchor": "L18",
+                  "sectionSha256": "96584169ced1d97fc12698600c50beb243c0caca18e150a14ef0f4d456c3420a"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L18",
+              "sectionSha256": "96584169ced1d97fc12698600c50beb243c0caca18e150a14ef0f4d456c3420a"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L18",
+              "sectionSha256": "96584169ced1d97fc12698600c50beb243c0caca18e150a14ef0f4d456c3420a"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L18",
+              "sectionSha256": "96584169ced1d97fc12698600c50beb243c0caca18e150a14ef0f4d456c3420a"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8588803788899994--f45c0059c181",
+          "name": "武装色霸气·A级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+            "anchor": "L21",
+            "sectionSha256": "c410eb5f3977943648e7cc89bf8c1feb48e4e07019b80b67d463504bf8dfcc30"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/霸气.md",
+              "sha256": "8a209c78349724aa4934be7068952174e2f5ffdeba261a33630eb0aa90939978",
+              "lineRanges": [
+                [
+                  21,
+                  23
+                ],
+                [
+                  25,
+                  25
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+                  "anchor": "L21",
+                  "sectionSha256": "c410eb5f3977943648e7cc89bf8c1feb48e4e07019b80b67d463504bf8dfcc30"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8588803788899994--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L21",
+              "sectionSha256": "c410eb5f3977943648e7cc89bf8c1feb48e4e07019b80b67d463504bf8dfcc30"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L21",
+              "sectionSha256": "c410eb5f3977943648e7cc89bf8c1feb48e4e07019b80b67d463504bf8dfcc30"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L21",
+              "sectionSha256": "c410eb5f3977943648e7cc89bf8c1feb48e4e07019b80b67d463504bf8dfcc30"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 7,
+                  "pool": "意志"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+                  "anchor": "L21",
+                  "sectionSha256": "c410eb5f3977943648e7cc89bf8c1feb48e4e07019b80b67d463504bf8dfcc30"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L21",
+              "sectionSha256": "c410eb5f3977943648e7cc89bf8c1feb48e4e07019b80b67d463504bf8dfcc30"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L21",
+              "sectionSha256": "c410eb5f3977943648e7cc89bf8c1feb48e4e07019b80b67d463504bf8dfcc30"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L21",
+              "sectionSha256": "c410eb5f3977943648e7cc89bf8c1feb48e4e07019b80b67d463504bf8dfcc30"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8588803788899994--62cacaa0e286",
+          "name": "见闻色霸气·D级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+            "anchor": "L27",
+            "sectionSha256": "a44b03e73c2417ba715193082d02cf90cb6cf1bca5f31484c4618e0daddfa6a5"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/霸气.md",
+              "sha256": "8a209c78349724aa4934be7068952174e2f5ffdeba261a33630eb0aa90939978",
+              "lineRanges": [
+                [
+                  27,
+                  29
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+                  "anchor": "L27",
+                  "sectionSha256": "a44b03e73c2417ba715193082d02cf90cb6cf1bca5f31484c4618e0daddfa6a5"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8588803788899994--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L27",
+              "sectionSha256": "a44b03e73c2417ba715193082d02cf90cb6cf1bca5f31484c4618e0daddfa6a5"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L27",
+              "sectionSha256": "a44b03e73c2417ba715193082d02cf90cb6cf1bca5f31484c4618e0daddfa6a5"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L27",
+              "sectionSha256": "a44b03e73c2417ba715193082d02cf90cb6cf1bca5f31484c4618e0daddfa6a5"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "意志"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+                  "anchor": "L27",
+                  "sectionSha256": "a44b03e73c2417ba715193082d02cf90cb6cf1bca5f31484c4618e0daddfa6a5"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L27",
+              "sectionSha256": "a44b03e73c2417ba715193082d02cf90cb6cf1bca5f31484c4618e0daddfa6a5"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L27",
+              "sectionSha256": "a44b03e73c2417ba715193082d02cf90cb6cf1bca5f31484c4618e0daddfa6a5"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L27",
+              "sectionSha256": "a44b03e73c2417ba715193082d02cf90cb6cf1bca5f31484c4618e0daddfa6a5"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "洞察",
+              "value": 6,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+                "anchor": "L27",
+                "sectionSha256": "a44b03e73c2417ba715193082d02cf90cb6cf1bca5f31484c4618e0daddfa6a5"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8588803788899994--1c9f3c66445d",
+          "name": "见闻色霸气·C级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+            "anchor": "L30",
+            "sectionSha256": "f0cf0bbab2928055686c616d14494af9ca0b13369913c18fcfdcc3d313ec142f"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/霸气.md",
+              "sha256": "8a209c78349724aa4934be7068952174e2f5ffdeba261a33630eb0aa90939978",
+              "lineRanges": [
+                [
+                  30,
+                  32
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+                  "anchor": "L30",
+                  "sectionSha256": "f0cf0bbab2928055686c616d14494af9ca0b13369913c18fcfdcc3d313ec142f"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8588803788899994--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L30",
+              "sectionSha256": "f0cf0bbab2928055686c616d14494af9ca0b13369913c18fcfdcc3d313ec142f"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L30",
+              "sectionSha256": "f0cf0bbab2928055686c616d14494af9ca0b13369913c18fcfdcc3d313ec142f"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L30",
+              "sectionSha256": "f0cf0bbab2928055686c616d14494af9ca0b13369913c18fcfdcc3d313ec142f"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "意志"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+                  "anchor": "L30",
+                  "sectionSha256": "f0cf0bbab2928055686c616d14494af9ca0b13369913c18fcfdcc3d313ec142f"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L30",
+              "sectionSha256": "f0cf0bbab2928055686c616d14494af9ca0b13369913c18fcfdcc3d313ec142f"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L30",
+              "sectionSha256": "f0cf0bbab2928055686c616d14494af9ca0b13369913c18fcfdcc3d313ec142f"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L30",
+              "sectionSha256": "f0cf0bbab2928055686c616d14494af9ca0b13369913c18fcfdcc3d313ec142f"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8588803788899994--239a51838c73",
+          "name": "见闻色霸气·B级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+            "anchor": "L33",
+            "sectionSha256": "ac85fd06987fb1dc5e75d7df61d54021f728f9524faccebec73a48720300a344"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/霸气.md",
+              "sha256": "8a209c78349724aa4934be7068952174e2f5ffdeba261a33630eb0aa90939978",
+              "lineRanges": [
+                [
+                  33,
+                  35
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+                  "anchor": "L33",
+                  "sectionSha256": "ac85fd06987fb1dc5e75d7df61d54021f728f9524faccebec73a48720300a344"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8588803788899994--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L33",
+              "sectionSha256": "ac85fd06987fb1dc5e75d7df61d54021f728f9524faccebec73a48720300a344"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L33",
+              "sectionSha256": "ac85fd06987fb1dc5e75d7df61d54021f728f9524faccebec73a48720300a344"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L33",
+              "sectionSha256": "ac85fd06987fb1dc5e75d7df61d54021f728f9524faccebec73a48720300a344"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 5,
+                  "pool": "意志"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+                  "anchor": "L33",
+                  "sectionSha256": "ac85fd06987fb1dc5e75d7df61d54021f728f9524faccebec73a48720300a344"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L33",
+              "sectionSha256": "ac85fd06987fb1dc5e75d7df61d54021f728f9524faccebec73a48720300a344"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L33",
+              "sectionSha256": "ac85fd06987fb1dc5e75d7df61d54021f728f9524faccebec73a48720300a344"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L33",
+              "sectionSha256": "ac85fd06987fb1dc5e75d7df61d54021f728f9524faccebec73a48720300a344"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8588803788899994--dcf306fd971c",
+          "name": "见闻色霸气·A级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+            "anchor": "L36",
+            "sectionSha256": "37280cb16964b527fa70837084b997a15540ceefe297b3622a341de23ec30e0c"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/霸气.md",
+              "sha256": "8a209c78349724aa4934be7068952174e2f5ffdeba261a33630eb0aa90939978",
+              "lineRanges": [
+                [
+                  36,
+                  38
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 215,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+                  "anchor": "L36",
+                  "sectionSha256": "37280cb16964b527fa70837084b997a15540ceefe297b3622a341de23ec30e0c"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8588803788899994--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L36",
+              "sectionSha256": "37280cb16964b527fa70837084b997a15540ceefe297b3622a341de23ec30e0c"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L36",
+              "sectionSha256": "37280cb16964b527fa70837084b997a15540ceefe297b3622a341de23ec30e0c"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L36",
+              "sectionSha256": "37280cb16964b527fa70837084b997a15540ceefe297b3622a341de23ec30e0c"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 7,
+                  "pool": "意志"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+                  "anchor": "L36",
+                  "sectionSha256": "37280cb16964b527fa70837084b997a15540ceefe297b3622a341de23ec30e0c"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L36",
+              "sectionSha256": "37280cb16964b527fa70837084b997a15540ceefe297b3622a341de23ec30e0c"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L36",
+              "sectionSha256": "37280cb16964b527fa70837084b997a15540ceefe297b3622a341de23ec30e0c"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L36",
+              "sectionSha256": "37280cb16964b527fa70837084b997a15540ceefe297b3622a341de23ec30e0c"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8588803788899994--101c7ae8fdaf",
+          "name": "霸王色霸气",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+            "anchor": "L40",
+            "sectionSha256": "89b9f6e381fd8fcbdd55c0deec745a45b2bf9676ee4c6df4483f32a8f35c7880"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/霸气.md",
+              "sha256": "8a209c78349724aa4934be7068952174e2f5ffdeba261a33630eb0aa90939978",
+              "lineRanges": [
+                [
+                  40,
+                  42
+                ],
+                [
+                  44,
+                  48
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "S",
+                "currency": "XP",
+                "amount": 485,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+                  "anchor": "L40",
+                  "sectionSha256": "89b9f6e381fd8fcbdd55c0deec745a45b2bf9676ee4c6df4483f32a8f35c7880"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8588803788899994--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+                  "anchor": "L40",
+                  "sectionSha256": "89b9f6e381fd8fcbdd55c0deec745a45b2bf9676ee4c6df4483f32a8f35c7880"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L40",
+              "sectionSha256": "89b9f6e381fd8fcbdd55c0deec745a45b2bf9676ee4c6df4483f32a8f35c7880"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L40",
+              "sectionSha256": "89b9f6e381fd8fcbdd55c0deec745a45b2bf9676ee4c6df4483f32a8f35c7880"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L40",
+              "sectionSha256": "89b9f6e381fd8fcbdd55c0deec745a45b2bf9676ee4c6df4483f32a8f35c7880"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 9,
+                  "pool": "意志"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+                  "anchor": "L40",
+                  "sectionSha256": "89b9f6e381fd8fcbdd55c0deec745a45b2bf9676ee4c6df4483f32a8f35c7880"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L40",
+              "sectionSha256": "89b9f6e381fd8fcbdd55c0deec745a45b2bf9676ee4c6df4483f32a8f35c7880"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L40",
+              "sectionSha256": "89b9f6e381fd8fcbdd55c0deec745a45b2bf9676ee4c6df4483f32a8f35c7880"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/013-霸气.md",
+              "anchor": "L40",
+              "sectionSha256": "89b9f6e381fd8fcbdd55c0deec745a45b2bf9676ee4c6df4483f32a8f35c7880"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "霸气",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "武装色霸气·D级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "武装色霸气·C级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "武装色霸气·B级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "武装色霸气·A级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "见闻色霸气·D级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "见闻色霸气·C级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "见闻色霸气·B级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "见闻色霸气·A级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "霸王色霸气",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-8588803788899994--3f6b5ef2df8d--intent",
+      "name": "武装色霸气·D级阶段",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-8588803788899994--3f6b5ef2df8d",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-8588803788899994--62cacaa0e286--intent",
+      "name": "见闻色霸气·D级阶段",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-8588803788899994--62cacaa0e286",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-8588803788899994--dcf306fd971c--intent",
+      "name": "见闻色霸气·A级阶段",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-8588803788899994--dcf306fd971c",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "attack-program-hardcodes-INT-and-casting",
+    "duration-inheritance-and-no-implicit-refresh",
+    "prerequisite-logic-not-fully-encoded"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

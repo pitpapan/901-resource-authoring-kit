@@ -1,0 +1,612 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-caaec35fb04f9741",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "元素论",
+    "grade": "S",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J12",
+    "aliases": [
+      "元素论",
+      "元素论·四大咒法"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/施法类型/元素论.md",
+        "sha256": "94a501cda3b11c7b4d17da17645fb9cccfebed69b4e940311a84863799ce50ce",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            33
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/137-元素论.md",
+    "sha256": "5f57e95968a963dc256f7fc2ba4ffbc8e9e8656816f9f35f0b78206ef9e658da"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-caaec35fb04f9741--0ae594c1109f",
+          "name": "元素论",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/137-元素论.md",
+            "anchor": "条目",
+            "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/施法类型/元素论.md",
+              "sha256": "94a501cda3b11c7b4d17da17645fb9cccfebed69b4e940311a84863799ce50ce",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  18,
+                  19
+                ],
+                [
+                  24,
+                  24
+                ],
+                [
+                  27,
+                  27
+                ],
+                [
+                  30,
+                  30
+                ],
+                [
+                  32,
+                  32
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/137-元素论.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/137-元素论.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/137-元素论.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/137-元素论.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/137-元素论.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/137-元素论.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-caaec35fb04f9741--b3cc20089aab",
+          "name": "元素论·四大咒法",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/137-元素论.md",
+            "anchor": "L6",
+            "sectionSha256": "f2ca757a4128afbdb71914bfbd1799f22d5f3d35271304b4ca4bb149764de4c9"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/施法类型/元素论.md",
+              "sha256": "94a501cda3b11c7b4d17da17645fb9cccfebed69b4e940311a84863799ce50ce",
+              "lineRanges": [
+                [
+                  6,
+                  17
+                ],
+                [
+                  20,
+                  23
+                ],
+                [
+                  25,
+                  26
+                ],
+                [
+                  28,
+                  29
+                ],
+                [
+                  31,
+                  31
+                ],
+                [
+                  33,
+                  33
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "S",
+                "currency": "XP",
+                "amount": 485,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/137-元素论.md",
+                  "anchor": "L6",
+                  "sectionSha256": "f2ca757a4128afbdb71914bfbd1799f22d5f3d35271304b4ca4bb149764de4c9"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-caaec35fb04f9741--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [
+                {
+                  "semanticStatus": "encoded",
+                  "value": {
+                    "op": "mul",
+                    "args": [
+                      {
+                        "op": "mul",
+                        "args": [
+                          10,
+                          {
+                            "context": "INT"
+                          }
+                        ]
+                      },
+                      {
+                        "context": "P"
+                      }
+                    ]
+                  },
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/137-元素论.md",
+                    "anchor": "L6",
+                    "sectionSha256": "f2ca757a4128afbdb71914bfbd1799f22d5f3d35271304b4ca4bb149764de4c9"
+                  }
+                }
+              ],
+              "area": [
+                {
+                  "semanticStatus": "encoded",
+                  "value": {
+                    "op": "mul",
+                    "args": [
+                      {
+                        "op": "mul",
+                        "args": [
+                          5,
+                          {
+                            "context": "INT"
+                          }
+                        ]
+                      },
+                      {
+                        "context": "P"
+                      }
+                    ]
+                  },
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/137-元素论.md",
+                    "anchor": "L6",
+                    "sectionSha256": "f2ca757a4128afbdb71914bfbd1799f22d5f3d35271304b4ca4bb149764de4c9"
+                  }
+                }
+              ]
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/137-元素论.md",
+              "anchor": "L6",
+              "sectionSha256": "f2ca757a4128afbdb71914bfbd1799f22d5f3d35271304b4ca4bb149764de4c9"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "not-encoded",
+                "value": null,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/137-元素论.md",
+                  "anchor": "L6",
+                  "sectionSha256": "f2ca757a4128afbdb71914bfbd1799f22d5f3d35271304b4ca4bb149764de4c9"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/137-元素论.md",
+              "anchor": "L6",
+              "sectionSha256": "f2ca757a4128afbdb71914bfbd1799f22d5f3d35271304b4ca4bb149764de4c9"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 10,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/137-元素论.md",
+                  "anchor": "L6",
+                  "sectionSha256": "f2ca757a4128afbdb71914bfbd1799f22d5f3d35271304b4ca4bb149764de4c9"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/137-元素论.md",
+              "anchor": "L6",
+              "sectionSha256": "f2ca757a4128afbdb71914bfbd1799f22d5f3d35271304b4ca4bb149764de4c9"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 9,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/137-元素论.md",
+                  "anchor": "L6",
+                  "sectionSha256": "f2ca757a4128afbdb71914bfbd1799f22d5f3d35271304b4ca4bb149764de4c9"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/137-元素论.md",
+              "anchor": "L6",
+              "sectionSha256": "f2ca757a4128afbdb71914bfbd1799f22d5f3d35271304b4ca4bb149764de4c9"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": 48,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/137-元素论.md",
+                  "anchor": "L6",
+                  "sectionSha256": "f2ca757a4128afbdb71914bfbd1799f22d5f3d35271304b4ca4bb149764de4c9"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/137-元素论.md",
+              "anchor": "L6",
+              "sectionSha256": "f2ca757a4128afbdb71914bfbd1799f22d5f3d35271304b4ca4bb149764de4c9"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "all-subskill-qualifications",
+                  "skill": "神秘",
+                  "subskills": [
+                    "咒法"
+                  ],
+                  "eachMinimum": 1
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/137-元素论.md",
+                  "anchor": "L6",
+                  "sectionSha256": "f2ca757a4128afbdb71914bfbd1799f22d5f3d35271304b4ca4bb149764de4c9"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/137-元素论.md",
+              "anchor": "L6",
+              "sectionSha256": "f2ca757a4128afbdb71914bfbd1799f22d5f3d35271304b4ca4bb149764de4c9"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "元素论",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "元素论·四大咒法",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "duration-inheritance-and-no-implicit-refresh"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

@@ -1,0 +1,907 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-4b8421938a5656e0",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "蛇咬之拳",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J05",
+    "aliases": [
+      "蛇咬之拳",
+      "蛇咬之拳·蛇（D级）",
+      "蛇咬之拳·蟒（C级）",
+      "蛇咬之拳·蛟龙（B级）",
+      "蛇咬之拳·荒蛇之牙（A级）"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/蛇咬之拳.md",
+        "sha256": "607d8700e615876a196482ff1e1a32e293919432384ff23a83f1b61769336af7",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            24
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+    "sha256": "ade14dd86d2dd61e724ca4c011aaeae80b9bd198f9d5f4083b2f0868e0c5ddb6"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-4b8421938a5656e0--0ae594c1109f",
+          "name": "蛇咬之拳",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+            "anchor": "条目",
+            "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/蛇咬之拳.md",
+              "sha256": "607d8700e615876a196482ff1e1a32e293919432384ff23a83f1b61769336af7",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  9,
+                  9
+                ],
+                [
+                  13,
+                  13
+                ],
+                [
+                  17,
+                  17
+                ],
+                [
+                  21,
+                  22
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-4b8421938a5656e0--4ecb58f262e8",
+          "name": "蛇咬之拳·蛇（D级）",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+            "anchor": "L8",
+            "sectionSha256": "4875fd864e77e13297ad9d0a31b51502513caddc499aa57d875efd60120478fb"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/蛇咬之拳.md",
+              "sha256": "607d8700e615876a196482ff1e1a32e293919432384ff23a83f1b61769336af7",
+              "lineRanges": [
+                [
+                  8,
+                  8
+                ],
+                [
+                  10,
+                  11
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+                  "anchor": "L8",
+                  "sectionSha256": "4875fd864e77e13297ad9d0a31b51502513caddc499aa57d875efd60120478fb"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-4b8421938a5656e0--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "L8",
+              "sectionSha256": "4875fd864e77e13297ad9d0a31b51502513caddc499aa57d875efd60120478fb"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "L8",
+              "sectionSha256": "4875fd864e77e13297ad9d0a31b51502513caddc499aa57d875efd60120478fb"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "L8",
+              "sectionSha256": "4875fd864e77e13297ad9d0a31b51502513caddc499aa57d875efd60120478fb"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "L8",
+              "sectionSha256": "4875fd864e77e13297ad9d0a31b51502513caddc499aa57d875efd60120478fb"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "L8",
+              "sectionSha256": "4875fd864e77e13297ad9d0a31b51502513caddc499aa57d875efd60120478fb"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "L8",
+              "sectionSha256": "4875fd864e77e13297ad9d0a31b51502513caddc499aa57d875efd60120478fb"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-4b8421938a5656e0--3f6b5ef2df8d",
+          "name": "蛇咬之拳·蟒（C级）",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+            "anchor": "L12",
+            "sectionSha256": "0bafde5162eff71d27c26e377861928f1d3f2d2407fa46ad869e4f36076e44c3"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/蛇咬之拳.md",
+              "sha256": "607d8700e615876a196482ff1e1a32e293919432384ff23a83f1b61769336af7",
+              "lineRanges": [
+                [
+                  12,
+                  12
+                ],
+                [
+                  14,
+                  15
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+                  "anchor": "L12",
+                  "sectionSha256": "0bafde5162eff71d27c26e377861928f1d3f2d2407fa46ad869e4f36076e44c3"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-4b8421938a5656e0--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "L12",
+              "sectionSha256": "0bafde5162eff71d27c26e377861928f1d3f2d2407fa46ad869e4f36076e44c3"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "L12",
+              "sectionSha256": "0bafde5162eff71d27c26e377861928f1d3f2d2407fa46ad869e4f36076e44c3"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "L12",
+              "sectionSha256": "0bafde5162eff71d27c26e377861928f1d3f2d2407fa46ad869e4f36076e44c3"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "L12",
+              "sectionSha256": "0bafde5162eff71d27c26e377861928f1d3f2d2407fa46ad869e4f36076e44c3"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "L12",
+              "sectionSha256": "0bafde5162eff71d27c26e377861928f1d3f2d2407fa46ad869e4f36076e44c3"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "L12",
+              "sectionSha256": "0bafde5162eff71d27c26e377861928f1d3f2d2407fa46ad869e4f36076e44c3"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "招式",
+              "value": 9,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+                "anchor": "L12",
+                "sectionSha256": "0bafde5162eff71d27c26e377861928f1d3f2d2407fa46ad869e4f36076e44c3"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-4b8421938a5656e0--5f3f9d32a927",
+          "name": "蛇咬之拳·蛟龙（B级）",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+            "anchor": "L16",
+            "sectionSha256": "c443c6bebb9f07c6798427dbad04c37315772dcf1c41c6ea230e6ddabaaac798"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/蛇咬之拳.md",
+              "sha256": "607d8700e615876a196482ff1e1a32e293919432384ff23a83f1b61769336af7",
+              "lineRanges": [
+                [
+                  16,
+                  16
+                ],
+                [
+                  18,
+                  19
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+                  "anchor": "L16",
+                  "sectionSha256": "c443c6bebb9f07c6798427dbad04c37315772dcf1c41c6ea230e6ddabaaac798"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-4b8421938a5656e0--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "L16",
+              "sectionSha256": "c443c6bebb9f07c6798427dbad04c37315772dcf1c41c6ea230e6ddabaaac798"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "L16",
+              "sectionSha256": "c443c6bebb9f07c6798427dbad04c37315772dcf1c41c6ea230e6ddabaaac798"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "L16",
+              "sectionSha256": "c443c6bebb9f07c6798427dbad04c37315772dcf1c41c6ea230e6ddabaaac798"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "L16",
+              "sectionSha256": "c443c6bebb9f07c6798427dbad04c37315772dcf1c41c6ea230e6ddabaaac798"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "L16",
+              "sectionSha256": "c443c6bebb9f07c6798427dbad04c37315772dcf1c41c6ea230e6ddabaaac798"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "L16",
+              "sectionSha256": "c443c6bebb9f07c6798427dbad04c37315772dcf1c41c6ea230e6ddabaaac798"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-4b8421938a5656e0--bbbae651d4e8",
+          "name": "蛇咬之拳·荒蛇之牙（A级）",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+            "anchor": "L20",
+            "sectionSha256": "fe1d6309be8aaef47609ebe362b358c6922062e679dfe337b207c365fc84cc75"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/蛇咬之拳.md",
+              "sha256": "607d8700e615876a196482ff1e1a32e293919432384ff23a83f1b61769336af7",
+              "lineRanges": [
+                [
+                  20,
+                  20
+                ],
+                [
+                  23,
+                  24
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+                  "anchor": "L20",
+                  "sectionSha256": "fe1d6309be8aaef47609ebe362b358c6922062e679dfe337b207c365fc84cc75"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-4b8421938a5656e0--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "L20",
+              "sectionSha256": "fe1d6309be8aaef47609ebe362b358c6922062e679dfe337b207c365fc84cc75"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "L20",
+              "sectionSha256": "fe1d6309be8aaef47609ebe362b358c6922062e679dfe337b207c365fc84cc75"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "L20",
+              "sectionSha256": "fe1d6309be8aaef47609ebe362b358c6922062e679dfe337b207c365fc84cc75"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "L20",
+              "sectionSha256": "fe1d6309be8aaef47609ebe362b358c6922062e679dfe337b207c365fc84cc75"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "L20",
+              "sectionSha256": "fe1d6309be8aaef47609ebe362b358c6922062e679dfe337b207c365fc84cc75"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/067-蛇咬之拳.md",
+              "anchor": "L20",
+              "sectionSha256": "fe1d6309be8aaef47609ebe362b358c6922062e679dfe337b207c365fc84cc75"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "蛇咬之拳",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "蛇咬之拳·蛇（D级）",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "蛇咬之拳·蟒（C级）",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "蛇咬之拳·蛟龙（B级）",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "蛇咬之拳·荒蛇之牙（A级）",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "attack-program-hardcodes-INT-and-casting"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

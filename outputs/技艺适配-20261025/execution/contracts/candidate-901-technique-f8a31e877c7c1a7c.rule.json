@@ -1,0 +1,2248 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-f8a31e877c7c1a7c",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "六合枪",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J04",
+    "aliases": [
+      "六合枪",
+      "枪法入门",
+      "虎牙断",
+      "白蟒破山枪",
+      "昴龙闪",
+      "霸王战意",
+      "金刚不坏",
+      "疾电",
+      "青龙汲水",
+      "枪挑华岳",
+      "赤焰穿心枪",
+      "磐龙决",
+      "霸王崩山劲"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/六合枪.md",
+        "sha256": "e5c9167e396487bd097a2e46adc8af36afac4f2f3517be39469e08c6366d53d3",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            54
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+    "sha256": "c02d821931ae07ca60e298a0d5167cbd23b974911c25474bbb276a492d40c85c"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-f8a31e877c7c1a7c--0ae594c1109f",
+          "name": "六合枪",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+            "anchor": "条目",
+            "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/六合枪.md",
+              "sha256": "e5c9167e396487bd097a2e46adc8af36afac4f2f3517be39469e08c6366d53d3",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  33,
+                  33
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-f8a31e877c7c1a7c--4ecb58f262e8",
+          "name": "枪法入门",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+            "anchor": "L8",
+            "sectionSha256": "55ea329a2fca329222a8b3f541c4f6edeac828d436dd976ae8c1462b03abfcb4"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/六合枪.md",
+              "sha256": "e5c9167e396487bd097a2e46adc8af36afac4f2f3517be39469e08c6366d53d3",
+              "lineRanges": [
+                [
+                  8,
+                  11
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+                  "anchor": "L8",
+                  "sectionSha256": "55ea329a2fca329222a8b3f541c4f6edeac828d436dd976ae8c1462b03abfcb4"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-f8a31e877c7c1a7c--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L8",
+              "sectionSha256": "55ea329a2fca329222a8b3f541c4f6edeac828d436dd976ae8c1462b03abfcb4"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L8",
+              "sectionSha256": "55ea329a2fca329222a8b3f541c4f6edeac828d436dd976ae8c1462b03abfcb4"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L8",
+              "sectionSha256": "55ea329a2fca329222a8b3f541c4f6edeac828d436dd976ae8c1462b03abfcb4"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L8",
+              "sectionSha256": "55ea329a2fca329222a8b3f541c4f6edeac828d436dd976ae8c1462b03abfcb4"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L8",
+              "sectionSha256": "55ea329a2fca329222a8b3f541c4f6edeac828d436dd976ae8c1462b03abfcb4"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L8",
+              "sectionSha256": "55ea329a2fca329222a8b3f541c4f6edeac828d436dd976ae8c1462b03abfcb4"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-f8a31e877c7c1a7c--3f6b5ef2df8d",
+          "name": "虎牙断",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+            "anchor": "L12",
+            "sectionSha256": "4f52a311ebc0d40c8a094702df3e7615b8ee48eaa80ce24d523f43d043bbccb4"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/六合枪.md",
+              "sha256": "e5c9167e396487bd097a2e46adc8af36afac4f2f3517be39469e08c6366d53d3",
+              "lineRanges": [
+                [
+                  12,
+                  14
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+                  "anchor": "L12",
+                  "sectionSha256": "4f52a311ebc0d40c8a094702df3e7615b8ee48eaa80ce24d523f43d043bbccb4"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-f8a31e877c7c1a7c--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+                  "anchor": "L12",
+                  "sectionSha256": "4f52a311ebc0d40c8a094702df3e7615b8ee48eaa80ce24d523f43d043bbccb4"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L12",
+              "sectionSha256": "4f52a311ebc0d40c8a094702df3e7615b8ee48eaa80ce24d523f43d043bbccb4"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L12",
+              "sectionSha256": "4f52a311ebc0d40c8a094702df3e7615b8ee48eaa80ce24d523f43d043bbccb4"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L12",
+              "sectionSha256": "4f52a311ebc0d40c8a094702df3e7615b8ee48eaa80ce24d523f43d043bbccb4"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L12",
+              "sectionSha256": "4f52a311ebc0d40c8a094702df3e7615b8ee48eaa80ce24d523f43d043bbccb4"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L12",
+              "sectionSha256": "4f52a311ebc0d40c8a094702df3e7615b8ee48eaa80ce24d523f43d043bbccb4"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L12",
+              "sectionSha256": "4f52a311ebc0d40c8a094702df3e7615b8ee48eaa80ce24d523f43d043bbccb4"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-f8a31e877c7c1a7c--ffb618ca2dd4",
+          "name": "白蟒破山枪",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+            "anchor": "L15",
+            "sectionSha256": "c971115175619ce7a8eb7ae93bf17adc36a9d15b6a01fe3f611e5beb84571e1a"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/六合枪.md",
+              "sha256": "e5c9167e396487bd097a2e46adc8af36afac4f2f3517be39469e08c6366d53d3",
+              "lineRanges": [
+                [
+                  15,
+                  17
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+                  "anchor": "L15",
+                  "sectionSha256": "c971115175619ce7a8eb7ae93bf17adc36a9d15b6a01fe3f611e5beb84571e1a"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-f8a31e877c7c1a7c--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+                  "anchor": "L15",
+                  "sectionSha256": "c971115175619ce7a8eb7ae93bf17adc36a9d15b6a01fe3f611e5beb84571e1a"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L15",
+              "sectionSha256": "c971115175619ce7a8eb7ae93bf17adc36a9d15b6a01fe3f611e5beb84571e1a"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L15",
+              "sectionSha256": "c971115175619ce7a8eb7ae93bf17adc36a9d15b6a01fe3f611e5beb84571e1a"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L15",
+              "sectionSha256": "c971115175619ce7a8eb7ae93bf17adc36a9d15b6a01fe3f611e5beb84571e1a"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L15",
+              "sectionSha256": "c971115175619ce7a8eb7ae93bf17adc36a9d15b6a01fe3f611e5beb84571e1a"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L15",
+              "sectionSha256": "c971115175619ce7a8eb7ae93bf17adc36a9d15b6a01fe3f611e5beb84571e1a"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L15",
+              "sectionSha256": "c971115175619ce7a8eb7ae93bf17adc36a9d15b6a01fe3f611e5beb84571e1a"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-f8a31e877c7c1a7c--cc1ba94005d5",
+          "name": "昴龙闪",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+            "anchor": "L18",
+            "sectionSha256": "32dc0a5afc8beeb5227a1c3b726ea1f5db6105ef7a2f17af158833ab200bf49b"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/六合枪.md",
+              "sha256": "e5c9167e396487bd097a2e46adc8af36afac4f2f3517be39469e08c6366d53d3",
+              "lineRanges": [
+                [
+                  18,
+                  20
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+                  "anchor": "L18",
+                  "sectionSha256": "32dc0a5afc8beeb5227a1c3b726ea1f5db6105ef7a2f17af158833ab200bf49b"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-f8a31e877c7c1a7c--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+                  "anchor": "L18",
+                  "sectionSha256": "32dc0a5afc8beeb5227a1c3b726ea1f5db6105ef7a2f17af158833ab200bf49b"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L18",
+              "sectionSha256": "32dc0a5afc8beeb5227a1c3b726ea1f5db6105ef7a2f17af158833ab200bf49b"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L18",
+              "sectionSha256": "32dc0a5afc8beeb5227a1c3b726ea1f5db6105ef7a2f17af158833ab200bf49b"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L18",
+              "sectionSha256": "32dc0a5afc8beeb5227a1c3b726ea1f5db6105ef7a2f17af158833ab200bf49b"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L18",
+              "sectionSha256": "32dc0a5afc8beeb5227a1c3b726ea1f5db6105ef7a2f17af158833ab200bf49b"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L18",
+              "sectionSha256": "32dc0a5afc8beeb5227a1c3b726ea1f5db6105ef7a2f17af158833ab200bf49b"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L18",
+              "sectionSha256": "32dc0a5afc8beeb5227a1c3b726ea1f5db6105ef7a2f17af158833ab200bf49b"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-f8a31e877c7c1a7c--f45c0059c181",
+          "name": "霸王战意",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+            "anchor": "L21",
+            "sectionSha256": "b5d5ac1c4cf90887fc0028ced258f27d1895cbdded7d827ae349afed767454ee"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/六合枪.md",
+              "sha256": "e5c9167e396487bd097a2e46adc8af36afac4f2f3517be39469e08c6366d53d3",
+              "lineRanges": [
+                [
+                  21,
+                  27
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+                  "anchor": "L21",
+                  "sectionSha256": "b5d5ac1c4cf90887fc0028ced258f27d1895cbdded7d827ae349afed767454ee"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-f8a31e877c7c1a7c--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+                  "anchor": "L21",
+                  "sectionSha256": "b5d5ac1c4cf90887fc0028ced258f27d1895cbdded7d827ae349afed767454ee"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L21",
+              "sectionSha256": "b5d5ac1c4cf90887fc0028ced258f27d1895cbdded7d827ae349afed767454ee"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L21",
+              "sectionSha256": "b5d5ac1c4cf90887fc0028ced258f27d1895cbdded7d827ae349afed767454ee"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L21",
+              "sectionSha256": "b5d5ac1c4cf90887fc0028ced258f27d1895cbdded7d827ae349afed767454ee"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L21",
+              "sectionSha256": "b5d5ac1c4cf90887fc0028ced258f27d1895cbdded7d827ae349afed767454ee"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L21",
+              "sectionSha256": "b5d5ac1c4cf90887fc0028ced258f27d1895cbdded7d827ae349afed767454ee"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L21",
+              "sectionSha256": "b5d5ac1c4cf90887fc0028ced258f27d1895cbdded7d827ae349afed767454ee"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "士气",
+              "value": 1,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+                "anchor": "L21",
+                "sectionSha256": "b5d5ac1c4cf90887fc0028ced258f27d1895cbdded7d827ae349afed767454ee"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-f8a31e877c7c1a7c--36402ecb137e",
+          "name": "金刚不坏",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+            "anchor": "L28",
+            "sectionSha256": "ceaa049894a03d20c0f4c489668ce3477c84cd27f668d0f2d17070f87a65cd24"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/六合枪.md",
+              "sha256": "e5c9167e396487bd097a2e46adc8af36afac4f2f3517be39469e08c6366d53d3",
+              "lineRanges": [
+                [
+                  28,
+                  30
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+                  "anchor": "L28",
+                  "sectionSha256": "ceaa049894a03d20c0f4c489668ce3477c84cd27f668d0f2d17070f87a65cd24"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-f8a31e877c7c1a7c--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+                  "anchor": "L28",
+                  "sectionSha256": "ceaa049894a03d20c0f4c489668ce3477c84cd27f668d0f2d17070f87a65cd24"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L28",
+              "sectionSha256": "ceaa049894a03d20c0f4c489668ce3477c84cd27f668d0f2d17070f87a65cd24"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L28",
+              "sectionSha256": "ceaa049894a03d20c0f4c489668ce3477c84cd27f668d0f2d17070f87a65cd24"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L28",
+              "sectionSha256": "ceaa049894a03d20c0f4c489668ce3477c84cd27f668d0f2d17070f87a65cd24"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 6,
+                  "pool": "意志"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+                  "anchor": "L28",
+                  "sectionSha256": "ceaa049894a03d20c0f4c489668ce3477c84cd27f668d0f2d17070f87a65cd24"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L28",
+              "sectionSha256": "ceaa049894a03d20c0f4c489668ce3477c84cd27f668d0f2d17070f87a65cd24"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L28",
+              "sectionSha256": "ceaa049894a03d20c0f4c489668ce3477c84cd27f668d0f2d17070f87a65cd24"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L28",
+              "sectionSha256": "ceaa049894a03d20c0f4c489668ce3477c84cd27f668d0f2d17070f87a65cd24"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-f8a31e877c7c1a7c--6220cb3f3fad",
+          "name": "疾电",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+            "anchor": "L31",
+            "sectionSha256": "6c3424740f2a2a88068f67f89d25e0e5d86b28708bd6609cd2a98a263f57c600"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/六合枪.md",
+              "sha256": "e5c9167e396487bd097a2e46adc8af36afac4f2f3517be39469e08c6366d53d3",
+              "lineRanges": [
+                [
+                  31,
+                  32
+                ],
+                [
+                  34,
+                  35
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+                  "anchor": "L31",
+                  "sectionSha256": "6c3424740f2a2a88068f67f89d25e0e5d86b28708bd6609cd2a98a263f57c600"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-f8a31e877c7c1a7c--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+                  "anchor": "L31",
+                  "sectionSha256": "6c3424740f2a2a88068f67f89d25e0e5d86b28708bd6609cd2a98a263f57c600"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L31",
+              "sectionSha256": "6c3424740f2a2a88068f67f89d25e0e5d86b28708bd6609cd2a98a263f57c600"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L31",
+              "sectionSha256": "6c3424740f2a2a88068f67f89d25e0e5d86b28708bd6609cd2a98a263f57c600"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L31",
+              "sectionSha256": "6c3424740f2a2a88068f67f89d25e0e5d86b28708bd6609cd2a98a263f57c600"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L31",
+              "sectionSha256": "6c3424740f2a2a88068f67f89d25e0e5d86b28708bd6609cd2a98a263f57c600"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L31",
+              "sectionSha256": "6c3424740f2a2a88068f67f89d25e0e5d86b28708bd6609cd2a98a263f57c600"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L31",
+              "sectionSha256": "6c3424740f2a2a88068f67f89d25e0e5d86b28708bd6609cd2a98a263f57c600"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-f8a31e877c7c1a7c--dcf306fd971c",
+          "name": "青龙汲水",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+            "anchor": "L36",
+            "sectionSha256": "f670c2ad41e834b66a8d936af6bc1fc538125e0d8a31a23008daf03e2fc835d8"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/六合枪.md",
+              "sha256": "e5c9167e396487bd097a2e46adc8af36afac4f2f3517be39469e08c6366d53d3",
+              "lineRanges": [
+                [
+                  36,
+                  37
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+                  "anchor": "L36",
+                  "sectionSha256": "f670c2ad41e834b66a8d936af6bc1fc538125e0d8a31a23008daf03e2fc835d8"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-f8a31e877c7c1a7c--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L36",
+              "sectionSha256": "f670c2ad41e834b66a8d936af6bc1fc538125e0d8a31a23008daf03e2fc835d8"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L36",
+              "sectionSha256": "f670c2ad41e834b66a8d936af6bc1fc538125e0d8a31a23008daf03e2fc835d8"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L36",
+              "sectionSha256": "f670c2ad41e834b66a8d936af6bc1fc538125e0d8a31a23008daf03e2fc835d8"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L36",
+              "sectionSha256": "f670c2ad41e834b66a8d936af6bc1fc538125e0d8a31a23008daf03e2fc835d8"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L36",
+              "sectionSha256": "f670c2ad41e834b66a8d936af6bc1fc538125e0d8a31a23008daf03e2fc835d8"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L36",
+              "sectionSha256": "f670c2ad41e834b66a8d936af6bc1fc538125e0d8a31a23008daf03e2fc835d8"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-f8a31e877c7c1a7c--3f970821bb78",
+          "name": "枪挑华岳",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+            "anchor": "L38",
+            "sectionSha256": "d6e598cb4e7d58e431089259cf3a3ded5cbe9bd608faf7d7e21e5cacfa915932"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/六合枪.md",
+              "sha256": "e5c9167e396487bd097a2e46adc8af36afac4f2f3517be39469e08c6366d53d3",
+              "lineRanges": [
+                [
+                  38,
+                  40
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+                  "anchor": "L38",
+                  "sectionSha256": "d6e598cb4e7d58e431089259cf3a3ded5cbe9bd608faf7d7e21e5cacfa915932"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-f8a31e877c7c1a7c--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+                  "anchor": "L38",
+                  "sectionSha256": "d6e598cb4e7d58e431089259cf3a3ded5cbe9bd608faf7d7e21e5cacfa915932"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L38",
+              "sectionSha256": "d6e598cb4e7d58e431089259cf3a3ded5cbe9bd608faf7d7e21e5cacfa915932"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L38",
+              "sectionSha256": "d6e598cb4e7d58e431089259cf3a3ded5cbe9bd608faf7d7e21e5cacfa915932"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L38",
+              "sectionSha256": "d6e598cb4e7d58e431089259cf3a3ded5cbe9bd608faf7d7e21e5cacfa915932"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L38",
+              "sectionSha256": "d6e598cb4e7d58e431089259cf3a3ded5cbe9bd608faf7d7e21e5cacfa915932"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L38",
+              "sectionSha256": "d6e598cb4e7d58e431089259cf3a3ded5cbe9bd608faf7d7e21e5cacfa915932"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L38",
+              "sectionSha256": "d6e598cb4e7d58e431089259cf3a3ded5cbe9bd608faf7d7e21e5cacfa915932"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-f8a31e877c7c1a7c--c7e5d9889852",
+          "name": "赤焰穿心枪",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+            "anchor": "L41",
+            "sectionSha256": "32a7ccb851f7c4a4c19aa8bc78e14d500ab4ac8d41a0544940066a44ceb98bdb"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/六合枪.md",
+              "sha256": "e5c9167e396487bd097a2e46adc8af36afac4f2f3517be39469e08c6366d53d3",
+              "lineRanges": [
+                [
+                  41,
+                  43
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+                  "anchor": "L41",
+                  "sectionSha256": "32a7ccb851f7c4a4c19aa8bc78e14d500ab4ac8d41a0544940066a44ceb98bdb"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-f8a31e877c7c1a7c--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+                  "anchor": "L41",
+                  "sectionSha256": "32a7ccb851f7c4a4c19aa8bc78e14d500ab4ac8d41a0544940066a44ceb98bdb"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L41",
+              "sectionSha256": "32a7ccb851f7c4a4c19aa8bc78e14d500ab4ac8d41a0544940066a44ceb98bdb"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L41",
+              "sectionSha256": "32a7ccb851f7c4a4c19aa8bc78e14d500ab4ac8d41a0544940066a44ceb98bdb"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L41",
+              "sectionSha256": "32a7ccb851f7c4a4c19aa8bc78e14d500ab4ac8d41a0544940066a44ceb98bdb"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 5,
+                  "pool": "意志"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+                  "anchor": "L41",
+                  "sectionSha256": "32a7ccb851f7c4a4c19aa8bc78e14d500ab4ac8d41a0544940066a44ceb98bdb"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L41",
+              "sectionSha256": "32a7ccb851f7c4a4c19aa8bc78e14d500ab4ac8d41a0544940066a44ceb98bdb"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L41",
+              "sectionSha256": "32a7ccb851f7c4a4c19aa8bc78e14d500ab4ac8d41a0544940066a44ceb98bdb"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L41",
+              "sectionSha256": "32a7ccb851f7c4a4c19aa8bc78e14d500ab4ac8d41a0544940066a44ceb98bdb"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "增强",
+              "value": 36,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+                "anchor": "L41",
+                "sectionSha256": "32a7ccb851f7c4a4c19aa8bc78e14d500ab4ac8d41a0544940066a44ceb98bdb"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-f8a31e877c7c1a7c--fe846e5da0c9",
+          "name": "磐龙决",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+            "anchor": "L44",
+            "sectionSha256": "3b8919c5da1666fefac160deba0b89e82d7bac41a4569c0587a6ac43db9aecc8"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/六合枪.md",
+              "sha256": "e5c9167e396487bd097a2e46adc8af36afac4f2f3517be39469e08c6366d53d3",
+              "lineRanges": [
+                [
+                  44,
+                  49
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+                  "anchor": "L44",
+                  "sectionSha256": "3b8919c5da1666fefac160deba0b89e82d7bac41a4569c0587a6ac43db9aecc8"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ],
+              [
+                "move"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-f8a31e877c7c1a7c--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+                  "anchor": "L44",
+                  "sectionSha256": "3b8919c5da1666fefac160deba0b89e82d7bac41a4569c0587a6ac43db9aecc8"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L44",
+              "sectionSha256": "3b8919c5da1666fefac160deba0b89e82d7bac41a4569c0587a6ac43db9aecc8"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L44",
+              "sectionSha256": "3b8919c5da1666fefac160deba0b89e82d7bac41a4569c0587a6ac43db9aecc8"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L44",
+              "sectionSha256": "3b8919c5da1666fefac160deba0b89e82d7bac41a4569c0587a6ac43db9aecc8"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L44",
+              "sectionSha256": "3b8919c5da1666fefac160deba0b89e82d7bac41a4569c0587a6ac43db9aecc8"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L44",
+              "sectionSha256": "3b8919c5da1666fefac160deba0b89e82d7bac41a4569c0587a6ac43db9aecc8"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L44",
+              "sectionSha256": "3b8919c5da1666fefac160deba0b89e82d7bac41a4569c0587a6ac43db9aecc8"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "numeric-modifier",
+              "stat": "speed",
+              "value": 80,
+              "mode": "increase",
+              "bonusType": "unspecified-in-fragment",
+              "target": "self",
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "full-conditions",
+                "inheritance-and-stacking"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+                "anchor": "L44",
+                "sectionSha256": "3b8919c5da1666fefac160deba0b89e82d7bac41a4569c0587a6ac43db9aecc8"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-f8a31e877c7c1a7c--6228e9d3d391",
+          "name": "霸王崩山劲",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+            "anchor": "L50",
+            "sectionSha256": "42a87d80dcc67a5340178be24285b7c3b5a2f8da7bf91a334e259e27c5ab1143"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/六合枪.md",
+              "sha256": "e5c9167e396487bd097a2e46adc8af36afac4f2f3517be39469e08c6366d53d3",
+              "lineRanges": [
+                [
+                  50,
+                  54
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+                  "anchor": "L50",
+                  "sectionSha256": "42a87d80dcc67a5340178be24285b7c3b5a2f8da7bf91a334e259e27c5ab1143"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-f8a31e877c7c1a7c--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+                  "anchor": "L50",
+                  "sectionSha256": "42a87d80dcc67a5340178be24285b7c3b5a2f8da7bf91a334e259e27c5ab1143"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L50",
+              "sectionSha256": "42a87d80dcc67a5340178be24285b7c3b5a2f8da7bf91a334e259e27c5ab1143"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L50",
+              "sectionSha256": "42a87d80dcc67a5340178be24285b7c3b5a2f8da7bf91a334e259e27c5ab1143"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+                  "anchor": "L50",
+                  "sectionSha256": "42a87d80dcc67a5340178be24285b7c3b5a2f8da7bf91a334e259e27c5ab1143"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L50",
+              "sectionSha256": "42a87d80dcc67a5340178be24285b7c3b5a2f8da7bf91a334e259e27c5ab1143"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 7,
+                  "pool": "意志"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+                  "anchor": "L50",
+                  "sectionSha256": "42a87d80dcc67a5340178be24285b7c3b5a2f8da7bf91a334e259e27c5ab1143"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L50",
+              "sectionSha256": "42a87d80dcc67a5340178be24285b7c3b5a2f8da7bf91a334e259e27c5ab1143"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L50",
+              "sectionSha256": "42a87d80dcc67a5340178be24285b7c3b5a2f8da7bf91a334e259e27c5ab1143"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/029-六合枪.md",
+              "anchor": "L50",
+              "sectionSha256": "42a87d80dcc67a5340178be24285b7c3b5a2f8da7bf91a334e259e27c5ab1143"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "六合枪",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "枪法入门",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "虎牙断",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "白蟒破山枪",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "昴龙闪",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "霸王战意",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "金刚不坏",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "疾电",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "青龙汲水",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "枪挑华岳",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "赤焰穿心枪",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "磐龙决",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "霸王崩山劲",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-f8a31e877c7c1a7c--fe846e5da0c9--intent",
+      "name": "磐龙决",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ],
+          [
+            "move"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-f8a31e877c7c1a7c--fe846e5da0c9",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-f8a31e877c7c1a7c--6228e9d3d391--intent",
+      "name": "霸王崩山劲",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-f8a31e877c7c1a7c--6228e9d3d391",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "prerequisite-logic-not-fully-encoded",
+    "duration-inheritance-and-no-implicit-refresh",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "attack-program-hardcodes-INT-and-casting"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

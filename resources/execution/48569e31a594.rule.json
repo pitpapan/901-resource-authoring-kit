@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:C:狂战士之魂",
-  "version": "2026-10-23.1",
+  "version": "2026-10-24.1",
   "identity": {
     "name": "狂战士之魂",
     "grade": "C",
@@ -17,14 +17,20 @@
     "source": "resources/imperial-magic/03-变化与创造.md",
     "grade": "C",
     "prohibited": false,
-    "subskills": [],
+    "subskills": [
+      "变化",
+      "诅咒"
+    ],
     "effects": [],
     "learning": {
       "baseXP": 25,
       "requiresKnownVersion": false
     },
-    "requiresAllSchools": false,
-    "schools": []
+    "requiresAllSchools": true,
+    "schools": [
+      "变化",
+      "诅咒"
+    ]
   },
   "clauses": [
     {

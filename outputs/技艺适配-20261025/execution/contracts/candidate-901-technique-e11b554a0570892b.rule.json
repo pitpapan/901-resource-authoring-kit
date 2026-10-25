@@ -1,0 +1,1006 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-e11b554a0570892b",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "醉仙望月步",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J02",
+    "aliases": [
+      "醉仙望月步",
+      "醉仙望月步·D级阶段",
+      "醉仙望月步·C级阶段",
+      "醉仙望月步·B级阶段"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/身法/醉仙望月步.md",
+        "sha256": "4213359eae59e27f5f937400a2869bad8e7bfffe4fa24dc3ee2495e07afa1480",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            37
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+    "sha256": "2b4091953fdbad8a67b1e22758d00470d4bc36d8b2d8f31ca6e098abfed070df"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-e11b554a0570892b--0ae594c1109f",
+          "name": "醉仙望月步",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+            "anchor": "条目",
+            "sectionSha256": "238653a0753d351bf0cff5fc343c911feb495cb32521bd2c00bd882f1cc412fc"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/身法/醉仙望月步.md",
+              "sha256": "4213359eae59e27f5f937400a2869bad8e7bfffe4fa24dc3ee2495e07afa1480",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  10
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [
+                  {
+                    "kind": "expertise-minimum",
+                    "skill": "运动",
+                    "minimum": 3,
+                    "skillModel": "primary-plus-one-subskill"
+                  }
+                ],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+                  "anchor": "条目",
+                  "sectionSha256": "238653a0753d351bf0cff5fc343c911feb495cb32521bd2c00bd882f1cc412fc"
+                },
+                "semanticStatus": "partial"
+              },
+              {
+                "predicates": [
+                  {
+                    "kind": "energy-pool-exists",
+                    "minimumPoolCount": 1,
+                    "background": "东方",
+                    "names": [],
+                    "generic": true
+                  }
+                ],
+                "uncompiledCondition": true,
+                "semanticStatus": "partial",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+                  "anchor": "条目",
+                  "sectionSha256": "238653a0753d351bf0cff5fc343c911feb495cb32521bd2c00bd882f1cc412fc"
+                }
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+              "anchor": "条目",
+              "sectionSha256": "238653a0753d351bf0cff5fc343c911feb495cb32521bd2c00bd882f1cc412fc"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+              "anchor": "条目",
+              "sectionSha256": "238653a0753d351bf0cff5fc343c911feb495cb32521bd2c00bd882f1cc412fc"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+              "anchor": "条目",
+              "sectionSha256": "238653a0753d351bf0cff5fc343c911feb495cb32521bd2c00bd882f1cc412fc"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+              "anchor": "条目",
+              "sectionSha256": "238653a0753d351bf0cff5fc343c911feb495cb32521bd2c00bd882f1cc412fc"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+              "anchor": "条目",
+              "sectionSha256": "238653a0753d351bf0cff5fc343c911feb495cb32521bd2c00bd882f1cc412fc"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+              "anchor": "条目",
+              "sectionSha256": "238653a0753d351bf0cff5fc343c911feb495cb32521bd2c00bd882f1cc412fc"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-e11b554a0570892b--04a90cd5d050",
+          "name": "醉仙望月步·D级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+            "anchor": "L11",
+            "sectionSha256": "b11a22ccc3fe65314949bcbb44125c3b61568586fba8d7f4b3edff3630aaccfe"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/身法/醉仙望月步.md",
+              "sha256": "4213359eae59e27f5f937400a2869bad8e7bfffe4fa24dc3ee2495e07afa1480",
+              "lineRanges": [
+                [
+                  11,
+                  19
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+                  "anchor": "L11",
+                  "sectionSha256": "b11a22ccc3fe65314949bcbb44125c3b61568586fba8d7f4b3edff3630aaccfe"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-e11b554a0570892b--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [
+                {
+                  "semanticStatus": "encoded",
+                  "value": {
+                    "kind": "none"
+                  },
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+                    "anchor": "L11",
+                    "sectionSha256": "b11a22ccc3fe65314949bcbb44125c3b61568586fba8d7f4b3edff3630aaccfe"
+                  }
+                }
+              ],
+              "area": [
+                {
+                  "semanticStatus": "encoded",
+                  "value": {
+                    "kind": "none"
+                  },
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+                    "anchor": "L11",
+                    "sectionSha256": "b11a22ccc3fe65314949bcbb44125c3b61568586fba8d7f4b3edff3630aaccfe"
+                  }
+                }
+              ]
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+              "anchor": "L11",
+              "sectionSha256": "b11a22ccc3fe65314949bcbb44125c3b61568586fba8d7f4b3edff3630aaccfe"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 5,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+                  "anchor": "L11",
+                  "sectionSha256": "b11a22ccc3fe65314949bcbb44125c3b61568586fba8d7f4b3edff3630aaccfe"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+              "anchor": "L11",
+              "sectionSha256": "b11a22ccc3fe65314949bcbb44125c3b61568586fba8d7f4b3edff3630aaccfe"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+              "anchor": "L11",
+              "sectionSha256": "b11a22ccc3fe65314949bcbb44125c3b61568586fba8d7f4b3edff3630aaccfe"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+              "anchor": "L11",
+              "sectionSha256": "b11a22ccc3fe65314949bcbb44125c3b61568586fba8d7f4b3edff3630aaccfe"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+              "anchor": "L11",
+              "sectionSha256": "b11a22ccc3fe65314949bcbb44125c3b61568586fba8d7f4b3edff3630aaccfe"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+              "anchor": "L11",
+              "sectionSha256": "b11a22ccc3fe65314949bcbb44125c3b61568586fba8d7f4b3edff3630aaccfe"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-e11b554a0570892b--bbbae651d4e8",
+          "name": "醉仙望月步·C级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+            "anchor": "L20",
+            "sectionSha256": "3975f0f6dff940fdb3ba2cfd720244dfe20fa32e519dab1deaf5b0389b6824f5"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/身法/醉仙望月步.md",
+              "sha256": "4213359eae59e27f5f937400a2869bad8e7bfffe4fa24dc3ee2495e07afa1480",
+              "lineRanges": [
+                [
+                  20,
+                  28
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+                  "anchor": "L20",
+                  "sectionSha256": "3975f0f6dff940fdb3ba2cfd720244dfe20fa32e519dab1deaf5b0389b6824f5"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-e11b554a0570892b--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [
+                {
+                  "semanticStatus": "encoded",
+                  "value": {
+                    "kind": "none"
+                  },
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+                    "anchor": "L20",
+                    "sectionSha256": "3975f0f6dff940fdb3ba2cfd720244dfe20fa32e519dab1deaf5b0389b6824f5"
+                  }
+                }
+              ],
+              "area": [
+                {
+                  "semanticStatus": "encoded",
+                  "value": {
+                    "kind": "none"
+                  },
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+                    "anchor": "L20",
+                    "sectionSha256": "3975f0f6dff940fdb3ba2cfd720244dfe20fa32e519dab1deaf5b0389b6824f5"
+                  }
+                }
+              ]
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+              "anchor": "L20",
+              "sectionSha256": "3975f0f6dff940fdb3ba2cfd720244dfe20fa32e519dab1deaf5b0389b6824f5"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 5,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+                  "anchor": "L20",
+                  "sectionSha256": "3975f0f6dff940fdb3ba2cfd720244dfe20fa32e519dab1deaf5b0389b6824f5"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+              "anchor": "L20",
+              "sectionSha256": "3975f0f6dff940fdb3ba2cfd720244dfe20fa32e519dab1deaf5b0389b6824f5"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+              "anchor": "L20",
+              "sectionSha256": "3975f0f6dff940fdb3ba2cfd720244dfe20fa32e519dab1deaf5b0389b6824f5"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+              "anchor": "L20",
+              "sectionSha256": "3975f0f6dff940fdb3ba2cfd720244dfe20fa32e519dab1deaf5b0389b6824f5"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+              "anchor": "L20",
+              "sectionSha256": "3975f0f6dff940fdb3ba2cfd720244dfe20fa32e519dab1deaf5b0389b6824f5"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+              "anchor": "L20",
+              "sectionSha256": "3975f0f6dff940fdb3ba2cfd720244dfe20fa32e519dab1deaf5b0389b6824f5"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-e11b554a0570892b--bc2b72915c17",
+          "name": "醉仙望月步·B级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+            "anchor": "L29",
+            "sectionSha256": "40415bb3ec5759a39d66b4de99d82cff7363d16f3a62a7c6be758d246ac3cc3d"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/身法/醉仙望月步.md",
+              "sha256": "4213359eae59e27f5f937400a2869bad8e7bfffe4fa24dc3ee2495e07afa1480",
+              "lineRanges": [
+                [
+                  29,
+                  37
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+                  "anchor": "L29",
+                  "sectionSha256": "40415bb3ec5759a39d66b4de99d82cff7363d16f3a62a7c6be758d246ac3cc3d"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ],
+              [
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-e11b554a0570892b--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [
+                {
+                  "semanticStatus": "encoded",
+                  "value": {
+                    "kind": "none"
+                  },
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+                    "anchor": "L29",
+                    "sectionSha256": "40415bb3ec5759a39d66b4de99d82cff7363d16f3a62a7c6be758d246ac3cc3d"
+                  }
+                }
+              ],
+              "area": [
+                {
+                  "semanticStatus": "encoded",
+                  "value": {
+                    "kind": "none"
+                  },
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+                    "anchor": "L29",
+                    "sectionSha256": "40415bb3ec5759a39d66b4de99d82cff7363d16f3a62a7c6be758d246ac3cc3d"
+                  }
+                }
+              ]
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+              "anchor": "L29",
+              "sectionSha256": "40415bb3ec5759a39d66b4de99d82cff7363d16f3a62a7c6be758d246ac3cc3d"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 5,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+                  "anchor": "L29",
+                  "sectionSha256": "40415bb3ec5759a39d66b4de99d82cff7363d16f3a62a7c6be758d246ac3cc3d"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+              "anchor": "L29",
+              "sectionSha256": "40415bb3ec5759a39d66b4de99d82cff7363d16f3a62a7c6be758d246ac3cc3d"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+              "anchor": "L29",
+              "sectionSha256": "40415bb3ec5759a39d66b4de99d82cff7363d16f3a62a7c6be758d246ac3cc3d"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+              "anchor": "L29",
+              "sectionSha256": "40415bb3ec5759a39d66b4de99d82cff7363d16f3a62a7c6be758d246ac3cc3d"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+              "anchor": "L29",
+              "sectionSha256": "40415bb3ec5759a39d66b4de99d82cff7363d16f3a62a7c6be758d246ac3cc3d"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/018-醉仙望月步.md",
+              "anchor": "L29",
+              "sectionSha256": "40415bb3ec5759a39d66b4de99d82cff7363d16f3a62a7c6be758d246ac3cc3d"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "醉仙望月步",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "醉仙望月步·D级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "醉仙望月步·C级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "醉仙望月步·B级阶段",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-e11b554a0570892b--04a90cd5d050--intent",
+      "name": "醉仙望月步·D级阶段",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-e11b554a0570892b--04a90cd5d050",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-e11b554a0570892b--bbbae651d4e8--intent",
+      "name": "醉仙望月步·C级阶段",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-e11b554a0570892b--bbbae651d4e8",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-e11b554a0570892b--bc2b72915c17--intent",
+      "name": "醉仙望月步·B级阶段",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ],
+          [
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-e11b554a0570892b--bc2b72915c17",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "prerequisite-logic-not-fully-encoded",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "duration-inheritance-and-no-implicit-refresh",
+    "attack-program-hardcodes-INT-and-casting"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

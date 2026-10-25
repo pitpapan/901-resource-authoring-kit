@@ -1,0 +1,746 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-e29943901508e0b1",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "龙家剑法",
+    "grade": "C",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J04",
+    "aliases": [
+      "龙家剑法",
+      "龙家剑法·C级阶段",
+      "踏剑而歌",
+      "黑洞护体",
+      "玉龙飞天",
+      "蟠龙闹海",
+      "龙阵护拥"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/龙家剑法.md",
+        "sha256": "df0a42c126352ca80292bda211e71724e882d9d4ac26edd27134d387fa5dfe50",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            40
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+    "sha256": "331c29c67b7fe10a6460aff75c74d362a1d01832d55ad704cec51fc83d2fc35e"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-e29943901508e0b1--0ae594c1109f",
+          "name": "龙家剑法",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+            "anchor": "条目",
+            "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/龙家剑法.md",
+              "sha256": "df0a42c126352ca80292bda211e71724e882d9d4ac26edd27134d387fa5dfe50",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  6
+                ],
+                [
+                  10,
+                  10
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-e29943901508e0b1--ee292cd1d6c1",
+          "name": "龙家剑法·C级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+            "anchor": "L7",
+            "sectionSha256": "e61a868cccb13624b721c5bc94136a7da845116a50b2e59e5b4286b1fc8034b9"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/龙家剑法.md",
+              "sha256": "df0a42c126352ca80292bda211e71724e882d9d4ac26edd27134d387fa5dfe50",
+              "lineRanges": [
+                [
+                  7,
+                  9
+                ],
+                [
+                  11,
+                  40
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+                  "anchor": "L7",
+                  "sectionSha256": "e61a868cccb13624b721c5bc94136a7da845116a50b2e59e5b4286b1fc8034b9"
+                }
+              },
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 25.0,
+                "mode": "explicit-purchase-or-repeat",
+                "basis": "reading-explicit-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+                  "anchor": "L7",
+                  "sectionSha256": "e61a868cccb13624b721c5bc94136a7da845116a50b2e59e5b4286b1fc8034b9"
+                }
+              },
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 25.0,
+                "mode": "explicit-purchase-or-repeat",
+                "basis": "reading-explicit-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+                  "anchor": "L7",
+                  "sectionSha256": "e61a868cccb13624b721c5bc94136a7da845116a50b2e59e5b4286b1fc8034b9"
+                }
+              },
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 65.0,
+                "mode": "explicit-purchase-or-repeat",
+                "basis": "reading-explicit-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+                  "anchor": "L7",
+                  "sectionSha256": "e61a868cccb13624b721c5bc94136a7da845116a50b2e59e5b4286b1fc8034b9"
+                }
+              },
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 10.0,
+                "mode": "explicit-purchase-or-repeat",
+                "basis": "reading-explicit-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+                  "anchor": "L7",
+                  "sectionSha256": "e61a868cccb13624b721c5bc94136a7da845116a50b2e59e5b4286b1fc8034b9"
+                }
+              },
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 35.0,
+                "mode": "explicit-purchase-or-repeat",
+                "basis": "reading-explicit-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+                  "anchor": "L7",
+                  "sectionSha256": "e61a868cccb13624b721c5bc94136a7da845116a50b2e59e5b4286b1fc8034b9"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ],
+              [
+                "reflex"
+              ],
+              [
+                "standard"
+              ],
+              [
+                "move"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-e29943901508e0b1--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+                  "anchor": "L7",
+                  "sectionSha256": "e61a868cccb13624b721c5bc94136a7da845116a50b2e59e5b4286b1fc8034b9"
+                },
+                "semanticStatus": "not-encoded"
+              },
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+                  "anchor": "L7",
+                  "sectionSha256": "e61a868cccb13624b721c5bc94136a7da845116a50b2e59e5b4286b1fc8034b9"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+              "anchor": "L7",
+              "sectionSha256": "e61a868cccb13624b721c5bc94136a7da845116a50b2e59e5b4286b1fc8034b9"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+              "anchor": "L7",
+              "sectionSha256": "e61a868cccb13624b721c5bc94136a7da845116a50b2e59e5b4286b1fc8034b9"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+                  "anchor": "L7",
+                  "sectionSha256": "e61a868cccb13624b721c5bc94136a7da845116a50b2e59e5b4286b1fc8034b9"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+              "anchor": "L7",
+              "sectionSha256": "e61a868cccb13624b721c5bc94136a7da845116a50b2e59e5b4286b1fc8034b9"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "内力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+                  "anchor": "L7",
+                  "sectionSha256": "e61a868cccb13624b721c5bc94136a7da845116a50b2e59e5b4286b1fc8034b9"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "意志"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+                  "anchor": "L7",
+                  "sectionSha256": "e61a868cccb13624b721c5bc94136a7da845116a50b2e59e5b4286b1fc8034b9"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "内力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+                  "anchor": "L7",
+                  "sectionSha256": "e61a868cccb13624b721c5bc94136a7da845116a50b2e59e5b4286b1fc8034b9"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "内力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+                  "anchor": "L7",
+                  "sectionSha256": "e61a868cccb13624b721c5bc94136a7da845116a50b2e59e5b4286b1fc8034b9"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 5,
+                  "pool": "内力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+                  "anchor": "L7",
+                  "sectionSha256": "e61a868cccb13624b721c5bc94136a7da845116a50b2e59e5b4286b1fc8034b9"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 2,
+                  "pool": "内力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+                  "anchor": "L7",
+                  "sectionSha256": "e61a868cccb13624b721c5bc94136a7da845116a50b2e59e5b4286b1fc8034b9"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+              "anchor": "L7",
+              "sectionSha256": "e61a868cccb13624b721c5bc94136a7da845116a50b2e59e5b4286b1fc8034b9"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+              "anchor": "L7",
+              "sectionSha256": "e61a868cccb13624b721c5bc94136a7da845116a50b2e59e5b4286b1fc8034b9"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+              "anchor": "L7",
+              "sectionSha256": "e61a868cccb13624b721c5bc94136a7da845116a50b2e59e5b4286b1fc8034b9"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "numeric-modifier",
+              "stat": "speed",
+              "value": 40,
+              "mode": "increment",
+              "bonusType": "unspecified-in-fragment",
+              "target": "self",
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "full-conditions",
+                "inheritance-and-stacking"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+                "anchor": "L7",
+                "sectionSha256": "e61a868cccb13624b721c5bc94136a7da845116a50b2e59e5b4286b1fc8034b9"
+              }
+            },
+            {
+              "kind": "numeric-modifier",
+              "stat": "speed",
+              "value": 80,
+              "mode": "increment",
+              "bonusType": "unspecified-in-fragment",
+              "target": "self",
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "full-conditions",
+                "inheritance-and-stacking"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/052-龙家剑法.md",
+                "anchor": "L7",
+                "sectionSha256": "e61a868cccb13624b721c5bc94136a7da845116a50b2e59e5b4286b1fc8034b9"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "龙家剑法",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "龙家剑法·C级阶段",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-e29943901508e0b1--ee292cd1d6c1--intent",
+      "name": "龙家剑法·C级阶段",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ],
+          [
+            "reflex"
+          ],
+          [
+            "standard"
+          ],
+          [
+            "move"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-e29943901508e0b1--ee292cd1d6c1",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "duration-inheritance-and-no-implicit-refresh",
+    "prerequisite-logic-not-fully-encoded"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

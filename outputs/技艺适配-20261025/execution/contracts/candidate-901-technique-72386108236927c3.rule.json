@@ -1,0 +1,1295 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-72386108236927c3",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "亚马逊生存技能",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J09",
+    "aliases": [
+      "亚马逊生存技能",
+      "亚马逊生存技能·D级阶段",
+      "亚马逊生存技能·C级阶段",
+      "亚马逊生存技能·B级阶段"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/亚马逊生存技能.md",
+        "sha256": "9844653f2d1c759cf981c2d5437cf680437f3b895377af9b98a0b8c8abeb6f59",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            91
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+    "sha256": "31b806c26b1be6b7ebd4ca40af45af4ae010e9310db7d15fbb524b00270e8bc2"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-72386108236927c3--0ae594c1109f",
+          "name": "亚马逊生存技能",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+            "anchor": "条目",
+            "sectionSha256": "d395f2c71933a55658f8b962ac32827a5e6912a8641a1788f77ee7becb6a6803"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/亚马逊生存技能.md",
+              "sha256": "9844653f2d1c759cf981c2d5437cf680437f3b895377af9b98a0b8c8abeb6f59",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  22,
+                  22
+                ],
+                [
+                  25,
+                  25
+                ],
+                [
+                  33,
+                  33
+                ],
+                [
+                  41,
+                  41
+                ],
+                [
+                  51,
+                  51
+                ],
+                [
+                  60,
+                  60
+                ],
+                [
+                  68,
+                  68
+                ],
+                [
+                  71,
+                  71
+                ],
+                [
+                  90,
+                  90
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                  "anchor": "条目",
+                  "sectionSha256": "d395f2c71933a55658f8b962ac32827a5e6912a8641a1788f77ee7becb6a6803"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+              "anchor": "条目",
+              "sectionSha256": "d395f2c71933a55658f8b962ac32827a5e6912a8641a1788f77ee7becb6a6803"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+              "anchor": "条目",
+              "sectionSha256": "d395f2c71933a55658f8b962ac32827a5e6912a8641a1788f77ee7becb6a6803"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+              "anchor": "条目",
+              "sectionSha256": "d395f2c71933a55658f8b962ac32827a5e6912a8641a1788f77ee7becb6a6803"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+              "anchor": "条目",
+              "sectionSha256": "d395f2c71933a55658f8b962ac32827a5e6912a8641a1788f77ee7becb6a6803"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+              "anchor": "条目",
+              "sectionSha256": "d395f2c71933a55658f8b962ac32827a5e6912a8641a1788f77ee7becb6a6803"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+              "anchor": "条目",
+              "sectionSha256": "d395f2c71933a55658f8b962ac32827a5e6912a8641a1788f77ee7becb6a6803"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-72386108236927c3--4ecb58f262e8",
+          "name": "亚马逊生存技能·D级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+            "anchor": "L8",
+            "sectionSha256": "deea82e137aa37f5ad76b9e29d5f44b59cddee5ce10091a280f415a427945e88"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/亚马逊生存技能.md",
+              "sha256": "9844653f2d1c759cf981c2d5437cf680437f3b895377af9b98a0b8c8abeb6f59",
+              "lineRanges": [
+                [
+                  8,
+                  21
+                ],
+                [
+                  23,
+                  24
+                ],
+                [
+                  26,
+                  32
+                ],
+                [
+                  34,
+                  40
+                ],
+                [
+                  42,
+                  44
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                  "anchor": "L8",
+                  "sectionSha256": "deea82e137aa37f5ad76b9e29d5f44b59cddee5ce10091a280f415a427945e88"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ],
+              [
+                "standard",
+                "swift"
+              ],
+              [
+                "standard",
+                "move"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-72386108236927c3--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [
+                {
+                  "semanticStatus": "encoded",
+                  "value": {
+                    "op": "mul",
+                    "args": [
+                      {
+                        "context": "PER"
+                      },
+                      30
+                    ]
+                  },
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                    "anchor": "L8",
+                    "sectionSha256": "deea82e137aa37f5ad76b9e29d5f44b59cddee5ce10091a280f415a427945e88"
+                  }
+                },
+                {
+                  "semanticStatus": "not-encoded",
+                  "value": null,
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                    "anchor": "L8",
+                    "sectionSha256": "deea82e137aa37f5ad76b9e29d5f44b59cddee5ce10091a280f415a427945e88"
+                  }
+                },
+                {
+                  "semanticStatus": "not-encoded",
+                  "value": null,
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                    "anchor": "L8",
+                    "sectionSha256": "deea82e137aa37f5ad76b9e29d5f44b59cddee5ce10091a280f415a427945e88"
+                  }
+                },
+                {
+                  "semanticStatus": "not-encoded",
+                  "value": null,
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                    "anchor": "L8",
+                    "sectionSha256": "deea82e137aa37f5ad76b9e29d5f44b59cddee5ce10091a280f415a427945e88"
+                  }
+                }
+              ],
+              "area": [
+                {
+                  "semanticStatus": "not-encoded",
+                  "value": null,
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                    "anchor": "L8",
+                    "sectionSha256": "deea82e137aa37f5ad76b9e29d5f44b59cddee5ce10091a280f415a427945e88"
+                  }
+                },
+                {
+                  "semanticStatus": "not-encoded",
+                  "value": null,
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                    "anchor": "L8",
+                    "sectionSha256": "deea82e137aa37f5ad76b9e29d5f44b59cddee5ce10091a280f415a427945e88"
+                  }
+                },
+                {
+                  "semanticStatus": "not-encoded",
+                  "value": null,
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                    "anchor": "L8",
+                    "sectionSha256": "deea82e137aa37f5ad76b9e29d5f44b59cddee5ce10091a280f415a427945e88"
+                  }
+                }
+              ]
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+              "anchor": "L8",
+              "sectionSha256": "deea82e137aa37f5ad76b9e29d5f44b59cddee5ce10091a280f415a427945e88"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 1,
+                  "unit": "scene"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                  "anchor": "L8",
+                  "sectionSha256": "deea82e137aa37f5ad76b9e29d5f44b59cddee5ce10091a280f415a427945e88"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 1,
+                  "unit": "scene"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                  "anchor": "L8",
+                  "sectionSha256": "deea82e137aa37f5ad76b9e29d5f44b59cddee5ce10091a280f415a427945e88"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+              "anchor": "L8",
+              "sectionSha256": "deea82e137aa37f5ad76b9e29d5f44b59cddee5ce10091a280f415a427945e88"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 3,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                  "anchor": "L8",
+                  "sectionSha256": "deea82e137aa37f5ad76b9e29d5f44b59cddee5ce10091a280f415a427945e88"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 6,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                  "anchor": "L8",
+                  "sectionSha256": "deea82e137aa37f5ad76b9e29d5f44b59cddee5ce10091a280f415a427945e88"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+              "anchor": "L8",
+              "sectionSha256": "deea82e137aa37f5ad76b9e29d5f44b59cddee5ce10091a280f415a427945e88"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                  "anchor": "L8",
+                  "sectionSha256": "deea82e137aa37f5ad76b9e29d5f44b59cddee5ce10091a280f415a427945e88"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+              "anchor": "L8",
+              "sectionSha256": "deea82e137aa37f5ad76b9e29d5f44b59cddee5ce10091a280f415a427945e88"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+              "anchor": "L8",
+              "sectionSha256": "deea82e137aa37f5ad76b9e29d5f44b59cddee5ce10091a280f415a427945e88"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+              "anchor": "L8",
+              "sectionSha256": "deea82e137aa37f5ad76b9e29d5f44b59cddee5ce10091a280f415a427945e88"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "洞察",
+              "value": 6,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                "anchor": "L8",
+                "sectionSha256": "deea82e137aa37f5ad76b9e29d5f44b59cddee5ce10091a280f415a427945e88"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-72386108236927c3--534d62d82647",
+          "name": "亚马逊生存技能·C级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+            "anchor": "L45",
+            "sectionSha256": "e0bc07950f449cff8480698b95bf1152a815353abf77e17651c547f3a03db71f"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/亚马逊生存技能.md",
+              "sha256": "9844653f2d1c759cf981c2d5437cf680437f3b895377af9b98a0b8c8abeb6f59",
+              "lineRanges": [
+                [
+                  45,
+                  50
+                ],
+                [
+                  52,
+                  59
+                ],
+                [
+                  61,
+                  67
+                ],
+                [
+                  69,
+                  70
+                ],
+                [
+                  72,
+                  82
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                  "anchor": "L45",
+                  "sectionSha256": "e0bc07950f449cff8480698b95bf1152a815353abf77e17651c547f3a03db71f"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ],
+              [
+                "free"
+              ],
+              [
+                "swift"
+              ],
+              [
+                "standard",
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-72386108236927c3--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [
+                {
+                  "semanticStatus": "not-encoded",
+                  "value": null,
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                    "anchor": "L45",
+                    "sectionSha256": "e0bc07950f449cff8480698b95bf1152a815353abf77e17651c547f3a03db71f"
+                  }
+                },
+                {
+                  "semanticStatus": "not-encoded",
+                  "value": null,
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                    "anchor": "L45",
+                    "sectionSha256": "e0bc07950f449cff8480698b95bf1152a815353abf77e17651c547f3a03db71f"
+                  }
+                },
+                {
+                  "semanticStatus": "not-encoded",
+                  "value": null,
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                    "anchor": "L45",
+                    "sectionSha256": "e0bc07950f449cff8480698b95bf1152a815353abf77e17651c547f3a03db71f"
+                  }
+                },
+                {
+                  "semanticStatus": "not-encoded",
+                  "value": null,
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                    "anchor": "L45",
+                    "sectionSha256": "e0bc07950f449cff8480698b95bf1152a815353abf77e17651c547f3a03db71f"
+                  }
+                }
+              ],
+              "area": [
+                {
+                  "semanticStatus": "not-encoded",
+                  "value": null,
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                    "anchor": "L45",
+                    "sectionSha256": "e0bc07950f449cff8480698b95bf1152a815353abf77e17651c547f3a03db71f"
+                  }
+                }
+              ]
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+              "anchor": "L45",
+              "sectionSha256": "e0bc07950f449cff8480698b95bf1152a815353abf77e17651c547f3a03db71f"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 1,
+                  "unit": "scene"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                  "anchor": "L45",
+                  "sectionSha256": "e0bc07950f449cff8480698b95bf1152a815353abf77e17651c547f3a03db71f"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 1,
+                  "unit": "scene"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                  "anchor": "L45",
+                  "sectionSha256": "e0bc07950f449cff8480698b95bf1152a815353abf77e17651c547f3a03db71f"
+                }
+              },
+              {
+                "semanticStatus": "not-encoded",
+                "value": null,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                  "anchor": "L45",
+                  "sectionSha256": "e0bc07950f449cff8480698b95bf1152a815353abf77e17651c547f3a03db71f"
+                }
+              },
+              {
+                "semanticStatus": "not-encoded",
+                "value": null,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                  "anchor": "L45",
+                  "sectionSha256": "e0bc07950f449cff8480698b95bf1152a815353abf77e17651c547f3a03db71f"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+              "anchor": "L45",
+              "sectionSha256": "e0bc07950f449cff8480698b95bf1152a815353abf77e17651c547f3a03db71f"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                  "anchor": "L45",
+                  "sectionSha256": "e0bc07950f449cff8480698b95bf1152a815353abf77e17651c547f3a03db71f"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 3,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                  "anchor": "L45",
+                  "sectionSha256": "e0bc07950f449cff8480698b95bf1152a815353abf77e17651c547f3a03db71f"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+              "anchor": "L45",
+              "sectionSha256": "e0bc07950f449cff8480698b95bf1152a815353abf77e17651c547f3a03db71f"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+              "anchor": "L45",
+              "sectionSha256": "e0bc07950f449cff8480698b95bf1152a815353abf77e17651c547f3a03db71f"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+              "anchor": "L45",
+              "sectionSha256": "e0bc07950f449cff8480698b95bf1152a815353abf77e17651c547f3a03db71f"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+              "anchor": "L45",
+              "sectionSha256": "e0bc07950f449cff8480698b95bf1152a815353abf77e17651c547f3a03db71f"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "capability-reference",
+              "capability": "免疫困难地形",
+              "semanticStatus": "not-encoded",
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                "anchor": "L45",
+                "sectionSha256": "e0bc07950f449cff8480698b95bf1152a815353abf77e17651c547f3a03db71f"
+              }
+            },
+            {
+              "kind": "numeric-modifier",
+              "stat": "speed",
+              "value": 40,
+              "mode": "increase",
+              "bonusType": "unspecified-in-fragment",
+              "target": "self",
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "full-conditions",
+                "inheritance-and-stacking"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                "anchor": "L45",
+                "sectionSha256": "e0bc07950f449cff8480698b95bf1152a815353abf77e17651c547f3a03db71f"
+              }
+            },
+            {
+              "kind": "typed-bonus",
+              "bonusType": "增强",
+              "value": 18,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                "anchor": "L45",
+                "sectionSha256": "e0bc07950f449cff8480698b95bf1152a815353abf77e17651c547f3a03db71f"
+              }
+            },
+            {
+              "kind": "typed-bonus",
+              "bonusType": "洞察",
+              "value": 16,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                "anchor": "L45",
+                "sectionSha256": "e0bc07950f449cff8480698b95bf1152a815353abf77e17651c547f3a03db71f"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-72386108236927c3--c6c06922eb4a",
+          "name": "亚马逊生存技能·B级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+            "anchor": "L83",
+            "sectionSha256": "67821d1a09e6bdf5828ca30c73bed464b90be255995d847c64fa4a21feb4a623"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/亚马逊生存技能.md",
+              "sha256": "9844653f2d1c759cf981c2d5437cf680437f3b895377af9b98a0b8c8abeb6f59",
+              "lineRanges": [
+                [
+                  83,
+                  89
+                ],
+                [
+                  91,
+                  91
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                  "anchor": "L83",
+                  "sectionSha256": "67821d1a09e6bdf5828ca30c73bed464b90be255995d847c64fa4a21feb4a623"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-72386108236927c3--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [
+                {
+                  "semanticStatus": "not-encoded",
+                  "value": null,
+                  "sourceRef": {
+                    "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                    "anchor": "L83",
+                    "sectionSha256": "67821d1a09e6bdf5828ca30c73bed464b90be255995d847c64fa4a21feb4a623"
+                  }
+                }
+              ],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+              "anchor": "L83",
+              "sectionSha256": "67821d1a09e6bdf5828ca30c73bed464b90be255995d847c64fa4a21feb4a623"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "not-encoded",
+                "value": null,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                  "anchor": "L83",
+                  "sectionSha256": "67821d1a09e6bdf5828ca30c73bed464b90be255995d847c64fa4a21feb4a623"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+              "anchor": "L83",
+              "sectionSha256": "67821d1a09e6bdf5828ca30c73bed464b90be255995d847c64fa4a21feb4a623"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "none"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+                  "anchor": "L83",
+                  "sectionSha256": "67821d1a09e6bdf5828ca30c73bed464b90be255995d847c64fa4a21feb4a623"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+              "anchor": "L83",
+              "sectionSha256": "67821d1a09e6bdf5828ca30c73bed464b90be255995d847c64fa4a21feb4a623"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+              "anchor": "L83",
+              "sectionSha256": "67821d1a09e6bdf5828ca30c73bed464b90be255995d847c64fa4a21feb4a623"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+              "anchor": "L83",
+              "sectionSha256": "67821d1a09e6bdf5828ca30c73bed464b90be255995d847c64fa4a21feb4a623"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/120-亚马逊生存技能.md",
+              "anchor": "L83",
+              "sectionSha256": "67821d1a09e6bdf5828ca30c73bed464b90be255995d847c64fa4a21feb4a623"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "亚马逊生存技能",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "亚马逊生存技能·D级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "亚马逊生存技能·C级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "亚马逊生存技能·B级阶段",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-72386108236927c3--4ecb58f262e8--intent",
+      "name": "亚马逊生存技能·D级阶段",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ],
+          [
+            "standard",
+            "swift"
+          ],
+          [
+            "standard",
+            "move"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-72386108236927c3--4ecb58f262e8",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-72386108236927c3--534d62d82647--intent",
+      "name": "亚马逊生存技能·C级阶段",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ],
+          [
+            "free"
+          ],
+          [
+            "swift"
+          ],
+          [
+            "standard",
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-72386108236927c3--534d62d82647",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "prerequisite-logic-not-fully-encoded",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "attack-program-hardcodes-INT-and-casting",
+    "duration-inheritance-and-no-implicit-refresh"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

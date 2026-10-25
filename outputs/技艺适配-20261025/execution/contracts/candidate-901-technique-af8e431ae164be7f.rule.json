@@ -1,0 +1,933 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-af8e431ae164be7f",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "杯弓蛇影箭",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J06",
+    "aliases": [
+      "杯弓蛇影箭",
+      "杯弓蛇影箭·D级阶段",
+      "杯弓蛇影箭·C级阶段",
+      "杯弓蛇影箭·B级阶段",
+      "杯弓蛇影箭·A级阶段"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/远程类型/杯弓蛇影箭.md",
+        "sha256": "bf2901269eee5f40e0dc8e87478bd08ae71138f564ce3be52660583719effe8d",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            33
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+    "sha256": "a8a7acb3072f889c7f4a0e88867bf9e57de24e3c496616cfec6e71bb7389a4bc"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-af8e431ae164be7f--0ae594c1109f",
+          "name": "杯弓蛇影箭",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+            "anchor": "条目",
+            "sectionSha256": "928e0af0934c3e884635e374b6f07715edb915caddb3ac99b59ca00aa5425d47"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/远程类型/杯弓蛇影箭.md",
+              "sha256": "bf2901269eee5f40e0dc8e87478bd08ae71138f564ce3be52660583719effe8d",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  11
+                ],
+                [
+                  13,
+                  13
+                ],
+                [
+                  19,
+                  19
+                ],
+                [
+                  24,
+                  24
+                ],
+                [
+                  29,
+                  29
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "条目",
+              "sectionSha256": "928e0af0934c3e884635e374b6f07715edb915caddb3ac99b59ca00aa5425d47"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "条目",
+              "sectionSha256": "928e0af0934c3e884635e374b6f07715edb915caddb3ac99b59ca00aa5425d47"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "条目",
+              "sectionSha256": "928e0af0934c3e884635e374b6f07715edb915caddb3ac99b59ca00aa5425d47"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "条目",
+              "sectionSha256": "928e0af0934c3e884635e374b6f07715edb915caddb3ac99b59ca00aa5425d47"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "条目",
+              "sectionSha256": "928e0af0934c3e884635e374b6f07715edb915caddb3ac99b59ca00aa5425d47"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "条目",
+              "sectionSha256": "928e0af0934c3e884635e374b6f07715edb915caddb3ac99b59ca00aa5425d47"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-af8e431ae164be7f--3f6b5ef2df8d",
+          "name": "杯弓蛇影箭·D级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+            "anchor": "L12",
+            "sectionSha256": "d5f289806727e9c24d1e23a33b321a77189311f9d873c03d8f923938bd79a649"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/远程类型/杯弓蛇影箭.md",
+              "sha256": "bf2901269eee5f40e0dc8e87478bd08ae71138f564ce3be52660583719effe8d",
+              "lineRanges": [
+                [
+                  12,
+                  12
+                ],
+                [
+                  14,
+                  17
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+                  "anchor": "L12",
+                  "sectionSha256": "d5f289806727e9c24d1e23a33b321a77189311f9d873c03d8f923938bd79a649"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-af8e431ae164be7f--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "L12",
+              "sectionSha256": "d5f289806727e9c24d1e23a33b321a77189311f9d873c03d8f923938bd79a649"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "L12",
+              "sectionSha256": "d5f289806727e9c24d1e23a33b321a77189311f9d873c03d8f923938bd79a649"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "L12",
+              "sectionSha256": "d5f289806727e9c24d1e23a33b321a77189311f9d873c03d8f923938bd79a649"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "L12",
+              "sectionSha256": "d5f289806727e9c24d1e23a33b321a77189311f9d873c03d8f923938bd79a649"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "L12",
+              "sectionSha256": "d5f289806727e9c24d1e23a33b321a77189311f9d873c03d8f923938bd79a649"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "L12",
+              "sectionSha256": "d5f289806727e9c24d1e23a33b321a77189311f9d873c03d8f923938bd79a649"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-af8e431ae164be7f--cc1ba94005d5",
+          "name": "杯弓蛇影箭·C级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+            "anchor": "L18",
+            "sectionSha256": "177617fb4a1bff587d3a6691a76df27ec342896ec37f9a632cb795c9067facd4"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/远程类型/杯弓蛇影箭.md",
+              "sha256": "bf2901269eee5f40e0dc8e87478bd08ae71138f564ce3be52660583719effe8d",
+              "lineRanges": [
+                [
+                  18,
+                  18
+                ],
+                [
+                  20,
+                  22
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+                  "anchor": "L18",
+                  "sectionSha256": "177617fb4a1bff587d3a6691a76df27ec342896ec37f9a632cb795c9067facd4"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-af8e431ae164be7f--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "L18",
+              "sectionSha256": "177617fb4a1bff587d3a6691a76df27ec342896ec37f9a632cb795c9067facd4"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "L18",
+              "sectionSha256": "177617fb4a1bff587d3a6691a76df27ec342896ec37f9a632cb795c9067facd4"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "L18",
+              "sectionSha256": "177617fb4a1bff587d3a6691a76df27ec342896ec37f9a632cb795c9067facd4"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "L18",
+              "sectionSha256": "177617fb4a1bff587d3a6691a76df27ec342896ec37f9a632cb795c9067facd4"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "L18",
+              "sectionSha256": "177617fb4a1bff587d3a6691a76df27ec342896ec37f9a632cb795c9067facd4"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "L18",
+              "sectionSha256": "177617fb4a1bff587d3a6691a76df27ec342896ec37f9a632cb795c9067facd4"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-af8e431ae164be7f--b4958c67124e",
+          "name": "杯弓蛇影箭·B级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+            "anchor": "L23",
+            "sectionSha256": "879ff3840ce88be5105e2cf71dbce18e595081f10d1a3a0f3f2ee3c1b7ca0a39"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/远程类型/杯弓蛇影箭.md",
+              "sha256": "bf2901269eee5f40e0dc8e87478bd08ae71138f564ce3be52660583719effe8d",
+              "lineRanges": [
+                [
+                  23,
+                  23
+                ],
+                [
+                  25,
+                  27
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+                  "anchor": "L23",
+                  "sectionSha256": "879ff3840ce88be5105e2cf71dbce18e595081f10d1a3a0f3f2ee3c1b7ca0a39"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-af8e431ae164be7f--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "L23",
+              "sectionSha256": "879ff3840ce88be5105e2cf71dbce18e595081f10d1a3a0f3f2ee3c1b7ca0a39"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "L23",
+              "sectionSha256": "879ff3840ce88be5105e2cf71dbce18e595081f10d1a3a0f3f2ee3c1b7ca0a39"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "L23",
+              "sectionSha256": "879ff3840ce88be5105e2cf71dbce18e595081f10d1a3a0f3f2ee3c1b7ca0a39"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "L23",
+              "sectionSha256": "879ff3840ce88be5105e2cf71dbce18e595081f10d1a3a0f3f2ee3c1b7ca0a39"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "L23",
+              "sectionSha256": "879ff3840ce88be5105e2cf71dbce18e595081f10d1a3a0f3f2ee3c1b7ca0a39"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "L23",
+              "sectionSha256": "879ff3840ce88be5105e2cf71dbce18e595081f10d1a3a0f3f2ee3c1b7ca0a39"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-af8e431ae164be7f--36402ecb137e",
+          "name": "杯弓蛇影箭·A级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+            "anchor": "L28",
+            "sectionSha256": "86b05e2188955afbdd229fa27668acfaf60eae3b34798688c9acf9df3635aee8"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/远程类型/杯弓蛇影箭.md",
+              "sha256": "bf2901269eee5f40e0dc8e87478bd08ae71138f564ce3be52660583719effe8d",
+              "lineRanges": [
+                [
+                  28,
+                  28
+                ],
+                [
+                  30,
+                  33
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+                  "anchor": "L28",
+                  "sectionSha256": "86b05e2188955afbdd229fa27668acfaf60eae3b34798688c9acf9df3635aee8"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-af8e431ae164be7f--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "L28",
+              "sectionSha256": "86b05e2188955afbdd229fa27668acfaf60eae3b34798688c9acf9df3635aee8"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "L28",
+              "sectionSha256": "86b05e2188955afbdd229fa27668acfaf60eae3b34798688c9acf9df3635aee8"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "L28",
+              "sectionSha256": "86b05e2188955afbdd229fa27668acfaf60eae3b34798688c9acf9df3635aee8"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "L28",
+              "sectionSha256": "86b05e2188955afbdd229fa27668acfaf60eae3b34798688c9acf9df3635aee8"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "L28",
+              "sectionSha256": "86b05e2188955afbdd229fa27668acfaf60eae3b34798688c9acf9df3635aee8"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/074-杯弓蛇影箭.md",
+              "anchor": "L28",
+              "sectionSha256": "86b05e2188955afbdd229fa27668acfaf60eae3b34798688c9acf9df3635aee8"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "杯弓蛇影箭",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "杯弓蛇影箭·D级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "杯弓蛇影箭·C级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "杯弓蛇影箭·B级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "杯弓蛇影箭·A级阶段",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-af8e431ae164be7f--b4958c67124e--intent",
+      "name": "杯弓蛇影箭·B级阶段",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-af8e431ae164be7f--b4958c67124e",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "duration-inheritance-and-no-implicit-refresh",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

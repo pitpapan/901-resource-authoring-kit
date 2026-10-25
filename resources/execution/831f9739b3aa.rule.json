@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "jiang.iron_will",
-  "version": "2026-10-23.1",
+  "version": "2026-10-24.1",
   "identity": {
     "name": "钢铁意志4级",
     "grade": null,
@@ -82,7 +82,17 @@
       "set": {
         "steelWill": 0
       }
-    }
+    },
+    "legacyProfiles": [
+      {
+        "ruleset": "comparison-20261020",
+        "kind": "jiang",
+        "set": {
+          "steelWill": 0,
+          "will": 0
+        }
+      }
+    ]
   },
   "clauses": [
     {

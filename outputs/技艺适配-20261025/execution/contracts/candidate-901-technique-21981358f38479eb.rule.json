@@ -1,0 +1,1686 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-21981358f38479eb",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "盘蛇七冲阵",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J04",
+    "aliases": [
+      "盘蛇七冲阵",
+      "蛇阵",
+      "千芒",
+      "百夜",
+      "风劲",
+      "三鬼",
+      "元蛟",
+      "七探七变七幻截"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/盘蛇七冲阵.md",
+        "sha256": "017e762960369f586721458681405ec5837c8c81c9c2fdec54eb96d9861d1ed8",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            52
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+    "sha256": "77bb9328242d732542036d394c27e7cddef4954ea8d56f646254c63dd9600fe7"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-21981358f38479eb--0ae594c1109f",
+          "name": "盘蛇七冲阵",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+            "anchor": "条目",
+            "sectionSha256": "60b9bd2c8e1a41d6cc0f6cfb55fd6ad2132c55c424e7df0c0df61b277f926a43"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/盘蛇七冲阵.md",
+              "sha256": "017e762960369f586721458681405ec5837c8c81c9c2fdec54eb96d9861d1ed8",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  9
+                ],
+                [
+                  11,
+                  12
+                ],
+                [
+                  19,
+                  19
+                ],
+                [
+                  25,
+                  25
+                ],
+                [
+                  30,
+                  30
+                ],
+                [
+                  36,
+                  36
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+                  "anchor": "条目",
+                  "sectionSha256": "60b9bd2c8e1a41d6cc0f6cfb55fd6ad2132c55c424e7df0c0df61b277f926a43"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "条目",
+              "sectionSha256": "60b9bd2c8e1a41d6cc0f6cfb55fd6ad2132c55c424e7df0c0df61b277f926a43"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "条目",
+              "sectionSha256": "60b9bd2c8e1a41d6cc0f6cfb55fd6ad2132c55c424e7df0c0df61b277f926a43"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "条目",
+              "sectionSha256": "60b9bd2c8e1a41d6cc0f6cfb55fd6ad2132c55c424e7df0c0df61b277f926a43"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "条目",
+              "sectionSha256": "60b9bd2c8e1a41d6cc0f6cfb55fd6ad2132c55c424e7df0c0df61b277f926a43"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "条目",
+              "sectionSha256": "60b9bd2c8e1a41d6cc0f6cfb55fd6ad2132c55c424e7df0c0df61b277f926a43"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "条目",
+              "sectionSha256": "60b9bd2c8e1a41d6cc0f6cfb55fd6ad2132c55c424e7df0c0df61b277f926a43"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-21981358f38479eb--79cfaa5a36db",
+          "name": "蛇阵",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+            "anchor": "L10",
+            "sectionSha256": "5d252e12daabd0f4d1288cfacd14cbb5e8bd72a3fbffa50df339dc695bf22dbc"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/盘蛇七冲阵.md",
+              "sha256": "017e762960369f586721458681405ec5837c8c81c9c2fdec54eb96d9861d1ed8",
+              "lineRanges": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  13,
+                  17
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+                  "anchor": "L10",
+                  "sectionSha256": "5d252e12daabd0f4d1288cfacd14cbb5e8bd72a3fbffa50df339dc695bf22dbc"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "move"
+              ],
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-21981358f38479eb--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L10",
+              "sectionSha256": "5d252e12daabd0f4d1288cfacd14cbb5e8bd72a3fbffa50df339dc695bf22dbc"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L10",
+              "sectionSha256": "5d252e12daabd0f4d1288cfacd14cbb5e8bd72a3fbffa50df339dc695bf22dbc"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L10",
+              "sectionSha256": "5d252e12daabd0f4d1288cfacd14cbb5e8bd72a3fbffa50df339dc695bf22dbc"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L10",
+              "sectionSha256": "5d252e12daabd0f4d1288cfacd14cbb5e8bd72a3fbffa50df339dc695bf22dbc"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L10",
+              "sectionSha256": "5d252e12daabd0f4d1288cfacd14cbb5e8bd72a3fbffa50df339dc695bf22dbc"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L10",
+              "sectionSha256": "5d252e12daabd0f4d1288cfacd14cbb5e8bd72a3fbffa50df339dc695bf22dbc"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-21981358f38479eb--cc1ba94005d5",
+          "name": "千芒",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+            "anchor": "L18",
+            "sectionSha256": "802e9b81bc453d61c48d5cc179ede662d0ce57451cc414a750593fb4c2e1ccd6"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/盘蛇七冲阵.md",
+              "sha256": "017e762960369f586721458681405ec5837c8c81c9c2fdec54eb96d9861d1ed8",
+              "lineRanges": [
+                [
+                  18,
+                  18
+                ],
+                [
+                  20,
+                  23
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+                  "anchor": "L18",
+                  "sectionSha256": "802e9b81bc453d61c48d5cc179ede662d0ce57451cc414a750593fb4c2e1ccd6"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-21981358f38479eb--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L18",
+              "sectionSha256": "802e9b81bc453d61c48d5cc179ede662d0ce57451cc414a750593fb4c2e1ccd6"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L18",
+              "sectionSha256": "802e9b81bc453d61c48d5cc179ede662d0ce57451cc414a750593fb4c2e1ccd6"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 3,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+                  "anchor": "L18",
+                  "sectionSha256": "802e9b81bc453d61c48d5cc179ede662d0ce57451cc414a750593fb4c2e1ccd6"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L18",
+              "sectionSha256": "802e9b81bc453d61c48d5cc179ede662d0ce57451cc414a750593fb4c2e1ccd6"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L18",
+              "sectionSha256": "802e9b81bc453d61c48d5cc179ede662d0ce57451cc414a750593fb4c2e1ccd6"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L18",
+              "sectionSha256": "802e9b81bc453d61c48d5cc179ede662d0ce57451cc414a750593fb4c2e1ccd6"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L18",
+              "sectionSha256": "802e9b81bc453d61c48d5cc179ede662d0ce57451cc414a750593fb4c2e1ccd6"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-21981358f38479eb--ebe53cbe39d6",
+          "name": "百夜",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+            "anchor": "L24",
+            "sectionSha256": "3443f29942a075595121ab252cb4c2479f60cd4df68f1121ea7cfbbbe7469913"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/盘蛇七冲阵.md",
+              "sha256": "017e762960369f586721458681405ec5837c8c81c9c2fdec54eb96d9861d1ed8",
+              "lineRanges": [
+                [
+                  24,
+                  24
+                ],
+                [
+                  26,
+                  28
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+                  "anchor": "L24",
+                  "sectionSha256": "3443f29942a075595121ab252cb4c2479f60cd4df68f1121ea7cfbbbe7469913"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ],
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-21981358f38479eb--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L24",
+              "sectionSha256": "3443f29942a075595121ab252cb4c2479f60cd4df68f1121ea7cfbbbe7469913"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L24",
+              "sectionSha256": "3443f29942a075595121ab252cb4c2479f60cd4df68f1121ea7cfbbbe7469913"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+                  "anchor": "L24",
+                  "sectionSha256": "3443f29942a075595121ab252cb4c2479f60cd4df68f1121ea7cfbbbe7469913"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L24",
+              "sectionSha256": "3443f29942a075595121ab252cb4c2479f60cd4df68f1121ea7cfbbbe7469913"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L24",
+              "sectionSha256": "3443f29942a075595121ab252cb4c2479f60cd4df68f1121ea7cfbbbe7469913"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L24",
+              "sectionSha256": "3443f29942a075595121ab252cb4c2479f60cd4df68f1121ea7cfbbbe7469913"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L24",
+              "sectionSha256": "3443f29942a075595121ab252cb4c2479f60cd4df68f1121ea7cfbbbe7469913"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-21981358f38479eb--bc2b72915c17",
+          "name": "风劲",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+            "anchor": "L29",
+            "sectionSha256": "190d803b92fd30d7d6812fe99bff7ea702201553fb2baadb405e3657f03dbd35"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/盘蛇七冲阵.md",
+              "sha256": "017e762960369f586721458681405ec5837c8c81c9c2fdec54eb96d9861d1ed8",
+              "lineRanges": [
+                [
+                  29,
+                  29
+                ],
+                [
+                  31,
+                  34
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+                  "anchor": "L29",
+                  "sectionSha256": "190d803b92fd30d7d6812fe99bff7ea702201553fb2baadb405e3657f03dbd35"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-21981358f38479eb--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L29",
+              "sectionSha256": "190d803b92fd30d7d6812fe99bff7ea702201553fb2baadb405e3657f03dbd35"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L29",
+              "sectionSha256": "190d803b92fd30d7d6812fe99bff7ea702201553fb2baadb405e3657f03dbd35"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L29",
+              "sectionSha256": "190d803b92fd30d7d6812fe99bff7ea702201553fb2baadb405e3657f03dbd35"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L29",
+              "sectionSha256": "190d803b92fd30d7d6812fe99bff7ea702201553fb2baadb405e3657f03dbd35"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L29",
+              "sectionSha256": "190d803b92fd30d7d6812fe99bff7ea702201553fb2baadb405e3657f03dbd35"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L29",
+              "sectionSha256": "190d803b92fd30d7d6812fe99bff7ea702201553fb2baadb405e3657f03dbd35"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-21981358f38479eb--5668a86e7a81",
+          "name": "三鬼",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+            "anchor": "L35",
+            "sectionSha256": "8c7969435cd295917df38eb7848be193166d5ee5cfe964ebd5335854780bec41"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/盘蛇七冲阵.md",
+              "sha256": "017e762960369f586721458681405ec5837c8c81c9c2fdec54eb96d9861d1ed8",
+              "lineRanges": [
+                [
+                  35,
+                  35
+                ],
+                [
+                  37,
+                  41
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+                  "anchor": "L35",
+                  "sectionSha256": "8c7969435cd295917df38eb7848be193166d5ee5cfe964ebd5335854780bec41"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-21981358f38479eb--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L35",
+              "sectionSha256": "8c7969435cd295917df38eb7848be193166d5ee5cfe964ebd5335854780bec41"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L35",
+              "sectionSha256": "8c7969435cd295917df38eb7848be193166d5ee5cfe964ebd5335854780bec41"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+                  "anchor": "L35",
+                  "sectionSha256": "8c7969435cd295917df38eb7848be193166d5ee5cfe964ebd5335854780bec41"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L35",
+              "sectionSha256": "8c7969435cd295917df38eb7848be193166d5ee5cfe964ebd5335854780bec41"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L35",
+              "sectionSha256": "8c7969435cd295917df38eb7848be193166d5ee5cfe964ebd5335854780bec41"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L35",
+              "sectionSha256": "8c7969435cd295917df38eb7848be193166d5ee5cfe964ebd5335854780bec41"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L35",
+              "sectionSha256": "8c7969435cd295917df38eb7848be193166d5ee5cfe964ebd5335854780bec41"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-21981358f38479eb--277d906bc615",
+          "name": "元蛟",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+            "anchor": "L42",
+            "sectionSha256": "30bf6ee647d9deee5a18f9676b7cb737863c6efd800b96232848c9af57c5854a"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/盘蛇七冲阵.md",
+              "sha256": "017e762960369f586721458681405ec5837c8c81c9c2fdec54eb96d9861d1ed8",
+              "lineRanges": [
+                [
+                  42,
+                  46
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+                  "anchor": "L42",
+                  "sectionSha256": "30bf6ee647d9deee5a18f9676b7cb737863c6efd800b96232848c9af57c5854a"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-21981358f38479eb--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L42",
+              "sectionSha256": "30bf6ee647d9deee5a18f9676b7cb737863c6efd800b96232848c9af57c5854a"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L42",
+              "sectionSha256": "30bf6ee647d9deee5a18f9676b7cb737863c6efd800b96232848c9af57c5854a"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L42",
+              "sectionSha256": "30bf6ee647d9deee5a18f9676b7cb737863c6efd800b96232848c9af57c5854a"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L42",
+              "sectionSha256": "30bf6ee647d9deee5a18f9676b7cb737863c6efd800b96232848c9af57c5854a"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L42",
+              "sectionSha256": "30bf6ee647d9deee5a18f9676b7cb737863c6efd800b96232848c9af57c5854a"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L42",
+              "sectionSha256": "30bf6ee647d9deee5a18f9676b7cb737863c6efd800b96232848c9af57c5854a"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-21981358f38479eb--8172b22c0855",
+          "name": "七探七变七幻截",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+            "anchor": "L47",
+            "sectionSha256": "cfa9ed6ac6bd9f1a3045f29df713ff28464eb98ea69cb2af0bb1cb579d9f3dcc"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/盘蛇七冲阵.md",
+              "sha256": "017e762960369f586721458681405ec5837c8c81c9c2fdec54eb96d9861d1ed8",
+              "lineRanges": [
+                [
+                  47,
+                  52
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+                  "anchor": "L47",
+                  "sectionSha256": "cfa9ed6ac6bd9f1a3045f29df713ff28464eb98ea69cb2af0bb1cb579d9f3dcc"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ],
+              [
+                "free"
+              ],
+              [
+                "move"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-21981358f38479eb--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+                  "anchor": "L47",
+                  "sectionSha256": "cfa9ed6ac6bd9f1a3045f29df713ff28464eb98ea69cb2af0bb1cb579d9f3dcc"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L47",
+              "sectionSha256": "cfa9ed6ac6bd9f1a3045f29df713ff28464eb98ea69cb2af0bb1cb579d9f3dcc"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L47",
+              "sectionSha256": "cfa9ed6ac6bd9f1a3045f29df713ff28464eb98ea69cb2af0bb1cb579d9f3dcc"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+                  "anchor": "L47",
+                  "sectionSha256": "cfa9ed6ac6bd9f1a3045f29df713ff28464eb98ea69cb2af0bb1cb579d9f3dcc"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L47",
+              "sectionSha256": "cfa9ed6ac6bd9f1a3045f29df713ff28464eb98ea69cb2af0bb1cb579d9f3dcc"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L47",
+              "sectionSha256": "cfa9ed6ac6bd9f1a3045f29df713ff28464eb98ea69cb2af0bb1cb579d9f3dcc"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L47",
+              "sectionSha256": "cfa9ed6ac6bd9f1a3045f29df713ff28464eb98ea69cb2af0bb1cb579d9f3dcc"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/041-盘蛇七冲阵.md",
+              "anchor": "L47",
+              "sectionSha256": "cfa9ed6ac6bd9f1a3045f29df713ff28464eb98ea69cb2af0bb1cb579d9f3dcc"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "盘蛇七冲阵",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "蛇阵",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "千芒",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "百夜",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "风劲",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "三鬼",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "元蛟",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "七探七变七幻截",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-21981358f38479eb--79cfaa5a36db--intent",
+      "name": "蛇阵",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "move"
+          ],
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-21981358f38479eb--79cfaa5a36db",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-21981358f38479eb--cc1ba94005d5--intent",
+      "name": "千芒",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-21981358f38479eb--cc1ba94005d5",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-21981358f38479eb--ebe53cbe39d6--intent",
+      "name": "百夜",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ],
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-21981358f38479eb--ebe53cbe39d6",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-21981358f38479eb--bc2b72915c17--intent",
+      "name": "风劲",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-21981358f38479eb--bc2b72915c17",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-21981358f38479eb--5668a86e7a81--intent",
+      "name": "三鬼",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-21981358f38479eb--5668a86e7a81",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-21981358f38479eb--277d906bc615--intent",
+      "name": "元蛟",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-21981358f38479eb--277d906bc615",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-21981358f38479eb--8172b22c0855--intent",
+      "name": "七探七变七幻截",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ],
+          [
+            "free"
+          ],
+          [
+            "move"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-21981358f38479eb--8172b22c0855",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "prerequisite-logic-not-fully-encoded",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "attack-program-hardcodes-INT-and-casting",
+    "duration-inheritance-and-no-implicit-refresh"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

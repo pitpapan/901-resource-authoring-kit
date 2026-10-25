@@ -1,0 +1,1886 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-e44f2301f209dafc",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "各种其他一次性被动",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J08",
+    "aliases": [
+      "各种其他一次性被动",
+      "月衣",
+      "新恐变化",
+      "噬文者",
+      "预言梦",
+      "贞洁誓言",
+      "浮游移动",
+      "自动再生",
+      "能量恢复移动",
+      "三教合一",
+      "纵使迎来三度日落",
+      "十二试炼"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/各种其他一次性被动.md",
+        "sha256": "c2952e7e6dd9bbcfb0f26544592701798b0c7672740180c7ac6ce8843aa05c69",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            67
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+    "sha256": "676cd0f904a73a5ae4ea52bdd281d91a96c15b47146f4e292ebe9aabee4459ec"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-e44f2301f209dafc--0ae594c1109f",
+          "name": "各种其他一次性被动",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+            "anchor": "条目",
+            "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/各种其他一次性被动.md",
+              "sha256": "c2952e7e6dd9bbcfb0f26544592701798b0c7672740180c7ac6ce8843aa05c69",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  7,
+                  7
+                ],
+                [
+                  34,
+                  34
+                ],
+                [
+                  37,
+                  37
+                ],
+                [
+                  41,
+                  41
+                ],
+                [
+                  46,
+                  46
+                ],
+                [
+                  49,
+                  49
+                ],
+                [
+                  53,
+                  53
+                ],
+                [
+                  57,
+                  57
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-e44f2301f209dafc--b3cc20089aab",
+          "name": "月衣",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+            "anchor": "L6",
+            "sectionSha256": "bf91b3d7e86295729bfddae4c8c82a09c307c35b73aa83d0280d6229a9825659"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/各种其他一次性被动.md",
+              "sha256": "c2952e7e6dd9bbcfb0f26544592701798b0c7672740180c7ac6ce8843aa05c69",
+              "lineRanges": [
+                [
+                  6,
+                  6
+                ],
+                [
+                  8,
+                  12
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+                  "anchor": "L6",
+                  "sectionSha256": "bf91b3d7e86295729bfddae4c8c82a09c307c35b73aa83d0280d6229a9825659"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "move"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-e44f2301f209dafc--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L6",
+              "sectionSha256": "bf91b3d7e86295729bfddae4c8c82a09c307c35b73aa83d0280d6229a9825659"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L6",
+              "sectionSha256": "bf91b3d7e86295729bfddae4c8c82a09c307c35b73aa83d0280d6229a9825659"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L6",
+              "sectionSha256": "bf91b3d7e86295729bfddae4c8c82a09c307c35b73aa83d0280d6229a9825659"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L6",
+              "sectionSha256": "bf91b3d7e86295729bfddae4c8c82a09c307c35b73aa83d0280d6229a9825659"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L6",
+              "sectionSha256": "bf91b3d7e86295729bfddae4c8c82a09c307c35b73aa83d0280d6229a9825659"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L6",
+              "sectionSha256": "bf91b3d7e86295729bfddae4c8c82a09c307c35b73aa83d0280d6229a9825659"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-e44f2301f209dafc--305b22853ae6",
+          "name": "新恐变化",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+            "anchor": "L13",
+            "sectionSha256": "7fb4d15c60f46e25a1fb9bb478e3442a01d4aa87a6e6edfd63d0a4b2f0aad717"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/各种其他一次性被动.md",
+              "sha256": "c2952e7e6dd9bbcfb0f26544592701798b0c7672740180c7ac6ce8843aa05c69",
+              "lineRanges": [
+                [
+                  13,
+                  31
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+                  "anchor": "L13",
+                  "sectionSha256": "7fb4d15c60f46e25a1fb9bb478e3442a01d4aa87a6e6edfd63d0a4b2f0aad717"
+                }
+              },
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 1,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+                  "anchor": "L13",
+                  "sectionSha256": "7fb4d15c60f46e25a1fb9bb478e3442a01d4aa87a6e6edfd63d0a4b2f0aad717"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-e44f2301f209dafc--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L13",
+              "sectionSha256": "7fb4d15c60f46e25a1fb9bb478e3442a01d4aa87a6e6edfd63d0a4b2f0aad717"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L13",
+              "sectionSha256": "7fb4d15c60f46e25a1fb9bb478e3442a01d4aa87a6e6edfd63d0a4b2f0aad717"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L13",
+              "sectionSha256": "7fb4d15c60f46e25a1fb9bb478e3442a01d4aa87a6e6edfd63d0a4b2f0aad717"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L13",
+              "sectionSha256": "7fb4d15c60f46e25a1fb9bb478e3442a01d4aa87a6e6edfd63d0a4b2f0aad717"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L13",
+              "sectionSha256": "7fb4d15c60f46e25a1fb9bb478e3442a01d4aa87a6e6edfd63d0a4b2f0aad717"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L13",
+              "sectionSha256": "7fb4d15c60f46e25a1fb9bb478e3442a01d4aa87a6e6edfd63d0a4b2f0aad717"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "capability-reference",
+              "capability": "快速医疗",
+              "semanticStatus": "not-encoded",
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+                "anchor": "L13",
+                "sectionSha256": "7fb4d15c60f46e25a1fb9bb478e3442a01d4aa87a6e6edfd63d0a4b2f0aad717"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-e44f2301f209dafc--aaa309ab9c57",
+          "name": "预言梦",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+            "anchor": "L32",
+            "sectionSha256": "24d20a0f395fc987c2cf020756927017da64b067c9858f47ede430d945cd07ae"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/各种其他一次性被动.md",
+              "sha256": "c2952e7e6dd9bbcfb0f26544592701798b0c7672740180c7ac6ce8843aa05c69",
+              "lineRanges": [
+                [
+                  32,
+                  33
+                ],
+                [
+                  35,
+                  35
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+                  "anchor": "L32",
+                  "sectionSha256": "24d20a0f395fc987c2cf020756927017da64b067c9858f47ede430d945cd07ae"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-e44f2301f209dafc--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L32",
+              "sectionSha256": "24d20a0f395fc987c2cf020756927017da64b067c9858f47ede430d945cd07ae"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L32",
+              "sectionSha256": "24d20a0f395fc987c2cf020756927017da64b067c9858f47ede430d945cd07ae"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L32",
+              "sectionSha256": "24d20a0f395fc987c2cf020756927017da64b067c9858f47ede430d945cd07ae"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L32",
+              "sectionSha256": "24d20a0f395fc987c2cf020756927017da64b067c9858f47ede430d945cd07ae"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L32",
+              "sectionSha256": "24d20a0f395fc987c2cf020756927017da64b067c9858f47ede430d945cd07ae"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L32",
+              "sectionSha256": "24d20a0f395fc987c2cf020756927017da64b067c9858f47ede430d945cd07ae"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-e44f2301f209dafc--dcf306fd971c",
+          "name": "贞洁誓言",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+            "anchor": "L36",
+            "sectionSha256": "f699157933f739a55e14ba52690276da8ee95e3e441df77fb4663e6f93f97a07"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/各种其他一次性被动.md",
+              "sha256": "c2952e7e6dd9bbcfb0f26544592701798b0c7672740180c7ac6ce8843aa05c69",
+              "lineRanges": [
+                [
+                  36,
+                  36
+                ],
+                [
+                  38,
+                  40
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+                  "anchor": "L36",
+                  "sectionSha256": "f699157933f739a55e14ba52690276da8ee95e3e441df77fb4663e6f93f97a07"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-e44f2301f209dafc--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+                  "anchor": "L36",
+                  "sectionSha256": "f699157933f739a55e14ba52690276da8ee95e3e441df77fb4663e6f93f97a07"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L36",
+              "sectionSha256": "f699157933f739a55e14ba52690276da8ee95e3e441df77fb4663e6f93f97a07"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L36",
+              "sectionSha256": "f699157933f739a55e14ba52690276da8ee95e3e441df77fb4663e6f93f97a07"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L36",
+              "sectionSha256": "f699157933f739a55e14ba52690276da8ee95e3e441df77fb4663e6f93f97a07"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L36",
+              "sectionSha256": "f699157933f739a55e14ba52690276da8ee95e3e441df77fb4663e6f93f97a07"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L36",
+              "sectionSha256": "f699157933f739a55e14ba52690276da8ee95e3e441df77fb4663e6f93f97a07"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L36",
+              "sectionSha256": "f699157933f739a55e14ba52690276da8ee95e3e441df77fb4663e6f93f97a07"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "神圣",
+              "value": 2,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+                "anchor": "L36",
+                "sectionSha256": "f699157933f739a55e14ba52690276da8ee95e3e441df77fb4663e6f93f97a07"
+              }
+            },
+            {
+              "kind": "typed-bonus",
+              "bonusType": "神圣",
+              "value": 6,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+                "anchor": "L36",
+                "sectionSha256": "f699157933f739a55e14ba52690276da8ee95e3e441df77fb4663e6f93f97a07"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-e44f2301f209dafc--277d906bc615",
+          "name": "浮游移动",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+            "anchor": "L42",
+            "sectionSha256": "590c2ef117d83ab1cf18fca34d07103e0096efea57cea6fcbec1968c2799fbb3"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/各种其他一次性被动.md",
+              "sha256": "c2952e7e6dd9bbcfb0f26544592701798b0c7672740180c7ac6ce8843aa05c69",
+              "lineRanges": [
+                [
+                  42,
+                  44
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+                  "anchor": "L42",
+                  "sectionSha256": "590c2ef117d83ab1cf18fca34d07103e0096efea57cea6fcbec1968c2799fbb3"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-e44f2301f209dafc--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L42",
+              "sectionSha256": "590c2ef117d83ab1cf18fca34d07103e0096efea57cea6fcbec1968c2799fbb3"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L42",
+              "sectionSha256": "590c2ef117d83ab1cf18fca34d07103e0096efea57cea6fcbec1968c2799fbb3"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L42",
+              "sectionSha256": "590c2ef117d83ab1cf18fca34d07103e0096efea57cea6fcbec1968c2799fbb3"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L42",
+              "sectionSha256": "590c2ef117d83ab1cf18fca34d07103e0096efea57cea6fcbec1968c2799fbb3"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L42",
+              "sectionSha256": "590c2ef117d83ab1cf18fca34d07103e0096efea57cea6fcbec1968c2799fbb3"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L42",
+              "sectionSha256": "590c2ef117d83ab1cf18fca34d07103e0096efea57cea6fcbec1968c2799fbb3"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-e44f2301f209dafc--534d62d82647",
+          "name": "自动再生",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+            "anchor": "L45",
+            "sectionSha256": "057fb406676e793aa85280faab79d8dec82bab2e2a1076bbdf7d7d6c142df59d"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/各种其他一次性被动.md",
+              "sha256": "c2952e7e6dd9bbcfb0f26544592701798b0c7672740180c7ac6ce8843aa05c69",
+              "lineRanges": [
+                [
+                  45,
+                  45
+                ],
+                [
+                  47,
+                  48
+                ],
+                [
+                  50,
+                  51
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 5,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+                  "anchor": "L45",
+                  "sectionSha256": "057fb406676e793aa85280faab79d8dec82bab2e2a1076bbdf7d7d6c142df59d"
+                }
+              },
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 85,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+                  "anchor": "L45",
+                  "sectionSha256": "057fb406676e793aa85280faab79d8dec82bab2e2a1076bbdf7d7d6c142df59d"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-e44f2301f209dafc--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L45",
+              "sectionSha256": "057fb406676e793aa85280faab79d8dec82bab2e2a1076bbdf7d7d6c142df59d"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+                  "anchor": "L45",
+                  "sectionSha256": "057fb406676e793aa85280faab79d8dec82bab2e2a1076bbdf7d7d6c142df59d"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L45",
+              "sectionSha256": "057fb406676e793aa85280faab79d8dec82bab2e2a1076bbdf7d7d6c142df59d"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L45",
+              "sectionSha256": "057fb406676e793aa85280faab79d8dec82bab2e2a1076bbdf7d7d6c142df59d"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L45",
+              "sectionSha256": "057fb406676e793aa85280faab79d8dec82bab2e2a1076bbdf7d7d6c142df59d"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L45",
+              "sectionSha256": "057fb406676e793aa85280faab79d8dec82bab2e2a1076bbdf7d7d6c142df59d"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L45",
+              "sectionSha256": "057fb406676e793aa85280faab79d8dec82bab2e2a1076bbdf7d7d6c142df59d"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "capability-reference",
+              "capability": "快速医疗",
+              "semanticStatus": "not-encoded",
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+                "anchor": "L45",
+                "sectionSha256": "057fb406676e793aa85280faab79d8dec82bab2e2a1076bbdf7d7d6c142df59d"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-e44f2301f209dafc--aca113531feb",
+          "name": "能量恢复移动",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+            "anchor": "L52",
+            "sectionSha256": "4106e7af4b22d9b3fef13c4c5cdfcc25ffce11594c53f4dc7ca8f096ec1e5d99"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/各种其他一次性被动.md",
+              "sha256": "c2952e7e6dd9bbcfb0f26544592701798b0c7672740180c7ac6ce8843aa05c69",
+              "lineRanges": [
+                [
+                  52,
+                  52
+                ],
+                [
+                  54,
+                  54
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+                  "anchor": "L52",
+                  "sectionSha256": "4106e7af4b22d9b3fef13c4c5cdfcc25ffce11594c53f4dc7ca8f096ec1e5d99"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-e44f2301f209dafc--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L52",
+              "sectionSha256": "4106e7af4b22d9b3fef13c4c5cdfcc25ffce11594c53f4dc7ca8f096ec1e5d99"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L52",
+              "sectionSha256": "4106e7af4b22d9b3fef13c4c5cdfcc25ffce11594c53f4dc7ca8f096ec1e5d99"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L52",
+              "sectionSha256": "4106e7af4b22d9b3fef13c4c5cdfcc25ffce11594c53f4dc7ca8f096ec1e5d99"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L52",
+              "sectionSha256": "4106e7af4b22d9b3fef13c4c5cdfcc25ffce11594c53f4dc7ca8f096ec1e5d99"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L52",
+              "sectionSha256": "4106e7af4b22d9b3fef13c4c5cdfcc25ffce11594c53f4dc7ca8f096ec1e5d99"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L52",
+              "sectionSha256": "4106e7af4b22d9b3fef13c4c5cdfcc25ffce11594c53f4dc7ca8f096ec1e5d99"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-e44f2301f209dafc--3ab8b12e4a75",
+          "name": "三教合一",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+            "anchor": "L55",
+            "sectionSha256": "9b41aa007cd1b352f1e4e6f585b6217880d91e0e5ad4515b69c71d1e876ffa92"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/各种其他一次性被动.md",
+              "sha256": "c2952e7e6dd9bbcfb0f26544592701798b0c7672740180c7ac6ce8843aa05c69",
+              "lineRanges": [
+                [
+                  55,
+                  56
+                ],
+                [
+                  58,
+                  60
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+                  "anchor": "L55",
+                  "sectionSha256": "9b41aa007cd1b352f1e4e6f585b6217880d91e0e5ad4515b69c71d1e876ffa92"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-e44f2301f209dafc--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+                  "anchor": "L55",
+                  "sectionSha256": "9b41aa007cd1b352f1e4e6f585b6217880d91e0e5ad4515b69c71d1e876ffa92"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L55",
+              "sectionSha256": "9b41aa007cd1b352f1e4e6f585b6217880d91e0e5ad4515b69c71d1e876ffa92"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L55",
+              "sectionSha256": "9b41aa007cd1b352f1e4e6f585b6217880d91e0e5ad4515b69c71d1e876ffa92"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L55",
+              "sectionSha256": "9b41aa007cd1b352f1e4e6f585b6217880d91e0e5ad4515b69c71d1e876ffa92"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L55",
+              "sectionSha256": "9b41aa007cd1b352f1e4e6f585b6217880d91e0e5ad4515b69c71d1e876ffa92"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L55",
+              "sectionSha256": "9b41aa007cd1b352f1e4e6f585b6217880d91e0e5ad4515b69c71d1e876ffa92"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L55",
+              "sectionSha256": "9b41aa007cd1b352f1e4e6f585b6217880d91e0e5ad4515b69c71d1e876ffa92"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-e44f2301f209dafc--cd744881a98a",
+          "name": "纵使迎来三度日落",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+            "anchor": "L61",
+            "sectionSha256": "1d3e2ea0d2b483d9812b1642586a2e61771840f3367c7a2de516678284ee0efe"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/各种其他一次性被动.md",
+              "sha256": "c2952e7e6dd9bbcfb0f26544592701798b0c7672740180c7ac6ce8843aa05c69",
+              "lineRanges": [
+                [
+                  61,
+                  63
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+                  "anchor": "L61",
+                  "sectionSha256": "1d3e2ea0d2b483d9812b1642586a2e61771840f3367c7a2de516678284ee0efe"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-e44f2301f209dafc--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L61",
+              "sectionSha256": "1d3e2ea0d2b483d9812b1642586a2e61771840f3367c7a2de516678284ee0efe"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L61",
+              "sectionSha256": "1d3e2ea0d2b483d9812b1642586a2e61771840f3367c7a2de516678284ee0efe"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L61",
+              "sectionSha256": "1d3e2ea0d2b483d9812b1642586a2e61771840f3367c7a2de516678284ee0efe"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L61",
+              "sectionSha256": "1d3e2ea0d2b483d9812b1642586a2e61771840f3367c7a2de516678284ee0efe"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L61",
+              "sectionSha256": "1d3e2ea0d2b483d9812b1642586a2e61771840f3367c7a2de516678284ee0efe"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L61",
+              "sectionSha256": "1d3e2ea0d2b483d9812b1642586a2e61771840f3367c7a2de516678284ee0efe"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "士气",
+              "value": 2,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+                "anchor": "L61",
+                "sectionSha256": "1d3e2ea0d2b483d9812b1642586a2e61771840f3367c7a2de516678284ee0efe"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-e44f2301f209dafc--fb0a5f456401",
+          "name": "十二试炼",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+            "anchor": "L64",
+            "sectionSha256": "b5280da4636b9fa76da653b6e10218b1b8c804765eab1d900c1ecdabddef1752"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/各种其他一次性被动.md",
+              "sha256": "c2952e7e6dd9bbcfb0f26544592701798b0c7672740180c7ac6ce8843aa05c69",
+              "lineRanges": [
+                [
+                  64,
+                  67
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 215,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+                  "anchor": "L64",
+                  "sectionSha256": "b5280da4636b9fa76da653b6e10218b1b8c804765eab1d900c1ecdabddef1752"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-e44f2301f209dafc--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L64",
+              "sectionSha256": "b5280da4636b9fa76da653b6e10218b1b8c804765eab1d900c1ecdabddef1752"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L64",
+              "sectionSha256": "b5280da4636b9fa76da653b6e10218b1b8c804765eab1d900c1ecdabddef1752"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L64",
+              "sectionSha256": "b5280da4636b9fa76da653b6e10218b1b8c804765eab1d900c1ecdabddef1752"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L64",
+              "sectionSha256": "b5280da4636b9fa76da653b6e10218b1b8c804765eab1d900c1ecdabddef1752"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L64",
+              "sectionSha256": "b5280da4636b9fa76da653b6e10218b1b8c804765eab1d900c1ecdabddef1752"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/106-各种其他一次性被动.md",
+              "anchor": "L64",
+              "sectionSha256": "b5280da4636b9fa76da653b6e10218b1b8c804765eab1d900c1ecdabddef1752"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "各种其他一次性被动",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "月衣",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "新恐变化",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "预言梦",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "贞洁誓言",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "浮游移动",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "自动再生",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "能量恢复移动",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "三教合一",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "纵使迎来三度日落",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "十二试炼",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-e44f2301f209dafc--b3cc20089aab--intent",
+      "name": "月衣",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "move"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-e44f2301f209dafc--b3cc20089aab",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "duration-inheritance-and-no-implicit-refresh",
+    "prerequisite-logic-not-fully-encoded"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

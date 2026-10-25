@@ -1,0 +1,1000 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-1b7ab538dae7b406",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "驯兽师",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J09",
+    "aliases": [
+      "驯兽师",
+      "驯兽师·D级阶段",
+      "驯兽师·C级阶段",
+      "驯兽师·B级阶段",
+      "驯兽师·A级阶段"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/驯兽师.md",
+        "sha256": "06615ff575d8fb7cbb1c51636306f61bfe22e3fce3eb7cecce3859f1509d0ebd",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            35
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+    "sha256": "f20cde7e8ed2b79aa4619439cd020785ae56aa02df83a495c0050885a6d0ccf6"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-1b7ab538dae7b406--0ae594c1109f",
+          "name": "驯兽师",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+            "anchor": "条目",
+            "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/驯兽师.md",
+              "sha256": "06615ff575d8fb7cbb1c51636306f61bfe22e3fce3eb7cecce3859f1509d0ebd",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  6
+                ],
+                [
+                  8,
+                  8
+                ],
+                [
+                  17,
+                  17
+                ],
+                [
+                  23,
+                  23
+                ],
+                [
+                  29,
+                  29
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-1b7ab538dae7b406--ee292cd1d6c1",
+          "name": "驯兽师·D级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+            "anchor": "L7",
+            "sectionSha256": "10ca3491d24a1957e45b2507588b46cdd7e36a8aedc540a3b7f0290727c36bfb"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/驯兽师.md",
+              "sha256": "06615ff575d8fb7cbb1c51636306f61bfe22e3fce3eb7cecce3859f1509d0ebd",
+              "lineRanges": [
+                [
+                  7,
+                  7
+                ],
+                [
+                  9,
+                  15
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+                  "anchor": "L7",
+                  "sectionSha256": "10ca3491d24a1957e45b2507588b46cdd7e36a8aedc540a3b7f0290727c36bfb"
+                }
+              },
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 3.0,
+                "mode": "explicit-purchase-or-repeat",
+                "basis": "reading-explicit-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+                  "anchor": "L7",
+                  "sectionSha256": "10ca3491d24a1957e45b2507588b46cdd7e36a8aedc540a3b7f0290727c36bfb"
+                }
+              },
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 3.0,
+                "mode": "explicit-purchase-or-repeat",
+                "basis": "reading-explicit-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+                  "anchor": "L7",
+                  "sectionSha256": "10ca3491d24a1957e45b2507588b46cdd7e36a8aedc540a3b7f0290727c36bfb"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-1b7ab538dae7b406--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "L7",
+              "sectionSha256": "10ca3491d24a1957e45b2507588b46cdd7e36a8aedc540a3b7f0290727c36bfb"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "L7",
+              "sectionSha256": "10ca3491d24a1957e45b2507588b46cdd7e36a8aedc540a3b7f0290727c36bfb"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "L7",
+              "sectionSha256": "10ca3491d24a1957e45b2507588b46cdd7e36a8aedc540a3b7f0290727c36bfb"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "意志"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+                  "anchor": "L7",
+                  "sectionSha256": "10ca3491d24a1957e45b2507588b46cdd7e36a8aedc540a3b7f0290727c36bfb"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "L7",
+              "sectionSha256": "10ca3491d24a1957e45b2507588b46cdd7e36a8aedc540a3b7f0290727c36bfb"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "L7",
+              "sectionSha256": "10ca3491d24a1957e45b2507588b46cdd7e36a8aedc540a3b7f0290727c36bfb"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "L7",
+              "sectionSha256": "10ca3491d24a1957e45b2507588b46cdd7e36a8aedc540a3b7f0290727c36bfb"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-1b7ab538dae7b406--5f3f9d32a927",
+          "name": "驯兽师·C级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+            "anchor": "L16",
+            "sectionSha256": "065985d900ba0d061ba8a1b5523d3c9c5f846415b6afdf9bf785a9cee993de0d"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/驯兽师.md",
+              "sha256": "06615ff575d8fb7cbb1c51636306f61bfe22e3fce3eb7cecce3859f1509d0ebd",
+              "lineRanges": [
+                [
+                  16,
+                  16
+                ],
+                [
+                  18,
+                  21
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+                  "anchor": "L16",
+                  "sectionSha256": "065985d900ba0d061ba8a1b5523d3c9c5f846415b6afdf9bf785a9cee993de0d"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-1b7ab538dae7b406--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "L16",
+              "sectionSha256": "065985d900ba0d061ba8a1b5523d3c9c5f846415b6afdf9bf785a9cee993de0d"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+                  "anchor": "L16",
+                  "sectionSha256": "065985d900ba0d061ba8a1b5523d3c9c5f846415b6afdf9bf785a9cee993de0d"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "L16",
+              "sectionSha256": "065985d900ba0d061ba8a1b5523d3c9c5f846415b6afdf9bf785a9cee993de0d"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "L16",
+              "sectionSha256": "065985d900ba0d061ba8a1b5523d3c9c5f846415b6afdf9bf785a9cee993de0d"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "意志"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+                  "anchor": "L16",
+                  "sectionSha256": "065985d900ba0d061ba8a1b5523d3c9c5f846415b6afdf9bf785a9cee993de0d"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "L16",
+              "sectionSha256": "065985d900ba0d061ba8a1b5523d3c9c5f846415b6afdf9bf785a9cee993de0d"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "L16",
+              "sectionSha256": "065985d900ba0d061ba8a1b5523d3c9c5f846415b6afdf9bf785a9cee993de0d"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "L16",
+              "sectionSha256": "065985d900ba0d061ba8a1b5523d3c9c5f846415b6afdf9bf785a9cee993de0d"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-1b7ab538dae7b406--eb6e35b9eeab",
+          "name": "驯兽师·B级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+            "anchor": "L22",
+            "sectionSha256": "645697cf435dfec2045dbe9fe49a2c23431bc0752f2d13c7fd8ce41d3dd17a3a"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/驯兽师.md",
+              "sha256": "06615ff575d8fb7cbb1c51636306f61bfe22e3fce3eb7cecce3859f1509d0ebd",
+              "lineRanges": [
+                [
+                  22,
+                  22
+                ],
+                [
+                  24,
+                  27
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 85,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+                  "anchor": "L22",
+                  "sectionSha256": "645697cf435dfec2045dbe9fe49a2c23431bc0752f2d13c7fd8ce41d3dd17a3a"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-1b7ab538dae7b406--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "L22",
+              "sectionSha256": "645697cf435dfec2045dbe9fe49a2c23431bc0752f2d13c7fd8ce41d3dd17a3a"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "L22",
+              "sectionSha256": "645697cf435dfec2045dbe9fe49a2c23431bc0752f2d13c7fd8ce41d3dd17a3a"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "L22",
+              "sectionSha256": "645697cf435dfec2045dbe9fe49a2c23431bc0752f2d13c7fd8ce41d3dd17a3a"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "L22",
+              "sectionSha256": "645697cf435dfec2045dbe9fe49a2c23431bc0752f2d13c7fd8ce41d3dd17a3a"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "L22",
+              "sectionSha256": "645697cf435dfec2045dbe9fe49a2c23431bc0752f2d13c7fd8ce41d3dd17a3a"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "L22",
+              "sectionSha256": "645697cf435dfec2045dbe9fe49a2c23431bc0752f2d13c7fd8ce41d3dd17a3a"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-1b7ab538dae7b406--36402ecb137e",
+          "name": "驯兽师·A级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+            "anchor": "L28",
+            "sectionSha256": "c0f968536048169e8ed5c9dd0106e8f2089151559565a5102dcdf3b02889c47e"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/驯兽师.md",
+              "sha256": "06615ff575d8fb7cbb1c51636306f61bfe22e3fce3eb7cecce3859f1509d0ebd",
+              "lineRanges": [
+                [
+                  28,
+                  28
+                ],
+                [
+                  30,
+                  35
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 215,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+                  "anchor": "L28",
+                  "sectionSha256": "c0f968536048169e8ed5c9dd0106e8f2089151559565a5102dcdf3b02889c47e"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-1b7ab538dae7b406--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "L28",
+              "sectionSha256": "c0f968536048169e8ed5c9dd0106e8f2089151559565a5102dcdf3b02889c47e"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "L28",
+              "sectionSha256": "c0f968536048169e8ed5c9dd0106e8f2089151559565a5102dcdf3b02889c47e"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "L28",
+              "sectionSha256": "c0f968536048169e8ed5c9dd0106e8f2089151559565a5102dcdf3b02889c47e"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "L28",
+              "sectionSha256": "c0f968536048169e8ed5c9dd0106e8f2089151559565a5102dcdf3b02889c47e"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "L28",
+              "sectionSha256": "c0f968536048169e8ed5c9dd0106e8f2089151559565a5102dcdf3b02889c47e"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/131-驯兽师.md",
+              "anchor": "L28",
+              "sectionSha256": "c0f968536048169e8ed5c9dd0106e8f2089151559565a5102dcdf3b02889c47e"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "驯兽师",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "驯兽师·D级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "驯兽师·C级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "驯兽师·B级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "驯兽师·A级阶段",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-1b7ab538dae7b406--ee292cd1d6c1--intent",
+      "name": "驯兽师·D级阶段",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-1b7ab538dae7b406--ee292cd1d6c1",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "duration-inheritance-and-no-implicit-refresh"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

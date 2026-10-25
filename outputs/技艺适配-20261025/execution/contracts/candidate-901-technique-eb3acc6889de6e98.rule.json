@@ -1,0 +1,1626 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-eb3acc6889de6e98",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "太刀七雷斩",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J04",
+    "aliases": [
+      "太刀七雷斩",
+      "敌欲驻我必袭",
+      "敌既退我必追",
+      "敌已乱我再打",
+      "敌欲守我狂斩",
+      "敌已残我猛攻",
+      "敌已弱我更撼",
+      "雷霆一击天下大定"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/太刀七雷斩.md",
+        "sha256": "8c1c75a7cd44442ec5d44d1027cb4075e8b33ced44032f82ad00180873fabf21",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            44
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+    "sha256": "96ade31af98149b2cc5365242194801e74b44b1507fec79ce5f2e7387ef5cbed"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-eb3acc6889de6e98--0ae594c1109f",
+          "name": "太刀七雷斩",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+            "anchor": "条目",
+            "sectionSha256": "2b72330683300e28f8d08b2a00176d84d893668d66dd7bc93db6b7342962d50e"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/太刀七雷斩.md",
+              "sha256": "8c1c75a7cd44442ec5d44d1027cb4075e8b33ced44032f82ad00180873fabf21",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  10
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+                  "anchor": "条目",
+                  "sectionSha256": "2b72330683300e28f8d08b2a00176d84d893668d66dd7bc93db6b7342962d50e"
+                },
+                "semanticStatus": "not-encoded"
+              },
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+                  "anchor": "条目",
+                  "sectionSha256": "2b72330683300e28f8d08b2a00176d84d893668d66dd7bc93db6b7342962d50e"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "条目",
+              "sectionSha256": "2b72330683300e28f8d08b2a00176d84d893668d66dd7bc93db6b7342962d50e"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "条目",
+              "sectionSha256": "2b72330683300e28f8d08b2a00176d84d893668d66dd7bc93db6b7342962d50e"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "条目",
+              "sectionSha256": "2b72330683300e28f8d08b2a00176d84d893668d66dd7bc93db6b7342962d50e"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "条目",
+              "sectionSha256": "2b72330683300e28f8d08b2a00176d84d893668d66dd7bc93db6b7342962d50e"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "条目",
+              "sectionSha256": "2b72330683300e28f8d08b2a00176d84d893668d66dd7bc93db6b7342962d50e"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "条目",
+              "sectionSha256": "2b72330683300e28f8d08b2a00176d84d893668d66dd7bc93db6b7342962d50e"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-eb3acc6889de6e98--04a90cd5d050",
+          "name": "敌欲驻我必袭",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+            "anchor": "L11",
+            "sectionSha256": "cb2d71fac2a002147d388a35651725fa79cab799e19a985ff110c26696938117"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/太刀七雷斩.md",
+              "sha256": "8c1c75a7cd44442ec5d44d1027cb4075e8b33ced44032f82ad00180873fabf21",
+              "lineRanges": [
+                [
+                  11,
+                  13
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+                  "anchor": "L11",
+                  "sectionSha256": "cb2d71fac2a002147d388a35651725fa79cab799e19a985ff110c26696938117"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-eb3acc6889de6e98--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L11",
+              "sectionSha256": "cb2d71fac2a002147d388a35651725fa79cab799e19a985ff110c26696938117"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L11",
+              "sectionSha256": "cb2d71fac2a002147d388a35651725fa79cab799e19a985ff110c26696938117"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+                  "anchor": "L11",
+                  "sectionSha256": "cb2d71fac2a002147d388a35651725fa79cab799e19a985ff110c26696938117"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L11",
+              "sectionSha256": "cb2d71fac2a002147d388a35651725fa79cab799e19a985ff110c26696938117"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+                  "anchor": "L11",
+                  "sectionSha256": "cb2d71fac2a002147d388a35651725fa79cab799e19a985ff110c26696938117"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L11",
+              "sectionSha256": "cb2d71fac2a002147d388a35651725fa79cab799e19a985ff110c26696938117"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L11",
+              "sectionSha256": "cb2d71fac2a002147d388a35651725fa79cab799e19a985ff110c26696938117"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L11",
+              "sectionSha256": "cb2d71fac2a002147d388a35651725fa79cab799e19a985ff110c26696938117"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-eb3acc6889de6e98--4e20baac66c8",
+          "name": "敌既退我必追",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+            "anchor": "L14",
+            "sectionSha256": "a736cba086c9e54de2975d2ac121932439fc97401b7f3731f077172d271a4a4e"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/太刀七雷斩.md",
+              "sha256": "8c1c75a7cd44442ec5d44d1027cb4075e8b33ced44032f82ad00180873fabf21",
+              "lineRanges": [
+                [
+                  14,
+                  16
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+                  "anchor": "L14",
+                  "sectionSha256": "a736cba086c9e54de2975d2ac121932439fc97401b7f3731f077172d271a4a4e"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-eb3acc6889de6e98--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L14",
+              "sectionSha256": "a736cba086c9e54de2975d2ac121932439fc97401b7f3731f077172d271a4a4e"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L14",
+              "sectionSha256": "a736cba086c9e54de2975d2ac121932439fc97401b7f3731f077172d271a4a4e"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L14",
+              "sectionSha256": "a736cba086c9e54de2975d2ac121932439fc97401b7f3731f077172d271a4a4e"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "内力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+                  "anchor": "L14",
+                  "sectionSha256": "a736cba086c9e54de2975d2ac121932439fc97401b7f3731f077172d271a4a4e"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L14",
+              "sectionSha256": "a736cba086c9e54de2975d2ac121932439fc97401b7f3731f077172d271a4a4e"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L14",
+              "sectionSha256": "a736cba086c9e54de2975d2ac121932439fc97401b7f3731f077172d271a4a4e"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L14",
+              "sectionSha256": "a736cba086c9e54de2975d2ac121932439fc97401b7f3731f077172d271a4a4e"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-eb3acc6889de6e98--094e95ffe05e",
+          "name": "敌已乱我再打",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+            "anchor": "L17",
+            "sectionSha256": "15784cd3127d4023caee508352edd9e9e85bbe11e84e3a928505ebbab0c03427"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/太刀七雷斩.md",
+              "sha256": "8c1c75a7cd44442ec5d44d1027cb4075e8b33ced44032f82ad00180873fabf21",
+              "lineRanges": [
+                [
+                  17,
+                  20
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+                  "anchor": "L17",
+                  "sectionSha256": "15784cd3127d4023caee508352edd9e9e85bbe11e84e3a928505ebbab0c03427"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-eb3acc6889de6e98--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L17",
+              "sectionSha256": "15784cd3127d4023caee508352edd9e9e85bbe11e84e3a928505ebbab0c03427"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L17",
+              "sectionSha256": "15784cd3127d4023caee508352edd9e9e85bbe11e84e3a928505ebbab0c03427"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L17",
+              "sectionSha256": "15784cd3127d4023caee508352edd9e9e85bbe11e84e3a928505ebbab0c03427"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L17",
+              "sectionSha256": "15784cd3127d4023caee508352edd9e9e85bbe11e84e3a928505ebbab0c03427"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L17",
+              "sectionSha256": "15784cd3127d4023caee508352edd9e9e85bbe11e84e3a928505ebbab0c03427"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L17",
+              "sectionSha256": "15784cd3127d4023caee508352edd9e9e85bbe11e84e3a928505ebbab0c03427"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-eb3acc6889de6e98--f45c0059c181",
+          "name": "敌欲守我狂斩",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+            "anchor": "L21",
+            "sectionSha256": "ed8e8cae39a26c91b66cc3cbef768708271370e51b2961e8d80e731a83a1da97"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/太刀七雷斩.md",
+              "sha256": "8c1c75a7cd44442ec5d44d1027cb4075e8b33ced44032f82ad00180873fabf21",
+              "lineRanges": [
+                [
+                  21,
+                  25
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+                  "anchor": "L21",
+                  "sectionSha256": "ed8e8cae39a26c91b66cc3cbef768708271370e51b2961e8d80e731a83a1da97"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-eb3acc6889de6e98--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L21",
+              "sectionSha256": "ed8e8cae39a26c91b66cc3cbef768708271370e51b2961e8d80e731a83a1da97"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L21",
+              "sectionSha256": "ed8e8cae39a26c91b66cc3cbef768708271370e51b2961e8d80e731a83a1da97"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L21",
+              "sectionSha256": "ed8e8cae39a26c91b66cc3cbef768708271370e51b2961e8d80e731a83a1da97"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L21",
+              "sectionSha256": "ed8e8cae39a26c91b66cc3cbef768708271370e51b2961e8d80e731a83a1da97"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L21",
+              "sectionSha256": "ed8e8cae39a26c91b66cc3cbef768708271370e51b2961e8d80e731a83a1da97"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L21",
+              "sectionSha256": "ed8e8cae39a26c91b66cc3cbef768708271370e51b2961e8d80e731a83a1da97"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-eb3acc6889de6e98--fbf7776a3be2",
+          "name": "敌已残我猛攻",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+            "anchor": "L26",
+            "sectionSha256": "f9304bfa5592605cb25a707167b1e618c3b0c00c07f2a2fbab05d63246a247a4"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/太刀七雷斩.md",
+              "sha256": "8c1c75a7cd44442ec5d44d1027cb4075e8b33ced44032f82ad00180873fabf21",
+              "lineRanges": [
+                [
+                  26,
+                  31
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+                  "anchor": "L26",
+                  "sectionSha256": "f9304bfa5592605cb25a707167b1e618c3b0c00c07f2a2fbab05d63246a247a4"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-eb3acc6889de6e98--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L26",
+              "sectionSha256": "f9304bfa5592605cb25a707167b1e618c3b0c00c07f2a2fbab05d63246a247a4"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L26",
+              "sectionSha256": "f9304bfa5592605cb25a707167b1e618c3b0c00c07f2a2fbab05d63246a247a4"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L26",
+              "sectionSha256": "f9304bfa5592605cb25a707167b1e618c3b0c00c07f2a2fbab05d63246a247a4"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L26",
+              "sectionSha256": "f9304bfa5592605cb25a707167b1e618c3b0c00c07f2a2fbab05d63246a247a4"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L26",
+              "sectionSha256": "f9304bfa5592605cb25a707167b1e618c3b0c00c07f2a2fbab05d63246a247a4"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L26",
+              "sectionSha256": "f9304bfa5592605cb25a707167b1e618c3b0c00c07f2a2fbab05d63246a247a4"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-eb3acc6889de6e98--aaa309ab9c57",
+          "name": "敌已弱我更撼",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+            "anchor": "L32",
+            "sectionSha256": "0174f211b1a677f9f69c4c50696e9999b8abe851466f7cd7308916160ecdba8f"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/太刀七雷斩.md",
+              "sha256": "8c1c75a7cd44442ec5d44d1027cb4075e8b33ced44032f82ad00180873fabf21",
+              "lineRanges": [
+                [
+                  32,
+                  38
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 85,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+                  "anchor": "L32",
+                  "sectionSha256": "0174f211b1a677f9f69c4c50696e9999b8abe851466f7cd7308916160ecdba8f"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-eb3acc6889de6e98--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L32",
+              "sectionSha256": "0174f211b1a677f9f69c4c50696e9999b8abe851466f7cd7308916160ecdba8f"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L32",
+              "sectionSha256": "0174f211b1a677f9f69c4c50696e9999b8abe851466f7cd7308916160ecdba8f"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L32",
+              "sectionSha256": "0174f211b1a677f9f69c4c50696e9999b8abe851466f7cd7308916160ecdba8f"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L32",
+              "sectionSha256": "0174f211b1a677f9f69c4c50696e9999b8abe851466f7cd7308916160ecdba8f"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L32",
+              "sectionSha256": "0174f211b1a677f9f69c4c50696e9999b8abe851466f7cd7308916160ecdba8f"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L32",
+              "sectionSha256": "0174f211b1a677f9f69c4c50696e9999b8abe851466f7cd7308916160ecdba8f"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-eb3acc6889de6e98--0d61d03a27af",
+          "name": "雷霆一击天下大定",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+            "anchor": "L39",
+            "sectionSha256": "226204dd7b8d1a3d75f498529c834883f544d107ae5885cdbb3da482fda57502"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/太刀七雷斩.md",
+              "sha256": "8c1c75a7cd44442ec5d44d1027cb4075e8b33ced44032f82ad00180873fabf21",
+              "lineRanges": [
+                [
+                  39,
+                  44
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+                  "anchor": "L39",
+                  "sectionSha256": "226204dd7b8d1a3d75f498529c834883f544d107ae5885cdbb3da482fda57502"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "move"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-eb3acc6889de6e98--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L39",
+              "sectionSha256": "226204dd7b8d1a3d75f498529c834883f544d107ae5885cdbb3da482fda57502"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L39",
+              "sectionSha256": "226204dd7b8d1a3d75f498529c834883f544d107ae5885cdbb3da482fda57502"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 6,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+                  "anchor": "L39",
+                  "sectionSha256": "226204dd7b8d1a3d75f498529c834883f544d107ae5885cdbb3da482fda57502"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L39",
+              "sectionSha256": "226204dd7b8d1a3d75f498529c834883f544d107ae5885cdbb3da482fda57502"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 7,
+                  "pool": "内力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+                  "anchor": "L39",
+                  "sectionSha256": "226204dd7b8d1a3d75f498529c834883f544d107ae5885cdbb3da482fda57502"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L39",
+              "sectionSha256": "226204dd7b8d1a3d75f498529c834883f544d107ae5885cdbb3da482fda57502"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L39",
+              "sectionSha256": "226204dd7b8d1a3d75f498529c834883f544d107ae5885cdbb3da482fda57502"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/034-太刀七雷斩.md",
+              "anchor": "L39",
+              "sectionSha256": "226204dd7b8d1a3d75f498529c834883f544d107ae5885cdbb3da482fda57502"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "太刀七雷斩",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "敌欲驻我必袭",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "敌既退我必追",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "敌已乱我再打",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "敌欲守我狂斩",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "敌已残我猛攻",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "敌已弱我更撼",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "雷霆一击天下大定",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-eb3acc6889de6e98--04a90cd5d050--intent",
+      "name": "敌欲驻我必袭",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-eb3acc6889de6e98--04a90cd5d050",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-eb3acc6889de6e98--4e20baac66c8--intent",
+      "name": "敌既退我必追",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-eb3acc6889de6e98--4e20baac66c8",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-eb3acc6889de6e98--094e95ffe05e--intent",
+      "name": "敌已乱我再打",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-eb3acc6889de6e98--094e95ffe05e",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-eb3acc6889de6e98--f45c0059c181--intent",
+      "name": "敌欲守我狂斩",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-eb3acc6889de6e98--f45c0059c181",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-eb3acc6889de6e98--fbf7776a3be2--intent",
+      "name": "敌已残我猛攻",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-eb3acc6889de6e98--fbf7776a3be2",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-eb3acc6889de6e98--aaa309ab9c57--intent",
+      "name": "敌已弱我更撼",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-eb3acc6889de6e98--aaa309ab9c57",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-eb3acc6889de6e98--0d61d03a27af--intent",
+      "name": "雷霆一击天下大定",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "move"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-eb3acc6889de6e98--0d61d03a27af",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "prerequisite-logic-not-fully-encoded",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "duration-inheritance-and-no-implicit-refresh"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

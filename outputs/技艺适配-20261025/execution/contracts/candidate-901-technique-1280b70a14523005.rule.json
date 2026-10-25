@@ -1,0 +1,1178 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-1280b70a14523005",
+  "version": "2026-10-25.machine.2",
+  "identity": {
+    "name": "天位力量",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J01",
+    "aliases": [
+      "天位力量",
+      "小天位",
+      "强天位",
+      "斋天位",
+      "太天位"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/心法/天位力量.md",
+        "sha256": "8424f6614fd047d704f074c9fcc60c2e830a920c44f82c8e4eb4d831aad83b54",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            46
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+    "sha256": "bec10112f52284c9d251827770a7a68c774c4982a8bed6494a8d59e83694af1a"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-1280b70a14523005--0ae594c1109f",
+          "name": "天位力量",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+            "anchor": "条目",
+            "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/天位力量.md",
+              "sha256": "8424f6614fd047d704f074c9fcc60c2e830a920c44f82c8e4eb4d831aad83b54",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  8
+                ],
+                [
+                  12,
+                  12
+                ],
+                [
+                  22,
+                  22
+                ],
+                [
+                  31,
+                  31
+                ],
+                [
+                  41,
+                  41
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-1280b70a14523005--90bc9c9c6e24",
+          "name": "小天位",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+            "anchor": "L9",
+            "sectionSha256": "d763d907c42777725bf6387a07e90ca0b5135268c777084eb713c181df836099"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/天位力量.md",
+              "sha256": "8424f6614fd047d704f074c9fcc60c2e830a920c44f82c8e4eb4d831aad83b54",
+              "lineRanges": [
+                [
+                  9,
+                  11
+                ],
+                [
+                  13,
+                  18
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 85,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+                  "anchor": "L9",
+                  "sectionSha256": "d763d907c42777725bf6387a07e90ca0b5135268c777084eb713c181df836099"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-1280b70a14523005--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+                  "anchor": "L9",
+                  "sectionSha256": "d763d907c42777725bf6387a07e90ca0b5135268c777084eb713c181df836099"
+                },
+                "semanticStatus": "not-encoded"
+              },
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+                  "anchor": "L9",
+                  "sectionSha256": "d763d907c42777725bf6387a07e90ca0b5135268c777084eb713c181df836099"
+                },
+                "semanticStatus": "not-encoded"
+              },
+              {
+                "predicates": [
+                  {
+                    "kind": "energy-pool-exists",
+                    "minimumPoolCount": 1,
+                    "background": null,
+                    "names": [],
+                    "generic": true,
+                    "minimumGrade": "A",
+                    "bindAtAcquisition": true
+                  }
+                ],
+                "uncompiledCondition": true,
+                "semanticStatus": "partial",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+                  "anchor": "L9",
+                  "sectionSha256": "d763d907c42777725bf6387a07e90ca0b5135268c777084eb713c181df836099"
+                }
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "L9",
+              "sectionSha256": "d763d907c42777725bf6387a07e90ca0b5135268c777084eb713c181df836099"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "L9",
+              "sectionSha256": "d763d907c42777725bf6387a07e90ca0b5135268c777084eb713c181df836099"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "L9",
+              "sectionSha256": "d763d907c42777725bf6387a07e90ca0b5135268c777084eb713c181df836099"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "L9",
+              "sectionSha256": "d763d907c42777725bf6387a07e90ca0b5135268c777084eb713c181df836099"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "L9",
+              "sectionSha256": "d763d907c42777725bf6387a07e90ca0b5135268c777084eb713c181df836099"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "L9",
+              "sectionSha256": "d763d907c42777725bf6387a07e90ca0b5135268c777084eb713c181df836099"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "capability-reference",
+              "capability": "快速医疗",
+              "semanticStatus": "not-encoded",
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+                "anchor": "L9",
+                "sectionSha256": "d763d907c42777725bf6387a07e90ca0b5135268c777084eb713c181df836099"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-1280b70a14523005--7963c5b340e4",
+          "name": "强天位",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+            "anchor": "L19",
+            "sectionSha256": "6c7afa7b025d4402a64d24957a4a8add62170700e14483c004027d1e9a419df2"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/天位力量.md",
+              "sha256": "8424f6614fd047d704f074c9fcc60c2e830a920c44f82c8e4eb4d831aad83b54",
+              "lineRanges": [
+                [
+                  19,
+                  21
+                ],
+                [
+                  23,
+                  27
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 215,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+                  "anchor": "L19",
+                  "sectionSha256": "6c7afa7b025d4402a64d24957a4a8add62170700e14483c004027d1e9a419df2"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard",
+                "swift"
+              ],
+              [
+                "free"
+              ],
+              [
+                "reflex"
+              ],
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-1280b70a14523005--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+                  "anchor": "L19",
+                  "sectionSha256": "6c7afa7b025d4402a64d24957a4a8add62170700e14483c004027d1e9a419df2"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "L19",
+              "sectionSha256": "6c7afa7b025d4402a64d24957a4a8add62170700e14483c004027d1e9a419df2"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "L19",
+              "sectionSha256": "6c7afa7b025d4402a64d24957a4a8add62170700e14483c004027d1e9a419df2"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "L19",
+              "sectionSha256": "6c7afa7b025d4402a64d24957a4a8add62170700e14483c004027d1e9a419df2"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "L19",
+              "sectionSha256": "6c7afa7b025d4402a64d24957a4a8add62170700e14483c004027d1e9a419df2"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "L19",
+              "sectionSha256": "6c7afa7b025d4402a64d24957a4a8add62170700e14483c004027d1e9a419df2"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "L19",
+              "sectionSha256": "6c7afa7b025d4402a64d24957a4a8add62170700e14483c004027d1e9a419df2"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "numeric-modifier",
+              "stat": "speed",
+              "value": 80,
+              "mode": "increase",
+              "bonusType": "unspecified-in-fragment",
+              "target": "self",
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "full-conditions",
+                "inheritance-and-stacking"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+                "anchor": "L19",
+                "sectionSha256": "6c7afa7b025d4402a64d24957a4a8add62170700e14483c004027d1e9a419df2"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-1280b70a14523005--36402ecb137e",
+          "name": "斋天位",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+            "anchor": "L28",
+            "sectionSha256": "aa81f4db88b129b7009e05ad7e1fdb93c59d03306d9afd28f297126d6185c814"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/天位力量.md",
+              "sha256": "8424f6614fd047d704f074c9fcc60c2e830a920c44f82c8e4eb4d831aad83b54",
+              "lineRanges": [
+                [
+                  28,
+                  30
+                ],
+                [
+                  32,
+                  37
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "S",
+                "currency": "XP",
+                "amount": 565,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+                  "anchor": "L28",
+                  "sectionSha256": "aa81f4db88b129b7009e05ad7e1fdb93c59d03306d9afd28f297126d6185c814"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-1280b70a14523005--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+                  "anchor": "L28",
+                  "sectionSha256": "aa81f4db88b129b7009e05ad7e1fdb93c59d03306d9afd28f297126d6185c814"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "L28",
+              "sectionSha256": "aa81f4db88b129b7009e05ad7e1fdb93c59d03306d9afd28f297126d6185c814"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "L28",
+              "sectionSha256": "aa81f4db88b129b7009e05ad7e1fdb93c59d03306d9afd28f297126d6185c814"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "L28",
+              "sectionSha256": "aa81f4db88b129b7009e05ad7e1fdb93c59d03306d9afd28f297126d6185c814"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "L28",
+              "sectionSha256": "aa81f4db88b129b7009e05ad7e1fdb93c59d03306d9afd28f297126d6185c814"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "L28",
+              "sectionSha256": "aa81f4db88b129b7009e05ad7e1fdb93c59d03306d9afd28f297126d6185c814"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "L28",
+              "sectionSha256": "aa81f4db88b129b7009e05ad7e1fdb93c59d03306d9afd28f297126d6185c814"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "增强",
+              "value": 144,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+                "anchor": "L28",
+                "sectionSha256": "aa81f4db88b129b7009e05ad7e1fdb93c59d03306d9afd28f297126d6185c814"
+              }
+            },
+            {
+              "kind": "capability-reference",
+              "capability": "快速医疗",
+              "semanticStatus": "not-encoded",
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+                "anchor": "L28",
+                "sectionSha256": "aa81f4db88b129b7009e05ad7e1fdb93c59d03306d9afd28f297126d6185c814"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-1280b70a14523005--3f970821bb78",
+          "name": "太天位",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+            "anchor": "L38",
+            "sectionSha256": "1d19b23970245541ac72ec9b4d28c0e75f1ebdb488b0c16f35579539cff0308c"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/天位力量.md",
+              "sha256": "8424f6614fd047d704f074c9fcc60c2e830a920c44f82c8e4eb4d831aad83b54",
+              "lineRanges": [
+                [
+                  38,
+                  40
+                ],
+                [
+                  42,
+                  46
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "SS",
+                "currency": "XP",
+                "amount": 1130,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+                  "anchor": "L38",
+                  "sectionSha256": "1d19b23970245541ac72ec9b4d28c0e75f1ebdb488b0c16f35579539cff0308c"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-1280b70a14523005--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+                  "anchor": "L38",
+                  "sectionSha256": "1d19b23970245541ac72ec9b4d28c0e75f1ebdb488b0c16f35579539cff0308c"
+                },
+                "semanticStatus": "not-encoded"
+              },
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+                  "anchor": "L38",
+                  "sectionSha256": "1d19b23970245541ac72ec9b4d28c0e75f1ebdb488b0c16f35579539cff0308c"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "L38",
+              "sectionSha256": "1d19b23970245541ac72ec9b4d28c0e75f1ebdb488b0c16f35579539cff0308c"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "L38",
+              "sectionSha256": "1d19b23970245541ac72ec9b4d28c0e75f1ebdb488b0c16f35579539cff0308c"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "L38",
+              "sectionSha256": "1d19b23970245541ac72ec9b4d28c0e75f1ebdb488b0c16f35579539cff0308c"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "L38",
+              "sectionSha256": "1d19b23970245541ac72ec9b4d28c0e75f1ebdb488b0c16f35579539cff0308c"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "L38",
+              "sectionSha256": "1d19b23970245541ac72ec9b4d28c0e75f1ebdb488b0c16f35579539cff0308c"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/004-天位力量.md",
+              "anchor": "L38",
+              "sectionSha256": "1d19b23970245541ac72ec9b4d28c0e75f1ebdb488b0c16f35579539cff0308c"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "天位力量",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "小天位",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "强天位",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "斋天位",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "太天位",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-1280b70a14523005--90bc9c9c6e24--intent",
+      "name": "小天位",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-1280b70a14523005--90bc9c9c6e24",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-1280b70a14523005--7963c5b340e4--intent",
+      "name": "强天位",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard",
+            "swift"
+          ],
+          [
+            "free"
+          ],
+          [
+            "reflex"
+          ],
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-1280b70a14523005--7963c5b340e4",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-1280b70a14523005--36402ecb137e--intent",
+      "name": "斋天位",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-1280b70a14523005--36402ecb137e",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "attack-program-hardcodes-INT-and-casting",
+    "duration-inheritance-and-no-implicit-refresh",
+    "prerequisite-logic-not-fully-encoded"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

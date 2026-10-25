@@ -1,0 +1,2150 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-0e003b5d6ba8d6d5",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "拔枪术",
+    "grade": "D",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J06",
+    "aliases": [
+      "拔枪术",
+      "拔枪术大成",
+      "午时已到",
+      "死神之眼",
+      "指哪打哪",
+      "闪电射击",
+      "警告威慑",
+      "2级：电光石火",
+      "3级：午时已到",
+      "4级：空间感知"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/远程类型/拔枪术.md",
+        "sha256": "31fe9f7183abd0ff9aecce924eb1eb2405d620b0037636df5b7aae3376e7f13c",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            86
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+    "sha256": "8e7a5186d0c7a03e6a678b7c4f5a5626b29d4201c8813ac43b7ac124416afa46"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-0e003b5d6ba8d6d5--0ae594c1109f",
+          "name": "拔枪术",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+            "anchor": "条目",
+            "sectionSha256": "34d226874820129dd45f104da8a79f7d24b629f9618d2949fa8d8806b62cdc3b"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/远程类型/拔枪术.md",
+              "sha256": "31fe9f7183abd0ff9aecce924eb1eb2405d620b0037636df5b7aae3376e7f13c",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  9
+                ],
+                [
+                  11,
+                  11
+                ],
+                [
+                  17,
+                  17
+                ],
+                [
+                  21,
+                  22
+                ],
+                [
+                  49,
+                  50
+                ],
+                [
+                  54,
+                  54
+                ],
+                [
+                  58,
+                  58
+                ],
+                [
+                  67,
+                  67
+                ],
+                [
+                  69,
+                  69
+                ],
+                [
+                  73,
+                  73
+                ],
+                [
+                  78,
+                  78
+                ],
+                [
+                  82,
+                  82
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "independent",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "条目",
+              "sectionSha256": "34d226874820129dd45f104da8a79f7d24b629f9618d2949fa8d8806b62cdc3b"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "条目",
+              "sectionSha256": "34d226874820129dd45f104da8a79f7d24b629f9618d2949fa8d8806b62cdc3b"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "条目",
+              "sectionSha256": "34d226874820129dd45f104da8a79f7d24b629f9618d2949fa8d8806b62cdc3b"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "条目",
+              "sectionSha256": "34d226874820129dd45f104da8a79f7d24b629f9618d2949fa8d8806b62cdc3b"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "条目",
+              "sectionSha256": "34d226874820129dd45f104da8a79f7d24b629f9618d2949fa8d8806b62cdc3b"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "条目",
+              "sectionSha256": "34d226874820129dd45f104da8a79f7d24b629f9618d2949fa8d8806b62cdc3b"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-0e003b5d6ba8d6d5--79cfaa5a36db",
+          "name": "拔枪术",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+            "anchor": "L10",
+            "sectionSha256": "65edfc0995ed47cc0f0c228eb85f02ba381be4cd0731bd54902ef7434517ee58"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/远程类型/拔枪术.md",
+              "sha256": "31fe9f7183abd0ff9aecce924eb1eb2405d620b0037636df5b7aae3376e7f13c",
+              "lineRanges": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  12,
+                  14
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 3,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+                  "anchor": "L10",
+                  "sectionSha256": "65edfc0995ed47cc0f0c228eb85f02ba381be4cd0731bd54902ef7434517ee58"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-0e003b5d6ba8d6d5--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L10",
+              "sectionSha256": "65edfc0995ed47cc0f0c228eb85f02ba381be4cd0731bd54902ef7434517ee58"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L10",
+              "sectionSha256": "65edfc0995ed47cc0f0c228eb85f02ba381be4cd0731bd54902ef7434517ee58"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L10",
+              "sectionSha256": "65edfc0995ed47cc0f0c228eb85f02ba381be4cd0731bd54902ef7434517ee58"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L10",
+              "sectionSha256": "65edfc0995ed47cc0f0c228eb85f02ba381be4cd0731bd54902ef7434517ee58"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L10",
+              "sectionSha256": "65edfc0995ed47cc0f0c228eb85f02ba381be4cd0731bd54902ef7434517ee58"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L10",
+              "sectionSha256": "65edfc0995ed47cc0f0c228eb85f02ba381be4cd0731bd54902ef7434517ee58"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-0e003b5d6ba8d6d5--ffb618ca2dd4",
+          "name": "拔枪术大成",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+            "anchor": "L15",
+            "sectionSha256": "0f4ce83b9b508f507b07a8fac448d23daa94d6fdd1a9f0d8a36eff45c596809a"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/远程类型/拔枪术.md",
+              "sha256": "31fe9f7183abd0ff9aecce924eb1eb2405d620b0037636df5b7aae3376e7f13c",
+              "lineRanges": [
+                [
+                  15,
+                  16
+                ],
+                [
+                  18,
+                  18
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+                  "anchor": "L15",
+                  "sectionSha256": "0f4ce83b9b508f507b07a8fac448d23daa94d6fdd1a9f0d8a36eff45c596809a"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-0e003b5d6ba8d6d5--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+                  "anchor": "L15",
+                  "sectionSha256": "0f4ce83b9b508f507b07a8fac448d23daa94d6fdd1a9f0d8a36eff45c596809a"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L15",
+              "sectionSha256": "0f4ce83b9b508f507b07a8fac448d23daa94d6fdd1a9f0d8a36eff45c596809a"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L15",
+              "sectionSha256": "0f4ce83b9b508f507b07a8fac448d23daa94d6fdd1a9f0d8a36eff45c596809a"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L15",
+              "sectionSha256": "0f4ce83b9b508f507b07a8fac448d23daa94d6fdd1a9f0d8a36eff45c596809a"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L15",
+              "sectionSha256": "0f4ce83b9b508f507b07a8fac448d23daa94d6fdd1a9f0d8a36eff45c596809a"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L15",
+              "sectionSha256": "0f4ce83b9b508f507b07a8fac448d23daa94d6fdd1a9f0d8a36eff45c596809a"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L15",
+              "sectionSha256": "0f4ce83b9b508f507b07a8fac448d23daa94d6fdd1a9f0d8a36eff45c596809a"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-0e003b5d6ba8d6d5--7963c5b340e4",
+          "name": "午时已到",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+            "anchor": "L19",
+            "sectionSha256": "3a550c1916c27291e30f6150fc29fdac8028b343e7e8f6e12e09dbe336bb6c79"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/远程类型/拔枪术.md",
+              "sha256": "31fe9f7183abd0ff9aecce924eb1eb2405d620b0037636df5b7aae3376e7f13c",
+              "lineRanges": [
+                [
+                  19,
+                  20
+                ],
+                [
+                  23,
+                  37
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+                  "anchor": "L19",
+                  "sectionSha256": "3a550c1916c27291e30f6150fc29fdac8028b343e7e8f6e12e09dbe336bb6c79"
+                }
+              },
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 15.0,
+                "mode": "explicit-purchase-or-repeat",
+                "basis": "reading-explicit-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+                  "anchor": "L19",
+                  "sectionSha256": "3a550c1916c27291e30f6150fc29fdac8028b343e7e8f6e12e09dbe336bb6c79"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ],
+              [
+                "free"
+              ],
+              [
+                "move"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-0e003b5d6ba8d6d5--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "敏捷",
+                    "minimum": 4
+                  },
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "意志",
+                    "minimum": 4
+                  }
+                ],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+                  "anchor": "L19",
+                  "sectionSha256": "3a550c1916c27291e30f6150fc29fdac8028b343e7e8f6e12e09dbe336bb6c79"
+                },
+                "semanticStatus": "partial"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L19",
+              "sectionSha256": "3a550c1916c27291e30f6150fc29fdac8028b343e7e8f6e12e09dbe336bb6c79"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L19",
+              "sectionSha256": "3a550c1916c27291e30f6150fc29fdac8028b343e7e8f6e12e09dbe336bb6c79"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 3,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+                  "anchor": "L19",
+                  "sectionSha256": "3a550c1916c27291e30f6150fc29fdac8028b343e7e8f6e12e09dbe336bb6c79"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L19",
+              "sectionSha256": "3a550c1916c27291e30f6150fc29fdac8028b343e7e8f6e12e09dbe336bb6c79"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "精力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+                  "anchor": "L19",
+                  "sectionSha256": "3a550c1916c27291e30f6150fc29fdac8028b343e7e8f6e12e09dbe336bb6c79"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L19",
+              "sectionSha256": "3a550c1916c27291e30f6150fc29fdac8028b343e7e8f6e12e09dbe336bb6c79"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L19",
+              "sectionSha256": "3a550c1916c27291e30f6150fc29fdac8028b343e7e8f6e12e09dbe336bb6c79"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L19",
+              "sectionSha256": "3a550c1916c27291e30f6150fc29fdac8028b343e7e8f6e12e09dbe336bb6c79"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-0e003b5d6ba8d6d5--3f970821bb78",
+          "name": "死神之眼",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+            "anchor": "L38",
+            "sectionSha256": "5d37421f2764e12332edfede713583548c46c19d21fbbe0d9f586475eb236975"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/远程类型/拔枪术.md",
+              "sha256": "31fe9f7183abd0ff9aecce924eb1eb2405d620b0037636df5b7aae3376e7f13c",
+              "lineRanges": [
+                [
+                  38,
+                  45
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+                  "anchor": "L38",
+                  "sectionSha256": "5d37421f2764e12332edfede713583548c46c19d21fbbe0d9f586475eb236975"
+                }
+              },
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 5.0,
+                "mode": "explicit-purchase-or-repeat",
+                "basis": "reading-explicit-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+                  "anchor": "L38",
+                  "sectionSha256": "5d37421f2764e12332edfede713583548c46c19d21fbbe0d9f586475eb236975"
+                }
+              },
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 5.0,
+                "mode": "explicit-purchase-or-repeat",
+                "basis": "reading-explicit-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+                  "anchor": "L38",
+                  "sectionSha256": "5d37421f2764e12332edfede713583548c46c19d21fbbe0d9f586475eb236975"
+                }
+              },
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 5.0,
+                "mode": "explicit-purchase-or-repeat",
+                "basis": "reading-explicit-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+                  "anchor": "L38",
+                  "sectionSha256": "5d37421f2764e12332edfede713583548c46c19d21fbbe0d9f586475eb236975"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-0e003b5d6ba8d6d5--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "敏捷",
+                    "minimum": 4
+                  },
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "意志",
+                    "minimum": 4
+                  },
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "感知",
+                    "minimum": 4
+                  }
+                ],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+                  "anchor": "L38",
+                  "sectionSha256": "5d37421f2764e12332edfede713583548c46c19d21fbbe0d9f586475eb236975"
+                },
+                "semanticStatus": "partial"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L38",
+              "sectionSha256": "5d37421f2764e12332edfede713583548c46c19d21fbbe0d9f586475eb236975"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 2,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+                  "anchor": "L38",
+                  "sectionSha256": "5d37421f2764e12332edfede713583548c46c19d21fbbe0d9f586475eb236975"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L38",
+              "sectionSha256": "5d37421f2764e12332edfede713583548c46c19d21fbbe0d9f586475eb236975"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L38",
+              "sectionSha256": "5d37421f2764e12332edfede713583548c46c19d21fbbe0d9f586475eb236975"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L38",
+              "sectionSha256": "5d37421f2764e12332edfede713583548c46c19d21fbbe0d9f586475eb236975"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L38",
+              "sectionSha256": "5d37421f2764e12332edfede713583548c46c19d21fbbe0d9f586475eb236975"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L38",
+              "sectionSha256": "5d37421f2764e12332edfede713583548c46c19d21fbbe0d9f586475eb236975"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "完美",
+              "value": 3,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+                "anchor": "L38",
+                "sectionSha256": "5d37421f2764e12332edfede713583548c46c19d21fbbe0d9f586475eb236975"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-0e003b5d6ba8d6d5--adb17ae1473a",
+          "name": "指哪打哪",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+            "anchor": "L46",
+            "sectionSha256": "62c45b4af5553bb3ec24bd5384e760d8b4a34340698e003c8fd30d4049e7c457"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/远程类型/拔枪术.md",
+              "sha256": "31fe9f7183abd0ff9aecce924eb1eb2405d620b0037636df5b7aae3376e7f13c",
+              "lineRanges": [
+                [
+                  46,
+                  48
+                ],
+                [
+                  51,
+                  51
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+                  "anchor": "L46",
+                  "sectionSha256": "62c45b4af5553bb3ec24bd5384e760d8b4a34340698e003c8fd30d4049e7c457"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-0e003b5d6ba8d6d5--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+                  "anchor": "L46",
+                  "sectionSha256": "62c45b4af5553bb3ec24bd5384e760d8b4a34340698e003c8fd30d4049e7c457"
+                },
+                "semanticStatus": "not-encoded"
+              },
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+                  "anchor": "L46",
+                  "sectionSha256": "62c45b4af5553bb3ec24bd5384e760d8b4a34340698e003c8fd30d4049e7c457"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L46",
+              "sectionSha256": "62c45b4af5553bb3ec24bd5384e760d8b4a34340698e003c8fd30d4049e7c457"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L46",
+              "sectionSha256": "62c45b4af5553bb3ec24bd5384e760d8b4a34340698e003c8fd30d4049e7c457"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L46",
+              "sectionSha256": "62c45b4af5553bb3ec24bd5384e760d8b4a34340698e003c8fd30d4049e7c457"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L46",
+              "sectionSha256": "62c45b4af5553bb3ec24bd5384e760d8b4a34340698e003c8fd30d4049e7c457"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L46",
+              "sectionSha256": "62c45b4af5553bb3ec24bd5384e760d8b4a34340698e003c8fd30d4049e7c457"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L46",
+              "sectionSha256": "62c45b4af5553bb3ec24bd5384e760d8b4a34340698e003c8fd30d4049e7c457"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-0e003b5d6ba8d6d5--aca113531feb",
+          "name": "闪电射击",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+            "anchor": "L52",
+            "sectionSha256": "a9e0ef5d817c7788dc8c39f0af88868cff02fd182495330670cdb5950b5ffda6"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/远程类型/拔枪术.md",
+              "sha256": "31fe9f7183abd0ff9aecce924eb1eb2405d620b0037636df5b7aae3376e7f13c",
+              "lineRanges": [
+                [
+                  52,
+                  53
+                ],
+                [
+                  55,
+                  56
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+                  "anchor": "L52",
+                  "sectionSha256": "a9e0ef5d817c7788dc8c39f0af88868cff02fd182495330670cdb5950b5ffda6"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-0e003b5d6ba8d6d5--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+                  "anchor": "L52",
+                  "sectionSha256": "a9e0ef5d817c7788dc8c39f0af88868cff02fd182495330670cdb5950b5ffda6"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L52",
+              "sectionSha256": "a9e0ef5d817c7788dc8c39f0af88868cff02fd182495330670cdb5950b5ffda6"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L52",
+              "sectionSha256": "a9e0ef5d817c7788dc8c39f0af88868cff02fd182495330670cdb5950b5ffda6"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+                  "anchor": "L52",
+                  "sectionSha256": "a9e0ef5d817c7788dc8c39f0af88868cff02fd182495330670cdb5950b5ffda6"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L52",
+              "sectionSha256": "a9e0ef5d817c7788dc8c39f0af88868cff02fd182495330670cdb5950b5ffda6"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L52",
+              "sectionSha256": "a9e0ef5d817c7788dc8c39f0af88868cff02fd182495330670cdb5950b5ffda6"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L52",
+              "sectionSha256": "a9e0ef5d817c7788dc8c39f0af88868cff02fd182495330670cdb5950b5ffda6"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L52",
+              "sectionSha256": "a9e0ef5d817c7788dc8c39f0af88868cff02fd182495330670cdb5950b5ffda6"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-0e003b5d6ba8d6d5--bf62b41b168d",
+          "name": "警告威慑",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+            "anchor": "L57",
+            "sectionSha256": "348a7e1d180ae4ab735f7ba2e020d87b145c9741d8e1fb7e38e5a12b31419903"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/远程类型/拔枪术.md",
+              "sha256": "31fe9f7183abd0ff9aecce924eb1eb2405d620b0037636df5b7aae3376e7f13c",
+              "lineRanges": [
+                [
+                  57,
+                  57
+                ],
+                [
+                  59,
+                  66
+                ],
+                [
+                  68,
+                  68
+                ],
+                [
+                  70,
+                  70
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+                  "anchor": "L57",
+                  "sectionSha256": "348a7e1d180ae4ab735f7ba2e020d87b145c9741d8e1fb7e38e5a12b31419903"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-0e003b5d6ba8d6d5--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L57",
+              "sectionSha256": "348a7e1d180ae4ab735f7ba2e020d87b145c9741d8e1fb7e38e5a12b31419903"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L57",
+              "sectionSha256": "348a7e1d180ae4ab735f7ba2e020d87b145c9741d8e1fb7e38e5a12b31419903"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L57",
+              "sectionSha256": "348a7e1d180ae4ab735f7ba2e020d87b145c9741d8e1fb7e38e5a12b31419903"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L57",
+              "sectionSha256": "348a7e1d180ae4ab735f7ba2e020d87b145c9741d8e1fb7e38e5a12b31419903"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L57",
+              "sectionSha256": "348a7e1d180ae4ab735f7ba2e020d87b145c9741d8e1fb7e38e5a12b31419903"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L57",
+              "sectionSha256": "348a7e1d180ae4ab735f7ba2e020d87b145c9741d8e1fb7e38e5a12b31419903"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-0e003b5d6ba8d6d5--3bb4f37f6d3a",
+          "name": "2级：电光石火",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+            "anchor": "L71",
+            "sectionSha256": "112e20dabde2cb68816ea52bfe91fd9b9e04ecd68c0c220cdc575d47a54c37d8"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/远程类型/拔枪术.md",
+              "sha256": "31fe9f7183abd0ff9aecce924eb1eb2405d620b0037636df5b7aae3376e7f13c",
+              "lineRanges": [
+                [
+                  71,
+                  72
+                ],
+                [
+                  74,
+                  75
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-0e003b5d6ba8d6d5--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "敏捷",
+                    "minimum": 4
+                  }
+                ],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+                  "anchor": "L71",
+                  "sectionSha256": "112e20dabde2cb68816ea52bfe91fd9b9e04ecd68c0c220cdc575d47a54c37d8"
+                },
+                "semanticStatus": "partial"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L71",
+              "sectionSha256": "112e20dabde2cb68816ea52bfe91fd9b9e04ecd68c0c220cdc575d47a54c37d8"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L71",
+              "sectionSha256": "112e20dabde2cb68816ea52bfe91fd9b9e04ecd68c0c220cdc575d47a54c37d8"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L71",
+              "sectionSha256": "112e20dabde2cb68816ea52bfe91fd9b9e04ecd68c0c220cdc575d47a54c37d8"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L71",
+              "sectionSha256": "112e20dabde2cb68816ea52bfe91fd9b9e04ecd68c0c220cdc575d47a54c37d8"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L71",
+              "sectionSha256": "112e20dabde2cb68816ea52bfe91fd9b9e04ecd68c0c220cdc575d47a54c37d8"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L71",
+              "sectionSha256": "112e20dabde2cb68816ea52bfe91fd9b9e04ecd68c0c220cdc575d47a54c37d8"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-0e003b5d6ba8d6d5--0be0b4fff624",
+          "name": "3级：午时已到",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+            "anchor": "L76",
+            "sectionSha256": "c8fbbaf381ddcca196585b0f45ef6cd22efd0aef9670d1d9bbdc66f33a12be2f"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/远程类型/拔枪术.md",
+              "sha256": "31fe9f7183abd0ff9aecce924eb1eb2405d620b0037636df5b7aae3376e7f13c",
+              "lineRanges": [
+                [
+                  76,
+                  77
+                ],
+                [
+                  79,
+                  79
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-0e003b5d6ba8d6d5--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "意志",
+                    "minimum": 4
+                  }
+                ],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+                  "anchor": "L76",
+                  "sectionSha256": "c8fbbaf381ddcca196585b0f45ef6cd22efd0aef9670d1d9bbdc66f33a12be2f"
+                },
+                "semanticStatus": "partial"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L76",
+              "sectionSha256": "c8fbbaf381ddcca196585b0f45ef6cd22efd0aef9670d1d9bbdc66f33a12be2f"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L76",
+              "sectionSha256": "c8fbbaf381ddcca196585b0f45ef6cd22efd0aef9670d1d9bbdc66f33a12be2f"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L76",
+              "sectionSha256": "c8fbbaf381ddcca196585b0f45ef6cd22efd0aef9670d1d9bbdc66f33a12be2f"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L76",
+              "sectionSha256": "c8fbbaf381ddcca196585b0f45ef6cd22efd0aef9670d1d9bbdc66f33a12be2f"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L76",
+              "sectionSha256": "c8fbbaf381ddcca196585b0f45ef6cd22efd0aef9670d1d9bbdc66f33a12be2f"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L76",
+              "sectionSha256": "c8fbbaf381ddcca196585b0f45ef6cd22efd0aef9670d1d9bbdc66f33a12be2f"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-0e003b5d6ba8d6d5--44842f70d612",
+          "name": "4级：空间感知",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+            "anchor": "L80",
+            "sectionSha256": "4a398ef0f20c84abdce8ae9e5359552abde10ed3f5de346278be0462e539b575"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/远程类型/拔枪术.md",
+              "sha256": "31fe9f7183abd0ff9aecce924eb1eb2405d620b0037636df5b7aae3376e7f13c",
+              "lineRanges": [
+                [
+                  80,
+                  81
+                ],
+                [
+                  83,
+                  86
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-0e003b5d6ba8d6d5--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "感知",
+                    "minimum": 4
+                  }
+                ],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+                  "anchor": "L80",
+                  "sectionSha256": "4a398ef0f20c84abdce8ae9e5359552abde10ed3f5de346278be0462e539b575"
+                },
+                "semanticStatus": "partial"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L80",
+              "sectionSha256": "4a398ef0f20c84abdce8ae9e5359552abde10ed3f5de346278be0462e539b575"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L80",
+              "sectionSha256": "4a398ef0f20c84abdce8ae9e5359552abde10ed3f5de346278be0462e539b575"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L80",
+              "sectionSha256": "4a398ef0f20c84abdce8ae9e5359552abde10ed3f5de346278be0462e539b575"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L80",
+              "sectionSha256": "4a398ef0f20c84abdce8ae9e5359552abde10ed3f5de346278be0462e539b575"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L80",
+              "sectionSha256": "4a398ef0f20c84abdce8ae9e5359552abde10ed3f5de346278be0462e539b575"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/073-拔枪术.md",
+              "anchor": "L80",
+              "sectionSha256": "4a398ef0f20c84abdce8ae9e5359552abde10ed3f5de346278be0462e539b575"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "拔枪术",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "拔枪术",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "拔枪术大成",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "午时已到",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "死神之眼",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "指哪打哪",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "闪电射击",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "警告威慑",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "2级：电光石火",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "3级：午时已到",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "4级：空间感知",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-0e003b5d6ba8d6d5--79cfaa5a36db--intent",
+      "name": "拔枪术",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-0e003b5d6ba8d6d5--79cfaa5a36db",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-0e003b5d6ba8d6d5--7963c5b340e4--intent",
+      "name": "午时已到",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ],
+          [
+            "free"
+          ],
+          [
+            "move"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-0e003b5d6ba8d6d5--7963c5b340e4",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-0e003b5d6ba8d6d5--3f970821bb78--intent",
+      "name": "死神之眼",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-0e003b5d6ba8d6d5--3f970821bb78",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-0e003b5d6ba8d6d5--aca113531feb--intent",
+      "name": "闪电射击",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-0e003b5d6ba8d6d5--aca113531feb",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "duration-inheritance-and-no-implicit-refresh",
+    "prerequisite-logic-not-fully-encoded"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

@@ -1,0 +1,2246 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-f8e5f4c31271f6e6",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "八门遁甲",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J01",
+    "aliases": [
+      "八门遁甲",
+      "第一门，开门，开！",
+      "第二门，休门，开！",
+      "第三门，生门，开！",
+      "第四门，伤门，开！",
+      "第五门，杜门，开！",
+      "第六门，景门，开！",
+      "第七门，惊门，开！",
+      "第八门，死门，开！",
+      "表莲华"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/心法/八门遁甲.md",
+        "sha256": "161b3903fc3dd197ba1161a60e51746f00a77c1d48cb9c8c48ce4d7d2af8776f",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            63
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+    "sha256": "bef294d8e64e2176f08e4ea461a28071c1aeb1d62edbf05b1d8f3934da6be3ca"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-f8e5f4c31271f6e6--0ae594c1109f",
+          "name": "八门遁甲",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+            "anchor": "条目",
+            "sectionSha256": "5ab82db5a8ff59fe0455c12e02bdf48a9b202be0ef574a67be2182318f7976dd"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/八门遁甲.md",
+              "sha256": "161b3903fc3dd197ba1161a60e51746f00a77c1d48cb9c8c48ce4d7d2af8776f",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  9
+                ],
+                [
+                  11,
+                  11
+                ],
+                [
+                  20,
+                  20
+                ],
+                [
+                  25,
+                  25
+                ],
+                [
+                  31,
+                  31
+                ],
+                [
+                  37,
+                  37
+                ],
+                [
+                  44,
+                  44
+                ],
+                [
+                  50,
+                  51
+                ],
+                [
+                  56,
+                  56
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "条目",
+              "sectionSha256": "5ab82db5a8ff59fe0455c12e02bdf48a9b202be0ef574a67be2182318f7976dd"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "条目",
+              "sectionSha256": "5ab82db5a8ff59fe0455c12e02bdf48a9b202be0ef574a67be2182318f7976dd"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "条目",
+              "sectionSha256": "5ab82db5a8ff59fe0455c12e02bdf48a9b202be0ef574a67be2182318f7976dd"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "条目",
+              "sectionSha256": "5ab82db5a8ff59fe0455c12e02bdf48a9b202be0ef574a67be2182318f7976dd"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "条目",
+              "sectionSha256": "5ab82db5a8ff59fe0455c12e02bdf48a9b202be0ef574a67be2182318f7976dd"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "条目",
+              "sectionSha256": "5ab82db5a8ff59fe0455c12e02bdf48a9b202be0ef574a67be2182318f7976dd"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-f8e5f4c31271f6e6--79cfaa5a36db",
+          "name": "第一门，开门，开！",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+            "anchor": "L10",
+            "sectionSha256": "45fb8f9e2cd055845b176815421381b50984db094ad65eae349ff81598365ad1"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/八门遁甲.md",
+              "sha256": "161b3903fc3dd197ba1161a60e51746f00a77c1d48cb9c8c48ce4d7d2af8776f",
+              "lineRanges": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  12,
+                  13
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+                  "anchor": "L10",
+                  "sectionSha256": "45fb8f9e2cd055845b176815421381b50984db094ad65eae349ff81598365ad1"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-f8e5f4c31271f6e6--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L10",
+              "sectionSha256": "45fb8f9e2cd055845b176815421381b50984db094ad65eae349ff81598365ad1"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L10",
+              "sectionSha256": "45fb8f9e2cd055845b176815421381b50984db094ad65eae349ff81598365ad1"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L10",
+              "sectionSha256": "45fb8f9e2cd055845b176815421381b50984db094ad65eae349ff81598365ad1"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L10",
+              "sectionSha256": "45fb8f9e2cd055845b176815421381b50984db094ad65eae349ff81598365ad1"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L10",
+              "sectionSha256": "45fb8f9e2cd055845b176815421381b50984db094ad65eae349ff81598365ad1"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L10",
+              "sectionSha256": "45fb8f9e2cd055845b176815421381b50984db094ad65eae349ff81598365ad1"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "numeric-modifier",
+              "stat": "speed",
+              "value": 20,
+              "mode": "increase",
+              "bonusType": "unspecified-in-fragment",
+              "target": "self",
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "full-conditions",
+                "inheritance-and-stacking"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+                "anchor": "L10",
+                "sectionSha256": "45fb8f9e2cd055845b176815421381b50984db094ad65eae349ff81598365ad1"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-f8e5f4c31271f6e6--4e20baac66c8",
+          "name": "第二门，休门，开！",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+            "anchor": "L14",
+            "sectionSha256": "5a723da7c228bdf31f486b18af63f5509cee65f7dfb7065054ada146504768fa"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/八门遁甲.md",
+              "sha256": "161b3903fc3dd197ba1161a60e51746f00a77c1d48cb9c8c48ce4d7d2af8776f",
+              "lineRanges": [
+                [
+                  14,
+                  17
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+                  "anchor": "L14",
+                  "sectionSha256": "5a723da7c228bdf31f486b18af63f5509cee65f7dfb7065054ada146504768fa"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-f8e5f4c31271f6e6--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+                  "anchor": "L14",
+                  "sectionSha256": "5a723da7c228bdf31f486b18af63f5509cee65f7dfb7065054ada146504768fa"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L14",
+              "sectionSha256": "5a723da7c228bdf31f486b18af63f5509cee65f7dfb7065054ada146504768fa"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L14",
+              "sectionSha256": "5a723da7c228bdf31f486b18af63f5509cee65f7dfb7065054ada146504768fa"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L14",
+              "sectionSha256": "5a723da7c228bdf31f486b18af63f5509cee65f7dfb7065054ada146504768fa"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L14",
+              "sectionSha256": "5a723da7c228bdf31f486b18af63f5509cee65f7dfb7065054ada146504768fa"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L14",
+              "sectionSha256": "5a723da7c228bdf31f486b18af63f5509cee65f7dfb7065054ada146504768fa"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L14",
+              "sectionSha256": "5a723da7c228bdf31f486b18af63f5509cee65f7dfb7065054ada146504768fa"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "capability-reference",
+              "capability": "快速医疗",
+              "semanticStatus": "not-encoded",
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+                "anchor": "L14",
+                "sectionSha256": "5a723da7c228bdf31f486b18af63f5509cee65f7dfb7065054ada146504768fa"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-f8e5f4c31271f6e6--cc1ba94005d5",
+          "name": "第三门，生门，开！",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+            "anchor": "L18",
+            "sectionSha256": "4751b112d2636e7d673edd2d97b578ea61eb0c6190fa515f2dc50c56e3984e1c"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/八门遁甲.md",
+              "sha256": "161b3903fc3dd197ba1161a60e51746f00a77c1d48cb9c8c48ce4d7d2af8776f",
+              "lineRanges": [
+                [
+                  18,
+                  19
+                ],
+                [
+                  21,
+                  22
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+                  "anchor": "L18",
+                  "sectionSha256": "4751b112d2636e7d673edd2d97b578ea61eb0c6190fa515f2dc50c56e3984e1c"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-f8e5f4c31271f6e6--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+                  "anchor": "L18",
+                  "sectionSha256": "4751b112d2636e7d673edd2d97b578ea61eb0c6190fa515f2dc50c56e3984e1c"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L18",
+              "sectionSha256": "4751b112d2636e7d673edd2d97b578ea61eb0c6190fa515f2dc50c56e3984e1c"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L18",
+              "sectionSha256": "4751b112d2636e7d673edd2d97b578ea61eb0c6190fa515f2dc50c56e3984e1c"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L18",
+              "sectionSha256": "4751b112d2636e7d673edd2d97b578ea61eb0c6190fa515f2dc50c56e3984e1c"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L18",
+              "sectionSha256": "4751b112d2636e7d673edd2d97b578ea61eb0c6190fa515f2dc50c56e3984e1c"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L18",
+              "sectionSha256": "4751b112d2636e7d673edd2d97b578ea61eb0c6190fa515f2dc50c56e3984e1c"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L18",
+              "sectionSha256": "4751b112d2636e7d673edd2d97b578ea61eb0c6190fa515f2dc50c56e3984e1c"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "numeric-modifier",
+              "stat": "speed",
+              "value": 40,
+              "mode": "increment",
+              "bonusType": "unspecified-in-fragment",
+              "target": "self",
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "full-conditions",
+                "inheritance-and-stacking"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+                "anchor": "L18",
+                "sectionSha256": "4751b112d2636e7d673edd2d97b578ea61eb0c6190fa515f2dc50c56e3984e1c"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-f8e5f4c31271f6e6--b4958c67124e",
+          "name": "第四门，伤门，开！",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+            "anchor": "L23",
+            "sectionSha256": "d99e004b9f922546cd0f797b15663ff0748fe68682c2326f4c55e8f535ba1dd7"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/八门遁甲.md",
+              "sha256": "161b3903fc3dd197ba1161a60e51746f00a77c1d48cb9c8c48ce4d7d2af8776f",
+              "lineRanges": [
+                [
+                  23,
+                  24
+                ],
+                [
+                  26,
+                  28
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+                  "anchor": "L23",
+                  "sectionSha256": "d99e004b9f922546cd0f797b15663ff0748fe68682c2326f4c55e8f535ba1dd7"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-f8e5f4c31271f6e6--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+                  "anchor": "L23",
+                  "sectionSha256": "d99e004b9f922546cd0f797b15663ff0748fe68682c2326f4c55e8f535ba1dd7"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L23",
+              "sectionSha256": "d99e004b9f922546cd0f797b15663ff0748fe68682c2326f4c55e8f535ba1dd7"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L23",
+              "sectionSha256": "d99e004b9f922546cd0f797b15663ff0748fe68682c2326f4c55e8f535ba1dd7"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L23",
+              "sectionSha256": "d99e004b9f922546cd0f797b15663ff0748fe68682c2326f4c55e8f535ba1dd7"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L23",
+              "sectionSha256": "d99e004b9f922546cd0f797b15663ff0748fe68682c2326f4c55e8f535ba1dd7"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L23",
+              "sectionSha256": "d99e004b9f922546cd0f797b15663ff0748fe68682c2326f4c55e8f535ba1dd7"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L23",
+              "sectionSha256": "d99e004b9f922546cd0f797b15663ff0748fe68682c2326f4c55e8f535ba1dd7"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "numeric-modifier",
+              "stat": "speed",
+              "value": 40,
+              "mode": "increment",
+              "bonusType": "unspecified-in-fragment",
+              "target": "self",
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "full-conditions",
+                "inheritance-and-stacking"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+                "anchor": "L23",
+                "sectionSha256": "d99e004b9f922546cd0f797b15663ff0748fe68682c2326f4c55e8f535ba1dd7"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-f8e5f4c31271f6e6--bc2b72915c17",
+          "name": "第五门，杜门，开！",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+            "anchor": "L29",
+            "sectionSha256": "6446844f5cbae237e6a58a3ad41120cacd5a474daff84cb8515f90bb8681894f"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/八门遁甲.md",
+              "sha256": "161b3903fc3dd197ba1161a60e51746f00a77c1d48cb9c8c48ce4d7d2af8776f",
+              "lineRanges": [
+                [
+                  29,
+                  30
+                ],
+                [
+                  32,
+                  34
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+                  "anchor": "L29",
+                  "sectionSha256": "6446844f5cbae237e6a58a3ad41120cacd5a474daff84cb8515f90bb8681894f"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-f8e5f4c31271f6e6--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+                  "anchor": "L29",
+                  "sectionSha256": "6446844f5cbae237e6a58a3ad41120cacd5a474daff84cb8515f90bb8681894f"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L29",
+              "sectionSha256": "6446844f5cbae237e6a58a3ad41120cacd5a474daff84cb8515f90bb8681894f"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L29",
+              "sectionSha256": "6446844f5cbae237e6a58a3ad41120cacd5a474daff84cb8515f90bb8681894f"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L29",
+              "sectionSha256": "6446844f5cbae237e6a58a3ad41120cacd5a474daff84cb8515f90bb8681894f"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L29",
+              "sectionSha256": "6446844f5cbae237e6a58a3ad41120cacd5a474daff84cb8515f90bb8681894f"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L29",
+              "sectionSha256": "6446844f5cbae237e6a58a3ad41120cacd5a474daff84cb8515f90bb8681894f"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L29",
+              "sectionSha256": "6446844f5cbae237e6a58a3ad41120cacd5a474daff84cb8515f90bb8681894f"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "numeric-modifier",
+              "stat": "speed",
+              "value": 80,
+              "mode": "increment",
+              "bonusType": "unspecified-in-fragment",
+              "target": "self",
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "full-conditions",
+                "inheritance-and-stacking"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+                "anchor": "L29",
+                "sectionSha256": "6446844f5cbae237e6a58a3ad41120cacd5a474daff84cb8515f90bb8681894f"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-f8e5f4c31271f6e6--5668a86e7a81",
+          "name": "第六门，景门，开！",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+            "anchor": "L35",
+            "sectionSha256": "e11cf6090b695235a04dbc4f33fe1f578990c809f6bbe6f67062f9008cab92ba"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/八门遁甲.md",
+              "sha256": "161b3903fc3dd197ba1161a60e51746f00a77c1d48cb9c8c48ce4d7d2af8776f",
+              "lineRanges": [
+                [
+                  35,
+                  36
+                ],
+                [
+                  38,
+                  41
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 85,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+                  "anchor": "L35",
+                  "sectionSha256": "e11cf6090b695235a04dbc4f33fe1f578990c809f6bbe6f67062f9008cab92ba"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-f8e5f4c31271f6e6--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+                  "anchor": "L35",
+                  "sectionSha256": "e11cf6090b695235a04dbc4f33fe1f578990c809f6bbe6f67062f9008cab92ba"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L35",
+              "sectionSha256": "e11cf6090b695235a04dbc4f33fe1f578990c809f6bbe6f67062f9008cab92ba"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L35",
+              "sectionSha256": "e11cf6090b695235a04dbc4f33fe1f578990c809f6bbe6f67062f9008cab92ba"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L35",
+              "sectionSha256": "e11cf6090b695235a04dbc4f33fe1f578990c809f6bbe6f67062f9008cab92ba"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L35",
+              "sectionSha256": "e11cf6090b695235a04dbc4f33fe1f578990c809f6bbe6f67062f9008cab92ba"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L35",
+              "sectionSha256": "e11cf6090b695235a04dbc4f33fe1f578990c809f6bbe6f67062f9008cab92ba"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L35",
+              "sectionSha256": "e11cf6090b695235a04dbc4f33fe1f578990c809f6bbe6f67062f9008cab92ba"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "numeric-modifier",
+              "stat": "speed",
+              "value": 80,
+              "mode": "increment",
+              "bonusType": "unspecified-in-fragment",
+              "target": "self",
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "full-conditions",
+                "inheritance-and-stacking"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+                "anchor": "L35",
+                "sectionSha256": "e11cf6090b695235a04dbc4f33fe1f578990c809f6bbe6f67062f9008cab92ba"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-f8e5f4c31271f6e6--277d906bc615",
+          "name": "第七门，惊门，开！",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+            "anchor": "L42",
+            "sectionSha256": "f0873c4c6df82c9b72f103e2890668100289d400432235f520f54865c02c5936"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/八门遁甲.md",
+              "sha256": "161b3903fc3dd197ba1161a60e51746f00a77c1d48cb9c8c48ce4d7d2af8776f",
+              "lineRanges": [
+                [
+                  42,
+                  43
+                ],
+                [
+                  45,
+                  47
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+                  "anchor": "L42",
+                  "sectionSha256": "f0873c4c6df82c9b72f103e2890668100289d400432235f520f54865c02c5936"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-f8e5f4c31271f6e6--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+                  "anchor": "L42",
+                  "sectionSha256": "f0873c4c6df82c9b72f103e2890668100289d400432235f520f54865c02c5936"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L42",
+              "sectionSha256": "f0873c4c6df82c9b72f103e2890668100289d400432235f520f54865c02c5936"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L42",
+              "sectionSha256": "f0873c4c6df82c9b72f103e2890668100289d400432235f520f54865c02c5936"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L42",
+              "sectionSha256": "f0873c4c6df82c9b72f103e2890668100289d400432235f520f54865c02c5936"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L42",
+              "sectionSha256": "f0873c4c6df82c9b72f103e2890668100289d400432235f520f54865c02c5936"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L42",
+              "sectionSha256": "f0873c4c6df82c9b72f103e2890668100289d400432235f520f54865c02c5936"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L42",
+              "sectionSha256": "f0873c4c6df82c9b72f103e2890668100289d400432235f520f54865c02c5936"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "numeric-modifier",
+              "stat": "speed",
+              "value": 160,
+              "mode": "increment",
+              "bonusType": "unspecified-in-fragment",
+              "target": "self",
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "full-conditions",
+                "inheritance-and-stacking"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+                "anchor": "L42",
+                "sectionSha256": "f0873c4c6df82c9b72f103e2890668100289d400432235f520f54865c02c5936"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-f8e5f4c31271f6e6--7fe801bb3cb6",
+          "name": "第八门，死门，开！",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+            "anchor": "L48",
+            "sectionSha256": "d6c17adbe7856977cb5fbffd1415b8661e50acb544d4e716ed0ad25e721504fe"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/八门遁甲.md",
+              "sha256": "161b3903fc3dd197ba1161a60e51746f00a77c1d48cb9c8c48ce4d7d2af8776f",
+              "lineRanges": [
+                [
+                  48,
+                  49
+                ],
+                [
+                  52,
+                  54
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 215,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+                  "anchor": "L48",
+                  "sectionSha256": "d6c17adbe7856977cb5fbffd1415b8661e50acb544d4e716ed0ad25e721504fe"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-f8e5f4c31271f6e6--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+                  "anchor": "L48",
+                  "sectionSha256": "d6c17adbe7856977cb5fbffd1415b8661e50acb544d4e716ed0ad25e721504fe"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L48",
+              "sectionSha256": "d6c17adbe7856977cb5fbffd1415b8661e50acb544d4e716ed0ad25e721504fe"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L48",
+              "sectionSha256": "d6c17adbe7856977cb5fbffd1415b8661e50acb544d4e716ed0ad25e721504fe"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L48",
+              "sectionSha256": "d6c17adbe7856977cb5fbffd1415b8661e50acb544d4e716ed0ad25e721504fe"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L48",
+              "sectionSha256": "d6c17adbe7856977cb5fbffd1415b8661e50acb544d4e716ed0ad25e721504fe"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L48",
+              "sectionSha256": "d6c17adbe7856977cb5fbffd1415b8661e50acb544d4e716ed0ad25e721504fe"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L48",
+              "sectionSha256": "d6c17adbe7856977cb5fbffd1415b8661e50acb544d4e716ed0ad25e721504fe"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "numeric-modifier",
+              "stat": "speed",
+              "value": 320,
+              "mode": "increment",
+              "bonusType": "unspecified-in-fragment",
+              "target": "self",
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "full-conditions",
+                "inheritance-and-stacking"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+                "anchor": "L48",
+                "sectionSha256": "d6c17adbe7856977cb5fbffd1415b8661e50acb544d4e716ed0ad25e721504fe"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-f8e5f4c31271f6e6--3ab8b12e4a75",
+          "name": "表莲华",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+            "anchor": "L55",
+            "sectionSha256": "455c62da807cd66268d386c6599835d85b2d67a85bbeaea6133e5e8dbc11a274"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/八门遁甲.md",
+              "sha256": "161b3903fc3dd197ba1161a60e51746f00a77c1d48cb9c8c48ce4d7d2af8776f",
+              "lineRanges": [
+                [
+                  55,
+                  55
+                ],
+                [
+                  57,
+                  63
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+                  "anchor": "L55",
+                  "sectionSha256": "455c62da807cd66268d386c6599835d85b2d67a85bbeaea6133e5e8dbc11a274"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard",
+                "move"
+              ],
+              [
+                "swift"
+              ],
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-f8e5f4c31271f6e6--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L55",
+              "sectionSha256": "455c62da807cd66268d386c6599835d85b2d67a85bbeaea6133e5e8dbc11a274"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L55",
+              "sectionSha256": "455c62da807cd66268d386c6599835d85b2d67a85bbeaea6133e5e8dbc11a274"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L55",
+              "sectionSha256": "455c62da807cd66268d386c6599835d85b2d67a85bbeaea6133e5e8dbc11a274"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L55",
+              "sectionSha256": "455c62da807cd66268d386c6599835d85b2d67a85bbeaea6133e5e8dbc11a274"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L55",
+              "sectionSha256": "455c62da807cd66268d386c6599835d85b2d67a85bbeaea6133e5e8dbc11a274"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+              "anchor": "L55",
+              "sectionSha256": "455c62da807cd66268d386c6599835d85b2d67a85bbeaea6133e5e8dbc11a274"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "增强",
+              "value": 12,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/003-八门遁甲.md",
+                "anchor": "L55",
+                "sectionSha256": "455c62da807cd66268d386c6599835d85b2d67a85bbeaea6133e5e8dbc11a274"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "八门遁甲",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "第一门，开门，开！",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "第二门，休门，开！",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "第三门，生门，开！",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "第四门，伤门，开！",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "第五门，杜门，开！",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "第六门，景门，开！",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "第七门，惊门，开！",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "第八门，死门，开！",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "表莲华",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-f8e5f4c31271f6e6--0ae594c1109f--intent",
+      "name": "八门遁甲",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-f8e5f4c31271f6e6--0ae594c1109f",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-f8e5f4c31271f6e6--79cfaa5a36db--intent",
+      "name": "第一门，开门，开！",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-f8e5f4c31271f6e6--79cfaa5a36db",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-f8e5f4c31271f6e6--4e20baac66c8--intent",
+      "name": "第二门，休门，开！",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-f8e5f4c31271f6e6--4e20baac66c8",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-f8e5f4c31271f6e6--cc1ba94005d5--intent",
+      "name": "第三门，生门，开！",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-f8e5f4c31271f6e6--cc1ba94005d5",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-f8e5f4c31271f6e6--b4958c67124e--intent",
+      "name": "第四门，伤门，开！",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-f8e5f4c31271f6e6--b4958c67124e",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-f8e5f4c31271f6e6--bc2b72915c17--intent",
+      "name": "第五门，杜门，开！",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-f8e5f4c31271f6e6--bc2b72915c17",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-f8e5f4c31271f6e6--5668a86e7a81--intent",
+      "name": "第六门，景门，开！",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-f8e5f4c31271f6e6--5668a86e7a81",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-f8e5f4c31271f6e6--277d906bc615--intent",
+      "name": "第七门，惊门，开！",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-f8e5f4c31271f6e6--277d906bc615",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-f8e5f4c31271f6e6--7fe801bb3cb6--intent",
+      "name": "第八门，死门，开！",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-f8e5f4c31271f6e6--7fe801bb3cb6",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-f8e5f4c31271f6e6--3ab8b12e4a75--intent",
+      "name": "表莲华",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard",
+            "move"
+          ],
+          [
+            "swift"
+          ],
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-f8e5f4c31271f6e6--3ab8b12e4a75",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "duration-inheritance-and-no-implicit-refresh",
+    "prerequisite-logic-not-fully-encoded",
+    "attack-program-hardcodes-INT-and-casting"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

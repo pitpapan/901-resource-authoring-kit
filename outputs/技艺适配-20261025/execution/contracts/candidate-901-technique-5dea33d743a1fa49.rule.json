@@ -1,0 +1,1434 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-5dea33d743a1fa49",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "清河戈术",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J04",
+    "aliases": [
+      "清河戈术",
+      "雷霆万钧",
+      "指天划地",
+      "星散阵崩",
+      "披肝沥胆",
+      "众志成城",
+      "血舞狂风"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/清河戈术.md",
+        "sha256": "1d3480ae63087fa80eddc610ccc690a23c07259bf0b3b036f04d2dfa5e3cbee0",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            45
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+    "sha256": "71064b1c7014ddc32ac1853af129d4a22575e7d61aa59a3810efe09d612921e3"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-5dea33d743a1fa49--0ae594c1109f",
+          "name": "清河戈术",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+            "anchor": "条目",
+            "sectionSha256": "13d05112a60d67b1307e2e5530ef74c3a7a041e6c503ba4068f89a97a5e8144b"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/清河戈术.md",
+              "sha256": "1d3480ae63087fa80eddc610ccc690a23c07259bf0b3b036f04d2dfa5e3cbee0",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  10
+                ],
+                [
+                  12,
+                  12
+                ],
+                [
+                  25,
+                  25
+                ],
+                [
+                  30,
+                  30
+                ],
+                [
+                  34,
+                  34
+                ],
+                [
+                  38,
+                  38
+                ],
+                [
+                  44,
+                  44
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "力量",
+                    "minimum": 6
+                  },
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "敏捷",
+                    "minimum": 6
+                  },
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "意志",
+                    "minimum": 6
+                  },
+                  {
+                    "kind": "expertise-minimum",
+                    "skill": "白刃",
+                    "minimum": 5,
+                    "skillModel": "primary-plus-one-subskill"
+                  }
+                ],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+                  "anchor": "条目",
+                  "sectionSha256": "13d05112a60d67b1307e2e5530ef74c3a7a041e6c503ba4068f89a97a5e8144b"
+                },
+                "semanticStatus": "partial"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "条目",
+              "sectionSha256": "13d05112a60d67b1307e2e5530ef74c3a7a041e6c503ba4068f89a97a5e8144b"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "条目",
+              "sectionSha256": "13d05112a60d67b1307e2e5530ef74c3a7a041e6c503ba4068f89a97a5e8144b"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "条目",
+              "sectionSha256": "13d05112a60d67b1307e2e5530ef74c3a7a041e6c503ba4068f89a97a5e8144b"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "条目",
+              "sectionSha256": "13d05112a60d67b1307e2e5530ef74c3a7a041e6c503ba4068f89a97a5e8144b"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "条目",
+              "sectionSha256": "13d05112a60d67b1307e2e5530ef74c3a7a041e6c503ba4068f89a97a5e8144b"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "all-subskill-qualifications",
+                  "skill": "神秘",
+                  "subskills": [
+                    "戈矛任意东方能量驱动",
+                    "选择后不可更改"
+                  ],
+                  "eachMinimum": 1
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+                  "anchor": "条目",
+                  "sectionSha256": "13d05112a60d67b1307e2e5530ef74c3a7a041e6c503ba4068f89a97a5e8144b"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "条目",
+              "sectionSha256": "13d05112a60d67b1307e2e5530ef74c3a7a041e6c503ba4068f89a97a5e8144b"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-5dea33d743a1fa49--04a90cd5d050",
+          "name": "雷霆万钧",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+            "anchor": "L11",
+            "sectionSha256": "8b13795737cd050ffb12ed5558a18a60960f01342685977e86b1f8a7ab0b0188"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/清河戈术.md",
+              "sha256": "1d3480ae63087fa80eddc610ccc690a23c07259bf0b3b036f04d2dfa5e3cbee0",
+              "lineRanges": [
+                [
+                  11,
+                  11
+                ],
+                [
+                  13,
+                  21
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+                  "anchor": "L11",
+                  "sectionSha256": "8b13795737cd050ffb12ed5558a18a60960f01342685977e86b1f8a7ab0b0188"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-5dea33d743a1fa49--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+                  "anchor": "L11",
+                  "sectionSha256": "8b13795737cd050ffb12ed5558a18a60960f01342685977e86b1f8a7ab0b0188"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L11",
+              "sectionSha256": "8b13795737cd050ffb12ed5558a18a60960f01342685977e86b1f8a7ab0b0188"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L11",
+              "sectionSha256": "8b13795737cd050ffb12ed5558a18a60960f01342685977e86b1f8a7ab0b0188"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 6,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+                  "anchor": "L11",
+                  "sectionSha256": "8b13795737cd050ffb12ed5558a18a60960f01342685977e86b1f8a7ab0b0188"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L11",
+              "sectionSha256": "8b13795737cd050ffb12ed5558a18a60960f01342685977e86b1f8a7ab0b0188"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L11",
+              "sectionSha256": "8b13795737cd050ffb12ed5558a18a60960f01342685977e86b1f8a7ab0b0188"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L11",
+              "sectionSha256": "8b13795737cd050ffb12ed5558a18a60960f01342685977e86b1f8a7ab0b0188"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L11",
+              "sectionSha256": "8b13795737cd050ffb12ed5558a18a60960f01342685977e86b1f8a7ab0b0188"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-5dea33d743a1fa49--eb6e35b9eeab",
+          "name": "指天划地",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+            "anchor": "L22",
+            "sectionSha256": "d05153a0c89fc963976a123eaed217b57ddb4bda086a13c13efb7fc7315d1ce5"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/清河戈术.md",
+              "sha256": "1d3480ae63087fa80eddc610ccc690a23c07259bf0b3b036f04d2dfa5e3cbee0",
+              "lineRanges": [
+                [
+                  22,
+                  24
+                ],
+                [
+                  26,
+                  26
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+                  "anchor": "L22",
+                  "sectionSha256": "d05153a0c89fc963976a123eaed217b57ddb4bda086a13c13efb7fc7315d1ce5"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-5dea33d743a1fa49--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L22",
+              "sectionSha256": "d05153a0c89fc963976a123eaed217b57ddb4bda086a13c13efb7fc7315d1ce5"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L22",
+              "sectionSha256": "d05153a0c89fc963976a123eaed217b57ddb4bda086a13c13efb7fc7315d1ce5"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 3,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+                  "anchor": "L22",
+                  "sectionSha256": "d05153a0c89fc963976a123eaed217b57ddb4bda086a13c13efb7fc7315d1ce5"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L22",
+              "sectionSha256": "d05153a0c89fc963976a123eaed217b57ddb4bda086a13c13efb7fc7315d1ce5"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L22",
+              "sectionSha256": "d05153a0c89fc963976a123eaed217b57ddb4bda086a13c13efb7fc7315d1ce5"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L22",
+              "sectionSha256": "d05153a0c89fc963976a123eaed217b57ddb4bda086a13c13efb7fc7315d1ce5"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L22",
+              "sectionSha256": "d05153a0c89fc963976a123eaed217b57ddb4bda086a13c13efb7fc7315d1ce5"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-5dea33d743a1fa49--62cacaa0e286",
+          "name": "星散阵崩",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+            "anchor": "L27",
+            "sectionSha256": "9334d7ccecdacae329f18ec43bdad289c0f000bed05ccb9c2ca33f5b6e2ce2f5"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/清河戈术.md",
+              "sha256": "1d3480ae63087fa80eddc610ccc690a23c07259bf0b3b036f04d2dfa5e3cbee0",
+              "lineRanges": [
+                [
+                  27,
+                  29
+                ],
+                [
+                  31,
+                  31
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+                  "anchor": "L27",
+                  "sectionSha256": "9334d7ccecdacae329f18ec43bdad289c0f000bed05ccb9c2ca33f5b6e2ce2f5"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-5dea33d743a1fa49--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L27",
+              "sectionSha256": "9334d7ccecdacae329f18ec43bdad289c0f000bed05ccb9c2ca33f5b6e2ce2f5"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L27",
+              "sectionSha256": "9334d7ccecdacae329f18ec43bdad289c0f000bed05ccb9c2ca33f5b6e2ce2f5"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 10,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+                  "anchor": "L27",
+                  "sectionSha256": "9334d7ccecdacae329f18ec43bdad289c0f000bed05ccb9c2ca33f5b6e2ce2f5"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L27",
+              "sectionSha256": "9334d7ccecdacae329f18ec43bdad289c0f000bed05ccb9c2ca33f5b6e2ce2f5"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L27",
+              "sectionSha256": "9334d7ccecdacae329f18ec43bdad289c0f000bed05ccb9c2ca33f5b6e2ce2f5"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L27",
+              "sectionSha256": "9334d7ccecdacae329f18ec43bdad289c0f000bed05ccb9c2ca33f5b6e2ce2f5"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L27",
+              "sectionSha256": "9334d7ccecdacae329f18ec43bdad289c0f000bed05ccb9c2ca33f5b6e2ce2f5"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-5dea33d743a1fa49--aaa309ab9c57",
+          "name": "披肝沥胆",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+            "anchor": "L32",
+            "sectionSha256": "393f8073653a7286473b8ffb3dc62e004c0d398b2c2f1fb4ecc48aa97979a2fa"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/清河戈术.md",
+              "sha256": "1d3480ae63087fa80eddc610ccc690a23c07259bf0b3b036f04d2dfa5e3cbee0",
+              "lineRanges": [
+                [
+                  32,
+                  33
+                ],
+                [
+                  35,
+                  36
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+                  "anchor": "L32",
+                  "sectionSha256": "393f8073653a7286473b8ffb3dc62e004c0d398b2c2f1fb4ecc48aa97979a2fa"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "move"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-5dea33d743a1fa49--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L32",
+              "sectionSha256": "393f8073653a7286473b8ffb3dc62e004c0d398b2c2f1fb4ecc48aa97979a2fa"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L32",
+              "sectionSha256": "393f8073653a7286473b8ffb3dc62e004c0d398b2c2f1fb4ecc48aa97979a2fa"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L32",
+              "sectionSha256": "393f8073653a7286473b8ffb3dc62e004c0d398b2c2f1fb4ecc48aa97979a2fa"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L32",
+              "sectionSha256": "393f8073653a7286473b8ffb3dc62e004c0d398b2c2f1fb4ecc48aa97979a2fa"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L32",
+              "sectionSha256": "393f8073653a7286473b8ffb3dc62e004c0d398b2c2f1fb4ecc48aa97979a2fa"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L32",
+              "sectionSha256": "393f8073653a7286473b8ffb3dc62e004c0d398b2c2f1fb4ecc48aa97979a2fa"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-5dea33d743a1fa49--62317f6d0509",
+          "name": "众志成城",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+            "anchor": "L37",
+            "sectionSha256": "d1ede04099e35a6ce4586441ccabf5d61f200a32dfb36bfb8e6f257d5cf69b3d"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/清河戈术.md",
+              "sha256": "1d3480ae63087fa80eddc610ccc690a23c07259bf0b3b036f04d2dfa5e3cbee0",
+              "lineRanges": [
+                [
+                  37,
+                  37
+                ],
+                [
+                  39,
+                  42
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+                  "anchor": "L37",
+                  "sectionSha256": "d1ede04099e35a6ce4586441ccabf5d61f200a32dfb36bfb8e6f257d5cf69b3d"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-5dea33d743a1fa49--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L37",
+              "sectionSha256": "d1ede04099e35a6ce4586441ccabf5d61f200a32dfb36bfb8e6f257d5cf69b3d"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L37",
+              "sectionSha256": "d1ede04099e35a6ce4586441ccabf5d61f200a32dfb36bfb8e6f257d5cf69b3d"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L37",
+              "sectionSha256": "d1ede04099e35a6ce4586441ccabf5d61f200a32dfb36bfb8e6f257d5cf69b3d"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L37",
+              "sectionSha256": "d1ede04099e35a6ce4586441ccabf5d61f200a32dfb36bfb8e6f257d5cf69b3d"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L37",
+              "sectionSha256": "d1ede04099e35a6ce4586441ccabf5d61f200a32dfb36bfb8e6f257d5cf69b3d"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L37",
+              "sectionSha256": "d1ede04099e35a6ce4586441ccabf5d61f200a32dfb36bfb8e6f257d5cf69b3d"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-5dea33d743a1fa49--67e9820fa83b",
+          "name": "血舞狂风",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+            "anchor": "L43",
+            "sectionSha256": "a30a7c5c967934b84a7c102674bd05ff9a53e4c4a8bd5f807def15061e6dbe83"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/武器技巧/清河戈术.md",
+              "sha256": "1d3480ae63087fa80eddc610ccc690a23c07259bf0b3b036f04d2dfa5e3cbee0",
+              "lineRanges": [
+                [
+                  43,
+                  43
+                ],
+                [
+                  45,
+                  45
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+                  "anchor": "L43",
+                  "sectionSha256": "a30a7c5c967934b84a7c102674bd05ff9a53e4c4a8bd5f807def15061e6dbe83"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-5dea33d743a1fa49--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L43",
+              "sectionSha256": "a30a7c5c967934b84a7c102674bd05ff9a53e4c4a8bd5f807def15061e6dbe83"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L43",
+              "sectionSha256": "a30a7c5c967934b84a7c102674bd05ff9a53e4c4a8bd5f807def15061e6dbe83"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+                  "anchor": "L43",
+                  "sectionSha256": "a30a7c5c967934b84a7c102674bd05ff9a53e4c4a8bd5f807def15061e6dbe83"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L43",
+              "sectionSha256": "a30a7c5c967934b84a7c102674bd05ff9a53e4c4a8bd5f807def15061e6dbe83"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "selected-qualified-pool"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+                  "anchor": "L43",
+                  "sectionSha256": "a30a7c5c967934b84a7c102674bd05ff9a53e4c4a8bd5f807def15061e6dbe83"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L43",
+              "sectionSha256": "a30a7c5c967934b84a7c102674bd05ff9a53e4c4a8bd5f807def15061e6dbe83"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L43",
+              "sectionSha256": "a30a7c5c967934b84a7c102674bd05ff9a53e4c4a8bd5f807def15061e6dbe83"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/038-清河戈术.md",
+              "anchor": "L43",
+              "sectionSha256": "a30a7c5c967934b84a7c102674bd05ff9a53e4c4a8bd5f807def15061e6dbe83"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "清河戈术",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "雷霆万钧",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "指天划地",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "星散阵崩",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "披肝沥胆",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "众志成城",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "血舞狂风",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-5dea33d743a1fa49--04a90cd5d050--intent",
+      "name": "雷霆万钧",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-5dea33d743a1fa49--04a90cd5d050",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-5dea33d743a1fa49--eb6e35b9eeab--intent",
+      "name": "指天划地",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-5dea33d743a1fa49--eb6e35b9eeab",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-5dea33d743a1fa49--aaa309ab9c57--intent",
+      "name": "披肝沥胆",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "move"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-5dea33d743a1fa49--aaa309ab9c57",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "prerequisite-logic-not-fully-encoded",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "duration-inheritance-and-no-implicit-refresh",
+    "attack-program-hardcodes-INT-and-casting"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

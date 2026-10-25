@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:C:幻影面纱",
-  "version": "2026-10-23.1",
+  "version": "2026-10-24.1",
   "identity": {
     "name": "幻影面纱",
     "grade": "C",
@@ -18,16 +18,18 @@
     "grade": "C",
     "prohibited": false,
     "subskills": [
-      "幻术或神秘·心灵取最贴切一项"
+      "幻术",
+      "心灵"
     ],
     "effects": [],
     "learning": {
       "baseXP": 25,
       "requiresKnownVersion": false
     },
-    "requiresAllSchools": false,
+    "requiresAllSchools": true,
     "schools": [
-      "幻术或神秘·心灵取最贴切一项"
+      "幻术",
+      "心灵"
     ]
   },
   "clauses": [

@@ -1,0 +1,1192 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-8d59d2d7eff5c8fc",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "兽王拳",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J05",
+    "aliases": [
+      "兽王拳",
+      "兽王拳·D级阶段",
+      "兽王拳·C级阶段",
+      "兽王拳·B级阶段",
+      "兽王拳·A级阶段"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/兽王拳.md",
+        "sha256": "0c300c697464e2fe1657958f7c1c36fb0acca76e9cd68aad69793fe8c18cd926",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            30
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+    "sha256": "24ca381645be87dedb0a6c189675bafef23fac60eee333e84a311b8cefc4442b"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-8d59d2d7eff5c8fc--0ae594c1109f",
+          "name": "兽王拳",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+            "anchor": "条目",
+            "sectionSha256": "775b50cdad1fec4a43c4afec12a9340c541a80845bbf458222a551029ecc13d7"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/兽王拳.md",
+              "sha256": "0c300c697464e2fe1657958f7c1c36fb0acca76e9cd68aad69793fe8c18cd926",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  9
+                ],
+                [
+                  12,
+                  12
+                ],
+                [
+                  17,
+                  17
+                ],
+                [
+                  22,
+                  22
+                ],
+                [
+                  27,
+                  27
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+                  "anchor": "条目",
+                  "sectionSha256": "775b50cdad1fec4a43c4afec12a9340c541a80845bbf458222a551029ecc13d7"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "条目",
+              "sectionSha256": "775b50cdad1fec4a43c4afec12a9340c541a80845bbf458222a551029ecc13d7"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "条目",
+              "sectionSha256": "775b50cdad1fec4a43c4afec12a9340c541a80845bbf458222a551029ecc13d7"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "条目",
+              "sectionSha256": "775b50cdad1fec4a43c4afec12a9340c541a80845bbf458222a551029ecc13d7"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "条目",
+              "sectionSha256": "775b50cdad1fec4a43c4afec12a9340c541a80845bbf458222a551029ecc13d7"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "条目",
+              "sectionSha256": "775b50cdad1fec4a43c4afec12a9340c541a80845bbf458222a551029ecc13d7"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "条目",
+              "sectionSha256": "775b50cdad1fec4a43c4afec12a9340c541a80845bbf458222a551029ecc13d7"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8d59d2d7eff5c8fc--79cfaa5a36db",
+          "name": "可选规则：万能的特殊重塑服务当然可以让非半兽人也学习此能力",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+            "anchor": "L10",
+            "sectionSha256": "946ee86875d70a01c1dbfdf4b11971271861162114f75bdf5650611f84f70044"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/兽王拳.md",
+              "sha256": "0c300c697464e2fe1657958f7c1c36fb0acca76e9cd68aad69793fe8c18cd926",
+              "lineRanges": [
+                [
+                  10,
+                  10
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8d59d2d7eff5c8fc--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L10",
+              "sectionSha256": "946ee86875d70a01c1dbfdf4b11971271861162114f75bdf5650611f84f70044"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L10",
+              "sectionSha256": "946ee86875d70a01c1dbfdf4b11971271861162114f75bdf5650611f84f70044"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L10",
+              "sectionSha256": "946ee86875d70a01c1dbfdf4b11971271861162114f75bdf5650611f84f70044"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L10",
+              "sectionSha256": "946ee86875d70a01c1dbfdf4b11971271861162114f75bdf5650611f84f70044"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L10",
+              "sectionSha256": "946ee86875d70a01c1dbfdf4b11971271861162114f75bdf5650611f84f70044"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L10",
+              "sectionSha256": "946ee86875d70a01c1dbfdf4b11971271861162114f75bdf5650611f84f70044"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8d59d2d7eff5c8fc--04a90cd5d050",
+          "name": "兽王拳·D级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+            "anchor": "L11",
+            "sectionSha256": "180c00031af8936716d331cb1fadf00c53df71cd97eb42c4e5c13d1b8b7c317b"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/兽王拳.md",
+              "sha256": "0c300c697464e2fe1657958f7c1c36fb0acca76e9cd68aad69793fe8c18cd926",
+              "lineRanges": [
+                [
+                  11,
+                  11
+                ],
+                [
+                  13,
+                  15
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+                  "anchor": "L11",
+                  "sectionSha256": "180c00031af8936716d331cb1fadf00c53df71cd97eb42c4e5c13d1b8b7c317b"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8d59d2d7eff5c8fc--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L11",
+              "sectionSha256": "180c00031af8936716d331cb1fadf00c53df71cd97eb42c4e5c13d1b8b7c317b"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L11",
+              "sectionSha256": "180c00031af8936716d331cb1fadf00c53df71cd97eb42c4e5c13d1b8b7c317b"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L11",
+              "sectionSha256": "180c00031af8936716d331cb1fadf00c53df71cd97eb42c4e5c13d1b8b7c317b"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "内力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+                  "anchor": "L11",
+                  "sectionSha256": "180c00031af8936716d331cb1fadf00c53df71cd97eb42c4e5c13d1b8b7c317b"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "内力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+                  "anchor": "L11",
+                  "sectionSha256": "180c00031af8936716d331cb1fadf00c53df71cd97eb42c4e5c13d1b8b7c317b"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L11",
+              "sectionSha256": "180c00031af8936716d331cb1fadf00c53df71cd97eb42c4e5c13d1b8b7c317b"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L11",
+              "sectionSha256": "180c00031af8936716d331cb1fadf00c53df71cd97eb42c4e5c13d1b8b7c317b"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L11",
+              "sectionSha256": "180c00031af8936716d331cb1fadf00c53df71cd97eb42c4e5c13d1b8b7c317b"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8d59d2d7eff5c8fc--5f3f9d32a927",
+          "name": "兽王拳·C级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+            "anchor": "L16",
+            "sectionSha256": "b076f6ab874e784690cf56070b20c1afe7229d3d068399bbb0b5b72539394c3e"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/兽王拳.md",
+              "sha256": "0c300c697464e2fe1657958f7c1c36fb0acca76e9cd68aad69793fe8c18cd926",
+              "lineRanges": [
+                [
+                  16,
+                  16
+                ],
+                [
+                  18,
+                  20
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+                  "anchor": "L16",
+                  "sectionSha256": "b076f6ab874e784690cf56070b20c1afe7229d3d068399bbb0b5b72539394c3e"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8d59d2d7eff5c8fc--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L16",
+              "sectionSha256": "b076f6ab874e784690cf56070b20c1afe7229d3d068399bbb0b5b72539394c3e"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L16",
+              "sectionSha256": "b076f6ab874e784690cf56070b20c1afe7229d3d068399bbb0b5b72539394c3e"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L16",
+              "sectionSha256": "b076f6ab874e784690cf56070b20c1afe7229d3d068399bbb0b5b72539394c3e"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L16",
+              "sectionSha256": "b076f6ab874e784690cf56070b20c1afe7229d3d068399bbb0b5b72539394c3e"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L16",
+              "sectionSha256": "b076f6ab874e784690cf56070b20c1afe7229d3d068399bbb0b5b72539394c3e"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L16",
+              "sectionSha256": "b076f6ab874e784690cf56070b20c1afe7229d3d068399bbb0b5b72539394c3e"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8d59d2d7eff5c8fc--f45c0059c181",
+          "name": "兽王拳·B级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+            "anchor": "L21",
+            "sectionSha256": "e89f0503736c0bc72ef0580a082ac9f2902c39998f3cc4101c631ebde260e08f"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/兽王拳.md",
+              "sha256": "0c300c697464e2fe1657958f7c1c36fb0acca76e9cd68aad69793fe8c18cd926",
+              "lineRanges": [
+                [
+                  21,
+                  21
+                ],
+                [
+                  23,
+                  25
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+                  "anchor": "L21",
+                  "sectionSha256": "e89f0503736c0bc72ef0580a082ac9f2902c39998f3cc4101c631ebde260e08f"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8d59d2d7eff5c8fc--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L21",
+              "sectionSha256": "e89f0503736c0bc72ef0580a082ac9f2902c39998f3cc4101c631ebde260e08f"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L21",
+              "sectionSha256": "e89f0503736c0bc72ef0580a082ac9f2902c39998f3cc4101c631ebde260e08f"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L21",
+              "sectionSha256": "e89f0503736c0bc72ef0580a082ac9f2902c39998f3cc4101c631ebde260e08f"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L21",
+              "sectionSha256": "e89f0503736c0bc72ef0580a082ac9f2902c39998f3cc4101c631ebde260e08f"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L21",
+              "sectionSha256": "e89f0503736c0bc72ef0580a082ac9f2902c39998f3cc4101c631ebde260e08f"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L21",
+              "sectionSha256": "e89f0503736c0bc72ef0580a082ac9f2902c39998f3cc4101c631ebde260e08f"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-8d59d2d7eff5c8fc--fbf7776a3be2",
+          "name": "兽王拳·A级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+            "anchor": "L26",
+            "sectionSha256": "1c9453e81e2145802dfd18652035b2a723eab95bbb1e7a02224f92e06c876440"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/兽王拳.md",
+              "sha256": "0c300c697464e2fe1657958f7c1c36fb0acca76e9cd68aad69793fe8c18cd926",
+              "lineRanges": [
+                [
+                  26,
+                  26
+                ],
+                [
+                  28,
+                  30
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+                  "anchor": "L26",
+                  "sectionSha256": "1c9453e81e2145802dfd18652035b2a723eab95bbb1e7a02224f92e06c876440"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-8d59d2d7eff5c8fc--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L26",
+              "sectionSha256": "1c9453e81e2145802dfd18652035b2a723eab95bbb1e7a02224f92e06c876440"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L26",
+              "sectionSha256": "1c9453e81e2145802dfd18652035b2a723eab95bbb1e7a02224f92e06c876440"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 6,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+                  "anchor": "L26",
+                  "sectionSha256": "1c9453e81e2145802dfd18652035b2a723eab95bbb1e7a02224f92e06c876440"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 6,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+                  "anchor": "L26",
+                  "sectionSha256": "1c9453e81e2145802dfd18652035b2a723eab95bbb1e7a02224f92e06c876440"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L26",
+              "sectionSha256": "1c9453e81e2145802dfd18652035b2a723eab95bbb1e7a02224f92e06c876440"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 7,
+                  "pool": "内力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+                  "anchor": "L26",
+                  "sectionSha256": "1c9453e81e2145802dfd18652035b2a723eab95bbb1e7a02224f92e06c876440"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 7,
+                  "pool": "内力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+                  "anchor": "L26",
+                  "sectionSha256": "1c9453e81e2145802dfd18652035b2a723eab95bbb1e7a02224f92e06c876440"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L26",
+              "sectionSha256": "1c9453e81e2145802dfd18652035b2a723eab95bbb1e7a02224f92e06c876440"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L26",
+              "sectionSha256": "1c9453e81e2145802dfd18652035b2a723eab95bbb1e7a02224f92e06c876440"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/056-兽王拳.md",
+              "anchor": "L26",
+              "sectionSha256": "1c9453e81e2145802dfd18652035b2a723eab95bbb1e7a02224f92e06c876440"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "兽王拳",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "可选规则：万能的特殊重塑服务当然可以让非半兽人也学习此能力",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "兽王拳·D级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "兽王拳·C级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "兽王拳·B级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "兽王拳·A级阶段",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-8d59d2d7eff5c8fc--04a90cd5d050--intent",
+      "name": "兽王拳·D级阶段",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-8d59d2d7eff5c8fc--04a90cd5d050",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-8d59d2d7eff5c8fc--fbf7776a3be2--intent",
+      "name": "兽王拳·A级阶段",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-8d59d2d7eff5c8fc--fbf7776a3be2",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "duration-inheritance-and-no-implicit-refresh",
+    "prerequisite-logic-not-fully-encoded",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "attack-program-hardcodes-INT-and-casting"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

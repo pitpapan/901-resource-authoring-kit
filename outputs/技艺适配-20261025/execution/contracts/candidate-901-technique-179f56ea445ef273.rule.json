@@ -1,0 +1,1071 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-179f56ea445ef273",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "机甲术",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J02",
+    "aliases": [
+      "机甲术",
+      "机甲学徒",
+      "机甲从者",
+      "机甲武士",
+      "机甲大师"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/身法/机甲术.md",
+        "sha256": "ebe8a70aebfae57d974c45ae45a02b3d4a34b2a0795e62f81cb480face4b5395",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            30
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+    "sha256": "9daa3b8b65a11db75e22941ba5264c17affc755419124e4463a0a25534a480c4"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-179f56ea445ef273--0ae594c1109f",
+          "name": "机甲术",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+            "anchor": "条目",
+            "sectionSha256": "76327166d757d4b355168d8d2b439594bb3ea8578809a2a6fb00ef4dac53f36e"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/身法/机甲术.md",
+              "sha256": "ebe8a70aebfae57d974c45ae45a02b3d4a34b2a0795e62f81cb480face4b5395",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  9
+                ],
+                [
+                  11,
+                  11
+                ],
+                [
+                  16,
+                  16
+                ],
+                [
+                  21,
+                  21
+                ],
+                [
+                  26,
+                  26
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "条目",
+              "sectionSha256": "76327166d757d4b355168d8d2b439594bb3ea8578809a2a6fb00ef4dac53f36e"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "条目",
+              "sectionSha256": "76327166d757d4b355168d8d2b439594bb3ea8578809a2a6fb00ef4dac53f36e"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "条目",
+              "sectionSha256": "76327166d757d4b355168d8d2b439594bb3ea8578809a2a6fb00ef4dac53f36e"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "条目",
+              "sectionSha256": "76327166d757d4b355168d8d2b439594bb3ea8578809a2a6fb00ef4dac53f36e"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "条目",
+              "sectionSha256": "76327166d757d4b355168d8d2b439594bb3ea8578809a2a6fb00ef4dac53f36e"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "条目",
+              "sectionSha256": "76327166d757d4b355168d8d2b439594bb3ea8578809a2a6fb00ef4dac53f36e"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-179f56ea445ef273--79cfaa5a36db",
+          "name": "机甲学徒",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+            "anchor": "L10",
+            "sectionSha256": "a2732169696bf3777915d1e0cb04154eb80dd8b7c6b1e8ab8cd95662174ccd33"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/身法/机甲术.md",
+              "sha256": "ebe8a70aebfae57d974c45ae45a02b3d4a34b2a0795e62f81cb480face4b5395",
+              "lineRanges": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  12,
+                  14
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+                  "anchor": "L10",
+                  "sectionSha256": "a2732169696bf3777915d1e0cb04154eb80dd8b7c6b1e8ab8cd95662174ccd33"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "move"
+              ],
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-179f56ea445ef273--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "L10",
+              "sectionSha256": "a2732169696bf3777915d1e0cb04154eb80dd8b7c6b1e8ab8cd95662174ccd33"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "L10",
+              "sectionSha256": "a2732169696bf3777915d1e0cb04154eb80dd8b7c6b1e8ab8cd95662174ccd33"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "L10",
+              "sectionSha256": "a2732169696bf3777915d1e0cb04154eb80dd8b7c6b1e8ab8cd95662174ccd33"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "L10",
+              "sectionSha256": "a2732169696bf3777915d1e0cb04154eb80dd8b7c6b1e8ab8cd95662174ccd33"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "L10",
+              "sectionSha256": "a2732169696bf3777915d1e0cb04154eb80dd8b7c6b1e8ab8cd95662174ccd33"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "L10",
+              "sectionSha256": "a2732169696bf3777915d1e0cb04154eb80dd8b7c6b1e8ab8cd95662174ccd33"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-179f56ea445ef273--ffb618ca2dd4",
+          "name": "机甲从者",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+            "anchor": "L15",
+            "sectionSha256": "85db19439ae00359a244b0090757618d41efa0240f5d33aaad7b90de2eb112d0"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/身法/机甲术.md",
+              "sha256": "ebe8a70aebfae57d974c45ae45a02b3d4a34b2a0795e62f81cb480face4b5395",
+              "lineRanges": [
+                [
+                  15,
+                  15
+                ],
+                [
+                  17,
+                  19
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+                  "anchor": "L15",
+                  "sectionSha256": "85db19439ae00359a244b0090757618d41efa0240f5d33aaad7b90de2eb112d0"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-179f56ea445ef273--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "L15",
+              "sectionSha256": "85db19439ae00359a244b0090757618d41efa0240f5d33aaad7b90de2eb112d0"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "L15",
+              "sectionSha256": "85db19439ae00359a244b0090757618d41efa0240f5d33aaad7b90de2eb112d0"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "L15",
+              "sectionSha256": "85db19439ae00359a244b0090757618d41efa0240f5d33aaad7b90de2eb112d0"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "L15",
+              "sectionSha256": "85db19439ae00359a244b0090757618d41efa0240f5d33aaad7b90de2eb112d0"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "L15",
+              "sectionSha256": "85db19439ae00359a244b0090757618d41efa0240f5d33aaad7b90de2eb112d0"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "L15",
+              "sectionSha256": "85db19439ae00359a244b0090757618d41efa0240f5d33aaad7b90de2eb112d0"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-179f56ea445ef273--bbbae651d4e8",
+          "name": "机甲武士",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+            "anchor": "L20",
+            "sectionSha256": "9dd69a5039728d3f042d547505013e78555c0141d41a770117a38eb584bf5fe8"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/身法/机甲术.md",
+              "sha256": "ebe8a70aebfae57d974c45ae45a02b3d4a34b2a0795e62f81cb480face4b5395",
+              "lineRanges": [
+                [
+                  20,
+                  20
+                ],
+                [
+                  22,
+                  24
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+                  "anchor": "L20",
+                  "sectionSha256": "9dd69a5039728d3f042d547505013e78555c0141d41a770117a38eb584bf5fe8"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ],
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-179f56ea445ef273--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "L20",
+              "sectionSha256": "9dd69a5039728d3f042d547505013e78555c0141d41a770117a38eb584bf5fe8"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "L20",
+              "sectionSha256": "9dd69a5039728d3f042d547505013e78555c0141d41a770117a38eb584bf5fe8"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "L20",
+              "sectionSha256": "9dd69a5039728d3f042d547505013e78555c0141d41a770117a38eb584bf5fe8"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "L20",
+              "sectionSha256": "9dd69a5039728d3f042d547505013e78555c0141d41a770117a38eb584bf5fe8"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "L20",
+              "sectionSha256": "9dd69a5039728d3f042d547505013e78555c0141d41a770117a38eb584bf5fe8"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "L20",
+              "sectionSha256": "9dd69a5039728d3f042d547505013e78555c0141d41a770117a38eb584bf5fe8"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-179f56ea445ef273--cd5c8731ec1e",
+          "name": "机甲大师",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+            "anchor": "L25",
+            "sectionSha256": "3def6ae5b8fd59a628c330c8329d85e3ca03a5d6aa2feb67e1716ca7308ef437"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/身法/机甲术.md",
+              "sha256": "ebe8a70aebfae57d974c45ae45a02b3d4a34b2a0795e62f81cb480face4b5395",
+              "lineRanges": [
+                [
+                  25,
+                  25
+                ],
+                [
+                  27,
+                  30
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+                  "anchor": "L25",
+                  "sectionSha256": "3def6ae5b8fd59a628c330c8329d85e3ca03a5d6aa2feb67e1716ca7308ef437"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "none"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-179f56ea445ef273--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "L25",
+              "sectionSha256": "3def6ae5b8fd59a628c330c8329d85e3ca03a5d6aa2feb67e1716ca7308ef437"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "L25",
+              "sectionSha256": "3def6ae5b8fd59a628c330c8329d85e3ca03a5d6aa2feb67e1716ca7308ef437"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "L25",
+              "sectionSha256": "3def6ae5b8fd59a628c330c8329d85e3ca03a5d6aa2feb67e1716ca7308ef437"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "L25",
+              "sectionSha256": "3def6ae5b8fd59a628c330c8329d85e3ca03a5d6aa2feb67e1716ca7308ef437"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "L25",
+              "sectionSha256": "3def6ae5b8fd59a628c330c8329d85e3ca03a5d6aa2feb67e1716ca7308ef437"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/017-机甲术.md",
+              "anchor": "L25",
+              "sectionSha256": "3def6ae5b8fd59a628c330c8329d85e3ca03a5d6aa2feb67e1716ca7308ef437"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": [
+            "U02"
+          ]
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "机甲术",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "机甲学徒",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "机甲从者",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "机甲武士",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "机甲大师",
+      "effectStats": [],
+      "status": "rule-unresolved"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-179f56ea445ef273--79cfaa5a36db--intent",
+      "name": "机甲学徒",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "move"
+          ],
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-179f56ea445ef273--79cfaa5a36db",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-179f56ea445ef273--ffb618ca2dd4--intent",
+      "name": "机甲从者",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-179f56ea445ef273--ffb618ca2dd4",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-179f56ea445ef273--bbbae651d4e8--intent",
+      "name": "机甲武士",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ],
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-179f56ea445ef273--bbbae651d4e8",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-179f56ea445ef273--cd5c8731ec1e--intent",
+      "name": "机甲大师",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "none"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-179f56ea445ef273--cd5c8731ec1e",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [
+    {
+      "parameter": "U02",
+      "basis": "高周波攻击：当你以近战攻击命中对手时，可消耗5点机，进行一次感知+沉着判定，本次攻击伤害中等同判定结果数的伤害提升一级，强韧豁免，每个成功数减少1点提升，因此能力最终转化的伤害若高于目标体积，。",
+      "recommendation": "暂关闭体积阈值后附加效果；不猜作击倒或即死",
+      "impact": "高周波体积阈值之后的附带效果缺失；5机及伤害升一级／强韧抵提升保留"
+    }
+  ],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "duration-inheritance-and-no-implicit-refresh",
+    "attack-program-hardcodes-INT-and-casting"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

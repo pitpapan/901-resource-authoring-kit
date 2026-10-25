@@ -1,0 +1,1662 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-d1bcf1f33f8e60c7",
+  "version": "2026-10-25.machine.2",
+  "identity": {
+    "name": "九死邪功",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J01",
+    "aliases": [
+      "九死邪功",
+      "奈何道",
+      "回生道",
+      "剔骨道",
+      "鬼门道",
+      "冥生道",
+      "焚炉道",
+      "断肢道",
+      "阿鼻道"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/心法/九死邪功.md",
+        "sha256": "fa9e5245b3be66e55ca7ddc0a5fbf4ae036dbcfee1906c21d8002c337ffac888",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            49
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+    "sha256": "fa23d6dd58f82ccb680911e953c0a6b990c07d742f123f4ba146c3a86f24d9d8"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-d1bcf1f33f8e60c7--0ae594c1109f",
+          "name": "九死邪功",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+            "anchor": "条目",
+            "sectionSha256": "f7c3cb69fa7e240bda3fe4096a2b1419dc2d0150c0d7c487e2f6c4f7acb7bd74"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/九死邪功.md",
+              "sha256": "fa9e5245b3be66e55ca7ddc0a5fbf4ae036dbcfee1906c21d8002c337ffac888",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  9
+                ],
+                [
+                  11,
+                  11
+                ],
+                [
+                  15,
+                  15
+                ],
+                [
+                  20,
+                  20
+                ],
+                [
+                  24,
+                  24
+                ],
+                [
+                  29,
+                  29
+                ],
+                [
+                  34,
+                  34
+                ],
+                [
+                  40,
+                  40
+                ],
+                [
+                  46,
+                  46
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+                  "anchor": "条目",
+                  "sectionSha256": "f7c3cb69fa7e240bda3fe4096a2b1419dc2d0150c0d7c487e2f6c4f7acb7bd74"
+                },
+                "semanticStatus": "not-encoded"
+              },
+              {
+                "predicates": [
+                  {
+                    "kind": "energy-pool-exists",
+                    "minimumPoolCount": 1,
+                    "background": null,
+                    "names": [
+                      "内力"
+                    ]
+                  }
+                ],
+                "uncompiledCondition": true,
+                "semanticStatus": "partial",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+                  "anchor": "条目",
+                  "sectionSha256": "f7c3cb69fa7e240bda3fe4096a2b1419dc2d0150c0d7c487e2f6c4f7acb7bd74"
+                }
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "条目",
+              "sectionSha256": "f7c3cb69fa7e240bda3fe4096a2b1419dc2d0150c0d7c487e2f6c4f7acb7bd74"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "条目",
+              "sectionSha256": "f7c3cb69fa7e240bda3fe4096a2b1419dc2d0150c0d7c487e2f6c4f7acb7bd74"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "条目",
+              "sectionSha256": "f7c3cb69fa7e240bda3fe4096a2b1419dc2d0150c0d7c487e2f6c4f7acb7bd74"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "条目",
+              "sectionSha256": "f7c3cb69fa7e240bda3fe4096a2b1419dc2d0150c0d7c487e2f6c4f7acb7bd74"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "条目",
+              "sectionSha256": "f7c3cb69fa7e240bda3fe4096a2b1419dc2d0150c0d7c487e2f6c4f7acb7bd74"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "条目",
+              "sectionSha256": "f7c3cb69fa7e240bda3fe4096a2b1419dc2d0150c0d7c487e2f6c4f7acb7bd74"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-d1bcf1f33f8e60c7--79cfaa5a36db",
+          "name": "奈何道",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+            "anchor": "L10",
+            "sectionSha256": "6a635698faa26b98f57110d5bbe3ae908249f27f3045d84d422cbea10cce4f3a"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/九死邪功.md",
+              "sha256": "fa9e5245b3be66e55ca7ddc0a5fbf4ae036dbcfee1906c21d8002c337ffac888",
+              "lineRanges": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  12,
+                  13
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+                  "anchor": "L10",
+                  "sectionSha256": "6a635698faa26b98f57110d5bbe3ae908249f27f3045d84d422cbea10cce4f3a"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-d1bcf1f33f8e60c7--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L10",
+              "sectionSha256": "6a635698faa26b98f57110d5bbe3ae908249f27f3045d84d422cbea10cce4f3a"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L10",
+              "sectionSha256": "6a635698faa26b98f57110d5bbe3ae908249f27f3045d84d422cbea10cce4f3a"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L10",
+              "sectionSha256": "6a635698faa26b98f57110d5bbe3ae908249f27f3045d84d422cbea10cce4f3a"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "内力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+                  "anchor": "L10",
+                  "sectionSha256": "6a635698faa26b98f57110d5bbe3ae908249f27f3045d84d422cbea10cce4f3a"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L10",
+              "sectionSha256": "6a635698faa26b98f57110d5bbe3ae908249f27f3045d84d422cbea10cce4f3a"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L10",
+              "sectionSha256": "6a635698faa26b98f57110d5bbe3ae908249f27f3045d84d422cbea10cce4f3a"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L10",
+              "sectionSha256": "6a635698faa26b98f57110d5bbe3ae908249f27f3045d84d422cbea10cce4f3a"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-d1bcf1f33f8e60c7--4e20baac66c8",
+          "name": "回生道",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+            "anchor": "L14",
+            "sectionSha256": "f61ef0459f47e31580575dce440e5f2520825744dae4a722048ee96dfa8ccc6a"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/九死邪功.md",
+              "sha256": "fa9e5245b3be66e55ca7ddc0a5fbf4ae036dbcfee1906c21d8002c337ffac888",
+              "lineRanges": [
+                [
+                  14,
+                  14
+                ],
+                [
+                  16,
+                  18
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+                  "anchor": "L14",
+                  "sectionSha256": "f61ef0459f47e31580575dce440e5f2520825744dae4a722048ee96dfa8ccc6a"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-d1bcf1f33f8e60c7--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L14",
+              "sectionSha256": "f61ef0459f47e31580575dce440e5f2520825744dae4a722048ee96dfa8ccc6a"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L14",
+              "sectionSha256": "f61ef0459f47e31580575dce440e5f2520825744dae4a722048ee96dfa8ccc6a"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L14",
+              "sectionSha256": "f61ef0459f47e31580575dce440e5f2520825744dae4a722048ee96dfa8ccc6a"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L14",
+              "sectionSha256": "f61ef0459f47e31580575dce440e5f2520825744dae4a722048ee96dfa8ccc6a"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L14",
+              "sectionSha256": "f61ef0459f47e31580575dce440e5f2520825744dae4a722048ee96dfa8ccc6a"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L14",
+              "sectionSha256": "f61ef0459f47e31580575dce440e5f2520825744dae4a722048ee96dfa8ccc6a"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "capability-reference",
+              "capability": "快速医疗",
+              "semanticStatus": "not-encoded",
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+                "anchor": "L14",
+                "sectionSha256": "f61ef0459f47e31580575dce440e5f2520825744dae4a722048ee96dfa8ccc6a"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-d1bcf1f33f8e60c7--7963c5b340e4",
+          "name": "剔骨道",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+            "anchor": "L19",
+            "sectionSha256": "d8df8c8d4b0a7311d859a1182c8e1b14c4a7b05a10de8bfc79f8702244862290"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/九死邪功.md",
+              "sha256": "fa9e5245b3be66e55ca7ddc0a5fbf4ae036dbcfee1906c21d8002c337ffac888",
+              "lineRanges": [
+                [
+                  19,
+                  19
+                ],
+                [
+                  21,
+                  22
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+                  "anchor": "L19",
+                  "sectionSha256": "d8df8c8d4b0a7311d859a1182c8e1b14c4a7b05a10de8bfc79f8702244862290"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-d1bcf1f33f8e60c7--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L19",
+              "sectionSha256": "d8df8c8d4b0a7311d859a1182c8e1b14c4a7b05a10de8bfc79f8702244862290"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+                  "anchor": "L19",
+                  "sectionSha256": "d8df8c8d4b0a7311d859a1182c8e1b14c4a7b05a10de8bfc79f8702244862290"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L19",
+              "sectionSha256": "d8df8c8d4b0a7311d859a1182c8e1b14c4a7b05a10de8bfc79f8702244862290"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L19",
+              "sectionSha256": "d8df8c8d4b0a7311d859a1182c8e1b14c4a7b05a10de8bfc79f8702244862290"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "内力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+                  "anchor": "L19",
+                  "sectionSha256": "d8df8c8d4b0a7311d859a1182c8e1b14c4a7b05a10de8bfc79f8702244862290"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L19",
+              "sectionSha256": "d8df8c8d4b0a7311d859a1182c8e1b14c4a7b05a10de8bfc79f8702244862290"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L19",
+              "sectionSha256": "d8df8c8d4b0a7311d859a1182c8e1b14c4a7b05a10de8bfc79f8702244862290"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L19",
+              "sectionSha256": "d8df8c8d4b0a7311d859a1182c8e1b14c4a7b05a10de8bfc79f8702244862290"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-d1bcf1f33f8e60c7--b4958c67124e",
+          "name": "鬼门道",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+            "anchor": "L23",
+            "sectionSha256": "a8b8cd3d1a3ce6d603b06b1b16a1db834d4fdc9451e23dc00852b189eeac676e"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/九死邪功.md",
+              "sha256": "fa9e5245b3be66e55ca7ddc0a5fbf4ae036dbcfee1906c21d8002c337ffac888",
+              "lineRanges": [
+                [
+                  23,
+                  23
+                ],
+                [
+                  25,
+                  27
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+                  "anchor": "L23",
+                  "sectionSha256": "a8b8cd3d1a3ce6d603b06b1b16a1db834d4fdc9451e23dc00852b189eeac676e"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-d1bcf1f33f8e60c7--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L23",
+              "sectionSha256": "a8b8cd3d1a3ce6d603b06b1b16a1db834d4fdc9451e23dc00852b189eeac676e"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L23",
+              "sectionSha256": "a8b8cd3d1a3ce6d603b06b1b16a1db834d4fdc9451e23dc00852b189eeac676e"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L23",
+              "sectionSha256": "a8b8cd3d1a3ce6d603b06b1b16a1db834d4fdc9451e23dc00852b189eeac676e"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L23",
+              "sectionSha256": "a8b8cd3d1a3ce6d603b06b1b16a1db834d4fdc9451e23dc00852b189eeac676e"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L23",
+              "sectionSha256": "a8b8cd3d1a3ce6d603b06b1b16a1db834d4fdc9451e23dc00852b189eeac676e"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L23",
+              "sectionSha256": "a8b8cd3d1a3ce6d603b06b1b16a1db834d4fdc9451e23dc00852b189eeac676e"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-d1bcf1f33f8e60c7--36402ecb137e",
+          "name": "冥生道",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+            "anchor": "L28",
+            "sectionSha256": "61fda40b71fc6554805431a73bcd38ba069dda06d86b557538e2135321dc4762"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/九死邪功.md",
+              "sha256": "fa9e5245b3be66e55ca7ddc0a5fbf4ae036dbcfee1906c21d8002c337ffac888",
+              "lineRanges": [
+                [
+                  28,
+                  28
+                ],
+                [
+                  30,
+                  32
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+                  "anchor": "L28",
+                  "sectionSha256": "61fda40b71fc6554805431a73bcd38ba069dda06d86b557538e2135321dc4762"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-d1bcf1f33f8e60c7--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L28",
+              "sectionSha256": "61fda40b71fc6554805431a73bcd38ba069dda06d86b557538e2135321dc4762"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L28",
+              "sectionSha256": "61fda40b71fc6554805431a73bcd38ba069dda06d86b557538e2135321dc4762"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L28",
+              "sectionSha256": "61fda40b71fc6554805431a73bcd38ba069dda06d86b557538e2135321dc4762"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L28",
+              "sectionSha256": "61fda40b71fc6554805431a73bcd38ba069dda06d86b557538e2135321dc4762"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L28",
+              "sectionSha256": "61fda40b71fc6554805431a73bcd38ba069dda06d86b557538e2135321dc4762"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L28",
+              "sectionSha256": "61fda40b71fc6554805431a73bcd38ba069dda06d86b557538e2135321dc4762"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-d1bcf1f33f8e60c7--239a51838c73",
+          "name": "焚炉道",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+            "anchor": "L33",
+            "sectionSha256": "82642957a8bee3fe5f08e1e48cf60a73b7ab618cb9b9e679a32cb1e80c6817b6"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/九死邪功.md",
+              "sha256": "fa9e5245b3be66e55ca7ddc0a5fbf4ae036dbcfee1906c21d8002c337ffac888",
+              "lineRanges": [
+                [
+                  33,
+                  33
+                ],
+                [
+                  35,
+                  38
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 85,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+                  "anchor": "L33",
+                  "sectionSha256": "82642957a8bee3fe5f08e1e48cf60a73b7ab618cb9b9e679a32cb1e80c6817b6"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-d1bcf1f33f8e60c7--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L33",
+              "sectionSha256": "82642957a8bee3fe5f08e1e48cf60a73b7ab618cb9b9e679a32cb1e80c6817b6"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L33",
+              "sectionSha256": "82642957a8bee3fe5f08e1e48cf60a73b7ab618cb9b9e679a32cb1e80c6817b6"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L33",
+              "sectionSha256": "82642957a8bee3fe5f08e1e48cf60a73b7ab618cb9b9e679a32cb1e80c6817b6"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L33",
+              "sectionSha256": "82642957a8bee3fe5f08e1e48cf60a73b7ab618cb9b9e679a32cb1e80c6817b6"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L33",
+              "sectionSha256": "82642957a8bee3fe5f08e1e48cf60a73b7ab618cb9b9e679a32cb1e80c6817b6"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L33",
+              "sectionSha256": "82642957a8bee3fe5f08e1e48cf60a73b7ab618cb9b9e679a32cb1e80c6817b6"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "capability-reference",
+              "capability": "快速医疗",
+              "semanticStatus": "not-encoded",
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+                "anchor": "L33",
+                "sectionSha256": "82642957a8bee3fe5f08e1e48cf60a73b7ab618cb9b9e679a32cb1e80c6817b6"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": [
+            "U01"
+          ]
+        },
+        {
+          "id": "candidate-901-technique-d1bcf1f33f8e60c7--0d61d03a27af",
+          "name": "断肢道",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+            "anchor": "L39",
+            "sectionSha256": "4d7a9a4dbcda6f2a9adbbc9ea9deee4ebddef6b382e104fbd2d30009f226f1f9"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/九死邪功.md",
+              "sha256": "fa9e5245b3be66e55ca7ddc0a5fbf4ae036dbcfee1906c21d8002c337ffac888",
+              "lineRanges": [
+                [
+                  39,
+                  39
+                ],
+                [
+                  41,
+                  44
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+                  "anchor": "L39",
+                  "sectionSha256": "4d7a9a4dbcda6f2a9adbbc9ea9deee4ebddef6b382e104fbd2d30009f226f1f9"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-d1bcf1f33f8e60c7--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L39",
+              "sectionSha256": "4d7a9a4dbcda6f2a9adbbc9ea9deee4ebddef6b382e104fbd2d30009f226f1f9"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L39",
+              "sectionSha256": "4d7a9a4dbcda6f2a9adbbc9ea9deee4ebddef6b382e104fbd2d30009f226f1f9"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L39",
+              "sectionSha256": "4d7a9a4dbcda6f2a9adbbc9ea9deee4ebddef6b382e104fbd2d30009f226f1f9"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L39",
+              "sectionSha256": "4d7a9a4dbcda6f2a9adbbc9ea9deee4ebddef6b382e104fbd2d30009f226f1f9"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L39",
+              "sectionSha256": "4d7a9a4dbcda6f2a9adbbc9ea9deee4ebddef6b382e104fbd2d30009f226f1f9"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L39",
+              "sectionSha256": "4d7a9a4dbcda6f2a9adbbc9ea9deee4ebddef6b382e104fbd2d30009f226f1f9"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-d1bcf1f33f8e60c7--534d62d82647",
+          "name": "阿鼻道",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+            "anchor": "L45",
+            "sectionSha256": "35bf60ead49b14b9bad4a37ab5c56d82e15406bbf1865ca3f267ff5bccce9125"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/心法/九死邪功.md",
+              "sha256": "fa9e5245b3be66e55ca7ddc0a5fbf4ae036dbcfee1906c21d8002c337ffac888",
+              "lineRanges": [
+                [
+                  45,
+                  45
+                ],
+                [
+                  47,
+                  49
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 215,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+                  "anchor": "L45",
+                  "sectionSha256": "35bf60ead49b14b9bad4a37ab5c56d82e15406bbf1865ca3f267ff5bccce9125"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "reflex"
+              ],
+              [
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-d1bcf1f33f8e60c7--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L45",
+              "sectionSha256": "35bf60ead49b14b9bad4a37ab5c56d82e15406bbf1865ca3f267ff5bccce9125"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L45",
+              "sectionSha256": "35bf60ead49b14b9bad4a37ab5c56d82e15406bbf1865ca3f267ff5bccce9125"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L45",
+              "sectionSha256": "35bf60ead49b14b9bad4a37ab5c56d82e15406bbf1865ca3f267ff5bccce9125"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "内力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+                  "anchor": "L45",
+                  "sectionSha256": "35bf60ead49b14b9bad4a37ab5c56d82e15406bbf1865ca3f267ff5bccce9125"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L45",
+              "sectionSha256": "35bf60ead49b14b9bad4a37ab5c56d82e15406bbf1865ca3f267ff5bccce9125"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L45",
+              "sectionSha256": "35bf60ead49b14b9bad4a37ab5c56d82e15406bbf1865ca3f267ff5bccce9125"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/001-九死邪功.md",
+              "anchor": "L45",
+              "sectionSha256": "35bf60ead49b14b9bad4a37ab5c56d82e15406bbf1865ca3f267ff5bccce9125"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "九死邪功",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "奈何道",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "回生道",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "剔骨道",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "鬼门道",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "冥生道",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "焚炉道",
+      "effectStats": [],
+      "status": "rule-unresolved"
+    },
+    {
+      "heading": "断肢道",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "阿鼻道",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-d1bcf1f33f8e60c7--0d61d03a27af--intent",
+      "name": "断肢道",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-d1bcf1f33f8e60c7--0d61d03a27af",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-d1bcf1f33f8e60c7--534d62d82647--intent",
+      "name": "阿鼻道",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "reflex"
+          ],
+          [
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-d1bcf1f33f8e60c7--534d62d82647",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [
+    {
+      "parameter": "U01",
+      "basis": "你在受到持续性伤害和阻止或反转快速医疗的能力时，若效果等级不高于B级，可。",
+      "recommendation": "暂关闭该触发，建议补写明确免除／抵抗方式后再选",
+      "impact": "仅B焚炉道对持续伤害／反快医的应对缺少谓语；其他效果保留"
+    }
+  ],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "prerequisite-logic-not-fully-encoded",
+    "duration-inheritance-and-no-implicit-refresh",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "attack-program-hardcodes-INT-and-casting"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

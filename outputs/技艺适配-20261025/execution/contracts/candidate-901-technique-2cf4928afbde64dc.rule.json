@@ -1,0 +1,1070 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-2cf4928afbde64dc",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "通感",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J08",
+    "aliases": [
+      "通感",
+      "二感互通",
+      "三感互通",
+      "四感互通",
+      "五感互通",
+      "第七感"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/通感.md",
+        "sha256": "6dba6d4a8240be263a7b18c176633dde5b0daf84d87b99fa0147cb11739b2f71",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            29
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+    "sha256": "e6b8eeb24aced3e944dbd65e0dc836af7d6ec6441342bf8eb0c08f820680f428"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-2cf4928afbde64dc--0ae594c1109f",
+          "name": "通感",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+            "anchor": "条目",
+            "sectionSha256": "0d844208f763b7e15019bace3bd45ddcf150f6167d67bb5d24b8c270fa8a89b7"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/通感.md",
+              "sha256": "6dba6d4a8240be263a7b18c176633dde5b0daf84d87b99fa0147cb11739b2f71",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  9
+                ],
+                [
+                  11,
+                  11
+                ],
+                [
+                  15,
+                  15
+                ],
+                [
+                  19,
+                  19
+                ],
+                [
+                  23,
+                  23
+                ],
+                [
+                  27,
+                  27
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "条目",
+              "sectionSha256": "0d844208f763b7e15019bace3bd45ddcf150f6167d67bb5d24b8c270fa8a89b7"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "条目",
+              "sectionSha256": "0d844208f763b7e15019bace3bd45ddcf150f6167d67bb5d24b8c270fa8a89b7"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "条目",
+              "sectionSha256": "0d844208f763b7e15019bace3bd45ddcf150f6167d67bb5d24b8c270fa8a89b7"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "条目",
+              "sectionSha256": "0d844208f763b7e15019bace3bd45ddcf150f6167d67bb5d24b8c270fa8a89b7"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "条目",
+              "sectionSha256": "0d844208f763b7e15019bace3bd45ddcf150f6167d67bb5d24b8c270fa8a89b7"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "条目",
+              "sectionSha256": "0d844208f763b7e15019bace3bd45ddcf150f6167d67bb5d24b8c270fa8a89b7"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-2cf4928afbde64dc--79cfaa5a36db",
+          "name": "二感互通",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+            "anchor": "L10",
+            "sectionSha256": "1ab753236aed03ca57d21c1517bc1619d3ad4313e21e3d16f0fc9bee360c76e9"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/通感.md",
+              "sha256": "6dba6d4a8240be263a7b18c176633dde5b0daf84d87b99fa0147cb11739b2f71",
+              "lineRanges": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  12,
+                  13
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+                  "anchor": "L10",
+                  "sectionSha256": "1ab753236aed03ca57d21c1517bc1619d3ad4313e21e3d16f0fc9bee360c76e9"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-2cf4928afbde64dc--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L10",
+              "sectionSha256": "1ab753236aed03ca57d21c1517bc1619d3ad4313e21e3d16f0fc9bee360c76e9"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L10",
+              "sectionSha256": "1ab753236aed03ca57d21c1517bc1619d3ad4313e21e3d16f0fc9bee360c76e9"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L10",
+              "sectionSha256": "1ab753236aed03ca57d21c1517bc1619d3ad4313e21e3d16f0fc9bee360c76e9"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L10",
+              "sectionSha256": "1ab753236aed03ca57d21c1517bc1619d3ad4313e21e3d16f0fc9bee360c76e9"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L10",
+              "sectionSha256": "1ab753236aed03ca57d21c1517bc1619d3ad4313e21e3d16f0fc9bee360c76e9"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L10",
+              "sectionSha256": "1ab753236aed03ca57d21c1517bc1619d3ad4313e21e3d16f0fc9bee360c76e9"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-2cf4928afbde64dc--4e20baac66c8",
+          "name": "三感互通",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+            "anchor": "L14",
+            "sectionSha256": "6ae959d57328c30cefbb76eb096395ff8c1e34aa314dfe95fb196701511c5710"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/通感.md",
+              "sha256": "6dba6d4a8240be263a7b18c176633dde5b0daf84d87b99fa0147cb11739b2f71",
+              "lineRanges": [
+                [
+                  14,
+                  14
+                ],
+                [
+                  16,
+                  17
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+                  "anchor": "L14",
+                  "sectionSha256": "6ae959d57328c30cefbb76eb096395ff8c1e34aa314dfe95fb196701511c5710"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-2cf4928afbde64dc--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L14",
+              "sectionSha256": "6ae959d57328c30cefbb76eb096395ff8c1e34aa314dfe95fb196701511c5710"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L14",
+              "sectionSha256": "6ae959d57328c30cefbb76eb096395ff8c1e34aa314dfe95fb196701511c5710"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L14",
+              "sectionSha256": "6ae959d57328c30cefbb76eb096395ff8c1e34aa314dfe95fb196701511c5710"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L14",
+              "sectionSha256": "6ae959d57328c30cefbb76eb096395ff8c1e34aa314dfe95fb196701511c5710"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L14",
+              "sectionSha256": "6ae959d57328c30cefbb76eb096395ff8c1e34aa314dfe95fb196701511c5710"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L14",
+              "sectionSha256": "6ae959d57328c30cefbb76eb096395ff8c1e34aa314dfe95fb196701511c5710"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-2cf4928afbde64dc--cc1ba94005d5",
+          "name": "四感互通",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+            "anchor": "L18",
+            "sectionSha256": "b93a9df817f073862b89e63655851ac6dd4c8f17eb46b0133c305c96a3ab7881"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/通感.md",
+              "sha256": "6dba6d4a8240be263a7b18c176633dde5b0daf84d87b99fa0147cb11739b2f71",
+              "lineRanges": [
+                [
+                  18,
+                  18
+                ],
+                [
+                  20,
+                  21
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+                  "anchor": "L18",
+                  "sectionSha256": "b93a9df817f073862b89e63655851ac6dd4c8f17eb46b0133c305c96a3ab7881"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-2cf4928afbde64dc--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L18",
+              "sectionSha256": "b93a9df817f073862b89e63655851ac6dd4c8f17eb46b0133c305c96a3ab7881"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L18",
+              "sectionSha256": "b93a9df817f073862b89e63655851ac6dd4c8f17eb46b0133c305c96a3ab7881"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L18",
+              "sectionSha256": "b93a9df817f073862b89e63655851ac6dd4c8f17eb46b0133c305c96a3ab7881"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L18",
+              "sectionSha256": "b93a9df817f073862b89e63655851ac6dd4c8f17eb46b0133c305c96a3ab7881"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L18",
+              "sectionSha256": "b93a9df817f073862b89e63655851ac6dd4c8f17eb46b0133c305c96a3ab7881"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L18",
+              "sectionSha256": "b93a9df817f073862b89e63655851ac6dd4c8f17eb46b0133c305c96a3ab7881"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-2cf4928afbde64dc--eb6e35b9eeab",
+          "name": "五感互通",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+            "anchor": "L22",
+            "sectionSha256": "5eb48625d5d42e6d780490a0a88733df85c821a28e5ef9c094b50c6008b7cfb9"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/通感.md",
+              "sha256": "6dba6d4a8240be263a7b18c176633dde5b0daf84d87b99fa0147cb11739b2f71",
+              "lineRanges": [
+                [
+                  22,
+                  22
+                ],
+                [
+                  24,
+                  25
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+                  "anchor": "L22",
+                  "sectionSha256": "5eb48625d5d42e6d780490a0a88733df85c821a28e5ef9c094b50c6008b7cfb9"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-2cf4928afbde64dc--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L22",
+              "sectionSha256": "5eb48625d5d42e6d780490a0a88733df85c821a28e5ef9c094b50c6008b7cfb9"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L22",
+              "sectionSha256": "5eb48625d5d42e6d780490a0a88733df85c821a28e5ef9c094b50c6008b7cfb9"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L22",
+              "sectionSha256": "5eb48625d5d42e6d780490a0a88733df85c821a28e5ef9c094b50c6008b7cfb9"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L22",
+              "sectionSha256": "5eb48625d5d42e6d780490a0a88733df85c821a28e5ef9c094b50c6008b7cfb9"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L22",
+              "sectionSha256": "5eb48625d5d42e6d780490a0a88733df85c821a28e5ef9c094b50c6008b7cfb9"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L22",
+              "sectionSha256": "5eb48625d5d42e6d780490a0a88733df85c821a28e5ef9c094b50c6008b7cfb9"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-2cf4928afbde64dc--fbf7776a3be2",
+          "name": "第七感",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+            "anchor": "L26",
+            "sectionSha256": "70d9585f1650dc25c58873aceaadab5d0be3c697ae69c9a73a72530293c06567"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/通感.md",
+              "sha256": "6dba6d4a8240be263a7b18c176633dde5b0daf84d87b99fa0147cb11739b2f71",
+              "lineRanges": [
+                [
+                  26,
+                  26
+                ],
+                [
+                  28,
+                  29
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "S",
+                "currency": "XP",
+                "amount": 485,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+                  "anchor": "L26",
+                  "sectionSha256": "70d9585f1650dc25c58873aceaadab5d0be3c697ae69c9a73a72530293c06567"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-2cf4928afbde64dc--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L26",
+              "sectionSha256": "70d9585f1650dc25c58873aceaadab5d0be3c697ae69c9a73a72530293c06567"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L26",
+              "sectionSha256": "70d9585f1650dc25c58873aceaadab5d0be3c697ae69c9a73a72530293c06567"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L26",
+              "sectionSha256": "70d9585f1650dc25c58873aceaadab5d0be3c697ae69c9a73a72530293c06567"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L26",
+              "sectionSha256": "70d9585f1650dc25c58873aceaadab5d0be3c697ae69c9a73a72530293c06567"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L26",
+              "sectionSha256": "70d9585f1650dc25c58873aceaadab5d0be3c697ae69c9a73a72530293c06567"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/116-通感.md",
+              "anchor": "L26",
+              "sectionSha256": "70d9585f1650dc25c58873aceaadab5d0be3c697ae69c9a73a72530293c06567"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "通感",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "二感互通",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "三感互通",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "四感互通",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "五感互通",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "第七感",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-2cf4928afbde64dc--0ae594c1109f--intent",
+      "name": "通感",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-2cf4928afbde64dc--0ae594c1109f",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

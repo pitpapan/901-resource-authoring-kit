@@ -1,0 +1,3648 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-653380972bf16feb",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "废墟图书馆相关书页技艺",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J09",
+    "aliases": [
+      "废墟图书馆相关书页技艺",
+      "动作太慢",
+      "发号施令",
+      "回旋斩击",
+      "天将拂晓",
+      "致命穿透",
+      "锋芒毕现",
+      "黑云翻墨",
+      "一刀毙命",
+      "神龙抬首",
+      "生死界限",
+      "铁山靠",
+      "炎龙贯拳",
+      "废墟图书馆相关书页技艺·铁山破势（C级）",
+      "铁山破势",
+      "百折不挠"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/废墟图书馆相关书页技艺.md",
+        "sha256": "4e0163ef79f626d56b2706a1621730e726d5ef2c58a55e3d77901bb678e4f9cb",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            60
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+    "sha256": "701d0404780cee648cfc0dd0c44c798f7fb4944f4ebc18323bbf9c0e727cacca"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-653380972bf16feb--0ae594c1109f",
+          "name": "废墟图书馆相关书页技艺",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+            "anchor": "条目",
+            "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/废墟图书馆相关书页技艺.md",
+              "sha256": "4e0163ef79f626d56b2706a1621730e726d5ef2c58a55e3d77901bb678e4f9cb",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  6
+                ],
+                [
+                  8,
+                  8
+                ],
+                [
+                  34,
+                  34
+                ],
+                [
+                  43,
+                  43
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-653380972bf16feb--ee292cd1d6c1",
+          "name": "动作太慢",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+            "anchor": "L7",
+            "sectionSha256": "ba881dd60f3e2146ab707524963b611cbe7e9826ff7729aa4fa58e4727f2b246"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/废墟图书馆相关书页技艺.md",
+              "sha256": "4e0163ef79f626d56b2706a1621730e726d5ef2c58a55e3d77901bb678e4f9cb",
+              "lineRanges": [
+                [
+                  7,
+                  7
+                ],
+                [
+                  9,
+                  9
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 5,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L7",
+                  "sectionSha256": "ba881dd60f3e2146ab707524963b611cbe7e9826ff7729aa4fa58e4727f2b246"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-653380972bf16feb--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L7",
+              "sectionSha256": "ba881dd60f3e2146ab707524963b611cbe7e9826ff7729aa4fa58e4727f2b246"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L7",
+              "sectionSha256": "ba881dd60f3e2146ab707524963b611cbe7e9826ff7729aa4fa58e4727f2b246"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 2,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L7",
+                  "sectionSha256": "ba881dd60f3e2146ab707524963b611cbe7e9826ff7729aa4fa58e4727f2b246"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L7",
+              "sectionSha256": "ba881dd60f3e2146ab707524963b611cbe7e9826ff7729aa4fa58e4727f2b246"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "精力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L7",
+                  "sectionSha256": "ba881dd60f3e2146ab707524963b611cbe7e9826ff7729aa4fa58e4727f2b246"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L7",
+              "sectionSha256": "ba881dd60f3e2146ab707524963b611cbe7e9826ff7729aa4fa58e4727f2b246"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L7",
+              "sectionSha256": "ba881dd60f3e2146ab707524963b611cbe7e9826ff7729aa4fa58e4727f2b246"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L7",
+              "sectionSha256": "ba881dd60f3e2146ab707524963b611cbe7e9826ff7729aa4fa58e4727f2b246"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-653380972bf16feb--79cfaa5a36db",
+          "name": "发号施令",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+            "anchor": "L10",
+            "sectionSha256": "a3b9ce8ae9c8cd8d7b53aa696d6bf7e2736b5526e173db5d0fc5802ba62457d2"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/废墟图书馆相关书页技艺.md",
+              "sha256": "4e0163ef79f626d56b2706a1621730e726d5ef2c58a55e3d77901bb678e4f9cb",
+              "lineRanges": [
+                [
+                  10,
+                  11
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L10",
+                  "sectionSha256": "a3b9ce8ae9c8cd8d7b53aa696d6bf7e2736b5526e173db5d0fc5802ba62457d2"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-653380972bf16feb--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L10",
+              "sectionSha256": "a3b9ce8ae9c8cd8d7b53aa696d6bf7e2736b5526e173db5d0fc5802ba62457d2"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L10",
+              "sectionSha256": "a3b9ce8ae9c8cd8d7b53aa696d6bf7e2736b5526e173db5d0fc5802ba62457d2"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 2,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L10",
+                  "sectionSha256": "a3b9ce8ae9c8cd8d7b53aa696d6bf7e2736b5526e173db5d0fc5802ba62457d2"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L10",
+              "sectionSha256": "a3b9ce8ae9c8cd8d7b53aa696d6bf7e2736b5526e173db5d0fc5802ba62457d2"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "精力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L10",
+                  "sectionSha256": "a3b9ce8ae9c8cd8d7b53aa696d6bf7e2736b5526e173db5d0fc5802ba62457d2"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L10",
+              "sectionSha256": "a3b9ce8ae9c8cd8d7b53aa696d6bf7e2736b5526e173db5d0fc5802ba62457d2"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L10",
+              "sectionSha256": "a3b9ce8ae9c8cd8d7b53aa696d6bf7e2736b5526e173db5d0fc5802ba62457d2"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L10",
+              "sectionSha256": "a3b9ce8ae9c8cd8d7b53aa696d6bf7e2736b5526e173db5d0fc5802ba62457d2"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "招式",
+              "value": 6,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                "anchor": "L10",
+                "sectionSha256": "a3b9ce8ae9c8cd8d7b53aa696d6bf7e2736b5526e173db5d0fc5802ba62457d2"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-653380972bf16feb--3f6b5ef2df8d",
+          "name": "回旋斩击",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+            "anchor": "L12",
+            "sectionSha256": "a0888c9d4d9d4c88f24947333b84ae39125ac4b80c74eb09ea9b53fb57ee2a6d"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/废墟图书馆相关书页技艺.md",
+              "sha256": "4e0163ef79f626d56b2706a1621730e726d5ef2c58a55e3d77901bb678e4f9cb",
+              "lineRanges": [
+                [
+                  12,
+                  15
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L12",
+                  "sectionSha256": "a0888c9d4d9d4c88f24947333b84ae39125ac4b80c74eb09ea9b53fb57ee2a6d"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard",
+                "move"
+              ],
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-653380972bf16feb--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "敏捷",
+                    "minimum": 4
+                  },
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "力量",
+                    "minimum": 4
+                  },
+                  {
+                    "kind": "expertise-minimum",
+                    "skill": "白刃",
+                    "minimum": 2,
+                    "skillModel": "primary-plus-one-subskill"
+                  }
+                ],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L12",
+                  "sectionSha256": "a0888c9d4d9d4c88f24947333b84ae39125ac4b80c74eb09ea9b53fb57ee2a6d"
+                },
+                "semanticStatus": "partial"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L12",
+              "sectionSha256": "a0888c9d4d9d4c88f24947333b84ae39125ac4b80c74eb09ea9b53fb57ee2a6d"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L12",
+              "sectionSha256": "a0888c9d4d9d4c88f24947333b84ae39125ac4b80c74eb09ea9b53fb57ee2a6d"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 2,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L12",
+                  "sectionSha256": "a0888c9d4d9d4c88f24947333b84ae39125ac4b80c74eb09ea9b53fb57ee2a6d"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L12",
+              "sectionSha256": "a0888c9d4d9d4c88f24947333b84ae39125ac4b80c74eb09ea9b53fb57ee2a6d"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 2,
+                  "pool": "精力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L12",
+                  "sectionSha256": "a0888c9d4d9d4c88f24947333b84ae39125ac4b80c74eb09ea9b53fb57ee2a6d"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L12",
+              "sectionSha256": "a0888c9d4d9d4c88f24947333b84ae39125ac4b80c74eb09ea9b53fb57ee2a6d"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L12",
+              "sectionSha256": "a0888c9d4d9d4c88f24947333b84ae39125ac4b80c74eb09ea9b53fb57ee2a6d"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L12",
+              "sectionSha256": "a0888c9d4d9d4c88f24947333b84ae39125ac4b80c74eb09ea9b53fb57ee2a6d"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "招式",
+              "value": 3,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                "anchor": "L12",
+                "sectionSha256": "a0888c9d4d9d4c88f24947333b84ae39125ac4b80c74eb09ea9b53fb57ee2a6d"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-653380972bf16feb--5f3f9d32a927",
+          "name": "天将拂晓",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+            "anchor": "L16",
+            "sectionSha256": "92c4f899ad14aa28d8f579644e7cae35b1262fdee83050278046350d35d3c2c7"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/废墟图书馆相关书页技艺.md",
+              "sha256": "4e0163ef79f626d56b2706a1621730e726d5ef2c58a55e3d77901bb678e4f9cb",
+              "lineRanges": [
+                [
+                  16,
+                  19
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L16",
+                  "sectionSha256": "92c4f899ad14aa28d8f579644e7cae35b1262fdee83050278046350d35d3c2c7"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard",
+                "move"
+              ],
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-653380972bf16feb--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "力量",
+                    "minimum": 6
+                  },
+                  {
+                    "kind": "expertise-minimum",
+                    "skill": "白刃",
+                    "minimum": 5,
+                    "skillModel": "primary-plus-one-subskill"
+                  }
+                ],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L16",
+                  "sectionSha256": "92c4f899ad14aa28d8f579644e7cae35b1262fdee83050278046350d35d3c2c7"
+                },
+                "semanticStatus": "partial"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L16",
+              "sectionSha256": "92c4f899ad14aa28d8f579644e7cae35b1262fdee83050278046350d35d3c2c7"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L16",
+              "sectionSha256": "92c4f899ad14aa28d8f579644e7cae35b1262fdee83050278046350d35d3c2c7"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 6,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L16",
+                  "sectionSha256": "92c4f899ad14aa28d8f579644e7cae35b1262fdee83050278046350d35d3c2c7"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L16",
+              "sectionSha256": "92c4f899ad14aa28d8f579644e7cae35b1262fdee83050278046350d35d3c2c7"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "意志"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L16",
+                  "sectionSha256": "92c4f899ad14aa28d8f579644e7cae35b1262fdee83050278046350d35d3c2c7"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L16",
+              "sectionSha256": "92c4f899ad14aa28d8f579644e7cae35b1262fdee83050278046350d35d3c2c7"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L16",
+              "sectionSha256": "92c4f899ad14aa28d8f579644e7cae35b1262fdee83050278046350d35d3c2c7"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L16",
+              "sectionSha256": "92c4f899ad14aa28d8f579644e7cae35b1262fdee83050278046350d35d3c2c7"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "招式",
+              "value": 18,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                "anchor": "L16",
+                "sectionSha256": "92c4f899ad14aa28d8f579644e7cae35b1262fdee83050278046350d35d3c2c7"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-653380972bf16feb--bbbae651d4e8",
+          "name": "致命穿透",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+            "anchor": "L20",
+            "sectionSha256": "86cb16cb914a3d1321e9788fce1f4304f5a070dce61186640addbfc36081e0b4"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/废墟图书馆相关书页技艺.md",
+              "sha256": "4e0163ef79f626d56b2706a1621730e726d5ef2c58a55e3d77901bb678e4f9cb",
+              "lineRanges": [
+                [
+                  20,
+                  22
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L20",
+                  "sectionSha256": "86cb16cb914a3d1321e9788fce1f4304f5a070dce61186640addbfc36081e0b4"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard",
+                "move"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-653380972bf16feb--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "力量",
+                    "minimum": 6
+                  },
+                  {
+                    "kind": "expertise-minimum",
+                    "skill": "白刃",
+                    "minimum": 5,
+                    "skillModel": "primary-plus-one-subskill"
+                  }
+                ],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L20",
+                  "sectionSha256": "86cb16cb914a3d1321e9788fce1f4304f5a070dce61186640addbfc36081e0b4"
+                },
+                "semanticStatus": "partial"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L20",
+              "sectionSha256": "86cb16cb914a3d1321e9788fce1f4304f5a070dce61186640addbfc36081e0b4"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L20",
+              "sectionSha256": "86cb16cb914a3d1321e9788fce1f4304f5a070dce61186640addbfc36081e0b4"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 6,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L20",
+                  "sectionSha256": "86cb16cb914a3d1321e9788fce1f4304f5a070dce61186640addbfc36081e0b4"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L20",
+              "sectionSha256": "86cb16cb914a3d1321e9788fce1f4304f5a070dce61186640addbfc36081e0b4"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "意志"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L20",
+                  "sectionSha256": "86cb16cb914a3d1321e9788fce1f4304f5a070dce61186640addbfc36081e0b4"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L20",
+              "sectionSha256": "86cb16cb914a3d1321e9788fce1f4304f5a070dce61186640addbfc36081e0b4"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L20",
+              "sectionSha256": "86cb16cb914a3d1321e9788fce1f4304f5a070dce61186640addbfc36081e0b4"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L20",
+              "sectionSha256": "86cb16cb914a3d1321e9788fce1f4304f5a070dce61186640addbfc36081e0b4"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "招式",
+              "value": 18,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                "anchor": "L20",
+                "sectionSha256": "86cb16cb914a3d1321e9788fce1f4304f5a070dce61186640addbfc36081e0b4"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-653380972bf16feb--b4958c67124e",
+          "name": "锋芒毕现",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+            "anchor": "L23",
+            "sectionSha256": "dc086cf52945557e3466812995fbe8f7935fab1a06a0b7febea945ed6d0df8a5"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/废墟图书馆相关书页技艺.md",
+              "sha256": "4e0163ef79f626d56b2706a1621730e726d5ef2c58a55e3d77901bb678e4f9cb",
+              "lineRanges": [
+                [
+                  23,
+                  25
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L23",
+                  "sectionSha256": "dc086cf52945557e3466812995fbe8f7935fab1a06a0b7febea945ed6d0df8a5"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-653380972bf16feb--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "力量",
+                    "minimum": 6
+                  },
+                  {
+                    "kind": "expertise-minimum",
+                    "skill": "白刃",
+                    "minimum": 3,
+                    "skillModel": "primary-plus-one-subskill"
+                  }
+                ],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L23",
+                  "sectionSha256": "dc086cf52945557e3466812995fbe8f7935fab1a06a0b7febea945ed6d0df8a5"
+                },
+                "semanticStatus": "partial"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L23",
+              "sectionSha256": "dc086cf52945557e3466812995fbe8f7935fab1a06a0b7febea945ed6d0df8a5"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L23",
+              "sectionSha256": "dc086cf52945557e3466812995fbe8f7935fab1a06a0b7febea945ed6d0df8a5"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L23",
+                  "sectionSha256": "dc086cf52945557e3466812995fbe8f7935fab1a06a0b7febea945ed6d0df8a5"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L23",
+              "sectionSha256": "dc086cf52945557e3466812995fbe8f7935fab1a06a0b7febea945ed6d0df8a5"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 2,
+                  "pool": "精力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L23",
+                  "sectionSha256": "dc086cf52945557e3466812995fbe8f7935fab1a06a0b7febea945ed6d0df8a5"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L23",
+              "sectionSha256": "dc086cf52945557e3466812995fbe8f7935fab1a06a0b7febea945ed6d0df8a5"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L23",
+              "sectionSha256": "dc086cf52945557e3466812995fbe8f7935fab1a06a0b7febea945ed6d0df8a5"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L23",
+              "sectionSha256": "dc086cf52945557e3466812995fbe8f7935fab1a06a0b7febea945ed6d0df8a5"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-653380972bf16feb--fbf7776a3be2",
+          "name": "黑云翻墨",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+            "anchor": "L26",
+            "sectionSha256": "664c77159e4ebbba84ef73a63704179e2ab8f5b12951349bf4a1e936a06eb2d2"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/废墟图书馆相关书页技艺.md",
+              "sha256": "4e0163ef79f626d56b2706a1621730e726d5ef2c58a55e3d77901bb678e4f9cb",
+              "lineRanges": [
+                [
+                  26,
+                  28
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L26",
+                  "sectionSha256": "664c77159e4ebbba84ef73a63704179e2ab8f5b12951349bf4a1e936a06eb2d2"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard",
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-653380972bf16feb--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [
+                  {
+                    "kind": "expertise-minimum",
+                    "skill": "白刃",
+                    "minimum": 4,
+                    "skillModel": "primary-plus-one-subskill"
+                  }
+                ],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L26",
+                  "sectionSha256": "664c77159e4ebbba84ef73a63704179e2ab8f5b12951349bf4a1e936a06eb2d2"
+                },
+                "semanticStatus": "partial"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L26",
+              "sectionSha256": "664c77159e4ebbba84ef73a63704179e2ab8f5b12951349bf4a1e936a06eb2d2"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L26",
+              "sectionSha256": "664c77159e4ebbba84ef73a63704179e2ab8f5b12951349bf4a1e936a06eb2d2"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 4,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L26",
+                  "sectionSha256": "664c77159e4ebbba84ef73a63704179e2ab8f5b12951349bf4a1e936a06eb2d2"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L26",
+              "sectionSha256": "664c77159e4ebbba84ef73a63704179e2ab8f5b12951349bf4a1e936a06eb2d2"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "精力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L26",
+                  "sectionSha256": "664c77159e4ebbba84ef73a63704179e2ab8f5b12951349bf4a1e936a06eb2d2"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L26",
+              "sectionSha256": "664c77159e4ebbba84ef73a63704179e2ab8f5b12951349bf4a1e936a06eb2d2"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L26",
+              "sectionSha256": "664c77159e4ebbba84ef73a63704179e2ab8f5b12951349bf4a1e936a06eb2d2"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L26",
+              "sectionSha256": "664c77159e4ebbba84ef73a63704179e2ab8f5b12951349bf4a1e936a06eb2d2"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "招式",
+              "value": 6,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                "anchor": "L26",
+                "sectionSha256": "664c77159e4ebbba84ef73a63704179e2ab8f5b12951349bf4a1e936a06eb2d2"
+              }
+            },
+            {
+              "kind": "typed-bonus",
+              "bonusType": "招式",
+              "value": 12,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                "anchor": "L26",
+                "sectionSha256": "664c77159e4ebbba84ef73a63704179e2ab8f5b12951349bf4a1e936a06eb2d2"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-653380972bf16feb--bc2b72915c17",
+          "name": "一刀毙命",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+            "anchor": "L29",
+            "sectionSha256": "78dd554e1f3205913ed9faa00ba73f1f4a7536197e50713d1d7d15604ea7d206"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/废墟图书馆相关书页技艺.md",
+              "sha256": "4e0163ef79f626d56b2706a1621730e726d5ef2c58a55e3d77901bb678e4f9cb",
+              "lineRanges": [
+                [
+                  29,
+                  31
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L29",
+                  "sectionSha256": "78dd554e1f3205913ed9faa00ba73f1f4a7536197e50713d1d7d15604ea7d206"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "move"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-653380972bf16feb--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [
+                  {
+                    "kind": "expertise-minimum",
+                    "skill": "白刃",
+                    "minimum": 4,
+                    "skillModel": "primary-plus-one-subskill"
+                  }
+                ],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L29",
+                  "sectionSha256": "78dd554e1f3205913ed9faa00ba73f1f4a7536197e50713d1d7d15604ea7d206"
+                },
+                "semanticStatus": "partial"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L29",
+              "sectionSha256": "78dd554e1f3205913ed9faa00ba73f1f4a7536197e50713d1d7d15604ea7d206"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L29",
+              "sectionSha256": "78dd554e1f3205913ed9faa00ba73f1f4a7536197e50713d1d7d15604ea7d206"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L29",
+              "sectionSha256": "78dd554e1f3205913ed9faa00ba73f1f4a7536197e50713d1d7d15604ea7d206"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L29",
+              "sectionSha256": "78dd554e1f3205913ed9faa00ba73f1f4a7536197e50713d1d7d15604ea7d206"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L29",
+              "sectionSha256": "78dd554e1f3205913ed9faa00ba73f1f4a7536197e50713d1d7d15604ea7d206"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L29",
+              "sectionSha256": "78dd554e1f3205913ed9faa00ba73f1f4a7536197e50713d1d7d15604ea7d206"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-653380972bf16feb--aaa309ab9c57",
+          "name": "神龙抬首",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+            "anchor": "L32",
+            "sectionSha256": "c1455178cee574f7c33c1f8f54a62dad711baacaac99232819189a09405026ab"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/废墟图书馆相关书页技艺.md",
+              "sha256": "4e0163ef79f626d56b2706a1621730e726d5ef2c58a55e3d77901bb678e4f9cb",
+              "lineRanges": [
+                [
+                  32,
+                  33
+                ],
+                [
+                  35,
+                  37
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "DD",
+                "currency": "XP",
+                "amount": 20,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L32",
+                  "sectionSha256": "c1455178cee574f7c33c1f8f54a62dad711baacaac99232819189a09405026ab"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "reflex"
+              ],
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-653380972bf16feb--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "敏捷",
+                    "minimum": 6
+                  },
+                  {
+                    "kind": "expertise-minimum",
+                    "skill": "肉搏",
+                    "minimum": 5,
+                    "skillModel": "primary-plus-one-subskill"
+                  }
+                ],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L32",
+                  "sectionSha256": "c1455178cee574f7c33c1f8f54a62dad711baacaac99232819189a09405026ab"
+                },
+                "semanticStatus": "partial"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L32",
+              "sectionSha256": "c1455178cee574f7c33c1f8f54a62dad711baacaac99232819189a09405026ab"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L32",
+                  "sectionSha256": "c1455178cee574f7c33c1f8f54a62dad711baacaac99232819189a09405026ab"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L32",
+              "sectionSha256": "c1455178cee574f7c33c1f8f54a62dad711baacaac99232819189a09405026ab"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L32",
+                  "sectionSha256": "c1455178cee574f7c33c1f8f54a62dad711baacaac99232819189a09405026ab"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 3,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L32",
+                  "sectionSha256": "c1455178cee574f7c33c1f8f54a62dad711baacaac99232819189a09405026ab"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L32",
+              "sectionSha256": "c1455178cee574f7c33c1f8f54a62dad711baacaac99232819189a09405026ab"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "精力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L32",
+                  "sectionSha256": "c1455178cee574f7c33c1f8f54a62dad711baacaac99232819189a09405026ab"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "精力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L32",
+                  "sectionSha256": "c1455178cee574f7c33c1f8f54a62dad711baacaac99232819189a09405026ab"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "精力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L32",
+                  "sectionSha256": "c1455178cee574f7c33c1f8f54a62dad711baacaac99232819189a09405026ab"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L32",
+              "sectionSha256": "c1455178cee574f7c33c1f8f54a62dad711baacaac99232819189a09405026ab"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L32",
+              "sectionSha256": "c1455178cee574f7c33c1f8f54a62dad711baacaac99232819189a09405026ab"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L32",
+              "sectionSha256": "c1455178cee574f7c33c1f8f54a62dad711baacaac99232819189a09405026ab"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "招式",
+              "value": 6,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                "anchor": "L32",
+                "sectionSha256": "c1455178cee574f7c33c1f8f54a62dad711baacaac99232819189a09405026ab"
+              }
+            },
+            {
+              "kind": "typed-bonus",
+              "bonusType": "招式",
+              "value": 12,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                "anchor": "L32",
+                "sectionSha256": "c1455178cee574f7c33c1f8f54a62dad711baacaac99232819189a09405026ab"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-653380972bf16feb--3f970821bb78",
+          "name": "生死界限",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+            "anchor": "L38",
+            "sectionSha256": "ccdfc93fc4a5a36fc33b9043e1ac42ac6a7e296a0f4d818d818bbc623ed0c04a"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/废墟图书馆相关书页技艺.md",
+              "sha256": "4e0163ef79f626d56b2706a1621730e726d5ef2c58a55e3d77901bb678e4f9cb",
+              "lineRanges": [
+                [
+                  38,
+                  40
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L38",
+                  "sectionSha256": "ccdfc93fc4a5a36fc33b9043e1ac42ac6a7e296a0f4d818d818bbc623ed0c04a"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-653380972bf16feb--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "敏捷",
+                    "minimum": 4
+                  },
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "意志",
+                    "minimum": 4
+                  },
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "感知",
+                    "minimum": 4
+                  },
+                  {
+                    "kind": "expertise-minimum",
+                    "skill": "白刃",
+                    "minimum": 4,
+                    "skillModel": "primary-plus-one-subskill"
+                  }
+                ],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L38",
+                  "sectionSha256": "ccdfc93fc4a5a36fc33b9043e1ac42ac6a7e296a0f4d818d818bbc623ed0c04a"
+                },
+                "semanticStatus": "partial"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L38",
+              "sectionSha256": "ccdfc93fc4a5a36fc33b9043e1ac42ac6a7e296a0f4d818d818bbc623ed0c04a"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L38",
+              "sectionSha256": "ccdfc93fc4a5a36fc33b9043e1ac42ac6a7e296a0f4d818d818bbc623ed0c04a"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 4,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L38",
+                  "sectionSha256": "ccdfc93fc4a5a36fc33b9043e1ac42ac6a7e296a0f4d818d818bbc623ed0c04a"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L38",
+              "sectionSha256": "ccdfc93fc4a5a36fc33b9043e1ac42ac6a7e296a0f4d818d818bbc623ed0c04a"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 4,
+                  "pool": "意志"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L38",
+                  "sectionSha256": "ccdfc93fc4a5a36fc33b9043e1ac42ac6a7e296a0f4d818d818bbc623ed0c04a"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L38",
+              "sectionSha256": "ccdfc93fc4a5a36fc33b9043e1ac42ac6a7e296a0f4d818d818bbc623ed0c04a"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L38",
+              "sectionSha256": "ccdfc93fc4a5a36fc33b9043e1ac42ac6a7e296a0f4d818d818bbc623ed0c04a"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L38",
+              "sectionSha256": "ccdfc93fc4a5a36fc33b9043e1ac42ac6a7e296a0f4d818d818bbc623ed0c04a"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "招式",
+              "value": 45,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                "anchor": "L38",
+                "sectionSha256": "ccdfc93fc4a5a36fc33b9043e1ac42ac6a7e296a0f4d818d818bbc623ed0c04a"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-653380972bf16feb--c7e5d9889852",
+          "name": "铁山靠",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+            "anchor": "L41",
+            "sectionSha256": "16ecd13f9d86b3a38d5e9d3e3abc98be18360aa04e5ab42183c370a8d4e9724c"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/废墟图书馆相关书页技艺.md",
+              "sha256": "4e0163ef79f626d56b2706a1621730e726d5ef2c58a55e3d77901bb678e4f9cb",
+              "lineRanges": [
+                [
+                  41,
+                  42
+                ],
+                [
+                  44,
+                  45
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L41",
+                  "sectionSha256": "16ecd13f9d86b3a38d5e9d3e3abc98be18360aa04e5ab42183c370a8d4e9724c"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard",
+                "move"
+              ],
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-653380972bf16feb--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "力量",
+                    "minimum": 6
+                  },
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "敏捷",
+                    "minimum": 6
+                  },
+                  {
+                    "kind": "expertise-minimum",
+                    "skill": "肉搏",
+                    "minimum": 6,
+                    "skillModel": "primary-plus-one-subskill"
+                  }
+                ],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L41",
+                  "sectionSha256": "16ecd13f9d86b3a38d5e9d3e3abc98be18360aa04e5ab42183c370a8d4e9724c"
+                },
+                "semanticStatus": "partial"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L41",
+              "sectionSha256": "16ecd13f9d86b3a38d5e9d3e3abc98be18360aa04e5ab42183c370a8d4e9724c"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L41",
+              "sectionSha256": "16ecd13f9d86b3a38d5e9d3e3abc98be18360aa04e5ab42183c370a8d4e9724c"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 6,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L41",
+                  "sectionSha256": "16ecd13f9d86b3a38d5e9d3e3abc98be18360aa04e5ab42183c370a8d4e9724c"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L41",
+              "sectionSha256": "16ecd13f9d86b3a38d5e9d3e3abc98be18360aa04e5ab42183c370a8d4e9724c"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "意志"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L41",
+                  "sectionSha256": "16ecd13f9d86b3a38d5e9d3e3abc98be18360aa04e5ab42183c370a8d4e9724c"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L41",
+              "sectionSha256": "16ecd13f9d86b3a38d5e9d3e3abc98be18360aa04e5ab42183c370a8d4e9724c"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L41",
+              "sectionSha256": "16ecd13f9d86b3a38d5e9d3e3abc98be18360aa04e5ab42183c370a8d4e9724c"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L41",
+              "sectionSha256": "16ecd13f9d86b3a38d5e9d3e3abc98be18360aa04e5ab42183c370a8d4e9724c"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "招式",
+              "value": 6,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                "anchor": "L41",
+                "sectionSha256": "16ecd13f9d86b3a38d5e9d3e3abc98be18360aa04e5ab42183c370a8d4e9724c"
+              }
+            },
+            {
+              "kind": "typed-bonus",
+              "bonusType": "招式",
+              "value": 18,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                "anchor": "L41",
+                "sectionSha256": "16ecd13f9d86b3a38d5e9d3e3abc98be18360aa04e5ab42183c370a8d4e9724c"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-653380972bf16feb--adb17ae1473a",
+          "name": "炎龙贯拳",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+            "anchor": "L46",
+            "sectionSha256": "455d95f01065b45bd25c1fc35a50d9d9faa166bdc9a28ca5ef5c70fb369fc86f"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/废墟图书馆相关书页技艺.md",
+              "sha256": "4e0163ef79f626d56b2706a1621730e726d5ef2c58a55e3d77901bb678e4f9cb",
+              "lineRanges": [
+                [
+                  46,
+                  49
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L46",
+                  "sectionSha256": "455d95f01065b45bd25c1fc35a50d9d9faa166bdc9a28ca5ef5c70fb369fc86f"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard",
+                "move"
+              ],
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-653380972bf16feb--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "力量",
+                    "minimum": 6
+                  },
+                  {
+                    "kind": "attribute-minimum",
+                    "attribute": "意志",
+                    "minimum": 6
+                  },
+                  {
+                    "kind": "expertise-minimum",
+                    "skill": "肉搏",
+                    "minimum": 6,
+                    "skillModel": "primary-plus-one-subskill"
+                  }
+                ],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L46",
+                  "sectionSha256": "455d95f01065b45bd25c1fc35a50d9d9faa166bdc9a28ca5ef5c70fb369fc86f"
+                },
+                "semanticStatus": "partial"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L46",
+              "sectionSha256": "455d95f01065b45bd25c1fc35a50d9d9faa166bdc9a28ca5ef5c70fb369fc86f"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L46",
+              "sectionSha256": "455d95f01065b45bd25c1fc35a50d9d9faa166bdc9a28ca5ef5c70fb369fc86f"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 6,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L46",
+                  "sectionSha256": "455d95f01065b45bd25c1fc35a50d9d9faa166bdc9a28ca5ef5c70fb369fc86f"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L46",
+              "sectionSha256": "455d95f01065b45bd25c1fc35a50d9d9faa166bdc9a28ca5ef5c70fb369fc86f"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 4,
+                  "pool": "意志"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L46",
+                  "sectionSha256": "455d95f01065b45bd25c1fc35a50d9d9faa166bdc9a28ca5ef5c70fb369fc86f"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L46",
+              "sectionSha256": "455d95f01065b45bd25c1fc35a50d9d9faa166bdc9a28ca5ef5c70fb369fc86f"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L46",
+              "sectionSha256": "455d95f01065b45bd25c1fc35a50d9d9faa166bdc9a28ca5ef5c70fb369fc86f"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L46",
+              "sectionSha256": "455d95f01065b45bd25c1fc35a50d9d9faa166bdc9a28ca5ef5c70fb369fc86f"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "招式",
+              "value": 24,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                "anchor": "L46",
+                "sectionSha256": "455d95f01065b45bd25c1fc35a50d9d9faa166bdc9a28ca5ef5c70fb369fc86f"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-653380972bf16feb--6228e9d3d391",
+          "name": "废墟图书馆相关书页技艺·铁山破势（C级）",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+            "anchor": "L50",
+            "sectionSha256": "3087b45f0a039520bd0c3b04a8aa4335917e89e2b84ab8589748d9eca391fba8"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/废墟图书馆相关书页技艺.md",
+              "sha256": "4e0163ef79f626d56b2706a1621730e726d5ef2c58a55e3d77901bb678e4f9cb",
+              "lineRanges": [
+                [
+                  50,
+                  57
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L50",
+                  "sectionSha256": "3087b45f0a039520bd0c3b04a8aa4335917e89e2b84ab8589748d9eca391fba8"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-653380972bf16feb--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L50",
+              "sectionSha256": "3087b45f0a039520bd0c3b04a8aa4335917e89e2b84ab8589748d9eca391fba8"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L50",
+                  "sectionSha256": "3087b45f0a039520bd0c3b04a8aa4335917e89e2b84ab8589748d9eca391fba8"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L50",
+              "sectionSha256": "3087b45f0a039520bd0c3b04a8aa4335917e89e2b84ab8589748d9eca391fba8"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 6,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L50",
+                  "sectionSha256": "3087b45f0a039520bd0c3b04a8aa4335917e89e2b84ab8589748d9eca391fba8"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L50",
+              "sectionSha256": "3087b45f0a039520bd0c3b04a8aa4335917e89e2b84ab8589748d9eca391fba8"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 4,
+                  "pool": "意志"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L50",
+                  "sectionSha256": "3087b45f0a039520bd0c3b04a8aa4335917e89e2b84ab8589748d9eca391fba8"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L50",
+              "sectionSha256": "3087b45f0a039520bd0c3b04a8aa4335917e89e2b84ab8589748d9eca391fba8"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L50",
+              "sectionSha256": "3087b45f0a039520bd0c3b04a8aa4335917e89e2b84ab8589748d9eca391fba8"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L50",
+              "sectionSha256": "3087b45f0a039520bd0c3b04a8aa4335917e89e2b84ab8589748d9eca391fba8"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "招式",
+              "value": 24,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                "anchor": "L50",
+                "sectionSha256": "3087b45f0a039520bd0c3b04a8aa4335917e89e2b84ab8589748d9eca391fba8"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-653380972bf16feb--c2df43ffee4a",
+          "name": "百折不挠",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+            "anchor": "L58",
+            "sectionSha256": "05642954fd3f289519ba4399057c789a3de91aa0b0d905a41e593d18b0822484"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/废墟图书馆相关书页技艺.md",
+              "sha256": "4e0163ef79f626d56b2706a1621730e726d5ef2c58a55e3d77901bb678e4f9cb",
+              "lineRanges": [
+                [
+                  58,
+                  60
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 85,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+                  "anchor": "L58",
+                  "sectionSha256": "05642954fd3f289519ba4399057c789a3de91aa0b0d905a41e593d18b0822484"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-653380972bf16feb--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L58",
+              "sectionSha256": "05642954fd3f289519ba4399057c789a3de91aa0b0d905a41e593d18b0822484"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L58",
+              "sectionSha256": "05642954fd3f289519ba4399057c789a3de91aa0b0d905a41e593d18b0822484"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L58",
+              "sectionSha256": "05642954fd3f289519ba4399057c789a3de91aa0b0d905a41e593d18b0822484"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L58",
+              "sectionSha256": "05642954fd3f289519ba4399057c789a3de91aa0b0d905a41e593d18b0822484"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L58",
+              "sectionSha256": "05642954fd3f289519ba4399057c789a3de91aa0b0d905a41e593d18b0822484"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/125-废墟图书馆相关书页技艺.md",
+              "anchor": "L58",
+              "sectionSha256": "05642954fd3f289519ba4399057c789a3de91aa0b0d905a41e593d18b0822484"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "废墟图书馆相关书页技艺",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "动作太慢",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "发号施令",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "回旋斩击",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "天将拂晓",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "致命穿透",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "锋芒毕现",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "黑云翻墨",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "一刀毙命",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "神龙抬首",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "生死界限",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "铁山靠",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "炎龙贯拳",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "废墟图书馆相关书页技艺·铁山破势（C级）",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "百折不挠",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-653380972bf16feb--ee292cd1d6c1--intent",
+      "name": "动作太慢",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-653380972bf16feb--ee292cd1d6c1",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-653380972bf16feb--79cfaa5a36db--intent",
+      "name": "发号施令",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-653380972bf16feb--79cfaa5a36db",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-653380972bf16feb--3f6b5ef2df8d--intent",
+      "name": "回旋斩击",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard",
+            "move"
+          ],
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-653380972bf16feb--3f6b5ef2df8d",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-653380972bf16feb--5f3f9d32a927--intent",
+      "name": "天将拂晓",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard",
+            "move"
+          ],
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-653380972bf16feb--5f3f9d32a927",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-653380972bf16feb--bbbae651d4e8--intent",
+      "name": "致命穿透",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard",
+            "move"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-653380972bf16feb--bbbae651d4e8",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-653380972bf16feb--b4958c67124e--intent",
+      "name": "锋芒毕现",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-653380972bf16feb--b4958c67124e",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-653380972bf16feb--fbf7776a3be2--intent",
+      "name": "黑云翻墨",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard",
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-653380972bf16feb--fbf7776a3be2",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-653380972bf16feb--bc2b72915c17--intent",
+      "name": "一刀毙命",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "move"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-653380972bf16feb--bc2b72915c17",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-653380972bf16feb--aaa309ab9c57--intent",
+      "name": "神龙抬首",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "reflex"
+          ],
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-653380972bf16feb--aaa309ab9c57",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-653380972bf16feb--3f970821bb78--intent",
+      "name": "生死界限",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-653380972bf16feb--3f970821bb78",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-653380972bf16feb--c7e5d9889852--intent",
+      "name": "铁山靠",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard",
+            "move"
+          ],
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-653380972bf16feb--c7e5d9889852",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-653380972bf16feb--adb17ae1473a--intent",
+      "name": "炎龙贯拳",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard",
+            "move"
+          ],
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-653380972bf16feb--adb17ae1473a",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-653380972bf16feb--6228e9d3d391--intent",
+      "name": "废墟图书馆相关书页技艺·铁山破势（C级）",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-653380972bf16feb--6228e9d3d391",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "attack-program-hardcodes-INT-and-casting",
+    "duration-inheritance-and-no-implicit-refresh",
+    "prerequisite-logic-not-fully-encoded"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

@@ -1,0 +1,639 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-e9c0857e931d6e25",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "狙击手",
+    "grade": "D",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J06",
+    "aliases": [
+      "狙击手",
+      "狙击手技艺",
+      "战术狙击手",
+      "战略狙击手"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/远程类型/狙击手.md",
+        "sha256": "6e54ca3d53d15b4183f439f92ae05f2883ec869415178371138aa0669859219f",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            30
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/079-狙击手.md",
+    "sha256": "724789c9acd6cd897ce4d0ae31a93f0a4f05e20dc7d4b6c2291d92840536c36c"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-e9c0857e931d6e25--0ae594c1109f",
+          "name": "狙击手",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/079-狙击手.md",
+            "anchor": "条目",
+            "sectionSha256": "73c4ec5e43074ce2599cdd2bf4e4c1036bda939940bcbec2bf0b72b4a3e98c72"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/远程类型/狙击手.md",
+              "sha256": "6e54ca3d53d15b4183f439f92ae05f2883ec869415178371138aa0669859219f",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  13
+                ],
+                [
+                  15,
+                  15
+                ],
+                [
+                  22,
+                  22
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/079-狙击手.md",
+              "anchor": "条目",
+              "sectionSha256": "73c4ec5e43074ce2599cdd2bf4e4c1036bda939940bcbec2bf0b72b4a3e98c72"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/079-狙击手.md",
+              "anchor": "条目",
+              "sectionSha256": "73c4ec5e43074ce2599cdd2bf4e4c1036bda939940bcbec2bf0b72b4a3e98c72"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/079-狙击手.md",
+              "anchor": "条目",
+              "sectionSha256": "73c4ec5e43074ce2599cdd2bf4e4c1036bda939940bcbec2bf0b72b4a3e98c72"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/079-狙击手.md",
+              "anchor": "条目",
+              "sectionSha256": "73c4ec5e43074ce2599cdd2bf4e4c1036bda939940bcbec2bf0b72b4a3e98c72"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/079-狙击手.md",
+              "anchor": "条目",
+              "sectionSha256": "73c4ec5e43074ce2599cdd2bf4e4c1036bda939940bcbec2bf0b72b4a3e98c72"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/079-狙击手.md",
+              "anchor": "条目",
+              "sectionSha256": "73c4ec5e43074ce2599cdd2bf4e4c1036bda939940bcbec2bf0b72b4a3e98c72"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-e9c0857e931d6e25--4e20baac66c8",
+          "name": "战术狙击手",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/079-狙击手.md",
+            "anchor": "L14",
+            "sectionSha256": "8036a284dbcb7e3ee2a44322ca0e85312314fdd005b3ed1043ee6154a2346457"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/远程类型/狙击手.md",
+              "sha256": "6e54ca3d53d15b4183f439f92ae05f2883ec869415178371138aa0669859219f",
+              "lineRanges": [
+                [
+                  14,
+                  14
+                ],
+                [
+                  16,
+                  20
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/079-狙击手.md",
+                  "anchor": "L14",
+                  "sectionSha256": "8036a284dbcb7e3ee2a44322ca0e85312314fdd005b3ed1043ee6154a2346457"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-e9c0857e931d6e25--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/079-狙击手.md",
+              "anchor": "L14",
+              "sectionSha256": "8036a284dbcb7e3ee2a44322ca0e85312314fdd005b3ed1043ee6154a2346457"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/079-狙击手.md",
+              "anchor": "L14",
+              "sectionSha256": "8036a284dbcb7e3ee2a44322ca0e85312314fdd005b3ed1043ee6154a2346457"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/079-狙击手.md",
+              "anchor": "L14",
+              "sectionSha256": "8036a284dbcb7e3ee2a44322ca0e85312314fdd005b3ed1043ee6154a2346457"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "意志"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/079-狙击手.md",
+                  "anchor": "L14",
+                  "sectionSha256": "8036a284dbcb7e3ee2a44322ca0e85312314fdd005b3ed1043ee6154a2346457"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/079-狙击手.md",
+              "anchor": "L14",
+              "sectionSha256": "8036a284dbcb7e3ee2a44322ca0e85312314fdd005b3ed1043ee6154a2346457"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/079-狙击手.md",
+              "anchor": "L14",
+              "sectionSha256": "8036a284dbcb7e3ee2a44322ca0e85312314fdd005b3ed1043ee6154a2346457"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/079-狙击手.md",
+              "anchor": "L14",
+              "sectionSha256": "8036a284dbcb7e3ee2a44322ca0e85312314fdd005b3ed1043ee6154a2346457"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-e9c0857e931d6e25--f45c0059c181",
+          "name": "战略狙击手",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/079-狙击手.md",
+            "anchor": "L21",
+            "sectionSha256": "77ca2c6c158ffded569ffa7221d4f9b6c09e5439d44d3662854414c83c9c4bf5"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/远程类型/狙击手.md",
+              "sha256": "6e54ca3d53d15b4183f439f92ae05f2883ec869415178371138aa0669859219f",
+              "lineRanges": [
+                [
+                  21,
+                  21
+                ],
+                [
+                  23,
+                  30
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/079-狙击手.md",
+                  "anchor": "L21",
+                  "sectionSha256": "77ca2c6c158ffded569ffa7221d4f9b6c09e5439d44d3662854414c83c9c4bf5"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-e9c0857e931d6e25--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/079-狙击手.md",
+              "anchor": "L21",
+              "sectionSha256": "77ca2c6c158ffded569ffa7221d4f9b6c09e5439d44d3662854414c83c9c4bf5"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/079-狙击手.md",
+              "anchor": "L21",
+              "sectionSha256": "77ca2c6c158ffded569ffa7221d4f9b6c09e5439d44d3662854414c83c9c4bf5"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/079-狙击手.md",
+              "anchor": "L21",
+              "sectionSha256": "77ca2c6c158ffded569ffa7221d4f9b6c09e5439d44d3662854414c83c9c4bf5"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/079-狙击手.md",
+              "anchor": "L21",
+              "sectionSha256": "77ca2c6c158ffded569ffa7221d4f9b6c09e5439d44d3662854414c83c9c4bf5"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/079-狙击手.md",
+              "anchor": "L21",
+              "sectionSha256": "77ca2c6c158ffded569ffa7221d4f9b6c09e5439d44d3662854414c83c9c4bf5"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/079-狙击手.md",
+              "anchor": "L21",
+              "sectionSha256": "77ca2c6c158ffded569ffa7221d4f9b6c09e5439d44d3662854414c83c9c4bf5"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "洞察",
+              "value": 6,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/079-狙击手.md",
+                "anchor": "L21",
+                "sectionSha256": "77ca2c6c158ffded569ffa7221d4f9b6c09e5439d44d3662854414c83c9c4bf5"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "狙击手",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "战术狙击手",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "战略狙击手",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "duration-inheritance-and-no-implicit-refresh"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

@@ -1,0 +1,1335 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-76bcc2ee4f276dc4",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "一些龙珠技艺",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J07",
+    "aliases": [
+      "一些龙珠技艺",
+      "太阳拳",
+      "残像拳",
+      "万国惊天掌",
+      "四妖拳",
+      "魔封波"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/一些龙珠技艺.md",
+        "sha256": "7b3d24be84e7a7c37f5bc1e594b5f874690fe192ecb24b78c1412f2fd0146e95",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            43
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+    "sha256": "72fd5ec8f2524f585e09ae3125c5759a82765ace269525dc07f4fd8041de0d49"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-76bcc2ee4f276dc4--0ae594c1109f",
+          "name": "一些龙珠技艺",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+            "anchor": "条目",
+            "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/一些龙珠技艺.md",
+              "sha256": "7b3d24be84e7a7c37f5bc1e594b5f874690fe192ecb24b78c1412f2fd0146e95",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  7,
+                  7
+                ],
+                [
+                  13,
+                  13
+                ],
+                [
+                  18,
+                  18
+                ],
+                [
+                  27,
+                  27
+                ],
+                [
+                  32,
+                  32
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-76bcc2ee4f276dc4--b3cc20089aab",
+          "name": "太阳拳",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+            "anchor": "L6",
+            "sectionSha256": "825dcbf2ee3609ac34e91625768432bb8743f3341d17819e46eb959bb4f729c2"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/一些龙珠技艺.md",
+              "sha256": "7b3d24be84e7a7c37f5bc1e594b5f874690fe192ecb24b78c1412f2fd0146e95",
+              "lineRanges": [
+                [
+                  6,
+                  6
+                ],
+                [
+                  8,
+                  11
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+                  "anchor": "L6",
+                  "sectionSha256": "825dcbf2ee3609ac34e91625768432bb8743f3341d17819e46eb959bb4f729c2"
+                }
+              },
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+                  "anchor": "L6",
+                  "sectionSha256": "825dcbf2ee3609ac34e91625768432bb8743f3341d17819e46eb959bb4f729c2"
+                }
+              },
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+                  "anchor": "L6",
+                  "sectionSha256": "825dcbf2ee3609ac34e91625768432bb8743f3341d17819e46eb959bb4f729c2"
+                }
+              },
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+                  "anchor": "L6",
+                  "sectionSha256": "825dcbf2ee3609ac34e91625768432bb8743f3341d17819e46eb959bb4f729c2"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-76bcc2ee4f276dc4--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "difference",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L6",
+              "sectionSha256": "825dcbf2ee3609ac34e91625768432bb8743f3341d17819e46eb959bb4f729c2"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+                  "anchor": "L6",
+                  "sectionSha256": "825dcbf2ee3609ac34e91625768432bb8743f3341d17819e46eb959bb4f729c2"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L6",
+              "sectionSha256": "825dcbf2ee3609ac34e91625768432bb8743f3341d17819e46eb959bb4f729c2"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "cooldown",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+                  "anchor": "L6",
+                  "sectionSha256": "825dcbf2ee3609ac34e91625768432bb8743f3341d17819e46eb959bb4f729c2"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L6",
+              "sectionSha256": "825dcbf2ee3609ac34e91625768432bb8743f3341d17819e46eb959bb4f729c2"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "partial",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": {
+                    "kind": "rank-vector",
+                    "values": [
+                      1,
+                      3,
+                      5,
+                      7
+                    ]
+                  },
+                  "pool": "气"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+                  "anchor": "L6",
+                  "sectionSha256": "825dcbf2ee3609ac34e91625768432bb8743f3341d17819e46eb959bb4f729c2"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L6",
+              "sectionSha256": "825dcbf2ee3609ac34e91625768432bb8743f3341d17819e46eb959bb4f729c2"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L6",
+              "sectionSha256": "825dcbf2ee3609ac34e91625768432bb8743f3341d17819e46eb959bb4f729c2"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L6",
+              "sectionSha256": "825dcbf2ee3609ac34e91625768432bb8743f3341d17819e46eb959bb4f729c2"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-76bcc2ee4f276dc4--3f6b5ef2df8d",
+          "name": "残像拳",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+            "anchor": "L12",
+            "sectionSha256": "99d4cf5127b49a796c3c5fde19ae0d36d347eebfbc170f5eb9e6c51701bf02d3"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/一些龙珠技艺.md",
+              "sha256": "7b3d24be84e7a7c37f5bc1e594b5f874690fe192ecb24b78c1412f2fd0146e95",
+              "lineRanges": [
+                [
+                  12,
+                  12
+                ],
+                [
+                  14,
+                  16
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+                  "anchor": "L12",
+                  "sectionSha256": "99d4cf5127b49a796c3c5fde19ae0d36d347eebfbc170f5eb9e6c51701bf02d3"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-76bcc2ee4f276dc4--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L12",
+              "sectionSha256": "99d4cf5127b49a796c3c5fde19ae0d36d347eebfbc170f5eb9e6c51701bf02d3"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+                  "anchor": "L12",
+                  "sectionSha256": "99d4cf5127b49a796c3c5fde19ae0d36d347eebfbc170f5eb9e6c51701bf02d3"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L12",
+              "sectionSha256": "99d4cf5127b49a796c3c5fde19ae0d36d347eebfbc170f5eb9e6c51701bf02d3"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L12",
+              "sectionSha256": "99d4cf5127b49a796c3c5fde19ae0d36d347eebfbc170f5eb9e6c51701bf02d3"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "气"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+                  "anchor": "L12",
+                  "sectionSha256": "99d4cf5127b49a796c3c5fde19ae0d36d347eebfbc170f5eb9e6c51701bf02d3"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L12",
+              "sectionSha256": "99d4cf5127b49a796c3c5fde19ae0d36d347eebfbc170f5eb9e6c51701bf02d3"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L12",
+              "sectionSha256": "99d4cf5127b49a796c3c5fde19ae0d36d347eebfbc170f5eb9e6c51701bf02d3"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L12",
+              "sectionSha256": "99d4cf5127b49a796c3c5fde19ae0d36d347eebfbc170f5eb9e6c51701bf02d3"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-76bcc2ee4f276dc4--094e95ffe05e",
+          "name": "万国惊天掌",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+            "anchor": "L17",
+            "sectionSha256": "a0cabca86fb3c4708acf25a65a6906711fbabf05537cc46353087f7a76eece5e"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/一些龙珠技艺.md",
+              "sha256": "7b3d24be84e7a7c37f5bc1e594b5f874690fe192ecb24b78c1412f2fd0146e95",
+              "lineRanges": [
+                [
+                  17,
+                  17
+                ],
+                [
+                  19,
+                  25
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+                  "anchor": "L17",
+                  "sectionSha256": "a0cabca86fb3c4708acf25a65a6906711fbabf05537cc46353087f7a76eece5e"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-76bcc2ee4f276dc4--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L17",
+              "sectionSha256": "a0cabca86fb3c4708acf25a65a6906711fbabf05537cc46353087f7a76eece5e"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L17",
+              "sectionSha256": "a0cabca86fb3c4708acf25a65a6906711fbabf05537cc46353087f7a76eece5e"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L17",
+              "sectionSha256": "a0cabca86fb3c4708acf25a65a6906711fbabf05537cc46353087f7a76eece5e"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "气"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+                  "anchor": "L17",
+                  "sectionSha256": "a0cabca86fb3c4708acf25a65a6906711fbabf05537cc46353087f7a76eece5e"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "气"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+                  "anchor": "L17",
+                  "sectionSha256": "a0cabca86fb3c4708acf25a65a6906711fbabf05537cc46353087f7a76eece5e"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L17",
+              "sectionSha256": "a0cabca86fb3c4708acf25a65a6906711fbabf05537cc46353087f7a76eece5e"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L17",
+              "sectionSha256": "a0cabca86fb3c4708acf25a65a6906711fbabf05537cc46353087f7a76eece5e"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L17",
+              "sectionSha256": "a0cabca86fb3c4708acf25a65a6906711fbabf05537cc46353087f7a76eece5e"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-76bcc2ee4f276dc4--fbf7776a3be2",
+          "name": "四妖拳",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+            "anchor": "L26",
+            "sectionSha256": "6937e95b68dee4bd3c3242d41df2b5e4bfef04b4856c7563a828b50ad16eee45"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/一些龙珠技艺.md",
+              "sha256": "7b3d24be84e7a7c37f5bc1e594b5f874690fe192ecb24b78c1412f2fd0146e95",
+              "lineRanges": [
+                [
+                  26,
+                  26
+                ],
+                [
+                  28,
+                  30
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+                  "anchor": "L26",
+                  "sectionSha256": "6937e95b68dee4bd3c3242d41df2b5e4bfef04b4856c7563a828b50ad16eee45"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ],
+              [
+                "move"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-76bcc2ee4f276dc4--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L26",
+              "sectionSha256": "6937e95b68dee4bd3c3242d41df2b5e4bfef04b4856c7563a828b50ad16eee45"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L26",
+              "sectionSha256": "6937e95b68dee4bd3c3242d41df2b5e4bfef04b4856c7563a828b50ad16eee45"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L26",
+              "sectionSha256": "6937e95b68dee4bd3c3242d41df2b5e4bfef04b4856c7563a828b50ad16eee45"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 3,
+                  "pool": "气"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+                  "anchor": "L26",
+                  "sectionSha256": "6937e95b68dee4bd3c3242d41df2b5e4bfef04b4856c7563a828b50ad16eee45"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L26",
+              "sectionSha256": "6937e95b68dee4bd3c3242d41df2b5e4bfef04b4856c7563a828b50ad16eee45"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L26",
+              "sectionSha256": "6937e95b68dee4bd3c3242d41df2b5e4bfef04b4856c7563a828b50ad16eee45"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L26",
+              "sectionSha256": "6937e95b68dee4bd3c3242d41df2b5e4bfef04b4856c7563a828b50ad16eee45"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-76bcc2ee4f276dc4--6220cb3f3fad",
+          "name": "魔封波",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+            "anchor": "L31",
+            "sectionSha256": "b7107bbbfd724f21e50202fecafa5d09458d2815a2b3025e404fd6f7ce72cef8"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹主动/一些龙珠技艺.md",
+              "sha256": "7b3d24be84e7a7c37f5bc1e594b5f874690fe192ecb24b78c1412f2fd0146e95",
+              "lineRanges": [
+                [
+                  31,
+                  31
+                ],
+                [
+                  33,
+                  43
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+                  "anchor": "L31",
+                  "sectionSha256": "b7107bbbfd724f21e50202fecafa5d09458d2815a2b3025e404fd6f7ce72cef8"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "move"
+              ],
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-76bcc2ee4f276dc4--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L31",
+              "sectionSha256": "b7107bbbfd724f21e50202fecafa5d09458d2815a2b3025e404fd6f7ce72cef8"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L31",
+              "sectionSha256": "b7107bbbfd724f21e50202fecafa5d09458d2815a2b3025e404fd6f7ce72cef8"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L31",
+              "sectionSha256": "b7107bbbfd724f21e50202fecafa5d09458d2815a2b3025e404fd6f7ce72cef8"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 5,
+                  "pool": "气"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+                  "anchor": "L31",
+                  "sectionSha256": "b7107bbbfd724f21e50202fecafa5d09458d2815a2b3025e404fd6f7ce72cef8"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L31",
+              "sectionSha256": "b7107bbbfd724f21e50202fecafa5d09458d2815a2b3025e404fd6f7ce72cef8"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L31",
+              "sectionSha256": "b7107bbbfd724f21e50202fecafa5d09458d2815a2b3025e404fd6f7ce72cef8"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/083-一些龙珠技艺.md",
+              "anchor": "L31",
+              "sectionSha256": "b7107bbbfd724f21e50202fecafa5d09458d2815a2b3025e404fd6f7ce72cef8"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "attack-program-hardcodes-INT-and-casting",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "一些龙珠技艺",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "太阳拳",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "残像拳",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "万国惊天掌",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "四妖拳",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "魔封波",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-76bcc2ee4f276dc4--b3cc20089aab--intent",
+      "name": "太阳拳",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-76bcc2ee4f276dc4--b3cc20089aab",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-76bcc2ee4f276dc4--fbf7776a3be2--intent",
+      "name": "四妖拳",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ],
+          [
+            "move"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-76bcc2ee4f276dc4--fbf7776a3be2",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-76bcc2ee4f276dc4--6220cb3f3fad--intent",
+      "name": "魔封波",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "move"
+          ],
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-76bcc2ee4f276dc4--6220cb3f3fad",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "attack-program-hardcodes-INT-and-casting",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "duration-inheritance-and-no-implicit-refresh",
+    "attack-program-hardcodes-INT-and-casting"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

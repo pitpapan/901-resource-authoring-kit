@@ -1,0 +1,890 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-cf63ae9fbc314454",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "天演图录",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J08",
+    "aliases": [
+      "天演图录",
+      "天演图录·D级阶段",
+      "天演图录·C级阶段",
+      "天演图录·B级阶段",
+      "天演图录·A级阶段"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/天演图录.md",
+        "sha256": "e5cf21a222052c00767b3f202b24362deec0abe9e06d3c8e75cd22cb31359388",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            31
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+    "sha256": "f808133650b7f964271642e7546611902bc2ac34db0f7a20b0c2e9519c6d53ad"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-cf63ae9fbc314454--0ae594c1109f",
+          "name": "天演图录",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+            "anchor": "条目",
+            "sectionSha256": "11c78a75df0afec3eb242ab9d733d3867c5f82672f6454fed503fcb91ad5435c"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/天演图录.md",
+              "sha256": "e5cf21a222052c00767b3f202b24362deec0abe9e06d3c8e75cd22cb31359388",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  9
+                ],
+                [
+                  11,
+                  11
+                ],
+                [
+                  19,
+                  19
+                ],
+                [
+                  24,
+                  24
+                ],
+                [
+                  28,
+                  28
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "条目",
+              "sectionSha256": "11c78a75df0afec3eb242ab9d733d3867c5f82672f6454fed503fcb91ad5435c"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "条目",
+              "sectionSha256": "11c78a75df0afec3eb242ab9d733d3867c5f82672f6454fed503fcb91ad5435c"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "条目",
+              "sectionSha256": "11c78a75df0afec3eb242ab9d733d3867c5f82672f6454fed503fcb91ad5435c"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "条目",
+              "sectionSha256": "11c78a75df0afec3eb242ab9d733d3867c5f82672f6454fed503fcb91ad5435c"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "条目",
+              "sectionSha256": "11c78a75df0afec3eb242ab9d733d3867c5f82672f6454fed503fcb91ad5435c"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "条目",
+              "sectionSha256": "11c78a75df0afec3eb242ab9d733d3867c5f82672f6454fed503fcb91ad5435c"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-cf63ae9fbc314454--79cfaa5a36db",
+          "name": "天演图录·D级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+            "anchor": "L10",
+            "sectionSha256": "1e6f0172fe6076fe0501188fff2a4ed73beeb18503b8b2f8bba6ae9838ef8b38"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/天演图录.md",
+              "sha256": "e5cf21a222052c00767b3f202b24362deec0abe9e06d3c8e75cd22cb31359388",
+              "lineRanges": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  12,
+                  17
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+                  "anchor": "L10",
+                  "sectionSha256": "1e6f0172fe6076fe0501188fff2a4ed73beeb18503b8b2f8bba6ae9838ef8b38"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-cf63ae9fbc314454--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "L10",
+              "sectionSha256": "1e6f0172fe6076fe0501188fff2a4ed73beeb18503b8b2f8bba6ae9838ef8b38"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "L10",
+              "sectionSha256": "1e6f0172fe6076fe0501188fff2a4ed73beeb18503b8b2f8bba6ae9838ef8b38"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "L10",
+              "sectionSha256": "1e6f0172fe6076fe0501188fff2a4ed73beeb18503b8b2f8bba6ae9838ef8b38"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "L10",
+              "sectionSha256": "1e6f0172fe6076fe0501188fff2a4ed73beeb18503b8b2f8bba6ae9838ef8b38"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "L10",
+              "sectionSha256": "1e6f0172fe6076fe0501188fff2a4ed73beeb18503b8b2f8bba6ae9838ef8b38"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "L10",
+              "sectionSha256": "1e6f0172fe6076fe0501188fff2a4ed73beeb18503b8b2f8bba6ae9838ef8b38"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-cf63ae9fbc314454--cc1ba94005d5",
+          "name": "天演图录·C级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+            "anchor": "L18",
+            "sectionSha256": "b770a5a9eeae0493d1cc4c4920845aecef020a507a70bb7856097db02d81b171"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/天演图录.md",
+              "sha256": "e5cf21a222052c00767b3f202b24362deec0abe9e06d3c8e75cd22cb31359388",
+              "lineRanges": [
+                [
+                  18,
+                  18
+                ],
+                [
+                  20,
+                  22
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+                  "anchor": "L18",
+                  "sectionSha256": "b770a5a9eeae0493d1cc4c4920845aecef020a507a70bb7856097db02d81b171"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-cf63ae9fbc314454--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "L18",
+              "sectionSha256": "b770a5a9eeae0493d1cc4c4920845aecef020a507a70bb7856097db02d81b171"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "L18",
+              "sectionSha256": "b770a5a9eeae0493d1cc4c4920845aecef020a507a70bb7856097db02d81b171"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "L18",
+              "sectionSha256": "b770a5a9eeae0493d1cc4c4920845aecef020a507a70bb7856097db02d81b171"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "L18",
+              "sectionSha256": "b770a5a9eeae0493d1cc4c4920845aecef020a507a70bb7856097db02d81b171"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "L18",
+              "sectionSha256": "b770a5a9eeae0493d1cc4c4920845aecef020a507a70bb7856097db02d81b171"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "L18",
+              "sectionSha256": "b770a5a9eeae0493d1cc4c4920845aecef020a507a70bb7856097db02d81b171"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-cf63ae9fbc314454--b4958c67124e",
+          "name": "天演图录·B级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+            "anchor": "L23",
+            "sectionSha256": "b6f3eecc5ff6a2193e9e4cf63ba2470573bd4f6af96691349f7b640476322f8a"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/天演图录.md",
+              "sha256": "e5cf21a222052c00767b3f202b24362deec0abe9e06d3c8e75cd22cb31359388",
+              "lineRanges": [
+                [
+                  23,
+                  23
+                ],
+                [
+                  25,
+                  26
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 85,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+                  "anchor": "L23",
+                  "sectionSha256": "b6f3eecc5ff6a2193e9e4cf63ba2470573bd4f6af96691349f7b640476322f8a"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-cf63ae9fbc314454--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "L23",
+              "sectionSha256": "b6f3eecc5ff6a2193e9e4cf63ba2470573bd4f6af96691349f7b640476322f8a"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "L23",
+              "sectionSha256": "b6f3eecc5ff6a2193e9e4cf63ba2470573bd4f6af96691349f7b640476322f8a"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "L23",
+              "sectionSha256": "b6f3eecc5ff6a2193e9e4cf63ba2470573bd4f6af96691349f7b640476322f8a"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "L23",
+              "sectionSha256": "b6f3eecc5ff6a2193e9e4cf63ba2470573bd4f6af96691349f7b640476322f8a"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "L23",
+              "sectionSha256": "b6f3eecc5ff6a2193e9e4cf63ba2470573bd4f6af96691349f7b640476322f8a"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "L23",
+              "sectionSha256": "b6f3eecc5ff6a2193e9e4cf63ba2470573bd4f6af96691349f7b640476322f8a"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-cf63ae9fbc314454--62cacaa0e286",
+          "name": "天演图录·A级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+            "anchor": "L27",
+            "sectionSha256": "c1f5fa6425d7ba6e562264e122179557f0fae80befadbe021e87672c496c0081"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/天演图录.md",
+              "sha256": "e5cf21a222052c00767b3f202b24362deec0abe9e06d3c8e75cd22cb31359388",
+              "lineRanges": [
+                [
+                  27,
+                  27
+                ],
+                [
+                  29,
+                  31
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 215,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+                  "anchor": "L27",
+                  "sectionSha256": "c1f5fa6425d7ba6e562264e122179557f0fae80befadbe021e87672c496c0081"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-cf63ae9fbc314454--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "L27",
+              "sectionSha256": "c1f5fa6425d7ba6e562264e122179557f0fae80befadbe021e87672c496c0081"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "L27",
+              "sectionSha256": "c1f5fa6425d7ba6e562264e122179557f0fae80befadbe021e87672c496c0081"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "L27",
+              "sectionSha256": "c1f5fa6425d7ba6e562264e122179557f0fae80befadbe021e87672c496c0081"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "L27",
+              "sectionSha256": "c1f5fa6425d7ba6e562264e122179557f0fae80befadbe021e87672c496c0081"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "L27",
+              "sectionSha256": "c1f5fa6425d7ba6e562264e122179557f0fae80befadbe021e87672c496c0081"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/109-天演图录.md",
+              "anchor": "L27",
+              "sectionSha256": "c1f5fa6425d7ba6e562264e122179557f0fae80befadbe021e87672c496c0081"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "天演图录",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "天演图录·D级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "天演图录·C级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "天演图录·B级阶段",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "天演图录·A级阶段",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "attack-program-hardcodes-INT-and-casting"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

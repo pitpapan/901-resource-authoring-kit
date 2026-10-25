@@ -1,0 +1,1591 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-d6416144892404e8",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "楷覆功",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J09",
+    "aliases": [
+      "楷覆功",
+      "楷覆功一级",
+      "楷覆功二级",
+      "楷覆功三级",
+      "楷覆功四级",
+      "楷覆功五级",
+      "楷覆功六级",
+      "楷覆功七级"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/楷覆功.md",
+        "sha256": "0704b82c50f706fb96c3b368bfac3dfa82f363de2f5cf4266cbbf475af02b108",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            48
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+    "sha256": "2885bf2d31eed585fd25a29d9ed6300472ba72b7cf96be5fb0d294062dc0621d"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-d6416144892404e8--0ae594c1109f",
+          "name": "楷覆功",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+            "anchor": "条目",
+            "sectionSha256": "4238afc22d7cbed8ad45392b219dc11d6eded7a35fc27708d6d3a54bec11dbe0"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/楷覆功.md",
+              "sha256": "0704b82c50f706fb96c3b368bfac3dfa82f363de2f5cf4266cbbf475af02b108",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  10
+                ],
+                [
+                  12,
+                  12
+                ],
+                [
+                  21,
+                  21
+                ],
+                [
+                  27,
+                  27
+                ],
+                [
+                  33,
+                  33
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 3.0,
+                "mode": "explicit-purchase-or-repeat",
+                "basis": "reading-explicit-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+                  "anchor": "条目",
+                  "sectionSha256": "4238afc22d7cbed8ad45392b219dc11d6eded7a35fc27708d6d3a54bec11dbe0"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+                  "anchor": "条目",
+                  "sectionSha256": "4238afc22d7cbed8ad45392b219dc11d6eded7a35fc27708d6d3a54bec11dbe0"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "条目",
+              "sectionSha256": "4238afc22d7cbed8ad45392b219dc11d6eded7a35fc27708d6d3a54bec11dbe0"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "条目",
+              "sectionSha256": "4238afc22d7cbed8ad45392b219dc11d6eded7a35fc27708d6d3a54bec11dbe0"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "条目",
+              "sectionSha256": "4238afc22d7cbed8ad45392b219dc11d6eded7a35fc27708d6d3a54bec11dbe0"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "条目",
+              "sectionSha256": "4238afc22d7cbed8ad45392b219dc11d6eded7a35fc27708d6d3a54bec11dbe0"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "条目",
+              "sectionSha256": "4238afc22d7cbed8ad45392b219dc11d6eded7a35fc27708d6d3a54bec11dbe0"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "条目",
+              "sectionSha256": "4238afc22d7cbed8ad45392b219dc11d6eded7a35fc27708d6d3a54bec11dbe0"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-d6416144892404e8--04a90cd5d050",
+          "name": "楷覆功一级",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+            "anchor": "L11",
+            "sectionSha256": "d7c958ac720cad65282661edbe90ea8a2eac773de123f2fe1131528db3f23920"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/楷覆功.md",
+              "sha256": "0704b82c50f706fb96c3b368bfac3dfa82f363de2f5cf4266cbbf475af02b108",
+              "lineRanges": [
+                [
+                  11,
+                  11
+                ],
+                [
+                  13,
+                  14
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 3,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+                  "anchor": "L11",
+                  "sectionSha256": "d7c958ac720cad65282661edbe90ea8a2eac773de123f2fe1131528db3f23920"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-d6416144892404e8--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L11",
+              "sectionSha256": "d7c958ac720cad65282661edbe90ea8a2eac773de123f2fe1131528db3f23920"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L11",
+              "sectionSha256": "d7c958ac720cad65282661edbe90ea8a2eac773de123f2fe1131528db3f23920"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L11",
+              "sectionSha256": "d7c958ac720cad65282661edbe90ea8a2eac773de123f2fe1131528db3f23920"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L11",
+              "sectionSha256": "d7c958ac720cad65282661edbe90ea8a2eac773de123f2fe1131528db3f23920"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L11",
+              "sectionSha256": "d7c958ac720cad65282661edbe90ea8a2eac773de123f2fe1131528db3f23920"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L11",
+              "sectionSha256": "d7c958ac720cad65282661edbe90ea8a2eac773de123f2fe1131528db3f23920"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "修行",
+              "value": 3,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+                "anchor": "L11",
+                "sectionSha256": "d7c958ac720cad65282661edbe90ea8a2eac773de123f2fe1131528db3f23920"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-d6416144892404e8--ffb618ca2dd4",
+          "name": "楷覆功二级",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+            "anchor": "L15",
+            "sectionSha256": "0a1399b9910683ee3ba7f13bc9d3c04ce8c2a881118f301e30d08db7197a4e33"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/楷覆功.md",
+              "sha256": "0704b82c50f706fb96c3b368bfac3dfa82f363de2f5cf4266cbbf475af02b108",
+              "lineRanges": [
+                [
+                  15,
+                  18
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 5,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+                  "anchor": "L15",
+                  "sectionSha256": "0a1399b9910683ee3ba7f13bc9d3c04ce8c2a881118f301e30d08db7197a4e33"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-d6416144892404e8--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+                  "anchor": "L15",
+                  "sectionSha256": "0a1399b9910683ee3ba7f13bc9d3c04ce8c2a881118f301e30d08db7197a4e33"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L15",
+              "sectionSha256": "0a1399b9910683ee3ba7f13bc9d3c04ce8c2a881118f301e30d08db7197a4e33"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L15",
+              "sectionSha256": "0a1399b9910683ee3ba7f13bc9d3c04ce8c2a881118f301e30d08db7197a4e33"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L15",
+              "sectionSha256": "0a1399b9910683ee3ba7f13bc9d3c04ce8c2a881118f301e30d08db7197a4e33"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L15",
+              "sectionSha256": "0a1399b9910683ee3ba7f13bc9d3c04ce8c2a881118f301e30d08db7197a4e33"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L15",
+              "sectionSha256": "0a1399b9910683ee3ba7f13bc9d3c04ce8c2a881118f301e30d08db7197a4e33"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L15",
+              "sectionSha256": "0a1399b9910683ee3ba7f13bc9d3c04ce8c2a881118f301e30d08db7197a4e33"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-d6416144892404e8--7963c5b340e4",
+          "name": "楷覆功三级",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+            "anchor": "L19",
+            "sectionSha256": "8a3f81c51e76efdae7ec068eaec463c24a6b553354d6b7fa1718ea6f20ed9ca9"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/楷覆功.md",
+              "sha256": "0704b82c50f706fb96c3b368bfac3dfa82f363de2f5cf4266cbbf475af02b108",
+              "lineRanges": [
+                [
+                  19,
+                  20
+                ],
+                [
+                  22,
+                  23
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 8,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+                  "anchor": "L19",
+                  "sectionSha256": "8a3f81c51e76efdae7ec068eaec463c24a6b553354d6b7fa1718ea6f20ed9ca9"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-d6416144892404e8--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+                  "anchor": "L19",
+                  "sectionSha256": "8a3f81c51e76efdae7ec068eaec463c24a6b553354d6b7fa1718ea6f20ed9ca9"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L19",
+              "sectionSha256": "8a3f81c51e76efdae7ec068eaec463c24a6b553354d6b7fa1718ea6f20ed9ca9"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L19",
+              "sectionSha256": "8a3f81c51e76efdae7ec068eaec463c24a6b553354d6b7fa1718ea6f20ed9ca9"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L19",
+              "sectionSha256": "8a3f81c51e76efdae7ec068eaec463c24a6b553354d6b7fa1718ea6f20ed9ca9"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L19",
+              "sectionSha256": "8a3f81c51e76efdae7ec068eaec463c24a6b553354d6b7fa1718ea6f20ed9ca9"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L19",
+              "sectionSha256": "8a3f81c51e76efdae7ec068eaec463c24a6b553354d6b7fa1718ea6f20ed9ca9"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L19",
+              "sectionSha256": "8a3f81c51e76efdae7ec068eaec463c24a6b553354d6b7fa1718ea6f20ed9ca9"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "修行",
+              "value": 3,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+                "anchor": "L19",
+                "sectionSha256": "8a3f81c51e76efdae7ec068eaec463c24a6b553354d6b7fa1718ea6f20ed9ca9"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-d6416144892404e8--ebe53cbe39d6",
+          "name": "楷覆功四级",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+            "anchor": "L24",
+            "sectionSha256": "2a30aac370c5d15203c6605c3c8ef758dd01043728fbc7ad95fdc15a960cdede"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/楷覆功.md",
+              "sha256": "0704b82c50f706fb96c3b368bfac3dfa82f363de2f5cf4266cbbf475af02b108",
+              "lineRanges": [
+                [
+                  24,
+                  26
+                ],
+                [
+                  28,
+                  30
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+                  "anchor": "L24",
+                  "sectionSha256": "2a30aac370c5d15203c6605c3c8ef758dd01043728fbc7ad95fdc15a960cdede"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "move"
+              ],
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-d6416144892404e8--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+                  "anchor": "L24",
+                  "sectionSha256": "2a30aac370c5d15203c6605c3c8ef758dd01043728fbc7ad95fdc15a960cdede"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L24",
+              "sectionSha256": "2a30aac370c5d15203c6605c3c8ef758dd01043728fbc7ad95fdc15a960cdede"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L24",
+              "sectionSha256": "2a30aac370c5d15203c6605c3c8ef758dd01043728fbc7ad95fdc15a960cdede"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L24",
+              "sectionSha256": "2a30aac370c5d15203c6605c3c8ef758dd01043728fbc7ad95fdc15a960cdede"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 5,
+                  "pool": "意志"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+                  "anchor": "L24",
+                  "sectionSha256": "2a30aac370c5d15203c6605c3c8ef758dd01043728fbc7ad95fdc15a960cdede"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L24",
+              "sectionSha256": "2a30aac370c5d15203c6605c3c8ef758dd01043728fbc7ad95fdc15a960cdede"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L24",
+              "sectionSha256": "2a30aac370c5d15203c6605c3c8ef758dd01043728fbc7ad95fdc15a960cdede"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L24",
+              "sectionSha256": "2a30aac370c5d15203c6605c3c8ef758dd01043728fbc7ad95fdc15a960cdede"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-d6416144892404e8--6220cb3f3fad",
+          "name": "楷覆功五级",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+            "anchor": "L31",
+            "sectionSha256": "573b646bf33bd2cff759d89898c60e4753b0d986fdf71d02525fddae5e8a8762"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/楷覆功.md",
+              "sha256": "0704b82c50f706fb96c3b368bfac3dfa82f363de2f5cf4266cbbf475af02b108",
+              "lineRanges": [
+                [
+                  31,
+                  32
+                ],
+                [
+                  34,
+                  37
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+                  "anchor": "L31",
+                  "sectionSha256": "573b646bf33bd2cff759d89898c60e4753b0d986fdf71d02525fddae5e8a8762"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "swift"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-d6416144892404e8--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+                  "anchor": "L31",
+                  "sectionSha256": "573b646bf33bd2cff759d89898c60e4753b0d986fdf71d02525fddae5e8a8762"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L31",
+              "sectionSha256": "573b646bf33bd2cff759d89898c60e4753b0d986fdf71d02525fddae5e8a8762"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L31",
+              "sectionSha256": "573b646bf33bd2cff759d89898c60e4753b0d986fdf71d02525fddae5e8a8762"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L31",
+              "sectionSha256": "573b646bf33bd2cff759d89898c60e4753b0d986fdf71d02525fddae5e8a8762"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L31",
+              "sectionSha256": "573b646bf33bd2cff759d89898c60e4753b0d986fdf71d02525fddae5e8a8762"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L31",
+              "sectionSha256": "573b646bf33bd2cff759d89898c60e4753b0d986fdf71d02525fddae5e8a8762"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L31",
+              "sectionSha256": "573b646bf33bd2cff759d89898c60e4753b0d986fdf71d02525fddae5e8a8762"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-d6416144892404e8--3f970821bb78",
+          "name": "楷覆功六级",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+            "anchor": "L38",
+            "sectionSha256": "f8450e419ef83b5bc83cacc27d3a744f8503dc92960f99638da9c86e80762c1c"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/楷覆功.md",
+              "sha256": "0704b82c50f706fb96c3b368bfac3dfa82f363de2f5cf4266cbbf475af02b108",
+              "lineRanges": [
+                [
+                  38,
+                  43
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+                  "anchor": "L38",
+                  "sectionSha256": "f8450e419ef83b5bc83cacc27d3a744f8503dc92960f99638da9c86e80762c1c"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-d6416144892404e8--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+                  "anchor": "L38",
+                  "sectionSha256": "f8450e419ef83b5bc83cacc27d3a744f8503dc92960f99638da9c86e80762c1c"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L38",
+              "sectionSha256": "f8450e419ef83b5bc83cacc27d3a744f8503dc92960f99638da9c86e80762c1c"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L38",
+              "sectionSha256": "f8450e419ef83b5bc83cacc27d3a744f8503dc92960f99638da9c86e80762c1c"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L38",
+              "sectionSha256": "f8450e419ef83b5bc83cacc27d3a744f8503dc92960f99638da9c86e80762c1c"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L38",
+              "sectionSha256": "f8450e419ef83b5bc83cacc27d3a744f8503dc92960f99638da9c86e80762c1c"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L38",
+              "sectionSha256": "f8450e419ef83b5bc83cacc27d3a744f8503dc92960f99638da9c86e80762c1c"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L38",
+              "sectionSha256": "f8450e419ef83b5bc83cacc27d3a744f8503dc92960f99638da9c86e80762c1c"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-d6416144892404e8--fe846e5da0c9",
+          "name": "楷覆功七级",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+            "anchor": "L44",
+            "sectionSha256": "e0ee196cb4a01f802ab21dbe9a7812f83e882df1f962d4c186c0705a710b7078"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/楷覆功.md",
+              "sha256": "0704b82c50f706fb96c3b368bfac3dfa82f363de2f5cf4266cbbf475af02b108",
+              "lineRanges": [
+                [
+                  44,
+                  48
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+                  "anchor": "L44",
+                  "sectionSha256": "e0ee196cb4a01f802ab21dbe9a7812f83e882df1f962d4c186c0705a710b7078"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-d6416144892404e8--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+                  "anchor": "L44",
+                  "sectionSha256": "e0ee196cb4a01f802ab21dbe9a7812f83e882df1f962d4c186c0705a710b7078"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L44",
+              "sectionSha256": "e0ee196cb4a01f802ab21dbe9a7812f83e882df1f962d4c186c0705a710b7078"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L44",
+              "sectionSha256": "e0ee196cb4a01f802ab21dbe9a7812f83e882df1f962d4c186c0705a710b7078"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L44",
+              "sectionSha256": "e0ee196cb4a01f802ab21dbe9a7812f83e882df1f962d4c186c0705a710b7078"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L44",
+              "sectionSha256": "e0ee196cb4a01f802ab21dbe9a7812f83e882df1f962d4c186c0705a710b7078"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L44",
+              "sectionSha256": "e0ee196cb4a01f802ab21dbe9a7812f83e882df1f962d4c186c0705a710b7078"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/127-楷覆功.md",
+              "anchor": "L44",
+              "sectionSha256": "e0ee196cb4a01f802ab21dbe9a7812f83e882df1f962d4c186c0705a710b7078"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "楷覆功",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "楷覆功一级",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "楷覆功二级",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "楷覆功三级",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "楷覆功四级",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "楷覆功五级",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "楷覆功六级",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "楷覆功七级",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-d6416144892404e8--ffb618ca2dd4--intent",
+      "name": "楷覆功二级",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-d6416144892404e8--ffb618ca2dd4",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-d6416144892404e8--ebe53cbe39d6--intent",
+      "name": "楷覆功四级",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "move"
+          ],
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-d6416144892404e8--ebe53cbe39d6",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-d6416144892404e8--6220cb3f3fad--intent",
+      "name": "楷覆功五级",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "swift"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-d6416144892404e8--6220cb3f3fad",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-d6416144892404e8--3f970821bb78--intent",
+      "name": "楷覆功六级",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-d6416144892404e8--3f970821bb78",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "prerequisite-logic-not-fully-encoded"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "prerequisite-logic-not-fully-encoded",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

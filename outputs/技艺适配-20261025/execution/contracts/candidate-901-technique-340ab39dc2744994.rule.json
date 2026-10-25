@@ -1,0 +1,3522 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-340ab39dc2744994",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "史莱姆转生系列",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J09",
+    "aliases": [
+      "史莱姆转生系列",
+      "魔法换装",
+      "魔力妨害",
+      "魔法抗性",
+      "痛觉无效",
+      "热变动无效",
+      "物理攻击无效",
+      "魔力感知",
+      "热源感应",
+      "超音波",
+      "魔斗气",
+      "未来攻击预测",
+      "火操作",
+      "重力飞行",
+      "黑炎",
+      "黑雷",
+      "黑炎雷",
+      "分子操作",
+      "魔力操作",
+      "爱与信仰的恩宠",
+      "分身术"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/史莱姆转生系列.md",
+        "sha256": "bdc732d3a4a6773e7a31b3a89b53c6171c1c2a8b49feb2e76722bf3231f45d8b",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            108
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+    "sha256": "aac2b5fbbf8a8e5a16f82deb8fa440ac312c6172d3d6f3073031dcddaedfe0bc"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-340ab39dc2744994--0ae594c1109f",
+          "name": "史莱姆转生系列",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+            "anchor": "条目",
+            "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/史莱姆转生系列.md",
+              "sha256": "bdc732d3a4a6773e7a31b3a89b53c6171c1c2a8b49feb2e76722bf3231f45d8b",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  8,
+                  8
+                ],
+                [
+                  14,
+                  14
+                ],
+                [
+                  18,
+                  18
+                ],
+                [
+                  22,
+                  22
+                ],
+                [
+                  26,
+                  26
+                ],
+                [
+                  30,
+                  30
+                ],
+                [
+                  34,
+                  34
+                ],
+                [
+                  38,
+                  38
+                ],
+                [
+                  43,
+                  43
+                ],
+                [
+                  48,
+                  48
+                ],
+                [
+                  52,
+                  52
+                ],
+                [
+                  56,
+                  56
+                ],
+                [
+                  63,
+                  63
+                ],
+                [
+                  67,
+                  67
+                ],
+                [
+                  85,
+                  85
+                ],
+                [
+                  89,
+                  89
+                ],
+                [
+                  94,
+                  94
+                ],
+                [
+                  106,
+                  106
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "条目",
+              "sectionSha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-340ab39dc2744994--b3cc20089aab",
+          "name": "魔法换装",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+            "anchor": "L6",
+            "sectionSha256": "ffd058d13d3523bff07aeb50ce96ee6a6e4836d938683abfa6b8e17af70c8447"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/史莱姆转生系列.md",
+              "sha256": "bdc732d3a4a6773e7a31b3a89b53c6171c1c2a8b49feb2e76722bf3231f45d8b",
+              "lineRanges": [
+                [
+                  6,
+                  7
+                ],
+                [
+                  9,
+                  11
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 5,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L6",
+                  "sectionSha256": "ffd058d13d3523bff07aeb50ce96ee6a6e4836d938683abfa6b8e17af70c8447"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-340ab39dc2744994--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L6",
+              "sectionSha256": "ffd058d13d3523bff07aeb50ce96ee6a6e4836d938683abfa6b8e17af70c8447"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L6",
+              "sectionSha256": "ffd058d13d3523bff07aeb50ce96ee6a6e4836d938683abfa6b8e17af70c8447"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L6",
+              "sectionSha256": "ffd058d13d3523bff07aeb50ce96ee6a6e4836d938683abfa6b8e17af70c8447"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "魔力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L6",
+                  "sectionSha256": "ffd058d13d3523bff07aeb50ce96ee6a6e4836d938683abfa6b8e17af70c8447"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L6",
+              "sectionSha256": "ffd058d13d3523bff07aeb50ce96ee6a6e4836d938683abfa6b8e17af70c8447"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L6",
+              "sectionSha256": "ffd058d13d3523bff07aeb50ce96ee6a6e4836d938683abfa6b8e17af70c8447"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L6",
+              "sectionSha256": "ffd058d13d3523bff07aeb50ce96ee6a6e4836d938683abfa6b8e17af70c8447"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-340ab39dc2744994--3f6b5ef2df8d",
+          "name": "魔力妨害",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+            "anchor": "L12",
+            "sectionSha256": "12546c318eb8eee06a5cc6ca778bef5793e12a7944a35562d0ff1dc97c057f09"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/史莱姆转生系列.md",
+              "sha256": "bdc732d3a4a6773e7a31b3a89b53c6171c1c2a8b49feb2e76722bf3231f45d8b",
+              "lineRanges": [
+                [
+                  12,
+                  13
+                ],
+                [
+                  15,
+                  15
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L12",
+                  "sectionSha256": "12546c318eb8eee06a5cc6ca778bef5793e12a7944a35562d0ff1dc97c057f09"
+                }
+              },
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L12",
+                  "sectionSha256": "12546c318eb8eee06a5cc6ca778bef5793e12a7944a35562d0ff1dc97c057f09"
+                }
+              },
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 85,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L12",
+                  "sectionSha256": "12546c318eb8eee06a5cc6ca778bef5793e12a7944a35562d0ff1dc97c057f09"
+                }
+              },
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 215,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L12",
+                  "sectionSha256": "12546c318eb8eee06a5cc6ca778bef5793e12a7944a35562d0ff1dc97c057f09"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-340ab39dc2744994--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "difference",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L12",
+              "sectionSha256": "12546c318eb8eee06a5cc6ca778bef5793e12a7944a35562d0ff1dc97c057f09"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L12",
+              "sectionSha256": "12546c318eb8eee06a5cc6ca778bef5793e12a7944a35562d0ff1dc97c057f09"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L12",
+              "sectionSha256": "12546c318eb8eee06a5cc6ca778bef5793e12a7944a35562d0ff1dc97c057f09"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L12",
+              "sectionSha256": "12546c318eb8eee06a5cc6ca778bef5793e12a7944a35562d0ff1dc97c057f09"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L12",
+              "sectionSha256": "12546c318eb8eee06a5cc6ca778bef5793e12a7944a35562d0ff1dc97c057f09"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L12",
+              "sectionSha256": "12546c318eb8eee06a5cc6ca778bef5793e12a7944a35562d0ff1dc97c057f09"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-340ab39dc2744994--5f3f9d32a927",
+          "name": "魔法抗性",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+            "anchor": "L16",
+            "sectionSha256": "450fe173707c27b7da3e742871c5a459bbe8d56811c91ce5b6e6ba574b24f16c"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/史莱姆转生系列.md",
+              "sha256": "bdc732d3a4a6773e7a31b3a89b53c6171c1c2a8b49feb2e76722bf3231f45d8b",
+              "lineRanges": [
+                [
+                  16,
+                  17
+                ],
+                [
+                  19,
+                  19
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L16",
+                  "sectionSha256": "450fe173707c27b7da3e742871c5a459bbe8d56811c91ce5b6e6ba574b24f16c"
+                }
+              },
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L16",
+                  "sectionSha256": "450fe173707c27b7da3e742871c5a459bbe8d56811c91ce5b6e6ba574b24f16c"
+                }
+              },
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 85,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L16",
+                  "sectionSha256": "450fe173707c27b7da3e742871c5a459bbe8d56811c91ce5b6e6ba574b24f16c"
+                }
+              },
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 215,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L16",
+                  "sectionSha256": "450fe173707c27b7da3e742871c5a459bbe8d56811c91ce5b6e6ba574b24f16c"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-340ab39dc2744994--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "difference",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L16",
+              "sectionSha256": "450fe173707c27b7da3e742871c5a459bbe8d56811c91ce5b6e6ba574b24f16c"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L16",
+              "sectionSha256": "450fe173707c27b7da3e742871c5a459bbe8d56811c91ce5b6e6ba574b24f16c"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L16",
+              "sectionSha256": "450fe173707c27b7da3e742871c5a459bbe8d56811c91ce5b6e6ba574b24f16c"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L16",
+              "sectionSha256": "450fe173707c27b7da3e742871c5a459bbe8d56811c91ce5b6e6ba574b24f16c"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L16",
+              "sectionSha256": "450fe173707c27b7da3e742871c5a459bbe8d56811c91ce5b6e6ba574b24f16c"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L16",
+              "sectionSha256": "450fe173707c27b7da3e742871c5a459bbe8d56811c91ce5b6e6ba574b24f16c"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-340ab39dc2744994--bbbae651d4e8",
+          "name": "痛觉无效",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+            "anchor": "L20",
+            "sectionSha256": "dcaaff4c35a2ea7da10f90fe7b9ce40dc1a59a271ee62111753908f50710eda9"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/史莱姆转生系列.md",
+              "sha256": "bdc732d3a4a6773e7a31b3a89b53c6171c1c2a8b49feb2e76722bf3231f45d8b",
+              "lineRanges": [
+                [
+                  20,
+                  21
+                ],
+                [
+                  23,
+                  23
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L20",
+                  "sectionSha256": "dcaaff4c35a2ea7da10f90fe7b9ce40dc1a59a271ee62111753908f50710eda9"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-340ab39dc2744994--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L20",
+              "sectionSha256": "dcaaff4c35a2ea7da10f90fe7b9ce40dc1a59a271ee62111753908f50710eda9"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L20",
+              "sectionSha256": "dcaaff4c35a2ea7da10f90fe7b9ce40dc1a59a271ee62111753908f50710eda9"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L20",
+              "sectionSha256": "dcaaff4c35a2ea7da10f90fe7b9ce40dc1a59a271ee62111753908f50710eda9"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L20",
+              "sectionSha256": "dcaaff4c35a2ea7da10f90fe7b9ce40dc1a59a271ee62111753908f50710eda9"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L20",
+              "sectionSha256": "dcaaff4c35a2ea7da10f90fe7b9ce40dc1a59a271ee62111753908f50710eda9"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L20",
+              "sectionSha256": "dcaaff4c35a2ea7da10f90fe7b9ce40dc1a59a271ee62111753908f50710eda9"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-340ab39dc2744994--ebe53cbe39d6",
+          "name": "热变动无效",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+            "anchor": "L24",
+            "sectionSha256": "3bbba30629c29bcf0ecfa8c686bad6778f50bf803b8638545f60f35beb191d99"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/史莱姆转生系列.md",
+              "sha256": "bdc732d3a4a6773e7a31b3a89b53c6171c1c2a8b49feb2e76722bf3231f45d8b",
+              "lineRanges": [
+                [
+                  24,
+                  25
+                ],
+                [
+                  27,
+                  27
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 215,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L24",
+                  "sectionSha256": "3bbba30629c29bcf0ecfa8c686bad6778f50bf803b8638545f60f35beb191d99"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-340ab39dc2744994--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L24",
+              "sectionSha256": "3bbba30629c29bcf0ecfa8c686bad6778f50bf803b8638545f60f35beb191d99"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L24",
+              "sectionSha256": "3bbba30629c29bcf0ecfa8c686bad6778f50bf803b8638545f60f35beb191d99"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L24",
+              "sectionSha256": "3bbba30629c29bcf0ecfa8c686bad6778f50bf803b8638545f60f35beb191d99"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L24",
+              "sectionSha256": "3bbba30629c29bcf0ecfa8c686bad6778f50bf803b8638545f60f35beb191d99"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L24",
+              "sectionSha256": "3bbba30629c29bcf0ecfa8c686bad6778f50bf803b8638545f60f35beb191d99"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L24",
+              "sectionSha256": "3bbba30629c29bcf0ecfa8c686bad6778f50bf803b8638545f60f35beb191d99"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-340ab39dc2744994--36402ecb137e",
+          "name": "物理攻击无效",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+            "anchor": "L28",
+            "sectionSha256": "f9e64187a972069ef054343c32b61f6fdac7bc98960eda3ea90376af652fb3d9"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/史莱姆转生系列.md",
+              "sha256": "bdc732d3a4a6773e7a31b3a89b53c6171c1c2a8b49feb2e76722bf3231f45d8b",
+              "lineRanges": [
+                [
+                  28,
+                  29
+                ],
+                [
+                  31,
+                  31
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L28",
+                  "sectionSha256": "f9e64187a972069ef054343c32b61f6fdac7bc98960eda3ea90376af652fb3d9"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-340ab39dc2744994--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L28",
+              "sectionSha256": "f9e64187a972069ef054343c32b61f6fdac7bc98960eda3ea90376af652fb3d9"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L28",
+              "sectionSha256": "f9e64187a972069ef054343c32b61f6fdac7bc98960eda3ea90376af652fb3d9"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L28",
+              "sectionSha256": "f9e64187a972069ef054343c32b61f6fdac7bc98960eda3ea90376af652fb3d9"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L28",
+              "sectionSha256": "f9e64187a972069ef054343c32b61f6fdac7bc98960eda3ea90376af652fb3d9"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L28",
+              "sectionSha256": "f9e64187a972069ef054343c32b61f6fdac7bc98960eda3ea90376af652fb3d9"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L28",
+              "sectionSha256": "f9e64187a972069ef054343c32b61f6fdac7bc98960eda3ea90376af652fb3d9"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-340ab39dc2744994--aaa309ab9c57",
+          "name": "魔力感知",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+            "anchor": "L32",
+            "sectionSha256": "5689675b00f8b9f4095a096d37bca4efc502f557d028012681f53a9d185e4ffb"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/史莱姆转生系列.md",
+              "sha256": "bdc732d3a4a6773e7a31b3a89b53c6171c1c2a8b49feb2e76722bf3231f45d8b",
+              "lineRanges": [
+                [
+                  32,
+                  33
+                ],
+                [
+                  35,
+                  35
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L32",
+                  "sectionSha256": "5689675b00f8b9f4095a096d37bca4efc502f557d028012681f53a9d185e4ffb"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-340ab39dc2744994--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L32",
+              "sectionSha256": "5689675b00f8b9f4095a096d37bca4efc502f557d028012681f53a9d185e4ffb"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L32",
+              "sectionSha256": "5689675b00f8b9f4095a096d37bca4efc502f557d028012681f53a9d185e4ffb"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L32",
+              "sectionSha256": "5689675b00f8b9f4095a096d37bca4efc502f557d028012681f53a9d185e4ffb"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L32",
+              "sectionSha256": "5689675b00f8b9f4095a096d37bca4efc502f557d028012681f53a9d185e4ffb"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L32",
+              "sectionSha256": "5689675b00f8b9f4095a096d37bca4efc502f557d028012681f53a9d185e4ffb"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L32",
+              "sectionSha256": "5689675b00f8b9f4095a096d37bca4efc502f557d028012681f53a9d185e4ffb"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-340ab39dc2744994--dcf306fd971c",
+          "name": "热源感应",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+            "anchor": "L36",
+            "sectionSha256": "70698cf6bf5487e447db6b6d7323c163619733573ec672207acf9ecb1e82f0a3"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/史莱姆转生系列.md",
+              "sha256": "bdc732d3a4a6773e7a31b3a89b53c6171c1c2a8b49feb2e76722bf3231f45d8b",
+              "lineRanges": [
+                [
+                  36,
+                  37
+                ],
+                [
+                  39,
+                  40
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 5,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L36",
+                  "sectionSha256": "70698cf6bf5487e447db6b6d7323c163619733573ec672207acf9ecb1e82f0a3"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-340ab39dc2744994--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L36",
+              "sectionSha256": "70698cf6bf5487e447db6b6d7323c163619733573ec672207acf9ecb1e82f0a3"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L36",
+              "sectionSha256": "70698cf6bf5487e447db6b6d7323c163619733573ec672207acf9ecb1e82f0a3"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L36",
+              "sectionSha256": "70698cf6bf5487e447db6b6d7323c163619733573ec672207acf9ecb1e82f0a3"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L36",
+              "sectionSha256": "70698cf6bf5487e447db6b6d7323c163619733573ec672207acf9ecb1e82f0a3"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L36",
+              "sectionSha256": "70698cf6bf5487e447db6b6d7323c163619733573ec672207acf9ecb1e82f0a3"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L36",
+              "sectionSha256": "70698cf6bf5487e447db6b6d7323c163619733573ec672207acf9ecb1e82f0a3"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-340ab39dc2744994--c7e5d9889852",
+          "name": "超音波",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+            "anchor": "L41",
+            "sectionSha256": "847d7e04e44d2ed35e0b45c2799d0a2a8254b5eb242681281d0c6bae87768831"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/史莱姆转生系列.md",
+              "sha256": "bdc732d3a4a6773e7a31b3a89b53c6171c1c2a8b49feb2e76722bf3231f45d8b",
+              "lineRanges": [
+                [
+                  41,
+                  42
+                ],
+                [
+                  44,
+                  45
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L41",
+                  "sectionSha256": "847d7e04e44d2ed35e0b45c2799d0a2a8254b5eb242681281d0c6bae87768831"
+                }
+              },
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 5,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L41",
+                  "sectionSha256": "847d7e04e44d2ed35e0b45c2799d0a2a8254b5eb242681281d0c6bae87768831"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-340ab39dc2744994--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L41",
+              "sectionSha256": "847d7e04e44d2ed35e0b45c2799d0a2a8254b5eb242681281d0c6bae87768831"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "duration",
+                  "value": 1,
+                  "unit": "round"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L41",
+                  "sectionSha256": "847d7e04e44d2ed35e0b45c2799d0a2a8254b5eb242681281d0c6bae87768831"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L41",
+              "sectionSha256": "847d7e04e44d2ed35e0b45c2799d0a2a8254b5eb242681281d0c6bae87768831"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L41",
+              "sectionSha256": "847d7e04e44d2ed35e0b45c2799d0a2a8254b5eb242681281d0c6bae87768831"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L41",
+              "sectionSha256": "847d7e04e44d2ed35e0b45c2799d0a2a8254b5eb242681281d0c6bae87768831"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L41",
+              "sectionSha256": "847d7e04e44d2ed35e0b45c2799d0a2a8254b5eb242681281d0c6bae87768831"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L41",
+              "sectionSha256": "847d7e04e44d2ed35e0b45c2799d0a2a8254b5eb242681281d0c6bae87768831"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-340ab39dc2744994--adb17ae1473a",
+          "name": "魔斗气",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+            "anchor": "L46",
+            "sectionSha256": "f32f61b68d499d34857eafb052824c19c381e4e800de7e40a63814765c4eb29c"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/史莱姆转生系列.md",
+              "sha256": "bdc732d3a4a6773e7a31b3a89b53c6171c1c2a8b49feb2e76722bf3231f45d8b",
+              "lineRanges": [
+                [
+                  46,
+                  47
+                ],
+                [
+                  49,
+                  49
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L46",
+                  "sectionSha256": "f32f61b68d499d34857eafb052824c19c381e4e800de7e40a63814765c4eb29c"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-340ab39dc2744994--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L46",
+              "sectionSha256": "f32f61b68d499d34857eafb052824c19c381e4e800de7e40a63814765c4eb29c"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L46",
+              "sectionSha256": "f32f61b68d499d34857eafb052824c19c381e4e800de7e40a63814765c4eb29c"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L46",
+              "sectionSha256": "f32f61b68d499d34857eafb052824c19c381e4e800de7e40a63814765c4eb29c"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L46",
+              "sectionSha256": "f32f61b68d499d34857eafb052824c19c381e4e800de7e40a63814765c4eb29c"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L46",
+              "sectionSha256": "f32f61b68d499d34857eafb052824c19c381e4e800de7e40a63814765c4eb29c"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L46",
+              "sectionSha256": "f32f61b68d499d34857eafb052824c19c381e4e800de7e40a63814765c4eb29c"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-340ab39dc2744994--6228e9d3d391",
+          "name": "未来攻击预测",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+            "anchor": "L50",
+            "sectionSha256": "f1e171a5adea4320f280520e4f04219468f888d8e0f4d001aa91a878a20b90f5"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/史莱姆转生系列.md",
+              "sha256": "bdc732d3a4a6773e7a31b3a89b53c6171c1c2a8b49feb2e76722bf3231f45d8b",
+              "lineRanges": [
+                [
+                  50,
+                  51
+                ],
+                [
+                  53,
+                  55
+                ],
+                [
+                  57,
+                  60
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 15,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L50",
+                  "sectionSha256": "f1e171a5adea4320f280520e4f04219468f888d8e0f4d001aa91a878a20b90f5"
+                }
+              },
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L50",
+                  "sectionSha256": "f1e171a5adea4320f280520e4f04219468f888d8e0f4d001aa91a878a20b90f5"
+                }
+              },
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 65.0,
+                "mode": "explicit-purchase-or-repeat",
+                "basis": "reading-explicit-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L50",
+                  "sectionSha256": "f1e171a5adea4320f280520e4f04219468f888d8e0f4d001aa91a878a20b90f5"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ],
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-340ab39dc2744994--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L50",
+              "sectionSha256": "f1e171a5adea4320f280520e4f04219468f888d8e0f4d001aa91a878a20b90f5"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L50",
+              "sectionSha256": "f1e171a5adea4320f280520e4f04219468f888d8e0f4d001aa91a878a20b90f5"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L50",
+              "sectionSha256": "f1e171a5adea4320f280520e4f04219468f888d8e0f4d001aa91a878a20b90f5"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "魔力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L50",
+                  "sectionSha256": "f1e171a5adea4320f280520e4f04219468f888d8e0f4d001aa91a878a20b90f5"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "魔力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L50",
+                  "sectionSha256": "f1e171a5adea4320f280520e4f04219468f888d8e0f4d001aa91a878a20b90f5"
+                }
+              },
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "魔力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L50",
+                  "sectionSha256": "f1e171a5adea4320f280520e4f04219468f888d8e0f4d001aa91a878a20b90f5"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L50",
+              "sectionSha256": "f1e171a5adea4320f280520e4f04219468f888d8e0f4d001aa91a878a20b90f5"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L50",
+              "sectionSha256": "f1e171a5adea4320f280520e4f04219468f888d8e0f4d001aa91a878a20b90f5"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L50",
+              "sectionSha256": "f1e171a5adea4320f280520e4f04219468f888d8e0f4d001aa91a878a20b90f5"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-340ab39dc2744994--cd744881a98a",
+          "name": "火操作",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+            "anchor": "L61",
+            "sectionSha256": "cd07b08d8b3f1a054cefe1becf4e6107e787fa08219875768c13a13e80ee1293"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/史莱姆转生系列.md",
+              "sha256": "bdc732d3a4a6773e7a31b3a89b53c6171c1c2a8b49feb2e76722bf3231f45d8b",
+              "lineRanges": [
+                [
+                  61,
+                  62
+                ],
+                [
+                  64,
+                  64
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L61",
+                  "sectionSha256": "cd07b08d8b3f1a054cefe1becf4e6107e787fa08219875768c13a13e80ee1293"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-340ab39dc2744994--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L61",
+              "sectionSha256": "cd07b08d8b3f1a054cefe1becf4e6107e787fa08219875768c13a13e80ee1293"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L61",
+              "sectionSha256": "cd07b08d8b3f1a054cefe1becf4e6107e787fa08219875768c13a13e80ee1293"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L61",
+              "sectionSha256": "cd07b08d8b3f1a054cefe1becf4e6107e787fa08219875768c13a13e80ee1293"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L61",
+              "sectionSha256": "cd07b08d8b3f1a054cefe1becf4e6107e787fa08219875768c13a13e80ee1293"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L61",
+              "sectionSha256": "cd07b08d8b3f1a054cefe1becf4e6107e787fa08219875768c13a13e80ee1293"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L61",
+              "sectionSha256": "cd07b08d8b3f1a054cefe1becf4e6107e787fa08219875768c13a13e80ee1293"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-340ab39dc2744994--8702cd266e82",
+          "name": "重力飞行",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+            "anchor": "L65",
+            "sectionSha256": "fcc55ed7d64f15a843611f1e3f1b34a87fabe042f7ec95e574b9acafdcd63de2"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/史莱姆转生系列.md",
+              "sha256": "bdc732d3a4a6773e7a31b3a89b53c6171c1c2a8b49feb2e76722bf3231f45d8b",
+              "lineRanges": [
+                [
+                  65,
+                  66
+                ],
+                [
+                  68,
+                  68
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L65",
+                  "sectionSha256": "fcc55ed7d64f15a843611f1e3f1b34a87fabe042f7ec95e574b9acafdcd63de2"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-340ab39dc2744994--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L65",
+              "sectionSha256": "fcc55ed7d64f15a843611f1e3f1b34a87fabe042f7ec95e574b9acafdcd63de2"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L65",
+              "sectionSha256": "fcc55ed7d64f15a843611f1e3f1b34a87fabe042f7ec95e574b9acafdcd63de2"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L65",
+              "sectionSha256": "fcc55ed7d64f15a843611f1e3f1b34a87fabe042f7ec95e574b9acafdcd63de2"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L65",
+              "sectionSha256": "fcc55ed7d64f15a843611f1e3f1b34a87fabe042f7ec95e574b9acafdcd63de2"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L65",
+              "sectionSha256": "fcc55ed7d64f15a843611f1e3f1b34a87fabe042f7ec95e574b9acafdcd63de2"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L65",
+              "sectionSha256": "fcc55ed7d64f15a843611f1e3f1b34a87fabe042f7ec95e574b9acafdcd63de2"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-340ab39dc2744994--0a7d6bd9b5bd",
+          "name": "黑炎",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+            "anchor": "L69",
+            "sectionSha256": "9baff4ddd1e14035b0f961bbfc0b0b77b9e820b39bfc763270f0c82aede42393"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/史莱姆转生系列.md",
+              "sha256": "bdc732d3a4a6773e7a31b3a89b53c6171c1c2a8b49feb2e76722bf3231f45d8b",
+              "lineRanges": [
+                [
+                  69,
+                  71
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L69",
+                  "sectionSha256": "9baff4ddd1e14035b0f961bbfc0b0b77b9e820b39bfc763270f0c82aede42393"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-340ab39dc2744994--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L69",
+              "sectionSha256": "9baff4ddd1e14035b0f961bbfc0b0b77b9e820b39bfc763270f0c82aede42393"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L69",
+              "sectionSha256": "9baff4ddd1e14035b0f961bbfc0b0b77b9e820b39bfc763270f0c82aede42393"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L69",
+              "sectionSha256": "9baff4ddd1e14035b0f961bbfc0b0b77b9e820b39bfc763270f0c82aede42393"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L69",
+              "sectionSha256": "9baff4ddd1e14035b0f961bbfc0b0b77b9e820b39bfc763270f0c82aede42393"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L69",
+              "sectionSha256": "9baff4ddd1e14035b0f961bbfc0b0b77b9e820b39bfc763270f0c82aede42393"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L69",
+              "sectionSha256": "9baff4ddd1e14035b0f961bbfc0b0b77b9e820b39bfc763270f0c82aede42393"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-340ab39dc2744994--6a5e80d3e3ca",
+          "name": "黑雷",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+            "anchor": "L72",
+            "sectionSha256": "1a4b1379a8f3abb020d5a858427e27d6927ff3b17593a78006f7e05c84aac14e"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/史莱姆转生系列.md",
+              "sha256": "bdc732d3a4a6773e7a31b3a89b53c6171c1c2a8b49feb2e76722bf3231f45d8b",
+              "lineRanges": [
+                [
+                  72,
+                  74
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L72",
+                  "sectionSha256": "1a4b1379a8f3abb020d5a858427e27d6927ff3b17593a78006f7e05c84aac14e"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-340ab39dc2744994--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L72",
+              "sectionSha256": "1a4b1379a8f3abb020d5a858427e27d6927ff3b17593a78006f7e05c84aac14e"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L72",
+              "sectionSha256": "1a4b1379a8f3abb020d5a858427e27d6927ff3b17593a78006f7e05c84aac14e"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L72",
+              "sectionSha256": "1a4b1379a8f3abb020d5a858427e27d6927ff3b17593a78006f7e05c84aac14e"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L72",
+              "sectionSha256": "1a4b1379a8f3abb020d5a858427e27d6927ff3b17593a78006f7e05c84aac14e"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L72",
+              "sectionSha256": "1a4b1379a8f3abb020d5a858427e27d6927ff3b17593a78006f7e05c84aac14e"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L72",
+              "sectionSha256": "1a4b1379a8f3abb020d5a858427e27d6927ff3b17593a78006f7e05c84aac14e"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-340ab39dc2744994--125d02ee0994",
+          "name": "黑炎雷",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+            "anchor": "L75",
+            "sectionSha256": "2784c56aa09bff2bf25c20cbd08d2899f40ff0820c30a27709d5845ccacc44ee"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/史莱姆转生系列.md",
+              "sha256": "bdc732d3a4a6773e7a31b3a89b53c6171c1c2a8b49feb2e76722bf3231f45d8b",
+              "lineRanges": [
+                [
+                  75,
+                  82
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L75",
+                  "sectionSha256": "2784c56aa09bff2bf25c20cbd08d2899f40ff0820c30a27709d5845ccacc44ee"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-340ab39dc2744994--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L75",
+              "sectionSha256": "2784c56aa09bff2bf25c20cbd08d2899f40ff0820c30a27709d5845ccacc44ee"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L75",
+              "sectionSha256": "2784c56aa09bff2bf25c20cbd08d2899f40ff0820c30a27709d5845ccacc44ee"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L75",
+              "sectionSha256": "2784c56aa09bff2bf25c20cbd08d2899f40ff0820c30a27709d5845ccacc44ee"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L75",
+              "sectionSha256": "2784c56aa09bff2bf25c20cbd08d2899f40ff0820c30a27709d5845ccacc44ee"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L75",
+              "sectionSha256": "2784c56aa09bff2bf25c20cbd08d2899f40ff0820c30a27709d5845ccacc44ee"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L75",
+              "sectionSha256": "2784c56aa09bff2bf25c20cbd08d2899f40ff0820c30a27709d5845ccacc44ee"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-340ab39dc2744994--c6c06922eb4a",
+          "name": "分子操作",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+            "anchor": "L83",
+            "sectionSha256": "3abaad21fc909a9adf77edc6bf761634681808257b950f77b2acf1d11e5625b7"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/史莱姆转生系列.md",
+              "sha256": "bdc732d3a4a6773e7a31b3a89b53c6171c1c2a8b49feb2e76722bf3231f45d8b",
+              "lineRanges": [
+                [
+                  83,
+                  84
+                ],
+                [
+                  86,
+                  86
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L83",
+                  "sectionSha256": "3abaad21fc909a9adf77edc6bf761634681808257b950f77b2acf1d11e5625b7"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-340ab39dc2744994--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L83",
+              "sectionSha256": "3abaad21fc909a9adf77edc6bf761634681808257b950f77b2acf1d11e5625b7"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L83",
+              "sectionSha256": "3abaad21fc909a9adf77edc6bf761634681808257b950f77b2acf1d11e5625b7"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L83",
+              "sectionSha256": "3abaad21fc909a9adf77edc6bf761634681808257b950f77b2acf1d11e5625b7"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L83",
+              "sectionSha256": "3abaad21fc909a9adf77edc6bf761634681808257b950f77b2acf1d11e5625b7"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L83",
+              "sectionSha256": "3abaad21fc909a9adf77edc6bf761634681808257b950f77b2acf1d11e5625b7"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L83",
+              "sectionSha256": "3abaad21fc909a9adf77edc6bf761634681808257b950f77b2acf1d11e5625b7"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-340ab39dc2744994--b401df0be8e3",
+          "name": "魔力操作",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+            "anchor": "L87",
+            "sectionSha256": "e63177d4450c40ca3890416b40392a22558488eee3d292c27d2a6a38a4158442"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/史莱姆转生系列.md",
+              "sha256": "bdc732d3a4a6773e7a31b3a89b53c6171c1c2a8b49feb2e76722bf3231f45d8b",
+              "lineRanges": [
+                [
+                  87,
+                  88
+                ],
+                [
+                  90,
+                  91
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L87",
+                  "sectionSha256": "e63177d4450c40ca3890416b40392a22558488eee3d292c27d2a6a38a4158442"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-340ab39dc2744994--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L87",
+              "sectionSha256": "e63177d4450c40ca3890416b40392a22558488eee3d292c27d2a6a38a4158442"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L87",
+              "sectionSha256": "e63177d4450c40ca3890416b40392a22558488eee3d292c27d2a6a38a4158442"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L87",
+              "sectionSha256": "e63177d4450c40ca3890416b40392a22558488eee3d292c27d2a6a38a4158442"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L87",
+              "sectionSha256": "e63177d4450c40ca3890416b40392a22558488eee3d292c27d2a6a38a4158442"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L87",
+              "sectionSha256": "e63177d4450c40ca3890416b40392a22558488eee3d292c27d2a6a38a4158442"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L87",
+              "sectionSha256": "e63177d4450c40ca3890416b40392a22558488eee3d292c27d2a6a38a4158442"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-340ab39dc2744994--d3251aca99e0",
+          "name": "爱与信仰的恩宠",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+            "anchor": "L92",
+            "sectionSha256": "2f56c44df053ceb55a8adca4011420bb440728043b187e3e4ff8b6f2e9568efa"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/史莱姆转生系列.md",
+              "sha256": "bdc732d3a4a6773e7a31b3a89b53c6171c1c2a8b49feb2e76722bf3231f45d8b",
+              "lineRanges": [
+                [
+                  92,
+                  93
+                ],
+                [
+                  95,
+                  103
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L92",
+                  "sectionSha256": "2f56c44df053ceb55a8adca4011420bb440728043b187e3e4ff8b6f2e9568efa"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "free"
+              ],
+              [
+                "standard"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-340ab39dc2744994--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L92",
+              "sectionSha256": "2f56c44df053ceb55a8adca4011420bb440728043b187e3e4ff8b6f2e9568efa"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L92",
+              "sectionSha256": "2f56c44df053ceb55a8adca4011420bb440728043b187e3e4ff8b6f2e9568efa"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L92",
+              "sectionSha256": "2f56c44df053ceb55a8adca4011420bb440728043b187e3e4ff8b6f2e9568efa"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "encoded",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": 1,
+                  "pool": "魔力"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L92",
+                  "sectionSha256": "2f56c44df053ceb55a8adca4011420bb440728043b187e3e4ff8b6f2e9568efa"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L92",
+              "sectionSha256": "2f56c44df053ceb55a8adca4011420bb440728043b187e3e4ff8b6f2e9568efa"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L92",
+              "sectionSha256": "2f56c44df053ceb55a8adca4011420bb440728043b187e3e4ff8b6f2e9568efa"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L92",
+              "sectionSha256": "2f56c44df053ceb55a8adca4011420bb440728043b187e3e4ff8b6f2e9568efa"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-340ab39dc2744994--3685c45f854f",
+          "name": "分身术",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+            "anchor": "L104",
+            "sectionSha256": "8a877aaec23800431deb6fc12db4802fdf1b3b7cbca394d4c86a524dbe9b9109"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/主动被动混合/史莱姆转生系列.md",
+              "sha256": "bdc732d3a4a6773e7a31b3a89b53c6171c1c2a8b49feb2e76722bf3231f45d8b",
+              "lineRanges": [
+                [
+                  104,
+                  105
+                ],
+                [
+                  107,
+                  108
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+                  "anchor": "L104",
+                  "sectionSha256": "8a877aaec23800431deb6fc12db4802fdf1b3b7cbca394d4c86a524dbe9b9109"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-340ab39dc2744994--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L104",
+              "sectionSha256": "8a877aaec23800431deb6fc12db4802fdf1b3b7cbca394d4c86a524dbe9b9109"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L104",
+              "sectionSha256": "8a877aaec23800431deb6fc12db4802fdf1b3b7cbca394d4c86a524dbe9b9109"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L104",
+              "sectionSha256": "8a877aaec23800431deb6fc12db4802fdf1b3b7cbca394d4c86a524dbe9b9109"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L104",
+              "sectionSha256": "8a877aaec23800431deb6fc12db4802fdf1b3b7cbca394d4c86a524dbe9b9109"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L104",
+              "sectionSha256": "8a877aaec23800431deb6fc12db4802fdf1b3b7cbca394d4c86a524dbe9b9109"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/123-史莱姆转生系列.md",
+              "anchor": "L104",
+              "sectionSha256": "8a877aaec23800431deb6fc12db4802fdf1b3b7cbca394d4c86a524dbe9b9109"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "史莱姆转生系列",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "魔法换装",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "魔力妨害",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "魔法抗性",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "痛觉无效",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "热变动无效",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "物理攻击无效",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "魔力感知",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "热源感应",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "超音波",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "魔斗气",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "未来攻击预测",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "火操作",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "重力飞行",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "黑炎",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "黑雷",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "黑炎雷",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "分子操作",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "魔力操作",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "爱与信仰的恩宠",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "分身术",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-340ab39dc2744994--b3cc20089aab--intent",
+      "name": "魔法换装",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-340ab39dc2744994--b3cc20089aab",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-340ab39dc2744994--3f6b5ef2df8d--intent",
+      "name": "魔力妨害",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-340ab39dc2744994--3f6b5ef2df8d",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-340ab39dc2744994--c7e5d9889852--intent",
+      "name": "超音波",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-340ab39dc2744994--c7e5d9889852",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-340ab39dc2744994--6228e9d3d391--intent",
+      "name": "未来攻击预测",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ],
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-340ab39dc2744994--6228e9d3d391",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    },
+    {
+      "id": "candidate-901-technique-340ab39dc2744994--d3251aca99e0--intent",
+      "name": "爱与信仰的恩宠",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "free"
+          ],
+          [
+            "standard"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-340ab39dc2744994--d3251aca99e0",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "duration-inheritance-and-no-implicit-refresh"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

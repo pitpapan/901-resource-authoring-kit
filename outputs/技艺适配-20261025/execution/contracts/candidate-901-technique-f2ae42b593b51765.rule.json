@@ -1,0 +1,559 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-f2ae42b593b51765",
+  "version": "2026-10-25.machine.2",
+  "identity": {
+    "name": "居合拳",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J05",
+    "aliases": [
+      "居合拳",
+      "居合拳·D/C/B/A级阶段"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/居合拳.md",
+        "sha256": "13d7b60da00c9ac8cfd5bdec2ee88bf7b94e9b0df8c23ee024a2bff044e3494f",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            11
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/060-居合拳.md",
+    "sha256": "bab66a58b1268075927a3685c228d3e5123f1fc47746657db2a12bbdafc79938"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-f2ae42b593b51765--0ae594c1109f",
+          "name": "居合拳",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/060-居合拳.md",
+            "anchor": "条目",
+            "sectionSha256": "53b4705932afcd7d409c47794f2d4275670821bfe68c7e9a1a74357e54d8c70c"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/居合拳.md",
+              "sha256": "13d7b60da00c9ac8cfd5bdec2ee88bf7b94e9b0df8c23ee024a2bff044e3494f",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  8
+                ],
+                [
+                  10,
+                  10
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/060-居合拳.md",
+                  "anchor": "条目",
+                  "sectionSha256": "53b4705932afcd7d409c47794f2d4275670821bfe68c7e9a1a74357e54d8c70c"
+                },
+                "semanticStatus": "not-encoded"
+              },
+              {
+                "predicates": [
+                  {
+                    "kind": "energy-pool-exists",
+                    "minimumPoolCount": 1,
+                    "background": null,
+                    "names": [
+                      "内力",
+                      "气"
+                    ],
+                    "nameMatch": "any"
+                  }
+                ],
+                "uncompiledCondition": true,
+                "semanticStatus": "partial",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/060-居合拳.md",
+                  "anchor": "条目",
+                  "sectionSha256": "53b4705932afcd7d409c47794f2d4275670821bfe68c7e9a1a74357e54d8c70c"
+                }
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/060-居合拳.md",
+              "anchor": "条目",
+              "sectionSha256": "53b4705932afcd7d409c47794f2d4275670821bfe68c7e9a1a74357e54d8c70c"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/060-居合拳.md",
+              "anchor": "条目",
+              "sectionSha256": "53b4705932afcd7d409c47794f2d4275670821bfe68c7e9a1a74357e54d8c70c"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/060-居合拳.md",
+              "anchor": "条目",
+              "sectionSha256": "53b4705932afcd7d409c47794f2d4275670821bfe68c7e9a1a74357e54d8c70c"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/060-居合拳.md",
+              "anchor": "条目",
+              "sectionSha256": "53b4705932afcd7d409c47794f2d4275670821bfe68c7e9a1a74357e54d8c70c"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/060-居合拳.md",
+              "anchor": "条目",
+              "sectionSha256": "53b4705932afcd7d409c47794f2d4275670821bfe68c7e9a1a74357e54d8c70c"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/060-居合拳.md",
+              "anchor": "条目",
+              "sectionSha256": "53b4705932afcd7d409c47794f2d4275670821bfe68c7e9a1a74357e54d8c70c"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-f2ae42b593b51765--90bc9c9c6e24",
+          "name": "居合拳·D/C/B/A级阶段",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/060-居合拳.md",
+            "anchor": "L9",
+            "sectionSha256": "82ea1dbf01e1e5e27c6ec0154bbbb1a021ae8c1b01d5ab1e147fe31ec3d2bf7e"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/近战类型/肉搏技巧/居合拳.md",
+              "sha256": "13d7b60da00c9ac8cfd5bdec2ee88bf7b94e9b0df8c23ee024a2bff044e3494f",
+              "lineRanges": [
+                [
+                  9,
+                  9
+                ],
+                [
+                  11,
+                  11
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/060-居合拳.md",
+                  "anchor": "L9",
+                  "sectionSha256": "82ea1dbf01e1e5e27c6ec0154bbbb1a021ae8c1b01d5ab1e147fe31ec3d2bf7e"
+                }
+              },
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/060-居合拳.md",
+                  "anchor": "L9",
+                  "sectionSha256": "82ea1dbf01e1e5e27c6ec0154bbbb1a021ae8c1b01d5ab1e147fe31ec3d2bf7e"
+                }
+              },
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/060-居合拳.md",
+                  "anchor": "L9",
+                  "sectionSha256": "82ea1dbf01e1e5e27c6ec0154bbbb1a021ae8c1b01d5ab1e147fe31ec3d2bf7e"
+                }
+              },
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/060-居合拳.md",
+                  "anchor": "L9",
+                  "sectionSha256": "82ea1dbf01e1e5e27c6ec0154bbbb1a021ae8c1b01d5ab1e147fe31ec3d2bf7e"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-f2ae42b593b51765--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/060-居合拳.md",
+              "anchor": "L9",
+              "sectionSha256": "82ea1dbf01e1e5e27c6ec0154bbbb1a021ae8c1b01d5ab1e147fe31ec3d2bf7e"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/060-居合拳.md",
+              "anchor": "L9",
+              "sectionSha256": "82ea1dbf01e1e5e27c6ec0154bbbb1a021ae8c1b01d5ab1e147fe31ec3d2bf7e"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/060-居合拳.md",
+              "anchor": "L9",
+              "sectionSha256": "82ea1dbf01e1e5e27c6ec0154bbbb1a021ae8c1b01d5ab1e147fe31ec3d2bf7e"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [
+              {
+                "semanticStatus": "partial",
+                "value": {
+                  "kind": "pool-cost",
+                  "amount": {
+                    "kind": "rank-vector",
+                    "values": [
+                      1,
+                      4,
+                      9,
+                      16
+                    ]
+                  },
+                  "pool": "气"
+                },
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/060-居合拳.md",
+                  "anchor": "L9",
+                  "sectionSha256": "82ea1dbf01e1e5e27c6ec0154bbbb1a021ae8c1b01d5ab1e147fe31ec3d2bf7e"
+                }
+              }
+            ],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/060-居合拳.md",
+              "anchor": "L9",
+              "sectionSha256": "82ea1dbf01e1e5e27c6ec0154bbbb1a021ae8c1b01d5ab1e147fe31ec3d2bf7e"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/060-居合拳.md",
+              "anchor": "L9",
+              "sectionSha256": "82ea1dbf01e1e5e27c6ec0154bbbb1a021ae8c1b01d5ab1e147fe31ec3d2bf7e"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/060-居合拳.md",
+              "anchor": "L9",
+              "sectionSha256": "82ea1dbf01e1e5e27c6ec0154bbbb1a021ae8c1b01d5ab1e147fe31ec3d2bf7e"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "attack-program-hardcodes-INT-and-casting"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "居合拳",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "居合拳·D/C/B/A级阶段",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "prerequisite-logic-not-fully-encoded",
+    "attack-program-hardcodes-INT-and-casting"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}

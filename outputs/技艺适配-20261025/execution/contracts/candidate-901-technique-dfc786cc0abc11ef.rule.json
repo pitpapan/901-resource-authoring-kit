@@ -1,0 +1,2031 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "candidate-901-technique-dfc786cc0abc11ef",
+  "version": "2026-10-25.machine.1",
+  "identity": {
+    "name": "MUGEN能力",
+    "grade": "multiple",
+    "category": "technique-collection",
+    "tree": "candidate-901-techniques",
+    "adoptionStatus": "candidate",
+    "group": "J08",
+    "aliases": [
+      "MUGEN能力",
+      "MUGEN系统能力",
+      "回血",
+      "回气",
+      "受身",
+      "偷跑",
+      "精防",
+      "霸体",
+      "大伤害免疫",
+      "精防回复",
+      "刚体",
+      "无限气",
+      "一败加强"
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/MUGEN能力.md",
+        "sha256": "b561a33ede8ad1a5eefedb4db666e2a31c14ef139e81f97077d949fc00e66267",
+        "lineRanges": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            64
+          ]
+        ]
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "path": "outputs/技艺适配-20261025/共用技艺判定.md",
+        "sha256": "a7654221964e23547013f5bb90fc8102d469020b8634665a67fbb4670fa7f51d"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/基础机制.md",
+        "sha256": "eda0becc97fb3b984958987f8649f7c6024c82c882c9071c27e37fe5bf29946c"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/被调用能力.md",
+        "sha256": "8d290be5a67f736a8b74d611fa6c4fc6389ff42a5c528113ef8600c495810072"
+      },
+      {
+        "path": "outputs/技艺适配-20261025/依赖/制符制作表.tsv",
+        "sha256": "988e0ae65f8eeabaf6aca6e943cf32a15e51cd59adb2c36b8885ea24174469a3"
+      },
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "81b8e301de900b8870f80fba732e1bc0af67af65f294aa9a6f89b9618ef82336"
+      }
+    ],
+    "sharedDependencyHash": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7",
+    "classifierPolicy": "selectors-only; no numeric effects; no acquisition implied"
+  },
+  "reading": {
+    "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+    "sha256": "0224834e51ffd7995a2467aa6e4a4ad631cb5c30719d9daf7d97ab75e9125170"
+  },
+  "definition": {
+    "effects": [],
+    "programs": {},
+    "authoringOnly": {
+      "notice": "Non-runtime fields. Existing JS does not interpret semantic units, acquisition policies or mechanism annotations.",
+      "units": [
+        {
+          "id": "candidate-901-technique-dfc786cc0abc11ef--0ae594c1109f",
+          "name": "MUGEN能力",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+            "anchor": "条目",
+            "sectionSha256": "0c0906fc1d5c30ae6be9c73f754fe6be94526653198cf453b212ba068bd4127d"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/MUGEN能力.md",
+              "sha256": "b561a33ede8ad1a5eefedb4db666e2a31c14ef139e81f97077d949fc00e66267",
+              "lineRanges": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  11
+                ],
+                [
+                  13,
+                  13
+                ],
+                [
+                  19,
+                  19
+                ],
+                [
+                  21,
+                  21
+                ],
+                [
+                  25,
+                  25
+                ],
+                [
+                  29,
+                  29
+                ],
+                [
+                  33,
+                  33
+                ],
+                [
+                  36,
+                  36
+                ],
+                [
+                  41,
+                  41
+                ],
+                [
+                  45,
+                  45
+                ],
+                [
+                  49,
+                  49
+                ],
+                [
+                  54,
+                  54
+                ],
+                [
+                  58,
+                  58
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": null,
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "条目",
+              "sectionSha256": "0c0906fc1d5c30ae6be9c73f754fe6be94526653198cf453b212ba068bd4127d"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "条目",
+              "sectionSha256": "0c0906fc1d5c30ae6be9c73f754fe6be94526653198cf453b212ba068bd4127d"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "条目",
+              "sectionSha256": "0c0906fc1d5c30ae6be9c73f754fe6be94526653198cf453b212ba068bd4127d"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "条目",
+              "sectionSha256": "0c0906fc1d5c30ae6be9c73f754fe6be94526653198cf453b212ba068bd4127d"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "条目",
+              "sectionSha256": "0c0906fc1d5c30ae6be9c73f754fe6be94526653198cf453b212ba068bd4127d"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "条目",
+              "sectionSha256": "0c0906fc1d5c30ae6be9c73f754fe6be94526653198cf453b212ba068bd4127d"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-dfc786cc0abc11ef--3f6b5ef2df8d",
+          "name": "回血",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+            "anchor": "L12",
+            "sectionSha256": "e0e19c287187ac4c902e324226f10960bab1890a20c2a763d18c491e52ad4954"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/MUGEN能力.md",
+              "sha256": "b561a33ede8ad1a5eefedb4db666e2a31c14ef139e81f97077d949fc00e66267",
+              "lineRanges": [
+                [
+                  12,
+                  12
+                ],
+                [
+                  14,
+                  18
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+                  "anchor": "L12",
+                  "sectionSha256": "e0e19c287187ac4c902e324226f10960bab1890a20c2a763d18c491e52ad4954"
+                }
+              },
+              {
+                "grade": null,
+                "currency": "XP",
+                "amount": 10.0,
+                "mode": "explicit-purchase-or-repeat",
+                "basis": "reading-explicit-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+                  "anchor": "L12",
+                  "sectionSha256": "e0e19c287187ac4c902e324226f10960bab1890a20c2a763d18c491e52ad4954"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-dfc786cc0abc11ef--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": true,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L12",
+              "sectionSha256": "e0e19c287187ac4c902e324226f10960bab1890a20c2a763d18c491e52ad4954"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L12",
+              "sectionSha256": "e0e19c287187ac4c902e324226f10960bab1890a20c2a763d18c491e52ad4954"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L12",
+              "sectionSha256": "e0e19c287187ac4c902e324226f10960bab1890a20c2a763d18c491e52ad4954"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L12",
+              "sectionSha256": "e0e19c287187ac4c902e324226f10960bab1890a20c2a763d18c491e52ad4954"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L12",
+              "sectionSha256": "e0e19c287187ac4c902e324226f10960bab1890a20c2a763d18c491e52ad4954"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L12",
+              "sectionSha256": "e0e19c287187ac4c902e324226f10960bab1890a20c2a763d18c491e52ad4954"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "capability-reference",
+              "capability": "快速医疗",
+              "semanticStatus": "not-encoded",
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+                "anchor": "L12",
+                "sectionSha256": "e0e19c287187ac4c902e324226f10960bab1890a20c2a763d18c491e52ad4954"
+              }
+            },
+            {
+              "kind": "capability-reference",
+              "capability": "快速医疗",
+              "semanticStatus": "not-encoded",
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+                "anchor": "L12",
+                "sectionSha256": "e0e19c287187ac4c902e324226f10960bab1890a20c2a763d18c491e52ad4954"
+              }
+            },
+            {
+              "kind": "capability-reference",
+              "capability": "快速医疗",
+              "semanticStatus": "not-encoded",
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+                "anchor": "L12",
+                "sectionSha256": "e0e19c287187ac4c902e324226f10960bab1890a20c2a763d18c491e52ad4954"
+              }
+            },
+            {
+              "kind": "capability-reference",
+              "capability": "快速医疗",
+              "semanticStatus": "not-encoded",
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+                "anchor": "L12",
+                "sectionSha256": "e0e19c287187ac4c902e324226f10960bab1890a20c2a763d18c491e52ad4954"
+              }
+            },
+            {
+              "kind": "capability-reference",
+              "capability": "快速医疗",
+              "semanticStatus": "not-encoded",
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+                "anchor": "L12",
+                "sectionSha256": "e0e19c287187ac4c902e324226f10960bab1890a20c2a763d18c491e52ad4954"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-dfc786cc0abc11ef--bbbae651d4e8",
+          "name": "回气",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+            "anchor": "L20",
+            "sectionSha256": "af69e2fcd86879fe01268060811711f55933073af941b782c74f4e1580c5637e"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/MUGEN能力.md",
+              "sha256": "b561a33ede8ad1a5eefedb4db666e2a31c14ef139e81f97077d949fc00e66267",
+              "lineRanges": [
+                [
+                  20,
+                  20
+                ],
+                [
+                  22,
+                  24
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+                  "anchor": "L20",
+                  "sectionSha256": "af69e2fcd86879fe01268060811711f55933073af941b782c74f4e1580c5637e"
+                }
+              },
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 35,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+                  "anchor": "L20",
+                  "sectionSha256": "af69e2fcd86879fe01268060811711f55933073af941b782c74f4e1580c5637e"
+                }
+              },
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 85,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+                  "anchor": "L20",
+                  "sectionSha256": "af69e2fcd86879fe01268060811711f55933073af941b782c74f4e1580c5637e"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-dfc786cc0abc11ef--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "difference",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L20",
+              "sectionSha256": "af69e2fcd86879fe01268060811711f55933073af941b782c74f4e1580c5637e"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L20",
+              "sectionSha256": "af69e2fcd86879fe01268060811711f55933073af941b782c74f4e1580c5637e"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L20",
+              "sectionSha256": "af69e2fcd86879fe01268060811711f55933073af941b782c74f4e1580c5637e"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L20",
+              "sectionSha256": "af69e2fcd86879fe01268060811711f55933073af941b782c74f4e1580c5637e"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L20",
+              "sectionSha256": "af69e2fcd86879fe01268060811711f55933073af941b782c74f4e1580c5637e"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L20",
+              "sectionSha256": "af69e2fcd86879fe01268060811711f55933073af941b782c74f4e1580c5637e"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-dfc786cc0abc11ef--fbf7776a3be2",
+          "name": "受身",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+            "anchor": "L26",
+            "sectionSha256": "105cad8f3247705d4893903270ff2e5234c87596c43e217911327c3362f76738"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/MUGEN能力.md",
+              "sha256": "b561a33ede8ad1a5eefedb4db666e2a31c14ef139e81f97077d949fc00e66267",
+              "lineRanges": [
+                [
+                  26,
+                  28
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "D",
+                "currency": "XP",
+                "amount": 10,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+                  "anchor": "L26",
+                  "sectionSha256": "105cad8f3247705d4893903270ff2e5234c87596c43e217911327c3362f76738"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "partial",
+            "observedActionCombinations": [
+              [
+                "reflex"
+              ]
+            ],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-dfc786cc0abc11ef--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L26",
+              "sectionSha256": "105cad8f3247705d4893903270ff2e5234c87596c43e217911327c3362f76738"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L26",
+              "sectionSha256": "105cad8f3247705d4893903270ff2e5234c87596c43e217911327c3362f76738"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L26",
+              "sectionSha256": "105cad8f3247705d4893903270ff2e5234c87596c43e217911327c3362f76738"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L26",
+              "sectionSha256": "105cad8f3247705d4893903270ff2e5234c87596c43e217911327c3362f76738"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L26",
+              "sectionSha256": "105cad8f3247705d4893903270ff2e5234c87596c43e217911327c3362f76738"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L26",
+              "sectionSha256": "105cad8f3247705d4893903270ff2e5234c87596c43e217911327c3362f76738"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "program-grade-fixed-D-C",
+            "program-pool-fixed-imperial-or-guanlan",
+            "action-qualification-and-upgrade-gate",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-dfc786cc0abc11ef--1c9f3c66445d",
+          "name": "偷跑",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+            "anchor": "L30",
+            "sectionSha256": "8550df640c8117d99162702f2e6baa51be92f830951dacc2f14421b2d4676ba7"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/MUGEN能力.md",
+              "sha256": "b561a33ede8ad1a5eefedb4db666e2a31c14ef139e81f97077d949fc00e66267",
+              "lineRanges": [
+                [
+                  30,
+                  32
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "C",
+                "currency": "XP",
+                "amount": 25,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+                  "anchor": "L30",
+                  "sectionSha256": "8550df640c8117d99162702f2e6baa51be92f830951dacc2f14421b2d4676ba7"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-dfc786cc0abc11ef--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L30",
+              "sectionSha256": "8550df640c8117d99162702f2e6baa51be92f830951dacc2f14421b2d4676ba7"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L30",
+              "sectionSha256": "8550df640c8117d99162702f2e6baa51be92f830951dacc2f14421b2d4676ba7"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L30",
+              "sectionSha256": "8550df640c8117d99162702f2e6baa51be92f830951dacc2f14421b2d4676ba7"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L30",
+              "sectionSha256": "8550df640c8117d99162702f2e6baa51be92f830951dacc2f14421b2d4676ba7"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L30",
+              "sectionSha256": "8550df640c8117d99162702f2e6baa51be92f830951dacc2f14421b2d4676ba7"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L30",
+              "sectionSha256": "8550df640c8117d99162702f2e6baa51be92f830951dacc2f14421b2d4676ba7"
+            }
+          },
+          "mechanisms": [
+            {
+              "kind": "typed-bonus",
+              "bonusType": "修行",
+              "value": 8,
+              "semanticStatus": "partial",
+              "uncompiled": [
+                "precise-stat-and-trigger-scope"
+              ],
+              "sourceRef": {
+                "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+                "anchor": "L30",
+                "sectionSha256": "8550df640c8117d99162702f2e6baa51be92f830951dacc2f14421b2d4676ba7"
+              }
+            }
+          ],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-dfc786cc0abc11ef--03ec39d1be65",
+          "name": "精防",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+            "anchor": "L34",
+            "sectionSha256": "0c7176f35e974ff70e8a1144ee1c5be8426ff7ed24ffe8a52ae2e99e0d091a63"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/MUGEN能力.md",
+              "sha256": "b561a33ede8ad1a5eefedb4db666e2a31c14ef139e81f97077d949fc00e66267",
+              "lineRanges": [
+                [
+                  34,
+                  35
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+                  "anchor": "L34",
+                  "sectionSha256": "0c7176f35e974ff70e8a1144ee1c5be8426ff7ed24ffe8a52ae2e99e0d091a63"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-dfc786cc0abc11ef--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L34",
+              "sectionSha256": "0c7176f35e974ff70e8a1144ee1c5be8426ff7ed24ffe8a52ae2e99e0d091a63"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L34",
+              "sectionSha256": "0c7176f35e974ff70e8a1144ee1c5be8426ff7ed24ffe8a52ae2e99e0d091a63"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L34",
+              "sectionSha256": "0c7176f35e974ff70e8a1144ee1c5be8426ff7ed24ffe8a52ae2e99e0d091a63"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L34",
+              "sectionSha256": "0c7176f35e974ff70e8a1144ee1c5be8426ff7ed24ffe8a52ae2e99e0d091a63"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L34",
+              "sectionSha256": "0c7176f35e974ff70e8a1144ee1c5be8426ff7ed24ffe8a52ae2e99e0d091a63"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L34",
+              "sectionSha256": "0c7176f35e974ff70e8a1144ee1c5be8426ff7ed24ffe8a52ae2e99e0d091a63"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-dfc786cc0abc11ef--62317f6d0509",
+          "name": "霸体",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+            "anchor": "L37",
+            "sectionSha256": "e6621251a23481ef8f85bed10a05ca0b20012ac8933c4e5b2efa7145e577ea73"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/MUGEN能力.md",
+              "sha256": "b561a33ede8ad1a5eefedb4db666e2a31c14ef139e81f97077d949fc00e66267",
+              "lineRanges": [
+                [
+                  37,
+                  40
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+                  "anchor": "L37",
+                  "sectionSha256": "e6621251a23481ef8f85bed10a05ca0b20012ac8933c4e5b2efa7145e577ea73"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-dfc786cc0abc11ef--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L37",
+              "sectionSha256": "e6621251a23481ef8f85bed10a05ca0b20012ac8933c4e5b2efa7145e577ea73"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L37",
+              "sectionSha256": "e6621251a23481ef8f85bed10a05ca0b20012ac8933c4e5b2efa7145e577ea73"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L37",
+              "sectionSha256": "e6621251a23481ef8f85bed10a05ca0b20012ac8933c4e5b2efa7145e577ea73"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L37",
+              "sectionSha256": "e6621251a23481ef8f85bed10a05ca0b20012ac8933c4e5b2efa7145e577ea73"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L37",
+              "sectionSha256": "e6621251a23481ef8f85bed10a05ca0b20012ac8933c4e5b2efa7145e577ea73"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L37",
+              "sectionSha256": "e6621251a23481ef8f85bed10a05ca0b20012ac8933c4e5b2efa7145e577ea73"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-dfc786cc0abc11ef--277d906bc615",
+          "name": "大伤害免疫",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+            "anchor": "L42",
+            "sectionSha256": "e41fc27d40d6a887dd02f7f20b81f89473e6f55cff2dac0d63d05cf151f0c0c9"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/MUGEN能力.md",
+              "sha256": "b561a33ede8ad1a5eefedb4db666e2a31c14ef139e81f97077d949fc00e66267",
+              "lineRanges": [
+                [
+                  42,
+                  44
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "B",
+                "currency": "XP",
+                "amount": 65,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+                  "anchor": "L42",
+                  "sectionSha256": "e41fc27d40d6a887dd02f7f20b81f89473e6f55cff2dac0d63d05cf151f0c0c9"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-dfc786cc0abc11ef--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L42",
+              "sectionSha256": "e41fc27d40d6a887dd02f7f20b81f89473e6f55cff2dac0d63d05cf151f0c0c9"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L42",
+              "sectionSha256": "e41fc27d40d6a887dd02f7f20b81f89473e6f55cff2dac0d63d05cf151f0c0c9"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L42",
+              "sectionSha256": "e41fc27d40d6a887dd02f7f20b81f89473e6f55cff2dac0d63d05cf151f0c0c9"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L42",
+              "sectionSha256": "e41fc27d40d6a887dd02f7f20b81f89473e6f55cff2dac0d63d05cf151f0c0c9"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L42",
+              "sectionSha256": "e41fc27d40d6a887dd02f7f20b81f89473e6f55cff2dac0d63d05cf151f0c0c9"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L42",
+              "sectionSha256": "e41fc27d40d6a887dd02f7f20b81f89473e6f55cff2dac0d63d05cf151f0c0c9"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-dfc786cc0abc11ef--adb17ae1473a",
+          "name": "精防回复",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+            "anchor": "L46",
+            "sectionSha256": "9152ce70b2678920e6521de60bd7ec65ef79ff53bfd3277ea7a72653f086bf55"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/MUGEN能力.md",
+              "sha256": "b561a33ede8ad1a5eefedb4db666e2a31c14ef139e81f97077d949fc00e66267",
+              "lineRanges": [
+                [
+                  46,
+                  48
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+                  "anchor": "L46",
+                  "sectionSha256": "9152ce70b2678920e6521de60bd7ec65ef79ff53bfd3277ea7a72653f086bf55"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-dfc786cc0abc11ef--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+                  "anchor": "L46",
+                  "sectionSha256": "9152ce70b2678920e6521de60bd7ec65ef79ff53bfd3277ea7a72653f086bf55"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L46",
+              "sectionSha256": "9152ce70b2678920e6521de60bd7ec65ef79ff53bfd3277ea7a72653f086bf55"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L46",
+              "sectionSha256": "9152ce70b2678920e6521de60bd7ec65ef79ff53bfd3277ea7a72653f086bf55"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L46",
+              "sectionSha256": "9152ce70b2678920e6521de60bd7ec65ef79ff53bfd3277ea7a72653f086bf55"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L46",
+              "sectionSha256": "9152ce70b2678920e6521de60bd7ec65ef79ff53bfd3277ea7a72653f086bf55"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L46",
+              "sectionSha256": "9152ce70b2678920e6521de60bd7ec65ef79ff53bfd3277ea7a72653f086bf55"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L46",
+              "sectionSha256": "9152ce70b2678920e6521de60bd7ec65ef79ff53bfd3277ea7a72653f086bf55"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-dfc786cc0abc11ef--6228e9d3d391",
+          "name": "刚体",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+            "anchor": "L50",
+            "sectionSha256": "0a344e94e8848ced5b5e50e1b4f8f0ddf2f7c8b4425cff0f825022f7f9e77526"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/MUGEN能力.md",
+              "sha256": "b561a33ede8ad1a5eefedb4db666e2a31c14ef139e81f97077d949fc00e66267",
+              "lineRanges": [
+                [
+                  50,
+                  53
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 175,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+                  "anchor": "L50",
+                  "sectionSha256": "0a344e94e8848ced5b5e50e1b4f8f0ddf2f7c8b4425cff0f825022f7f9e77526"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-dfc786cc0abc11ef--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+                  "anchor": "L50",
+                  "sectionSha256": "0a344e94e8848ced5b5e50e1b4f8f0ddf2f7c8b4425cff0f825022f7f9e77526"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L50",
+              "sectionSha256": "0a344e94e8848ced5b5e50e1b4f8f0ddf2f7c8b4425cff0f825022f7f9e77526"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L50",
+              "sectionSha256": "0a344e94e8848ced5b5e50e1b4f8f0ddf2f7c8b4425cff0f825022f7f9e77526"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L50",
+              "sectionSha256": "0a344e94e8848ced5b5e50e1b4f8f0ddf2f7c8b4425cff0f825022f7f9e77526"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L50",
+              "sectionSha256": "0a344e94e8848ced5b5e50e1b4f8f0ddf2f7c8b4425cff0f825022f7f9e77526"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L50",
+              "sectionSha256": "0a344e94e8848ced5b5e50e1b4f8f0ddf2f7c8b4425cff0f825022f7f9e77526"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L50",
+              "sectionSha256": "0a344e94e8848ced5b5e50e1b4f8f0ddf2f7c8b4425cff0f825022f7f9e77526"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-dfc786cc0abc11ef--3ab8b12e4a75",
+          "name": "无限气",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+            "anchor": "L55",
+            "sectionSha256": "30d5a0bc71fc0764597d72e3fdbc23c652e4f433f9e6dc1989ade25aa8a82249"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/MUGEN能力.md",
+              "sha256": "b561a33ede8ad1a5eefedb4db666e2a31c14ef139e81f97077d949fc00e66267",
+              "lineRanges": [
+                [
+                  55,
+                  57
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "A",
+                "currency": "XP",
+                "amount": 295,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+                  "anchor": "L55",
+                  "sectionSha256": "30d5a0bc71fc0764597d72e3fdbc23c652e4f433f9e6dc1989ade25aa8a82249"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-dfc786cc0abc11ef--0ae594c1109f",
+            "semanticStatus": "partial",
+            "all": [
+              {
+                "predicates": [],
+                "uncompiledCondition": true,
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+                  "anchor": "L55",
+                  "sectionSha256": "30d5a0bc71fc0764597d72e3fdbc23c652e4f433f9e6dc1989ade25aa8a82249"
+                },
+                "semanticStatus": "not-encoded"
+              }
+            ],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L55",
+              "sectionSha256": "30d5a0bc71fc0764597d72e3fdbc23c652e4f433f9e6dc1989ade25aa8a82249"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L55",
+              "sectionSha256": "30d5a0bc71fc0764597d72e3fdbc23c652e4f433f9e6dc1989ade25aa8a82249"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L55",
+              "sectionSha256": "30d5a0bc71fc0764597d72e3fdbc23c652e4f433f9e6dc1989ade25aa8a82249"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L55",
+              "sectionSha256": "30d5a0bc71fc0764597d72e3fdbc23c652e4f433f9e6dc1989ade25aa8a82249"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L55",
+              "sectionSha256": "30d5a0bc71fc0764597d72e3fdbc23c652e4f433f9e6dc1989ade25aa8a82249"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L55",
+              "sectionSha256": "30d5a0bc71fc0764597d72e3fdbc23c652e4f433f9e6dc1989ade25aa8a82249"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh",
+            "prerequisite-logic-not-fully-encoded"
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "id": "candidate-901-technique-dfc786cc0abc11ef--ee7222473280",
+          "name": "一败加强",
+          "reading": {
+            "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+            "anchor": "L59",
+            "sectionSha256": "4a7e2067e3cdae94f51a5f736d161e8db6c20837487a8f529782b15c0862a922"
+          },
+          "sourceReferences": [
+            {
+              "path": "content/RE/02_resources/技艺/技巧/其他类型/纯粹被动/MUGEN能力.md",
+              "sha256": "b561a33ede8ad1a5eefedb4db666e2a31c14ef139e81f97077d949fc00e66267",
+              "lineRanges": [
+                [
+                  59,
+                  64
+                ]
+              ]
+            }
+          ],
+          "learning": {
+            "semanticStatus": "partial",
+            "prices": [
+              {
+                "grade": "S",
+                "currency": "XP",
+                "amount": 485,
+                "mode": "candidate-learning",
+                "basis": "reading-candidate-price",
+                "sourceRef": {
+                  "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+                  "anchor": "L59",
+                  "sectionSha256": "4a7e2067e3cdae94f51a5f736d161e8db6c20837487a8f529782b15c0862a922"
+                }
+              }
+            ],
+            "inheritCommonLearningConditions": true,
+            "emptyPriceMeaning": "not-an-independent-price; resolve containing resource or explicit shared price",
+            "transactionImplemented": false
+          },
+          "actions": {
+            "semanticStatus": "not-encoded",
+            "observedActionCombinations": [],
+            "programKeys": [],
+            "runtimeAvailable": false
+          },
+          "requirements": {
+            "inheritUnitId": "candidate-901-technique-dfc786cc0abc11ef--0ae594c1109f",
+            "semanticStatus": "shared-and-section-semantics-not-fully-encoded",
+            "all": [],
+            "commonPolicy": "actual-learning-source-and-qualification",
+            "runtimeEnforced": false
+          },
+          "upgrades": {
+            "semanticStatus": "partial",
+            "mode": "sequential-when-staged",
+            "explicitInheritanceObserved": false,
+            "defaultReference": "common/learning-and-inheritance",
+            "runtimeEnforced": false
+          },
+          "target": {
+            "semanticStatus": "partial",
+            "value": {
+              "range": [],
+              "area": []
+            },
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L59",
+              "sectionSha256": "4a7e2067e3cdae94f51a5f736d161e8db6c20837487a8f529782b15c0862a922"
+            }
+          },
+          "duration": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L59",
+              "sectionSha256": "4a7e2067e3cdae94f51a5f736d161e8db6c20837487a8f529782b15c0862a922"
+            }
+          },
+          "cooldown": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L59",
+              "sectionSha256": "4a7e2067e3cdae94f51a5f736d161e8db6c20837487a8f529782b15c0862a922"
+            }
+          },
+          "costs": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L59",
+              "sectionSha256": "4a7e2067e3cdae94f51a5f736d161e8db6c20837487a8f529782b15c0862a922"
+            }
+          },
+          "stacking": {
+            "semanticStatus": "shared-default-with-section-exceptions-not-encoded",
+            "reference": "common/same-source-and-inheritance"
+          },
+          "power": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L59",
+              "sectionSha256": "4a7e2067e3cdae94f51a5f736d161e8db6c20837487a8f529782b15c0862a922"
+            }
+          },
+          "schools": {
+            "semanticStatus": "partial",
+            "value": [],
+            "sourceRef": {
+              "path": "outputs/技艺适配-20261025/阅读版/104-MUGEN能力.md",
+              "anchor": "L59",
+              "sectionSha256": "4a7e2067e3cdae94f51a5f736d161e8db6c20837487a8f529782b15c0862a922"
+            }
+          },
+          "mechanisms": [],
+          "implementationGaps": [
+            "semantic-effect-encoding",
+            "duration-inheritance-and-no-implicit-refresh"
+          ],
+          "unresolvedRuleIds": []
+        }
+      ],
+      "runtimeSlices": [],
+      "acquisitionPolicy": {
+        "actualSourceRequired": true,
+        "xpPaymentRequired": true,
+        "timeGeneratesXP": false,
+        "candidateDoesNotGrantImperialEligibility": true,
+        "unresolvedBranchesRemainDisabled": true
+      },
+      "sharedRulesLock": "2f31e6384e6b0f078f72ffd104463526488a27128da66c88fae7542c1f13a9e7"
+    }
+  },
+  "clauses": [
+    {
+      "heading": "MUGEN能力",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "回血",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "回气",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "受身",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "偷跑",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "精防",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "霸体",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "大伤害免疫",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "精防回复",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "刚体",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "无限气",
+      "effectStats": [],
+      "status": "pending"
+    },
+    {
+      "heading": "一败加强",
+      "effectStats": [],
+      "status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "candidate-901-technique-dfc786cc0abc11ef--fbf7776a3be2--intent",
+      "name": "受身",
+      "operation": null,
+      "actionCost": {
+        "observedAlternatives": [
+          [
+            "reflex"
+          ]
+        ],
+        "semanticStatus": "partial"
+      },
+      "requiredChoice": null,
+      "requestFields": [
+        "actorId",
+        "resourceId",
+        "clauseId",
+        "targetIds",
+        "registeredChoice"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "candidate-901-technique-dfc786cc0abc11ef--fbf7776a3be2",
+      "blockedBy": [
+        "semantic-effect-encoding",
+        "program-grade-fixed-D-C",
+        "program-pool-fixed-imperial-or-guanlan",
+        "action-qualification-and-upgrade-gate",
+        "duration-inheritance-and-no-implicit-refresh"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "actualOwnership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "all"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "resourceId",
+        "version",
+        "grade",
+        "learned",
+        "adoptionStatus",
+        "qualificationVersion",
+        "source"
+      ]
+    },
+    {
+      "id": "attributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "formula-evaluation"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "力量",
+        "敏捷",
+        "智力",
+        "感知",
+        "意志",
+        "风度"
+      ],
+      "noLegendaryInference": true
+    },
+    {
+      "id": "effectiveAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "range-and-power-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "fields": [
+        "INT",
+        "PER",
+        "STR"
+      ],
+      "semantic": "effectiveAttribute; includes actual applicable modifiers; never substitute base attributes"
+    },
+    {
+      "id": "legendaryAttributes",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "L-formulas"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "expertise",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": [
+        "skill-formulas"
+      ],
+      "missingPolicy": "block-related-operation",
+      "model": "primary-plus-one-matching-subskill"
+    },
+    {
+      "id": "legalLearningSource",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "learning"
+      ],
+      "missingPolicy": "block-learning"
+    },
+    {
+      "id": "targetAndScene",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": [
+        "targeted-and-conditional-operations"
+      ],
+      "missingPolicy": "block-related-operation"
+    },
+    {
+      "id": "choices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": [
+        "enumerated-choices"
+      ],
+      "missingPolicy": "require-registered-choice-before-payment"
+    }
+  ],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "semantic-effect-encoding",
+    "duration-inheritance-and-no-implicit-refresh",
+    "program-grade-fixed-D-C",
+    "program-pool-fixed-imperial-or-guanlan",
+    "action-qualification-and-upgrade-gate",
+    "prerequisite-logic-not-fully-encoded"
+  ],
+  "verification": {
+    "status": "pending",
+    "sourceChecked": true,
+    "runtimeFullyVerified": false
+  }
+}
