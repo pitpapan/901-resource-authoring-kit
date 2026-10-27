@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/04-结界与召唤.md",
-    "sha256": "dc2c01ebd19c5cea1610fe4cfc2433805eaf289a2ad461fbc0cfa4df59167b80",
+    "sha256": "988fc6b403da3f345c1bce3caa96ac00730e8d6e2fa942fe29defcaed7e5a69e",
     "heading": "精神护甲"
   },
   "definition": {
@@ -147,6 +147,9 @@
       "operation": "cast",
       "actionCost": "standard",
       "requiredChoice": "actual-targets",
+      "choices": {},
+      "allocations": [],
+      "targetMode": "single",
       "requestFields": [
         "actorId",
         "objectId",
@@ -155,7 +158,9 @@
       ],
       "allowsModelNumericEffects": false,
       "route": "mechanism",
-      "objectType": "kitResource"
+      "objectType": "kitResource",
+      "immunityLifecycles": [],
+      "resistanceModes": []
     }
   ],
   "inputs": [

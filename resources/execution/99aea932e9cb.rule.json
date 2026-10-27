@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "bright.improved_initiative",
-  "version": "2026-10-23.1",
+  "version": "2026-10-25.4",
   "identity": {
     "name": "精通先攻2级",
     "grade": null,
@@ -28,7 +28,8 @@
       {
         "stat": "initiativeDefense",
         "value": 5,
-        "group": "feat"
+        "group": "feat",
+        "clauseId": "initiative-defense"
       }
     ],
     "legacyProfile": {
@@ -64,6 +65,10 @@
   "verification": {
     "status": "partial",
     "sourceChecked": true,
-    "runtimeFullyVerified": false
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/resource-effects.test.mjs",
+      "work/rules_engine/combat/declarative-actions.test.mjs"
+    ]
   }
 }

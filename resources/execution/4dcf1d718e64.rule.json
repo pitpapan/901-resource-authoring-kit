@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:C:加速术",
-  "version": "2026-10-23.1",
+  "version": "2026-10-26.2",
   "identity": {
     "name": "加速术",
     "grade": "C",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/03-变化与创造.md",
-    "sha256": "8d0986298b0d6cecdf1275819ea60ab47d2f8c29d4e24c47f117f1dee6d7b192",
+    "sha256": "aef74d24553f0c80dd83b118b6541ca81e202d075be87b8f84128b2c19b41669",
     "heading": "加速术"
   },
   "definition": {
@@ -28,24 +28,230 @@
     "requiresAllSchools": false,
     "schools": [
       "变化"
-    ]
+    ],
+    "programs": {
+      "cast": {
+        "action": [
+          "standard",
+          "swift"
+        ],
+        "target": "area",
+        "casting": true,
+        "components": [
+          "posture",
+          "language",
+          "focus"
+        ],
+        "range": {
+          "op": "mul",
+          "args": [
+            10,
+            {
+              "context": "INT"
+            },
+            {
+              "context": "P"
+            }
+          ]
+        },
+        "steps": [
+          {
+            "op": "effect",
+            "effects": [
+              {
+                "stat": "speed",
+                "value": {
+                  "op": "mul",
+                  "args": [
+                    5,
+                    {
+                      "context": "P"
+                    }
+                  ]
+                },
+                "group": "enhancement"
+              }
+            ],
+            "scene": true,
+            "exclusiveGroup": "haste",
+            "exclusivePolicy": "recipient-choice",
+            "actionPrice": {
+              "family": "physical",
+              "discount": {
+                "op": "floor",
+                "args": [
+                  {
+                    "op": "div",
+                    "args": [
+                      {
+                        "op": "mul",
+                        "args": [
+                          1,
+                          {
+                            "context": "P"
+                          }
+                        ]
+                      },
+                      3
+                    ]
+                  }
+                ]
+              },
+              "baseByAction": {
+                "weaponAttack": 5,
+                "move": 4,
+                "naturalAttack": 6,
+                "drawWeapon": 4,
+                "loadBow": 2,
+                "block": 4
+              },
+              "minimumAP": 1,
+              "perRound": 1,
+              "quotaKey": "haste"
+            }
+          }
+        ],
+        "area": {
+          "center": "point",
+          "radius": {
+            "op": "mul",
+            "args": [
+              5,
+              {
+                "context": "INT"
+              },
+              {
+                "context": "P"
+              }
+            ]
+          },
+          "selected": true
+        },
+        "precise": false
+      }
+    }
   },
   "clauses": [
     {
       "heading": "加速术",
       "effectStats": [],
-      "status": "pending"
+      "status": "partial"
     }
   ],
-  "actions": [],
-  "inputs": [],
+  "actions": [
+    {
+      "id": "cast",
+      "name": "加速术",
+      "operation": "cast",
+      "actionCost": [
+        "standard",
+        "swift"
+      ],
+      "requiredChoice": "actual-targets",
+      "choices": {},
+      "allocations": [],
+      "targetMode": "area",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false,
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "immunityLifecycles": [],
+      "resistanceModes": [],
+      "exclusiveEffects": [
+        {
+          "group": "haste",
+          "policy": "recipient-choice",
+          "choices": [
+            "keep",
+            "replace"
+          ],
+          "payment": "normal-cast",
+          "quota": "preserved"
+        }
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "ownership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "casting",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "targetIds",
+      "type": "array",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "components",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "pool",
+      "type": "string",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "exclusiveChoices",
+      "type": "object",
+      "provider": "recipient",
+      "requiredFor": "existing-exclusive-source-conflict",
+      "missingPolicy": "require_sourced_recipient_choice_of_actual_instance"
+    }
+  ],
   "unresolvedRules": [],
   "implementationGaps": [
-    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+    "已接通Q28/Q29的动作槽回退与免费豁免，普通/复合身体动作统一报价及支付；跨来源由受术者选择保留或替换；B以上版本尚未编写。",
+    "需执行级完整验证，检查等级/特殊关键词/版本变体；不可仅凭程序存在标记完成"
   ],
   "verification": {
-    "status": "pending",
+    "status": "partial",
     "sourceChecked": true,
-    "runtimeFullyVerified": false
-  }
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/resource-action-pricing.test.mjs",
+      "work/rules_engine/combat/declarative-actions.test.mjs",
+      "work/rules_engine/gm_runtime/resource-program.test.mjs"
+    ]
+  },
+  "adoptedDecisions": [
+    {
+      "id": "haste-exclusive-source-choice",
+      "source": "用户2026-10-24明确答复“采用，请继续”",
+      "rule": "受术者选择保留旧效果或换成新效果；新施法照常付费，替换使用新施法参数和期限，不重置角色本轮已用减费次数。"
+    },
+    {
+      "id": "physical-action-missing-raw-ap",
+      "question": "Q28",
+      "source": "用户2026-10-26明确“采用Q28，Q29，继续”；原文依据：901规则快照§4；PHB 非战斗行动与战斗行动；RE辅助动作.md:10、18–26，防御类动作.md:18–31，常用动作.md:149–151；00-施法通则.md:30–44",
+      "rule": "明示且与现行一致的原AP优先（已确认持武5、移动4、肉搏6、拔武器4、上箭2、普通格挡4）；无原AP或原RE价与现行冲突时，只为调价采用现有实际动作槽对应档位上界：迅捷2、移动4、标准6、标准＋迅捷8、标准＋移动10、三槽全用12。不改变未调价动作、不引入AP池，明确个别适配优先。"
+    },
+    {
+      "id": "free-physical-action-price-scope",
+      "question": "Q29",
+      "source": "用户2026-10-26明确“采用Q28，Q29，继续”；原文依据：901规则快照§4自由/借机；00-施法通则.md:42、44；时间魔术正文每轮第一次身体行动",
+      "rule": "原本免费的身体行动保持免费，不参与加减价，也不消耗每轮一次的调价额度；额度留给本轮第一个适用的有价身体行动。借机攻击仍遵守既有时机/次数，不增加次数。"
+    }
+  ]
 }

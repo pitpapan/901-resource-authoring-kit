@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:D:送入梦乡",
-  "version": "2026-10-23.1",
+  "version": "2026-10-24.4",
   "identity": {
     "name": "送入梦乡",
     "grade": "D",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/05-精神与幻术.md",
-    "sha256": "2e78ec6f3234a34d82cb62296e232f59e5b6f0db2c16bc235a9d544e38c6dcf4",
+    "sha256": "3bd05efeac6dc203de20098676817cac1d2ccbfdc05288c2b5f9b951d1c570e3",
     "heading": "送入梦乡"
   },
   "definition": {
@@ -68,13 +68,25 @@
                 1
               ]
             },
-            "gradeBonus": 1
+            "gradeBonus": 1,
+            "component": "main",
+            "immunityLifecycle": "suppress-existing"
           }
         ],
         "effectTypes": [
           "mind"
         ],
-        "effectGradeBonus": 1
+        "effectGradeBonus": 1,
+        "effectComponents": {
+          "main": {
+            "families": [
+              "mind",
+              "status:欲眠"
+            ],
+            "gradeBonus": 1,
+            "mode": "any-blocks"
+          }
+        }
       }
     }
   },
@@ -92,6 +104,9 @@
       "operation": "cast",
       "actionCost": "standard",
       "requiredChoice": "actual-targets",
+      "choices": {},
+      "allocations": [],
+      "targetMode": "single",
       "requestFields": [
         "actorId",
         "objectId",
@@ -100,7 +115,25 @@
       ],
       "allowsModelNumericEffects": false,
       "route": "mechanism",
-      "objectType": "kitResource"
+      "objectType": "kitResource",
+      "effectComponents": {
+        "main": {
+          "families": [
+            "mind",
+            "status:欲眠"
+          ],
+          "gradeBonus": 1,
+          "mode": "any-blocks"
+        }
+      },
+      "immunityLifecycles": [
+        {
+          "operation": "status",
+          "component": "main",
+          "policy": "suppress-existing"
+        }
+      ],
+      "resistanceModes": []
     }
   ],
   "inputs": [
@@ -147,6 +180,12 @@
   "verification": {
     "status": "partial",
     "sourceChecked": true,
-    "runtimeFullyVerified": false
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/resource-applicability.test.mjs",
+      "work/rules_engine/resource-resistance.test.mjs",
+      "work/rules_engine/gm_runtime/resource-program.test.mjs",
+      "work/rules_engine/resource-status-applicability.test.mjs"
+    ]
   }
 }

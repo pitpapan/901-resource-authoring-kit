@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:C:振奋",
-  "version": "2026-10-23.1",
+  "version": "2026-10-25.2",
   "identity": {
     "name": "振奋",
     "grade": "C",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/05-精神与幻术.md",
-    "sha256": "2e78ec6f3234a34d82cb62296e232f59e5b6f0db2c16bc235a9d544e38c6dcf4",
+    "sha256": "3bd05efeac6dc203de20098676817cac1d2ccbfdc05288c2b5f9b951d1c570e3",
     "heading": "振奋"
   },
   "definition": {
@@ -28,24 +28,209 @@
     "requiresAllSchools": false,
     "schools": [
       "心灵"
-    ]
+    ],
+    "programs": {
+      "cast": {
+        "action": "standard",
+        "target": "single",
+        "casting": true,
+        "components": [
+          "posture",
+          "language",
+          "focus"
+        ],
+        "range": {
+          "op": "mul",
+          "args": [
+            10,
+            {
+              "context": "INT"
+            },
+            {
+              "context": "P"
+            }
+          ]
+        },
+        "steps": [
+          {
+            "op": "effect",
+            "effects": [
+              {
+                "stat": "currentInitiative",
+                "value": {
+                  "op": "floor",
+                  "args": [
+                    {
+                      "op": "div",
+                      "args": [
+                        {
+                          "op": "mul",
+                          "args": [
+                            2,
+                            {
+                              "context": "P"
+                            }
+                          ]
+                        },
+                        3
+                      ]
+                    }
+                  ]
+                },
+                "group": "inspire"
+              },
+              {
+                "stat": "attack",
+                "value": {
+                  "op": "mul",
+                  "args": [
+                    3,
+                    {
+                      "context": "P"
+                    }
+                  ]
+                },
+                "group": "morale",
+                "when": {
+                  "test": "eq",
+                  "left": {
+                    "context": "higherInitiative"
+                  },
+                  "right": true
+                }
+              }
+            ],
+            "scene": true,
+            "targetSceneLimit": 1,
+            "turnOrder": "after-caster-turn",
+            "immunityLifecycle": "suppress",
+            "initialBlocked": "discard",
+            "component": "main"
+          }
+        ],
+        "willing": true,
+        "effectTypes": [
+          "mind"
+        ],
+        "effectGradeBonus": 0,
+        "effectComponents": {
+          "main": {
+            "families": [
+              "mind"
+            ],
+            "gradeBonus": 0,
+            "mode": "any-blocks"
+          }
+        }
+      }
+    }
   },
   "clauses": [
     {
       "heading": "振奋",
       "effectStats": [],
-      "status": "pending"
+      "status": "partial"
     }
   ],
-  "actions": [],
-  "inputs": [],
+  "actions": [
+    {
+      "id": "cast",
+      "name": "振奋",
+      "operation": "cast",
+      "actionCost": "standard",
+      "requiredChoice": "actual-targets",
+      "choices": {},
+      "allocations": [],
+      "targetMode": "single",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false,
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "effectComponents": {
+        "main": {
+          "families": [
+            "mind"
+          ],
+          "gradeBonus": 0,
+          "mode": "any-blocks"
+        }
+      },
+      "immunityLifecycles": [
+        {
+          "operation": "effect",
+          "component": "main",
+          "policy": "suppress"
+        }
+      ],
+      "resistanceModes": [],
+      "turnOrder": "after-caster-turn",
+      "targetSceneLimit": 1
+    }
+  ],
+  "inputs": [
+    {
+      "id": "ownership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "casting",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "targetIds",
+      "type": "array",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "components",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "pool",
+      "type": "string",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "willingTargets",
+      "type": "array",
+      "provider": "target",
+      "requiredFor": "cast",
+      "missingPolicy": "require_actual_willingness"
+    }
+  ],
   "unresolvedRules": [],
   "implementationGaps": [
-    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+    "C级每目标每场景一次，数值立即生效、顺位在施法者行动结束调整；A级多目标版本尚未编写",
+    "需执行级完整验证，检查等级/特殊关键词/版本变体；不可仅凭程序存在标记完成"
   ],
   "verification": {
-    "status": "pending",
+    "status": "partial",
     "sourceChecked": true,
-    "runtimeFullyVerified": false
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/gm_runtime/resource-program.test.mjs",
+      "work/rules_engine/resource-turn-order.test.mjs",
+      "work/rules_engine/resource-applicability.test.mjs",
+      "work/rules_engine/resource-resistance.test.mjs",
+      "work/rules_engine/resource-status-applicability.test.mjs"
+    ]
   }
 }

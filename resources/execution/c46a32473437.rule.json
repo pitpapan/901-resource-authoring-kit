@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:C:寒冰护体",
-  "version": "2026-10-23.1",
+  "version": "2026-10-26.3",
   "identity": {
     "name": "寒冰护体",
     "grade": "C",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/04-结界与召唤.md",
-    "sha256": "dc2c01ebd19c5cea1610fe4cfc2433805eaf289a2ad461fbc0cfa4df59167b80",
+    "sha256": "988fc6b403da3f345c1bce3caa96ac00730e8d6e2fa942fe29defcaed7e5a69e",
     "heading": "寒冰护体"
   },
   "definition": {
@@ -28,24 +28,151 @@
     "requiresAllSchools": false,
     "schools": [
       "结界"
-    ]
+    ],
+    "programs": {
+      "cast": {
+        "action": "standard",
+        "target": "self",
+        "casting": true,
+        "cost": 3,
+        "components": [
+          "posture",
+          "language",
+          "focus"
+        ],
+        "cooldown": 1,
+        "steps": [
+          {
+            "op": "temporaryHealth",
+            "amount": {
+              "op": "mul",
+              "args": [
+                2,
+                {
+                  "context": "P"
+                }
+              ]
+            },
+            "scene": true,
+            "onDepleted": {
+              "resourceId": "imperial-magic:D:寒冷新星",
+              "operation": "cast",
+              "grade": "D",
+              "power": 3,
+              "snapshot": "installation",
+              "boundary": "after-damage-event"
+            }
+          }
+        ],
+        "supportedGrades": [
+          "C"
+        ]
+      }
+    }
   },
   "clauses": [
     {
       "heading": "寒冰护体",
       "effectStats": [],
-      "status": "pending"
+      "status": "partial"
     }
   ],
-  "actions": [],
-  "inputs": [],
+  "actions": [
+    {
+      "id": "cast",
+      "operation": "cast",
+      "name": "寒冰护体",
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "allowsModelNumericEffects": false,
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "supportedGrades": [
+        "C"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "ownership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "casting",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "targetIds",
+      "type": "array",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "components",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "pool",
+      "type": "string",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    }
+  ],
   "unresolvedRules": [],
   "implementationGaps": [
-    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+    "C基础护体与共享快照/自动队列已编写，须完成针对性、MVU及全回归验证。",
+    "B以上变体、全部关键词与其他自动引用类型尚未全部接入。"
   ],
   "verification": {
-    "status": "pending",
+    "status": "partial",
     "sourceChecked": true,
-    "runtimeFullyVerified": false
-  }
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/resource-temporary-health.test.mjs",
+      "work/rules_engine/mvu_poc/adapter.test.mjs",
+      "work/rules_engine/gm_runtime/resource-program.test.mjs"
+    ]
+  },
+  "authoring": {
+    "executionSource": "contract"
+  },
+  "adoptedDecisions": [
+    {
+      "id": "triggered-spell-caster-snapshot",
+      "question": "Q31",
+      "source": "用户2026-10-26“全部采用，继续”；原依据：RE C级通用魔法/结界1.md:61—63；D级通用魔法/塑能.md:97—109；FAQ:150—151；维护04-结界与召唤.md寒冰护体",
+      "rule": "采用护体建立时实际相关施术数据的最小快照，触发时新掷一次施法骰，不复用旧成功数；C护体的引用新星仍D基础P3，不另收费，也不继承对寒冷新星单项的专门强化。目标位置、当前免疫和豁免使用触发时数据。"
+    },
+    {
+      "id": "temporary-depletion-trigger-resolution-boundary",
+      "question": "Q32",
+      "source": "用户2026-10-26“全部采用，继续”；原依据：RE伤害处理流程:45—52（临时生命16、降级17、生命损失18）；C级结界1:63；生命值:99；场景与动作:118、120只明确反射/准备的中断",
+      "rule": "耗尽条件当场锁定一次，先完成本笔原伤害事件（包括已声明附伤），再按耗尽发生顺序执行自动效果；已经锁定的效果不因后续余伤令持有者死亡而取消，也不回滚原攻击。死亡结束、到期、驱散、替换不等于伤害耗尽，不触发新星。"
+    },
+    {
+      "id": "fixed-area-automatic-batch-boundary",
+      "question": "Q34",
+      "status": "adopted",
+      "source": "RE D级通用魔法/塑能.md:109；C级通用魔法/塑能1.md:82；FAQ:236—242仅明示多目标攻击检定顺序；伤害处理流程:91只处理同目标多类型；规则术语解释:30",
+      "issue": "同一次定值区域施放涉及多个目标时，未规定耗尽/死亡自动链可否在各目标之间插入；Q32没有确定跨目标的原事件边界。",
+      "impact": "较早目标爆发可改变尚未处理目标的防护、状态和存活；同一法术不应由actor对象遍历顺序暗定结果。",
+      "adoption": "用户本轮“采用 继续”，采用Q33、Q34。",
+      "decision": "先固定本次区域目标，完成全部目标的本术伤害/状态并锁定触发，再消费自动队列；连锁产生的新区域效果也按批次完成。仅限定定值区域自动链，不改FAQ已有多目标攻击检定规则。已采用。"
+    }
+  ]
 }

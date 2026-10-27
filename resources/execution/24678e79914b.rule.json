@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:D:识破隐形",
-  "version": "2026-10-23.1",
+  "version": "2026-10-26.1",
   "identity": {
     "name": "识破隐形",
     "grade": "D",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/06-预言与诅咒.md",
-    "sha256": "9605c98875816313e985071ed8520755ae1ebcb4285b088f0b9c66c79a28dc3a",
+    "sha256": "be6fce45599359c7eea27ce5327c0c273e0e4d87174d0815c53d6a9cefe733b6",
     "heading": "识破隐形"
   },
   "definition": {
@@ -56,7 +56,30 @@
             },
             "rangePolicy": "existing-senses",
             "lineOfEffect": true,
-            "scene": true
+            "scene": true,
+            "sensory": {
+              "enhanceExisting": true,
+              "grants": [
+                {
+                  "id": "blindSense",
+                  "minimumGrade": 1,
+                  "rangeBasis": "vague",
+                  "maximumPrecision": "vague",
+                  "automaticDetection": true,
+                  "lineOfEffect": true,
+                  "visualIllusionImmunity": true
+                },
+                {
+                  "id": "blindSight",
+                  "minimumGrade": 2,
+                  "rangeBasis": "sensitive",
+                  "maximumPrecision": "exact",
+                  "automaticDetection": true,
+                  "lineOfEffect": true,
+                  "visualIllusionImmunity": true
+                }
+              ]
+            }
           }
         ],
         "willing": true
@@ -81,6 +104,9 @@
       "operation": "cast",
       "actionCost": "standard",
       "requiredChoice": "actual-targets",
+      "choices": {},
+      "allocations": [],
+      "targetMode": "single",
       "requestFields": [
         "actorId",
         "objectId",
@@ -89,7 +115,9 @@
       ],
       "allowsModelNumericEffects": false,
       "route": "mechanism",
-      "objectType": "kitResource"
+      "objectType": "kitResource",
+      "immunityLifecycles": [],
+      "resistanceModes": []
     }
   ],
   "inputs": [
@@ -131,12 +159,14 @@
   ],
   "unresolvedRules": [],
   "implementationGaps": [
-    "感官范围与地图定位联动",
-    "需执行级完整验证，检查等级/特殊关键词/版本变体；不可仅凭程序存在标记完成"
+    "实际感官增强、盲感/盲视消费者已接，缺少实际既有感知范围时保持needs_input；跨设备派生与全部变体仍未完整验证。"
   ],
   "verification": {
     "status": "partial",
     "sourceChecked": true,
     "runtimeFullyVerified": false
+  },
+  "authoring": {
+    "executionSource": "contract"
   }
 }

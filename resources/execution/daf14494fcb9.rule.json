@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:D:恐惧术",
-  "version": "2026-10-23.1",
+  "version": "2026-10-24.5",
   "identity": {
     "name": "恐惧术",
     "grade": "D",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/05-精神与幻术.md",
-    "sha256": "2e78ec6f3234a34d82cb62296e232f59e5b6f0db2c16bc235a9d544e38c6dcf4",
+    "sha256": "3bd05efeac6dc203de20098676817cac1d2ccbfdc05288c2b5f9b951d1c570e3",
     "heading": "恐惧术"
   },
   "definition": {
@@ -51,52 +51,6 @@
             }
           ]
         },
-        "steps": [
-          {
-            "op": "save",
-            "type": "will",
-            "penalty": 0
-          },
-          {
-            "op": "status",
-            "type": "恐惧",
-            "points": {
-              "op": "min",
-              "args": [
-                {
-                  "op": "max",
-                  "args": [
-                    0,
-                    {
-                      "op": "sub",
-                      "args": [
-                        {
-                          "context": "cast"
-                        },
-                        {
-                          "context": "save"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "op": "mul",
-                  "args": [
-                    3,
-                    {
-                      "context": "P"
-                    }
-                  ]
-                }
-              ]
-            },
-            "resistance": "none",
-            "properties": {
-              "decayPerRound": 1
-            }
-          }
-        ],
         "check": {
           "attribute": "智力",
           "skill": "神秘",
@@ -108,7 +62,42 @@
         "effectTypes": [
           "mind"
         ],
-        "effectGradeBonus": 1
+        "effectGradeBonus": 1,
+        "effectComponents": {
+          "main": {
+            "families": [
+              "mind",
+              "status:恐惧"
+            ],
+            "gradeBonus": 1,
+            "mode": "any-blocks"
+          }
+        },
+        "recipe": {
+          "id": "opposed-status",
+          "version": 1,
+          "clauseId": "base",
+          "args": {
+            "component": "main",
+            "saveType": "will",
+            "active": {
+              "context": "cast"
+            },
+            "maximumPoints": {
+              "op": "mul",
+              "args": [
+                3,
+                {
+                  "context": "P"
+                }
+              ]
+            },
+            "statusType": "恐惧",
+            "properties": {
+              "decayPerRound": 1
+            }
+          }
+        }
       }
     },
     "schools": [
@@ -120,7 +109,8 @@
     {
       "heading": "恐惧术",
       "effectStats": [],
-      "status": "partial"
+      "status": "partial",
+      "id": "base"
     }
   ],
   "actions": [
@@ -128,7 +118,6 @@
       "id": "cast",
       "name": "恐惧术",
       "operation": "cast",
-      "actionCost": "standard",
       "requiredChoice": "actual-targets",
       "requestFields": [
         "actorId",
@@ -185,6 +174,17 @@
   "verification": {
     "status": "partial",
     "sourceChecked": true,
-    "runtimeFullyVerified": false
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/resource-applicability.test.mjs",
+      "work/rules_engine/resource-resistance.test.mjs",
+      "work/rules_engine/gm_runtime/resource-program.test.mjs",
+      "work/rules_engine/resource-status-applicability.test.mjs",
+      "901-resource-authoring-kit/tools/test_resource_recipes.py"
+    ]
+  },
+  "authoring": {
+    "executionSource": "contract",
+    "migration": "2026-10-24.5; reviewed existing opposed-status program; author_spell_programs must not overwrite"
   }
 }

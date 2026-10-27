@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:D:解析抗力",
-  "version": "2026-10-23.1",
+  "version": "2026-10-26.1",
   "identity": {
     "name": "解析抗力",
     "grade": "D",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/06-预言与诅咒.md",
-    "sha256": "9605c98875816313e985071ed8520755ae1ebcb4285b088f0b9c66c79a28dc3a",
+    "sha256": "be6fce45599359c7eea27ce5327c0c273e0e4d87174d0815c53d6a9cefe733b6",
     "heading": "解析抗力"
   },
   "definition": {
@@ -32,24 +32,155 @@
     "requiresAllSchools": false,
     "schools": [
       "预言"
-    ]
+    ],
+    "programs": {
+      "cast": {
+        "action": "free",
+        "target": "single",
+        "casting": true,
+        "components": [
+          "posture",
+          "language",
+          "focus"
+        ],
+        "spellResistance": "ignore",
+        "range": {
+          "op": "mul",
+          "args": [
+            10,
+            {
+              "context": "INT"
+            },
+            {
+              "context": "P"
+            }
+          ]
+        },
+        "effectComponents": {
+          "analysis": {
+            "families": [
+              "divination"
+            ],
+            "gradeBonus": 1
+          }
+        },
+        "steps": [
+          {
+            "op": "inspectStat",
+            "stat": "spellResistance",
+            "component": "analysis"
+          },
+          {
+            "op": "effect",
+            "component": "analysis",
+            "immunityLifecycle": "suppress",
+            "scene": true,
+            "effects": [
+              {
+                "stat": "spellResistance",
+                "value": {
+                  "op": "mul",
+                  "args": [
+                    -3,
+                    {
+                      "context": "P"
+                    }
+                  ]
+                },
+                "group": "resistance-analysis",
+                "when": {
+                  "test": "eq",
+                  "left": {
+                    "context": "casterId"
+                  },
+                  "right": {
+                    "choice": "casterId"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
   },
   "clauses": [
     {
       "heading": "解析抗力",
       "effectStats": [],
-      "status": "pending"
+      "status": "partial"
     }
   ],
-  "actions": [],
-  "inputs": [],
+  "actions": [
+    {
+      "id": "cast",
+      "operation": "cast",
+      "name": "解析抗力",
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "allowsModelNumericEffects": false,
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "ownership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "casting",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "targetIds",
+      "type": "array",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "components",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "pool",
+      "type": "string",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    }
+  ],
   "unresolvedRules": [],
   "implementationGaps": [
-    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+    "D/C基础施放、实际施术者法抗作用域、最低0、领域刷新与信息收据已接通并作本地针对性验证；仍需完整候选回归。",
+    "所有变体与特殊关键词、NPC取得链路尚未完整验证。"
   ],
   "verification": {
-    "status": "pending",
+    "status": "partial",
     "sourceChecked": true,
-    "runtimeFullyVerified": false
-  }
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/gm_runtime/resource-program.test.mjs"
+    ]
+  },
+  "authoring": {
+    "executionSource": "contract"
+  },
+  "scopeNotes": [
+    "不受法抗本身影响；减抗仅对本次实际施术者，法抗最低0。查询只返回实际法抗数值，经过通用非视觉探知延迟，不能凭信息授予能力或替其他人减抗。"
+  ]
 }

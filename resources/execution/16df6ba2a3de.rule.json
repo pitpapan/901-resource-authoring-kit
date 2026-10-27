@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:D:隐形术",
-  "version": "2026-10-23.1",
+  "version": "2026-10-26.3",
   "identity": {
     "name": "隐形术",
     "grade": "D",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/05-精神与幻术.md",
-    "sha256": "2e78ec6f3234a34d82cb62296e232f59e5b6f0db2c16bc235a9d544e38c6dcf4",
+    "sha256": "3bd05efeac6dc203de20098676817cac1d2ccbfdc05288c2b5f9b951d1c570e3",
     "heading": "隐形术"
   },
   "definition": {
@@ -32,24 +32,189 @@
     "requiresAllSchools": false,
     "schools": [
       "幻术"
-    ]
+    ],
+    "programs": {
+      "cast": {
+        "action": "standard",
+        "target": "single",
+        "casting": true,
+        "components": [
+          "posture",
+          "language",
+          "focus"
+        ],
+        "range": 1.5,
+        "contact": true,
+        "willing": true,
+        "steps": [
+          {
+            "op": "capability",
+            "id": "antiDetection",
+            "gradeBonus": 1,
+            "mode": "sensory",
+            "scene": true
+          },
+          {
+            "op": "effect",
+            "scene": true,
+            "effects": [
+              {
+                "stat": "flatFootedLevel",
+                "value": {
+                  "context": "rank"
+                },
+                "when": {
+                  "all": [
+                    {
+                      "test": "ne",
+                      "left": {
+                        "context": "defenderLocation"
+                      },
+                      "right": "exact"
+                    },
+                    {
+                      "test": "eq",
+                      "left": {
+                        "context": "defenderDiscovered"
+                      },
+                      "right": false
+                    },
+                    {
+                      "test": "contains",
+                      "left": {
+                        "context": "effectiveConcealmentInstances"
+                      },
+                      "right": {
+                        "context": "effectInstanceId"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
   },
   "clauses": [
     {
       "heading": "隐形术",
-      "effectStats": [],
-      "status": "pending"
+      "effectStats": [
+        "flatFootedLevel"
+      ],
+      "status": "partial"
     }
   ],
-  "actions": [],
-  "inputs": [],
+  "actions": [
+    {
+      "id": "cast",
+      "name": "隐形术",
+      "operation": "cast",
+      "actionCost": "standard",
+      "requiredChoice": "actual-targets",
+      "targetMode": "single",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false,
+      "route": "mechanism",
+      "objectType": "kitResource"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "ownership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "casting",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "targetIds",
+      "type": "array",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "components",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "pool",
+      "type": "string",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "willingTargets",
+      "type": "array",
+      "provider": "target",
+      "requiredFor": "cast",
+      "missingPolicy": "require_actual_willingness"
+    }
+  ],
   "unresolvedRules": [],
   "implementationGaps": [
-    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+    "基础施放、等级/心灵免疫、全实际感官反侦测、发现历史与攻击暴露已接；主动/间接感知、装备及全掩蔽生物派生保护仍待接入，不等同完整验证。"
   ],
   "verification": {
-    "status": "pending",
+    "status": "partial",
     "sourceChecked": true,
-    "runtimeFullyVerified": false
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/gm_runtime/resource-program.test.mjs",
+      "work/rules_engine/resource-discovery.test.mjs"
+    ]
+  },
+  "adoptedDecisions": [
+    {
+      "id": "invisibility-rediscovery-after-hiding",
+      "question": "Q41",
+      "status": "adopted",
+      "source": "RE D级通用魔法/幻术1.md:59；侦测与定位.md:17、65—70、139；规则术语解释.md:175",
+      "issue": "隐形术增强措手不及针对“未发现其”的受害者；攻击后会得到模糊位置，移动可使旧位置失效，但没有写移动/重新躲藏会清除已经发现其存在的判定。",
+      "impact": "决定同一场景中成功重新隐藏能否反复获得法术等级的增强措手不及；不能以当前none定位直接代替从未发现。",
+      "decision": "保留发现历史：同场景已发现存在者，单纯移动或重新隐藏不恢复增强措手不及；未精确定位时仍可适用普通无支线隐形优势。明确遗忘/记忆改变另依有来源的效果。",
+      "adoption": "用户2026-10-26明确答复：全部采用，继续推进（Q41/Q42/Q43）。"
+    },
+    {
+      "id": "ordinary-invisibility-sensory-channels",
+      "question": "Q42",
+      "status": "adopted",
+      "source": "RE D级通用魔法/幻术1.md:58—59；侦测与定位.md:50—56、111—113；规则术语解释.md:181",
+      "issue": "隐形术叙述为“消去受术者的身形”，机制给未限定感官的反侦测等级；通用流程逐感官比较，条目却未列听觉/嗅觉/盲感等通道覆盖或排除。",
+      "impact": "决定隐形术capability.channels只含visual还是覆盖各实际感官；不能靠技能名称断言能无视另一类感官。",
+      "decision": "按未限定的反侦测通则覆盖实际已有感官，不额外静音、抹除足迹或消除攻击/施法的独立暴露线索；明确写感官限定的其他来源另按channels。幻身咒继续走心灵效果，不据此改成视觉幻术。",
+      "adoption": "用户2026-10-26明确答复：全部采用，继续推进（Q41/Q42/Q43）。"
+    },
+    {
+      "id": "passive-concealment-movement-accumulation",
+      "question": "Q43",
+      "status": "adopted",
+      "source": "RE侦测与定位.md:59、83；场景与动作.md:20—22；用户Q24/Q26的回合制周期采用记录",
+      "issue": "被动条款仅写“在自己的行动中”移动超半速，每超1米躲藏−1且持续一轮，未明说单次移动动作还是本行动阶段累计；主动侦查则明确本回合和上回合总移动。这是距离取值窗口，不重问Q24/Q26中多个动作是否属于同一轮。",
+      "impact": "标准动作转移动等连续移动时的隐藏减值，以及行动者/观察者先后顺序所用的保存期限不同；实际距离已能记录，不是尚未编程冒充缺参数。",
+      "decision": "被动检定累计本角色本次行动阶段的主动移动，超过半速的累计米数产生减值，保留到该角色下次行动开始；主动侦查保留原文明示的本回合＋上回合总移动窗口。",
+      "adoption": "用户2026-10-26明确答复：全部采用，继续推进（Q41/Q42/Q43）。"
+    }
+  ],
+  "authoring": {
+    "executionSource": "contract"
   }
 }

@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/01-塑能.md",
-    "sha256": "59608609417e520c2328fd4593a42d9da86064c47b1e226911f670bb0dd636eb",
+    "sha256": "8ada5f178afeea3f5ed53e580b3b0dd91b6a09cdcce30a423b06403d0cb0d209",
     "heading": "魔法飞弹"
   },
   "definition": {
@@ -108,6 +108,9 @@
       "operation": "cast",
       "actionCost": "standard",
       "requiredChoice": "actual-targets",
+      "choices": {},
+      "allocations": [],
+      "targetMode": "single",
       "requestFields": [
         "actorId",
         "objectId",
@@ -116,7 +119,9 @@
       ],
       "allowsModelNumericEffects": false,
       "route": "mechanism",
-      "objectType": "kitResource"
+      "objectType": "kitResource",
+      "immunityLifecycles": [],
+      "resistanceModes": []
     }
   ],
   "inputs": [

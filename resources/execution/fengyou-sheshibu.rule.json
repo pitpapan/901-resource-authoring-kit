@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "fengyou-sheshibu",
-  "version": "2026-10-23.1",
+  "version": "2026-10-25.8",
   "identity": {
     "name": "风游涉世步",
     "grade": "D",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/fengyou-sheshibu.md",
-    "sha256": "148337a417b03a5cc1d1ef5c39b887a7aa125a0687bc1b041630469a1ea5a993"
+    "sha256": "0aadce68bcdc23728cd8ea9557d9499a29fe148762bc9c05a283e698547702ab"
   },
   "definition": {
     "source": "resources/fengyou-sheshibu.md",
@@ -183,12 +183,23 @@
   ],
   "unresolvedRules": [],
   "implementationGaps": [
-    "特殊地形、落脚点与助跑条件接地图",
+    "实际跳跃已接Q17/Q18落地基线、动作支付/跨动作续算；液面/倒置面等特殊支撑与结束承重联动仍需完整几何消费者",
     "受击时五尺路径选择、反射锁和伤害转换的完整事务"
   ],
   "verification": {
     "status": "partial",
     "sourceChecked": true,
-    "runtimeFullyVerified": false
-  }
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/gm_runtime/rule-actions.test.mjs: wind footwork / adopted jump / jump receipt",
+      "work/rules_engine/combat/jumping.test.mjs"
+    ]
+  },
+  "adoptedDecisions": [
+    {
+      "id": "running-qualification-landing-baseline",
+      "source": "用户2026-10-25 Q17/Q18采用",
+      "rule": "无实际助跑落地基线保留本人有效视为助跑资格及自身身体/跳跃强化，排除实际助跑DP和外部强化。"
+    }
+  ]
 }

@@ -1,0 +1,4754 @@
+{
+  "capabilities": {
+    "schemaVersion": "901-program-capabilities/1",
+    "operators": {
+      "projectionControl": {
+        "apiVersion": 1,
+        "domain": "scene-objects",
+        "lifecycles": [],
+        "validation": "closed-fields-v1",
+        "fields": {
+          "op": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "component": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "condition"
+          },
+          "gradeBonus": {
+            "type": "integer"
+          },
+          "immunityLifecycle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "immunityScaling": {
+            "type": "string",
+            "minLength": 1
+          },
+          "mode": {
+            "type": "string",
+            "enum": [
+              "complete",
+              "alter"
+            ]
+          }
+        },
+        "required": [
+          "mode"
+        ],
+        "reads": [
+          "source.projection",
+          "plan.projection"
+        ],
+        "produces": {
+          "scope": "target",
+          "writes": [
+            "source.projection"
+          ]
+        },
+        "outputs": {
+          "default": {
+            "type": "object",
+            "additional": true
+          }
+        }
+      },
+      "instantDeath": {
+        "apiVersion": 1,
+        "domain": "death",
+        "lifecycles": [],
+        "validation": "closed-fields-v1",
+        "fields": {
+          "op": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "component": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "condition"
+          },
+          "gradeBonus": {
+            "type": "integer"
+          },
+          "immunityLifecycle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "immunityScaling": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [],
+        "reads": [
+          "target.immunities",
+          "target.resourceSceneUsage"
+        ],
+        "produces": {
+          "scope": "target",
+          "writes": [
+            "health.dead",
+            "resourceSceneUsage"
+          ]
+        },
+        "outputs": {
+          "default": {
+            "type": "object",
+            "fields": {
+              "op": {
+                "type": "string",
+                "enum": [
+                  "instantDeath"
+                ]
+              }
+            },
+            "required": [
+              "op"
+            ],
+            "additional": true
+          }
+        }
+      },
+      "revive": {
+        "apiVersion": 1,
+        "domain": "death",
+        "lifecycles": [],
+        "validation": "closed-fields-v1",
+        "fields": {
+          "op": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "component": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "condition"
+          },
+          "gradeBonus": {
+            "type": "integer"
+          },
+          "immunityLifecycle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "immunityScaling": {
+            "type": "string",
+            "minLength": 1
+          },
+          "mode": {
+            "type": "string",
+            "enum": [
+              "one-impact-from-death"
+            ]
+          },
+          "maximum": {
+            "type": "number",
+            "expression": true
+          }
+        },
+        "required": [
+          "mode"
+        ],
+        "reads": [
+          "target.deathRestrictions",
+          "target.health"
+        ],
+        "produces": {
+          "scope": "target",
+          "writes": [
+            "health",
+            "woundLedger",
+            "resourceSceneUsage"
+          ]
+        },
+        "outputs": {
+          "default": {
+            "type": "object",
+            "fields": {
+              "op": {
+                "type": "string",
+                "enum": [
+                  "revive"
+                ]
+              },
+              "recovered": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "op",
+              "recovered"
+            ],
+            "additional": true
+          }
+        }
+      },
+      "inspectStat": {
+        "apiVersion": 1,
+        "domain": "perception",
+        "lifecycles": [],
+        "validation": "closed-fields-v1",
+        "fields": {
+          "op": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "component": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "condition"
+          },
+          "gradeBonus": {
+            "type": "integer"
+          },
+          "immunityLifecycle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "immunityScaling": {
+            "type": "string",
+            "minLength": 1
+          },
+          "stat": {
+            "type": "string",
+            "enum": [
+              "spellResistance"
+            ]
+          }
+        },
+        "required": [
+          "stat"
+        ],
+        "reads": [
+          "target.resistance",
+          "context.casterId"
+        ],
+        "produces": {
+          "scope": "target",
+          "writes": [
+            "perception.receipts"
+          ]
+        },
+        "outputs": {
+          "default": {
+            "type": "object",
+            "fields": {
+              "op": {
+                "type": "string",
+                "enum": [
+                  "inspectStat"
+                ]
+              },
+              "stat": {
+                "type": "string",
+                "minLength": 1
+              },
+              "observation": {
+                "type": "object",
+                "additional": true
+              }
+            },
+            "required": [
+              "op",
+              "stat",
+              "observation"
+            ]
+          }
+        }
+      },
+      "additionalDamage": {
+        "apiVersion": 1,
+        "domain": "damage-additions",
+        "lifecycles": [],
+        "validation": "closed-fields-v1",
+        "requiresEvent": "attackDamageCaused",
+        "fields": {
+          "op": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "component": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "condition"
+          },
+          "gradeBonus": {
+            "type": "integer"
+          },
+          "immunityLifecycle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "immunityScaling": {
+            "type": "string",
+            "minLength": 1
+          },
+          "amount": {
+            "type": "number",
+            "expression": true
+          },
+          "mode": {
+            "type": "string",
+            "enum": [
+              "same-type"
+            ]
+          }
+        },
+        "required": [
+          "amount",
+          "mode"
+        ],
+        "reads": [
+          "event.damageReceipt"
+        ],
+        "produces": {
+          "scope": "target",
+          "writes": [
+            "event.additionalDamage"
+          ]
+        },
+        "outputs": {
+          "default": {
+            "type": "object",
+            "fields": {
+              "op": {
+                "type": "string",
+                "enum": [
+                  "additionalDamage"
+                ]
+              },
+              "amount": {
+                "type": "number"
+              },
+              "mode": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sourceId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "casterId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "grade": {
+                "type": "string",
+                "minLength": 1
+              },
+              "magical": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "op",
+              "amount",
+              "mode",
+              "sourceId",
+              "casterId",
+              "grade",
+              "magical"
+            ]
+          }
+        }
+      },
+      "save": {
+        "apiVersion": 1,
+        "domain": "resistance",
+        "lifecycles": [],
+        "validation": "closed-fields-v1",
+        "fields": {
+          "op": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "component": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "condition"
+          },
+          "gradeBonus": {
+            "type": "integer"
+          },
+          "immunityLifecycle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "immunityScaling": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "will",
+                  "fort",
+                  "reflex"
+                ]
+              },
+              {
+                "type": "object",
+                "fields": {
+                  "recipientChoice": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "options": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "enum": [
+                        "will",
+                        "fort",
+                        "reflex"
+                      ]
+                    }
+                  }
+                },
+                "required": [
+                  "recipientChoice",
+                  "options"
+                ]
+              }
+            ]
+          },
+          "penalty": {
+            "type": "number",
+            "expression": true
+          },
+          "mental": {
+            "type": "boolean"
+          },
+          "as": {
+            "type": "string",
+            "minLength": 1
+          },
+          "resultAs": {
+            "type": "string",
+            "minLength": 1
+          },
+          "resolve": {
+            "type": "object",
+            "fields": {
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "roll",
+                  "opposed",
+                  "threshold",
+                  "subtract"
+                ]
+              },
+              "active": {
+                "type": "number",
+                "expression": true
+              },
+              "dc": {
+                "type": "number",
+                "expression": true
+              },
+              "incoming": {
+                "type": "number",
+                "expression": true
+              },
+              "perSuccess": {
+                "type": "number",
+                "expression": true
+              }
+            },
+            "required": [
+              "kind"
+            ]
+          }
+        },
+        "required": [
+          "type"
+        ],
+        "reads": [
+          "target.saveProfile",
+          "context.cast"
+        ],
+        "produces": {
+          "scope": "target",
+          "scalar": "as|save",
+          "receipt": "resultAs|as|save",
+          "variants": {
+            "roll": {
+              "type": "object",
+              "fields": {
+                "kind": {
+                  "type": "string",
+                  "enum": [
+                    "roll"
+                  ]
+                },
+                "total": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "kind",
+                "total"
+              ]
+            },
+            "opposed": {
+              "type": "object",
+              "fields": {
+                "kind": {
+                  "type": "string",
+                  "enum": [
+                    "opposed"
+                  ]
+                },
+                "activeTotal": {
+                  "type": "number"
+                },
+                "passiveTotal": {
+                  "type": "number"
+                },
+                "success": {
+                  "type": "boolean"
+                },
+                "margin": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "kind",
+                "activeTotal",
+                "passiveTotal",
+                "success",
+                "margin"
+              ]
+            },
+            "threshold": {
+              "type": "object",
+              "fields": {
+                "kind": {
+                  "type": "string",
+                  "enum": [
+                    "threshold"
+                  ]
+                },
+                "total": {
+                  "type": "number"
+                },
+                "dc": {
+                  "type": "number"
+                },
+                "success": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "kind",
+                "total",
+                "dc",
+                "success"
+              ]
+            },
+            "subtract": {
+              "type": "object",
+              "fields": {
+                "kind": {
+                  "type": "string",
+                  "enum": [
+                    "subtract"
+                  ]
+                },
+                "incoming": {
+                  "type": "number"
+                },
+                "successes": {
+                  "type": "number"
+                },
+                "perSuccess": {
+                  "type": "number"
+                },
+                "remaining": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "kind",
+                "incoming",
+                "successes",
+                "perSuccess",
+                "remaining"
+              ]
+            }
+          }
+        },
+        "consumers": [
+          "resistance.resolve",
+          "status.resistance",
+          "damage.resistance"
+        ],
+        "outputs": {
+          "roll": {
+            "type": "object",
+            "fields": {
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "roll"
+                ]
+              },
+              "total": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "kind",
+              "total"
+            ]
+          },
+          "opposed": {
+            "type": "object",
+            "fields": {
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "opposed"
+                ]
+              },
+              "activeTotal": {
+                "type": "number"
+              },
+              "passiveTotal": {
+                "type": "number"
+              },
+              "success": {
+                "type": "boolean"
+              },
+              "margin": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "kind",
+              "activeTotal",
+              "passiveTotal",
+              "success",
+              "margin"
+            ]
+          },
+          "threshold": {
+            "type": "object",
+            "fields": {
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "threshold"
+                ]
+              },
+              "total": {
+                "type": "number"
+              },
+              "dc": {
+                "type": "number"
+              },
+              "success": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "kind",
+              "total",
+              "dc",
+              "success"
+            ]
+          },
+          "subtract": {
+            "type": "object",
+            "fields": {
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "subtract"
+                ]
+              },
+              "incoming": {
+                "type": "number"
+              },
+              "successes": {
+                "type": "number"
+              },
+              "perSuccess": {
+                "type": "number"
+              },
+              "remaining": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "kind",
+              "incoming",
+              "successes",
+              "perSuccess",
+              "remaining"
+            ]
+          }
+        }
+      },
+      "attack": {
+        "apiVersion": 1,
+        "domain": "attack",
+        "lifecycles": [],
+        "validation": "closed-fields-v1",
+        "fields": {
+          "op": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "component": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "condition"
+          },
+          "gradeBonus": {
+            "type": "integer"
+          },
+          "immunityLifecycle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "immunityScaling": {
+            "type": "string",
+            "minLength": 1
+          },
+          "weapon": {
+            "type": "number",
+            "expression": true
+          },
+          "modifier": {
+            "type": "number",
+            "expression": true
+          },
+          "cap": {
+            "type": "number",
+            "expression": true
+          },
+          "contact": {
+            "type": "boolean"
+          },
+          "energyWeapon": {
+            "type": "boolean"
+          },
+          "ap": {
+            "type": "number",
+            "expression": true
+          },
+          "magic": {
+            "type": "number",
+            "expression": true
+          },
+          "speed": {
+            "type": "number",
+            "expression": true
+          }
+        },
+        "required": [
+          "weapon"
+        ],
+        "reads": [
+          "target.defense",
+          "caster.check"
+        ],
+        "produces": {
+          "scope": "target",
+          "writes": [
+            "context.hit",
+            "context.damage"
+          ]
+        },
+        "outputs": {
+          "default": {
+            "type": "object",
+            "fields": {
+              "op": {
+                "type": "string",
+                "enum": [
+                  "attack"
+                ]
+              },
+              "weapon": {
+                "type": "number"
+              },
+              "defense": {
+                "type": "object",
+                "additional": true
+              },
+              "roll": {
+                "type": "object",
+                "additional": true
+              },
+              "damage": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "op",
+              "weapon",
+              "defense",
+              "roll",
+              "damage"
+            ]
+          }
+        }
+      },
+      "damage": {
+        "apiVersion": 1,
+        "domain": "damage",
+        "lifecycles": [],
+        "validation": "closed-fields-v1",
+        "recoveryRestrictions": [
+          "aggravated",
+          "naturalOnly"
+        ],
+        "woundUpgradePolicy": "ordinary-first-then-random-per-wound",
+        "fields": {
+          "op": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "component": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "condition"
+          },
+          "gradeBonus": {
+            "type": "integer"
+          },
+          "immunityLifecycle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "immunityScaling": {
+            "type": "string",
+            "minLength": 1
+          },
+          "deathRestriction": {
+            "type": "object",
+            "fields": {
+              "maximumLevel": {
+                "type": "number",
+                "expression": true
+              }
+            },
+            "required": [
+              "maximumLevel"
+            ]
+          },
+          "amount": {
+            "type": "number",
+            "expression": true
+          },
+          "severity": {
+            "type": "string",
+            "enum": [
+              "B",
+              "L",
+              "A"
+            ]
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "physical",
+              "energy"
+            ]
+          },
+          "energy": {
+            "type": "string",
+            "minLength": 1
+          },
+          "energyWeapon": {
+            "type": "boolean"
+          },
+          "weapon": {
+            "type": "number",
+            "expression": true
+          },
+          "unavoidable": {
+            "type": "boolean"
+          },
+          "noAttackSource": {
+            "type": "boolean"
+          },
+          "recovery": {
+            "type": "string",
+            "enum": [
+              "aggravated",
+              "naturalOnly"
+            ]
+          },
+          "resistance": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "none"
+                ]
+              },
+              {
+                "type": "object",
+                "fields": {
+                  "receipt": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "resolved",
+                      "subtract"
+                    ]
+                  },
+                  "perSuccess": {
+                    "type": "number"
+                  }
+                },
+                "required": [
+                  "receipt",
+                  "kind"
+                ]
+              }
+            ]
+          }
+        },
+        "required": [
+          "amount"
+        ],
+        "reads": [
+          "target.protection",
+          "context.resistanceReceipts"
+        ],
+        "produces": {
+          "scope": "target",
+          "writes": [
+            "health",
+            "woundLedger",
+            "context.actualDamage"
+          ]
+        },
+        "outputs": {
+          "default": {
+            "type": "object",
+            "fields": {
+              "op": {
+                "type": "string",
+                "enum": [
+                  "damage"
+                ]
+              },
+              "actualDamage": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "op",
+              "actualDamage"
+            ]
+          }
+        }
+      },
+      "status": {
+        "apiVersion": 1,
+        "domain": "status",
+        "lifecycles": [
+          "suppress-existing"
+        ],
+        "validation": "closed-fields-v1",
+        "fields": {
+          "op": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "component": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "condition"
+          },
+          "gradeBonus": {
+            "type": "integer"
+          },
+          "immunityLifecycle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "immunityScaling": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "type": "string",
+            "minLength": 1,
+            "expression": true
+          },
+          "points": {
+            "type": "number",
+            "expression": true
+          },
+          "resistance": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "none"
+                ]
+              },
+              {
+                "type": "object",
+                "fields": {
+                  "receipt": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "resolved",
+                      "subtract"
+                    ]
+                  },
+                  "perSuccess": {
+                    "type": "number"
+                  }
+                },
+                "required": [
+                  "receipt",
+                  "kind"
+                ]
+              }
+            ]
+          },
+          "properties": {
+            "type": "object",
+            "additional": true
+          }
+        },
+        "required": [
+          "type",
+          "points"
+        ],
+        "reads": [
+          "target.statuses",
+          "context.resistanceReceipts"
+        ],
+        "produces": {
+          "scope": "target",
+          "writes": [
+            "statuses"
+          ],
+          "result": [
+            "type",
+            "points"
+          ]
+        },
+        "consumers": [
+          "status.effective",
+          "status.lifecycle"
+        ],
+        "outputs": {
+          "default": {
+            "type": "object",
+            "fields": {
+              "op": {
+                "type": "string",
+                "enum": [
+                  "status"
+                ]
+              },
+              "type": {
+                "type": "string",
+                "minLength": 1
+              },
+              "points": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "op",
+              "type",
+              "points"
+            ]
+          }
+        }
+      },
+      "heal": {
+        "apiVersion": 1,
+        "domain": "healing",
+        "lifecycles": [],
+        "validation": "closed-fields-v1",
+        "priority": "enabled-aggravated-first",
+        "fields": {
+          "op": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "component": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "condition"
+          },
+          "gradeBonus": {
+            "type": "integer"
+          },
+          "immunityLifecycle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "immunityScaling": {
+            "type": "string",
+            "minLength": 1
+          },
+          "amount": {
+            "type": "number",
+            "expression": true
+          },
+          "recipient": {
+            "type": "string",
+            "enum": [
+              "caster",
+              "target"
+            ]
+          },
+          "ratios": {
+            "type": "object",
+            "fields": {
+              "B": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "L": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "A": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              }
+            },
+            "required": []
+          }
+        },
+        "required": [
+          "amount"
+        ],
+        "reads": [
+          "recipient.health",
+          "recipient.woundLedger"
+        ],
+        "produces": {
+          "scope": "recipient",
+          "writes": [
+            "health",
+            "woundLedger"
+          ],
+          "result": [
+            "changes",
+            "remaining"
+          ]
+        },
+        "consumers": [
+          "healing.wounds"
+        ],
+        "outputs": {
+          "default": {
+            "type": "object",
+            "fields": {
+              "changes": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additional": true
+                }
+              },
+              "remaining": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "changes",
+              "remaining"
+            ]
+          }
+        }
+      },
+      "removeStatus": {
+        "apiVersion": 1,
+        "domain": "status",
+        "lifecycles": [],
+        "validation": "closed-fields-v1",
+        "budgetScopes": [
+          "type"
+        ],
+        "choicePolicy": "recipient-source-allocation",
+        "fields": {
+          "op": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "component": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "condition"
+          },
+          "gradeBonus": {
+            "type": "integer"
+          },
+          "immunityLifecycle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "immunityScaling": {
+            "type": "string",
+            "minLength": 1
+          },
+          "amount": {
+            "type": "number",
+            "expression": true
+          },
+          "types": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "exclude": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "allocate": {
+            "type": "boolean"
+          },
+          "budgetScope": {
+            "type": "string",
+            "enum": [
+              "type"
+            ]
+          }
+        },
+        "required": [
+          "amount"
+        ],
+        "reads": [
+          "target.statuses",
+          "plan.statusAllocations",
+          "plan.statusBudgetChoices"
+        ],
+        "produces": {
+          "scope": "target",
+          "writes": [
+            "statuses"
+          ]
+        },
+        "outputs": {
+          "default": {
+            "type": "object",
+            "fields": {
+              "op": {
+                "type": "string",
+                "enum": [
+                  "removeStatus"
+                ]
+              },
+              "removed": {
+                "type": "number"
+              },
+              "budgetScope": {
+                "type": "string",
+                "enum": [
+                  "type"
+                ]
+              },
+              "budgetPerType": {
+                "type": "number"
+              },
+              "allocations": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additional": true
+                }
+              }
+            },
+            "required": [
+              "op",
+              "removed"
+            ]
+          }
+        }
+      },
+      "effect": {
+        "apiVersion": 1,
+        "domain": "effects",
+        "lifecycles": [
+          "suppress"
+        ],
+        "validation": "closed-fields-v1",
+        "initialBlockedPolicies": [
+          "discard"
+        ],
+        "turnOrderPolicies": [
+          "after-caster-turn"
+        ],
+        "targetUsageScopes": [
+          "scene"
+        ],
+        "exclusivePolicies": [
+          "recipient-choice"
+        ],
+        "actionPriceFamilies": [
+          "physical"
+        ],
+        "pricedActions": [
+          "weaponAttack",
+          "naturalAttack",
+          "move",
+          "drawWeapon",
+          "loadBow",
+          "block"
+        ],
+        "fields": {
+          "op": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "component": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "condition"
+          },
+          "gradeBonus": {
+            "type": "integer"
+          },
+          "immunityLifecycle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "immunityScaling": {
+            "type": "string",
+            "minLength": 1
+          },
+          "effects": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "fields": {
+                "stat": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "type": "number",
+                  "expression": true
+                },
+                "group": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "stacking": {
+                  "type": "string",
+                  "enum": [
+                    "add",
+                    "highest-source-grade"
+                  ]
+                },
+                "damageAllocation": {
+                  "type": "string",
+                  "enum": [
+                    "lightest-existing"
+                  ]
+                },
+                "when": {
+                  "type": "condition"
+                },
+                "clauseId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "fallbacks": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additional": true
+                  }
+                },
+                "tag": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "material": {
+                  "type": "boolean"
+                },
+                "spiritEffective": {
+                  "type": "boolean"
+                },
+                "minimumCost": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "discountSource": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "stat",
+                "value"
+              ]
+            }
+          },
+          "targetScope": {
+            "type": "string",
+            "enum": [
+              "actor",
+              "scene"
+            ]
+          },
+          "scene": {
+            "type": "boolean"
+          },
+          "rounds": {
+            "type": "number",
+            "expression": true
+          },
+          "minutes": {
+            "type": "number",
+            "expression": true
+          },
+          "formulaTiming": {
+            "type": "string",
+            "enum": [
+              "cast",
+              "live"
+            ]
+          },
+          "instancePolicy": {
+            "type": "string",
+            "enum": [
+              "append"
+            ]
+          },
+          "removable": {
+            "type": "boolean"
+          },
+          "deathRecovery": {
+            "type": "object",
+            "fields": {
+              "mode": {
+                "type": "string",
+                "enum": [
+                  "one-impact-from-death"
+                ]
+              },
+              "maximum": {
+                "type": "number",
+                "expression": true
+              }
+            },
+            "required": [
+              "mode",
+              "maximum"
+            ]
+          },
+          "instantDeathProtection": {
+            "type": "object",
+            "fields": {
+              "maximumLevel": {
+                "type": "number",
+                "expression": true
+              }
+            },
+            "required": [
+              "maximumLevel"
+            ]
+          },
+          "expiresOn": {
+            "type": "object",
+            "additional": true
+          },
+          "targetSceneLimit": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "turnOrder": {
+            "type": "string",
+            "enum": [
+              "after-caster-turn"
+            ]
+          },
+          "initialBlocked": {
+            "type": "string",
+            "enum": [
+              "discard"
+            ]
+          },
+          "exclusiveGroup": {
+            "type": "string",
+            "minLength": 1
+          },
+          "exclusivePolicy": {
+            "type": "string",
+            "enum": [
+              "recipient-choice"
+            ]
+          },
+          "actionPrice": {
+            "type": "object",
+            "additional": true
+          },
+          "suppression": {
+            "type": "object",
+            "fields": {
+              "family": {
+                "type": "string",
+                "enum": [
+                  "antiDetection"
+                ]
+              },
+              "maximumLevel": {
+                "type": "number",
+                "expression": true
+              }
+            },
+            "required": [
+              "family",
+              "maximumLevel"
+            ]
+          },
+          "projection": {
+            "type": "object",
+            "fields": {
+              "range": {
+                "type": "number",
+                "expression": true
+              },
+              "maximumSize": {
+                "type": "number",
+                "expression": true
+              },
+              "volumeUnit": {
+                "type": "string",
+                "enum": [
+                  "size",
+                  "cubic-metres"
+                ]
+              },
+              "channels": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "enum": [
+                    "visual",
+                    "auditory",
+                    "olfactory",
+                    "temperature",
+                    "tactile"
+                  ]
+                }
+              },
+              "allowAttachment": {
+                "type": "boolean"
+              },
+              "touchReveals": {
+                "type": "boolean"
+              },
+              "damageThreshold": {
+                "type": "number",
+                "expression": true
+              },
+              "controlActions": {
+                "type": "object",
+                "fields": {
+                  "D": {
+                    "type": "string",
+                    "enum": [
+                      "standard"
+                    ]
+                  },
+                  "C": {
+                    "type": "string",
+                    "enum": [
+                      "move"
+                    ]
+                  }
+                },
+                "required": []
+              },
+              "programmed": {
+                "type": "object",
+                "fields": {
+                  "cooldownMinutes": {
+                    "type": "number"
+                  },
+                  "triggerRadius": {
+                    "type": "number",
+                    "expression": true
+                  },
+                  "dc": {
+                    "type": "number",
+                    "expression": true
+                  }
+                },
+                "required": [
+                  "cooldownMinutes",
+                  "triggerRadius",
+                  "dc"
+                ]
+              }
+            },
+            "required": [
+              "range",
+              "maximumSize",
+              "volumeUnit",
+              "channels",
+              "touchReveals"
+            ]
+          },
+          "obscuration": {
+            "type": "object",
+            "fields": {
+              "radius": {
+                "type": "number",
+                "expression": true
+              },
+              "channel": {
+                "type": "string",
+                "enum": [
+                  "visual"
+                ]
+              },
+              "mask": {
+                "type": "string",
+                "enum": [
+                  "none",
+                  "visualIllusion"
+                ]
+              }
+            },
+            "required": [
+              "radius",
+              "channel",
+              "mask"
+            ]
+          },
+          "decoys": {
+            "type": "object",
+            "fields": {
+              "count": {
+                "type": "number",
+                "expression": true
+              },
+              "health": {
+                "type": "number",
+                "expression": true
+              },
+              "immunityFamily": {
+                "type": "string",
+                "enum": [
+                  "visualIllusion"
+                ]
+              },
+              "singleTarget": {
+                "type": "string",
+                "enum": [
+                  "random-redirect"
+                ]
+              },
+              "damageMode": {
+                "type": "string",
+                "enum": [
+                  "copy-after-defense"
+                ]
+              }
+            },
+            "required": [
+              "count",
+              "health",
+              "immunityFamily",
+              "singleTarget",
+              "damageMode"
+            ]
+          },
+          "detectionDelay": {
+            "type": "object",
+            "fields": {
+              "rounds": {
+                "type": "number",
+                "expression": true
+              },
+              "belowLevel": {
+                "type": "number",
+                "expression": true
+              },
+              "sourceImmunityFamily": {
+                "type": "string",
+                "enum": [
+                  "time"
+                ]
+              }
+            },
+            "required": [
+              "rounds",
+              "belowLevel",
+              "sourceImmunityFamily"
+            ]
+          },
+          "selection": {
+            "type": "object",
+            "fields": {
+              "group": {
+                "type": "string",
+                "minLength": 1
+              },
+              "power": {
+                "type": "number",
+                "expression": true
+              },
+              "tieBreak": {
+                "type": "string",
+                "enum": [
+                  "latest"
+                ]
+              },
+              "scope": {
+                "type": "string",
+                "enum": [
+                  "caster-grade"
+                ]
+              }
+            },
+            "required": [
+              "group",
+              "power",
+              "tieBreak"
+            ]
+          },
+          "endCost": {
+            "type": "object",
+            "fields": {
+              "amount": {
+                "type": "number",
+                "expression": true
+              },
+              "severity": {
+                "type": "string",
+                "enum": [
+                  "A"
+                ]
+              },
+              "clock": {
+                "type": "string",
+                "enum": [
+                  "effective-round"
+                ]
+              },
+              "unavoidable": {
+                "type": "boolean",
+                "const": true
+              }
+            },
+            "required": [
+              "amount",
+              "severity",
+              "clock",
+              "unavoidable"
+            ]
+          },
+          "periodicDamage": {
+            "type": "object",
+            "fields": {
+              "multiplier": {
+                "type": "number",
+                "expression": true
+              },
+              "sourceImmunityFamily": {
+                "type": "string",
+                "enum": [
+                  "time"
+                ]
+              }
+            },
+            "required": [
+              "multiplier",
+              "sourceImmunityFamily"
+            ]
+          }
+        },
+        "required": [
+          "effects"
+        ],
+        "reads": [
+          "target.activeResourceEffects",
+          "context.casterId"
+        ],
+        "produces": {
+          "scope": "target",
+          "writes": [
+            "activeResourceEffects"
+          ],
+          "result": [
+            "active"
+          ]
+        },
+        "consumers": [
+          "effect.collect",
+          "effect.expire"
+        ],
+        "outputs": {
+          "default": {
+            "type": "object",
+            "fields": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sourceId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "effects": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "fields": {
+                    "stat": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "value": {
+                      "type": "number",
+                      "expression": true
+                    },
+                    "group": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "stacking": {
+                      "type": "string",
+                      "enum": [
+                        "add",
+                        "highest-source-grade"
+                      ]
+                    },
+                    "damageAllocation": {
+                      "type": "string",
+                      "enum": [
+                        "lightest-existing"
+                      ]
+                    },
+                    "when": {
+                      "type": "condition"
+                    },
+                    "clauseId": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "fallbacks": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "additional": true
+                      }
+                    },
+                    "tag": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "material": {
+                      "type": "boolean"
+                    },
+                    "spiritEffective": {
+                      "type": "boolean"
+                    },
+                    "minimumCost": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "discountSource": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "required": [
+                    "stat",
+                    "value"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "id",
+              "sourceId",
+              "effects"
+            ],
+            "additional": true
+          }
+        }
+      },
+      "capability": {
+        "apiVersion": 1,
+        "domain": "capabilities",
+        "lifecycles": [
+          "suppress"
+        ],
+        "validation": "closed-fields-v1",
+        "endConsequences": [
+          "descent",
+          "fall"
+        ],
+        "movementSpeedBases": [
+          "current-land"
+        ],
+        "movementModes": [
+          "flight"
+        ],
+        "maneuverability": [
+          "perfect"
+        ],
+        "fields": {
+          "op": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "component": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "condition"
+          },
+          "gradeBonus": {
+            "type": "integer"
+          },
+          "immunityLifecycle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "immunityScaling": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sensory": {
+            "type": "object",
+            "fields": {
+              "enhanceExisting": {
+                "type": "boolean"
+              },
+              "grants": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "fields": {
+                    "id": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "minimumGrade": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "rangeBasis": {
+                      "type": "string",
+                      "enum": [
+                        "vague",
+                        "sensitive"
+                      ]
+                    },
+                    "maximumPrecision": {
+                      "type": "string",
+                      "enum": [
+                        "vague",
+                        "exact"
+                      ]
+                    },
+                    "automaticDetection": {
+                      "type": "boolean"
+                    },
+                    "lineOfEffect": {
+                      "type": "boolean"
+                    },
+                    "visualIllusionImmunity": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "minimumGrade",
+                    "rangeBasis",
+                    "maximumPrecision",
+                    "automaticDetection",
+                    "lineOfEffect",
+                    "visualIllusionImmunity"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "enhanceExisting",
+              "grants"
+            ]
+          },
+          "mentalGradeBonus": {
+            "type": "integer"
+          },
+          "mode": {
+            "type": "string",
+            "enum": [
+              "sensory",
+              "mental"
+            ]
+          },
+          "channels": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "visual",
+                "nonvisual",
+                "auditory",
+                "olfactory"
+              ]
+            }
+          },
+          "periodicDamage": {
+            "type": "object",
+            "fields": {
+              "multiplier": {
+                "type": "number",
+                "expression": true
+              },
+              "sourceImmunityFamily": {
+                "type": "string",
+                "enum": [
+                  "time"
+                ]
+              }
+            },
+            "required": [
+              "multiplier",
+              "sourceImmunityFamily"
+            ]
+          },
+          "byGrade": {
+            "type": "object",
+            "additional": true
+          },
+          "senses": {
+            "type": "object",
+            "additional": true
+          },
+          "modes": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "supernaturalWords": {
+            "type": "boolean"
+          },
+          "fabricatedInformation": {
+            "type": "boolean"
+          },
+          "lineOfEffect": {
+            "type": "boolean"
+          },
+          "rangePolicy": {
+            "type": "string",
+            "enum": [
+              "existing-senses",
+              "existing-vague-sense"
+            ]
+          },
+          "range": {
+            "type": "number",
+            "expression": true
+          },
+          "from": {
+            "type": "string",
+            "minLength": 1
+          },
+          "to": {
+            "type": "string",
+            "minLength": 1
+          },
+          "movement": {
+            "anyOf": [
+              {
+                "type": "object",
+                "fields": {
+                  "mode": {
+                    "type": "string",
+                    "enum": [
+                      "flight"
+                    ]
+                  },
+                  "speed": {
+                    "type": "number",
+                    "expression": true
+                  },
+                  "maneuverability": {
+                    "type": "string",
+                    "enum": [
+                      "perfect"
+                    ]
+                  },
+                  "control": {
+                    "type": "string",
+                    "enum": [
+                      "autonomous",
+                      "external"
+                    ]
+                  }
+                },
+                "required": [
+                  "mode",
+                  "speed",
+                  "maneuverability"
+                ]
+              },
+              {
+                "type": "object",
+                "fields": {
+                  "mode": {
+                    "type": "string",
+                    "enum": [
+                      "flight"
+                    ]
+                  },
+                  "speedMultiplier": {
+                    "type": "number",
+                    "expression": true
+                  },
+                  "speedBasis": {
+                    "type": "string",
+                    "enum": [
+                      "current-land"
+                    ]
+                  },
+                  "maneuverability": {
+                    "type": "string",
+                    "enum": [
+                      "perfect"
+                    ]
+                  },
+                  "control": {
+                    "type": "string",
+                    "enum": [
+                      "autonomous",
+                      "external"
+                    ]
+                  }
+                },
+                "required": [
+                  "mode",
+                  "speedMultiplier",
+                  "speedBasis",
+                  "maneuverability"
+                ]
+              }
+            ]
+          },
+          "onEnd": {
+            "anyOf": [
+              {
+                "type": "object",
+                "fields": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "descent"
+                    ]
+                  },
+                  "rounds": {
+                    "type": "number",
+                    "expression": true
+                  },
+                  "metersPerRound": {
+                    "type": "number",
+                    "exclusiveMinimum": 0
+                  },
+                  "intervalMinutes": {
+                    "type": "number",
+                    "exclusiveMinimum": 0
+                  }
+                },
+                "required": [
+                  "kind",
+                  "rounds",
+                  "metersPerRound",
+                  "intervalMinutes"
+                ]
+              },
+              {
+                "type": "object",
+                "fields": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "fall"
+                    ]
+                  }
+                },
+                "required": [
+                  "kind"
+                ]
+              }
+            ]
+          },
+          "scene": {
+            "type": "boolean"
+          },
+          "rounds": {
+            "type": "number",
+            "expression": true
+          },
+          "minutes": {
+            "type": "number",
+            "expression": true
+          }
+        },
+        "required": [
+          "id"
+        ],
+        "reads": [
+          "target.resourceCapabilities"
+        ],
+        "produces": {
+          "scope": "target",
+          "writes": [
+            "resourceCapabilities"
+          ]
+        },
+        "outputs": {
+          "default": {
+            "type": "object",
+            "fields": {
+              "op": {
+                "type": "string",
+                "enum": [
+                  "capability"
+                ]
+              },
+              "capability": {
+                "type": "object",
+                "fields": {
+                  "id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "source": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "level": {
+                    "type": "number"
+                  }
+                },
+                "required": [
+                  "id",
+                  "source",
+                  "level"
+                ],
+                "additional": true
+              }
+            },
+            "required": [
+              "op",
+              "capability"
+            ]
+          }
+        }
+      },
+      "trigger": {
+        "apiVersion": 1,
+        "domain": "events",
+        "lifecycles": [
+          "suppress"
+        ],
+        "validation": "closed-fields-v1",
+        "fields": {
+          "op": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "component": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "condition"
+          },
+          "gradeBonus": {
+            "type": "integer"
+          },
+          "immunityLifecycle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "immunityScaling": {
+            "type": "string",
+            "minLength": 1
+          },
+          "onDeath": {
+            "type": "object",
+            "fields": {
+              "radius": {
+                "type": "number",
+                "expression": true
+              },
+              "excludeCaster": {
+                "type": "boolean"
+              },
+              "steps": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additional": true
+                }
+              }
+            },
+            "required": [
+              "radius",
+              "excludeCaster",
+              "steps"
+            ]
+          },
+          "instancePolicy": {
+            "type": "string",
+            "enum": [
+              "append"
+            ]
+          },
+          "endPolicy": {
+            "type": "string",
+            "enum": [
+              "settle-remaining"
+            ]
+          },
+          "selection": {
+            "type": "object",
+            "fields": {
+              "group": {
+                "type": "string",
+                "minLength": 1
+              },
+              "power": {
+                "type": "number",
+                "expression": true
+              },
+              "tieBreak": {
+                "type": "string",
+                "enum": [
+                  "latest"
+                ]
+              },
+              "scope": {
+                "type": "string",
+                "enum": [
+                  "caster-grade"
+                ]
+              }
+            },
+            "required": [
+              "group",
+              "power",
+              "tieBreak",
+              "scope"
+            ]
+          },
+          "attackSource": {
+            "type": "string",
+            "enum": [
+              "caster"
+            ]
+          },
+          "event": {
+            "type": "string",
+            "enum": [
+              "attackDamageCaused",
+              "attackResolved",
+              "hit",
+              "afterLifeLoss",
+              "incomingHit",
+              "turnStart"
+            ]
+          },
+          "steps": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additional": true
+            }
+          },
+          "condition": {
+            "type": "condition"
+          },
+          "requiresContext": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "requiresConscious": {
+            "type": "boolean"
+          },
+          "count": {
+            "type": "number",
+            "expression": true
+          },
+          "perRound": {
+            "type": "number",
+            "expression": true
+          },
+          "rounds": {
+            "type": "number",
+            "expression": true
+          },
+          "scene": {
+            "type": "boolean"
+          },
+          "target": {
+            "type": "string",
+            "enum": [
+              "bearer",
+              "eventTarget"
+            ]
+          },
+          "damageNature": {
+            "type": "string",
+            "enum": [
+              "fixed",
+              "attack",
+              "extra",
+              "retaliation"
+            ]
+          },
+          "sourcePolicy": {
+            "type": "string",
+            "enum": [
+              "independent-casters",
+              "pending-cross-caster"
+            ]
+          },
+          "effectTypes": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "effectGradeBonus": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "event",
+          "steps"
+        ],
+        "reads": [
+          "context.cast",
+          "event.context"
+        ],
+        "produces": {
+          "scope": "target",
+          "writes": [
+            "resourceTriggers"
+          ]
+        },
+        "outputs": {
+          "default": {
+            "type": "object",
+            "fields": {
+              "op": {
+                "type": "string",
+                "enum": [
+                  "trigger"
+                ]
+              },
+              "event": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "op",
+              "event"
+            ]
+          }
+        }
+      },
+      "aura": {
+        "apiVersion": 1,
+        "domain": "spatial",
+        "lifecycles": [
+          "suppress"
+        ],
+        "validation": "closed-fields-v1",
+        "fields": {
+          "op": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "component": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "condition"
+          },
+          "gradeBonus": {
+            "type": "integer"
+          },
+          "immunityLifecycle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "immunityScaling": {
+            "type": "string",
+            "minLength": 1
+          },
+          "radius": {
+            "type": "number",
+            "expression": true
+          },
+          "effects": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "fields": {
+                "stat": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "type": "number",
+                  "expression": true
+                },
+                "group": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "stacking": {
+                  "type": "string",
+                  "enum": [
+                    "add",
+                    "highest-source-grade"
+                  ]
+                },
+                "damageAllocation": {
+                  "type": "string",
+                  "enum": [
+                    "lightest-existing"
+                  ]
+                },
+                "when": {
+                  "type": "condition"
+                },
+                "clauseId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "fallbacks": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additional": true
+                  }
+                },
+                "tag": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "material": {
+                  "type": "boolean"
+                },
+                "spiritEffective": {
+                  "type": "boolean"
+                },
+                "minimumCost": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "discountSource": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "stat",
+                "value"
+              ]
+            }
+          },
+          "team": {
+            "type": "string",
+            "enum": [
+              "all",
+              "ally",
+              "enemy"
+            ]
+          },
+          "selected": {
+            "type": "boolean"
+          },
+          "temporaryAllocation": {
+            "type": "object",
+            "fields": {
+              "key": {
+                "type": "string",
+                "minLength": 1
+              },
+              "total": {
+                "type": "number",
+                "expression": true
+              },
+              "maximum": {
+                "type": "number",
+                "expression": true
+              }
+            },
+            "required": [
+              "key",
+              "total",
+              "maximum"
+            ]
+          },
+          "scene": {
+            "type": "boolean"
+          },
+          "rounds": {
+            "type": "number",
+            "expression": true
+          },
+          "minutes": {
+            "type": "number",
+            "expression": true
+          }
+        },
+        "required": [
+          "radius"
+        ],
+        "reads": [
+          "scene.positions",
+          "scene.teams",
+          "plan.targetIds"
+        ],
+        "produces": {
+          "scope": "target",
+          "writes": [
+            "caster.resourceAuras",
+            "targets.activeResourceEffects",
+            "targets.temporaryHealthPools"
+          ]
+        },
+        "outputs": {
+          "default": {
+            "type": "object",
+            "fields": {
+              "op": {
+                "type": "string",
+                "enum": [
+                  "aura"
+                ]
+              },
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "radius": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "op",
+              "id",
+              "radius"
+            ]
+          }
+        }
+      },
+      "accumulate": {
+        "apiVersion": 1,
+        "domain": "accumulators",
+        "lifecycles": [],
+        "validation": "closed-fields-v1",
+        "conditions": [
+          "unconscious"
+        ],
+        "reset": "completed-continuous-rest-or-condition-expiry",
+        "fields": {
+          "op": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "component": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "condition"
+          },
+          "gradeBonus": {
+            "type": "integer"
+          },
+          "immunityLifecycle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "immunityScaling": {
+            "type": "string",
+            "minLength": 1
+          },
+          "key": {
+            "type": "string",
+            "minLength": 1
+          },
+          "amount": {
+            "type": "number",
+            "expression": true
+          },
+          "thresholdAttribute": {
+            "type": "string",
+            "enum": [
+              "力量",
+              "敏捷",
+              "意志",
+              "智力",
+              "感知",
+              "风度"
+            ]
+          },
+          "conditionMinutes": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "resetAfterRestMinutes": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          }
+        },
+        "required": [
+          "key",
+          "amount",
+          "thresholdAttribute",
+          "conditionMinutes",
+          "resetAfterRestMinutes"
+        ],
+        "reads": [
+          "target.attributes",
+          "target.resourceAccumulators"
+        ],
+        "produces": {
+          "scope": "target",
+          "writes": [
+            "resourceAccumulators",
+            "resourceConditions"
+          ]
+        },
+        "outputs": {
+          "default": {
+            "type": "object",
+            "fields": {
+              "op": {
+                "type": "string",
+                "enum": [
+                  "accumulate"
+                ]
+              },
+              "key": {
+                "type": "string",
+                "minLength": 1
+              },
+              "value": {
+                "type": "number"
+              },
+              "threshold": {
+                "type": "number"
+              },
+              "unconscious": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "op",
+              "key",
+              "value",
+              "threshold",
+              "unconscious"
+            ]
+          }
+        }
+      },
+      "counter": {
+        "apiVersion": 1,
+        "domain": "counters",
+        "lifecycles": [],
+        "validation": "closed-fields-v1",
+        "fields": {
+          "op": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "component": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "condition"
+          },
+          "gradeBonus": {
+            "type": "integer"
+          },
+          "immunityLifecycle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "immunityScaling": {
+            "type": "string",
+            "minLength": 1
+          },
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "amount": {
+            "type": "number",
+            "expression": true
+          },
+          "maximumPath": {
+            "type": "string",
+            "minLength": 1
+          },
+          "zeroCondition": {
+            "type": "string",
+            "enum": [
+              "unconscious"
+            ]
+          }
+        },
+        "required": [
+          "path",
+          "amount"
+        ],
+        "reads": [
+          "target.counterPath"
+        ],
+        "produces": {
+          "scope": "target",
+          "writes": [
+            "target.counterPath",
+            "resourceConditions"
+          ]
+        },
+        "outputs": {
+          "default": {
+            "type": "object",
+            "fields": {
+              "op": {
+                "type": "string",
+                "enum": [
+                  "counter"
+                ]
+              },
+              "path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "before": {
+                "type": "number"
+              },
+              "after": {
+                "type": "number"
+              },
+              "changed": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "op",
+              "path",
+              "before",
+              "after",
+              "changed"
+            ]
+          }
+        }
+      },
+      "temporaryHealth": {
+        "apiVersion": 1,
+        "domain": "temporary-health",
+        "lifecycles": [],
+        "validation": "closed-fields-v1",
+        "sourcePolicy": "recipient-replace-no-backup",
+        "fields": {
+          "op": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "component": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "condition"
+          },
+          "gradeBonus": {
+            "type": "integer"
+          },
+          "immunityLifecycle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "immunityScaling": {
+            "type": "string",
+            "minLength": 1
+          },
+          "onDepleted": {
+            "type": "object",
+            "fields": {
+              "resourceId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "operation": {
+                "type": "string",
+                "minLength": 1
+              },
+              "grade": {
+                "type": "string",
+                "enum": [
+                  "D",
+                  "C",
+                  "B",
+                  "A",
+                  "S"
+                ]
+              },
+              "power": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "snapshot": {
+                "type": "string",
+                "enum": [
+                  "installation"
+                ]
+              },
+              "boundary": {
+                "type": "string",
+                "enum": [
+                  "after-damage-event"
+                ]
+              }
+            },
+            "required": [
+              "resourceId",
+              "operation",
+              "grade",
+              "power",
+              "snapshot",
+              "boundary"
+            ]
+          },
+          "amount": {
+            "type": "number",
+            "expression": true
+          },
+          "effects": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "fields": {
+                "stat": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "type": "number",
+                  "expression": true
+                },
+                "group": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "stacking": {
+                  "type": "string",
+                  "enum": [
+                    "add",
+                    "highest-source-grade"
+                  ]
+                },
+                "damageAllocation": {
+                  "type": "string",
+                  "enum": [
+                    "lightest-existing"
+                  ]
+                },
+                "when": {
+                  "type": "condition"
+                },
+                "clauseId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "fallbacks": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additional": true
+                  }
+                },
+                "tag": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "material": {
+                  "type": "boolean"
+                },
+                "spiritEffective": {
+                  "type": "boolean"
+                },
+                "minimumCost": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "discountSource": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "stat",
+                "value"
+              ]
+            }
+          },
+          "damageFilter": {
+            "type": "condition"
+          },
+          "refresh": {
+            "type": "string",
+            "enum": [
+              "maximum-remaining"
+            ]
+          },
+          "scene": {
+            "type": "boolean"
+          },
+          "rounds": {
+            "type": "number",
+            "expression": true
+          },
+          "minutes": {
+            "type": "number",
+            "expression": true
+          }
+        },
+        "required": [
+          "amount"
+        ],
+        "reads": [
+          "target.temporaryHealthPools",
+          "plan.temporaryHealthChoices"
+        ],
+        "produces": {
+          "scope": "target",
+          "writes": [
+            "temporaryHealthPools",
+            "activeResourceEffects"
+          ]
+        },
+        "outputs": {
+          "default": {
+            "anyOf": [
+              {
+                "type": "object",
+                "fields": {
+                  "op": {
+                    "type": "string",
+                    "enum": [
+                      "temporaryHealth"
+                    ]
+                  },
+                  "kept": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "op",
+                  "kept"
+                ]
+              },
+              {
+                "type": "object",
+                "fields": {
+                  "op": {
+                    "type": "string",
+                    "enum": [
+                      "temporaryHealth"
+                    ]
+                  },
+                  "pool": {
+                    "type": "object",
+                    "fields": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "capacity": {
+                        "type": "number"
+                      },
+                      "remaining": {
+                        "type": "number"
+                      }
+                    },
+                    "required": [
+                      "id",
+                      "capacity",
+                      "remaining"
+                    ],
+                    "additional": true
+                  }
+                },
+                "required": [
+                  "op",
+                  "pool"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "weaponEffect": {
+        "apiVersion": 1,
+        "domain": "items",
+        "lifecycles": [],
+        "validation": "closed-fields-v1",
+        "fields": {
+          "op": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "component": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "condition"
+          },
+          "gradeBonus": {
+            "type": "integer"
+          },
+          "immunityLifecycle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "immunityScaling": {
+            "type": "string",
+            "minLength": 1
+          },
+          "effects": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "fields": {
+                "stat": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "type": "number",
+                  "expression": true
+                },
+                "group": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "stacking": {
+                  "type": "string",
+                  "enum": [
+                    "add",
+                    "highest-source-grade"
+                  ]
+                },
+                "damageAllocation": {
+                  "type": "string",
+                  "enum": [
+                    "lightest-existing"
+                  ]
+                },
+                "when": {
+                  "type": "condition"
+                },
+                "clauseId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "fallbacks": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additional": true
+                  }
+                },
+                "tag": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "material": {
+                  "type": "boolean"
+                },
+                "spiritEffective": {
+                  "type": "boolean"
+                },
+                "minimumCost": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "discountSource": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "stat",
+                "value"
+              ]
+            }
+          },
+          "scene": {
+            "type": "boolean"
+          },
+          "rounds": {
+            "type": "number",
+            "expression": true
+          },
+          "minutes": {
+            "type": "number",
+            "expression": true
+          }
+        },
+        "required": [
+          "effects"
+        ],
+        "reads": [
+          "plan.weaponId",
+          "target.possessions"
+        ],
+        "produces": {
+          "scope": "target",
+          "writes": [
+            "target.possessions.weapon.effects"
+          ]
+        },
+        "outputs": {
+          "default": {
+            "type": "object",
+            "fields": {
+              "op": {
+                "type": "string",
+                "enum": [
+                  "weaponEffect"
+                ]
+              },
+              "weaponId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "active": {
+                "type": "object",
+                "additional": true
+              }
+            },
+            "required": [
+              "op",
+              "weaponId",
+              "active"
+            ]
+          }
+        }
+      },
+      "dispel": {
+        "apiVersion": 1,
+        "domain": "instances",
+        "lifecycles": [],
+        "validation": "closed-fields-v1",
+        "fields": {
+          "op": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "component": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "condition"
+          },
+          "gradeBonus": {
+            "type": "integer"
+          },
+          "immunityLifecycle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "immunityScaling": {
+            "type": "string",
+            "minLength": 1
+          },
+          "maximumLevel": {
+            "type": "number",
+            "expression": true
+          }
+        },
+        "required": [
+          "maximumLevel"
+        ],
+        "reads": [
+          "plan.effectChoice",
+          "target.timedInstances"
+        ],
+        "produces": {
+          "scope": "target",
+          "writes": [
+            "target.timedInstances"
+          ]
+        },
+        "outputs": {
+          "default": {
+            "type": "object",
+            "fields": {
+              "op": {
+                "type": "string",
+                "enum": [
+                  "dispel"
+                ]
+              },
+              "ended": {
+                "type": "object",
+                "fields": {
+                  "id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "sourceId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "casterId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "settlements": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additional": true
+                    }
+                  }
+                },
+                "required": [
+                  "id",
+                  "sourceId",
+                  "casterId"
+                ]
+              }
+            },
+            "required": [
+              "op",
+              "ended"
+            ]
+          }
+        }
+      },
+      "statusSource": {
+        "apiVersion": 1,
+        "domain": "status-sources",
+        "lifecycles": [],
+        "validation": "closed-fields-v1",
+        "fields": {
+          "op": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "component": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "condition"
+          },
+          "gradeBonus": {
+            "type": "integer"
+          },
+          "immunityLifecycle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "immunityScaling": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "type": "string",
+            "minLength": 1,
+            "expression": true
+          },
+          "asValue": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "type",
+          "asValue"
+        ],
+        "reads": [
+          "target.statuses",
+          "plan.statusSource"
+        ],
+        "produces": {
+          "scope": "target",
+          "writes": [
+            "context.asValue"
+          ]
+        },
+        "outputs": {
+          "default": {
+            "type": "object",
+            "fields": {
+              "op": {
+                "type": "string",
+                "enum": [
+                  "statusSource"
+                ]
+              },
+              "type": {
+                "type": "string",
+                "minLength": 1
+              },
+              "points": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "op",
+              "type",
+              "points"
+            ]
+          }
+        }
+      },
+      "consumeStatusSource": {
+        "apiVersion": 1,
+        "domain": "status-sources",
+        "lifecycles": [],
+        "validation": "closed-fields-v1",
+        "fields": {
+          "op": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "component": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "condition"
+          },
+          "gradeBonus": {
+            "type": "integer"
+          },
+          "immunityLifecycle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "immunityScaling": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "type": "string",
+            "minLength": 1,
+            "expression": true
+          }
+        },
+        "required": [
+          "type"
+        ],
+        "reads": [
+          "target.statuses",
+          "plan.statusSource"
+        ],
+        "produces": {
+          "scope": "target",
+          "writes": [
+            "target.statuses"
+          ]
+        },
+        "outputs": {
+          "default": {
+            "type": "object",
+            "fields": {
+              "op": {
+                "type": "string",
+                "enum": [
+                  "consumeStatusSource"
+                ]
+              },
+              "type": {
+                "type": "string",
+                "minLength": 1
+              },
+              "removed": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "op",
+              "type",
+              "removed"
+            ]
+          }
+        }
+      },
+      "loseAction": {
+        "apiVersion": 1,
+        "domain": "actions",
+        "lifecycles": [],
+        "validation": "closed-fields-v1",
+        "fields": {
+          "op": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "component": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "condition"
+          },
+          "gradeBonus": {
+            "type": "integer"
+          },
+          "immunityLifecycle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "immunityScaling": {
+            "type": "string",
+            "minLength": 1
+          },
+          "action": {
+            "type": "string",
+            "enum": [
+              "swift",
+              "move",
+              "standard"
+            ]
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "reads": [
+          "target.turn"
+        ],
+        "produces": {
+          "scope": "target",
+          "writes": [
+            "turn",
+            "resourceActionLosses"
+          ]
+        },
+        "outputs": {
+          "default": {
+            "type": "object",
+            "fields": {
+              "op": {
+                "type": "string",
+                "enum": [
+                  "loseAction"
+                ]
+              },
+              "action": {
+                "type": "string",
+                "minLength": 1
+              },
+              "timing": {
+                "type": "string",
+                "enum": [
+                  "current",
+                  "next"
+                ]
+              }
+            },
+            "required": [
+              "op",
+              "action",
+              "timing"
+            ],
+            "additional": true
+          }
+        }
+      },
+      "poolTransfer": {
+        "apiVersion": 1,
+        "domain": "pools",
+        "lifecycles": [],
+        "validation": "closed-fields-v1",
+        "fields": {
+          "op": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "component": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "condition"
+          },
+          "gradeBonus": {
+            "type": "integer"
+          },
+          "immunityLifecycle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "immunityScaling": {
+            "type": "string",
+            "minLength": 1
+          },
+          "amount": {
+            "type": "number",
+            "expression": true
+          },
+          "recover": {
+            "type": "number",
+            "expression": true
+          },
+          "choice": {
+            "type": "string",
+            "minLength": 1
+          },
+          "daily": {
+            "type": "object",
+            "fields": {
+              "basis": {
+                "type": "string",
+                "enum": [
+                  "current",
+                  "first-use"
+                ]
+              },
+              "key": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source": {
+                "type": "string",
+                "minLength": 1
+              },
+              "maximum": {
+                "type": "number",
+                "expression": true
+              }
+            },
+            "required": [
+              "basis",
+              "source",
+              "maximum"
+            ]
+          }
+        },
+        "required": [
+          "amount",
+          "recover",
+          "choice"
+        ],
+        "reads": [
+          "target.resources",
+          "caster.casting.pool"
+        ],
+        "produces": {
+          "scope": "target",
+          "writes": [
+            "target.resources",
+            "caster.resources",
+            "caster.resourceDailyUsage"
+          ]
+        },
+        "outputs": {
+          "default": {
+            "anyOf": [
+              {
+                "type": "object",
+                "fields": {
+                  "op": {
+                    "type": "string",
+                    "enum": [
+                      "poolTransfer"
+                    ]
+                  },
+                  "drained": {
+                    "type": "number"
+                  },
+                  "recovered": {
+                    "type": "number"
+                  },
+                  "ineffective": {
+                    "type": "string",
+                    "enum": [
+                      "no-eligible-pool"
+                    ]
+                  }
+                },
+                "required": [
+                  "op",
+                  "drained",
+                  "recovered",
+                  "ineffective"
+                ]
+              },
+              {
+                "type": "object",
+                "fields": {
+                  "op": {
+                    "type": "string",
+                    "enum": [
+                      "poolTransfer"
+                    ]
+                  },
+                  "sourcePool": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "destinationPool": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "before": {
+                    "type": "number"
+                  },
+                  "after": {
+                    "type": "number"
+                  },
+                  "drained": {
+                    "type": "number"
+                  },
+                  "recovered": {
+                    "type": "number"
+                  },
+                  "requested": {
+                    "type": "number"
+                  },
+                  "selection": {
+                    "type": "object",
+                    "additional": true
+                  },
+                  "daily": {
+                    "type": "object",
+                    "additional": true
+                  }
+                },
+                "required": [
+                  "op",
+                  "sourcePool",
+                  "destinationPool",
+                  "before",
+                  "after",
+                  "drained",
+                  "recovered",
+                  "requested",
+                  "selection"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "poolRestore": {
+        "apiVersion": 1,
+        "domain": "pools",
+        "lifecycles": [],
+        "validation": "closed-fields-v1",
+        "fields": {
+          "op": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "component": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "condition"
+          },
+          "gradeBonus": {
+            "type": "integer"
+          },
+          "immunityLifecycle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "immunityScaling": {
+            "type": "string",
+            "minLength": 1
+          },
+          "amount": {
+            "type": "number",
+            "expression": true
+          },
+          "daily": {
+            "type": "object",
+            "fields": {
+              "basis": {
+                "type": "string",
+                "enum": [
+                  "current",
+                  "first-use"
+                ]
+              },
+              "key": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source": {
+                "type": "string",
+                "minLength": 1
+              },
+              "maximum": {
+                "type": "number",
+                "expression": true
+              }
+            },
+            "required": [
+              "basis",
+              "key",
+              "source",
+              "maximum"
+            ]
+          }
+        },
+        "required": [
+          "amount"
+        ],
+        "reads": [
+          "caster.casting.pool",
+          "caster.resourceDailyUsage"
+        ],
+        "produces": {
+          "scope": "target",
+          "writes": [
+            "caster.resources",
+            "caster.resourceDailyUsage"
+          ]
+        },
+        "outputs": {
+          "default": {
+            "type": "object",
+            "fields": {
+              "op": {
+                "type": "string",
+                "enum": [
+                  "poolRestore"
+                ]
+              },
+              "requested": {
+                "type": "number"
+              },
+              "recovered": {
+                "type": "number"
+              },
+              "daily": {
+                "type": "object",
+                "additional": true
+              }
+            },
+            "required": [
+              "op",
+              "requested",
+              "recovered"
+            ]
+          }
+        }
+      }
+    },
+    "actionPricing": {
+      "fallback": "actual-slot-upper-bound",
+      "free": "exempt-without-quota",
+      "scope": "physical",
+      "consumer": "resource-action-pricing.mjs"
+    },
+    "periodicDamage": {
+      "consumer": "resource-periodic-clock.mjs",
+      "combatActivation": "current-round-opening",
+      "scope": "damage-step",
+      "sourceEnd": "cancel-untriggered",
+      "rateEnd": "preserve-progress",
+      "sourceImmunityFamily": "time"
+    },
+    "expressions": {
+      "add": {
+        "minimum": 0,
+        "maximum": null,
+        "result": "number"
+      },
+      "mul": {
+        "minimum": 0,
+        "maximum": null,
+        "result": "number"
+      },
+      "sub": {
+        "minimum": 2,
+        "maximum": 2,
+        "result": "number"
+      },
+      "div": {
+        "minimum": 2,
+        "maximum": 2,
+        "result": "number"
+      },
+      "min": {
+        "minimum": 1,
+        "maximum": null,
+        "result": "number"
+      },
+      "max": {
+        "minimum": 1,
+        "maximum": null,
+        "result": "number"
+      },
+      "floor": {
+        "minimum": 1,
+        "maximum": 1,
+        "result": "number"
+      }
+    },
+    "conditions": {
+      "eq": {
+        "required": [
+          "left",
+          "right"
+        ]
+      },
+      "ne": {
+        "required": [
+          "left",
+          "right"
+        ]
+      },
+      "gte": {
+        "required": [
+          "left",
+          "right"
+        ],
+        "numeric": true
+      },
+      "lte": {
+        "required": [
+          "left",
+          "right"
+        ],
+        "numeric": true
+      },
+      "in": {
+        "required": [
+          "left",
+          "values"
+        ]
+      },
+      "contains": {
+        "required": [
+          "left",
+          "right"
+        ]
+      },
+      "present": {
+        "required": [
+          "left"
+        ]
+      }
+    },
+    "definitionPolicies": {
+      "effectPolicyMigrations": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "fields": {
+            "stat": {
+              "type": "string",
+              "minLength": 1
+            },
+            "fromVersion": {
+              "type": "string",
+              "minLength": 1
+            },
+            "source": {
+              "type": "string",
+              "minLength": 1
+            },
+            "set": {
+              "type": "object",
+              "fields": {
+                "stacking": {
+                  "type": "string",
+                  "enum": [
+                    "add",
+                    "highest-source-grade"
+                  ]
+                },
+                "damageAllocation": {
+                  "type": "string",
+                  "enum": [
+                    "lightest-existing"
+                  ]
+                }
+              },
+              "required": []
+            }
+          },
+          "required": [
+            "stat",
+            "fromVersion",
+            "source",
+            "set"
+          ]
+        }
+      }
+    },
+    "programPolicies": {
+      "cooldownAfterUses": {
+        "type": "object",
+        "fields": {
+          "uses": {
+            "type": "number",
+            "expression": true
+          },
+          "rounds": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "required": [
+          "uses",
+          "rounds"
+        ]
+      },
+      "supportedGrades": [
+        "D",
+        "C",
+        "B",
+        "A",
+        "S"
+      ],
+      "automaticReference": {
+        "target": "area",
+        "center": "self",
+        "team": "all",
+        "steps": [
+          "save",
+          "damage",
+          "status"
+        ]
+      },
+      "spellResistance": [
+        "ignore"
+      ],
+      "coneArea": {
+        "type": "object",
+        "fields": {
+          "shape": {
+            "type": "string",
+            "enum": [
+              "cone"
+            ]
+          },
+          "center": {
+            "type": "string",
+            "enum": [
+              "self"
+            ]
+          },
+          "length": {
+            "type": "number",
+            "expression": true
+          },
+          "angleDegrees": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          }
+        },
+        "required": [
+          "shape",
+          "center",
+          "length",
+          "angleDegrees"
+        ]
+      },
+      "targetAllocation": {
+        "type": "object",
+        "fields": {
+          "key": {
+            "type": "string",
+            "minLength": 1
+          },
+          "total": {
+            "type": "number",
+            "expression": true
+          },
+          "as": {
+            "type": "string",
+            "minLength": 1
+          },
+          "spellResistance": {
+            "type": "string",
+            "enum": [
+              "subtract-once"
+            ]
+          }
+        },
+        "required": [
+          "key",
+          "total",
+          "as",
+          "spellResistance"
+        ]
+      },
+      "targetProgression": {
+        "type": "object",
+        "fields": {
+          "key": {
+            "type": "string",
+            "minLength": 1
+          },
+          "scope": {
+            "type": "string",
+            "enum": [
+              "scene"
+            ]
+          },
+          "commit": {
+            "type": "string",
+            "enum": [
+              "target-resolution"
+            ]
+          },
+          "fields": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "fields": {
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "initial": {
+                  "type": "number",
+                  "expression": true
+                },
+                "next": {
+                  "type": "number",
+                  "expression": true
+                }
+              },
+              "required": [
+                "name",
+                "initial",
+                "next"
+              ]
+            }
+          }
+        },
+        "required": [
+          "key",
+          "scope",
+          "commit",
+          "fields"
+        ]
+      },
+      "endEffects": [
+        "own-selected"
+      ],
+      "requiredItems": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "fields": {
+            "key": {
+              "type": "string",
+              "minLength": 1
+            },
+            "tag": {
+              "type": "string",
+              "minLength": 1
+            },
+            "held": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "key",
+            "tag",
+            "held"
+          ]
+        }
+      },
+      "toggle": [
+        "on",
+        "off"
+      ],
+      "triggerRequiresConscious": true
+    },
+    "penaltyConsumers": {
+      "statusPenaltyIgnore": 1,
+      "environmentPenaltyIgnore": 1,
+      "ignoreWoundUnconsciousness": 1
+    },
+    "immunityModes": [
+      "any-blocks",
+      "fraction-unblocked"
+    ],
+    "resistanceModes": [
+      "roll",
+      "opposed",
+      "threshold",
+      "subtract"
+    ],
+    "effectConsumers": {
+      "attack": {
+        "status": "connected",
+        "module": "combat/engine.mjs",
+        "reader": "attackProfile",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "attribute": {
+        "status": "connected",
+        "module": "core.mjs",
+        "reader": "effectiveAttribute",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "check": {
+        "status": "connected",
+        "module": "core.mjs",
+        "reader": "check",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "attributeCheck": {
+        "status": "connected",
+        "module": "core.mjs",
+        "reader": "check; combat/mechanics.saveProfile; combat/engine.attackProfile",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "flatFootedLevel": {
+        "status": "connected",
+        "module": "combat/engine.mjs",
+        "reader": "resolveDefense",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "defense": {
+        "status": "connected",
+        "module": "combat/engine.mjs",
+        "reader": "resolveDefense",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "naturalDefense": {
+        "status": "connected",
+        "module": "combat/engine.mjs",
+        "reader": "resolveDefense",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "ignoreAP": {
+        "status": "connected",
+        "module": "combat/engine.mjs",
+        "reader": "resolveDefense.alternative",
+        "scopes": [
+          "defense-alternative"
+        ]
+      },
+      "ignoreSpeed": {
+        "status": "connected",
+        "module": "combat/mechanics.mjs",
+        "reader": "saveProfile + combat/engine.resolveDefense",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "initiativeDefense": {
+        "status": "connected",
+        "module": "combat/engine.mjs",
+        "reader": "resolveDefense",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "initiative": {
+        "status": "connected",
+        "module": "combat/mechanics.mjs",
+        "reader": "derived",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "currentInitiative": {
+        "status": "connected",
+        "module": "combat/initiative.mjs",
+        "reader": "currentInitiative",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "speed": {
+        "status": "connected",
+        "module": "combat/mechanics.mjs",
+        "reader": "derived",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "willMax": {
+        "status": "connected",
+        "module": "combat/mechanics.mjs",
+        "reader": "derived",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "save": {
+        "status": "connected",
+        "module": "combat/mechanics.mjs",
+        "reader": "saveProfile",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "tag": {
+        "status": "connected",
+        "module": "combat/mechanics.mjs",
+        "reader": "combatRuleContext",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "incomingDamage": {
+        "status": "connected",
+        "module": "resource-damage-modifiers.mjs",
+        "reader": "adjustIncomingDamage",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "absorb": {
+        "status": "connected",
+        "module": "combat/engine.mjs",
+        "reader": "damageEvent",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "hardness": {
+        "status": "connected",
+        "module": "combat/engine.mjs",
+        "reader": "damageEvent",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "dr": {
+        "status": "connected",
+        "module": "combat/engine.mjs",
+        "reader": "damageEvent",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "energyResistance": {
+        "status": "connected",
+        "module": "combat/engine.mjs",
+        "reader": "damageEvent",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "spellPower": {
+        "status": "connected",
+        "module": "gm_runtime/resource-program.mjs",
+        "reader": "executeProgram",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "spellResistance": {
+        "status": "connected",
+        "module": "gm_runtime/resource-program.mjs",
+        "reader": "executeProgram + resource-auras",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "mindStatusReduction": {
+        "status": "connected",
+        "module": "gm_runtime/resource-program.mjs",
+        "reader": "resolveProgramSteps",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "ignoreWoundUnconsciousness": {
+        "status": "connected",
+        "module": "core.mjs",
+        "reader": "lifeStatus",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "statusPenaltyIgnore": {
+        "status": "connected",
+        "module": "resource-penalties.mjs",
+        "reader": "remainingPenalty",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "environmentPenaltyIgnore": {
+        "status": "connected",
+        "module": "resource-penalties.mjs",
+        "reader": "remainingPenalty",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "extraSuccess": {
+        "status": "connected",
+        "module": "core.mjs",
+        "reader": "check",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "explodeReduction": {
+        "status": "connected",
+        "module": "core.mjs",
+        "reader": "check",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "willEnhancement": {
+        "status": "connected",
+        "module": "core.mjs",
+        "reader": "willEnhancement",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "weaponMagical": {
+        "status": "connected",
+        "module": "combat/engine.mjs",
+        "reader": "attackProfile",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "weaponSpirit": {
+        "status": "connected",
+        "module": "combat/engine.mjs",
+        "reader": "attackProfile",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "weaponDamage": {
+        "status": "connected",
+        "module": "resource-weapons.mjs",
+        "reader": "instanceWeapon",
+        "scopes": [
+          "item"
+        ]
+      },
+      "weaponExplodeReduction": {
+        "status": "connected",
+        "module": "resource-weapons.mjs",
+        "reader": "instanceWeapon",
+        "scopes": [
+          "item"
+        ]
+      },
+      "terrainFreedom": {
+        "status": "connected",
+        "module": "combat/engine.mjs",
+        "reader": "move via kit-state.fengyouActive",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "shortRestB": {
+        "status": "connected",
+        "module": "recovery.mjs",
+        "reader": "declaredRest + meditate",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "shortRestL": {
+        "status": "connected",
+        "module": "recovery.mjs",
+        "reader": "declaredRest + meditate",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "willPerHour": {
+        "status": "connected",
+        "module": "recovery.mjs",
+        "reader": "advanceTime",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "learningDiscount": {
+        "status": "connected",
+        "module": "growth-pricing.mjs",
+        "reader": "growthPrice",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "selfProtectionDefense": {
+        "status": "connected",
+        "module": "combat/engine.mjs",
+        "reader": "resolveDefense via resource-specializations.protectionChoices",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "walkingMultiplier": {
+        "status": "connected",
+        "module": "combat/movement-modes.mjs",
+        "reader": "movementSpeed via resource-specializations.walkingMultiplier",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "runningJump": {
+        "status": "connected",
+        "module": "resource-jumping.mjs",
+        "reader": "jumpCheckContext + resolveJumpDistance",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "defenseBypass": {
+        "status": "consumer-missing",
+        "scopes": [
+          "actor"
+        ]
+      },
+      "craftTimeMultiplier": {
+        "status": "consumer-missing",
+        "scopes": [
+          "actor"
+        ]
+      }
+    },
+    "eventOperatorScopes": {
+      "attackDamageCaused": [
+        "additionalDamage"
+      ]
+    },
+    "triggerContexts": {
+      "attackDamageCaused": {
+        "sourceActorId": {
+          "type": "string"
+        },
+        "damageReceipt": {
+          "type": "object"
+        }
+      },
+      "attackResolved": {
+        "actualDamage": {
+          "type": "number"
+        },
+        "hit": {
+          "type": "boolean"
+        },
+        "causedDamage": {
+          "type": "boolean"
+        },
+        "triggerRemainingRounds": {
+          "type": "number"
+        }
+      },
+      "hit": {
+        "actualDamage": {
+          "type": "number"
+        }
+      },
+      "afterLifeLoss": {
+        "actualDamage": {
+          "type": "number"
+        }
+      },
+      "incomingHit": {},
+      "turnStart": {}
+    }
+  },
+  "abi": "{\"schemaVersion\":\"901-program-capabilities/1\",\"operators\":{\"projectionControl\":{\"apiVersion\":1,\"domain\":\"scene-objects\",\"lifecycles\":[],\"validation\":\"closed-fields-v1\",\"fields\":{\"op\":{\"type\":\"string\",\"minLength\":1},\"id\":{\"type\":\"string\",\"minLength\":1},\"component\":{\"type\":\"string\",\"minLength\":1},\"when\":{\"type\":\"condition\"},\"gradeBonus\":{\"type\":\"integer\"},\"immunityLifecycle\":{\"type\":\"string\",\"minLength\":1},\"immunityScaling\":{\"type\":\"string\",\"minLength\":1},\"mode\":{\"type\":\"string\",\"enum\":[\"complete\",\"alter\"]}},\"required\":[\"mode\"],\"reads\":[\"source.projection\",\"plan.projection\"],\"produces\":{\"scope\":\"target\",\"writes\":[\"source.projection\"]},\"outputs\":{\"default\":{\"type\":\"object\",\"additional\":true}}},\"instantDeath\":{\"apiVersion\":1,\"domain\":\"death\",\"lifecycles\":[],\"validation\":\"closed-fields-v1\",\"fields\":{\"op\":{\"type\":\"string\",\"minLength\":1},\"id\":{\"type\":\"string\",\"minLength\":1},\"component\":{\"type\":\"string\",\"minLength\":1},\"when\":{\"type\":\"condition\"},\"gradeBonus\":{\"type\":\"integer\"},\"immunityLifecycle\":{\"type\":\"string\",\"minLength\":1},\"immunityScaling\":{\"type\":\"string\",\"minLength\":1}},\"required\":[],\"reads\":[\"target.immunities\",\"target.resourceSceneUsage\"],\"produces\":{\"scope\":\"target\",\"writes\":[\"health.dead\",\"resourceSceneUsage\"]},\"outputs\":{\"default\":{\"type\":\"object\",\"fields\":{\"op\":{\"type\":\"string\",\"enum\":[\"instantDeath\"]}},\"required\":[\"op\"],\"additional\":true}}},\"revive\":{\"apiVersion\":1,\"domain\":\"death\",\"lifecycles\":[],\"validation\":\"closed-fields-v1\",\"fields\":{\"op\":{\"type\":\"string\",\"minLength\":1},\"id\":{\"type\":\"string\",\"minLength\":1},\"component\":{\"type\":\"string\",\"minLength\":1},\"when\":{\"type\":\"condition\"},\"gradeBonus\":{\"type\":\"integer\"},\"immunityLifecycle\":{\"type\":\"string\",\"minLength\":1},\"immunityScaling\":{\"type\":\"string\",\"minLength\":1},\"mode\":{\"type\":\"string\",\"enum\":[\"one-impact-from-death\"]},\"maximum\":{\"type\":\"number\",\"expression\":true}},\"required\":[\"mode\"],\"reads\":[\"target.deathRestrictions\",\"target.health\"],\"produces\":{\"scope\":\"target\",\"writes\":[\"health\",\"woundLedger\",\"resourceSceneUsage\"]},\"outputs\":{\"default\":{\"type\":\"object\",\"fields\":{\"op\":{\"type\":\"string\",\"enum\":[\"revive\"]},\"recovered\":{\"type\":\"boolean\"}},\"required\":[\"op\",\"recovered\"],\"additional\":true}}},\"inspectStat\":{\"apiVersion\":1,\"domain\":\"perception\",\"lifecycles\":[],\"validation\":\"closed-fields-v1\",\"fields\":{\"op\":{\"type\":\"string\",\"minLength\":1},\"id\":{\"type\":\"string\",\"minLength\":1},\"component\":{\"type\":\"string\",\"minLength\":1},\"when\":{\"type\":\"condition\"},\"gradeBonus\":{\"type\":\"integer\"},\"immunityLifecycle\":{\"type\":\"string\",\"minLength\":1},\"immunityScaling\":{\"type\":\"string\",\"minLength\":1},\"stat\":{\"type\":\"string\",\"enum\":[\"spellResistance\"]}},\"required\":[\"stat\"],\"reads\":[\"target.resistance\",\"context.casterId\"],\"produces\":{\"scope\":\"target\",\"writes\":[\"perception.receipts\"]},\"outputs\":{\"default\":{\"type\":\"object\",\"fields\":{\"op\":{\"type\":\"string\",\"enum\":[\"inspectStat\"]},\"stat\":{\"type\":\"string\",\"minLength\":1},\"observation\":{\"type\":\"object\",\"additional\":true}},\"required\":[\"op\",\"stat\",\"observation\"]}}},\"additionalDamage\":{\"apiVersion\":1,\"domain\":\"damage-additions\",\"lifecycles\":[],\"validation\":\"closed-fields-v1\",\"requiresEvent\":\"attackDamageCaused\",\"fields\":{\"op\":{\"type\":\"string\",\"minLength\":1},\"id\":{\"type\":\"string\",\"minLength\":1},\"component\":{\"type\":\"string\",\"minLength\":1},\"when\":{\"type\":\"condition\"},\"gradeBonus\":{\"type\":\"integer\"},\"immunityLifecycle\":{\"type\":\"string\",\"minLength\":1},\"immunityScaling\":{\"type\":\"string\",\"minLength\":1},\"amount\":{\"type\":\"number\",\"expression\":true},\"mode\":{\"type\":\"string\",\"enum\":[\"same-type\"]}},\"required\":[\"amount\",\"mode\"],\"reads\":[\"event.damageReceipt\"],\"produces\":{\"scope\":\"target\",\"writes\":[\"event.additionalDamage\"]},\"outputs\":{\"default\":{\"type\":\"object\",\"fields\":{\"op\":{\"type\":\"string\",\"enum\":[\"additionalDamage\"]},\"amount\":{\"type\":\"number\"},\"mode\":{\"type\":\"string\",\"minLength\":1},\"sourceId\":{\"type\":\"string\",\"minLength\":1},\"casterId\":{\"type\":\"string\",\"minLength\":1},\"grade\":{\"type\":\"string\",\"minLength\":1},\"magical\":{\"type\":\"boolean\"}},\"required\":[\"op\",\"amount\",\"mode\",\"sourceId\",\"casterId\",\"grade\",\"magical\"]}}},\"save\":{\"apiVersion\":1,\"domain\":\"resistance\",\"lifecycles\":[],\"validation\":\"closed-fields-v1\",\"fields\":{\"op\":{\"type\":\"string\",\"minLength\":1},\"id\":{\"type\":\"string\",\"minLength\":1},\"component\":{\"type\":\"string\",\"minLength\":1},\"when\":{\"type\":\"condition\"},\"gradeBonus\":{\"type\":\"integer\"},\"immunityLifecycle\":{\"type\":\"string\",\"minLength\":1},\"immunityScaling\":{\"type\":\"string\",\"minLength\":1},\"type\":{\"anyOf\":[{\"type\":\"string\",\"enum\":[\"will\",\"fort\",\"reflex\"]},{\"type\":\"object\",\"fields\":{\"recipientChoice\":{\"type\":\"string\",\"minLength\":1},\"options\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"enum\":[\"will\",\"fort\",\"reflex\"]}}},\"required\":[\"recipientChoice\",\"options\"]}]},\"penalty\":{\"type\":\"number\",\"expression\":true},\"mental\":{\"type\":\"boolean\"},\"as\":{\"type\":\"string\",\"minLength\":1},\"resultAs\":{\"type\":\"string\",\"minLength\":1},\"resolve\":{\"type\":\"object\",\"fields\":{\"kind\":{\"type\":\"string\",\"enum\":[\"roll\",\"opposed\",\"threshold\",\"subtract\"]},\"active\":{\"type\":\"number\",\"expression\":true},\"dc\":{\"type\":\"number\",\"expression\":true},\"incoming\":{\"type\":\"number\",\"expression\":true},\"perSuccess\":{\"type\":\"number\",\"expression\":true}},\"required\":[\"kind\"]}},\"required\":[\"type\"],\"reads\":[\"target.saveProfile\",\"context.cast\"],\"produces\":{\"scope\":\"target\",\"scalar\":\"as|save\",\"receipt\":\"resultAs|as|save\",\"variants\":{\"roll\":{\"type\":\"object\",\"fields\":{\"kind\":{\"type\":\"string\",\"enum\":[\"roll\"]},\"total\":{\"type\":\"number\"}},\"required\":[\"kind\",\"total\"]},\"opposed\":{\"type\":\"object\",\"fields\":{\"kind\":{\"type\":\"string\",\"enum\":[\"opposed\"]},\"activeTotal\":{\"type\":\"number\"},\"passiveTotal\":{\"type\":\"number\"},\"success\":{\"type\":\"boolean\"},\"margin\":{\"type\":\"number\"}},\"required\":[\"kind\",\"activeTotal\",\"passiveTotal\",\"success\",\"margin\"]},\"threshold\":{\"type\":\"object\",\"fields\":{\"kind\":{\"type\":\"string\",\"enum\":[\"threshold\"]},\"total\":{\"type\":\"number\"},\"dc\":{\"type\":\"number\"},\"success\":{\"type\":\"boolean\"}},\"required\":[\"kind\",\"total\",\"dc\",\"success\"]},\"subtract\":{\"type\":\"object\",\"fields\":{\"kind\":{\"type\":\"string\",\"enum\":[\"subtract\"]},\"incoming\":{\"type\":\"number\"},\"successes\":{\"type\":\"number\"},\"perSuccess\":{\"type\":\"number\"},\"remaining\":{\"type\":\"number\"}},\"required\":[\"kind\",\"incoming\",\"successes\",\"perSuccess\",\"remaining\"]}}},\"consumers\":[\"resistance.resolve\",\"status.resistance\",\"damage.resistance\"],\"outputs\":{\"roll\":{\"type\":\"object\",\"fields\":{\"kind\":{\"type\":\"string\",\"enum\":[\"roll\"]},\"total\":{\"type\":\"number\"}},\"required\":[\"kind\",\"total\"]},\"opposed\":{\"type\":\"object\",\"fields\":{\"kind\":{\"type\":\"string\",\"enum\":[\"opposed\"]},\"activeTotal\":{\"type\":\"number\"},\"passiveTotal\":{\"type\":\"number\"},\"success\":{\"type\":\"boolean\"},\"margin\":{\"type\":\"number\"}},\"required\":[\"kind\",\"activeTotal\",\"passiveTotal\",\"success\",\"margin\"]},\"threshold\":{\"type\":\"object\",\"fields\":{\"kind\":{\"type\":\"string\",\"enum\":[\"threshold\"]},\"total\":{\"type\":\"number\"},\"dc\":{\"type\":\"number\"},\"success\":{\"type\":\"boolean\"}},\"required\":[\"kind\",\"total\",\"dc\",\"success\"]},\"subtract\":{\"type\":\"object\",\"fields\":{\"kind\":{\"type\":\"string\",\"enum\":[\"subtract\"]},\"incoming\":{\"type\":\"number\"},\"successes\":{\"type\":\"number\"},\"perSuccess\":{\"type\":\"number\"},\"remaining\":{\"type\":\"number\"}},\"required\":[\"kind\",\"incoming\",\"successes\",\"perSuccess\",\"remaining\"]}}},\"attack\":{\"apiVersion\":1,\"domain\":\"attack\",\"lifecycles\":[],\"validation\":\"closed-fields-v1\",\"fields\":{\"op\":{\"type\":\"string\",\"minLength\":1},\"id\":{\"type\":\"string\",\"minLength\":1},\"component\":{\"type\":\"string\",\"minLength\":1},\"when\":{\"type\":\"condition\"},\"gradeBonus\":{\"type\":\"integer\"},\"immunityLifecycle\":{\"type\":\"string\",\"minLength\":1},\"immunityScaling\":{\"type\":\"string\",\"minLength\":1},\"weapon\":{\"type\":\"number\",\"expression\":true},\"modifier\":{\"type\":\"number\",\"expression\":true},\"cap\":{\"type\":\"number\",\"expression\":true},\"contact\":{\"type\":\"boolean\"},\"energyWeapon\":{\"type\":\"boolean\"},\"ap\":{\"type\":\"number\",\"expression\":true},\"magic\":{\"type\":\"number\",\"expression\":true},\"speed\":{\"type\":\"number\",\"expression\":true}},\"required\":[\"weapon\"],\"reads\":[\"target.defense\",\"caster.check\"],\"produces\":{\"scope\":\"target\",\"writes\":[\"context.hit\",\"context.damage\"]},\"outputs\":{\"default\":{\"type\":\"object\",\"fields\":{\"op\":{\"type\":\"string\",\"enum\":[\"attack\"]},\"weapon\":{\"type\":\"number\"},\"defense\":{\"type\":\"object\",\"additional\":true},\"roll\":{\"type\":\"object\",\"additional\":true},\"damage\":{\"type\":\"number\"}},\"required\":[\"op\",\"weapon\",\"defense\",\"roll\",\"damage\"]}}},\"damage\":{\"apiVersion\":1,\"domain\":\"damage\",\"lifecycles\":[],\"validation\":\"closed-fields-v1\",\"recoveryRestrictions\":[\"aggravated\",\"naturalOnly\"],\"woundUpgradePolicy\":\"ordinary-first-then-random-per-wound\",\"fields\":{\"op\":{\"type\":\"string\",\"minLength\":1},\"id\":{\"type\":\"string\",\"minLength\":1},\"component\":{\"type\":\"string\",\"minLength\":1},\"when\":{\"type\":\"condition\"},\"gradeBonus\":{\"type\":\"integer\"},\"immunityLifecycle\":{\"type\":\"string\",\"minLength\":1},\"immunityScaling\":{\"type\":\"string\",\"minLength\":1},\"deathRestriction\":{\"type\":\"object\",\"fields\":{\"maximumLevel\":{\"type\":\"number\",\"expression\":true}},\"required\":[\"maximumLevel\"]},\"amount\":{\"type\":\"number\",\"expression\":true},\"severity\":{\"type\":\"string\",\"enum\":[\"B\",\"L\",\"A\"]},\"kind\":{\"type\":\"string\",\"enum\":[\"physical\",\"energy\"]},\"energy\":{\"type\":\"string\",\"minLength\":1},\"energyWeapon\":{\"type\":\"boolean\"},\"weapon\":{\"type\":\"number\",\"expression\":true},\"unavoidable\":{\"type\":\"boolean\"},\"noAttackSource\":{\"type\":\"boolean\"},\"recovery\":{\"type\":\"string\",\"enum\":[\"aggravated\",\"naturalOnly\"]},\"resistance\":{\"anyOf\":[{\"type\":\"string\",\"enum\":[\"none\"]},{\"type\":\"object\",\"fields\":{\"receipt\":{\"type\":\"string\",\"minLength\":1},\"kind\":{\"type\":\"string\",\"enum\":[\"resolved\",\"subtract\"]},\"perSuccess\":{\"type\":\"number\"}},\"required\":[\"receipt\",\"kind\"]}]}},\"required\":[\"amount\"],\"reads\":[\"target.protection\",\"context.resistanceReceipts\"],\"produces\":{\"scope\":\"target\",\"writes\":[\"health\",\"woundLedger\",\"context.actualDamage\"]},\"outputs\":{\"default\":{\"type\":\"object\",\"fields\":{\"op\":{\"type\":\"string\",\"enum\":[\"damage\"]},\"actualDamage\":{\"type\":\"number\"}},\"required\":[\"op\",\"actualDamage\"]}}},\"status\":{\"apiVersion\":1,\"domain\":\"status\",\"lifecycles\":[\"suppress-existing\"],\"validation\":\"closed-fields-v1\",\"fields\":{\"op\":{\"type\":\"string\",\"minLength\":1},\"id\":{\"type\":\"string\",\"minLength\":1},\"component\":{\"type\":\"string\",\"minLength\":1},\"when\":{\"type\":\"condition\"},\"gradeBonus\":{\"type\":\"integer\"},\"immunityLifecycle\":{\"type\":\"string\",\"minLength\":1},\"immunityScaling\":{\"type\":\"string\",\"minLength\":1},\"type\":{\"type\":\"string\",\"minLength\":1,\"expression\":true},\"points\":{\"type\":\"number\",\"expression\":true},\"resistance\":{\"anyOf\":[{\"type\":\"string\",\"enum\":[\"none\"]},{\"type\":\"object\",\"fields\":{\"receipt\":{\"type\":\"string\",\"minLength\":1},\"kind\":{\"type\":\"string\",\"enum\":[\"resolved\",\"subtract\"]},\"perSuccess\":{\"type\":\"number\"}},\"required\":[\"receipt\",\"kind\"]}]},\"properties\":{\"type\":\"object\",\"additional\":true}},\"required\":[\"type\",\"points\"],\"reads\":[\"target.statuses\",\"context.resistanceReceipts\"],\"produces\":{\"scope\":\"target\",\"writes\":[\"statuses\"],\"result\":[\"type\",\"points\"]},\"consumers\":[\"status.effective\",\"status.lifecycle\"],\"outputs\":{\"default\":{\"type\":\"object\",\"fields\":{\"op\":{\"type\":\"string\",\"enum\":[\"status\"]},\"type\":{\"type\":\"string\",\"minLength\":1},\"points\":{\"type\":\"number\"}},\"required\":[\"op\",\"type\",\"points\"]}}},\"heal\":{\"apiVersion\":1,\"domain\":\"healing\",\"lifecycles\":[],\"validation\":\"closed-fields-v1\",\"priority\":\"enabled-aggravated-first\",\"fields\":{\"op\":{\"type\":\"string\",\"minLength\":1},\"id\":{\"type\":\"string\",\"minLength\":1},\"component\":{\"type\":\"string\",\"minLength\":1},\"when\":{\"type\":\"condition\"},\"gradeBonus\":{\"type\":\"integer\"},\"immunityLifecycle\":{\"type\":\"string\",\"minLength\":1},\"immunityScaling\":{\"type\":\"string\",\"minLength\":1},\"amount\":{\"type\":\"number\",\"expression\":true},\"recipient\":{\"type\":\"string\",\"enum\":[\"caster\",\"target\"]},\"ratios\":{\"type\":\"object\",\"fields\":{\"B\":{\"type\":\"number\",\"exclusiveMinimum\":0},\"L\":{\"type\":\"number\",\"exclusiveMinimum\":0},\"A\":{\"type\":\"number\",\"exclusiveMinimum\":0}},\"required\":[]}},\"required\":[\"amount\"],\"reads\":[\"recipient.health\",\"recipient.woundLedger\"],\"produces\":{\"scope\":\"recipient\",\"writes\":[\"health\",\"woundLedger\"],\"result\":[\"changes\",\"remaining\"]},\"consumers\":[\"healing.wounds\"],\"outputs\":{\"default\":{\"type\":\"object\",\"fields\":{\"changes\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"additional\":true}},\"remaining\":{\"type\":\"number\"}},\"required\":[\"changes\",\"remaining\"]}}},\"removeStatus\":{\"apiVersion\":1,\"domain\":\"status\",\"lifecycles\":[],\"validation\":\"closed-fields-v1\",\"budgetScopes\":[\"type\"],\"choicePolicy\":\"recipient-source-allocation\",\"fields\":{\"op\":{\"type\":\"string\",\"minLength\":1},\"id\":{\"type\":\"string\",\"minLength\":1},\"component\":{\"type\":\"string\",\"minLength\":1},\"when\":{\"type\":\"condition\"},\"gradeBonus\":{\"type\":\"integer\"},\"immunityLifecycle\":{\"type\":\"string\",\"minLength\":1},\"immunityScaling\":{\"type\":\"string\",\"minLength\":1},\"amount\":{\"type\":\"number\",\"expression\":true},\"types\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"minLength\":1}},\"exclude\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"minLength\":1}},\"allocate\":{\"type\":\"boolean\"},\"budgetScope\":{\"type\":\"string\",\"enum\":[\"type\"]}},\"required\":[\"amount\"],\"reads\":[\"target.statuses\",\"plan.statusAllocations\",\"plan.statusBudgetChoices\"],\"produces\":{\"scope\":\"target\",\"writes\":[\"statuses\"]},\"outputs\":{\"default\":{\"type\":\"object\",\"fields\":{\"op\":{\"type\":\"string\",\"enum\":[\"removeStatus\"]},\"removed\":{\"type\":\"number\"},\"budgetScope\":{\"type\":\"string\",\"enum\":[\"type\"]},\"budgetPerType\":{\"type\":\"number\"},\"allocations\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"additional\":true}}},\"required\":[\"op\",\"removed\"]}}},\"effect\":{\"apiVersion\":1,\"domain\":\"effects\",\"lifecycles\":[\"suppress\"],\"validation\":\"closed-fields-v1\",\"initialBlockedPolicies\":[\"discard\"],\"turnOrderPolicies\":[\"after-caster-turn\"],\"targetUsageScopes\":[\"scene\"],\"exclusivePolicies\":[\"recipient-choice\"],\"actionPriceFamilies\":[\"physical\"],\"pricedActions\":[\"weaponAttack\",\"naturalAttack\",\"move\",\"drawWeapon\",\"loadBow\",\"block\"],\"fields\":{\"op\":{\"type\":\"string\",\"minLength\":1},\"id\":{\"type\":\"string\",\"minLength\":1},\"component\":{\"type\":\"string\",\"minLength\":1},\"when\":{\"type\":\"condition\"},\"gradeBonus\":{\"type\":\"integer\"},\"immunityLifecycle\":{\"type\":\"string\",\"minLength\":1},\"immunityScaling\":{\"type\":\"string\",\"minLength\":1},\"effects\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"fields\":{\"stat\":{\"type\":\"string\",\"minLength\":1},\"value\":{\"type\":\"number\",\"expression\":true},\"group\":{\"type\":\"string\",\"minLength\":1},\"stacking\":{\"type\":\"string\",\"enum\":[\"add\",\"highest-source-grade\"]},\"damageAllocation\":{\"type\":\"string\",\"enum\":[\"lightest-existing\"]},\"when\":{\"type\":\"condition\"},\"clauseId\":{\"type\":\"string\",\"minLength\":1},\"fallbacks\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"additional\":true}},\"tag\":{\"type\":\"string\",\"minLength\":1},\"material\":{\"type\":\"boolean\"},\"spiritEffective\":{\"type\":\"boolean\"},\"minimumCost\":{\"type\":\"integer\",\"minimum\":0},\"discountSource\":{\"type\":\"string\",\"minLength\":1}},\"required\":[\"stat\",\"value\"]}},\"targetScope\":{\"type\":\"string\",\"enum\":[\"actor\",\"scene\"]},\"scene\":{\"type\":\"boolean\"},\"rounds\":{\"type\":\"number\",\"expression\":true},\"minutes\":{\"type\":\"number\",\"expression\":true},\"formulaTiming\":{\"type\":\"string\",\"enum\":[\"cast\",\"live\"]},\"instancePolicy\":{\"type\":\"string\",\"enum\":[\"append\"]},\"removable\":{\"type\":\"boolean\"},\"deathRecovery\":{\"type\":\"object\",\"fields\":{\"mode\":{\"type\":\"string\",\"enum\":[\"one-impact-from-death\"]},\"maximum\":{\"type\":\"number\",\"expression\":true}},\"required\":[\"mode\",\"maximum\"]},\"instantDeathProtection\":{\"type\":\"object\",\"fields\":{\"maximumLevel\":{\"type\":\"number\",\"expression\":true}},\"required\":[\"maximumLevel\"]},\"expiresOn\":{\"type\":\"object\",\"additional\":true},\"targetSceneLimit\":{\"type\":\"integer\",\"minimum\":1},\"turnOrder\":{\"type\":\"string\",\"enum\":[\"after-caster-turn\"]},\"initialBlocked\":{\"type\":\"string\",\"enum\":[\"discard\"]},\"exclusiveGroup\":{\"type\":\"string\",\"minLength\":1},\"exclusivePolicy\":{\"type\":\"string\",\"enum\":[\"recipient-choice\"]},\"actionPrice\":{\"type\":\"object\",\"additional\":true},\"suppression\":{\"type\":\"object\",\"fields\":{\"family\":{\"type\":\"string\",\"enum\":[\"antiDetection\"]},\"maximumLevel\":{\"type\":\"number\",\"expression\":true}},\"required\":[\"family\",\"maximumLevel\"]},\"projection\":{\"type\":\"object\",\"fields\":{\"range\":{\"type\":\"number\",\"expression\":true},\"maximumSize\":{\"type\":\"number\",\"expression\":true},\"volumeUnit\":{\"type\":\"string\",\"enum\":[\"size\",\"cubic-metres\"]},\"channels\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"enum\":[\"visual\",\"auditory\",\"olfactory\",\"temperature\",\"tactile\"]}},\"allowAttachment\":{\"type\":\"boolean\"},\"touchReveals\":{\"type\":\"boolean\"},\"damageThreshold\":{\"type\":\"number\",\"expression\":true},\"controlActions\":{\"type\":\"object\",\"fields\":{\"D\":{\"type\":\"string\",\"enum\":[\"standard\"]},\"C\":{\"type\":\"string\",\"enum\":[\"move\"]}},\"required\":[]},\"programmed\":{\"type\":\"object\",\"fields\":{\"cooldownMinutes\":{\"type\":\"number\"},\"triggerRadius\":{\"type\":\"number\",\"expression\":true},\"dc\":{\"type\":\"number\",\"expression\":true}},\"required\":[\"cooldownMinutes\",\"triggerRadius\",\"dc\"]}},\"required\":[\"range\",\"maximumSize\",\"volumeUnit\",\"channels\",\"touchReveals\"]},\"obscuration\":{\"type\":\"object\",\"fields\":{\"radius\":{\"type\":\"number\",\"expression\":true},\"channel\":{\"type\":\"string\",\"enum\":[\"visual\"]},\"mask\":{\"type\":\"string\",\"enum\":[\"none\",\"visualIllusion\"]}},\"required\":[\"radius\",\"channel\",\"mask\"]},\"decoys\":{\"type\":\"object\",\"fields\":{\"count\":{\"type\":\"number\",\"expression\":true},\"health\":{\"type\":\"number\",\"expression\":true},\"immunityFamily\":{\"type\":\"string\",\"enum\":[\"visualIllusion\"]},\"singleTarget\":{\"type\":\"string\",\"enum\":[\"random-redirect\"]},\"damageMode\":{\"type\":\"string\",\"enum\":[\"copy-after-defense\"]}},\"required\":[\"count\",\"health\",\"immunityFamily\",\"singleTarget\",\"damageMode\"]},\"detectionDelay\":{\"type\":\"object\",\"fields\":{\"rounds\":{\"type\":\"number\",\"expression\":true},\"belowLevel\":{\"type\":\"number\",\"expression\":true},\"sourceImmunityFamily\":{\"type\":\"string\",\"enum\":[\"time\"]}},\"required\":[\"rounds\",\"belowLevel\",\"sourceImmunityFamily\"]},\"selection\":{\"type\":\"object\",\"fields\":{\"group\":{\"type\":\"string\",\"minLength\":1},\"power\":{\"type\":\"number\",\"expression\":true},\"tieBreak\":{\"type\":\"string\",\"enum\":[\"latest\"]},\"scope\":{\"type\":\"string\",\"enum\":[\"caster-grade\"]}},\"required\":[\"group\",\"power\",\"tieBreak\"]},\"endCost\":{\"type\":\"object\",\"fields\":{\"amount\":{\"type\":\"number\",\"expression\":true},\"severity\":{\"type\":\"string\",\"enum\":[\"A\"]},\"clock\":{\"type\":\"string\",\"enum\":[\"effective-round\"]},\"unavoidable\":{\"type\":\"boolean\",\"const\":true}},\"required\":[\"amount\",\"severity\",\"clock\",\"unavoidable\"]},\"periodicDamage\":{\"type\":\"object\",\"fields\":{\"multiplier\":{\"type\":\"number\",\"expression\":true},\"sourceImmunityFamily\":{\"type\":\"string\",\"enum\":[\"time\"]}},\"required\":[\"multiplier\",\"sourceImmunityFamily\"]}},\"required\":[\"effects\"],\"reads\":[\"target.activeResourceEffects\",\"context.casterId\"],\"produces\":{\"scope\":\"target\",\"writes\":[\"activeResourceEffects\"],\"result\":[\"active\"]},\"consumers\":[\"effect.collect\",\"effect.expire\"],\"outputs\":{\"default\":{\"type\":\"object\",\"fields\":{\"id\":{\"type\":\"string\",\"minLength\":1},\"sourceId\":{\"type\":\"string\",\"minLength\":1},\"effects\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"fields\":{\"stat\":{\"type\":\"string\",\"minLength\":1},\"value\":{\"type\":\"number\",\"expression\":true},\"group\":{\"type\":\"string\",\"minLength\":1},\"stacking\":{\"type\":\"string\",\"enum\":[\"add\",\"highest-source-grade\"]},\"damageAllocation\":{\"type\":\"string\",\"enum\":[\"lightest-existing\"]},\"when\":{\"type\":\"condition\"},\"clauseId\":{\"type\":\"string\",\"minLength\":1},\"fallbacks\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"additional\":true}},\"tag\":{\"type\":\"string\",\"minLength\":1},\"material\":{\"type\":\"boolean\"},\"spiritEffective\":{\"type\":\"boolean\"},\"minimumCost\":{\"type\":\"integer\",\"minimum\":0},\"discountSource\":{\"type\":\"string\",\"minLength\":1}},\"required\":[\"stat\",\"value\"]}}},\"required\":[\"id\",\"sourceId\",\"effects\"],\"additional\":true}}},\"capability\":{\"apiVersion\":1,\"domain\":\"capabilities\",\"lifecycles\":[\"suppress\"],\"validation\":\"closed-fields-v1\",\"endConsequences\":[\"descent\",\"fall\"],\"movementSpeedBases\":[\"current-land\"],\"movementModes\":[\"flight\"],\"maneuverability\":[\"perfect\"],\"fields\":{\"op\":{\"type\":\"string\",\"minLength\":1},\"id\":{\"type\":\"string\",\"minLength\":1},\"component\":{\"type\":\"string\",\"minLength\":1},\"when\":{\"type\":\"condition\"},\"gradeBonus\":{\"type\":\"integer\"},\"immunityLifecycle\":{\"type\":\"string\",\"minLength\":1},\"immunityScaling\":{\"type\":\"string\",\"minLength\":1},\"sensory\":{\"type\":\"object\",\"fields\":{\"enhanceExisting\":{\"type\":\"boolean\"},\"grants\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"fields\":{\"id\":{\"type\":\"string\",\"minLength\":1},\"minimumGrade\":{\"type\":\"integer\",\"minimum\":0},\"rangeBasis\":{\"type\":\"string\",\"enum\":[\"vague\",\"sensitive\"]},\"maximumPrecision\":{\"type\":\"string\",\"enum\":[\"vague\",\"exact\"]},\"automaticDetection\":{\"type\":\"boolean\"},\"lineOfEffect\":{\"type\":\"boolean\"},\"visualIllusionImmunity\":{\"type\":\"boolean\"}},\"required\":[\"id\",\"minimumGrade\",\"rangeBasis\",\"maximumPrecision\",\"automaticDetection\",\"lineOfEffect\",\"visualIllusionImmunity\"]}}},\"required\":[\"enhanceExisting\",\"grants\"]},\"mentalGradeBonus\":{\"type\":\"integer\"},\"mode\":{\"type\":\"string\",\"enum\":[\"sensory\",\"mental\"]},\"channels\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"enum\":[\"visual\",\"nonvisual\",\"auditory\",\"olfactory\"]}},\"periodicDamage\":{\"type\":\"object\",\"fields\":{\"multiplier\":{\"type\":\"number\",\"expression\":true},\"sourceImmunityFamily\":{\"type\":\"string\",\"enum\":[\"time\"]}},\"required\":[\"multiplier\",\"sourceImmunityFamily\"]},\"byGrade\":{\"type\":\"object\",\"additional\":true},\"senses\":{\"type\":\"object\",\"additional\":true},\"modes\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"minLength\":1}},\"supernaturalWords\":{\"type\":\"boolean\"},\"fabricatedInformation\":{\"type\":\"boolean\"},\"lineOfEffect\":{\"type\":\"boolean\"},\"rangePolicy\":{\"type\":\"string\",\"enum\":[\"existing-senses\",\"existing-vague-sense\"]},\"range\":{\"type\":\"number\",\"expression\":true},\"from\":{\"type\":\"string\",\"minLength\":1},\"to\":{\"type\":\"string\",\"minLength\":1},\"movement\":{\"anyOf\":[{\"type\":\"object\",\"fields\":{\"mode\":{\"type\":\"string\",\"enum\":[\"flight\"]},\"speed\":{\"type\":\"number\",\"expression\":true},\"maneuverability\":{\"type\":\"string\",\"enum\":[\"perfect\"]},\"control\":{\"type\":\"string\",\"enum\":[\"autonomous\",\"external\"]}},\"required\":[\"mode\",\"speed\",\"maneuverability\"]},{\"type\":\"object\",\"fields\":{\"mode\":{\"type\":\"string\",\"enum\":[\"flight\"]},\"speedMultiplier\":{\"type\":\"number\",\"expression\":true},\"speedBasis\":{\"type\":\"string\",\"enum\":[\"current-land\"]},\"maneuverability\":{\"type\":\"string\",\"enum\":[\"perfect\"]},\"control\":{\"type\":\"string\",\"enum\":[\"autonomous\",\"external\"]}},\"required\":[\"mode\",\"speedMultiplier\",\"speedBasis\",\"maneuverability\"]}]},\"onEnd\":{\"anyOf\":[{\"type\":\"object\",\"fields\":{\"kind\":{\"type\":\"string\",\"enum\":[\"descent\"]},\"rounds\":{\"type\":\"number\",\"expression\":true},\"metersPerRound\":{\"type\":\"number\",\"exclusiveMinimum\":0},\"intervalMinutes\":{\"type\":\"number\",\"exclusiveMinimum\":0}},\"required\":[\"kind\",\"rounds\",\"metersPerRound\",\"intervalMinutes\"]},{\"type\":\"object\",\"fields\":{\"kind\":{\"type\":\"string\",\"enum\":[\"fall\"]}},\"required\":[\"kind\"]}]},\"scene\":{\"type\":\"boolean\"},\"rounds\":{\"type\":\"number\",\"expression\":true},\"minutes\":{\"type\":\"number\",\"expression\":true}},\"required\":[\"id\"],\"reads\":[\"target.resourceCapabilities\"],\"produces\":{\"scope\":\"target\",\"writes\":[\"resourceCapabilities\"]},\"outputs\":{\"default\":{\"type\":\"object\",\"fields\":{\"op\":{\"type\":\"string\",\"enum\":[\"capability\"]},\"capability\":{\"type\":\"object\",\"fields\":{\"id\":{\"type\":\"string\",\"minLength\":1},\"source\":{\"type\":\"string\",\"minLength\":1},\"level\":{\"type\":\"number\"}},\"required\":[\"id\",\"source\",\"level\"],\"additional\":true}},\"required\":[\"op\",\"capability\"]}}},\"trigger\":{\"apiVersion\":1,\"domain\":\"events\",\"lifecycles\":[\"suppress\"],\"validation\":\"closed-fields-v1\",\"fields\":{\"op\":{\"type\":\"string\",\"minLength\":1},\"id\":{\"type\":\"string\",\"minLength\":1},\"component\":{\"type\":\"string\",\"minLength\":1},\"when\":{\"type\":\"condition\"},\"gradeBonus\":{\"type\":\"integer\"},\"immunityLifecycle\":{\"type\":\"string\",\"minLength\":1},\"immunityScaling\":{\"type\":\"string\",\"minLength\":1},\"onDeath\":{\"type\":\"object\",\"fields\":{\"radius\":{\"type\":\"number\",\"expression\":true},\"excludeCaster\":{\"type\":\"boolean\"},\"steps\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"additional\":true}}},\"required\":[\"radius\",\"excludeCaster\",\"steps\"]},\"instancePolicy\":{\"type\":\"string\",\"enum\":[\"append\"]},\"endPolicy\":{\"type\":\"string\",\"enum\":[\"settle-remaining\"]},\"selection\":{\"type\":\"object\",\"fields\":{\"group\":{\"type\":\"string\",\"minLength\":1},\"power\":{\"type\":\"number\",\"expression\":true},\"tieBreak\":{\"type\":\"string\",\"enum\":[\"latest\"]},\"scope\":{\"type\":\"string\",\"enum\":[\"caster-grade\"]}},\"required\":[\"group\",\"power\",\"tieBreak\",\"scope\"]},\"attackSource\":{\"type\":\"string\",\"enum\":[\"caster\"]},\"event\":{\"type\":\"string\",\"enum\":[\"attackDamageCaused\",\"attackResolved\",\"hit\",\"afterLifeLoss\",\"incomingHit\",\"turnStart\"]},\"steps\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"additional\":true}},\"condition\":{\"type\":\"condition\"},\"requiresContext\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"minLength\":1}},\"requiresConscious\":{\"type\":\"boolean\"},\"count\":{\"type\":\"number\",\"expression\":true},\"perRound\":{\"type\":\"number\",\"expression\":true},\"rounds\":{\"type\":\"number\",\"expression\":true},\"scene\":{\"type\":\"boolean\"},\"target\":{\"type\":\"string\",\"enum\":[\"bearer\",\"eventTarget\"]},\"damageNature\":{\"type\":\"string\",\"enum\":[\"fixed\",\"attack\",\"extra\",\"retaliation\"]},\"sourcePolicy\":{\"type\":\"string\",\"enum\":[\"independent-casters\",\"pending-cross-caster\"]},\"effectTypes\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"minLength\":1}},\"effectGradeBonus\":{\"type\":\"integer\"}},\"required\":[\"event\",\"steps\"],\"reads\":[\"context.cast\",\"event.context\"],\"produces\":{\"scope\":\"target\",\"writes\":[\"resourceTriggers\"]},\"outputs\":{\"default\":{\"type\":\"object\",\"fields\":{\"op\":{\"type\":\"string\",\"enum\":[\"trigger\"]},\"event\":{\"type\":\"string\",\"minLength\":1}},\"required\":[\"op\",\"event\"]}}},\"aura\":{\"apiVersion\":1,\"domain\":\"spatial\",\"lifecycles\":[\"suppress\"],\"validation\":\"closed-fields-v1\",\"fields\":{\"op\":{\"type\":\"string\",\"minLength\":1},\"id\":{\"type\":\"string\",\"minLength\":1},\"component\":{\"type\":\"string\",\"minLength\":1},\"when\":{\"type\":\"condition\"},\"gradeBonus\":{\"type\":\"integer\"},\"immunityLifecycle\":{\"type\":\"string\",\"minLength\":1},\"immunityScaling\":{\"type\":\"string\",\"minLength\":1},\"radius\":{\"type\":\"number\",\"expression\":true},\"effects\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"fields\":{\"stat\":{\"type\":\"string\",\"minLength\":1},\"value\":{\"type\":\"number\",\"expression\":true},\"group\":{\"type\":\"string\",\"minLength\":1},\"stacking\":{\"type\":\"string\",\"enum\":[\"add\",\"highest-source-grade\"]},\"damageAllocation\":{\"type\":\"string\",\"enum\":[\"lightest-existing\"]},\"when\":{\"type\":\"condition\"},\"clauseId\":{\"type\":\"string\",\"minLength\":1},\"fallbacks\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"additional\":true}},\"tag\":{\"type\":\"string\",\"minLength\":1},\"material\":{\"type\":\"boolean\"},\"spiritEffective\":{\"type\":\"boolean\"},\"minimumCost\":{\"type\":\"integer\",\"minimum\":0},\"discountSource\":{\"type\":\"string\",\"minLength\":1}},\"required\":[\"stat\",\"value\"]}},\"team\":{\"type\":\"string\",\"enum\":[\"all\",\"ally\",\"enemy\"]},\"selected\":{\"type\":\"boolean\"},\"temporaryAllocation\":{\"type\":\"object\",\"fields\":{\"key\":{\"type\":\"string\",\"minLength\":1},\"total\":{\"type\":\"number\",\"expression\":true},\"maximum\":{\"type\":\"number\",\"expression\":true}},\"required\":[\"key\",\"total\",\"maximum\"]},\"scene\":{\"type\":\"boolean\"},\"rounds\":{\"type\":\"number\",\"expression\":true},\"minutes\":{\"type\":\"number\",\"expression\":true}},\"required\":[\"radius\"],\"reads\":[\"scene.positions\",\"scene.teams\",\"plan.targetIds\"],\"produces\":{\"scope\":\"target\",\"writes\":[\"caster.resourceAuras\",\"targets.activeResourceEffects\",\"targets.temporaryHealthPools\"]},\"outputs\":{\"default\":{\"type\":\"object\",\"fields\":{\"op\":{\"type\":\"string\",\"enum\":[\"aura\"]},\"id\":{\"type\":\"string\",\"minLength\":1},\"radius\":{\"type\":\"number\"}},\"required\":[\"op\",\"id\",\"radius\"]}}},\"accumulate\":{\"apiVersion\":1,\"domain\":\"accumulators\",\"lifecycles\":[],\"validation\":\"closed-fields-v1\",\"conditions\":[\"unconscious\"],\"reset\":\"completed-continuous-rest-or-condition-expiry\",\"fields\":{\"op\":{\"type\":\"string\",\"minLength\":1},\"id\":{\"type\":\"string\",\"minLength\":1},\"component\":{\"type\":\"string\",\"minLength\":1},\"when\":{\"type\":\"condition\"},\"gradeBonus\":{\"type\":\"integer\"},\"immunityLifecycle\":{\"type\":\"string\",\"minLength\":1},\"immunityScaling\":{\"type\":\"string\",\"minLength\":1},\"key\":{\"type\":\"string\",\"minLength\":1},\"amount\":{\"type\":\"number\",\"expression\":true},\"thresholdAttribute\":{\"type\":\"string\",\"enum\":[\"力量\",\"敏捷\",\"意志\",\"智力\",\"感知\",\"风度\"]},\"conditionMinutes\":{\"type\":\"number\",\"exclusiveMinimum\":0},\"resetAfterRestMinutes\":{\"type\":\"number\",\"exclusiveMinimum\":0}},\"required\":[\"key\",\"amount\",\"thresholdAttribute\",\"conditionMinutes\",\"resetAfterRestMinutes\"],\"reads\":[\"target.attributes\",\"target.resourceAccumulators\"],\"produces\":{\"scope\":\"target\",\"writes\":[\"resourceAccumulators\",\"resourceConditions\"]},\"outputs\":{\"default\":{\"type\":\"object\",\"fields\":{\"op\":{\"type\":\"string\",\"enum\":[\"accumulate\"]},\"key\":{\"type\":\"string\",\"minLength\":1},\"value\":{\"type\":\"number\"},\"threshold\":{\"type\":\"number\"},\"unconscious\":{\"type\":\"boolean\"}},\"required\":[\"op\",\"key\",\"value\",\"threshold\",\"unconscious\"]}}},\"counter\":{\"apiVersion\":1,\"domain\":\"counters\",\"lifecycles\":[],\"validation\":\"closed-fields-v1\",\"fields\":{\"op\":{\"type\":\"string\",\"minLength\":1},\"id\":{\"type\":\"string\",\"minLength\":1},\"component\":{\"type\":\"string\",\"minLength\":1},\"when\":{\"type\":\"condition\"},\"gradeBonus\":{\"type\":\"integer\"},\"immunityLifecycle\":{\"type\":\"string\",\"minLength\":1},\"immunityScaling\":{\"type\":\"string\",\"minLength\":1},\"path\":{\"type\":\"string\",\"minLength\":1},\"amount\":{\"type\":\"number\",\"expression\":true},\"maximumPath\":{\"type\":\"string\",\"minLength\":1},\"zeroCondition\":{\"type\":\"string\",\"enum\":[\"unconscious\"]}},\"required\":[\"path\",\"amount\"],\"reads\":[\"target.counterPath\"],\"produces\":{\"scope\":\"target\",\"writes\":[\"target.counterPath\",\"resourceConditions\"]},\"outputs\":{\"default\":{\"type\":\"object\",\"fields\":{\"op\":{\"type\":\"string\",\"enum\":[\"counter\"]},\"path\":{\"type\":\"string\",\"minLength\":1},\"before\":{\"type\":\"number\"},\"after\":{\"type\":\"number\"},\"changed\":{\"type\":\"number\"}},\"required\":[\"op\",\"path\",\"before\",\"after\",\"changed\"]}}},\"temporaryHealth\":{\"apiVersion\":1,\"domain\":\"temporary-health\",\"lifecycles\":[],\"validation\":\"closed-fields-v1\",\"sourcePolicy\":\"recipient-replace-no-backup\",\"fields\":{\"op\":{\"type\":\"string\",\"minLength\":1},\"id\":{\"type\":\"string\",\"minLength\":1},\"component\":{\"type\":\"string\",\"minLength\":1},\"when\":{\"type\":\"condition\"},\"gradeBonus\":{\"type\":\"integer\"},\"immunityLifecycle\":{\"type\":\"string\",\"minLength\":1},\"immunityScaling\":{\"type\":\"string\",\"minLength\":1},\"onDepleted\":{\"type\":\"object\",\"fields\":{\"resourceId\":{\"type\":\"string\",\"minLength\":1},\"operation\":{\"type\":\"string\",\"minLength\":1},\"grade\":{\"type\":\"string\",\"enum\":[\"D\",\"C\",\"B\",\"A\",\"S\"]},\"power\":{\"type\":\"integer\",\"minimum\":1},\"snapshot\":{\"type\":\"string\",\"enum\":[\"installation\"]},\"boundary\":{\"type\":\"string\",\"enum\":[\"after-damage-event\"]}},\"required\":[\"resourceId\",\"operation\",\"grade\",\"power\",\"snapshot\",\"boundary\"]},\"amount\":{\"type\":\"number\",\"expression\":true},\"effects\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"fields\":{\"stat\":{\"type\":\"string\",\"minLength\":1},\"value\":{\"type\":\"number\",\"expression\":true},\"group\":{\"type\":\"string\",\"minLength\":1},\"stacking\":{\"type\":\"string\",\"enum\":[\"add\",\"highest-source-grade\"]},\"damageAllocation\":{\"type\":\"string\",\"enum\":[\"lightest-existing\"]},\"when\":{\"type\":\"condition\"},\"clauseId\":{\"type\":\"string\",\"minLength\":1},\"fallbacks\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"additional\":true}},\"tag\":{\"type\":\"string\",\"minLength\":1},\"material\":{\"type\":\"boolean\"},\"spiritEffective\":{\"type\":\"boolean\"},\"minimumCost\":{\"type\":\"integer\",\"minimum\":0},\"discountSource\":{\"type\":\"string\",\"minLength\":1}},\"required\":[\"stat\",\"value\"]}},\"damageFilter\":{\"type\":\"condition\"},\"refresh\":{\"type\":\"string\",\"enum\":[\"maximum-remaining\"]},\"scene\":{\"type\":\"boolean\"},\"rounds\":{\"type\":\"number\",\"expression\":true},\"minutes\":{\"type\":\"number\",\"expression\":true}},\"required\":[\"amount\"],\"reads\":[\"target.temporaryHealthPools\",\"plan.temporaryHealthChoices\"],\"produces\":{\"scope\":\"target\",\"writes\":[\"temporaryHealthPools\",\"activeResourceEffects\"]},\"outputs\":{\"default\":{\"anyOf\":[{\"type\":\"object\",\"fields\":{\"op\":{\"type\":\"string\",\"enum\":[\"temporaryHealth\"]},\"kept\":{\"type\":\"string\",\"minLength\":1}},\"required\":[\"op\",\"kept\"]},{\"type\":\"object\",\"fields\":{\"op\":{\"type\":\"string\",\"enum\":[\"temporaryHealth\"]},\"pool\":{\"type\":\"object\",\"fields\":{\"id\":{\"type\":\"string\",\"minLength\":1},\"capacity\":{\"type\":\"number\"},\"remaining\":{\"type\":\"number\"}},\"required\":[\"id\",\"capacity\",\"remaining\"],\"additional\":true}},\"required\":[\"op\",\"pool\"]}]}}},\"weaponEffect\":{\"apiVersion\":1,\"domain\":\"items\",\"lifecycles\":[],\"validation\":\"closed-fields-v1\",\"fields\":{\"op\":{\"type\":\"string\",\"minLength\":1},\"id\":{\"type\":\"string\",\"minLength\":1},\"component\":{\"type\":\"string\",\"minLength\":1},\"when\":{\"type\":\"condition\"},\"gradeBonus\":{\"type\":\"integer\"},\"immunityLifecycle\":{\"type\":\"string\",\"minLength\":1},\"immunityScaling\":{\"type\":\"string\",\"minLength\":1},\"effects\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"fields\":{\"stat\":{\"type\":\"string\",\"minLength\":1},\"value\":{\"type\":\"number\",\"expression\":true},\"group\":{\"type\":\"string\",\"minLength\":1},\"stacking\":{\"type\":\"string\",\"enum\":[\"add\",\"highest-source-grade\"]},\"damageAllocation\":{\"type\":\"string\",\"enum\":[\"lightest-existing\"]},\"when\":{\"type\":\"condition\"},\"clauseId\":{\"type\":\"string\",\"minLength\":1},\"fallbacks\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"additional\":true}},\"tag\":{\"type\":\"string\",\"minLength\":1},\"material\":{\"type\":\"boolean\"},\"spiritEffective\":{\"type\":\"boolean\"},\"minimumCost\":{\"type\":\"integer\",\"minimum\":0},\"discountSource\":{\"type\":\"string\",\"minLength\":1}},\"required\":[\"stat\",\"value\"]}},\"scene\":{\"type\":\"boolean\"},\"rounds\":{\"type\":\"number\",\"expression\":true},\"minutes\":{\"type\":\"number\",\"expression\":true}},\"required\":[\"effects\"],\"reads\":[\"plan.weaponId\",\"target.possessions\"],\"produces\":{\"scope\":\"target\",\"writes\":[\"target.possessions.weapon.effects\"]},\"outputs\":{\"default\":{\"type\":\"object\",\"fields\":{\"op\":{\"type\":\"string\",\"enum\":[\"weaponEffect\"]},\"weaponId\":{\"type\":\"string\",\"minLength\":1},\"active\":{\"type\":\"object\",\"additional\":true}},\"required\":[\"op\",\"weaponId\",\"active\"]}}},\"dispel\":{\"apiVersion\":1,\"domain\":\"instances\",\"lifecycles\":[],\"validation\":\"closed-fields-v1\",\"fields\":{\"op\":{\"type\":\"string\",\"minLength\":1},\"id\":{\"type\":\"string\",\"minLength\":1},\"component\":{\"type\":\"string\",\"minLength\":1},\"when\":{\"type\":\"condition\"},\"gradeBonus\":{\"type\":\"integer\"},\"immunityLifecycle\":{\"type\":\"string\",\"minLength\":1},\"immunityScaling\":{\"type\":\"string\",\"minLength\":1},\"maximumLevel\":{\"type\":\"number\",\"expression\":true}},\"required\":[\"maximumLevel\"],\"reads\":[\"plan.effectChoice\",\"target.timedInstances\"],\"produces\":{\"scope\":\"target\",\"writes\":[\"target.timedInstances\"]},\"outputs\":{\"default\":{\"type\":\"object\",\"fields\":{\"op\":{\"type\":\"string\",\"enum\":[\"dispel\"]},\"ended\":{\"type\":\"object\",\"fields\":{\"id\":{\"type\":\"string\",\"minLength\":1},\"sourceId\":{\"type\":\"string\",\"minLength\":1},\"casterId\":{\"type\":\"string\",\"minLength\":1},\"settlements\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"additional\":true}}},\"required\":[\"id\",\"sourceId\",\"casterId\"]}},\"required\":[\"op\",\"ended\"]}}},\"statusSource\":{\"apiVersion\":1,\"domain\":\"status-sources\",\"lifecycles\":[],\"validation\":\"closed-fields-v1\",\"fields\":{\"op\":{\"type\":\"string\",\"minLength\":1},\"id\":{\"type\":\"string\",\"minLength\":1},\"component\":{\"type\":\"string\",\"minLength\":1},\"when\":{\"type\":\"condition\"},\"gradeBonus\":{\"type\":\"integer\"},\"immunityLifecycle\":{\"type\":\"string\",\"minLength\":1},\"immunityScaling\":{\"type\":\"string\",\"minLength\":1},\"type\":{\"type\":\"string\",\"minLength\":1,\"expression\":true},\"asValue\":{\"type\":\"string\",\"minLength\":1}},\"required\":[\"type\",\"asValue\"],\"reads\":[\"target.statuses\",\"plan.statusSource\"],\"produces\":{\"scope\":\"target\",\"writes\":[\"context.asValue\"]},\"outputs\":{\"default\":{\"type\":\"object\",\"fields\":{\"op\":{\"type\":\"string\",\"enum\":[\"statusSource\"]},\"type\":{\"type\":\"string\",\"minLength\":1},\"points\":{\"type\":\"number\"}},\"required\":[\"op\",\"type\",\"points\"]}}},\"consumeStatusSource\":{\"apiVersion\":1,\"domain\":\"status-sources\",\"lifecycles\":[],\"validation\":\"closed-fields-v1\",\"fields\":{\"op\":{\"type\":\"string\",\"minLength\":1},\"id\":{\"type\":\"string\",\"minLength\":1},\"component\":{\"type\":\"string\",\"minLength\":1},\"when\":{\"type\":\"condition\"},\"gradeBonus\":{\"type\":\"integer\"},\"immunityLifecycle\":{\"type\":\"string\",\"minLength\":1},\"immunityScaling\":{\"type\":\"string\",\"minLength\":1},\"type\":{\"type\":\"string\",\"minLength\":1,\"expression\":true}},\"required\":[\"type\"],\"reads\":[\"target.statuses\",\"plan.statusSource\"],\"produces\":{\"scope\":\"target\",\"writes\":[\"target.statuses\"]},\"outputs\":{\"default\":{\"type\":\"object\",\"fields\":{\"op\":{\"type\":\"string\",\"enum\":[\"consumeStatusSource\"]},\"type\":{\"type\":\"string\",\"minLength\":1},\"removed\":{\"type\":\"number\"}},\"required\":[\"op\",\"type\",\"removed\"]}}},\"loseAction\":{\"apiVersion\":1,\"domain\":\"actions\",\"lifecycles\":[],\"validation\":\"closed-fields-v1\",\"fields\":{\"op\":{\"type\":\"string\",\"minLength\":1},\"id\":{\"type\":\"string\",\"minLength\":1},\"component\":{\"type\":\"string\",\"minLength\":1},\"when\":{\"type\":\"condition\"},\"gradeBonus\":{\"type\":\"integer\"},\"immunityLifecycle\":{\"type\":\"string\",\"minLength\":1},\"immunityScaling\":{\"type\":\"string\",\"minLength\":1},\"action\":{\"type\":\"string\",\"enum\":[\"swift\",\"move\",\"standard\"]}},\"required\":[\"action\"],\"reads\":[\"target.turn\"],\"produces\":{\"scope\":\"target\",\"writes\":[\"turn\",\"resourceActionLosses\"]},\"outputs\":{\"default\":{\"type\":\"object\",\"fields\":{\"op\":{\"type\":\"string\",\"enum\":[\"loseAction\"]},\"action\":{\"type\":\"string\",\"minLength\":1},\"timing\":{\"type\":\"string\",\"enum\":[\"current\",\"next\"]}},\"required\":[\"op\",\"action\",\"timing\"],\"additional\":true}}},\"poolTransfer\":{\"apiVersion\":1,\"domain\":\"pools\",\"lifecycles\":[],\"validation\":\"closed-fields-v1\",\"fields\":{\"op\":{\"type\":\"string\",\"minLength\":1},\"id\":{\"type\":\"string\",\"minLength\":1},\"component\":{\"type\":\"string\",\"minLength\":1},\"when\":{\"type\":\"condition\"},\"gradeBonus\":{\"type\":\"integer\"},\"immunityLifecycle\":{\"type\":\"string\",\"minLength\":1},\"immunityScaling\":{\"type\":\"string\",\"minLength\":1},\"amount\":{\"type\":\"number\",\"expression\":true},\"recover\":{\"type\":\"number\",\"expression\":true},\"choice\":{\"type\":\"string\",\"minLength\":1},\"daily\":{\"type\":\"object\",\"fields\":{\"basis\":{\"type\":\"string\",\"enum\":[\"current\",\"first-use\"]},\"key\":{\"type\":\"string\",\"minLength\":1},\"source\":{\"type\":\"string\",\"minLength\":1},\"maximum\":{\"type\":\"number\",\"expression\":true}},\"required\":[\"basis\",\"source\",\"maximum\"]}},\"required\":[\"amount\",\"recover\",\"choice\"],\"reads\":[\"target.resources\",\"caster.casting.pool\"],\"produces\":{\"scope\":\"target\",\"writes\":[\"target.resources\",\"caster.resources\",\"caster.resourceDailyUsage\"]},\"outputs\":{\"default\":{\"anyOf\":[{\"type\":\"object\",\"fields\":{\"op\":{\"type\":\"string\",\"enum\":[\"poolTransfer\"]},\"drained\":{\"type\":\"number\"},\"recovered\":{\"type\":\"number\"},\"ineffective\":{\"type\":\"string\",\"enum\":[\"no-eligible-pool\"]}},\"required\":[\"op\",\"drained\",\"recovered\",\"ineffective\"]},{\"type\":\"object\",\"fields\":{\"op\":{\"type\":\"string\",\"enum\":[\"poolTransfer\"]},\"sourcePool\":{\"type\":\"string\",\"minLength\":1},\"destinationPool\":{\"type\":\"string\",\"minLength\":1},\"before\":{\"type\":\"number\"},\"after\":{\"type\":\"number\"},\"drained\":{\"type\":\"number\"},\"recovered\":{\"type\":\"number\"},\"requested\":{\"type\":\"number\"},\"selection\":{\"type\":\"object\",\"additional\":true},\"daily\":{\"type\":\"object\",\"additional\":true}},\"required\":[\"op\",\"sourcePool\",\"destinationPool\",\"before\",\"after\",\"drained\",\"recovered\",\"requested\",\"selection\"]}]}}},\"poolRestore\":{\"apiVersion\":1,\"domain\":\"pools\",\"lifecycles\":[],\"validation\":\"closed-fields-v1\",\"fields\":{\"op\":{\"type\":\"string\",\"minLength\":1},\"id\":{\"type\":\"string\",\"minLength\":1},\"component\":{\"type\":\"string\",\"minLength\":1},\"when\":{\"type\":\"condition\"},\"gradeBonus\":{\"type\":\"integer\"},\"immunityLifecycle\":{\"type\":\"string\",\"minLength\":1},\"immunityScaling\":{\"type\":\"string\",\"minLength\":1},\"amount\":{\"type\":\"number\",\"expression\":true},\"daily\":{\"type\":\"object\",\"fields\":{\"basis\":{\"type\":\"string\",\"enum\":[\"current\",\"first-use\"]},\"key\":{\"type\":\"string\",\"minLength\":1},\"source\":{\"type\":\"string\",\"minLength\":1},\"maximum\":{\"type\":\"number\",\"expression\":true}},\"required\":[\"basis\",\"key\",\"source\",\"maximum\"]}},\"required\":[\"amount\"],\"reads\":[\"caster.casting.pool\",\"caster.resourceDailyUsage\"],\"produces\":{\"scope\":\"target\",\"writes\":[\"caster.resources\",\"caster.resourceDailyUsage\"]},\"outputs\":{\"default\":{\"type\":\"object\",\"fields\":{\"op\":{\"type\":\"string\",\"enum\":[\"poolRestore\"]},\"requested\":{\"type\":\"number\"},\"recovered\":{\"type\":\"number\"},\"daily\":{\"type\":\"object\",\"additional\":true}},\"required\":[\"op\",\"requested\",\"recovered\"]}}}},\"actionPricing\":{\"fallback\":\"actual-slot-upper-bound\",\"free\":\"exempt-without-quota\",\"scope\":\"physical\",\"consumer\":\"resource-action-pricing.mjs\"},\"periodicDamage\":{\"consumer\":\"resource-periodic-clock.mjs\",\"combatActivation\":\"current-round-opening\",\"scope\":\"damage-step\",\"sourceEnd\":\"cancel-untriggered\",\"rateEnd\":\"preserve-progress\",\"sourceImmunityFamily\":\"time\"},\"expressions\":{\"add\":{\"minimum\":0,\"maximum\":null,\"result\":\"number\"},\"mul\":{\"minimum\":0,\"maximum\":null,\"result\":\"number\"},\"sub\":{\"minimum\":2,\"maximum\":2,\"result\":\"number\"},\"div\":{\"minimum\":2,\"maximum\":2,\"result\":\"number\"},\"min\":{\"minimum\":1,\"maximum\":null,\"result\":\"number\"},\"max\":{\"minimum\":1,\"maximum\":null,\"result\":\"number\"},\"floor\":{\"minimum\":1,\"maximum\":1,\"result\":\"number\"}},\"conditions\":{\"eq\":{\"required\":[\"left\",\"right\"]},\"ne\":{\"required\":[\"left\",\"right\"]},\"gte\":{\"required\":[\"left\",\"right\"],\"numeric\":true},\"lte\":{\"required\":[\"left\",\"right\"],\"numeric\":true},\"in\":{\"required\":[\"left\",\"values\"]},\"contains\":{\"required\":[\"left\",\"right\"]},\"present\":{\"required\":[\"left\"]}},\"definitionPolicies\":{\"effectPolicyMigrations\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"fields\":{\"stat\":{\"type\":\"string\",\"minLength\":1},\"fromVersion\":{\"type\":\"string\",\"minLength\":1},\"source\":{\"type\":\"string\",\"minLength\":1},\"set\":{\"type\":\"object\",\"fields\":{\"stacking\":{\"type\":\"string\",\"enum\":[\"add\",\"highest-source-grade\"]},\"damageAllocation\":{\"type\":\"string\",\"enum\":[\"lightest-existing\"]}},\"required\":[]}},\"required\":[\"stat\",\"fromVersion\",\"source\",\"set\"]}}},\"programPolicies\":{\"cooldownAfterUses\":{\"type\":\"object\",\"fields\":{\"uses\":{\"type\":\"number\",\"expression\":true},\"rounds\":{\"type\":\"integer\",\"minimum\":1}},\"required\":[\"uses\",\"rounds\"]},\"supportedGrades\":[\"D\",\"C\",\"B\",\"A\",\"S\"],\"automaticReference\":{\"target\":\"area\",\"center\":\"self\",\"team\":\"all\",\"steps\":[\"save\",\"damage\",\"status\"]},\"spellResistance\":[\"ignore\"],\"coneArea\":{\"type\":\"object\",\"fields\":{\"shape\":{\"type\":\"string\",\"enum\":[\"cone\"]},\"center\":{\"type\":\"string\",\"enum\":[\"self\"]},\"length\":{\"type\":\"number\",\"expression\":true},\"angleDegrees\":{\"type\":\"number\",\"exclusiveMinimum\":0}},\"required\":[\"shape\",\"center\",\"length\",\"angleDegrees\"]},\"targetAllocation\":{\"type\":\"object\",\"fields\":{\"key\":{\"type\":\"string\",\"minLength\":1},\"total\":{\"type\":\"number\",\"expression\":true},\"as\":{\"type\":\"string\",\"minLength\":1},\"spellResistance\":{\"type\":\"string\",\"enum\":[\"subtract-once\"]}},\"required\":[\"key\",\"total\",\"as\",\"spellResistance\"]},\"targetProgression\":{\"type\":\"object\",\"fields\":{\"key\":{\"type\":\"string\",\"minLength\":1},\"scope\":{\"type\":\"string\",\"enum\":[\"scene\"]},\"commit\":{\"type\":\"string\",\"enum\":[\"target-resolution\"]},\"fields\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"fields\":{\"name\":{\"type\":\"string\",\"minLength\":1},\"initial\":{\"type\":\"number\",\"expression\":true},\"next\":{\"type\":\"number\",\"expression\":true}},\"required\":[\"name\",\"initial\",\"next\"]}}},\"required\":[\"key\",\"scope\",\"commit\",\"fields\"]},\"endEffects\":[\"own-selected\"],\"requiredItems\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"fields\":{\"key\":{\"type\":\"string\",\"minLength\":1},\"tag\":{\"type\":\"string\",\"minLength\":1},\"held\":{\"type\":\"boolean\"}},\"required\":[\"key\",\"tag\",\"held\"]}},\"toggle\":[\"on\",\"off\"],\"triggerRequiresConscious\":true},\"penaltyConsumers\":{\"statusPenaltyIgnore\":1,\"environmentPenaltyIgnore\":1,\"ignoreWoundUnconsciousness\":1},\"immunityModes\":[\"any-blocks\",\"fraction-unblocked\"],\"resistanceModes\":[\"roll\",\"opposed\",\"threshold\",\"subtract\"],\"effectConsumers\":{\"attack\":{\"status\":\"connected\",\"module\":\"combat/engine.mjs\",\"reader\":\"attackProfile\",\"scopes\":[\"actor\"]},\"attribute\":{\"status\":\"connected\",\"module\":\"core.mjs\",\"reader\":\"effectiveAttribute\",\"scopes\":[\"actor\"]},\"check\":{\"status\":\"connected\",\"module\":\"core.mjs\",\"reader\":\"check\",\"scopes\":[\"actor\"]},\"attributeCheck\":{\"status\":\"connected\",\"module\":\"core.mjs\",\"reader\":\"check; combat/mechanics.saveProfile; combat/engine.attackProfile\",\"scopes\":[\"actor\"]},\"flatFootedLevel\":{\"status\":\"connected\",\"module\":\"combat/engine.mjs\",\"reader\":\"resolveDefense\",\"scopes\":[\"actor\"]},\"defense\":{\"status\":\"connected\",\"module\":\"combat/engine.mjs\",\"reader\":\"resolveDefense\",\"scopes\":[\"actor\"]},\"naturalDefense\":{\"status\":\"connected\",\"module\":\"combat/engine.mjs\",\"reader\":\"resolveDefense\",\"scopes\":[\"actor\"]},\"ignoreAP\":{\"status\":\"connected\",\"module\":\"combat/engine.mjs\",\"reader\":\"resolveDefense.alternative\",\"scopes\":[\"defense-alternative\"]},\"ignoreSpeed\":{\"status\":\"connected\",\"module\":\"combat/mechanics.mjs\",\"reader\":\"saveProfile + combat/engine.resolveDefense\",\"scopes\":[\"actor\"]},\"initiativeDefense\":{\"status\":\"connected\",\"module\":\"combat/engine.mjs\",\"reader\":\"resolveDefense\",\"scopes\":[\"actor\"]},\"initiative\":{\"status\":\"connected\",\"module\":\"combat/mechanics.mjs\",\"reader\":\"derived\",\"scopes\":[\"actor\"]},\"currentInitiative\":{\"status\":\"connected\",\"module\":\"combat/initiative.mjs\",\"reader\":\"currentInitiative\",\"scopes\":[\"actor\"]},\"speed\":{\"status\":\"connected\",\"module\":\"combat/mechanics.mjs\",\"reader\":\"derived\",\"scopes\":[\"actor\"]},\"willMax\":{\"status\":\"connected\",\"module\":\"combat/mechanics.mjs\",\"reader\":\"derived\",\"scopes\":[\"actor\"]},\"save\":{\"status\":\"connected\",\"module\":\"combat/mechanics.mjs\",\"reader\":\"saveProfile\",\"scopes\":[\"actor\"]},\"tag\":{\"status\":\"connected\",\"module\":\"combat/mechanics.mjs\",\"reader\":\"combatRuleContext\",\"scopes\":[\"actor\"]},\"incomingDamage\":{\"status\":\"connected\",\"module\":\"resource-damage-modifiers.mjs\",\"reader\":\"adjustIncomingDamage\",\"scopes\":[\"actor\"]},\"absorb\":{\"status\":\"connected\",\"module\":\"combat/engine.mjs\",\"reader\":\"damageEvent\",\"scopes\":[\"actor\"]},\"hardness\":{\"status\":\"connected\",\"module\":\"combat/engine.mjs\",\"reader\":\"damageEvent\",\"scopes\":[\"actor\"]},\"dr\":{\"status\":\"connected\",\"module\":\"combat/engine.mjs\",\"reader\":\"damageEvent\",\"scopes\":[\"actor\"]},\"energyResistance\":{\"status\":\"connected\",\"module\":\"combat/engine.mjs\",\"reader\":\"damageEvent\",\"scopes\":[\"actor\"]},\"spellPower\":{\"status\":\"connected\",\"module\":\"gm_runtime/resource-program.mjs\",\"reader\":\"executeProgram\",\"scopes\":[\"actor\"]},\"spellResistance\":{\"status\":\"connected\",\"module\":\"gm_runtime/resource-program.mjs\",\"reader\":\"executeProgram + resource-auras\",\"scopes\":[\"actor\"]},\"mindStatusReduction\":{\"status\":\"connected\",\"module\":\"gm_runtime/resource-program.mjs\",\"reader\":\"resolveProgramSteps\",\"scopes\":[\"actor\"]},\"ignoreWoundUnconsciousness\":{\"status\":\"connected\",\"module\":\"core.mjs\",\"reader\":\"lifeStatus\",\"scopes\":[\"actor\"]},\"statusPenaltyIgnore\":{\"status\":\"connected\",\"module\":\"resource-penalties.mjs\",\"reader\":\"remainingPenalty\",\"scopes\":[\"actor\"]},\"environmentPenaltyIgnore\":{\"status\":\"connected\",\"module\":\"resource-penalties.mjs\",\"reader\":\"remainingPenalty\",\"scopes\":[\"actor\"]},\"extraSuccess\":{\"status\":\"connected\",\"module\":\"core.mjs\",\"reader\":\"check\",\"scopes\":[\"actor\"]},\"explodeReduction\":{\"status\":\"connected\",\"module\":\"core.mjs\",\"reader\":\"check\",\"scopes\":[\"actor\"]},\"willEnhancement\":{\"status\":\"connected\",\"module\":\"core.mjs\",\"reader\":\"willEnhancement\",\"scopes\":[\"actor\"]},\"weaponMagical\":{\"status\":\"connected\",\"module\":\"combat/engine.mjs\",\"reader\":\"attackProfile\",\"scopes\":[\"actor\"]},\"weaponSpirit\":{\"status\":\"connected\",\"module\":\"combat/engine.mjs\",\"reader\":\"attackProfile\",\"scopes\":[\"actor\"]},\"weaponDamage\":{\"status\":\"connected\",\"module\":\"resource-weapons.mjs\",\"reader\":\"instanceWeapon\",\"scopes\":[\"item\"]},\"weaponExplodeReduction\":{\"status\":\"connected\",\"module\":\"resource-weapons.mjs\",\"reader\":\"instanceWeapon\",\"scopes\":[\"item\"]},\"terrainFreedom\":{\"status\":\"connected\",\"module\":\"combat/engine.mjs\",\"reader\":\"move via kit-state.fengyouActive\",\"scopes\":[\"actor\"]},\"shortRestB\":{\"status\":\"connected\",\"module\":\"recovery.mjs\",\"reader\":\"declaredRest + meditate\",\"scopes\":[\"actor\"]},\"shortRestL\":{\"status\":\"connected\",\"module\":\"recovery.mjs\",\"reader\":\"declaredRest + meditate\",\"scopes\":[\"actor\"]},\"willPerHour\":{\"status\":\"connected\",\"module\":\"recovery.mjs\",\"reader\":\"advanceTime\",\"scopes\":[\"actor\"]},\"learningDiscount\":{\"status\":\"connected\",\"module\":\"growth-pricing.mjs\",\"reader\":\"growthPrice\",\"scopes\":[\"actor\"]},\"selfProtectionDefense\":{\"status\":\"connected\",\"module\":\"combat/engine.mjs\",\"reader\":\"resolveDefense via resource-specializations.protectionChoices\",\"scopes\":[\"actor\"]},\"walkingMultiplier\":{\"status\":\"connected\",\"module\":\"combat/movement-modes.mjs\",\"reader\":\"movementSpeed via resource-specializations.walkingMultiplier\",\"scopes\":[\"actor\"]},\"runningJump\":{\"status\":\"connected\",\"module\":\"resource-jumping.mjs\",\"reader\":\"jumpCheckContext + resolveJumpDistance\",\"scopes\":[\"actor\"]},\"defenseBypass\":{\"status\":\"consumer-missing\",\"scopes\":[\"actor\"]},\"craftTimeMultiplier\":{\"status\":\"consumer-missing\",\"scopes\":[\"actor\"]}},\"eventOperatorScopes\":{\"attackDamageCaused\":[\"additionalDamage\"]},\"triggerContexts\":{\"attackDamageCaused\":{\"sourceActorId\":{\"type\":\"string\"},\"damageReceipt\":{\"type\":\"object\"}},\"attackResolved\":{\"actualDamage\":{\"type\":\"number\"},\"hit\":{\"type\":\"boolean\"},\"causedDamage\":{\"type\":\"boolean\"},\"triggerRemainingRounds\":{\"type\":\"number\"}},\"hit\":{\"actualDamage\":{\"type\":\"number\"}},\"afterLifeLoss\":{\"actualDamage\":{\"type\":\"number\"}},\"incomingHit\":{},\"turnStart\":{}}}"
+}

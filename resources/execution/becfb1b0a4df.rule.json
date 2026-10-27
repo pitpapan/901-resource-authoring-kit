@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:D:印记斩",
-  "version": "2026-10-23.1",
+  "version": "2026-10-26.1",
   "identity": {
     "name": "印记斩",
     "grade": "D",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/01-塑能.md",
-    "sha256": "59608609417e520c2328fd4593a42d9da86064c47b1e226911f670bb0dd636eb",
+    "sha256": "8ada5f178afeea3f5ed53e580b3b0dd91b6a09cdcce30a423b06403d0cb0d209",
     "heading": "印记斩"
   },
   "definition": {
@@ -32,24 +32,182 @@
     "requiresAllSchools": false,
     "schools": [
       "塑能"
-    ]
+    ],
+    "programs": {
+      "cast": {
+        "action": "swift",
+        "target": "self",
+        "casting": true,
+        "components": [
+          "posture",
+          "language"
+        ],
+        "supportedGrades": [
+          "D",
+          "C"
+        ],
+        "steps": [
+          {
+            "op": "trigger",
+            "event": "attackResolved",
+            "target": "eventTarget",
+            "requiresContext": [
+              "causedDamage"
+            ],
+            "condition": {
+              "all": [
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "melee"
+                  },
+                  "right": true
+                },
+                {
+                  "test": "eq",
+                  "left": {
+                    "context": "skill"
+                  },
+                  "right": "白刃"
+                }
+              ]
+            },
+            "count": 1,
+            "rounds": 1,
+            "damageNature": "extra",
+            "steps": [
+              {
+                "op": "damage",
+                "amount": {
+                  "context": "P"
+                },
+                "energy": "holy",
+                "severity": "L",
+                "when": {
+                  "test": "eq",
+                  "left": {
+                    "context": "causedDamage"
+                  },
+                  "right": true
+                }
+              },
+              {
+                "op": "effect",
+                "effects": [],
+                "rounds": {
+                  "context": "triggerRemainingRounds"
+                },
+                "suppression": {
+                  "family": "antiDetection",
+                  "maximumLevel": {
+                    "op": "add",
+                    "args": [
+                      {
+                        "context": "rank"
+                      },
+                      1
+                    ]
+                  }
+                },
+                "when": {
+                  "test": "eq",
+                  "left": {
+                    "context": "causedDamage"
+                  },
+                  "right": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
   },
   "clauses": [
     {
       "heading": "印记斩",
       "effectStats": [],
-      "status": "pending"
+      "status": "partial"
     }
   ],
-  "actions": [],
-  "inputs": [],
+  "actions": [
+    {
+      "id": "cast",
+      "name": "印记斩",
+      "operation": "cast",
+      "actionCost": "swift",
+      "requiredChoice": "actual-targets",
+      "choices": {},
+      "allocations": [],
+      "targetMode": "self",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false,
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "immunityLifecycles": [],
+      "resistanceModes": [],
+      "supportedGrades": [
+        "D",
+        "C"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "ownership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "casting",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "targetIds",
+      "type": "array",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "components",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "pool",
+      "type": "string",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    }
+  ],
   "unresolvedRules": [],
   "implementationGaps": [
-    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+    "D/C下一次白刃机会、独立神圣附伤与来源压制已接。全量感官/躲藏对抗调度、真实物品/掩蔽派生覆盖、其他等级仍需接入；Q39/Q40只影响原书冲突的感知路径，不影响普通反侦测压制。"
   ],
   "verification": {
-    "status": "pending",
+    "status": "partial",
     "sourceChecked": true,
-    "runtimeFullyVerified": false
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/resource-perception.test.mjs",
+      "work/rules_engine/gm_runtime/resource-program.test.mjs"
+    ]
+  },
+  "authoring": {
+    "executionSource": "contract"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:D:脆弱诅咒",
-  "version": "2026-10-23.1",
+  "version": "2026-10-24.4",
   "identity": {
     "name": "脆弱诅咒",
     "grade": "D",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/06-预言与诅咒.md",
-    "sha256": "9605c98875816313e985071ed8520755ae1ebcb4285b088f0b9c66c79a28dc3a",
+    "sha256": "be6fce45599359c7eea27ce5327c0c273e0e4d87174d0815c53d6a9cefe733b6",
     "heading": "脆弱诅咒"
   },
   "definition": {
@@ -32,24 +32,213 @@
     "requiresAllSchools": false,
     "schools": [
       "诅咒"
+    ],
+    "programs": {
+      "cast": {
+        "action": "swift",
+        "target": "single",
+        "casting": true,
+        "components": [
+          "posture",
+          "language",
+          "focus"
+        ],
+        "range": {
+          "op": "mul",
+          "args": [
+            10,
+            {
+              "context": "INT"
+            },
+            {
+              "context": "P"
+            }
+          ]
+        },
+        "steps": [
+          {
+            "op": "trigger",
+            "event": "afterLifeLoss",
+            "steps": [
+              {
+                "op": "damage",
+                "amount": {
+                  "context": "P"
+                },
+                "energy": "acid",
+                "severity": "L"
+              }
+            ],
+            "perRound": {
+              "op": "floor",
+              "args": [
+                {
+                  "op": "div",
+                  "args": [
+                    {
+                      "op": "mul",
+                      "args": [
+                        2,
+                        {
+                          "context": "P"
+                        }
+                      ]
+                    },
+                    3
+                  ]
+                }
+              ]
+            },
+            "sourcePolicy": "independent-casters",
+            "condition": {
+              "test": "eq",
+              "left": {
+                "context": "allowsExtraDamage"
+              },
+              "right": true
+            },
+            "damageNature": "extra",
+            "effectTypes": [
+              "curse"
+            ],
+            "scene": true,
+            "immunityLifecycle": "suppress",
+            "component": "main"
+          }
+        ],
+        "effectTypes": [
+          "curse"
+        ],
+        "effectComponents": {
+          "main": {
+            "families": [
+              "curse"
+            ],
+            "gradeBonus": 0,
+            "mode": "any-blocks"
+          }
+        }
+      }
+    },
+    "triggerPolicyMigrations": [
+      {
+        "event": "afterLifeLoss",
+        "from": "pending-cross-caster",
+        "to": "independent-casters",
+        "source": "用户2026-10-24明确采用：独立来源分别结算"
+      }
     ]
   },
   "clauses": [
     {
       "heading": "脆弱诅咒",
       "effectStats": [],
-      "status": "pending"
+      "status": "partial"
     }
   ],
-  "actions": [],
-  "inputs": [],
+  "actions": [
+    {
+      "id": "cast",
+      "name": "脆弱诅咒",
+      "operation": "cast",
+      "actionCost": "swift",
+      "requiredChoice": "actual-targets",
+      "choices": {},
+      "allocations": [],
+      "targetMode": "single",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false,
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "effectComponents": {
+        "main": {
+          "families": [
+            "curse"
+          ],
+          "gradeBonus": 0,
+          "mode": "any-blocks"
+        }
+      },
+      "immunityLifecycles": [
+        {
+          "operation": "trigger",
+          "component": "main",
+          "policy": "suppress"
+        }
+      ],
+      "resistanceModes": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "ownership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "casting",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "targetIds",
+      "type": "array",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "components",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "pool",
+      "type": "string",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    }
+  ],
   "unresolvedRules": [],
   "implementationGaps": [
-    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+    "普通武器与通用法术来源已分类；旧状态聚合和其余骰伤来源仍须逐项标注damageNature，不能把未分类伤害默认当攻击",
+    "需执行级完整验证，检查等级/特殊关键词/版本变体；不可仅凭程序存在标记完成"
   ],
   "verification": {
-    "status": "pending",
+    "status": "partial",
     "sourceChecked": true,
-    "runtimeFullyVerified": false
-  }
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/gm_runtime/resource-program.test.mjs",
+      "work/rules_engine/core.test.mjs",
+      "work/rules_engine/resource-applicability.test.mjs",
+      "work/rules_engine/resource-resistance.test.mjs",
+      "work/rules_engine/resource-status-applicability.test.mjs"
+    ]
+  },
+  "adoptedDecisions": [
+    {
+      "id": "cross-caster-damage-instances",
+      "source": "content/RE/01_rules/04_附录/一些常见问答.md:64-69",
+      "quote": "不同角色使用的同一效果……可以反复影响同一目标并各自产生效果；是否叠加取决于该效果本身是否叠加。",
+      "issue": "两术未进一步规定跨施法者叠加；数值加值取最高不能自动推广到持续伤害/反伤实例。",
+      "impact": "影响实际触发次数、每轮额度和伤害来源归属；若改成只选最高还缺平值及来源切换规则。",
+      "status": "adopted",
+      "decision": "每施法者保留一份独立效果并分别结算，同施法者重施不重置同轮次数。",
+      "decisionSource": "用户2026-10-24回复：采用独立来源分别结算",
+      "recommendation": "已采用；迁移旧存档的待裁定策略字段，保留原施法强度、来源、持续和已用额度。"
+    }
+  ]
 }

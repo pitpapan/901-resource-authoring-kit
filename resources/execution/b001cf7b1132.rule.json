@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/05-精神与幻术.md",
-    "sha256": "2e78ec6f3234a34d82cb62296e232f59e5b6f0db2c16bc235a9d544e38c6dcf4",
+    "sha256": "3bd05efeac6dc203de20098676817cac1d2ccbfdc05288c2b5f9b951d1c570e3",
     "heading": "海市蜃楼"
   },
   "definition": {
@@ -18,16 +18,18 @@
     "grade": "C",
     "prohibited": false,
     "subskills": [
-      "幻术或神秘·结界取最贴切一项"
+      "幻术",
+      "结界"
     ],
     "effects": [],
     "learning": {
       "baseXP": 25,
       "requiresKnownVersion": false
     },
-    "requiresAllSchools": false,
+    "requiresAllSchools": true,
     "schools": [
-      "幻术或神秘·结界取最贴切一项"
+      "幻术",
+      "结界"
     ]
   },
   "clauses": [

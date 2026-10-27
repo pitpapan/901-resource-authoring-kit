@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:D:虚假幻象",
-  "version": "2026-10-23.1",
+  "version": "2026-10-26.2",
   "identity": {
     "name": "虚假幻象",
     "grade": "D",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/05-精神与幻术.md",
-    "sha256": "2e78ec6f3234a34d82cb62296e232f59e5b6f0db2c16bc235a9d544e38c6dcf4",
+    "sha256": "3bd05efeac6dc203de20098676817cac1d2ccbfdc05288c2b5f9b951d1c570e3",
     "heading": "虚假幻象"
   },
   "definition": {
@@ -32,24 +32,323 @@
     "requiresAllSchools": false,
     "schools": [
       "幻术"
-    ]
+    ],
+    "programs": {
+      "cast": {
+        "action": "standard",
+        "target": "self",
+        "casting": true,
+        "spellResistance": "ignore",
+        "components": [
+          "posture",
+          "language",
+          "focus"
+        ],
+        "steps": [
+          {
+            "op": "effect",
+            "effects": [],
+            "targetScope": "scene",
+            "instancePolicy": "append",
+            "projection": {
+              "range": {
+                "op": "mul",
+                "args": [
+                  10,
+                  {
+                    "context": "INT"
+                  },
+                  {
+                    "context": "P"
+                  }
+                ]
+              },
+              "maximumSize": {
+                "op": "min",
+                "args": [
+                  {
+                    "op": "floor",
+                    "args": [
+                      {
+                        "op": "div",
+                        "args": [
+                          {
+                            "context": "cast"
+                          },
+                          2
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "op": "mul",
+                    "args": [
+                      2,
+                      {
+                        "context": "P"
+                      },
+                      {
+                        "context": "rank"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "volumeUnit": "size",
+              "channels": [
+                "visual",
+                "auditory",
+                "olfactory",
+                "temperature"
+              ],
+              "touchReveals": true,
+              "controlActions": {
+                "D": "standard",
+                "C": "move"
+              }
+            },
+            "minutes": {
+              "context": "INT"
+            },
+            "when": {
+              "test": "eq",
+              "left": {
+                "context": "rank"
+              },
+              "right": 1
+            }
+          },
+          {
+            "op": "effect",
+            "effects": [],
+            "targetScope": "scene",
+            "instancePolicy": "append",
+            "projection": {
+              "range": {
+                "op": "mul",
+                "args": [
+                  10,
+                  {
+                    "context": "INT"
+                  },
+                  {
+                    "context": "P"
+                  }
+                ]
+              },
+              "maximumSize": {
+                "op": "min",
+                "args": [
+                  {
+                    "op": "floor",
+                    "args": [
+                      {
+                        "op": "div",
+                        "args": [
+                          {
+                            "context": "cast"
+                          },
+                          2
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "op": "mul",
+                    "args": [
+                      2,
+                      {
+                        "context": "P"
+                      },
+                      {
+                        "context": "rank"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "volumeUnit": "size",
+              "channels": [
+                "visual",
+                "auditory",
+                "olfactory",
+                "temperature",
+                "tactile"
+              ],
+              "touchReveals": false,
+              "controlActions": {
+                "D": "standard",
+                "C": "move"
+              },
+              "allowAttachment": true,
+              "damageThreshold": {
+                "context": "P"
+              }
+            },
+            "minutes": {
+              "op": "mul",
+              "args": [
+                10,
+                {
+                  "context": "INT"
+                }
+              ]
+            },
+            "when": {
+              "test": "eq",
+              "left": {
+                "context": "rank"
+              },
+              "right": 2
+            }
+          }
+        ],
+        "check": {
+          "attribute": "智力"
+        }
+      },
+      "complete": {
+        "target": "self",
+        "casting": false,
+        "cost": 0,
+        "components": [],
+        "steps": [
+          {
+            "op": "projectionControl",
+            "mode": "complete"
+          }
+        ]
+      },
+      "control": {
+        "target": "self",
+        "casting": false,
+        "cost": 0,
+        "components": [],
+        "steps": [
+          {
+            "op": "projectionControl",
+            "mode": "alter"
+          }
+        ]
+      }
+    }
   },
   "clauses": [
     {
       "heading": "虚假幻象",
       "effectStats": [],
-      "status": "pending"
+      "status": "partial"
     }
   ],
-  "actions": [],
-  "inputs": [],
-  "unresolvedRules": [],
+  "actions": [
+    {
+      "id": "cast",
+      "name": "虚假幻象",
+      "operation": "cast",
+      "actionCost": "standard",
+      "targetMode": "self",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false,
+      "route": "mechanism",
+      "objectType": "kitResource"
+    },
+    {
+      "id": "complete",
+      "name": "虚假幻象选择成形外观",
+      "operation": "complete",
+      "actionCost": "source-instance",
+      "targetMode": "self",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false,
+      "route": "mechanism",
+      "objectType": "kitResource"
+    },
+    {
+      "id": "control",
+      "name": "虚假幻象操控",
+      "operation": "control",
+      "actionCost": "source-instance",
+      "targetMode": "self",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false,
+      "route": "mechanism",
+      "objectType": "kitResource"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "ownership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "projection",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "spatial",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    }
+  ],
+  "unresolvedRules": [
+    {
+      "id": "projection-apparent-damage-basis",
+      "question": "Q51",
+      "status": "pending",
+      "source": "RE D级通用魔法/幻术1.md:77；同文件镜像:17；伤害处理流程.md:81–82",
+      "issue": "C虚假幻象规定近战伤害/单次>P暴露触感异常，但无实体对象没有防御、豁免、防护数值。镜像继承真身的条款不能移用于本术。",
+      "impact": "决定单体及范围伤害触感识破的基数；当前C攻击入口在扣费/抽骰前RULE_UNRESOLVED。",
+      "recommendation": "独立幻象使用攻击方实际结算：攻击检定按静止无防护目标，定值范围按覆盖处原始伤害、不另造豁免/法抗；仅作识破阈值，不记真实HP、不触发伤害连锁。附着对象真实受伤仍走其正常防护，不把其结果借给幻象。"
+    }
+  ],
   "implementationGaps": [
-    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+    "基础程序、共享场景对象/操控/识破/时钟及MVU幂等已有专项；完整范围攻击、路径事件与声音传播、附着外观的同源选择、所有变体/交互仍待接，不能视为缺玩家参数。",
+    "真实视觉只消费实际已登记senseSources.trueSight和敏感范围；取得链/全部感官派生尚未全覆盖。"
   ],
   "verification": {
-    "status": "pending",
+    "status": "partial",
     "sourceChecked": true,
-    "runtimeFullyVerified": false
-  }
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/resource-projections.test.mjs"
+    ]
+  },
+  "authoring": {
+    "executionSource": "contract"
+  },
+  "adoptedDecisions": [
+    {
+      "id": "illusion-interaction-witnesses",
+      "question": "Q48",
+      "status": "adopted",
+      "source": "RE D级幻术1.md:72、77；C级幻术2.md:19；幻术.md:15、21；侦测与定位.md:35–41、94、109",
+      "issue": "物理穿透会让人直接识破/暴露，未明确实际目击穿透者是否自动获得识破；定位分享不等于识破传播。",
+      "impact": "决定互动发生后哪些实际观察者的实例识破账更新，不能因此删除全场幻象。",
+      "decision": "互动者和以实际感官明确观察到穿透矛盾的旁观者自动识破；口头告知、仅收到定位者不自动识破。C虚假幻象仅由互动者感到的触感异常不传播给未观察到矛盾的旁观者。",
+      "adoption": "用户2026-10-26明确答复：采用，继续（Q48/Q49）。"
+    }
+  ]
 }

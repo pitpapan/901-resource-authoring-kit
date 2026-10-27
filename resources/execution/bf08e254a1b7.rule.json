@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:C:次元锚",
-  "version": "2026-10-23.1",
+  "version": "2026-10-24.2",
   "identity": {
     "name": "次元锚",
     "grade": "C",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/04-结界与召唤.md",
-    "sha256": "dc2c01ebd19c5cea1610fe4cfc2433805eaf289a2ad461fbc0cfa4df59167b80",
+    "sha256": "988fc6b403da3f345c1bce3caa96ac00730e8d6e2fa942fe29defcaed7e5a69e",
     "heading": "次元锚"
   },
   "definition": {
@@ -28,24 +28,150 @@
     "requiresAllSchools": false,
     "schools": [
       "结界"
-    ]
+    ],
+    "programs": {
+      "cast": {
+        "action": "standard",
+        "target": "single",
+        "casting": true,
+        "components": [
+          "posture",
+          "language",
+          "focus"
+        ],
+        "range": {
+          "op": "mul",
+          "args": [
+            10,
+            {
+              "context": "INT"
+            },
+            {
+              "context": "P"
+            }
+          ]
+        },
+        "steps": [
+          {
+            "op": "attack",
+            "weapon": 0,
+            "contact": true
+          },
+          {
+            "op": "capability",
+            "id": "effectUseBlock:space",
+            "gradeBonus": 1,
+            "scene": true,
+            "when": {
+              "test": "gte",
+              "left": {
+                "context": "hit"
+              },
+              "right": 1
+            }
+          }
+        ],
+        "cooldown": 1,
+        "effectFamilies": [
+          "space"
+        ]
+      }
+    }
   },
   "clauses": [
     {
       "heading": "次元锚",
       "effectStats": [],
-      "status": "pending"
+      "status": "partial"
     }
   ],
-  "actions": [],
-  "inputs": [],
-  "unresolvedRules": [],
+  "actions": [
+    {
+      "id": "cast",
+      "name": "次元锚",
+      "operation": "cast",
+      "actionCost": "standard",
+      "requiredChoice": "actual-targets",
+      "choices": {},
+      "allocations": [],
+      "targetMode": "single",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false,
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "immunityLifecycles": [],
+      "resistanceModes": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "ownership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "casting",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "targetIds",
+      "type": "array",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "components",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "pool",
+      "type": "string",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    }
+  ],
+  "unresolvedRules": [
+    {
+      "id": "legacy-teleport-grade",
+      "source": "sources/references/设定 人物/人物卡资料集_检索版.md:1676-1693",
+      "quote": "下位传送/上位传送列有动作、消耗和距离，没有D/C/B效果等级。",
+      "issue": "角色既有传送缺效果等级；不得按魔力消耗或名称反推。",
+      "impact": "被次元锚约束者使用这两项传送时，须提供带来源的实际等级；没有锚时不增加此门槛。",
+      "recommendation": "在场景实际资源effectGrades.lower/upper登记grade及source；在用户裁定/原始取得记录给出等级前阻止依赖该比较的操作。",
+      "kind": "missing-source-fact"
+    }
+  ],
   "implementationGaps": [
-    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+    "需执行级完整验证，检查等级/特殊关键词/版本变体；不可仅凭程序存在标记完成"
   ],
   "verification": {
-    "status": "pending",
+    "status": "partial",
     "sourceChecked": true,
-    "runtimeFullyVerified": false
-  }
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/gm_runtime/resource-program.test.mjs",
+      "work/rules_engine/core.test.mjs"
+    ]
+  },
+  "scopeNotes": [
+    {
+      "source": "RE C级通用魔法/结界1.md:156",
+      "rule": "限制实际使用空间效果者，不额外赋予被他人传送的免疫。"
+    }
+  ]
 }

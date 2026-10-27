@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "901-recipe/1",
+  "id": "opposed-status",
+  "version": 1,
+  "parameters": {
+    "component": {
+      "type": "string"
+    },
+    "saveType": {
+      "type": "enum",
+      "values": [
+        "will",
+        "fort",
+        "reflex"
+      ]
+    },
+    "active": {
+      "type": "expression"
+    },
+    "maximumPoints": {
+      "type": "expression"
+    },
+    "statusType": {
+      "type": "string"
+    },
+    "properties": {
+      "type": "object"
+    }
+  },
+  "steps": [
+    {
+      "id": "resist",
+      "op": "save",
+      "type": {
+        "parameter": "saveType"
+      },
+      "penalty": 0,
+      "resolve": {
+        "kind": "opposed",
+        "active": {
+          "parameter": "active"
+        }
+      },
+      "resultAs": "opposition",
+      "component": {
+        "parameter": "component"
+      }
+    },
+    {
+      "id": "apply",
+      "op": "status",
+      "type": {
+        "parameter": "statusType"
+      },
+      "points": {
+        "op": "min",
+        "args": [
+          {
+            "context": "opposition.margin"
+          },
+          {
+            "parameter": "maximumPoints"
+          }
+        ]
+      },
+      "resistance": {
+        "receipt": "opposition",
+        "kind": "resolved"
+      },
+      "properties": {
+        "parameter": "properties"
+      },
+      "component": {
+        "parameter": "component"
+      },
+      "immunityLifecycle": "suppress-existing"
+    }
+  ]
+}

@@ -26,3 +26,5 @@
 ## 执行格式
 
 资源采用阅读版与执行版配对，见[格式与编写规则](../authoring/executable-resources.md)。首批结构化样本位于 `execution/`；执行状态逐条标注，不代表所有效果已接完。
+
+普通动作的双版本入口：[901 普通动作执行规则](basic-actions.md)，对应 `execution/basic-full-defense.rule.json`；定义可用不等于已取得资源，普通动作本身不写学习记录。
