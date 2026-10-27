@@ -1,0 +1,1295 @@
+{
+  "actions": [
+    {
+      "actionCost": [],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-8b94c2287fa4",
+      "id": "candidate-901-magic-bundle-f3f2a74178bc65f2/clause-8b94c2287fa4",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "肉芝延寿箓",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 16,
+          "relativeLine": 3
+        },
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 12,
+          "relativeLine": 4
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-3eb33154c4ed",
+      "id": "candidate-901-magic-bundle-f3f2a74178bc65f2/clause-3eb33154c4ed",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "地罡召考箓",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-c25581d3ee62",
+      "id": "candidate-901-magic-bundle-f3f2a74178bc65f2/clause-c25581d3ee62",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "-区别在于法术不会创造传送门，也不令书本变成传送门，而是创造一个持续为永久的，可激活的传送门",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 10,
+          "relativeLine": 9
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-c8ed833ebbc5",
+      "id": "candidate-901-magic-bundle-f3f2a74178bc65f2/clause-c8ed833ebbc5",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "太阴尸解蜕形箓",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-6e401f680552",
+      "id": "candidate-901-magic-bundle-f3f2a74178bc65f2/clause-6e401f680552",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "仙砂还魂箓",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 18,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-88cc3967a7f0",
+      "id": "candidate-901-magic-bundle-f3f2a74178bc65f2/clause-88cc3967a7f0",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "正一降圣威盟箓",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    }
+  ],
+  "clauses": [
+    {
+      "effectStats": [],
+      "heading": "玄君七章秘录",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "肉芝延寿箓",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "地罡召考箓",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "-区别在于法术不会创造传送门，也不令书本变成传送门，而是创造一个持续为永久的，可激活的传送门",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "太阴尸解蜕形箓",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "仙砂还魂箓",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "正一降圣威盟箓",
+      "status": "pending"
+    }
+  ],
+  "definition": {
+    "authoringOnly": {
+      "acquisition": {
+        "autoGrantToT0": false,
+        "requiresActualQualification": true,
+        "requiresAdoptedOffer": true,
+        "resetState": false,
+        "treeEntryGrantsChildren": false,
+        "unverifiedPricesMayNotBeCharged": true
+      },
+      "baseMechanisms": {
+        "constraints": [
+          {
+            "automaticTechniqueGrant": false,
+            "operation": "separateTreeAccessFromTechniqueAcquisition"
+          },
+          {
+            "explicitTechniquesMustBeLearnedSeparately": true,
+            "maximumBodyGrade": "S",
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    8,
+                    10
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/玄君七章秘录.md"
+                },
+                "reading": {
+                  "lines": [
+                    14,
+                    14
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/玄君七章秘录.md",
+                  "quote": "- 其最高为S级版本。"
+                }
+              }
+            ]
+          }
+        ],
+        "implementationGaps": [
+          {
+            "effectIds": [
+              "总纲-D",
+              "总纲-C",
+              "总纲-B",
+              "总纲-A",
+              "总纲-S"
+            ],
+            "kind": "operation-support-and-acquisition-transaction",
+            "notUnresolvedRule": true,
+            "status": "implementation-needed"
+          }
+        ],
+        "inheritsBaseContract": {
+          "maximumGrade": "S",
+          "notAdditionalPoolOrCasterStack": true,
+          "resource": "魔导书总纲",
+          "resourceId": "candidate-901-magic-bundle-548c74a4ad67a66c",
+          "sameBookAndAcquisition": true,
+          "sourceEvidence": [
+            {
+              "original": {
+                "lines": [
+                  35,
+                  37
+                ],
+                "path": "content/RE/02_resources/能力组/施法类型/魔导书/玄君七章秘录.md"
+              },
+              "reading": {
+                "lines": [
+                  11,
+                  11
+                ],
+                "path": "outputs/施法体系适配-20261024/阅读版/玄君七章秘录.md",
+                "quote": "本书取得、研读、职能和基础书体见[魔导书总纲](魔导书总纲.md)。专有技艺另学；单纯书上记载不等于已习得。"
+              }
+            }
+          ],
+          "version": "2026-10-25.magic.1"
+        },
+        "inputBindings": {
+          "classifierMaySelectRegisteredChoicesOnly": true,
+          "contextInputs": [],
+          "mustNotInferOwnedStageFromDefinition": true,
+          "stateReads": []
+        },
+        "numericalPolicy": {
+          "actionRatingRounding": "ceil-before-action-table",
+          "defaultRounding": "floor-after-complete-effect",
+          "distanceRounding": "none",
+          "explicitAccumulatedXP": "retain-source-precision",
+          "intermediateRounding": "only-if-explicit",
+          "reading": {
+            "lines": [
+              86,
+              86
+            ],
+            "path": "outputs/施法体系适配-20261024/共用901判定.md",
+            "sha256": "1c5398bf728c5e94bfa2cc1cf037ead08a0dec1e1898278e844b25b643463bbd"
+          },
+          "runtimeStatus": "implementation-needed",
+          "timeRounding": "none",
+          "xpCostRounding": "ceil"
+        },
+        "readingSHA256": "cd3fb567191b293526c2216b39cba430e300030df21159ee6f78a875386c8549",
+        "runtimeFullyVerified": false,
+        "scope": "ability-group-body-only",
+        "stageInheritance": {
+          "dynamicGradeReadsCurrentActuallyAcquiredStage": true,
+          "replacementFamilyUsesHighestAcquiredStageOnly": true,
+          "retainPriorStageBenefits": true
+        },
+        "stages": [
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "总纲-D",
+                "operation": "inheritStageEffects",
+                "parameters": {
+                  "grade": "D",
+                  "resource": "魔导书总纲"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        6,
+                        18
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/玄君七章秘录.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        11,
+                        11
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/玄君七章秘录.md",
+                      "quote": "本书取得、研读、职能和基础书体见[魔导书总纲](魔导书总纲.md)。专有技艺另学；单纯书上记载不等于已习得。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "same-book-identity-no-duplicate"
+                },
+                "target": "self-and-owned-book",
+                "type": "inherited-declarative-operations"
+              }
+            ],
+            "grade": "D",
+            "grants": [
+              {
+                "bindTreeTo": "玄君七章秘录",
+                "grade": "D",
+                "resource": "魔导书总纲",
+                "sameAcquisition": true,
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        35,
+                        37
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/玄君七章秘录.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        11,
+                        11
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/玄君七章秘录.md",
+                      "quote": "本书取得、研读、职能和基础书体见[魔导书总纲](魔导书总纲.md)。专有技艺另学；单纯书上记载不等于已习得。"
+                    }
+                  }
+                ],
+                "type": "inherit-stage-grants"
+              }
+            ],
+            "requiresPriorStage": null,
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    6,
+                    18
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/玄君七章秘录.md"
+                },
+                "reading": {
+                  "lines": [
+                    11,
+                    11
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/玄君七章秘录.md",
+                  "quote": "本书取得、研读、职能和基础书体见[魔导书总纲](魔导书总纲.md)。专有技艺另学；单纯书上记载不等于已习得。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    35,
+                    37
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/玄君七章秘录.md"
+                },
+                "reading": {
+                  "lines": [
+                    11,
+                    11
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/玄君七章秘录.md",
+                  "quote": "本书取得、研读、职能和基础书体见[魔导书总纲](魔导书总纲.md)。专有技艺另学；单纯书上记载不等于已习得。"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "总纲-C",
+                "operation": "inheritStageEffects",
+                "parameters": {
+                  "grade": "C",
+                  "resource": "魔导书总纲"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        6,
+                        18
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/玄君七章秘录.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        11,
+                        11
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/玄君七章秘录.md",
+                      "quote": "本书取得、研读、职能和基础书体见[魔导书总纲](魔导书总纲.md)。专有技艺另学；单纯书上记载不等于已习得。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "same-book-identity-no-duplicate"
+                },
+                "target": "self-and-owned-book",
+                "type": "inherited-declarative-operations"
+              }
+            ],
+            "grade": "C",
+            "grants": [
+              {
+                "bindTreeTo": "玄君七章秘录",
+                "grade": "C",
+                "resource": "魔导书总纲",
+                "sameAcquisition": true,
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        35,
+                        37
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/玄君七章秘录.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        11,
+                        11
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/玄君七章秘录.md",
+                      "quote": "本书取得、研读、职能和基础书体见[魔导书总纲](魔导书总纲.md)。专有技艺另学；单纯书上记载不等于已习得。"
+                    }
+                  }
+                ],
+                "type": "inherit-stage-grants"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "completedStudy": true,
+              "grade": "D",
+              "resource": "玄君七章秘录"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    6,
+                    18
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/玄君七章秘录.md"
+                },
+                "reading": {
+                  "lines": [
+                    11,
+                    11
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/玄君七章秘录.md",
+                  "quote": "本书取得、研读、职能和基础书体见[魔导书总纲](魔导书总纲.md)。专有技艺另学；单纯书上记载不等于已习得。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    35,
+                    37
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/玄君七章秘录.md"
+                },
+                "reading": {
+                  "lines": [
+                    11,
+                    11
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/玄君七章秘录.md",
+                  "quote": "本书取得、研读、职能和基础书体见[魔导书总纲](魔导书总纲.md)。专有技艺另学；单纯书上记载不等于已习得。"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "总纲-B",
+                "operation": "inheritStageEffects",
+                "parameters": {
+                  "grade": "B",
+                  "resource": "魔导书总纲"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        6,
+                        18
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/玄君七章秘录.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        11,
+                        11
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/玄君七章秘录.md",
+                      "quote": "本书取得、研读、职能和基础书体见[魔导书总纲](魔导书总纲.md)。专有技艺另学；单纯书上记载不等于已习得。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "same-book-identity-no-duplicate"
+                },
+                "target": "self-and-owned-book",
+                "type": "inherited-declarative-operations"
+              }
+            ],
+            "grade": "B",
+            "grants": [
+              {
+                "bindTreeTo": "玄君七章秘录",
+                "grade": "B",
+                "resource": "魔导书总纲",
+                "sameAcquisition": true,
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        35,
+                        37
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/玄君七章秘录.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        11,
+                        11
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/玄君七章秘录.md",
+                      "quote": "本书取得、研读、职能和基础书体见[魔导书总纲](魔导书总纲.md)。专有技艺另学；单纯书上记载不等于已习得。"
+                    }
+                  }
+                ],
+                "type": "inherit-stage-grants"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "completedStudy": true,
+              "grade": "C",
+              "resource": "玄君七章秘录"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    6,
+                    18
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/玄君七章秘录.md"
+                },
+                "reading": {
+                  "lines": [
+                    11,
+                    11
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/玄君七章秘录.md",
+                  "quote": "本书取得、研读、职能和基础书体见[魔导书总纲](魔导书总纲.md)。专有技艺另学；单纯书上记载不等于已习得。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    35,
+                    37
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/玄君七章秘录.md"
+                },
+                "reading": {
+                  "lines": [
+                    11,
+                    11
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/玄君七章秘录.md",
+                  "quote": "本书取得、研读、职能和基础书体见[魔导书总纲](魔导书总纲.md)。专有技艺另学；单纯书上记载不等于已习得。"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "总纲-A",
+                "operation": "inheritStageEffects",
+                "parameters": {
+                  "grade": "A",
+                  "resource": "魔导书总纲"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        6,
+                        18
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/玄君七章秘录.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        11,
+                        11
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/玄君七章秘录.md",
+                      "quote": "本书取得、研读、职能和基础书体见[魔导书总纲](魔导书总纲.md)。专有技艺另学；单纯书上记载不等于已习得。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "same-book-identity-no-duplicate"
+                },
+                "target": "self-and-owned-book",
+                "type": "inherited-declarative-operations"
+              }
+            ],
+            "grade": "A",
+            "grants": [
+              {
+                "bindTreeTo": "玄君七章秘录",
+                "grade": "A",
+                "resource": "魔导书总纲",
+                "sameAcquisition": true,
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        35,
+                        37
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/玄君七章秘录.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        11,
+                        11
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/玄君七章秘录.md",
+                      "quote": "本书取得、研读、职能和基础书体见[魔导书总纲](魔导书总纲.md)。专有技艺另学；单纯书上记载不等于已习得。"
+                    }
+                  }
+                ],
+                "type": "inherit-stage-grants"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "completedStudy": true,
+              "grade": "B",
+              "resource": "玄君七章秘录"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    6,
+                    18
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/玄君七章秘录.md"
+                },
+                "reading": {
+                  "lines": [
+                    11,
+                    11
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/玄君七章秘录.md",
+                  "quote": "本书取得、研读、职能和基础书体见[魔导书总纲](魔导书总纲.md)。专有技艺另学；单纯书上记载不等于已习得。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    35,
+                    37
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/玄君七章秘录.md"
+                },
+                "reading": {
+                  "lines": [
+                    11,
+                    11
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/玄君七章秘录.md",
+                  "quote": "本书取得、研读、职能和基础书体见[魔导书总纲](魔导书总纲.md)。专有技艺另学；单纯书上记载不等于已习得。"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "总纲-S",
+                "operation": "inheritStageEffects",
+                "parameters": {
+                  "grade": "S",
+                  "resource": "魔导书总纲"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        6,
+                        18
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/玄君七章秘录.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        11,
+                        11
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/玄君七章秘录.md",
+                      "quote": "本书取得、研读、职能和基础书体见[魔导书总纲](魔导书总纲.md)。专有技艺另学；单纯书上记载不等于已习得。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "same-book-identity-no-duplicate"
+                },
+                "target": "self-and-owned-book",
+                "type": "inherited-declarative-operations"
+              }
+            ],
+            "grade": "S",
+            "grants": [
+              {
+                "bindTreeTo": "玄君七章秘录",
+                "grade": "S",
+                "resource": "魔导书总纲",
+                "sameAcquisition": true,
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        35,
+                        37
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/玄君七章秘录.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        11,
+                        11
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/玄君七章秘录.md",
+                      "quote": "本书取得、研读、职能和基础书体见[魔导书总纲](魔导书总纲.md)。专有技艺另学；单纯书上记载不等于已习得。"
+                    }
+                  }
+                ],
+                "type": "inherit-stage-grants"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "completedStudy": true,
+              "grade": "A",
+              "resource": "玄君七章秘录"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    6,
+                    18
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/玄君七章秘录.md"
+                },
+                "reading": {
+                  "lines": [
+                    11,
+                    11
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/玄君七章秘录.md",
+                  "quote": "本书取得、研读、职能和基础书体见[魔导书总纲](魔导书总纲.md)。专有技艺另学；单纯书上记载不等于已习得。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    35,
+                    37
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/玄君七章秘录.md"
+                },
+                "reading": {
+                  "lines": [
+                    11,
+                    11
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/玄君七章秘录.md",
+                  "quote": "本书取得、研读、职能和基础书体见[魔导书总纲](魔导书总纲.md)。专有技艺另学；单纯书上记载不等于已习得。"
+                }
+              }
+            ]
+          }
+        ],
+        "status": "declarative-contract-source",
+        "unresolvedRules": [],
+        "verification": {
+          "deploymentPerformed": false,
+          "runtimeFullyVerified": false,
+          "runtimeTested": false
+        }
+      },
+      "runtimeSlices": [],
+      "sharedRulesLock": "2d4f858c035f847bc05a312a0e7efea245cd0f6795890239754d371a5b75005c",
+      "units": [
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/3/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/4/effects/0"
+          ],
+          "declaredFields": {},
+          "id": "clause-d1ad5d85a92e",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "玄君七章秘录",
+          "reading": {
+            "endLine": 15,
+            "sha256": "a1f5dc07158888305a4ce807d753bf0023b321a81305e37608ae51418c7903f5",
+            "startLine": 1
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 9
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "学习原价": "D+500",
+            "射程": "接触",
+            "成分": "言/姿",
+            "施放": "1小时",
+            "领域": "死灵"
+          },
+          "id": "clause-8b94c2287fa4",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              }
+            ]
+          },
+          "name": "肉芝延寿箓",
+          "reading": {
+            "endLine": 27,
+            "sha256": "0f5475135cc1924c63639f75252ad00d62546e396381a21c81b6ee65bd8507e3",
+            "startLine": 22
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "cost",
+              "relativeLine": 4
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 4
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 5
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 16,
+              "relativeLine": 3
+            },
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 12,
+              "relativeLine": 4
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "学习原价": "C+1000",
+            "射程": "敏感视觉范围内的可站立表面",
+            "成分": "言/姿",
+            "持续": "智力*P*1分钟",
+            "施放": "动作标值16",
+            "领域": "召唤"
+          },
+          "id": "clause-3eb33154c4ed",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 3,
+                "candidateXP": 25,
+                "grade": "C",
+                "legacyPoints": 1000
+              }
+            ]
+          },
+          "name": "地罡召考箓",
+          "reading": {
+            "endLine": 35,
+            "sha256": "b3ec3335738121505745e3bff43bcbdacffdd5d80f221aced88d66f19c49b960",
+            "startLine": 30
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "duration",
+              "relativeLine": 3
+            },
+            {
+              "kind": "prerequisite",
+              "relativeLine": 4
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 4
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 4
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-c25581d3ee62",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "-区别在于法术不会创造传送门，也不令书本变成传送门，而是创造一个持续为永久的，可激活的传送门",
+          "reading": {
+            "endLine": 45,
+            "sha256": "dd85dfa1d5dc59eb88414d69c897c113db7164eb7ddb0c6bc02bb21337a97d45",
+            "startLine": 42
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "duration",
+              "relativeLine": 1
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 2
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 10,
+              "relativeLine": 9
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "学习原价": "B+2000",
+            "成分": "言/姿",
+            "施放": "特殊",
+            "领域": "预言"
+          },
+          "id": "clause-c8ed833ebbc5",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 9,
+                "candidateXP": 65,
+                "grade": "B",
+                "legacyPoints": 2000
+              }
+            ]
+          },
+          "name": "太阴尸解蜕形箓",
+          "reading": {
+            "endLine": 59,
+            "sha256": "7d94e8687b41170c2ee7c9b2f2ae76a0cc09fc39cb4567ea8991c4c6e915df4c",
+            "startLine": 46
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "cost",
+              "relativeLine": 4
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 4
+            },
+            {
+              "kind": "exclusion",
+              "relativeLine": 5
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 5
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 5
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 6
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 8
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 8
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 10
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 10
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 13
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "学习原价": "A+4000",
+            "射程": "接触",
+            "成分": "言/姿",
+            "施放": "10分钟",
+            "领域": "死灵"
+          },
+          "id": "clause-6e401f680552",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 27,
+                "candidateXP": 175,
+                "grade": "A",
+                "legacyPoints": 4000
+              }
+            ]
+          },
+          "name": "仙砂还魂箓",
+          "reading": {
+            "endLine": 67,
+            "sha256": "6d79765875fc63d75ca14525323694e93ad4c361a6af498f0d64a6061193fc1d",
+            "startLine": 62
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "trigger",
+              "relativeLine": 5
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 18,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "冷却": "3轮",
+            "学习原价": "S+8000",
+            "射程": "10KP米",
+            "成分": "言/姿",
+            "施放": "动作标值18",
+            "范围": "半径5KP米",
+            "领域": "召唤"
+          },
+          "id": "clause-88cc3967a7f0",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 81,
+                "candidateXP": 485,
+                "grade": "S",
+                "legacyPoints": 8000
+              }
+            ]
+          },
+          "name": "正一降圣威盟箓",
+          "reading": {
+            "endLine": 76,
+            "sha256": "daa9a6b61b0bdd2f7be77cf2f33b921d7e7c15405e185056bd10774f46a49f1a",
+            "startLine": 70
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "cost",
+              "relativeLine": 6
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 6
+            }
+          ],
+          "unresolvedRuleIds": []
+        }
+      ]
+    },
+    "effects": [],
+    "programs": {}
+  },
+  "id": "candidate-901-magic-bundle-f3f2a74178bc65f2",
+  "identity": {
+    "adoptionStatus": "candidate",
+    "aliases": [],
+    "category": "bundle",
+    "grade": "multi",
+    "name": "玄君七章秘录",
+    "sharedDependencies": [
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "bbf7521e7514bb9c807e6b5bf07fa55016853cf31ccacd69d2f725e54feb3758"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/共用901判定.md",
+        "sha256": "1c5398bf728c5e94bfa2cc1cf037ead08a0dec1e1898278e844b25b643463bbd"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/来源与核算.md",
+        "sha256": "8f17c529f1b5465fceaefc24931869b82e071d4ab8fb3ed561359864cbf98334"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/未决项.md",
+        "sha256": "3ceae5df0f4bd271ea79956004dba56bd8698eea62b7508871ce11a406903375"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/专有机制.md",
+        "sha256": "14a331e47e9d578634f29e2bae74a1501e916fc594cdef41f9e40b0fa8bafe62"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/引用定位.md",
+        "sha256": "699deab37356bb930ab497aa8bc555f756c174a799a9a91b922345ea6f1be0b1"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/通用法术.md",
+        "sha256": "8922768b19c7c65a410498c69cddc5441796a85c7c50b4871786ecff3a4cbaed"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/防护与状态.md",
+        "sha256": "c9d0b1b1dc1f2546f92faa5dda66464c531283095d21990d8004df4c8e641a12"
+      }
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/能力组/施法类型/魔导书/玄君七章秘录.md",
+        "sha256": "d4cc26000f7bba3f4390ca0172fa6e205df14c57def0184951f0bf5999d1cc13"
+      }
+    ],
+    "tree": "玄君七章秘录"
+  },
+  "implementationGaps": [
+    "本体声明尚需逐机制接入与执行证明；技能树逐条款保留来源定位，尚未完整编码；未验证动作不进入执行白名单。"
+  ],
+  "inputs": [
+    {
+      "id": "ownedResource",
+      "missingPolicy": "block-related-operation",
+      "provider": "saved-state",
+      "requiredFor": [
+        "effects",
+        "actions"
+      ],
+      "type": "versioned-acquisition-record"
+    },
+    {
+      "id": "choices",
+      "missingPolicy": "ask-only-required-choice",
+      "provider": "player",
+      "requiredFor": [
+        "acquisition"
+      ],
+      "type": "declared-selection"
+    },
+    {
+      "id": "sceneFacts",
+      "missingPolicy": "block-related-operation",
+      "provider": "host",
+      "requiredFor": [
+        "actions"
+      ],
+      "type": "sourced-target-and-scene"
+    }
+  ],
+  "reading": {
+    "path": "outputs/施法体系适配-20261024/阅读版/玄君七章秘录.md",
+    "sha256": "cd3fb567191b293526c2216b39cba430e300030df21159ee6f78a875386c8549"
+  },
+  "schemaVersion": "901-resource/1",
+  "unresolvedRules": [],
+  "verification": {
+    "runtimeFullyVerified": false,
+    "scope": "paired-source-and-declarative-base; not full runtime",
+    "sourceChecked": true,
+    "status": "pending"
+  },
+  "version": "2026-10-25.magic.1"
+}

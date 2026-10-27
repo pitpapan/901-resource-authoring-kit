@@ -1,0 +1,1803 @@
+{
+  "actions": [
+    {
+      "actionCost": [],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-15622692ac97",
+      "id": "candidate-901-magic-bundle-ba577210e69dafd5/clause-15622692ac97",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "本体",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    }
+  ],
+  "clauses": [
+    {
+      "effectStats": [],
+      "heading": "法师",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "本体",
+      "status": "partial"
+    }
+  ],
+  "definition": {
+    "authoringOnly": {
+      "acquisition": {
+        "autoGrantToT0": false,
+        "requiresActualQualification": true,
+        "requiresAdoptedOffer": true,
+        "resetState": false,
+        "treeEntryGrantsChildren": false,
+        "unverifiedPricesMayNotBeCharged": true
+      },
+      "baseMechanisms": {
+        "constraints": [
+          {
+            "automaticTechniqueGrant": false,
+            "operation": "separateTreeAccessFromTechniqueAcquisition"
+          }
+        ],
+        "implementationGaps": [
+          {
+            "effectIds": [
+              "三系天赋-奥术",
+              "三系天赋-火焰",
+              "三系天赋-冰霜",
+              "奥术池",
+              "火焰回复",
+              "冰霜减耗",
+              "奥术力场",
+              "传奇智力双计-火焰",
+              "传奇智力双计-冰霜",
+              "三系防护-奥术",
+              "三系防护-火焰",
+              "三系防护-冰霜",
+              "施法动作缩减"
+            ],
+            "kind": "operation-support-and-acquisition-transaction",
+            "notUnresolvedRule": true,
+            "status": "implementation-needed"
+          }
+        ],
+        "inputBindings": {
+          "classifierMaySelectRegisteredChoicesOnly": true,
+          "contextInputs": [
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "奥术力场",
+                  "grade": "B"
+                },
+                {
+                  "effectId": "三系防护-奥术",
+                  "grade": "A"
+                },
+                {
+                  "effectId": "三系防护-火焰",
+                  "grade": "A"
+                },
+                {
+                  "effectId": "三系防护-冰霜",
+                  "grade": "A"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedLegendary.智力",
+              "provider": "主持确认的传奇属性来源记录；不得用901自动成功反推",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "奥术力场",
+                  "grade": "B"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedREExtraSuccesses.神秘",
+              "provider": "仍适用的RE子技能附加成功规则与实际子技能资格；不复制901自动成功",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "施法动作缩减",
+                  "grade": "S"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "spell.originalQ",
+              "provider": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            }
+          ],
+          "mustNotInferOwnedStageFromDefinition": true,
+          "stateReads": [
+            "resources.精神魔力.max"
+          ]
+        },
+        "numericalPolicy": {
+          "actionRatingRounding": "ceil-before-action-table",
+          "defaultRounding": "floor-after-complete-effect",
+          "distanceRounding": "none",
+          "explicitAccumulatedXP": "retain-source-precision",
+          "intermediateRounding": "only-if-explicit",
+          "reading": {
+            "lines": [
+              86,
+              86
+            ],
+            "path": "outputs/施法体系适配-20261024/共用901判定.md",
+            "sha256": "1c5398bf728c5e94bfa2cc1cf037ead08a0dec1e1898278e844b25b643463bbd"
+          },
+          "runtimeStatus": "implementation-needed",
+          "timeRounding": "none",
+          "xpCostRounding": "ceil"
+        },
+        "readingSHA256": "f4a2ac2fbaf2cdc40d21aaef5186d7b800a91344dc04398e6ec9583c6bcbc0a3",
+        "runtimeFullyVerified": false,
+        "scope": "ability-group-body-only",
+        "stageInheritance": {
+          "dynamicGradeReadsCurrentActuallyAcquiredStage": true,
+          "replacementFamilyUsesHighestAcquiredStageOnly": true,
+          "retainPriorStageBenefits": true
+        },
+        "stages": [
+          {
+            "choices": [
+              {
+                "at": "acquisition",
+                "immutable": true,
+                "key": "specialization",
+                "options": [
+                  "奥术",
+                  "火焰",
+                  "冰霜"
+                ]
+              }
+            ],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [
+                  {
+                    "choiceEquals": {
+                      "specialization": "奥术"
+                    }
+                  },
+                  {
+                    "spellDamageAny": [
+                      "纯能量",
+                      "力场"
+                    ]
+                  }
+                ],
+                "id": "三系天赋-奥术",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "bonusCategory": "修行",
+                  "value": 6
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        9,
+                        18
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        17,
+                        17
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                      "quote": "| D | 造成纯能量/力场伤害的法术施法+6修行DP | 火焰法术施法+6修行DP | 寒冷法术施法+6修行DP |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "三系天赋-奥术",
+                  "mode": "add-increment"
+                },
+                "target": "spell.castingDP",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [
+                  {
+                    "choiceEquals": {
+                      "specialization": "火焰"
+                    }
+                  },
+                  {
+                    "spellDamageAny": [
+                      "火焰"
+                    ]
+                  }
+                ],
+                "id": "三系天赋-火焰",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "bonusCategory": "修行",
+                  "value": 6
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        9,
+                        18
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        17,
+                        17
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                      "quote": "| D | 造成纯能量/力场伤害的法术施法+6修行DP | 火焰法术施法+6修行DP | 寒冷法术施法+6修行DP |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "三系天赋-火焰",
+                  "mode": "add-increment"
+                },
+                "target": "spell.castingDP",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [
+                  {
+                    "choiceEquals": {
+                      "specialization": "冰霜"
+                    }
+                  },
+                  {
+                    "spellDamageAny": [
+                      "寒冷"
+                    ]
+                  }
+                ],
+                "id": "三系天赋-冰霜",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "bonusCategory": "修行",
+                  "value": 6
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        9,
+                        18
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        17,
+                        17
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                      "quote": "| D | 造成纯能量/力场伤害的法术施法+6修行DP | 火焰法术施法+6修行DP | 寒冷法术施法+6修行DP |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "三系天赋-冰霜",
+                  "mode": "add-increment"
+                },
+                "target": "spell.castingDP",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "D",
+            "grants": [
+              {
+                "capacityPolicy": "shared-901-pool-rule",
+                "fillOnAcquisition": false,
+                "kind": "精神魔力",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        9,
+                        18
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        13,
+                        13
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                      "quote": "能量：精神魔力。D/C/B/A/S依次取得对应施法职能，每阶分别免费选一项同阶通用法术；三系在D阶选定，后续沿所选系进阶。"
+                    }
+                  }
+                ],
+                "type": "energy-pool"
+              },
+              {
+                "grade": "D",
+                "source": "法师",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        9,
+                        18
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        13,
+                        13
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                      "quote": "能量：精神魔力。D/C/B/A/S依次取得对应施法职能，每阶分别免费选一项同阶通用法术；三系在D阶选定，后续沿所选系进阶。"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "D",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        9,
+                        18
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        13,
+                        13
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                      "quote": "能量：精神魔力。D/C/B/A/S依次取得对应施法职能，每阶分别免费选一项同阶通用法术；三系在D阶选定，后续沿所选系进阶。"
+                    }
+                  }
+                ],
+                "tree": "法师",
+                "type": "tree-access"
+              },
+              {
+                "count": 1,
+                "filter": {
+                  "category": "通用法术",
+                  "grade": "D"
+                },
+                "free": true,
+                "retainsPreviousChoices": true,
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        15,
+                        17
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        17,
+                        17
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                      "quote": "| D | 造成纯能量/力场伤害的法术施法+6修行DP | 火焰法术施法+6修行DP | 寒冷法术施法+6修行DP |"
+                    }
+                  }
+                ],
+                "type": "explicit-technique-choice"
+              }
+            ],
+            "requiresPriorStage": null,
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    9,
+                    18
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    17,
+                    17
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                  "quote": "| D | 造成纯能量/力场伤害的法术施法+6修行DP | 火焰法术施法+6修行DP | 寒冷法术施法+6修行DP |"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    9,
+                    18
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    13,
+                    13
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                  "quote": "能量：精神魔力。D/C/B/A/S依次取得对应施法职能，每阶分别免费选一项同阶通用法术；三系在D阶选定，后续沿所选系进阶。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    15,
+                    17
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    17,
+                    17
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                  "quote": "| D | 造成纯能量/力场伤害的法术施法+6修行DP | 火焰法术施法+6修行DP | 寒冷法术施法+6修行DP |"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [
+                  {
+                    "choiceEquals": {
+                      "specialization": "奥术"
+                    }
+                  }
+                ],
+                "id": "奥术池",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "value": 10
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        19,
+                        26
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        18,
+                        18
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                      "quote": "| C | 精神魔力上限+10 | 每24小时额外恢复2×魔力上限，均摊到最小回复时长 | 法术魔力耗−1，最低1 |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "奥术池",
+                  "mode": "add-increment"
+                },
+                "target": "resources.精神魔力.max",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [
+                  {
+                    "choiceEquals": {
+                      "specialization": "火焰"
+                    }
+                  }
+                ],
+                "id": "火焰回复",
+                "operation": "regeneratePool",
+                "parameters": {
+                  "amount": {
+                    "args": [
+                      2,
+                      {
+                        "state": "resources.精神魔力.max"
+                      }
+                    ],
+                    "op": "mul"
+                  },
+                  "distribution": "smallest-recovery-unit",
+                  "intervalHours": 24,
+                  "pool": "精神魔力"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        19,
+                        26
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        18,
+                        18
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                      "quote": "| C | 精神魔力上限+10 | 每24小时额外恢复2×魔力上限，均摊到最小回复时长 | 法术魔力耗−1，最低1 |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [
+                  {
+                    "choiceEquals": {
+                      "specialization": "冰霜"
+                    }
+                  }
+                ],
+                "id": "冰霜减耗",
+                "operation": "reduceCost",
+                "parameters": {
+                  "amount": 1,
+                  "minimum": 1,
+                  "pool": "魔力"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        19,
+                        26
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        18,
+                        18
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                      "quote": "| C | 精神魔力上限+10 | 每24小时额外恢复2×魔力上限，均摊到最小回复时长 | 法术魔力耗−1，最低1 |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "C",
+            "grants": [
+              {
+                "grade": "C",
+                "source": "法师",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        19,
+                        26
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        13,
+                        13
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                      "quote": "能量：精神魔力。D/C/B/A/S依次取得对应施法职能，每阶分别免费选一项同阶通用法术；三系在D阶选定，后续沿所选系进阶。"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "C",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        19,
+                        26
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        13,
+                        13
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                      "quote": "能量：精神魔力。D/C/B/A/S依次取得对应施法职能，每阶分别免费选一项同阶通用法术；三系在D阶选定，后续沿所选系进阶。"
+                    }
+                  }
+                ],
+                "tree": "法师",
+                "type": "tree-access"
+              },
+              {
+                "count": 1,
+                "filter": {
+                  "category": "通用法术",
+                  "grade": "C"
+                },
+                "free": true,
+                "retainsPreviousChoices": true,
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        24,
+                        26
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        18,
+                        18
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                      "quote": "| C | 精神魔力上限+10 | 每24小时额外恢复2×魔力上限，均摊到最小回复时长 | 法术魔力耗−1，最低1 |"
+                    }
+                  }
+                ],
+                "type": "explicit-technique-choice"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "D",
+              "resource": "法师"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    19,
+                    26
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    18,
+                    18
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                  "quote": "| C | 精神魔力上限+10 | 每24小时额外恢复2×魔力上限，均摊到最小回复时长 | 法术魔力耗−1，最低1 |"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    19,
+                    26
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    13,
+                    13
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                  "quote": "能量：精神魔力。D/C/B/A/S依次取得对应施法职能，每阶分别免费选一项同阶通用法术；三系在D阶选定，后续沿所选系进阶。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    24,
+                    26
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    18,
+                    18
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                  "quote": "| C | 精神魔力上限+10 | 每24小时额外恢复2×魔力上限，均摊到最小回复时长 | 法术魔力耗−1，最低1 |"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [
+                  {
+                    "choiceEquals": {
+                      "specialization": "奥术"
+                    }
+                  }
+                ],
+                "id": "奥术力场",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "bonusCategory": "力场",
+                  "value": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  {
+                                    "context": "confirmedLegendary.智力"
+                                  },
+                                  {
+                                    "context": "confirmedREExtraSuccesses.神秘"
+                                  }
+                                ],
+                                "op": "add"
+                              },
+                              4
+                            ],
+                            "op": "mul"
+                          },
+                          3
+                        ],
+                        "op": "div"
+                      }
+                    ],
+                    "op": "floor"
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        27,
+                        34
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        19,
+                        19
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                      "quote": "| B | 力场防御＝floor((L(智力)+神秘学适用附加成功)×4/3) | 以法术攻击时，传奇智力所供附加成功计算两次 | 施法判定用于削目标豁免时，传奇智力所供附加成功计算两次 |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "奥术力场",
+                  "mode": "add-increment"
+                },
+                "target": "defense.force",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [
+                  {
+                    "choiceEquals": {
+                      "specialization": "火焰"
+                    }
+                  }
+                ],
+                "id": "传奇智力双计-火焰",
+                "operation": "multiplyLegendaryExtraSuccessContribution",
+                "parameters": {
+                  "attribute": "智力",
+                  "exclude901AutomaticSuccesses": true,
+                  "excludeAlreadyIncludedSuccesses": true,
+                  "factor": 2,
+                  "scope": "spell-attack"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        27,
+                        34
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        19,
+                        19
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                      "quote": "| B | 力场防御＝floor((L(智力)+神秘学适用附加成功)×4/3) | 以法术攻击时，传奇智力所供附加成功计算两次 | 施法判定用于削目标豁免时，传奇智力所供附加成功计算两次 |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [
+                  {
+                    "choiceEquals": {
+                      "specialization": "冰霜"
+                    }
+                  }
+                ],
+                "id": "传奇智力双计-冰霜",
+                "operation": "multiplyLegendaryExtraSuccessContribution",
+                "parameters": {
+                  "attribute": "智力",
+                  "exclude901AutomaticSuccesses": true,
+                  "excludeAlreadyIncludedSuccesses": true,
+                  "factor": 2,
+                  "scope": "casting-check-reducing-target-save"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        27,
+                        34
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        19,
+                        19
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                      "quote": "| B | 力场防御＝floor((L(智力)+神秘学适用附加成功)×4/3) | 以法术攻击时，传奇智力所供附加成功计算两次 | 施法判定用于削目标豁免时，传奇智力所供附加成功计算两次 |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "B",
+            "grants": [
+              {
+                "grade": "B",
+                "source": "法师",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        27,
+                        34
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        13,
+                        13
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                      "quote": "能量：精神魔力。D/C/B/A/S依次取得对应施法职能，每阶分别免费选一项同阶通用法术；三系在D阶选定，后续沿所选系进阶。"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "B",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        27,
+                        34
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        13,
+                        13
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                      "quote": "能量：精神魔力。D/C/B/A/S依次取得对应施法职能，每阶分别免费选一项同阶通用法术；三系在D阶选定，后续沿所选系进阶。"
+                    }
+                  }
+                ],
+                "tree": "法师",
+                "type": "tree-access"
+              },
+              {
+                "count": 1,
+                "filter": {
+                  "category": "通用法术",
+                  "grade": "B"
+                },
+                "free": true,
+                "retainsPreviousChoices": true,
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        31,
+                        33
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        19,
+                        19
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                      "quote": "| B | 力场防御＝floor((L(智力)+神秘学适用附加成功)×4/3) | 以法术攻击时，传奇智力所供附加成功计算两次 | 施法判定用于削目标豁免时，传奇智力所供附加成功计算两次 |"
+                    }
+                  }
+                ],
+                "type": "explicit-technique-choice"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "C",
+              "resource": "法师"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    27,
+                    34
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    19,
+                    19
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                  "quote": "| B | 力场防御＝floor((L(智力)+神秘学适用附加成功)×4/3) | 以法术攻击时，传奇智力所供附加成功计算两次 | 施法判定用于削目标豁免时，传奇智力所供附加成功计算两次 |"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    27,
+                    34
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    13,
+                    13
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                  "quote": "能量：精神魔力。D/C/B/A/S依次取得对应施法职能，每阶分别免费选一项同阶通用法术；三系在D阶选定，后续沿所选系进阶。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    31,
+                    33
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    19,
+                    19
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                  "quote": "| B | 力场防御＝floor((L(智力)+神秘学适用附加成功)×4/3) | 以法术攻击时，传奇智力所供附加成功计算两次 | 施法判定用于削目标豁免时，传奇智力所供附加成功计算两次 |"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [
+                  {
+                    "choiceEquals": {
+                      "specialization": "奥术"
+                    }
+                  }
+                ],
+                "id": "三系防护-奥术",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "value": {
+                    "context": "confirmedLegendary.智力"
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        35,
+                        42
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        20,
+                        20
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                      "quote": "| A | 全伤害吸收＝L(智力) | 全能量抗力＝2L(智力) | 受异常点数前先减3L(智力) |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "三系防护-奥术",
+                  "mode": "add-increment"
+                },
+                "target": "absorption.all",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [
+                  {
+                    "choiceEquals": {
+                      "specialization": "火焰"
+                    }
+                  }
+                ],
+                "id": "三系防护-火焰",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "value": {
+                    "args": [
+                      2,
+                      {
+                        "context": "confirmedLegendary.智力"
+                      }
+                    ],
+                    "op": "mul"
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        35,
+                        42
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        20,
+                        20
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                      "quote": "| A | 全伤害吸收＝L(智力) | 全能量抗力＝2L(智力) | 受异常点数前先减3L(智力) |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "三系防护-火焰",
+                  "mode": "add-increment"
+                },
+                "target": "resistance.allEnergy",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [
+                  {
+                    "choiceEquals": {
+                      "specialization": "冰霜"
+                    }
+                  }
+                ],
+                "id": "三系防护-冰霜",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "value": {
+                    "args": [
+                      3,
+                      {
+                        "context": "confirmedLegendary.智力"
+                      }
+                    ],
+                    "op": "mul"
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        35,
+                        42
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        20,
+                        20
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                      "quote": "| A | 全伤害吸收＝L(智力) | 全能量抗力＝2L(智力) | 受异常点数前先减3L(智力) |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "三系防护-冰霜",
+                  "mode": "add-increment"
+                },
+                "target": "incomingStatus.preReduction",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "A",
+            "grants": [
+              {
+                "grade": "A",
+                "source": "法师",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        35,
+                        42
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        13,
+                        13
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                      "quote": "能量：精神魔力。D/C/B/A/S依次取得对应施法职能，每阶分别免费选一项同阶通用法术；三系在D阶选定，后续沿所选系进阶。"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "A",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        35,
+                        42
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        13,
+                        13
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                      "quote": "能量：精神魔力。D/C/B/A/S依次取得对应施法职能，每阶分别免费选一项同阶通用法术；三系在D阶选定，后续沿所选系进阶。"
+                    }
+                  }
+                ],
+                "tree": "法师",
+                "type": "tree-access"
+              },
+              {
+                "count": 1,
+                "filter": {
+                  "category": "通用法术",
+                  "grade": "A"
+                },
+                "free": true,
+                "retainsPreviousChoices": true,
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        40,
+                        42
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        20,
+                        20
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                      "quote": "| A | 全伤害吸收＝L(智力) | 全能量抗力＝2L(智力) | 受异常点数前先减3L(智力) |"
+                    }
+                  }
+                ],
+                "type": "explicit-technique-choice"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "B",
+              "resource": "法师"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    35,
+                    42
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    20,
+                    20
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                  "quote": "| A | 全伤害吸收＝L(智力) | 全能量抗力＝2L(智力) | 受异常点数前先减3L(智力) |"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    35,
+                    42
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    13,
+                    13
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                  "quote": "能量：精神魔力。D/C/B/A/S依次取得对应施法职能，每阶分别免费选一项同阶通用法术；三系在D阶选定，后续沿所选系进阶。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    40,
+                    42
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    20,
+                    20
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                  "quote": "| A | 全伤害吸收＝L(智力) | 全能量抗力＝2L(智力) | 受异常点数前先减3L(智力) |"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "施法动作缩减",
+                "operation": "transformActionRating",
+                "parameters": {
+                  "branches": [
+                    {
+                      "value": {
+                        "args": [
+                          2,
+                          {
+                            "args": [
+                              {
+                                "context": "spell.originalQ"
+                              },
+                              2
+                            ],
+                            "op": "sub"
+                          }
+                        ],
+                        "op": "max"
+                      },
+                      "when": {
+                        "lte": [
+                          {
+                            "context": "spell.originalQ"
+                          },
+                          12
+                        ]
+                      }
+                    },
+                    {
+                      "rounding": "ceil",
+                      "value": {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "context": "spell.originalQ"
+                              },
+                              6
+                            ],
+                            "op": "div"
+                          },
+                          5
+                        ],
+                        "op": "mul"
+                      },
+                      "when": {
+                        "gt": [
+                          {
+                            "context": "spell.originalQ"
+                          },
+                          12
+                        ]
+                      }
+                    }
+                  ],
+                  "createsActionPointPool": false,
+                  "mapping": "901-action-table"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        43,
+                        47
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        21,
+                        21
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                      "quote": "| S | 三系共同：施法q≤12时−2、最低2；q>12时原q×5/6，向上取整后查动作表 | 同左 | 同左 |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "S",
+            "grants": [
+              {
+                "grade": "S",
+                "source": "法师",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        43,
+                        47
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        13,
+                        13
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                      "quote": "能量：精神魔力。D/C/B/A/S依次取得对应施法职能，每阶分别免费选一项同阶通用法术；三系在D阶选定，后续沿所选系进阶。"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "S",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        43,
+                        47
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        13,
+                        13
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                      "quote": "能量：精神魔力。D/C/B/A/S依次取得对应施法职能，每阶分别免费选一项同阶通用法术；三系在D阶选定，后续沿所选系进阶。"
+                    }
+                  }
+                ],
+                "tree": "法师",
+                "type": "tree-access"
+              },
+              {
+                "count": 1,
+                "filter": {
+                  "category": "通用法术",
+                  "grade": "S"
+                },
+                "free": true,
+                "retainsPreviousChoices": true,
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        46,
+                        47
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        21,
+                        21
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                      "quote": "| S | 三系共同：施法q≤12时−2、最低2；q>12时原q×5/6，向上取整后查动作表 | 同左 | 同左 |"
+                    }
+                  }
+                ],
+                "type": "explicit-technique-choice"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "A",
+              "resource": "法师"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    43,
+                    47
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    21,
+                    21
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                  "quote": "| S | 三系共同：施法q≤12时−2、最低2；q>12时原q×5/6，向上取整后查动作表 | 同左 | 同左 |"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    43,
+                    47
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    13,
+                    13
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                  "quote": "能量：精神魔力。D/C/B/A/S依次取得对应施法职能，每阶分别免费选一项同阶通用法术；三系在D阶选定，后续沿所选系进阶。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    46,
+                    47
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    21,
+                    21
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+                  "quote": "| S | 三系共同：施法q≤12时−2、最低2；q>12时原q×5/6，向上取整后查动作表 | 同左 | 同左 |"
+                }
+              }
+            ]
+          }
+        ],
+        "status": "declarative-contract-source",
+        "unresolvedRules": [],
+        "verification": {
+          "deploymentPerformed": false,
+          "runtimeFullyVerified": false,
+          "runtimeTested": false
+        }
+      },
+      "runtimeSlices": [],
+      "sharedRulesLock": "2d4f858c035f847bc05a312a0e7efea245cd0f6795890239754d371a5b75005c",
+      "units": [
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-020f031099e7",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "法师",
+          "reading": {
+            "endLine": 10,
+            "sha256": "cc28d45a79b5272b378bf353dc4193b90e2bb59437700f40aa3508eefa319bd1",
+            "startLine": 1
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 9
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/2",
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/2",
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/2",
+            "/definition/authoringOnly/baseMechanisms/stages/3/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/3/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/3/effects/2",
+            "/definition/authoringOnly/baseMechanisms/stages/4/effects/0"
+          ],
+          "declaredFields": {
+            "三系共同": "施法q≤12时−2、最低2；q>12时原q×5/6，向上取整后查动作表"
+          },
+          "id": "clause-15622692ac97",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "本体",
+          "reading": {
+            "endLine": 23,
+            "sha256": "0e2bb9c996bea380dad0b664cf236a54af03a60d7bc012d8a7af628ff4c55e4e",
+            "startLine": 11
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 13
+            }
+          ],
+          "unresolvedRuleIds": []
+        }
+      ]
+    },
+    "effects": [],
+    "programs": {}
+  },
+  "id": "candidate-901-magic-bundle-ba577210e69dafd5",
+  "identity": {
+    "adoptionStatus": "candidate",
+    "aliases": [],
+    "category": "bundle",
+    "grade": "multi",
+    "name": "法师",
+    "sharedDependencies": [
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "bbf7521e7514bb9c807e6b5bf07fa55016853cf31ccacd69d2f725e54feb3758"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/共用901判定.md",
+        "sha256": "1c5398bf728c5e94bfa2cc1cf037ead08a0dec1e1898278e844b25b643463bbd"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/来源与核算.md",
+        "sha256": "8f17c529f1b5465fceaefc24931869b82e071d4ab8fb3ed561359864cbf98334"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/未决项.md",
+        "sha256": "3ceae5df0f4bd271ea79956004dba56bd8698eea62b7508871ce11a406903375"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/专有机制.md",
+        "sha256": "14a331e47e9d578634f29e2bae74a1501e916fc594cdef41f9e40b0fa8bafe62"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/引用定位.md",
+        "sha256": "699deab37356bb930ab497aa8bc555f756c174a799a9a91b922345ea6f1be0b1"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/通用法术.md",
+        "sha256": "8922768b19c7c65a410498c69cddc5441796a85c7c50b4871786ecff3a4cbaed"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/防护与状态.md",
+        "sha256": "c9d0b1b1dc1f2546f92faa5dda66464c531283095d21990d8004df4c8e641a12"
+      }
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/能力组/施法类型/法师.md",
+        "sha256": "0bdde2fd7effde50790be28a7331ef2df0280604300a55997fa5d547ed0318f7"
+      }
+    ],
+    "tree": "法师"
+  },
+  "implementationGaps": [
+    "本体声明尚需逐机制接入与执行证明；技能树逐条款保留来源定位，尚未完整编码；未验证动作不进入执行白名单。"
+  ],
+  "inputs": [
+    {
+      "id": "ownedResource",
+      "missingPolicy": "block-related-operation",
+      "provider": "saved-state",
+      "requiredFor": [
+        "effects",
+        "actions"
+      ],
+      "type": "versioned-acquisition-record"
+    },
+    {
+      "id": "choices",
+      "missingPolicy": "ask-only-required-choice",
+      "provider": "player",
+      "requiredFor": [
+        "acquisition"
+      ],
+      "type": "declared-selection"
+    },
+    {
+      "id": "sceneFacts",
+      "missingPolicy": "block-related-operation",
+      "provider": "host",
+      "requiredFor": [
+        "actions"
+      ],
+      "type": "sourced-target-and-scene"
+    },
+    {
+      "id": "state:resources.精神魔力.max",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "saved-state",
+      "requiredFor": [
+        "base-mechanisms"
+      ],
+      "type": "number"
+    },
+    {
+      "basis": "主持确认的传奇属性来源记录；不得用901自动成功反推",
+      "id": "context:confirmedLegendary.智力",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "B/奥术力场",
+        "A/三系防护-奥术",
+        "A/三系防护-火焰",
+        "A/三系防护-冰霜"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "仍适用的RE子技能附加成功规则与实际子技能资格；不复制901自动成功",
+      "id": "context:confirmedREExtraSuccesses.神秘",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "B/奥术力场"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+      "id": "context:spell.originalQ",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "S/施法动作缩减"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    }
+  ],
+  "reading": {
+    "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
+    "sha256": "f4a2ac2fbaf2cdc40d21aaef5186d7b800a91344dc04398e6ec9583c6bcbc0a3"
+  },
+  "schemaVersion": "901-resource/1",
+  "unresolvedRules": [],
+  "verification": {
+    "runtimeFullyVerified": false,
+    "scope": "paired-source-and-declarative-base; not full runtime",
+    "sourceChecked": true,
+    "status": "pending"
+  },
+  "version": "2026-10-25.magic.1"
+}

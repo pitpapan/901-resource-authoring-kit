@@ -1,0 +1,4526 @@
+{
+  "actions": [],
+  "clauses": [
+    {
+      "effectStats": [],
+      "heading": "魔导书总纲",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "研读的实际收益（替代原限用XP）",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "D级：+1000",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "C级：+2000",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "B级：+4000",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "A级：+8000",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "S级：+16000",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "SSS级：+32000",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "九S级：+64000",
+      "status": "partial"
+    }
+  ],
+  "definition": {
+    "authoringOnly": {
+      "acquisition": {
+        "autoGrantToT0": false,
+        "requiresActualQualification": true,
+        "requiresAdoptedOffer": true,
+        "resetState": false,
+        "treeEntryGrantsChildren": false,
+        "unverifiedPricesMayNotBeCharged": true
+      },
+      "baseMechanisms": {
+        "constraints": [
+          {
+            "automaticTechniqueGrant": false,
+            "operation": "separateTreeAccessFromTechniqueAcquisition"
+          },
+          {
+            "doesNotGrantAnAdditionalIndependentBook": true,
+            "templateOnly": true
+          },
+          {
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    22,
+                    24
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    18,
+                    18
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "- 魔导书的技能树上的技艺，除魔术甲胄，鬼械神和书魔使外，都是专有法术。"
+                }
+              }
+            ],
+            "techniqueClassification": {
+              "default": "exclusive-spell",
+              "exceptions": [
+                "魔术甲胄",
+                "鬼械神",
+                "书魔使"
+              ]
+            }
+          }
+        ],
+        "implementationGaps": [
+          {
+            "effectIds": [
+              "本阶研读",
+              "书本与取得",
+              "认主复原",
+              "特殊身份",
+              "研读属性兑现",
+              "研读知识兑现",
+              "本阶研读",
+              "研读属性兑现",
+              "研读知识兑现",
+              "本阶研读",
+              "研读属性兑现",
+              "研读知识兑现",
+              "本阶研读",
+              "研读属性兑现",
+              "研读知识兑现",
+              "本阶研读",
+              "研读属性兑现",
+              "研读知识兑现",
+              "本阶研读",
+              "研读属性兑现",
+              "研读知识兑现",
+              "本阶研读",
+              "研读属性兑现",
+              "研读知识兑现"
+            ],
+            "kind": "operation-support-and-acquisition-transaction",
+            "notUnresolvedRule": true,
+            "status": "implementation-needed"
+          }
+        ],
+        "inputBindings": {
+          "classifierMaySelectRegisteredChoicesOnly": true,
+          "contextInputs": [
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "研读属性兑现",
+                  "grade": "A"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedBook.study.A.attributeAlreadyVested",
+              "provider": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "研读知识兑现",
+                  "grade": "A"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedBook.study.A.knowledgeDPAlreadyVested",
+              "provider": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "研读属性兑现",
+                  "grade": "A"
+                },
+                {
+                  "effectId": "研读知识兑现",
+                  "grade": "A"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedBook.study.A.progress",
+              "provider": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "研读属性兑现",
+                  "grade": "B"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedBook.study.B.attributeAlreadyVested",
+              "provider": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "研读知识兑现",
+                  "grade": "B"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedBook.study.B.knowledgeDPAlreadyVested",
+              "provider": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "研读属性兑现",
+                  "grade": "B"
+                },
+                {
+                  "effectId": "研读知识兑现",
+                  "grade": "B"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedBook.study.B.progress",
+              "provider": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "研读属性兑现",
+                  "grade": "C"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedBook.study.C.attributeAlreadyVested",
+              "provider": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "研读知识兑现",
+                  "grade": "C"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedBook.study.C.knowledgeDPAlreadyVested",
+              "provider": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "研读属性兑现",
+                  "grade": "C"
+                },
+                {
+                  "effectId": "研读知识兑现",
+                  "grade": "C"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedBook.study.C.progress",
+              "provider": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "研读属性兑现",
+                  "grade": "D"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedBook.study.D.attributeAlreadyVested",
+              "provider": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "研读知识兑现",
+                  "grade": "D"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedBook.study.D.knowledgeDPAlreadyVested",
+              "provider": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "研读属性兑现",
+                  "grade": "D"
+                },
+                {
+                  "effectId": "研读知识兑现",
+                  "grade": "D"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedBook.study.D.progress",
+              "provider": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "研读属性兑现",
+                  "grade": "S"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedBook.study.S.attributeAlreadyVested",
+              "provider": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "研读知识兑现",
+                  "grade": "S"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedBook.study.S.knowledgeDPAlreadyVested",
+              "provider": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "研读属性兑现",
+                  "grade": "S"
+                },
+                {
+                  "effectId": "研读知识兑现",
+                  "grade": "S"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedBook.study.S.progress",
+              "provider": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "研读属性兑现",
+                  "grade": "SSS"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedBook.study.SSS.attributeAlreadyVested",
+              "provider": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "研读知识兑现",
+                  "grade": "SSS"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedBook.study.SSS.knowledgeDPAlreadyVested",
+              "provider": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "研读属性兑现",
+                  "grade": "SSS"
+                },
+                {
+                  "effectId": "研读知识兑现",
+                  "grade": "SSS"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedBook.study.SSS.progress",
+              "provider": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "研读属性兑现",
+                  "grade": "九S"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedBook.study.九S.attributeAlreadyVested",
+              "provider": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "研读知识兑现",
+                  "grade": "九S"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedBook.study.九S.knowledgeDPAlreadyVested",
+              "provider": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "研读属性兑现",
+                  "grade": "九S"
+                },
+                {
+                  "effectId": "研读知识兑现",
+                  "grade": "九S"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedBook.study.九S.progress",
+              "provider": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            }
+          ],
+          "mustNotInferOwnedStageFromDefinition": true,
+          "stateReads": []
+        },
+        "numericalPolicy": {
+          "actionRatingRounding": "ceil-before-action-table",
+          "defaultRounding": "floor-after-complete-effect",
+          "distanceRounding": "none",
+          "explicitAccumulatedXP": "retain-source-precision",
+          "intermediateRounding": "only-if-explicit",
+          "reading": {
+            "lines": [
+              86,
+              86
+            ],
+            "path": "outputs/施法体系适配-20261024/共用901判定.md",
+            "sha256": "1c5398bf728c5e94bfa2cc1cf037ead08a0dec1e1898278e844b25b643463bbd"
+          },
+          "runtimeStatus": "implementation-needed",
+          "timeRounding": "none",
+          "xpCostRounding": "ceil"
+        },
+        "readingSHA256": "6af2fdd43ca32fc946647f2fa7714321a6a39e5e0be3a1f6ec80977039d8c170",
+        "runtimeFullyVerified": false,
+        "scope": "ability-group-body-only",
+        "stageInheritance": {
+          "dynamicGradeReadsCurrentActuallyAcquiredStage": true,
+          "replacementFamilyUsesHighestAcquiredStageOnly": true,
+          "retainPriorStageBenefits": true
+        },
+        "stages": [
+          {
+            "choices": [],
+            "constraints": [
+              {
+                "gte": [
+                  {
+                    "context": "confirmedBook.study.D.progress"
+                  },
+                  0
+                ]
+              }
+            ],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "本阶研读",
+                "operation": "accumulateStudyProgress",
+                "parameters": {
+                  "completionDays": 100,
+                  "grantsXP": false,
+                  "increment": 2,
+                  "lastTick": "truncate-to-cap",
+                  "maximum": 20,
+                  "onlyOneBookStudiedAtTime": true,
+                  "periodDays": 10,
+                  "separatePerStage": true,
+                  "spendable": false,
+                  "transferable": false
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        25,
+                        30
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        39,
+                        39
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "- 研读：同时只能研读一本书；D阶每完整10天增加2知识进度，上限20，需100天完成。进度不是XP，不能消费或转让；按上表兑现有限修行收益，后续学习花实际XP。此项为用户授权的XP特性替换，不声称X"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "书本与取得",
+                "operation": "bookAcquisitionRequirements",
+                "parameters": {
+                  "exchangeRequiresConfirmedSource": true,
+                  "requiresBasicUnderstanding": true,
+                  "requiresPhysicalBook": true,
+                  "requiresStageLearningPayment": true,
+                  "trainingGrantsXP": false,
+                  "unlinkedBook": {
+                    "grantsAbilities": false,
+                    "ordinary": true,
+                    "originalPoints": 1
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        25,
+                        30
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        13,
+                        13
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "- 须有书本并支付该阶能力组学习价，完成基础理解后才取得对应特性；训练本身不产生XP。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "认主复原",
+                "operation": "attuneAndRestoreBook",
+                "parameters": {
+                  "destroyedRestoreHours": 24,
+                  "familiarCreatureForm": {
+                    "doesNotUseBookHardnessAndHealth": true,
+                    "stillRestoresAfterDestruction": true
+                  },
+                  "hardnessAndHealthRule": "item-grade-and-ability-group-price",
+                  "itemGrade": "acquired-book-grade",
+                  "on": "basic-understanding-complete",
+                  "ownerMayResummon": true,
+                  "ownerSensesRestored": true,
+                  "restoreToMaximumHealth": true
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        25,
+                        30
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        15,
+                        15
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "- 无论如何，当你对魔导书有初步了解后，魔导书就会与你建立连接，它成为一件认主物品；在计算物品等级，硬度和生命值时等于魔导书能力组的等级和价格，即使魔导书被摧毁，也会在一天之内回复到最大生命值，你能感"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "特殊身份",
+                "operation": "conditionalAcquisitionRoute",
+                "parameters": {
+                  "DMaximum": 20,
+                  "automaticallyGrantsIdentity": false,
+                  "grantsDUnderstanding": true,
+                  "grantsXP": false,
+                  "initialDProgress": 10,
+                  "requiresRecordedIdentity": 5
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        25,
+                        30
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        17,
+                        17
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "- 特殊身份5可取得D阶基础理解及D阶进度10/20，并按该进度兑现下列D阶收益；不赠10XP。身份本身须有901取得记录，本批不免费授予。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "研读属性兑现",
+                "operation": "vestStudyBonuses",
+                "parameters": {
+                  "attributes": [
+                    "智力",
+                    "感知"
+                  ],
+                  "bonusCategory": "修行",
+                  "delta": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  1,
+                                  {
+                                    "args": [
+                                      {
+                                        "context": "confirmedBook.study.D.progress"
+                                      },
+                                      20
+                                    ],
+                                    "op": "min"
+                                  }
+                                ],
+                                "op": "mul"
+                              },
+                              20
+                            ],
+                            "op": "div"
+                          }
+                        ],
+                        "op": "floor"
+                      },
+                      {
+                        "context": "confirmedBook.study.D.attributeAlreadyVested"
+                      }
+                    ],
+                    "op": "sub"
+                  },
+                  "doesNotChangeBaseAttributes": true,
+                  "eachStageEntitlement": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              1,
+                              {
+                                "args": [
+                                  {
+                                    "context": "confirmedBook.study.D.progress"
+                                  },
+                                  20
+                                ],
+                                "op": "min"
+                              }
+                            ],
+                            "op": "mul"
+                          },
+                          20
+                        ],
+                        "op": "div"
+                      }
+                    ],
+                    "op": "floor"
+                  },
+                  "excludeAlreadyClaimedLegacyStudyXP": true,
+                  "grantsXP": false,
+                  "requiresAcquiredStage": true
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        25,
+                        30
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        32,
+                        32
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "本阶确认进度为p、完成门槛为M时，实际取得的本阶属性增量各为`floor(A×min(p,M)/M)`，知识DP为`floor(D×min(p,M)/M)`。均为修行加值；神秘知识DP仅用于辨识、解读"
+                    }
+                  },
+                  {
+                    "original": {
+                      "lines": [
+                        25,
+                        30
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        24,
+                        24
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "| D | 1 | 3DP |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "sum-acquired-stages-within-one-book-then-highest-per-attribute-across-books"
+                },
+                "target": "attributes",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "研读知识兑现",
+                "operation": "vestStudyBonuses",
+                "parameters": {
+                  "bonusCategory": "修行",
+                  "delta": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  3,
+                                  {
+                                    "args": [
+                                      {
+                                        "context": "confirmedBook.study.D.progress"
+                                      },
+                                      20
+                                    ],
+                                    "op": "min"
+                                  }
+                                ],
+                                "op": "mul"
+                              },
+                              20
+                            ],
+                            "op": "div"
+                          }
+                        ],
+                        "op": "floor"
+                      },
+                      {
+                        "context": "confirmedBook.study.D.knowledgeDPAlreadyVested"
+                      }
+                    ],
+                    "op": "sub"
+                  },
+                  "exclude": [
+                    "casting-attack",
+                    "defense",
+                    "crafting",
+                    "direct-spell-effect",
+                    "XP-creation"
+                  ],
+                  "excludeAlreadyClaimedLegacyStudyXP": true,
+                  "grantsXP": false,
+                  "requiresAcquiredStage": true,
+                  "scopes": [
+                    "identify-magic-knowledge",
+                    "decode-magic-knowledge",
+                    "research-magic-knowledge"
+                  ],
+                  "stageEntitlement": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              3,
+                              {
+                                "args": [
+                                  {
+                                    "context": "confirmedBook.study.D.progress"
+                                  },
+                                  20
+                                ],
+                                "op": "min"
+                              }
+                            ],
+                            "op": "mul"
+                          },
+                          20
+                        ],
+                        "op": "div"
+                      }
+                    ],
+                    "op": "floor"
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        25,
+                        30
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        32,
+                        32
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "本阶确认进度为p、完成门槛为M时，实际取得的本阶属性增量各为`floor(A×min(p,M)/M)`，知识DP为`floor(D×min(p,M)/M)`。均为修行加值；神秘知识DP仅用于辨识、解读"
+                    }
+                  },
+                  {
+                    "original": {
+                      "lines": [
+                        25,
+                        30
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        24,
+                        24
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "| D | 1 | 3DP |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "sum-acquired-stages-within-one-book-then-highest-across-books"
+                },
+                "target": "skills.神秘.knowledgeDP",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "D",
+            "grants": [
+              {
+                "capacityPolicy": "shared-901-pool-rule",
+                "fillOnAcquisition": false,
+                "kind": "魔力",
+                "selection": "legal-actual-magic-kind-at-acquisition",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        25,
+                        30
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        37,
+                        37
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "- 能量池：魔力"
+                    }
+                  }
+                ],
+                "type": "energy-pool"
+              },
+              {
+                "grade": "D",
+                "source": "魔导书总纲",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        25,
+                        30
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        38,
+                        38
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "- 技能树：D级技能树开启"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "D",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        25,
+                        30
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        38,
+                        38
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "- 技能树：D级技能树开启"
+                    }
+                  }
+                ],
+                "tree": "selected-book",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": null,
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    25,
+                    30
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    39,
+                    39
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "- 研读：同时只能研读一本书；D阶每完整10天增加2知识进度，上限20，需100天完成。进度不是XP，不能消费或转让；按上表兑现有限修行收益，后续学习花实际XP。此项为用户授权的XP特性替换，不声称X"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    25,
+                    30
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    13,
+                    13
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "- 须有书本并支付该阶能力组学习价，完成基础理解后才取得对应特性；训练本身不产生XP。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    25,
+                    30
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    15,
+                    15
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "- 无论如何，当你对魔导书有初步了解后，魔导书就会与你建立连接，它成为一件认主物品；在计算物品等级，硬度和生命值时等于魔导书能力组的等级和价格，即使魔导书被摧毁，也会在一天之内回复到最大生命值，你能感"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    25,
+                    30
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    17,
+                    17
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "- 特殊身份5可取得D阶基础理解及D阶进度10/20，并按该进度兑现下列D阶收益；不赠10XP。身份本身须有901取得记录，本批不免费授予。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    25,
+                    30
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    32,
+                    32
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "本阶确认进度为p、完成门槛为M时，实际取得的本阶属性增量各为`floor(A×min(p,M)/M)`，知识DP为`floor(D×min(p,M)/M)`。均为修行加值；神秘知识DP仅用于辨识、解读"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    25,
+                    30
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    24,
+                    24
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "| D | 1 | 3DP |"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    25,
+                    30
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    37,
+                    37
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "- 能量池：魔力"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    25,
+                    30
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    38,
+                    38
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "- 技能树：D级技能树开启"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [
+              {
+                "gte": [
+                  {
+                    "context": "confirmedBook.study.C.progress"
+                  },
+                  0
+                ]
+              }
+            ],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "本阶研读",
+                "operation": "accumulateStudyProgress",
+                "parameters": {
+                  "completionDays": 170,
+                  "grantsXP": false,
+                  "increment": 3,
+                  "lastTick": "truncate-to-cap",
+                  "maximum": 50,
+                  "onlyOneBookStudiedAtTime": true,
+                  "periodDays": 10,
+                  "separatePerStage": true,
+                  "spendable": false,
+                  "transferable": false
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        31,
+                        34
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        44,
+                        44
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "- C阶研读：每10天+3知识进度，上限50，需17个周期(170天)；末次按上限截断。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "研读属性兑现",
+                "operation": "vestStudyBonuses",
+                "parameters": {
+                  "attributes": [
+                    "智力",
+                    "感知"
+                  ],
+                  "bonusCategory": "修行",
+                  "delta": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  2,
+                                  {
+                                    "args": [
+                                      {
+                                        "context": "confirmedBook.study.C.progress"
+                                      },
+                                      50
+                                    ],
+                                    "op": "min"
+                                  }
+                                ],
+                                "op": "mul"
+                              },
+                              50
+                            ],
+                            "op": "div"
+                          }
+                        ],
+                        "op": "floor"
+                      },
+                      {
+                        "context": "confirmedBook.study.C.attributeAlreadyVested"
+                      }
+                    ],
+                    "op": "sub"
+                  },
+                  "doesNotChangeBaseAttributes": true,
+                  "eachStageEntitlement": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              2,
+                              {
+                                "args": [
+                                  {
+                                    "context": "confirmedBook.study.C.progress"
+                                  },
+                                  50
+                                ],
+                                "op": "min"
+                              }
+                            ],
+                            "op": "mul"
+                          },
+                          50
+                        ],
+                        "op": "div"
+                      }
+                    ],
+                    "op": "floor"
+                  },
+                  "excludeAlreadyClaimedLegacyStudyXP": true,
+                  "grantsXP": false,
+                  "requiresAcquiredStage": true
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        31,
+                        34
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        32,
+                        32
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "本阶确认进度为p、完成门槛为M时，实际取得的本阶属性增量各为`floor(A×min(p,M)/M)`，知识DP为`floor(D×min(p,M)/M)`。均为修行加值；神秘知识DP仅用于辨识、解读"
+                    }
+                  },
+                  {
+                    "original": {
+                      "lines": [
+                        31,
+                        34
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        25,
+                        25
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "| C | 2 | 6DP |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "sum-acquired-stages-within-one-book-then-highest-per-attribute-across-books"
+                },
+                "target": "attributes",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "研读知识兑现",
+                "operation": "vestStudyBonuses",
+                "parameters": {
+                  "bonusCategory": "修行",
+                  "delta": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  6,
+                                  {
+                                    "args": [
+                                      {
+                                        "context": "confirmedBook.study.C.progress"
+                                      },
+                                      50
+                                    ],
+                                    "op": "min"
+                                  }
+                                ],
+                                "op": "mul"
+                              },
+                              50
+                            ],
+                            "op": "div"
+                          }
+                        ],
+                        "op": "floor"
+                      },
+                      {
+                        "context": "confirmedBook.study.C.knowledgeDPAlreadyVested"
+                      }
+                    ],
+                    "op": "sub"
+                  },
+                  "exclude": [
+                    "casting-attack",
+                    "defense",
+                    "crafting",
+                    "direct-spell-effect",
+                    "XP-creation"
+                  ],
+                  "excludeAlreadyClaimedLegacyStudyXP": true,
+                  "grantsXP": false,
+                  "requiresAcquiredStage": true,
+                  "scopes": [
+                    "identify-magic-knowledge",
+                    "decode-magic-knowledge",
+                    "research-magic-knowledge"
+                  ],
+                  "stageEntitlement": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              6,
+                              {
+                                "args": [
+                                  {
+                                    "context": "confirmedBook.study.C.progress"
+                                  },
+                                  50
+                                ],
+                                "op": "min"
+                              }
+                            ],
+                            "op": "mul"
+                          },
+                          50
+                        ],
+                        "op": "div"
+                      }
+                    ],
+                    "op": "floor"
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        31,
+                        34
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        32,
+                        32
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "本阶确认进度为p、完成门槛为M时，实际取得的本阶属性增量各为`floor(A×min(p,M)/M)`，知识DP为`floor(D×min(p,M)/M)`。均为修行加值；神秘知识DP仅用于辨识、解读"
+                    }
+                  },
+                  {
+                    "original": {
+                      "lines": [
+                        31,
+                        34
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        25,
+                        25
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "| C | 2 | 6DP |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "sum-acquired-stages-within-one-book-then-highest-across-books"
+                },
+                "target": "skills.神秘.knowledgeDP",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "C",
+            "grants": [
+              {
+                "grade": "C",
+                "source": "魔导书总纲",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        31,
+                        34
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        43,
+                        43
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "- 技能树：C级技能树开启"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "C",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        31,
+                        34
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        43,
+                        43
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "- 技能树：C级技能树开启"
+                    }
+                  }
+                ],
+                "tree": "selected-book",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "completedStudy": true,
+              "grade": "D",
+              "resource": "魔导书总纲"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    31,
+                    34
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    44,
+                    44
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "- C阶研读：每10天+3知识进度，上限50，需17个周期(170天)；末次按上限截断。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    31,
+                    34
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    32,
+                    32
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "本阶确认进度为p、完成门槛为M时，实际取得的本阶属性增量各为`floor(A×min(p,M)/M)`，知识DP为`floor(D×min(p,M)/M)`。均为修行加值；神秘知识DP仅用于辨识、解读"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    31,
+                    34
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    25,
+                    25
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "| C | 2 | 6DP |"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    31,
+                    34
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    43,
+                    43
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "- 技能树：C级技能树开启"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [
+              {
+                "gte": [
+                  {
+                    "context": "confirmedBook.study.B.progress"
+                  },
+                  0
+                ]
+              }
+            ],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "本阶研读",
+                "operation": "accumulateStudyProgress",
+                "parameters": {
+                  "completionDays": 260,
+                  "grantsXP": false,
+                  "increment": 5,
+                  "lastTick": "truncate-to-cap",
+                  "maximum": 130,
+                  "onlyOneBookStudiedAtTime": true,
+                  "periodDays": 10,
+                  "separatePerStage": true,
+                  "spendable": false,
+                  "transferable": false
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        35,
+                        38
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        48,
+                        48
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "- B阶研读：每10天+5知识进度，上限130，需26个周期(260天)。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "研读属性兑现",
+                "operation": "vestStudyBonuses",
+                "parameters": {
+                  "attributes": [
+                    "智力",
+                    "感知"
+                  ],
+                  "bonusCategory": "修行",
+                  "delta": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  4,
+                                  {
+                                    "args": [
+                                      {
+                                        "context": "confirmedBook.study.B.progress"
+                                      },
+                                      130
+                                    ],
+                                    "op": "min"
+                                  }
+                                ],
+                                "op": "mul"
+                              },
+                              130
+                            ],
+                            "op": "div"
+                          }
+                        ],
+                        "op": "floor"
+                      },
+                      {
+                        "context": "confirmedBook.study.B.attributeAlreadyVested"
+                      }
+                    ],
+                    "op": "sub"
+                  },
+                  "doesNotChangeBaseAttributes": true,
+                  "eachStageEntitlement": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              4,
+                              {
+                                "args": [
+                                  {
+                                    "context": "confirmedBook.study.B.progress"
+                                  },
+                                  130
+                                ],
+                                "op": "min"
+                              }
+                            ],
+                            "op": "mul"
+                          },
+                          130
+                        ],
+                        "op": "div"
+                      }
+                    ],
+                    "op": "floor"
+                  },
+                  "excludeAlreadyClaimedLegacyStudyXP": true,
+                  "grantsXP": false,
+                  "requiresAcquiredStage": true
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        35,
+                        38
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        32,
+                        32
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "本阶确认进度为p、完成门槛为M时，实际取得的本阶属性增量各为`floor(A×min(p,M)/M)`，知识DP为`floor(D×min(p,M)/M)`。均为修行加值；神秘知识DP仅用于辨识、解读"
+                    }
+                  },
+                  {
+                    "original": {
+                      "lines": [
+                        35,
+                        38
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        26,
+                        26
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "| B | 4 | 12DP |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "sum-acquired-stages-within-one-book-then-highest-per-attribute-across-books"
+                },
+                "target": "attributes",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "研读知识兑现",
+                "operation": "vestStudyBonuses",
+                "parameters": {
+                  "bonusCategory": "修行",
+                  "delta": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  12,
+                                  {
+                                    "args": [
+                                      {
+                                        "context": "confirmedBook.study.B.progress"
+                                      },
+                                      130
+                                    ],
+                                    "op": "min"
+                                  }
+                                ],
+                                "op": "mul"
+                              },
+                              130
+                            ],
+                            "op": "div"
+                          }
+                        ],
+                        "op": "floor"
+                      },
+                      {
+                        "context": "confirmedBook.study.B.knowledgeDPAlreadyVested"
+                      }
+                    ],
+                    "op": "sub"
+                  },
+                  "exclude": [
+                    "casting-attack",
+                    "defense",
+                    "crafting",
+                    "direct-spell-effect",
+                    "XP-creation"
+                  ],
+                  "excludeAlreadyClaimedLegacyStudyXP": true,
+                  "grantsXP": false,
+                  "requiresAcquiredStage": true,
+                  "scopes": [
+                    "identify-magic-knowledge",
+                    "decode-magic-knowledge",
+                    "research-magic-knowledge"
+                  ],
+                  "stageEntitlement": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              12,
+                              {
+                                "args": [
+                                  {
+                                    "context": "confirmedBook.study.B.progress"
+                                  },
+                                  130
+                                ],
+                                "op": "min"
+                              }
+                            ],
+                            "op": "mul"
+                          },
+                          130
+                        ],
+                        "op": "div"
+                      }
+                    ],
+                    "op": "floor"
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        35,
+                        38
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        32,
+                        32
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "本阶确认进度为p、完成门槛为M时，实际取得的本阶属性增量各为`floor(A×min(p,M)/M)`，知识DP为`floor(D×min(p,M)/M)`。均为修行加值；神秘知识DP仅用于辨识、解读"
+                    }
+                  },
+                  {
+                    "original": {
+                      "lines": [
+                        35,
+                        38
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        26,
+                        26
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "| B | 4 | 12DP |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "sum-acquired-stages-within-one-book-then-highest-across-books"
+                },
+                "target": "skills.神秘.knowledgeDP",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "B",
+            "grants": [
+              {
+                "grade": "B",
+                "source": "魔导书总纲",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        35,
+                        38
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        47,
+                        47
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "- 技能树：B级技能树开启"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "B",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        35,
+                        38
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        47,
+                        47
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "- 技能树：B级技能树开启"
+                    }
+                  }
+                ],
+                "tree": "selected-book",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "completedStudy": true,
+              "grade": "C",
+              "resource": "魔导书总纲"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    35,
+                    38
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    48,
+                    48
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "- B阶研读：每10天+5知识进度，上限130，需26个周期(260天)。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    35,
+                    38
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    32,
+                    32
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "本阶确认进度为p、完成门槛为M时，实际取得的本阶属性增量各为`floor(A×min(p,M)/M)`，知识DP为`floor(D×min(p,M)/M)`。均为修行加值；神秘知识DP仅用于辨识、解读"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    35,
+                    38
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    26,
+                    26
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "| B | 4 | 12DP |"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    35,
+                    38
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    47,
+                    47
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "- 技能树：B级技能树开启"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [
+              {
+                "gte": [
+                  {
+                    "context": "confirmedBook.study.A.progress"
+                  },
+                  0
+                ]
+              }
+            ],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "本阶研读",
+                "operation": "accumulateStudyProgress",
+                "parameters": {
+                  "completionDays": 390,
+                  "grantsXP": false,
+                  "increment": 9,
+                  "lastTick": "truncate-to-cap",
+                  "maximum": 350,
+                  "onlyOneBookStudiedAtTime": true,
+                  "periodDays": 10,
+                  "separatePerStage": true,
+                  "spendable": false,
+                  "transferable": false
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        39,
+                        42
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        52,
+                        52
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "- A阶研读：每10天+9知识进度，上限350，需39个周期(390天)。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "研读属性兑现",
+                "operation": "vestStudyBonuses",
+                "parameters": {
+                  "attributes": [
+                    "智力",
+                    "感知"
+                  ],
+                  "bonusCategory": "修行",
+                  "delta": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  12,
+                                  {
+                                    "args": [
+                                      {
+                                        "context": "confirmedBook.study.A.progress"
+                                      },
+                                      350
+                                    ],
+                                    "op": "min"
+                                  }
+                                ],
+                                "op": "mul"
+                              },
+                              350
+                            ],
+                            "op": "div"
+                          }
+                        ],
+                        "op": "floor"
+                      },
+                      {
+                        "context": "confirmedBook.study.A.attributeAlreadyVested"
+                      }
+                    ],
+                    "op": "sub"
+                  },
+                  "doesNotChangeBaseAttributes": true,
+                  "eachStageEntitlement": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              12,
+                              {
+                                "args": [
+                                  {
+                                    "context": "confirmedBook.study.A.progress"
+                                  },
+                                  350
+                                ],
+                                "op": "min"
+                              }
+                            ],
+                            "op": "mul"
+                          },
+                          350
+                        ],
+                        "op": "div"
+                      }
+                    ],
+                    "op": "floor"
+                  },
+                  "excludeAlreadyClaimedLegacyStudyXP": true,
+                  "grantsXP": false,
+                  "requiresAcquiredStage": true
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        39,
+                        42
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        32,
+                        32
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "本阶确认进度为p、完成门槛为M时，实际取得的本阶属性增量各为`floor(A×min(p,M)/M)`，知识DP为`floor(D×min(p,M)/M)`。均为修行加值；神秘知识DP仅用于辨识、解读"
+                    }
+                  },
+                  {
+                    "original": {
+                      "lines": [
+                        39,
+                        42
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        27,
+                        27
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "| A | 12 | 24DP |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "sum-acquired-stages-within-one-book-then-highest-per-attribute-across-books"
+                },
+                "target": "attributes",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "研读知识兑现",
+                "operation": "vestStudyBonuses",
+                "parameters": {
+                  "bonusCategory": "修行",
+                  "delta": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  24,
+                                  {
+                                    "args": [
+                                      {
+                                        "context": "confirmedBook.study.A.progress"
+                                      },
+                                      350
+                                    ],
+                                    "op": "min"
+                                  }
+                                ],
+                                "op": "mul"
+                              },
+                              350
+                            ],
+                            "op": "div"
+                          }
+                        ],
+                        "op": "floor"
+                      },
+                      {
+                        "context": "confirmedBook.study.A.knowledgeDPAlreadyVested"
+                      }
+                    ],
+                    "op": "sub"
+                  },
+                  "exclude": [
+                    "casting-attack",
+                    "defense",
+                    "crafting",
+                    "direct-spell-effect",
+                    "XP-creation"
+                  ],
+                  "excludeAlreadyClaimedLegacyStudyXP": true,
+                  "grantsXP": false,
+                  "requiresAcquiredStage": true,
+                  "scopes": [
+                    "identify-magic-knowledge",
+                    "decode-magic-knowledge",
+                    "research-magic-knowledge"
+                  ],
+                  "stageEntitlement": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              24,
+                              {
+                                "args": [
+                                  {
+                                    "context": "confirmedBook.study.A.progress"
+                                  },
+                                  350
+                                ],
+                                "op": "min"
+                              }
+                            ],
+                            "op": "mul"
+                          },
+                          350
+                        ],
+                        "op": "div"
+                      }
+                    ],
+                    "op": "floor"
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        39,
+                        42
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        32,
+                        32
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "本阶确认进度为p、完成门槛为M时，实际取得的本阶属性增量各为`floor(A×min(p,M)/M)`，知识DP为`floor(D×min(p,M)/M)`。均为修行加值；神秘知识DP仅用于辨识、解读"
+                    }
+                  },
+                  {
+                    "original": {
+                      "lines": [
+                        39,
+                        42
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        27,
+                        27
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "| A | 12 | 24DP |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "sum-acquired-stages-within-one-book-then-highest-across-books"
+                },
+                "target": "skills.神秘.knowledgeDP",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "A",
+            "grants": [
+              {
+                "grade": "A",
+                "source": "魔导书总纲",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        39,
+                        42
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        51,
+                        51
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "- 技能树：A级技能树开启"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "A",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        39,
+                        42
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        51,
+                        51
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "- 技能树：A级技能树开启"
+                    }
+                  }
+                ],
+                "tree": "selected-book",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "completedStudy": true,
+              "grade": "B",
+              "resource": "魔导书总纲"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    39,
+                    42
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    52,
+                    52
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "- A阶研读：每10天+9知识进度，上限350，需39个周期(390天)。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    39,
+                    42
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    32,
+                    32
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "本阶确认进度为p、完成门槛为M时，实际取得的本阶属性增量各为`floor(A×min(p,M)/M)`，知识DP为`floor(D×min(p,M)/M)`。均为修行加值；神秘知识DP仅用于辨识、解读"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    39,
+                    42
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    27,
+                    27
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "| A | 12 | 24DP |"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    39,
+                    42
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    51,
+                    51
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "- 技能树：A级技能树开启"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [
+              {
+                "gte": [
+                  {
+                    "context": "confirmedBook.study.S.progress"
+                  },
+                  0
+                ]
+              }
+            ],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "本阶研读",
+                "operation": "accumulateStudyProgress",
+                "parameters": {
+                  "completionDays": 580,
+                  "grantsXP": false,
+                  "increment": 17,
+                  "lastTick": "truncate-to-cap",
+                  "maximum": 970,
+                  "onlyOneBookStudiedAtTime": true,
+                  "periodDays": 10,
+                  "separatePerStage": true,
+                  "spendable": false,
+                  "transferable": false
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        43,
+                        46
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        56,
+                        56
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "- S阶研读：每10天+17知识进度，上限970，需58个周期(580天)。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "研读属性兑现",
+                "operation": "vestStudyBonuses",
+                "parameters": {
+                  "attributes": [
+                    "智力",
+                    "感知"
+                  ],
+                  "bonusCategory": "修行",
+                  "delta": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  24,
+                                  {
+                                    "args": [
+                                      {
+                                        "context": "confirmedBook.study.S.progress"
+                                      },
+                                      970
+                                    ],
+                                    "op": "min"
+                                  }
+                                ],
+                                "op": "mul"
+                              },
+                              970
+                            ],
+                            "op": "div"
+                          }
+                        ],
+                        "op": "floor"
+                      },
+                      {
+                        "context": "confirmedBook.study.S.attributeAlreadyVested"
+                      }
+                    ],
+                    "op": "sub"
+                  },
+                  "doesNotChangeBaseAttributes": true,
+                  "eachStageEntitlement": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              24,
+                              {
+                                "args": [
+                                  {
+                                    "context": "confirmedBook.study.S.progress"
+                                  },
+                                  970
+                                ],
+                                "op": "min"
+                              }
+                            ],
+                            "op": "mul"
+                          },
+                          970
+                        ],
+                        "op": "div"
+                      }
+                    ],
+                    "op": "floor"
+                  },
+                  "excludeAlreadyClaimedLegacyStudyXP": true,
+                  "grantsXP": false,
+                  "requiresAcquiredStage": true
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        43,
+                        46
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        32,
+                        32
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "本阶确认进度为p、完成门槛为M时，实际取得的本阶属性增量各为`floor(A×min(p,M)/M)`，知识DP为`floor(D×min(p,M)/M)`。均为修行加值；神秘知识DP仅用于辨识、解读"
+                    }
+                  },
+                  {
+                    "original": {
+                      "lines": [
+                        43,
+                        46
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        28,
+                        28
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "| S | 24 | 48DP |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "sum-acquired-stages-within-one-book-then-highest-per-attribute-across-books"
+                },
+                "target": "attributes",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "研读知识兑现",
+                "operation": "vestStudyBonuses",
+                "parameters": {
+                  "bonusCategory": "修行",
+                  "delta": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  48,
+                                  {
+                                    "args": [
+                                      {
+                                        "context": "confirmedBook.study.S.progress"
+                                      },
+                                      970
+                                    ],
+                                    "op": "min"
+                                  }
+                                ],
+                                "op": "mul"
+                              },
+                              970
+                            ],
+                            "op": "div"
+                          }
+                        ],
+                        "op": "floor"
+                      },
+                      {
+                        "context": "confirmedBook.study.S.knowledgeDPAlreadyVested"
+                      }
+                    ],
+                    "op": "sub"
+                  },
+                  "exclude": [
+                    "casting-attack",
+                    "defense",
+                    "crafting",
+                    "direct-spell-effect",
+                    "XP-creation"
+                  ],
+                  "excludeAlreadyClaimedLegacyStudyXP": true,
+                  "grantsXP": false,
+                  "requiresAcquiredStage": true,
+                  "scopes": [
+                    "identify-magic-knowledge",
+                    "decode-magic-knowledge",
+                    "research-magic-knowledge"
+                  ],
+                  "stageEntitlement": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              48,
+                              {
+                                "args": [
+                                  {
+                                    "context": "confirmedBook.study.S.progress"
+                                  },
+                                  970
+                                ],
+                                "op": "min"
+                              }
+                            ],
+                            "op": "mul"
+                          },
+                          970
+                        ],
+                        "op": "div"
+                      }
+                    ],
+                    "op": "floor"
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        43,
+                        46
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        32,
+                        32
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "本阶确认进度为p、完成门槛为M时，实际取得的本阶属性增量各为`floor(A×min(p,M)/M)`，知识DP为`floor(D×min(p,M)/M)`。均为修行加值；神秘知识DP仅用于辨识、解读"
+                    }
+                  },
+                  {
+                    "original": {
+                      "lines": [
+                        43,
+                        46
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        28,
+                        28
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "| S | 24 | 48DP |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "sum-acquired-stages-within-one-book-then-highest-across-books"
+                },
+                "target": "skills.神秘.knowledgeDP",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "S",
+            "grants": [
+              {
+                "grade": "S",
+                "source": "魔导书总纲",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        43,
+                        46
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        55,
+                        55
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "- 技能树：S级技能树开启"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "S",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        43,
+                        46
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        55,
+                        55
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "- 技能树：S级技能树开启"
+                    }
+                  }
+                ],
+                "tree": "selected-book",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "completedStudy": true,
+              "grade": "A",
+              "resource": "魔导书总纲"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    43,
+                    46
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    56,
+                    56
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "- S阶研读：每10天+17知识进度，上限970，需58个周期(580天)。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    43,
+                    46
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    32,
+                    32
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "本阶确认进度为p、完成门槛为M时，实际取得的本阶属性增量各为`floor(A×min(p,M)/M)`，知识DP为`floor(D×min(p,M)/M)`。均为修行加值；神秘知识DP仅用于辨识、解读"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    43,
+                    46
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    28,
+                    28
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "| S | 24 | 48DP |"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    43,
+                    46
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    55,
+                    55
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "- 技能树：S级技能树开启"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [
+              {
+                "gte": [
+                  {
+                    "context": "confirmedBook.study.SSS.progress"
+                  },
+                  0
+                ]
+              }
+            ],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "本阶研读",
+                "operation": "accumulateStudyProgress",
+                "parameters": {
+                  "completionDays": 680,
+                  "grantsXP": false,
+                  "increment": 41,
+                  "lastTick": "truncate-to-cap",
+                  "maximum": 2750,
+                  "onlyOneBookStudiedAtTime": true,
+                  "periodDays": 10,
+                  "separatePerStage": true,
+                  "spendable": false,
+                  "transferable": false
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        47,
+                        50
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        60,
+                        60
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "- SSS阶研读：每10天+41知识进度，上限2750，需68个周期(680天)；原文此处误写S，依本段阶位取SSS。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "研读属性兑现",
+                "operation": "vestStudyBonuses",
+                "parameters": {
+                  "attributes": [
+                    "智力",
+                    "感知"
+                  ],
+                  "bonusCategory": "修行",
+                  "delta": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  72,
+                                  {
+                                    "args": [
+                                      {
+                                        "context": "confirmedBook.study.SSS.progress"
+                                      },
+                                      2750
+                                    ],
+                                    "op": "min"
+                                  }
+                                ],
+                                "op": "mul"
+                              },
+                              2750
+                            ],
+                            "op": "div"
+                          }
+                        ],
+                        "op": "floor"
+                      },
+                      {
+                        "context": "confirmedBook.study.SSS.attributeAlreadyVested"
+                      }
+                    ],
+                    "op": "sub"
+                  },
+                  "doesNotChangeBaseAttributes": true,
+                  "eachStageEntitlement": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              72,
+                              {
+                                "args": [
+                                  {
+                                    "context": "confirmedBook.study.SSS.progress"
+                                  },
+                                  2750
+                                ],
+                                "op": "min"
+                              }
+                            ],
+                            "op": "mul"
+                          },
+                          2750
+                        ],
+                        "op": "div"
+                      }
+                    ],
+                    "op": "floor"
+                  },
+                  "excludeAlreadyClaimedLegacyStudyXP": true,
+                  "grantsXP": false,
+                  "requiresAcquiredStage": true
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        47,
+                        50
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        32,
+                        32
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "本阶确认进度为p、完成门槛为M时，实际取得的本阶属性增量各为`floor(A×min(p,M)/M)`，知识DP为`floor(D×min(p,M)/M)`。均为修行加值；神秘知识DP仅用于辨识、解读"
+                    }
+                  },
+                  {
+                    "original": {
+                      "lines": [
+                        47,
+                        50
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        29,
+                        29
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "| SSS | 72 | 144DP |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "sum-acquired-stages-within-one-book-then-highest-per-attribute-across-books"
+                },
+                "target": "attributes",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "研读知识兑现",
+                "operation": "vestStudyBonuses",
+                "parameters": {
+                  "bonusCategory": "修行",
+                  "delta": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  144,
+                                  {
+                                    "args": [
+                                      {
+                                        "context": "confirmedBook.study.SSS.progress"
+                                      },
+                                      2750
+                                    ],
+                                    "op": "min"
+                                  }
+                                ],
+                                "op": "mul"
+                              },
+                              2750
+                            ],
+                            "op": "div"
+                          }
+                        ],
+                        "op": "floor"
+                      },
+                      {
+                        "context": "confirmedBook.study.SSS.knowledgeDPAlreadyVested"
+                      }
+                    ],
+                    "op": "sub"
+                  },
+                  "exclude": [
+                    "casting-attack",
+                    "defense",
+                    "crafting",
+                    "direct-spell-effect",
+                    "XP-creation"
+                  ],
+                  "excludeAlreadyClaimedLegacyStudyXP": true,
+                  "grantsXP": false,
+                  "requiresAcquiredStage": true,
+                  "scopes": [
+                    "identify-magic-knowledge",
+                    "decode-magic-knowledge",
+                    "research-magic-knowledge"
+                  ],
+                  "stageEntitlement": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              144,
+                              {
+                                "args": [
+                                  {
+                                    "context": "confirmedBook.study.SSS.progress"
+                                  },
+                                  2750
+                                ],
+                                "op": "min"
+                              }
+                            ],
+                            "op": "mul"
+                          },
+                          2750
+                        ],
+                        "op": "div"
+                      }
+                    ],
+                    "op": "floor"
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        47,
+                        50
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        32,
+                        32
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "本阶确认进度为p、完成门槛为M时，实际取得的本阶属性增量各为`floor(A×min(p,M)/M)`，知识DP为`floor(D×min(p,M)/M)`。均为修行加值；神秘知识DP仅用于辨识、解读"
+                    }
+                  },
+                  {
+                    "original": {
+                      "lines": [
+                        47,
+                        50
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        29,
+                        29
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "| SSS | 72 | 144DP |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "sum-acquired-stages-within-one-book-then-highest-across-books"
+                },
+                "target": "skills.神秘.knowledgeDP",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "SSS",
+            "grants": [
+              {
+                "grade": "SSS",
+                "source": "魔导书总纲",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        47,
+                        50
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        59,
+                        59
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "- 技能树：SSS级技能树开启"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "SSS",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        47,
+                        50
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        59,
+                        59
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "- 技能树：SSS级技能树开启"
+                    }
+                  }
+                ],
+                "tree": "selected-book",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "completedStudy": true,
+              "grade": "S",
+              "resource": "魔导书总纲"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    47,
+                    50
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    60,
+                    60
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "- SSS阶研读：每10天+41知识进度，上限2750，需68个周期(680天)；原文此处误写S，依本段阶位取SSS。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    47,
+                    50
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    32,
+                    32
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "本阶确认进度为p、完成门槛为M时，实际取得的本阶属性增量各为`floor(A×min(p,M)/M)`，知识DP为`floor(D×min(p,M)/M)`。均为修行加值；神秘知识DP仅用于辨识、解读"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    47,
+                    50
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    29,
+                    29
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "| SSS | 72 | 144DP |"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    47,
+                    50
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    59,
+                    59
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "- 技能树：SSS级技能树开启"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [
+              {
+                "gte": [
+                  {
+                    "context": "confirmedBook.study.九S.progress"
+                  },
+                  0
+                ]
+              }
+            ],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "本阶研读",
+                "operation": "accumulateStudyProgress",
+                "parameters": {
+                  "completionDays": 710,
+                  "grantsXP": false,
+                  "increment": 113,
+                  "lastTick": "truncate-to-cap",
+                  "maximum": 7930,
+                  "onlyOneBookStudiedAtTime": true,
+                  "periodDays": 10,
+                  "separatePerStage": true,
+                  "spendable": false,
+                  "transferable": false
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        51,
+                        54
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        64,
+                        64
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "- 九S阶研读：每10天+113知识进度，上限7930，需71个周期(710天)；原文此处误写S，依本段阶位取九S。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "研读属性兑现",
+                "operation": "vestStudyBonuses",
+                "parameters": {
+                  "attributes": [
+                    "智力",
+                    "感知"
+                  ],
+                  "bonusCategory": "修行",
+                  "delta": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  216,
+                                  {
+                                    "args": [
+                                      {
+                                        "context": "confirmedBook.study.九S.progress"
+                                      },
+                                      7930
+                                    ],
+                                    "op": "min"
+                                  }
+                                ],
+                                "op": "mul"
+                              },
+                              7930
+                            ],
+                            "op": "div"
+                          }
+                        ],
+                        "op": "floor"
+                      },
+                      {
+                        "context": "confirmedBook.study.九S.attributeAlreadyVested"
+                      }
+                    ],
+                    "op": "sub"
+                  },
+                  "doesNotChangeBaseAttributes": true,
+                  "eachStageEntitlement": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              216,
+                              {
+                                "args": [
+                                  {
+                                    "context": "confirmedBook.study.九S.progress"
+                                  },
+                                  7930
+                                ],
+                                "op": "min"
+                              }
+                            ],
+                            "op": "mul"
+                          },
+                          7930
+                        ],
+                        "op": "div"
+                      }
+                    ],
+                    "op": "floor"
+                  },
+                  "excludeAlreadyClaimedLegacyStudyXP": true,
+                  "grantsXP": false,
+                  "requiresAcquiredStage": true
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        51,
+                        54
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        32,
+                        32
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "本阶确认进度为p、完成门槛为M时，实际取得的本阶属性增量各为`floor(A×min(p,M)/M)`，知识DP为`floor(D×min(p,M)/M)`。均为修行加值；神秘知识DP仅用于辨识、解读"
+                    }
+                  },
+                  {
+                    "original": {
+                      "lines": [
+                        51,
+                        54
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        30,
+                        30
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "| 九S | 216 | 432DP |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "sum-acquired-stages-within-one-book-then-highest-per-attribute-across-books"
+                },
+                "target": "attributes",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "研读知识兑现",
+                "operation": "vestStudyBonuses",
+                "parameters": {
+                  "bonusCategory": "修行",
+                  "delta": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  432,
+                                  {
+                                    "args": [
+                                      {
+                                        "context": "confirmedBook.study.九S.progress"
+                                      },
+                                      7930
+                                    ],
+                                    "op": "min"
+                                  }
+                                ],
+                                "op": "mul"
+                              },
+                              7930
+                            ],
+                            "op": "div"
+                          }
+                        ],
+                        "op": "floor"
+                      },
+                      {
+                        "context": "confirmedBook.study.九S.knowledgeDPAlreadyVested"
+                      }
+                    ],
+                    "op": "sub"
+                  },
+                  "exclude": [
+                    "casting-attack",
+                    "defense",
+                    "crafting",
+                    "direct-spell-effect",
+                    "XP-creation"
+                  ],
+                  "excludeAlreadyClaimedLegacyStudyXP": true,
+                  "grantsXP": false,
+                  "requiresAcquiredStage": true,
+                  "scopes": [
+                    "identify-magic-knowledge",
+                    "decode-magic-knowledge",
+                    "research-magic-knowledge"
+                  ],
+                  "stageEntitlement": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              432,
+                              {
+                                "args": [
+                                  {
+                                    "context": "confirmedBook.study.九S.progress"
+                                  },
+                                  7930
+                                ],
+                                "op": "min"
+                              }
+                            ],
+                            "op": "mul"
+                          },
+                          7930
+                        ],
+                        "op": "div"
+                      }
+                    ],
+                    "op": "floor"
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        51,
+                        54
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        32,
+                        32
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "本阶确认进度为p、完成门槛为M时，实际取得的本阶属性增量各为`floor(A×min(p,M)/M)`，知识DP为`floor(D×min(p,M)/M)`。均为修行加值；神秘知识DP仅用于辨识、解读"
+                    }
+                  },
+                  {
+                    "original": {
+                      "lines": [
+                        51,
+                        54
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        30,
+                        30
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "| 九S | 216 | 432DP |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "sum-acquired-stages-within-one-book-then-highest-across-books"
+                },
+                "target": "skills.神秘.knowledgeDP",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "九S",
+            "grants": [
+              {
+                "grade": "九S",
+                "source": "魔导书总纲",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        51,
+                        54
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        63,
+                        63
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "- 技能树：九S级技能树开启"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "九S",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        51,
+                        54
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        63,
+                        63
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "- 技能树：九S级技能树开启"
+                    }
+                  }
+                ],
+                "tree": "selected-book",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "completedStudy": true,
+              "grade": "SSS",
+              "resource": "魔导书总纲"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    51,
+                    54
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    64,
+                    64
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "- 九S阶研读：每10天+113知识进度，上限7930，需71个周期(710天)；原文此处误写S，依本段阶位取九S。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    51,
+                    54
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    32,
+                    32
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "本阶确认进度为p、完成门槛为M时，实际取得的本阶属性增量各为`floor(A×min(p,M)/M)`，知识DP为`floor(D×min(p,M)/M)`。均为修行加值；神秘知识DP仅用于辨识、解读"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    51,
+                    54
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    30,
+                    30
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "| 九S | 216 | 432DP |"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    51,
+                    54
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    63,
+                    63
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "- 技能树：九S级技能树开启"
+                }
+              }
+            ]
+          },
+          {
+            "availability": "source-unavailable/not-offered",
+            "choices": [],
+            "constraints": [
+              {
+                "availability": "source-unavailable/not-offered",
+                "cannotQuoteForAcquisition": true,
+                "grantsNoStudyTreeOrCasterBenefits": true,
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        54,
+                        56
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        66,
+                        66
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "### 二十七S级：+128000"
+                    }
+                  },
+                  {
+                    "original": {
+                      "lines": [
+                        55,
+                        56
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        68,
+                        68
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                      "quote": "### 非卖品"
+                    }
+                  }
+                ]
+              }
+            ],
+            "effects": [],
+            "grade": "二十七S",
+            "grants": [],
+            "purchasable": false,
+            "requiresPriorStage": {
+              "acquired": true,
+              "completedStudy": true,
+              "grade": "九S",
+              "resource": "魔导书总纲"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    55,
+                    56
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md"
+                },
+                "reading": {
+                  "lines": [
+                    66,
+                    66
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+                  "quote": "### 二十七S级：+128000"
+                }
+              }
+            ]
+          }
+        ],
+        "status": "declarative-contract-source",
+        "unresolvedRules": [],
+        "verification": {
+          "deploymentPerformed": false,
+          "runtimeFullyVerified": false,
+          "runtimeTested": false
+        }
+      },
+      "runtimeSlices": [],
+      "sharedRulesLock": "2d4f858c035f847bc05a312a0e7efea245cd0f6795890239754d371a5b75005c",
+      "units": [
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/2",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/3"
+          ],
+          "declaredFields": {},
+          "id": "clause-c2a1b3b4abc8",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "魔导书总纲",
+          "reading": {
+            "endLine": 19,
+            "sha256": "03bbf6dc614386a5b621a955c1aea9e94efbd1591d3626b78b3fc0e3796f2fea",
+            "startLine": 1
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 9
+            },
+            {
+              "kind": "prerequisite",
+              "relativeLine": 13
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 13
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 14
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 15
+            },
+            {
+              "kind": "prerequisite",
+              "relativeLine": 16
+            },
+            {
+              "kind": "exclusion",
+              "relativeLine": 16
+            },
+            {
+              "kind": "prerequisite",
+              "relativeLine": 17
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/4",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/5",
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/2",
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/2",
+            "/definition/authoringOnly/baseMechanisms/stages/3/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/3/effects/2",
+            "/definition/authoringOnly/baseMechanisms/stages/4/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/4/effects/2",
+            "/definition/authoringOnly/baseMechanisms/stages/5/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/5/effects/2",
+            "/definition/authoringOnly/baseMechanisms/stages/6/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/6/effects/2"
+          ],
+          "declaredFields": {},
+          "id": "clause-e89bebc9cfe6",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "研读的实际收益（替代原限用XP）",
+          "reading": {
+            "endLine": 35,
+            "sha256": "f738b0fefd49a02269222d7a7ab77eff72bb0f7adfef07e9c295c23c150ae1be",
+            "startLine": 20
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/0"
+          ],
+          "declaredFields": {},
+          "id": "clause-321cebde784d",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 15,
+                "grade": "D",
+                "legacyPoints": 1000
+              }
+            ]
+          },
+          "name": "D级：+1000",
+          "reading": {
+            "endLine": 41,
+            "sha256": "08f59144eae798303721388db36c490acaf95baec4c6f20758d4f3be663f3577",
+            "startLine": 36
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "exclusion",
+              "relativeLine": 4
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 4
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/0"
+          ],
+          "declaredFields": {},
+          "id": "clause-1595e3165f2a",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 3,
+                "candidateXP": 35,
+                "grade": "C",
+                "legacyPoints": 2000
+              }
+            ]
+          },
+          "name": "C级：+2000",
+          "reading": {
+            "endLine": 45,
+            "sha256": "f35b8aa46344189a51651f6304729550c7a9edf0458f0ebe5c90e646d4ca92c8",
+            "startLine": 42
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/0"
+          ],
+          "declaredFields": {},
+          "id": "clause-901749b7afa6",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 9,
+                "candidateXP": 85,
+                "grade": "B",
+                "legacyPoints": 4000
+              }
+            ]
+          },
+          "name": "B级：+4000",
+          "reading": {
+            "endLine": 49,
+            "sha256": "b407ebb6a17f5dd0fa3819ddd5afa54786d8947c27cac2f580350261ef83aa06",
+            "startLine": 46
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/3/effects/0"
+          ],
+          "declaredFields": {},
+          "id": "clause-3ef62d74c3b3",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 27,
+                "candidateXP": 215,
+                "grade": "A",
+                "legacyPoints": 8000
+              }
+            ]
+          },
+          "name": "A级：+8000",
+          "reading": {
+            "endLine": 53,
+            "sha256": "fd0f86eaaabf3e30e4fff8610dd753fcc6d92fab7593c94bafd7ad890eadb84b",
+            "startLine": 50
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/4/effects/0"
+          ],
+          "declaredFields": {},
+          "id": "clause-a6c22e4e92d3",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 81,
+                "candidateXP": 565,
+                "grade": "S",
+                "legacyPoints": 16000
+              }
+            ]
+          },
+          "name": "S级：+16000",
+          "reading": {
+            "endLine": 57,
+            "sha256": "575f012d72fb75bfed2acf12016b806e1bee5a1fd386d121bc0445f623450b37",
+            "startLine": 54
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/5/effects/0"
+          ],
+          "declaredFields": {},
+          "id": "clause-5b24d83f5c17",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 243,
+                "candidateXP": 1535,
+                "grade": "SSS",
+                "legacyPoints": 32000
+              }
+            ]
+          },
+          "name": "SSS级：+32000",
+          "reading": {
+            "endLine": 61,
+            "sha256": "7012118e920fc82952b9c28a337509419601e29455c9587cacc3280f244894e6",
+            "startLine": 58
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/6/effects/0"
+          ],
+          "declaredFields": {},
+          "id": "clause-a08d477b11c5",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 729,
+                "candidateXP": 4285,
+                "grade": "九S",
+                "legacyPoints": 64000
+              }
+            ]
+          },
+          "name": "九S级：+64000",
+          "reading": {
+            "endLine": 65,
+            "sha256": "b0dd3a6fc3cc269653695768005c9d48aca926cea2df36853678ad8ef5f6016b",
+            "startLine": 62
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        }
+      ]
+    },
+    "effects": [],
+    "programs": {}
+  },
+  "id": "candidate-901-magic-bundle-548c74a4ad67a66c",
+  "identity": {
+    "adoptionStatus": "candidate",
+    "aliases": [],
+    "category": "rule",
+    "grade": "multi",
+    "name": "魔导书总纲",
+    "sharedDependencies": [
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "bbf7521e7514bb9c807e6b5bf07fa55016853cf31ccacd69d2f725e54feb3758"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/共用901判定.md",
+        "sha256": "1c5398bf728c5e94bfa2cc1cf037ead08a0dec1e1898278e844b25b643463bbd"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/来源与核算.md",
+        "sha256": "8f17c529f1b5465fceaefc24931869b82e071d4ab8fb3ed561359864cbf98334"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/未决项.md",
+        "sha256": "3ceae5df0f4bd271ea79956004dba56bd8698eea62b7508871ce11a406903375"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/专有机制.md",
+        "sha256": "14a331e47e9d578634f29e2bae74a1501e916fc594cdef41f9e40b0fa8bafe62"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/引用定位.md",
+        "sha256": "699deab37356bb930ab497aa8bc555f756c174a799a9a91b922345ea6f1be0b1"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/通用法术.md",
+        "sha256": "8922768b19c7c65a410498c69cddc5441796a85c7c50b4871786ecff3a4cbaed"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/防护与状态.md",
+        "sha256": "c9d0b1b1dc1f2546f92faa5dda66464c531283095d21990d8004df4c8e641a12"
+      }
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/能力组/施法类型/魔导书/魔导书总纲.md",
+        "sha256": "4704db6f97dfc2f460869c2e5b620ab9ed44b3296c1326a84bc6bfc658f1beea"
+      }
+    ],
+    "tree": "魔导书总纲"
+  },
+  "implementationGaps": [
+    "本体声明尚需逐机制接入与执行证明；技能树逐条款保留来源定位，尚未完整编码；未验证动作不进入执行白名单。"
+  ],
+  "inputs": [
+    {
+      "id": "ownedResource",
+      "missingPolicy": "block-related-operation",
+      "provider": "saved-state",
+      "requiredFor": [
+        "effects",
+        "actions"
+      ],
+      "type": "versioned-acquisition-record"
+    },
+    {
+      "id": "choices",
+      "missingPolicy": "ask-only-required-choice",
+      "provider": "player",
+      "requiredFor": [
+        "acquisition"
+      ],
+      "type": "declared-selection"
+    },
+    {
+      "id": "sceneFacts",
+      "missingPolicy": "block-related-operation",
+      "provider": "host",
+      "requiredFor": [
+        "actions"
+      ],
+      "type": "sourced-target-and-scene"
+    },
+    {
+      "basis": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+      "id": "context:confirmedBook.study.A.attributeAlreadyVested",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "A/研读属性兑现"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+      "id": "context:confirmedBook.study.A.knowledgeDPAlreadyVested",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "A/研读知识兑现"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+      "id": "context:confirmedBook.study.A.progress",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "A/研读属性兑现",
+        "A/研读知识兑现"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+      "id": "context:confirmedBook.study.B.attributeAlreadyVested",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "B/研读属性兑现"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+      "id": "context:confirmedBook.study.B.knowledgeDPAlreadyVested",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "B/研读知识兑现"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+      "id": "context:confirmedBook.study.B.progress",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "B/研读属性兑现",
+        "B/研读知识兑现"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+      "id": "context:confirmedBook.study.C.attributeAlreadyVested",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "C/研读属性兑现"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+      "id": "context:confirmedBook.study.C.knowledgeDPAlreadyVested",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "C/研读知识兑现"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+      "id": "context:confirmedBook.study.C.progress",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "C/研读属性兑现",
+        "C/研读知识兑现"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+      "id": "context:confirmedBook.study.D.attributeAlreadyVested",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "D/研读属性兑现"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+      "id": "context:confirmedBook.study.D.knowledgeDPAlreadyVested",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "D/研读知识兑现"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+      "id": "context:confirmedBook.study.D.progress",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "D/研读属性兑现",
+        "D/研读知识兑现"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+      "id": "context:confirmedBook.study.S.attributeAlreadyVested",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "S/研读属性兑现"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+      "id": "context:confirmedBook.study.S.knowledgeDPAlreadyVested",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "S/研读知识兑现"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+      "id": "context:confirmedBook.study.S.progress",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "S/研读属性兑现",
+        "S/研读知识兑现"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+      "id": "context:confirmedBook.study.SSS.attributeAlreadyVested",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "SSS/研读属性兑现"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+      "id": "context:confirmedBook.study.SSS.knowledgeDPAlreadyVested",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "SSS/研读知识兑现"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+      "id": "context:confirmedBook.study.SSS.progress",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "SSS/研读属性兑现",
+        "SSS/研读知识兑现"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+      "id": "context:confirmedBook.study.九S.attributeAlreadyVested",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "九S/研读属性兑现"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+      "id": "context:confirmedBook.study.九S.knowledgeDPAlreadyVested",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "九S/研读知识兑现"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "本书真实取得阶位、独立研读进度和已兑现额度的持久记录",
+      "id": "context:confirmedBook.study.九S.progress",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "九S/研读属性兑现",
+        "九S/研读知识兑现"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    }
+  ],
+  "reading": {
+    "path": "outputs/施法体系适配-20261024/阅读版/魔导书总纲.md",
+    "sha256": "6af2fdd43ca32fc946647f2fa7714321a6a39e5e0be3a1f6ec80977039d8c170"
+  },
+  "schemaVersion": "901-resource/1",
+  "unresolvedRules": [],
+  "verification": {
+    "runtimeFullyVerified": false,
+    "scope": "paired-source-and-declarative-base; not full runtime",
+    "sourceChecked": true,
+    "status": "pending"
+  },
+  "version": "2026-10-25.magic.1"
+}

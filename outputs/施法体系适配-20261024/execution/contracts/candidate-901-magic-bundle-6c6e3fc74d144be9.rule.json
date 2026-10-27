@@ -1,0 +1,3175 @@
+{
+  "actions": [
+    {
+      "actionCost": [],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-9f74bd19b719",
+      "id": "candidate-901-magic-bundle-6c6e3fc74d144be9/clause-9f74bd19b719",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "D级",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 6,
+          "relativeLine": 5
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-71bc9a876d2a",
+      "id": "candidate-901-magic-bundle-6c6e3fc74d144be9/clause-71bc9a876d2a",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "C级",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 2,
+          "relativeLine": 4
+        },
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 6,
+          "relativeLine": 5
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-b0f49de860c3",
+      "id": "candidate-901-magic-bundle-6c6e3fc74d144be9/clause-b0f49de860c3",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "B级",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 6,
+          "relativeLine": 4
+        },
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 6,
+          "relativeLine": 5
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-e1ffda9cf4c5",
+      "id": "candidate-901-magic-bundle-6c6e3fc74d144be9/clause-e1ffda9cf4c5",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "A级",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 2,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-afb3fcb5ab52",
+      "id": "candidate-901-magic-bundle-6c6e3fc74d144be9/clause-afb3fcb5ab52",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "火葬式典",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 2,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-eeaf6efc9045",
+      "id": "candidate-901-magic-bundle-6c6e3fc74d144be9/clause-eeaf6efc9045",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "水葬式典",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 2,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-813e74fa6c1c",
+      "id": "candidate-901-magic-bundle-6c6e3fc74d144be9/clause-813e74fa6c1c",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "土葬式典",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 2,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-82073d04be78",
+      "id": "candidate-901-magic-bundle-6c6e3fc74d144be9/clause-82073d04be78",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "风葬式典",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-ed173e135828",
+      "id": "candidate-901-magic-bundle-6c6e3fc74d144be9/clause-ed173e135828",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "第七圣典",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    }
+  ],
+  "clauses": [
+    {
+      "effectStats": [],
+      "heading": "代行者",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "D级",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "黑键",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "C级",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "B级",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "A级",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "式典魔术",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "火葬式典",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "水葬式典",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "土葬式典",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "风葬式典",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "被动",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "黑键刻印",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "被动",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "正式外典",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "黑之銃身",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "第七圣典",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "被动",
+      "status": "pending"
+    }
+  ],
+  "definition": {
+    "authoringOnly": {
+      "acquisition": {
+        "autoGrantToT0": false,
+        "requiresActualQualification": true,
+        "requiresAdoptedOffer": true,
+        "resetState": false,
+        "treeEntryGrantsChildren": false,
+        "unverifiedPricesMayNotBeCharged": true
+      },
+      "baseMechanisms": {
+        "constraints": [
+          {
+            "automaticTechniqueGrant": false,
+            "operation": "separateTreeAccessFromTechniqueAcquisition"
+          }
+        ],
+        "implementationGaps": [
+          {
+            "effectIds": [
+              "属性-敏捷",
+              "属性-感知",
+              "意志豁免修行",
+              "神秘驱魔修行",
+              "信仰导向",
+              "黑键作成",
+              "属性-敏捷",
+              "属性-感知",
+              "属性-意志",
+              "黑键精通",
+              "黑键分投",
+              "铁甲作用",
+              "属性-敏捷",
+              "属性-感知",
+              "属性-意志",
+              "神之手威压",
+              "神之手激励",
+              "属性-敏捷",
+              "属性-感知",
+              "属性-意志",
+              "洗礼咏唱",
+              "圣痕"
+            ],
+            "kind": "operation-support-and-acquisition-transaction",
+            "notUnresolvedRule": true,
+            "status": "implementation-needed"
+          }
+        ],
+        "inputBindings": {
+          "classifierMaySelectRegisteredChoicesOnly": true,
+          "contextInputs": [
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "神之手威压",
+                  "grade": "B"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "acquiredGroupGradeValue",
+              "provider": "当前人物本能力组真实已取得阶位与采用/来源记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "铁甲作用",
+                  "grade": "C"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "attack.actualDamageSuccesses",
+              "provider": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "铁甲作用",
+                  "grade": "C"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "attack.originalQ",
+              "provider": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "铁甲作用",
+                  "grade": "C"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "blackKeysSameTarget",
+              "provider": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "神之手激励",
+                  "grade": "B"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "check.successes",
+              "provider": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "圣痕",
+                  "grade": "A"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedConceptArmamentCount",
+              "provider": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "神之手激励",
+                  "grade": "B"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedLegendary.意志",
+              "provider": "主持确认的传奇属性来源记录；不得用901自动成功反推",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "神之手激励",
+                  "grade": "B"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedLegendary.感知",
+              "provider": "主持确认的传奇属性来源记录；不得用901自动成功反推",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "洗礼咏唱",
+                  "grade": "A"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "opposed.casterWinningMargin",
+              "provider": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "神之手威压",
+                  "grade": "B"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "opposed.failureMargin",
+              "provider": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "神之手威压",
+                  "grade": "B"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "target.darkTier",
+              "provider": "主持登记并附来源的实际目标/自身规则事实，禁止由模型凭叙事估造",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "黑键作成",
+                  "grade": "D"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "weapon.damageComponent",
+              "provider": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            }
+          ],
+          "mustNotInferOwnedStageFromDefinition": true,
+          "stateReads": [
+            "attributes.感知",
+            "attributes.风度"
+          ]
+        },
+        "numericalPolicy": {
+          "actionRatingRounding": "ceil-before-action-table",
+          "defaultRounding": "floor-after-complete-effect",
+          "distanceRounding": "none",
+          "explicitAccumulatedXP": "retain-source-precision",
+          "intermediateRounding": "only-if-explicit",
+          "reading": {
+            "lines": [
+              86,
+              86
+            ],
+            "path": "outputs/施法体系适配-20261024/共用901判定.md",
+            "sha256": "1c5398bf728c5e94bfa2cc1cf037ead08a0dec1e1898278e844b25b643463bbd"
+          },
+          "runtimeStatus": "implementation-needed",
+          "timeRounding": "none",
+          "xpCostRounding": "ceil"
+        },
+        "readingSHA256": "045c910d31268f38b7ea158036a884afe800859284f2caa400901eb934964e00",
+        "runtimeFullyVerified": false,
+        "scope": "ability-group-body-only",
+        "stageInheritance": {
+          "dynamicGradeReadsCurrentActuallyAcquiredStage": true,
+          "replacementFamilyUsesHighestAcquiredStageOnly": true,
+          "retainPriorStageBenefits": true
+        },
+        "stages": [
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "属性-敏捷",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "bonusCategory": "修行",
+                  "value": 1
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        28,
+                        40
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        14,
+                        14
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- D阶修行属性增量：敏捷+1、感知+1。另获得意志豁免+6修行DP、神秘技能中辨识与执行驱魔法术的检定+3修行DP。两项DP不授法术或专业资格；与其他来源同类加值取高。本批以这两项替代原决心/沉着属"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "属性-敏捷",
+                  "mode": "add-increment"
+                },
+                "target": "attributes.敏捷",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "属性-感知",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "bonusCategory": "修行",
+                  "value": 1
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        28,
+                        40
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        14,
+                        14
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- D阶修行属性增量：敏捷+1、感知+1。另获得意志豁免+6修行DP、神秘技能中辨识与执行驱魔法术的检定+3修行DP。两项DP不授法术或专业资格；与其他来源同类加值取高。本批以这两项替代原决心/沉着属"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "属性-感知",
+                  "mode": "add-increment"
+                },
+                "target": "attributes.感知",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "意志豁免修行",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "bonusCategory": "修行",
+                  "value": 6
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        28,
+                        40
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        14,
+                        14
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- D阶修行属性增量：敏捷+1、感知+1。另获得意志豁免+6修行DP、神秘技能中辨识与执行驱魔法术的检定+3修行DP。两项DP不授法术或专业资格；与其他来源同类加值取高。本批以这两项替代原决心/沉着属"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "意志豁免修行",
+                  "mode": "highest-of-same-category"
+                },
+                "target": "saves.will.DP",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [
+                  {
+                    "taskAny": [
+                      "identify-exorcism-spell",
+                      "perform-exorcism-spell"
+                    ]
+                  },
+                  {
+                    "doesNotGrantSpellOrSpecialty": true
+                  }
+                ],
+                "id": "神秘驱魔修行",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "bonusCategory": "修行",
+                  "value": 3
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        28,
+                        40
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        14,
+                        14
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- D阶修行属性增量：敏捷+1、感知+1。另获得意志豁免+6修行DP、神秘技能中辨识与执行驱魔法术的检定+3修行DP。两项DP不授法术或专业资格；与其他来源同类加值取高。本批以这两项替代原决心/沉着属"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "神秘驱魔修行",
+                  "mode": "highest-of-same-category"
+                },
+                "target": "skills.神秘.checkDP",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "信仰导向",
+                "operation": "applyFaithBinding",
+                "parameters": {
+                  "deity": "天主教"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        28,
+                        40
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        17,
+                        17
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- 信仰导向：代行者视为天主教信仰导向能力"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "黑键作成",
+                "operation": "createTemporaryWeapon",
+                "parameters": {
+                  "action": "free",
+                  "cost": {
+                    "item": {
+                      "id": "黑键特制剑柄",
+                      "originalPoints": 10
+                    },
+                    "魔力": 1
+                  },
+                  "duration": "scene",
+                  "weapon": {
+                    "armorPiercing": 3,
+                    "categories": [
+                      "剑",
+                      "刺突剑"
+                    ],
+                    "damage": 4,
+                    "damageGrade": "L",
+                    "rangeUnitMeters": 30,
+                    "size": 1,
+                    "tags": [
+                      "魔法",
+                      "神圣",
+                      "正常攻击灵体",
+                      "轻投掷武器"
+                    ]
+                  },
+                  "wounds": {
+                    "amount": {
+                      "context": "weapon.damageComponent"
+                    },
+                    "amountPolicy": "weapon-damage-component",
+                    "fastHealingOrRegenerationCostMultiplier": 2
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        28,
+                        40
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        18,
+                        18
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- 以一个自由动作，消耗1点魔力，以及一个10分的黑键特制剑柄，你以纯粹的魔力凝聚成黑键的剑身，黑键至多持续1场景。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "D",
+            "grants": [
+              {
+                "capacityPolicy": "shared-901-pool-rule",
+                "fillOnAcquisition": false,
+                "kind": "魔力",
+                "selection": "legal-actual-magic-kind-at-acquisition",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        28,
+                        40
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        15,
+                        15
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- 能量池：魔力"
+                    }
+                  }
+                ],
+                "type": "energy-pool"
+              },
+              {
+                "grade": "D",
+                "source": "代行者",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        28,
+                        40
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        16,
+                        16
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- 技能树：D级施法职能与部分技能树开启"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "D",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        28,
+                        40
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        16,
+                        16
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- 技能树：D级施法职能与部分技能树开启"
+                    }
+                  }
+                ],
+                "tree": "代行者",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": null,
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    28,
+                    40
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                },
+                "reading": {
+                  "lines": [
+                    14,
+                    14
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                  "quote": "- D阶修行属性增量：敏捷+1、感知+1。另获得意志豁免+6修行DP、神秘技能中辨识与执行驱魔法术的检定+3修行DP。两项DP不授法术或专业资格；与其他来源同类加值取高。本批以这两项替代原决心/沉着属"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    28,
+                    40
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                },
+                "reading": {
+                  "lines": [
+                    17,
+                    17
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                  "quote": "- 信仰导向：代行者视为天主教信仰导向能力"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    28,
+                    40
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                },
+                "reading": {
+                  "lines": [
+                    18,
+                    18
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                  "quote": "- 以一个自由动作，消耗1点魔力，以及一个10分的黑键特制剑柄，你以纯粹的魔力凝聚成黑键的剑身，黑键至多持续1场景。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    28,
+                    40
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                },
+                "reading": {
+                  "lines": [
+                    15,
+                    15
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                  "quote": "- 能量池：魔力"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    28,
+                    40
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                },
+                "reading": {
+                  "lines": [
+                    16,
+                    16
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                  "quote": "- 技能树：D级施法职能与部分技能树开启"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "属性-敏捷",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "bonusCategory": "修行",
+                  "value": 1
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        41,
+                        47
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        27,
+                        27
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- 修行属性增量：敏捷+1、感知+1、意志+1；本阶2C属性预算。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "属性-敏捷",
+                  "mode": "add-increment"
+                },
+                "target": "attributes.敏捷",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "属性-感知",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "bonusCategory": "修行",
+                  "value": 1
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        41,
+                        47
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        27,
+                        27
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- 修行属性增量：敏捷+1、感知+1、意志+1；本阶2C属性预算。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "属性-感知",
+                  "mode": "add-increment"
+                },
+                "target": "attributes.感知",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "属性-意志",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "bonusCategory": "修行",
+                  "value": 1
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        41,
+                        47
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        27,
+                        27
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- 修行属性增量：敏捷+1、感知+1、意志+1；本阶2C属性预算。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "属性-意志",
+                  "mode": "add-increment"
+                },
+                "target": "attributes.意志",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "黑键精通",
+                "operation": "combineWeapons",
+                "parameters": {
+                  "maximumPerHand": 3,
+                  "perExtra": {
+                    "armorPiercing": 2,
+                    "weaponDamage": 1
+                  },
+                  "requiresWeapon": "黑键",
+                  "tripleStats": {
+                    "armorPiercing": 7,
+                    "weaponDamage": 6
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        41,
+                        47
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        29,
+                        29
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- 黑键精通：你使用黑键的技艺更加娴熟了，当你使用黑键作为武器作攻击时，可在一只手中同时使用至多三把黑键，可将这些黑键合并视为同一武器，每把额外黑键增加1点武器伤害和2点破甲，因为使用三把时黑键的武器"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "黑键分投",
+                "operation": "multiTargetWeaponAttack",
+                "parameters": {
+                  "action": {
+                    "kind": "standard",
+                    "q": 6
+                  },
+                  "distinctTargets": 3,
+                  "inheritPreviouslySharedEnchantments": true,
+                  "weaponCount": 3
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        41,
+                        47
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        30,
+                        30
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- 以一个标准动作[q=6]，可将三把黑键掷向三个不同的目标，视为同时攻击三个不同的目标若之前自身某些附魔中将三把黑键视为同一武器处理，则此时这三把黑键视为均带有这些附魔效果。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "铁甲作用",
+                "operation": "bullRushOnWeaponHit",
+                "parameters": {
+                  "actionTransform": {
+                    "adjustedQ": {
+                      "args": [
+                        {
+                          "context": "attack.originalQ"
+                        },
+                        1
+                      ],
+                      "op": "add"
+                    },
+                    "mapping": "901-action-table",
+                    "notIndependentSwift": true,
+                    "originalQ": {
+                      "context": "attack.originalQ"
+                    }
+                  },
+                  "blockedDistanceDamage": {
+                    "grade": "B",
+                    "perMeter": 1,
+                    "type": "物理"
+                  },
+                  "requiresWeapon": "黑键",
+                  "successes": {
+                    "args": [
+                      {
+                        "context": "attack.actualDamageSuccesses"
+                      },
+                      {
+                        "args": [
+                          0,
+                          {
+                            "args": [
+                              {
+                                "context": "blackKeysSameTarget"
+                              },
+                              1
+                            ],
+                            "op": "sub"
+                          }
+                        ],
+                        "op": "max"
+                      }
+                    ],
+                    "op": "add"
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        41,
+                        47
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        31,
+                        31
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- 铁甲作用：投掷黑键时，先将该次投掷原动作标值q增加1，再按共用表支付动作（标准投掷q6→q7，实际占标准＋迅捷）；命中后以实际伤害成功数作冲撞；三把同投一目标时，每多1把冲撞成功数+1。不能退后的"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "C",
+            "grants": [
+              {
+                "grade": "C",
+                "source": "代行者",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        41,
+                        47
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        28,
+                        28
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- 技能树：C级施法职能与部分技能树开启"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "C",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        41,
+                        47
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        28,
+                        28
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- 技能树：C级施法职能与部分技能树开启"
+                    }
+                  }
+                ],
+                "tree": "代行者",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "D",
+              "resource": "代行者"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    41,
+                    47
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                },
+                "reading": {
+                  "lines": [
+                    27,
+                    27
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                  "quote": "- 修行属性增量：敏捷+1、感知+1、意志+1；本阶2C属性预算。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    41,
+                    47
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                },
+                "reading": {
+                  "lines": [
+                    29,
+                    29
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                  "quote": "- 黑键精通：你使用黑键的技艺更加娴熟了，当你使用黑键作为武器作攻击时，可在一只手中同时使用至多三把黑键，可将这些黑键合并视为同一武器，每把额外黑键增加1点武器伤害和2点破甲，因为使用三把时黑键的武器"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    41,
+                    47
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                },
+                "reading": {
+                  "lines": [
+                    30,
+                    30
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                  "quote": "- 以一个标准动作[q=6]，可将三把黑键掷向三个不同的目标，视为同时攻击三个不同的目标若之前自身某些附魔中将三把黑键视为同一武器处理，则此时这三把黑键视为均带有这些附魔效果。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    41,
+                    47
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                },
+                "reading": {
+                  "lines": [
+                    31,
+                    31
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                  "quote": "- 铁甲作用：投掷黑键时，先将该次投掷原动作标值q增加1，再按共用表支付动作（标准投掷q6→q7，实际占标准＋迅捷）；命中后以实际伤害成功数作冲撞；三把同投一目标时，每多1把冲撞成功数+1。不能退后的"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    41,
+                    47
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                },
+                "reading": {
+                  "lines": [
+                    28,
+                    28
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                  "quote": "- 技能树：C级施法职能与部分技能树开启"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "属性-敏捷",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "bonusCategory": "修行",
+                  "value": 3
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        48,
+                        53
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        34,
+                        34
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- 修行属性增量：敏捷+3、感知+3、意志+3；本阶2B属性预算。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "属性-敏捷",
+                  "mode": "add-increment"
+                },
+                "target": "attributes.敏捷",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "属性-感知",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "bonusCategory": "修行",
+                  "value": 3
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        48,
+                        53
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        34,
+                        34
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- 修行属性增量：敏捷+3、感知+3、意志+3；本阶2B属性预算。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "属性-感知",
+                  "mode": "add-increment"
+                },
+                "target": "attributes.感知",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "属性-意志",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "bonusCategory": "修行",
+                  "value": 3
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        48,
+                        53
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        34,
+                        34
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- 修行属性增量：敏捷+3、感知+3、意志+3；本阶2B属性预算。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "属性-意志",
+                  "mode": "add-increment"
+                },
+                "target": "attributes.意志",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "神之手威压",
+                "operation": "opposedWillStatusAura",
+                "parameters": {
+                  "action": {
+                    "kind": "swift",
+                    "q": 2
+                  },
+                  "cannotRemoveInsideRange": true,
+                  "check": "will",
+                  "cooldown": {
+                    "rounds": 1,
+                    "scope": "per-target"
+                  },
+                  "cost": {
+                    "意志": 5
+                  },
+                  "darkTargetSavePenalty": {
+                    "branches": [
+                      {
+                        "value": {
+                          "args": [
+                            5,
+                            {
+                              "context": "target.darkTier"
+                            }
+                          ],
+                          "op": "mul"
+                        },
+                        "when": {
+                          "all": [
+                            {
+                              "targetIsDarkCreature": true
+                            },
+                            {
+                              "lt": [
+                                {
+                                  "context": "target.darkTier"
+                                },
+                                {
+                                  "context": "acquiredGroupGradeValue"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "otherwise": 0
+                  },
+                  "endOnLeave": true,
+                  "neverSevere": true,
+                  "oncePerTarget": true,
+                  "points": {
+                    "context": "opposed.failureMargin"
+                  },
+                  "rangeMeters": {
+                    "args": [
+                      {
+                        "state": "attributes.风度"
+                      },
+                      10
+                    ],
+                    "op": "mul"
+                  },
+                  "reentryDoesNotReapply": true,
+                  "requiresTargetSeesCaster": true,
+                  "save": "will",
+                  "status": "精神束缚"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        48,
+                        53
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        36,
+                        36
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- 神之手：代行者可以其威严向对手施展精神上的威压。这是影响心灵的效果，以一个迅捷动作[q=2]，消耗5点意志点，对每目标具有1轮冷却时间，代行者可对风度*10米内能看到代行者的目标发起意志判定，目标"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "神之手激励",
+                "operation": "removeMindStatusAndTemporaryHealth",
+                "parameters": {
+                  "action": {
+                    "kind": "standard",
+                    "q": 6
+                  },
+                  "check": {
+                    "attributes": [
+                      "感知",
+                      "意志"
+                    ]
+                  },
+                  "cooldownRounds": 1,
+                  "cost": {
+                    "魔力": 5
+                  },
+                  "durationMaximum": "scene",
+                  "removePoints": {
+                    "context": "check.successes"
+                  },
+                  "temporaryHealth": {
+                    "args": [
+                      {
+                        "context": "confirmedLegendary.感知"
+                      },
+                      {
+                        "context": "confirmedLegendary.意志"
+                      }
+                    ],
+                    "op": "add"
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        48,
+                        53
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        37,
+                        37
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- 你也可反其道行之，借这种威压感引发视线范围内一个目标激励性自我心理暗示。以一个标准动作[q=6]消耗5点魔力值，冷却时间1轮，并作一次感知+意志判定，将目标所受的所有来自影响心灵效果的不良状态点数"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "one-visible-creature-including-self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "B",
+            "grants": [
+              {
+                "grade": "B",
+                "source": "代行者",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        48,
+                        53
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        35,
+                        35
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- 技能树：B级施法职能与部分技能树开启"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "B",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        48,
+                        53
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        35,
+                        35
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- 技能树：B级施法职能与部分技能树开启"
+                    }
+                  }
+                ],
+                "tree": "代行者",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "C",
+              "resource": "代行者"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    48,
+                    53
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                },
+                "reading": {
+                  "lines": [
+                    34,
+                    34
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                  "quote": "- 修行属性增量：敏捷+3、感知+3、意志+3；本阶2B属性预算。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    48,
+                    53
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                },
+                "reading": {
+                  "lines": [
+                    36,
+                    36
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                  "quote": "- 神之手：代行者可以其威严向对手施展精神上的威压。这是影响心灵的效果，以一个迅捷动作[q=2]，消耗5点意志点，对每目标具有1轮冷却时间，代行者可对风度*10米内能看到代行者的目标发起意志判定，目标"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    48,
+                    53
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                },
+                "reading": {
+                  "lines": [
+                    37,
+                    37
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                  "quote": "- 你也可反其道行之，借这种威压感引发视线范围内一个目标激励性自我心理暗示。以一个标准动作[q=6]消耗5点魔力值，冷却时间1轮，并作一次感知+意志判定，将目标所受的所有来自影响心灵效果的不良状态点数"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    48,
+                    53
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                },
+                "reading": {
+                  "lines": [
+                    35,
+                    35
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                  "quote": "- 技能树：B级施法职能与部分技能树开启"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "属性-敏捷",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "bonusCategory": "修行",
+                  "value": 9
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        54,
+                        63
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        40,
+                        40
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- 修行属性增量：敏捷+9、感知+9、意志+9；本阶2A属性预算。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "属性-敏捷",
+                  "mode": "add-increment"
+                },
+                "target": "attributes.敏捷",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "属性-感知",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "bonusCategory": "修行",
+                  "value": 9
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        54,
+                        63
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        40,
+                        40
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- 修行属性增量：敏捷+9、感知+9、意志+9；本阶2A属性预算。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "属性-感知",
+                  "mode": "add-increment"
+                },
+                "target": "attributes.感知",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "属性-意志",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "bonusCategory": "修行",
+                  "value": 9
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        54,
+                        63
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        40,
+                        40
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- 修行属性增量：敏捷+9、感知+9、意志+9；本阶2A属性预算。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "属性-意志",
+                  "mode": "add-increment"
+                },
+                "target": "attributes.意志",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "洗礼咏唱",
+                "operation": "banishOrInflictBinding",
+                "parameters": {
+                  "action": {
+                    "kind": "standard",
+                    "q": 6
+                  },
+                  "automaticVanishIf": {
+                    "anyAttributeBelow": {
+                      "感知": 6,
+                      "风度": 6
+                    }
+                  },
+                  "cost": {
+                    "魔力": 7
+                  },
+                  "invalidTargetWastesCost": true,
+                  "mayAttachToBasicAttack": {
+                    "additionalQ": 6,
+                    "payEnergyCost": true
+                  },
+                  "otherwise": {
+                    "opposed": "will",
+                    "points": {
+                      "context": "opposed.casterWinningMargin"
+                    },
+                    "saveAllowed": false,
+                    "severeConsequence": "vanish",
+                    "stackable": true,
+                    "status": "精神束缚"
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        54,
+                        63
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        42,
+                        42
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- 洗礼咏唱：现在你已经掌握了教会最大最强的对灵魔术——洗礼咏唱。洗礼咏唱针对灵体，不死生物和黑暗生物有着极大的杀伤力，但对其他生物没有任何作用。以一个标准动作[q=6]支付7点魔力，选择视线范围内一"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "one-visible-spirit-undead-or-dark-creature",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "圣痕",
+                "operation": "allocateTemporaryAttributeBonus",
+                "parameters": {
+                  "action": "free",
+                  "bonusCategory": "增强",
+                  "costPerPoint": {
+                    "魔力": 1
+                  },
+                  "durationRounds": {
+                    "args": [
+                      1,
+                      {
+                        "context": "confirmedConceptArmamentCount"
+                      }
+                    ],
+                    "op": "add"
+                  },
+                  "eligibleAttributes": "physiological",
+                  "perAttributeMaximum": {
+                    "args": [
+                      {
+                        "state": "attributes.感知"
+                      },
+                      6
+                    ],
+                    "op": "div"
+                  },
+                  "totalMaximum": {
+                    "args": [
+                      {
+                        "state": "attributes.感知"
+                      },
+                      2
+                    ],
+                    "op": "div"
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        54,
+                        63
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        44,
+                        44
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- 圣痕：自身身上现在刻上了特殊的圣痕，这种圣痕是为接受圣典所做的准备；可充入魔力来强化生理能力。以一个自由动作充入一定数量的魔力，每一点可为一项生理属性提供一点增强加值，充入魔力上限是自身感知值的一"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "A",
+            "grants": [
+              {
+                "grade": "A",
+                "source": "代行者",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        54,
+                        63
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        41,
+                        41
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- 技能树：A级施法职能与部分技能树开启"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "A",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        54,
+                        63
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        41,
+                        41
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                      "quote": "- 技能树：A级施法职能与部分技能树开启"
+                    }
+                  }
+                ],
+                "tree": "代行者",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "B",
+              "resource": "代行者"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    54,
+                    63
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                },
+                "reading": {
+                  "lines": [
+                    40,
+                    40
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                  "quote": "- 修行属性增量：敏捷+9、感知+9、意志+9；本阶2A属性预算。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    54,
+                    63
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                },
+                "reading": {
+                  "lines": [
+                    42,
+                    42
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                  "quote": "- 洗礼咏唱：现在你已经掌握了教会最大最强的对灵魔术——洗礼咏唱。洗礼咏唱针对灵体，不死生物和黑暗生物有着极大的杀伤力，但对其他生物没有任何作用。以一个标准动作[q=6]支付7点魔力，选择视线范围内一"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    54,
+                    63
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                },
+                "reading": {
+                  "lines": [
+                    44,
+                    44
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                  "quote": "- 圣痕：自身身上现在刻上了特殊的圣痕，这种圣痕是为接受圣典所做的准备；可充入魔力来强化生理能力。以一个自由动作充入一定数量的魔力，每一点可为一项生理属性提供一点增强加值，充入魔力上限是自身感知值的一"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    54,
+                    63
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/代行者.md"
+                },
+                "reading": {
+                  "lines": [
+                    41,
+                    41
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+                  "quote": "- 技能树：A级施法职能与部分技能树开启"
+                }
+              }
+            ]
+          }
+        ],
+        "status": "declarative-contract-source",
+        "unresolvedRules": [],
+        "verification": {
+          "deploymentPerformed": false,
+          "runtimeFullyVerified": false,
+          "runtimeTested": false
+        }
+      },
+      "runtimeSlices": [],
+      "sharedRulesLock": "2d4f858c035f847bc05a312a0e7efea245cd0f6795890239754d371a5b75005c",
+      "units": [
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-fd8b253f9004",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "代行者",
+          "reading": {
+            "endLine": 12,
+            "sha256": "2d53390a478439432686058a7e5d75d3f227e00d24e91216f4016a2851f4d56f",
+            "startLine": 1
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 9
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/2",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/3",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/4",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/5"
+          ],
+          "declaredFields": {},
+          "id": "clause-9f74bd19b719",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "D级",
+          "reading": {
+            "endLine": 19,
+            "sha256": "107e6d98491f300d050f5cd876e187acfb699f6574c797d5455a77bd3ee76bac",
+            "startLine": 13
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "exclusion",
+              "relativeLine": 2
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 6
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 6
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-34a5e7e78fe5",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "黑键",
+          "reading": {
+            "endLine": 25,
+            "sha256": "69306785b1615420ca802282b928c1352a75901c174772b02bd3139e8cf97f1d",
+            "startLine": 20
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "cost",
+              "relativeLine": 5
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 6,
+              "relativeLine": 5
+            }
+          ],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/2",
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/3",
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/4",
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/5"
+          ],
+          "declaredFields": {},
+          "id": "clause-71bc9a876d2a",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "C级",
+          "reading": {
+            "endLine": 32,
+            "sha256": "3c41080b3787ff30b0ab20a7d6304ece161c4ca97664fed0224a15261ca0398d",
+            "startLine": 26
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "trigger",
+              "relativeLine": 4
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 5
+            },
+            {
+              "kind": "exclusion",
+              "relativeLine": 6
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 6
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 2,
+              "relativeLine": 4
+            },
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 6,
+              "relativeLine": 5
+            }
+          ],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/2",
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/3",
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/4"
+          ],
+          "declaredFields": {},
+          "id": "clause-b0f49de860c3",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "B级",
+          "reading": {
+            "endLine": 38,
+            "sha256": "3a85f0acac4a325e7d596c4404215c90f152fef0c99c39a2648a81cb29b3d55f",
+            "startLine": 33
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "cost",
+              "relativeLine": 4
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 4
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 4
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 5
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 6,
+              "relativeLine": 4
+            },
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 6,
+              "relativeLine": 5
+            }
+          ],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/3/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/3/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/3/effects/2",
+            "/definition/authoringOnly/baseMechanisms/stages/3/effects/3",
+            "/definition/authoringOnly/baseMechanisms/stages/3/effects/4"
+          ],
+          "declaredFields": {},
+          "id": "clause-e1ffda9cf4c5",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "A级",
+          "reading": {
+            "endLine": 45,
+            "sha256": "dccd11d5973f7910c49f19f959756de0027a2886c968592a38bb0240cdca69a4",
+            "startLine": 39
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "cost",
+              "relativeLine": 4
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 4
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 5
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 6
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 6
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-67b9ec042fdd",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "式典魔术",
+          "reading": {
+            "endLine": 49,
+            "sha256": "e4aa8a9e6d53270e50018e6b11f0280e55cce07bc59bb568e75a6edc5f0a33f6",
+            "startLine": 46
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "cost",
+              "relativeLine": 3
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 2,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "P": "3",
+            "成分": "姿势",
+            "持续": "1轮",
+            "施展时间": "动作标值2",
+            "消耗": "1点",
+            "范围": "持用的所有黑键"
+          },
+          "id": "clause-afb3fcb5ab52",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "火葬式典",
+          "reading": {
+            "endLine": 56,
+            "sha256": "e727eb833e9771ba8867f1718c0f713dceb810a9f1a9df3fe3157af6990d3d2c",
+            "startLine": 52
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "cost",
+              "relativeLine": 3
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 3
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 4
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 2,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "P": "3",
+            "成分": "姿势",
+            "持续": "1轮",
+            "施展时间": "动作标值2",
+            "消耗": "1点",
+            "范围": "黑键"
+          },
+          "id": "clause-eeaf6efc9045",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "水葬式典",
+          "reading": {
+            "endLine": 61,
+            "sha256": "ea64d0e6cd1a61156d7208b37c8b802d86d5e942d56d19e503f2a2ba85644102",
+            "startLine": 57
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "cost",
+              "relativeLine": 3
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 3
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 4
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 2,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "P": "3",
+            "成分": "姿势",
+            "持续": "1轮",
+            "施展时间": "动作标值2",
+            "消耗": "1点",
+            "范围": "黑键"
+          },
+          "id": "clause-813e74fa6c1c",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "土葬式典",
+          "reading": {
+            "endLine": 66,
+            "sha256": "25aa7571a43e339d3a6ac4d3818b5ac81c5c4d8b561647884c19d34e34c430f6",
+            "startLine": 62
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "cost",
+              "relativeLine": 3
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 3
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 4
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 2,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "P": "3",
+            "成分": "姿势",
+            "持续": "1轮",
+            "施展时间": "动作标值2",
+            "消耗": "1点",
+            "范围": "黑键"
+          },
+          "id": "clause-82073d04be78",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "风葬式典",
+          "reading": {
+            "endLine": 71,
+            "sha256": "d1ca9f39966f3d07bd5341f07dd95faf4694bc7742992f1d71ff4ec7304ed394",
+            "startLine": 67
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "cost",
+              "relativeLine": 3
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-37f10452512f",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "被动",
+          "reading": {
+            "endLine": 79,
+            "sha256": "7a48d2709ae2e864518779962c22cbf0b3f404aa5e812cb866779c57649d8fd0",
+            "startLine": 76
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 2
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 2
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-a9301a2a31de",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "黑键刻印",
+          "reading": {
+            "endLine": 82,
+            "sha256": "6ba3d9f3a8a47c18026238883d212af7f3b4a2dc1fdcffbad62f7ba2666aab66",
+            "startLine": 80
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "cost",
+              "relativeLine": 2
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 2
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-82cb0765eee9",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "被动",
+          "reading": {
+            "endLine": 90,
+            "sha256": "6496bc80e2f6f46e03519b58b4c5bb2050e29c50bb67b9520e65aeaf55a2ca13",
+            "startLine": 87
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 2
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 2
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 3
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-29e79b62ab37",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "正式外典",
+          "reading": {
+            "endLine": 94,
+            "sha256": "96b24c2325d18f9af12964b18bfd36cf62eb77f2c904865d81a7116541313e8f",
+            "startLine": 91
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 2
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 2
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 3
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-c2aa4398511d",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "黑之銃身",
+          "reading": {
+            "endLine": 99,
+            "sha256": "cd3d1b65d1f7a4bd73d481551ff4c0cbcdd5f68ad9809369e59fb4fbe02d79b7",
+            "startLine": 97
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 2
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 2
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-ed173e135828",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "第七圣典",
+          "reading": {
+            "endLine": 102,
+            "sha256": "3c0efb08b66c27ca1afddfd508f928089304a089e623d6c3403a45585922dfc8",
+            "startLine": 100
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "cost",
+              "relativeLine": 2
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 2
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 2
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-4e37c7a25b90",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "被动",
+          "reading": {
+            "endLine": 107,
+            "sha256": "e4528c95b6084eb10968a48fc046c2c2beb296dfd6a4763b4134a73657902b0b",
+            "startLine": 105
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 2
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 2
+            },
+            {
+              "kind": "prerequisite",
+              "relativeLine": 3
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 3
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": []
+        }
+      ]
+    },
+    "effects": [],
+    "programs": {}
+  },
+  "id": "candidate-901-magic-bundle-6c6e3fc74d144be9",
+  "identity": {
+    "adoptionStatus": "candidate",
+    "aliases": [],
+    "category": "bundle",
+    "grade": "multi",
+    "name": "代行者",
+    "sharedDependencies": [
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "bbf7521e7514bb9c807e6b5bf07fa55016853cf31ccacd69d2f725e54feb3758"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/共用901判定.md",
+        "sha256": "1c5398bf728c5e94bfa2cc1cf037ead08a0dec1e1898278e844b25b643463bbd"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/来源与核算.md",
+        "sha256": "8f17c529f1b5465fceaefc24931869b82e071d4ab8fb3ed561359864cbf98334"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/未决项.md",
+        "sha256": "3ceae5df0f4bd271ea79956004dba56bd8698eea62b7508871ce11a406903375"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/专有机制.md",
+        "sha256": "14a331e47e9d578634f29e2bae74a1501e916fc594cdef41f9e40b0fa8bafe62"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/引用定位.md",
+        "sha256": "699deab37356bb930ab497aa8bc555f756c174a799a9a91b922345ea6f1be0b1"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/通用法术.md",
+        "sha256": "8922768b19c7c65a410498c69cddc5441796a85c7c50b4871786ecff3a4cbaed"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/防护与状态.md",
+        "sha256": "c9d0b1b1dc1f2546f92faa5dda66464c531283095d21990d8004df4c8e641a12"
+      }
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/能力组/施法类型/代行者.md",
+        "sha256": "26e00488461ba039ed564ea6df181032671d2aaa46951759a6ac10a7c27e4583"
+      }
+    ],
+    "tree": "代行者"
+  },
+  "implementationGaps": [
+    "本体声明尚需逐机制接入与执行证明；技能树逐条款保留来源定位，尚未完整编码；未验证动作不进入执行白名单。"
+  ],
+  "inputs": [
+    {
+      "id": "ownedResource",
+      "missingPolicy": "block-related-operation",
+      "provider": "saved-state",
+      "requiredFor": [
+        "effects",
+        "actions"
+      ],
+      "type": "versioned-acquisition-record"
+    },
+    {
+      "id": "choices",
+      "missingPolicy": "ask-only-required-choice",
+      "provider": "player",
+      "requiredFor": [
+        "acquisition"
+      ],
+      "type": "declared-selection"
+    },
+    {
+      "id": "sceneFacts",
+      "missingPolicy": "block-related-operation",
+      "provider": "host",
+      "requiredFor": [
+        "actions"
+      ],
+      "type": "sourced-target-and-scene"
+    },
+    {
+      "id": "state:attributes.感知",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "saved-state",
+      "requiredFor": [
+        "base-mechanisms"
+      ],
+      "type": "number"
+    },
+    {
+      "id": "state:attributes.风度",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "saved-state",
+      "requiredFor": [
+        "base-mechanisms"
+      ],
+      "type": "number"
+    },
+    {
+      "basis": "当前人物本能力组真实已取得阶位与采用/来源记录",
+      "id": "context:acquiredGroupGradeValue",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "B/神之手威压"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+      "id": "context:attack.actualDamageSuccesses",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "C/铁甲作用"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+      "id": "context:attack.originalQ",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "C/铁甲作用"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+      "id": "context:blackKeysSameTarget",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "C/铁甲作用"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+      "id": "context:check.successes",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "B/神之手激励"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+      "id": "context:confirmedConceptArmamentCount",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "A/圣痕"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "主持确认的传奇属性来源记录；不得用901自动成功反推",
+      "id": "context:confirmedLegendary.意志",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "B/神之手激励"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "主持确认的传奇属性来源记录；不得用901自动成功反推",
+      "id": "context:confirmedLegendary.感知",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "B/神之手激励"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+      "id": "context:opposed.casterWinningMargin",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "A/洗礼咏唱"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+      "id": "context:opposed.failureMargin",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "B/神之手威压"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "主持登记并附来源的实际目标/自身规则事实，禁止由模型凭叙事估造",
+      "id": "context:target.darkTier",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "B/神之手威压"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+      "id": "context:weapon.damageComponent",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "D/黑键作成"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    }
+  ],
+  "reading": {
+    "path": "outputs/施法体系适配-20261024/阅读版/代行者.md",
+    "sha256": "045c910d31268f38b7ea158036a884afe800859284f2caa400901eb934964e00"
+  },
+  "schemaVersion": "901-resource/1",
+  "unresolvedRules": [],
+  "verification": {
+    "runtimeFullyVerified": false,
+    "scope": "paired-source-and-declarative-base; not full runtime",
+    "sourceChecked": true,
+    "status": "pending"
+  },
+  "version": "2026-10-25.magic.1"
+}

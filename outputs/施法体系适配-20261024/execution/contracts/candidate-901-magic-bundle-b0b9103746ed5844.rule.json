@@ -1,0 +1,1927 @@
+{
+  "actions": [
+    {
+      "actionCost": [],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-bedf3a3ed253",
+      "id": "candidate-901-magic-bundle-b0b9103746ed5844/clause-bedf3a3ed253",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "D级 应届毕业生",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-dbc554259147",
+      "id": "candidate-901-magic-bundle-b0b9103746ed5844/clause-dbc554259147",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "C级 成熟的神官",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 4,
+          "relativeLine": 2
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-5c5dc4705099",
+      "id": "candidate-901-magic-bundle-b0b9103746ed5844/clause-5c5dc4705099",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "姿态",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 2,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-0be3bfe9be2a",
+      "id": "candidate-901-magic-bundle-b0b9103746ed5844/clause-0be3bfe9be2a",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "剑杖姿态 D+500",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-d00a13f635f6",
+      "id": "candidate-901-magic-bundle-b0b9103746ed5844/clause-d00a13f635f6",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "奇迹",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 6,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-10b8231b623b",
+      "id": "candidate-901-magic-bundle-b0b9103746ed5844/clause-10b8231b623b",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "恢复术",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 10,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-13289b025d49",
+      "id": "candidate-901-magic-bundle-b0b9103746ed5844/clause-13289b025d49",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "群体恢复术",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 6,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-e19eb3319732",
+      "id": "candidate-901-magic-bundle-b0b9103746ed5844/clause-e19eb3319732",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "万能驱散",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "reflex",
+          "q": 6,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-bf1201ef81e5",
+      "id": "candidate-901-magic-bundle-b0b9103746ed5844/clause-bf1201ef81e5",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "四风的呼唤",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 6,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-6e09acbb9f5a",
+      "id": "candidate-901-magic-bundle-b0b9103746ed5844/clause-6e09acbb9f5a",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "魔力防护",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "reflex",
+          "q": 2,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-1c5bdb3fa1a5",
+      "id": "candidate-901-magic-bundle-b0b9103746ed5844/clause-1c5bdb3fa1a5",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "效果",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 8,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-22bad31847dc",
+      "id": "candidate-901-magic-bundle-b0b9103746ed5844/clause-22bad31847dc",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "神力",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 10,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-60fbbbc3519f",
+      "id": "candidate-901-magic-bundle-b0b9103746ed5844/clause-60fbbbc3519f",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "雷枪",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 6,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-778ba8d260eb",
+      "id": "candidate-901-magic-bundle-b0b9103746ed5844/clause-778ba8d260eb",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "圣人行使奇迹之力",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    }
+  ],
+  "clauses": [
+    {
+      "effectStats": [],
+      "heading": "THE_LAND牧师",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "魔幻本质",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "D级 应届毕业生",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "C级 成熟的神官",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "姿态",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "圣剑姿态 C+2000",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "剑杖姿态 D+500",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "奇迹",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "恢复术",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "群体恢复术",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "万能驱散",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "四风的呼唤",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "魔力防护",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "效果",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "大恢复",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "群体大恢复",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "神力",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "雷枪",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "圣人行使奇迹之力",
+      "status": "pending"
+    }
+  ],
+  "definition": {
+    "authoringOnly": {
+      "acquisition": {
+        "autoGrantToT0": false,
+        "requiresActualQualification": true,
+        "requiresAdoptedOffer": true,
+        "resetState": false,
+        "treeEntryGrantsChildren": false,
+        "unverifiedPricesMayNotBeCharged": true
+      },
+      "baseMechanisms": {
+        "constraints": [
+          {
+            "automaticTechniqueGrant": false,
+            "operation": "separateTreeAccessFromTechniqueAcquisition"
+          },
+          {
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    28,
+                    30
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/THE_LAND牧师.md"
+                },
+                "reading": {
+                  "lines": [
+                    28,
+                    28
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND牧师.md",
+                  "quote": "### B级 未开放"
+                }
+              }
+            ],
+            "unavailableBodyGrades": [
+              "B",
+              "A",
+              "S"
+            ]
+          }
+        ],
+        "implementationGaps": [
+          {
+            "effectIds": [
+              "奇迹施法者",
+              "意志施法",
+              "魔力超流",
+              "魔力超流",
+              "意志上限",
+              "魔力同调"
+            ],
+            "kind": "operation-support-and-acquisition-transaction",
+            "notUnresolvedRule": true,
+            "status": "implementation-needed"
+          }
+        ],
+        "inputBindings": {
+          "classifierMaySelectRegisteredChoicesOnly": true,
+          "contextInputs": [
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "魔力超流",
+                  "grade": "D"
+                },
+                {
+                  "effectId": "魔力超流",
+                  "grade": "C"
+                },
+                {
+                  "effectId": "魔力同调",
+                  "grade": "C"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "willActuallySpent",
+              "provider": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            }
+          ],
+          "mustNotInferOwnedStageFromDefinition": true,
+          "stateReads": [
+            "attributes.意志"
+          ]
+        },
+        "numericalPolicy": {
+          "actionRatingRounding": "ceil-before-action-table",
+          "defaultRounding": "floor-after-complete-effect",
+          "distanceRounding": "none",
+          "explicitAccumulatedXP": "retain-source-precision",
+          "intermediateRounding": "only-if-explicit",
+          "reading": {
+            "lines": [
+              86,
+              86
+            ],
+            "path": "outputs/施法体系适配-20261024/共用901判定.md",
+            "sha256": "1c5398bf728c5e94bfa2cc1cf037ead08a0dec1e1898278e844b25b643463bbd"
+          },
+          "runtimeStatus": "implementation-needed",
+          "timeRounding": "none",
+          "xpCostRounding": "ceil"
+        },
+        "readingSHA256": "319683c9bea741f92e509e9ff4c43e4591ca12adc648e8189ae273d9ba0c7022",
+        "runtimeFullyVerified": false,
+        "scope": "ability-group-body-only",
+        "stageInheritance": {
+          "dynamicGradeReadsCurrentActuallyAcquiredStage": true,
+          "replacementFamilyUsesHighestAcquiredStageOnly": true,
+          "retainPriorStageBenefits": true
+        },
+        "stages": [
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "奇迹施法者",
+                "operation": "setCastingKey",
+                "parameters": {
+                  "attribute": "意志"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        11,
+                        22
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND牧师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        17,
+                        17
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND牧师.md",
+                      "quote": "- 奇迹施法者：The Land牧师以意志取代智力作为K。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "意志施法",
+                "operation": "substituteCostPool",
+                "parameters": {
+                  "original": "魔力",
+                  "replacement": "意志",
+                  "scope": "casting"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        11,
+                        22
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND牧师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        18,
+                        18
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND牧师.md",
+                      "quote": "- 意志施法：在消耗魔力作施法时，都可以意志代替魔力消耗。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [
+                  {
+                    "isMiracle": true
+                  },
+                  {
+                    "usesWillCasting": true
+                  }
+                ],
+                "id": "魔力超流",
+                "operation": "augmentPowerByMatchingCost",
+                "parameters": {
+                  "additionalMagic": {
+                    "context": "willActuallySpent"
+                  },
+                  "powerBonus": 1
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        11,
+                        22
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND牧师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        19,
+                        19
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND牧师.md",
+                      "quote": "- 魔力超流：当你使用意志施法施放奇迹时，可额外消耗等量的魔力使该P+1。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "魔力超流",
+                  "mode": "replace-total"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "D",
+            "grants": [
+              {
+                "capacityPolicy": "shared-901-pool-rule",
+                "fillOnAcquisition": false,
+                "kind": "精神魔力",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        11,
+                        22
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND牧师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        15,
+                        15
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND牧师.md",
+                      "quote": "- 能量池：精神魔力"
+                    }
+                  }
+                ],
+                "type": "energy-pool"
+              },
+              {
+                "grade": "D",
+                "source": "THE_LAND牧师",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        11,
+                        22
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND牧师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        16,
+                        16
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND牧师.md",
+                      "quote": "- 技能树：D级施法者职能与THE LAND牧师专有技能树"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "D",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        11,
+                        22
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND牧师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        16,
+                        16
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND牧师.md",
+                      "quote": "- 技能树：D级施法者职能与THE LAND牧师专有技能树"
+                    }
+                  }
+                ],
+                "tree": "THE_LAND牧师",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": null,
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    11,
+                    22
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/THE_LAND牧师.md"
+                },
+                "reading": {
+                  "lines": [
+                    17,
+                    17
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND牧师.md",
+                  "quote": "- 奇迹施法者：The Land牧师以意志取代智力作为K。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    11,
+                    22
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/THE_LAND牧师.md"
+                },
+                "reading": {
+                  "lines": [
+                    18,
+                    18
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND牧师.md",
+                  "quote": "- 意志施法：在消耗魔力作施法时，都可以意志代替魔力消耗。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    11,
+                    22
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/THE_LAND牧师.md"
+                },
+                "reading": {
+                  "lines": [
+                    19,
+                    19
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND牧师.md",
+                  "quote": "- 魔力超流：当你使用意志施法施放奇迹时，可额外消耗等量的魔力使该P+1。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    11,
+                    22
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/THE_LAND牧师.md"
+                },
+                "reading": {
+                  "lines": [
+                    15,
+                    15
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND牧师.md",
+                  "quote": "- 能量池：精神魔力"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    11,
+                    22
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/THE_LAND牧师.md"
+                },
+                "reading": {
+                  "lines": [
+                    16,
+                    16
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND牧师.md",
+                  "quote": "- 技能树：D级施法者职能与THE LAND牧师专有技能树"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [
+              {
+                "gte": [
+                  {
+                    "state": "attributes.意志"
+                  },
+                  6
+                ]
+              }
+            ],
+            "effects": [
+              {
+                "conditions": [
+                  {
+                    "isMiracle": true
+                  },
+                  {
+                    "usesWillCasting": true
+                  }
+                ],
+                "id": "魔力超流",
+                "operation": "augmentPowerByMatchingCost",
+                "parameters": {
+                  "additionalMagic": {
+                    "context": "willActuallySpent"
+                  },
+                  "powerBonus": 2
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        23,
+                        28
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND牧师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        26,
+                        26
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND牧师.md",
+                      "quote": "- 魔力超流：在使用魔力超流的效果施放奇迹时，P再+1。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "魔力超流",
+                  "mode": "replace-total"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "意志上限",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "value": 10
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        23,
+                        28
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND牧师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        24,
+                        24
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND牧师.md",
+                      "quote": "- 意志之力：获得THE LAND通用技艺中一项前提要求达到6点意志的技艺，自身意志力上限增加10点。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "意志上限",
+                  "mode": "add-increment"
+                },
+                "target": "will.maximum",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "魔力同调",
+                "operation": "gainTemporaryPoolPoints",
+                "parameters": {
+                  "amount": {
+                    "args": [
+                      {
+                        "context": "willActuallySpent"
+                      },
+                      2
+                    ],
+                    "op": "min"
+                  },
+                  "durationRounds": 1,
+                  "pool": "魔力",
+                  "trigger": "non-temporary-will-spent-casting"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        23,
+                        28
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND牧师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        25,
+                        25
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND牧师.md",
+                      "quote": "- 魔力同调：每当在消耗非临时意志施法时，得到所耗意志，至多2点的临时魔力。该临时魔力持续1轮。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "C",
+            "grants": [
+              {
+                "grade": "C",
+                "source": "THE_LAND牧师",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        23,
+                        28
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND牧师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        23,
+                        23
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND牧师.md",
+                      "quote": "- 技能树：C级施法者职能与THE LAND牧师专有技能树"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "C",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        23,
+                        28
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND牧师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        23,
+                        23
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND牧师.md",
+                      "quote": "- 技能树：C级施法者职能与THE LAND牧师专有技能树"
+                    }
+                  }
+                ],
+                "tree": "THE_LAND牧师",
+                "type": "tree-access"
+              },
+              {
+                "count": 1,
+                "filter": {
+                  "prerequisiteWill": 6,
+                  "tree": "THE_LAND通用技艺"
+                },
+                "free": true,
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        25,
+                        27
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND牧师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        24,
+                        24
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND牧师.md",
+                      "quote": "- 意志之力：获得THE LAND通用技艺中一项前提要求达到6点意志的技艺，自身意志力上限增加10点。"
+                    }
+                  }
+                ],
+                "type": "explicit-technique-choice"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "D",
+              "resource": "THE_LAND牧师"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    23,
+                    28
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/THE_LAND牧师.md"
+                },
+                "reading": {
+                  "lines": [
+                    26,
+                    26
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND牧师.md",
+                  "quote": "- 魔力超流：在使用魔力超流的效果施放奇迹时，P再+1。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    23,
+                    28
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/THE_LAND牧师.md"
+                },
+                "reading": {
+                  "lines": [
+                    24,
+                    24
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND牧师.md",
+                  "quote": "- 意志之力：获得THE LAND通用技艺中一项前提要求达到6点意志的技艺，自身意志力上限增加10点。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    23,
+                    28
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/THE_LAND牧师.md"
+                },
+                "reading": {
+                  "lines": [
+                    25,
+                    25
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND牧师.md",
+                  "quote": "- 魔力同调：每当在消耗非临时意志施法时，得到所耗意志，至多2点的临时魔力。该临时魔力持续1轮。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    23,
+                    28
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/THE_LAND牧师.md"
+                },
+                "reading": {
+                  "lines": [
+                    23,
+                    23
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND牧师.md",
+                  "quote": "- 技能树：C级施法者职能与THE LAND牧师专有技能树"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    25,
+                    27
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/THE_LAND牧师.md"
+                },
+                "reading": {
+                  "lines": [
+                    24,
+                    24
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND牧师.md",
+                  "quote": "- 意志之力：获得THE LAND通用技艺中一项前提要求达到6点意志的技艺，自身意志力上限增加10点。"
+                }
+              }
+            ]
+          }
+        ],
+        "status": "declarative-contract-source",
+        "unresolvedRules": [],
+        "verification": {
+          "deploymentPerformed": false,
+          "runtimeFullyVerified": false,
+          "runtimeTested": false
+        }
+      },
+      "runtimeSlices": [],
+      "sharedRulesLock": "2d4f858c035f847bc05a312a0e7efea245cd0f6795890239754d371a5b75005c",
+      "units": [
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-7a51acfced04",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "THE_LAND牧师",
+          "reading": {
+            "endLine": 10,
+            "sha256": "4c0f2b1c2fcc0e6875ea0c4b571b08ced2b6d78432bcb26f2e50f1d3163df8d3",
+            "startLine": 1
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 9
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-5edd80782e99",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "魔幻本质",
+          "reading": {
+            "endLine": 13,
+            "sha256": "35ddadcf8a737d02ca00285262db59b432fb536cc41a1c560a0c885f6474dde3",
+            "startLine": 11
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/2"
+          ],
+          "declaredFields": {},
+          "id": "clause-bedf3a3ed253",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "D级 应届毕业生",
+          "reading": {
+            "endLine": 20,
+            "sha256": "62470ff11cc9e0112f432bcb07671b392076ee221b817e11817764d1d7db06fa",
+            "startLine": 14
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 4
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 5
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 6
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 6
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/2"
+          ],
+          "declaredFields": {},
+          "id": "clause-dbc554259147",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "C级 成熟的神官",
+          "reading": {
+            "endLine": 27,
+            "sha256": "5d27aed31256fe7dfe328df32808f2085f8f2e5d2e7def4d57d866abd88bd16e",
+            "startLine": 21
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "prerequisite",
+              "relativeLine": 2
+            },
+            {
+              "kind": "prerequisite",
+              "relativeLine": 4
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 5
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 5
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 5
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 4,
+              "relativeLine": 2
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-5c5dc4705099",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "姿态",
+          "reading": {
+            "endLine": 34,
+            "sha256": "c3bde3a3494879dadbd7219e89ed75d86a482f14be2690aafb1bd8fbc1fb38f5",
+            "startLine": 32
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-515feeda5933",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 3,
+                "candidateXP": 35,
+                "grade": "C",
+                "legacyPoints": 2000
+              }
+            ]
+          },
+          "name": "圣剑姿态 C+2000",
+          "reading": {
+            "endLine": 38,
+            "sha256": "d65b80981c665074c9cc61e1e9c2195c2c0d57d1518b123fa227f50c3246e0ed",
+            "startLine": 35
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "trigger",
+              "relativeLine": 2
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 2,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-0be3bfe9be2a",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              }
+            ]
+          },
+          "name": "剑杖姿态 D+500",
+          "reading": {
+            "endLine": 42,
+            "sha256": "ce6295e47152ea9202ca1491509655e5182508de85d31a055c20e688536c4b10",
+            "startLine": 39
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "trigger",
+              "relativeLine": 2
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-d00a13f635f6",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "奇迹",
+          "reading": {
+            "endLine": 45,
+            "sha256": "9ce8691a5f8ab284b0a835044e35c67df86082418870922f94151e65053b14da",
+            "startLine": 43
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 2
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 6,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "P": "3",
+            "冷却": "1轮",
+            "射程": "10米*意志*P",
+            "成分": "言/姿",
+            "施放": "标准(q6)",
+            "能耗": "1点魔力",
+            "领域": "变化"
+          },
+          "id": "clause-10b8231b623b",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "恢复术",
+          "reading": {
+            "endLine": 52,
+            "sha256": "33362fe612bfe36dd087457fa3999552ca145f91a074b5db5294e7d4aa7a9be5",
+            "startLine": 48
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 10,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "P": "3",
+            "冷却": "3轮",
+            "射程": "无",
+            "成分": "言/姿",
+            "施放": "标准＋移动(q10)",
+            "能耗": "1点魔力",
+            "范围": "5米*意志*P",
+            "领域": "变化"
+          },
+          "id": "clause-13289b025d49",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "群体恢复术",
+          "reading": {
+            "endLine": 58,
+            "sha256": "c364563b49e3156ee0550c8a345b48f6650244b53769c74efb53c07fe7c751c5",
+            "startLine": 53
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "cost",
+              "relativeLine": 5
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 5
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 6,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "P": "3",
+            "冷却": "3轮",
+            "射程": "10米*意志*P",
+            "成分": "言/姿",
+            "施放": "标准(q6)",
+            "能耗": "1点魔力",
+            "领域": "咒法"
+          },
+          "id": "clause-e19eb3319732",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "万能驱散",
+          "reading": {
+            "endLine": 63,
+            "sha256": "c0fe623962987d030b41d1effb61ec220c4998c794b033e87eb6733e3e666ab7",
+            "startLine": 59
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "reflex",
+              "q": 6,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "P": "3",
+            "冷却": "3轮",
+            "成分": "言/姿",
+            "施放": "反射[q=6]",
+            "能耗": "1点魔力",
+            "范围": "5米*意志*P",
+            "领域": "咒法"
+          },
+          "id": "clause-bf1201ef81e5",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "四风的呼唤",
+          "reading": {
+            "endLine": 71,
+            "sha256": "f70ca5b349834c7fe5a31d6948f5a1ea45cc47663e60b70b59eb2940bbe632c3",
+            "startLine": 64
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "duration",
+              "relativeLine": 4
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 5
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 6
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 6,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "P": "3",
+            "射程": "10*意志*P",
+            "成分": "语言、姿势",
+            "持续": "1轮*意志值",
+            "施放": "标准(q6)",
+            "能耗": "1魔力",
+            "领域": "结界"
+          },
+          "id": "clause-6e09acbb9f5a",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "魔力防护",
+          "reading": {
+            "endLine": 75,
+            "sha256": "05b9728c9b30ef63d27948f85606d8898a8d56ea4ed0e408fb13431044806f74",
+            "startLine": 72
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "duration",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "reflex",
+              "q": 2,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-1c5bdb3fa1a5",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "效果",
+          "reading": {
+            "endLine": 79,
+            "sha256": "6603e645bdb315d88c130149c706007943062c9fbaa265f13e33006af6fdd564",
+            "startLine": 76
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 3
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-24576c5a214b",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "大恢复",
+          "reading": {
+            "endLine": 84,
+            "sha256": "c726bd25f714d54c90e08a3f40ac4eafc5814c7d33ad3002fc29345e60ee6fb8",
+            "startLine": 82
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "duration",
+              "relativeLine": 2
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-23431f9e8d8f",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "群体大恢复",
+          "reading": {
+            "endLine": 87,
+            "sha256": "ed59f3749bef4765226dfa44672fb38567be8fd410848cdbd5817db6bf760070",
+            "startLine": 85
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "duration",
+              "relativeLine": 2
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 8,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "P": "6",
+            "冷却": "6轮",
+            "射程": "自身",
+            "成分": "言/姿",
+            "施放": "标准＋迅捷(q8)",
+            "能耗": "3点魔力",
+            "范围": "5米*意志*P",
+            "领域": "变化"
+          },
+          "id": "clause-22bad31847dc",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "神力",
+          "reading": {
+            "endLine": 92,
+            "sha256": "1b3f0c32395236c59ec3b50e767a930f7eb9a0e8078e63573d4003f3121558da",
+            "startLine": 88
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "trigger",
+              "relativeLine": 4
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 10,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "P": "6",
+            "冷却": "3轮",
+            "射程": "10*意志*P",
+            "成分": "语言、姿势",
+            "施放": "标准＋移动(q10)",
+            "能耗": "3点魔力",
+            "领域": "塑能"
+          },
+          "id": "clause-60fbbbc3519f",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "雷枪",
+          "reading": {
+            "endLine": 97,
+            "sha256": "5c6bef8b6529b49c03e26a74f5c5842e9fe5e32b031b48b7af4ac1874a409e50",
+            "startLine": 93
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 6,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "P": "6",
+            "冷却": "1轮",
+            "射程": "10*意志*P",
+            "成分": "语言、姿势",
+            "持续": "意志*1轮。",
+            "施放": "标准(q6)",
+            "能耗": "3点魔力",
+            "领域": "结界"
+          },
+          "id": "clause-778ba8d260eb",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "圣人行使奇迹之力",
+          "reading": {
+            "endLine": 101,
+            "sha256": "517b93e61e2af6a2ba0014dea1d333664b01fb96a1024a1c14af997469b0441f",
+            "startLine": 98
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "duration",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": []
+        }
+      ]
+    },
+    "effects": [],
+    "programs": {}
+  },
+  "id": "candidate-901-magic-bundle-b0b9103746ed5844",
+  "identity": {
+    "adoptionStatus": "candidate",
+    "aliases": [],
+    "category": "bundle",
+    "grade": "multi",
+    "name": "THE_LAND牧师",
+    "sharedDependencies": [
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "bbf7521e7514bb9c807e6b5bf07fa55016853cf31ccacd69d2f725e54feb3758"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/共用901判定.md",
+        "sha256": "1c5398bf728c5e94bfa2cc1cf037ead08a0dec1e1898278e844b25b643463bbd"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/来源与核算.md",
+        "sha256": "8f17c529f1b5465fceaefc24931869b82e071d4ab8fb3ed561359864cbf98334"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/未决项.md",
+        "sha256": "3ceae5df0f4bd271ea79956004dba56bd8698eea62b7508871ce11a406903375"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/专有机制.md",
+        "sha256": "14a331e47e9d578634f29e2bae74a1501e916fc594cdef41f9e40b0fa8bafe62"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/引用定位.md",
+        "sha256": "699deab37356bb930ab497aa8bc555f756c174a799a9a91b922345ea6f1be0b1"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/通用法术.md",
+        "sha256": "8922768b19c7c65a410498c69cddc5441796a85c7c50b4871786ecff3a4cbaed"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/防护与状态.md",
+        "sha256": "c9d0b1b1dc1f2546f92faa5dda66464c531283095d21990d8004df4c8e641a12"
+      }
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/能力组/施法类型/THE_LAND牧师.md",
+        "sha256": "fc0ef2eccb508f51fe064d8f03c7254e55c3fa2948043ed044eb09a0b52be5da"
+      }
+    ],
+    "tree": "THE_LAND牧师"
+  },
+  "implementationGaps": [
+    "本体声明尚需逐机制接入与执行证明；技能树逐条款保留来源定位，尚未完整编码；未验证动作不进入执行白名单。"
+  ],
+  "inputs": [
+    {
+      "id": "ownedResource",
+      "missingPolicy": "block-related-operation",
+      "provider": "saved-state",
+      "requiredFor": [
+        "effects",
+        "actions"
+      ],
+      "type": "versioned-acquisition-record"
+    },
+    {
+      "id": "choices",
+      "missingPolicy": "ask-only-required-choice",
+      "provider": "player",
+      "requiredFor": [
+        "acquisition"
+      ],
+      "type": "declared-selection"
+    },
+    {
+      "id": "sceneFacts",
+      "missingPolicy": "block-related-operation",
+      "provider": "host",
+      "requiredFor": [
+        "actions"
+      ],
+      "type": "sourced-target-and-scene"
+    },
+    {
+      "id": "state:attributes.意志",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "saved-state",
+      "requiredFor": [
+        "base-mechanisms"
+      ],
+      "type": "number"
+    },
+    {
+      "basis": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+      "id": "context:willActuallySpent",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "D/魔力超流",
+        "C/魔力超流",
+        "C/魔力同调"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    }
+  ],
+  "reading": {
+    "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND牧师.md",
+    "sha256": "319683c9bea741f92e509e9ff4c43e4591ca12adc648e8189ae273d9ba0c7022"
+  },
+  "schemaVersion": "901-resource/1",
+  "unresolvedRules": [],
+  "verification": {
+    "runtimeFullyVerified": false,
+    "scope": "paired-source-and-declarative-base; not full runtime",
+    "sourceChecked": true,
+    "status": "pending"
+  },
+  "version": "2026-10-25.magic.1"
+}

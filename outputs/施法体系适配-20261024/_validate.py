@@ -1,6 +1,7 @@
 from pathlib import Path
 from urllib.parse import unquote
-import re,csv,json,hashlib,math,collections
+import re,csv,json,hashlib,math,collections,argparse
+parser=argparse.ArgumentParser();parser.add_argument('--refresh',action='store_true',help='explicitly refresh reading fingerprints and report after authorized edits');args=parser.parse_args()
 D=Path(__file__).resolve().parent;ROOT=D.parents[1]
 SKIP={'SEED','恐怖黎明奥术师','现代魔法','生化术士','瘟疫使者','佛说力士移山经'}
 rows=list(csv.DictReader((D/'条款覆盖.tsv').open(),delimiter='\t'))
@@ -39,16 +40,24 @@ for e in manifest:
 cycles=[math.ceil(a/b) for a,b in zip([20,50,130,350,970,2750,7930],[2,3,5,9,17,41,113])]
 if cycles!=[10,17,26,39,58,68,71]:errors.append('research arithmetic')
 b=(D/'阅读版/死灵之书.md').read_text()
-for token in ['HP18','地速48','飞行96','上限11L']:
+# 901 six-attribute PHB model: 2 + 2*力量5 + 体积8调整2 = 14.
+assert 2+2*5+2==14
+for token in ['HP14','地速48','飞行96','上限11L']:
  if token not in b:errors.append('missing corrected Byak card '+token)
 for bad in ['力量/敏捷/力量','风度/风度/意志','P/动作标值','临时q','施法q消耗']:
  for p in (D/'阅读版').glob('*.md'):
   if bad in p.read_text():errors.append({'bad_conversion':bad,'file':p.name})
 # Update artifact hashes/lengths after all authorized fixes, no claims about JS execution.
-for e in manifest:e['reading_chars']=len((D/e['reading']).read_text());e['reading_sha256']=hashlib.sha256((D/e['reading']).read_bytes()).hexdigest()
-with (D/'源清单.tsv').open('w') as f:
- w=csv.DictWriter(f,fieldnames=manifest[0].keys(),delimiter='\t');w.writeheader();w.writerows(manifest)
+for e in manifest:
+ count=len((D/e['reading']).read_text());fingerprint=hashlib.sha256((D/e['reading']).read_bytes()).hexdigest()
+ if not args.refresh and (int(e['reading_chars'])!=count or e['reading_sha256']!=fingerprint):errors.append('reading manifest stale '+e['reading'])
+ e['reading_chars']=count;e['reading_sha256']=fingerprint
+if args.refresh:
+ with (D/'源清单.tsv').open('w') as f:
+  w=csv.DictWriter(f,fieldnames=manifest[0].keys(),delimiter='\t');w.writeheader();w.writerows(manifest)
 result={'status':'PASS' if not errors else 'FAIL','concrete_resources':32,'shared_book_outline':1,'excluded_resources':6,'source_files_in_scope':len(sources),'primary_source_occurrences':len(expected),'covered_primary_occurrences':len(actual_keys),'total_coverage_rows_with_spell_dependencies':len(rows),'reading_characters':sum(int(e['reading_chars']) for e in manifest),'source_characters':sum(int(e['source_chars']) for e in manifest),'existing_spell_references':16,'new_B_A_dependency_cards':4,'checks':['source identity and selected set','every primary nonempty source position','reading and provenance file/heading anchors','research cycle arithmetic','corrected Byak six-attribute card','known mechanical replacement artifacts'],'runtime_verified':False,'executive_contracts_created':0,'main_repo_regressions_run':False,'errors':errors}
-(D/'自查结果.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
+result['executive_contracts_created']=len(list((D/'execution/contracts').glob('*.rule.json')))
+result['scope']='reading/source coverage only; runtime evidence is separately scoped in execution/generated/coverage.json'
+if args.refresh:(D/'自查结果.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(result,ensure_ascii=False,indent=2))
 raise SystemExit(bool(errors))

@@ -1,0 +1,2028 @@
+{
+  "actions": [
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 6,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-efb7777d433c",
+      "id": "candidate-901-magic-bundle-491f0cf296f52726/clause-efb7777d433c",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "魔力填补 D+500/C+1000/B+2000/A+4000/S+8000",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-aab69df2c464",
+      "id": "candidate-901-magic-bundle-491f0cf296f52726/clause-aab69df2c464",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "概念化 250/D+500/C+1000/B+2000/A+4000",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    }
+  ],
+  "clauses": [
+    {
+      "effectStats": [],
+      "heading": "魔法工程师",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "D级：初学者",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "C级：熟练者",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "B级：专家",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "A级：大师",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "S级：超凡",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "魔法制造 D+500/C+1000/B+2000/A+4000/S+8000",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "万巧天工 D+500/C+1000/B+2000/A+4000/S+8000",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "魔力填补 D+500/C+1000/B+2000/A+4000/S+8000",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "概念化 250/D+500/C+1000/B+2000/A+4000",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "生物解析",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "模板剥离",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "基因编辑",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "灵魂核心",
+      "status": "pending"
+    }
+  ],
+  "definition": {
+    "authoringOnly": {
+      "acquisition": {
+        "autoGrantToT0": false,
+        "requiresActualQualification": true,
+        "requiresAdoptedOffer": true,
+        "resetState": false,
+        "treeEntryGrantsChildren": false,
+        "unverifiedPricesMayNotBeCharged": true
+      },
+      "baseMechanisms": {
+        "constraints": [
+          {
+            "automaticTechniqueGrant": false,
+            "operation": "separateTreeAccessFromTechniqueAcquisition"
+          }
+        ],
+        "implementationGaps": [
+          {
+            "effectIds": [
+              "机床池代价",
+              "魔力机床",
+              "魔力机床",
+              "魔力机床",
+              "魔力机床",
+              "魔力机床"
+            ],
+            "kind": "operation-support-and-acquisition-transaction",
+            "notUnresolvedRule": true,
+            "status": "implementation-needed"
+          }
+        ],
+        "inputBindings": {
+          "classifierMaySelectRegisteredChoicesOnly": true,
+          "contextInputs": [
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "魔力机床",
+                  "grade": "D"
+                },
+                {
+                  "effectId": "魔力机床",
+                  "grade": "C"
+                },
+                {
+                  "effectId": "魔力机床",
+                  "grade": "B"
+                },
+                {
+                  "effectId": "魔力机床",
+                  "grade": "A"
+                },
+                {
+                  "effectId": "魔力机床",
+                  "grade": "S"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "selectedMagicPool.current",
+              "provider": "本能力组取得时已保存的合法能量池选择及resources对应值",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "魔力机床",
+                  "grade": "D"
+                },
+                {
+                  "effectId": "魔力机床",
+                  "grade": "C"
+                },
+                {
+                  "effectId": "魔力机床",
+                  "grade": "B"
+                },
+                {
+                  "effectId": "魔力机床",
+                  "grade": "A"
+                },
+                {
+                  "effectId": "魔力机床",
+                  "grade": "S"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "selectedMagicPool.max",
+              "provider": "本能力组取得时已保存的合法能量池选择及resources对应值",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            }
+          ],
+          "mustNotInferOwnedStageFromDefinition": true,
+          "stateReads": []
+        },
+        "numericalPolicy": {
+          "actionRatingRounding": "ceil-before-action-table",
+          "defaultRounding": "floor-after-complete-effect",
+          "distanceRounding": "none",
+          "explicitAccumulatedXP": "retain-source-precision",
+          "intermediateRounding": "only-if-explicit",
+          "reading": {
+            "lines": [
+              86,
+              86
+            ],
+            "path": "outputs/施法体系适配-20261024/共用901判定.md",
+            "sha256": "1c5398bf728c5e94bfa2cc1cf037ead08a0dec1e1898278e844b25b643463bbd"
+          },
+          "runtimeStatus": "implementation-needed",
+          "timeRounding": "none",
+          "xpCostRounding": "ceil"
+        },
+        "readingSHA256": "58e5db984b74553600aaa694bcc3dc43f999400d075f0bc1f3687f6ca44675fd",
+        "runtimeFullyVerified": false,
+        "scope": "ability-group-body-only",
+        "stageInheritance": {
+          "dynamicGradeReadsCurrentActuallyAcquiredStage": true,
+          "replacementFamilyUsesHighestAcquiredStageOnly": true,
+          "retainPriorStageBenefits": true
+        },
+        "stages": [
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "机床池代价",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "value": -10
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        8,
+                        14
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        14,
+                        14
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                      "quote": "- 魔力机床：你本组选择开启的魔力池上限减少10点，若你剩余的魔力池上限高于0，则只要自身魔力池不空，你就可视为拥有D级的造物机床作造物，这不改变自身造物周期和各种前置需求。本机床可用于制造科技、魔幻"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "机床池代价",
+                  "mode": "add-increment"
+                },
+                "target": "selectedMagicPool.max",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [
+                  {
+                    "gt": [
+                      {
+                        "context": "selectedMagicPool.max"
+                      },
+                      0
+                    ]
+                  },
+                  {
+                    "gt": [
+                      {
+                        "context": "selectedMagicPool.current"
+                      },
+                      0
+                    ]
+                  }
+                ],
+                "id": "魔力机床",
+                "operation": "provideCraftingMachine",
+                "parameters": {
+                  "allowedNatures": [
+                    "科技",
+                    "魔幻",
+                    "特异"
+                  ],
+                  "craftCycleMultiplier": 2,
+                  "grade": "D",
+                  "waivesOtherRequirements": false
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        8,
+                        14
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        14,
+                        14
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                      "quote": "- 魔力机床：你本组选择开启的魔力池上限减少10点，若你剩余的魔力池上限高于0，则只要自身魔力池不空，你就可视为拥有D级的造物机床作造物，这不改变自身造物周期和各种前置需求。本机床可用于制造科技、魔幻"
+                    }
+                  },
+                  {
+                    "original": {
+                      "lines": [
+                        8,
+                        14
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        15,
+                        15
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                      "quote": "- 用此机床制造时，周期为正常周期的2倍；较高阶的追加增幅均以正常周期为基准，D/C/B/A/S最终分别为2/4/8/16/32倍，不逐阶乘上前阶倍数。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "魔力机床",
+                  "mode": "replace-total"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "D",
+            "grants": [
+              {
+                "capacityPolicy": "shared-901-pool-rule",
+                "fillOnAcquisition": false,
+                "kind": "魔力",
+                "selection": "legal-actual-magic-kind-at-acquisition",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        8,
+                        14
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        12,
+                        12
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                      "quote": "- 能量：魔力"
+                    }
+                  }
+                ],
+                "type": "energy-pool"
+              },
+              {
+                "grade": "D",
+                "source": "魔法工程师",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        8,
+                        14
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        13,
+                        13
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                      "quote": "- 技能树：D级施法者职能和专有少量技能树。"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "D",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        8,
+                        14
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        13,
+                        13
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                      "quote": "- 技能树：D级施法者职能和专有少量技能树。"
+                    }
+                  }
+                ],
+                "tree": "魔法工程师",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": null,
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    8,
+                    14
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                },
+                "reading": {
+                  "lines": [
+                    14,
+                    14
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                  "quote": "- 魔力机床：你本组选择开启的魔力池上限减少10点，若你剩余的魔力池上限高于0，则只要自身魔力池不空，你就可视为拥有D级的造物机床作造物，这不改变自身造物周期和各种前置需求。本机床可用于制造科技、魔幻"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    8,
+                    14
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                },
+                "reading": {
+                  "lines": [
+                    15,
+                    15
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                  "quote": "- 用此机床制造时，周期为正常周期的2倍；较高阶的追加增幅均以正常周期为基准，D/C/B/A/S最终分别为2/4/8/16/32倍，不逐阶乘上前阶倍数。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    8,
+                    14
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                },
+                "reading": {
+                  "lines": [
+                    12,
+                    12
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                  "quote": "- 能量：魔力"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    8,
+                    14
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                },
+                "reading": {
+                  "lines": [
+                    13,
+                    13
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                  "quote": "- 技能树：D级施法者职能和专有少量技能树。"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [
+                  {
+                    "gt": [
+                      {
+                        "context": "selectedMagicPool.max"
+                      },
+                      0
+                    ]
+                  },
+                  {
+                    "gt": [
+                      {
+                        "context": "selectedMagicPool.current"
+                      },
+                      0
+                    ]
+                  }
+                ],
+                "id": "魔力机床",
+                "operation": "provideCraftingMachine",
+                "parameters": {
+                  "allowedNatures": [
+                    "科技",
+                    "魔幻",
+                    "特异"
+                  ],
+                  "craftCycleMultiplier": 4,
+                  "grade": "C",
+                  "waivesOtherRequirements": false
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        15,
+                        19
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        19,
+                        19
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                      "quote": "- 魔力机床：造物机床的等级提升为C级。"
+                    }
+                  },
+                  {
+                    "original": {
+                      "lines": [
+                        15,
+                        19
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        20,
+                        20
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                      "quote": "- 在用这种机床制造物品时，制造物品的周期再增加两倍。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "魔力机床",
+                  "mode": "replace-total"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "C",
+            "grants": [
+              {
+                "grade": "C",
+                "source": "魔法工程师",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        15,
+                        19
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        18,
+                        18
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                      "quote": "- 技能树：C级施法者职能和专有少量技能树。"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "C",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        15,
+                        19
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        18,
+                        18
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                      "quote": "- 技能树：C级施法者职能和专有少量技能树。"
+                    }
+                  }
+                ],
+                "tree": "魔法工程师",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "D",
+              "resource": "魔法工程师"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    15,
+                    19
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                },
+                "reading": {
+                  "lines": [
+                    19,
+                    19
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                  "quote": "- 魔力机床：造物机床的等级提升为C级。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    15,
+                    19
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                },
+                "reading": {
+                  "lines": [
+                    20,
+                    20
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                  "quote": "- 在用这种机床制造物品时，制造物品的周期再增加两倍。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    15,
+                    19
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                },
+                "reading": {
+                  "lines": [
+                    18,
+                    18
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                  "quote": "- 技能树：C级施法者职能和专有少量技能树。"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [
+                  {
+                    "gt": [
+                      {
+                        "context": "selectedMagicPool.max"
+                      },
+                      0
+                    ]
+                  },
+                  {
+                    "gt": [
+                      {
+                        "context": "selectedMagicPool.current"
+                      },
+                      0
+                    ]
+                  }
+                ],
+                "id": "魔力机床",
+                "operation": "provideCraftingMachine",
+                "parameters": {
+                  "allowedNatures": [
+                    "科技",
+                    "魔幻",
+                    "特异"
+                  ],
+                  "craftCycleMultiplier": 8,
+                  "grade": "B",
+                  "waivesOtherRequirements": false
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        20,
+                        24
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        24,
+                        24
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                      "quote": "- 魔力机床：造物机床的等级提升为B级。"
+                    }
+                  },
+                  {
+                    "original": {
+                      "lines": [
+                        20,
+                        24
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        25,
+                        25
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                      "quote": "- 在用这种机床制造物品时，制造物品的周期再增加四倍。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "魔力机床",
+                  "mode": "replace-total"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "B",
+            "grants": [
+              {
+                "grade": "B",
+                "source": "魔法工程师",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        20,
+                        24
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        23,
+                        23
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                      "quote": "- 技能树：B级施法者职能和专有少量技能树。"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "B",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        20,
+                        24
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        23,
+                        23
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                      "quote": "- 技能树：B级施法者职能和专有少量技能树。"
+                    }
+                  }
+                ],
+                "tree": "魔法工程师",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "C",
+              "resource": "魔法工程师"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    20,
+                    24
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                },
+                "reading": {
+                  "lines": [
+                    24,
+                    24
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                  "quote": "- 魔力机床：造物机床的等级提升为B级。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    20,
+                    24
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                },
+                "reading": {
+                  "lines": [
+                    25,
+                    25
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                  "quote": "- 在用这种机床制造物品时，制造物品的周期再增加四倍。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    20,
+                    24
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                },
+                "reading": {
+                  "lines": [
+                    23,
+                    23
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                  "quote": "- 技能树：B级施法者职能和专有少量技能树。"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [
+                  {
+                    "gt": [
+                      {
+                        "context": "selectedMagicPool.max"
+                      },
+                      0
+                    ]
+                  },
+                  {
+                    "gt": [
+                      {
+                        "context": "selectedMagicPool.current"
+                      },
+                      0
+                    ]
+                  }
+                ],
+                "id": "魔力机床",
+                "operation": "provideCraftingMachine",
+                "parameters": {
+                  "allowedNatures": [
+                    "科技",
+                    "魔幻",
+                    "特异"
+                  ],
+                  "craftCycleMultiplier": 16,
+                  "grade": "A",
+                  "waivesOtherRequirements": false
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        25,
+                        29
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        29,
+                        29
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                      "quote": "- 魔力机床：造物机床的等级提升为A级。"
+                    }
+                  },
+                  {
+                    "original": {
+                      "lines": [
+                        25,
+                        29
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        30,
+                        30
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                      "quote": "- 在用这种机床制造物品时，制造物品的周期再增加八倍。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "魔力机床",
+                  "mode": "replace-total"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "A",
+            "grants": [
+              {
+                "grade": "A",
+                "source": "魔法工程师",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        25,
+                        29
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        28,
+                        28
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                      "quote": "- 技能树：A级施法者职能和专有少量技能树。"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "A",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        25,
+                        29
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        28,
+                        28
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                      "quote": "- 技能树：A级施法者职能和专有少量技能树。"
+                    }
+                  }
+                ],
+                "tree": "魔法工程师",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "B",
+              "resource": "魔法工程师"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    25,
+                    29
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                },
+                "reading": {
+                  "lines": [
+                    29,
+                    29
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                  "quote": "- 魔力机床：造物机床的等级提升为A级。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    25,
+                    29
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                },
+                "reading": {
+                  "lines": [
+                    30,
+                    30
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                  "quote": "- 在用这种机床制造物品时，制造物品的周期再增加八倍。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    25,
+                    29
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                },
+                "reading": {
+                  "lines": [
+                    28,
+                    28
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                  "quote": "- 技能树：A级施法者职能和专有少量技能树。"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [
+                  {
+                    "gt": [
+                      {
+                        "context": "selectedMagicPool.max"
+                      },
+                      0
+                    ]
+                  },
+                  {
+                    "gt": [
+                      {
+                        "context": "selectedMagicPool.current"
+                      },
+                      0
+                    ]
+                  }
+                ],
+                "id": "魔力机床",
+                "operation": "provideCraftingMachine",
+                "parameters": {
+                  "allowedNatures": [
+                    "科技",
+                    "魔幻",
+                    "特异"
+                  ],
+                  "craftCycleMultiplier": 32,
+                  "grade": "S",
+                  "waivesOtherRequirements": false
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        30,
+                        34
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        34,
+                        34
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                      "quote": "- 魔力机床：造物机床的等级提升为S级。"
+                    }
+                  },
+                  {
+                    "original": {
+                      "lines": [
+                        30,
+                        34
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        35,
+                        35
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                      "quote": "- 在用这种机床制造物品时，制造物品的周期再增加十六倍。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "魔力机床",
+                  "mode": "replace-total"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "S",
+            "grants": [
+              {
+                "grade": "S",
+                "source": "魔法工程师",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        30,
+                        34
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        33,
+                        33
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                      "quote": "- 技能树：S级施法者职能和专有少量技能树。"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "S",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        30,
+                        34
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        33,
+                        33
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                      "quote": "- 技能树：S级施法者职能和专有少量技能树。"
+                    }
+                  }
+                ],
+                "tree": "魔法工程师",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "A",
+              "resource": "魔法工程师"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    30,
+                    34
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                },
+                "reading": {
+                  "lines": [
+                    34,
+                    34
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                  "quote": "- 魔力机床：造物机床的等级提升为S级。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    30,
+                    34
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                },
+                "reading": {
+                  "lines": [
+                    35,
+                    35
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                  "quote": "- 在用这种机床制造物品时，制造物品的周期再增加十六倍。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    30,
+                    34
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md"
+                },
+                "reading": {
+                  "lines": [
+                    33,
+                    33
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+                  "quote": "- 技能树：S级施法者职能和专有少量技能树。"
+                }
+              }
+            ]
+          }
+        ],
+        "status": "declarative-contract-source",
+        "unresolvedRules": [],
+        "verification": {
+          "deploymentPerformed": false,
+          "runtimeFullyVerified": false,
+          "runtimeTested": false
+        }
+      },
+      "runtimeSlices": [],
+      "sharedRulesLock": "2d4f858c035f847bc05a312a0e7efea245cd0f6795890239754d371a5b75005c",
+      "units": [
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-f31900c018fb",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "魔法工程师",
+          "reading": {
+            "endLine": 10,
+            "sha256": "39a39e33f86b1a82f102c8d308f6c8166ddeaef62899a3fe17a1bfdcc2cb919b",
+            "startLine": 1
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 9
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/1"
+          ],
+          "declaredFields": {},
+          "id": "clause-8af937cfc1b0",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "D级：初学者",
+          "reading": {
+            "endLine": 16,
+            "sha256": "a6fbe0086fc6c89c23bcce6ca8007dafcdc729f90405ffb512047ce23f31613e",
+            "startLine": 11
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "trigger",
+              "relativeLine": 4
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/0"
+          ],
+          "declaredFields": {},
+          "id": "clause-d6b7be344cf1",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "C级：熟练者",
+          "reading": {
+            "endLine": 21,
+            "sha256": "4d396506946a58155c9a631d95d0601a890801208b8e6c2055227067c0e9dbc4",
+            "startLine": 17
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/0"
+          ],
+          "declaredFields": {},
+          "id": "clause-81bc7a631647",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "B级：专家",
+          "reading": {
+            "endLine": 26,
+            "sha256": "305b310cdd3667eede362d39c9c09722f4e337ee92c46385b9a7100edc66da7b",
+            "startLine": 22
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/3/effects/0"
+          ],
+          "declaredFields": {},
+          "id": "clause-202d87a84bf1",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "A级：大师",
+          "reading": {
+            "endLine": 31,
+            "sha256": "b093c875fa29673477abf306da70ede86acdf89923596881a58e17e73c702fc9",
+            "startLine": 27
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/4/effects/0"
+          ],
+          "declaredFields": {},
+          "id": "clause-5b77c91cf710",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "S级：超凡",
+          "reading": {
+            "endLine": 36,
+            "sha256": "565cdfcb7dff4e6b8cd885d5bc12be12022fce2ba199df8ca1f72802bc08895e",
+            "startLine": 32
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-a24829f28598",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              },
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 3,
+                "candidateXP": 25,
+                "grade": "C",
+                "legacyPoints": 1000
+              },
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 9,
+                "candidateXP": 65,
+                "grade": "B",
+                "legacyPoints": 2000
+              },
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 27,
+                "candidateXP": 175,
+                "grade": "A",
+                "legacyPoints": 4000
+              },
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 81,
+                "candidateXP": 485,
+                "grade": "S",
+                "legacyPoints": 8000
+              }
+            ]
+          },
+          "name": "魔法制造 D+500/C+1000/B+2000/A+4000/S+8000",
+          "reading": {
+            "endLine": 42,
+            "sha256": "6ac508e76b0f97dbfef78f2f07209c4f560e312571a3b06bd8df41da0e14020c",
+            "startLine": 39
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "cost",
+              "relativeLine": 2
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 2
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-291c7ae85a2e",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              },
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 3,
+                "candidateXP": 25,
+                "grade": "C",
+                "legacyPoints": 1000
+              },
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 9,
+                "candidateXP": 65,
+                "grade": "B",
+                "legacyPoints": 2000
+              },
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 27,
+                "candidateXP": 175,
+                "grade": "A",
+                "legacyPoints": 4000
+              },
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 81,
+                "candidateXP": 485,
+                "grade": "S",
+                "legacyPoints": 8000
+              }
+            ]
+          },
+          "name": "万巧天工 D+500/C+1000/B+2000/A+4000/S+8000",
+          "reading": {
+            "endLine": 46,
+            "sha256": "8f9ac665c3b6f65c5489c9727bcaa574032852acd963f11966c3be5372aeb11f",
+            "startLine": 43
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "cost",
+              "relativeLine": 2
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 2
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 6,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-efb7777d433c",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              },
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 3,
+                "candidateXP": 25,
+                "grade": "C",
+                "legacyPoints": 1000
+              },
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 9,
+                "candidateXP": 65,
+                "grade": "B",
+                "legacyPoints": 2000
+              },
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 27,
+                "candidateXP": 175,
+                "grade": "A",
+                "legacyPoints": 4000
+              },
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 81,
+                "candidateXP": 485,
+                "grade": "S",
+                "legacyPoints": 8000
+              }
+            ]
+          },
+          "name": "魔力填补 D+500/C+1000/B+2000/A+4000/S+8000",
+          "reading": {
+            "endLine": 51,
+            "sha256": "bbf064782db8791682f95e96af2cb30c566fa7568cd2f6372713b1b1bbc2579e",
+            "startLine": 47
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "cost",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-aab69df2c464",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              },
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 3,
+                "candidateXP": 25,
+                "grade": "C",
+                "legacyPoints": 1000
+              },
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 9,
+                "candidateXP": 65,
+                "grade": "B",
+                "legacyPoints": 2000
+              },
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 27,
+                "candidateXP": 175,
+                "grade": "A",
+                "legacyPoints": 4000
+              }
+            ]
+          },
+          "name": "概念化 250/D+500/C+1000/B+2000/A+4000",
+          "reading": {
+            "endLine": 54,
+            "sha256": "bca4347119d7aabc2f70c4b0a1043ab1a10e888098f7969d0c88276265c6b7bd",
+            "startLine": 52
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "trigger",
+              "relativeLine": 2
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "学习原价": "500"
+          },
+          "id": "clause-1ee435900d20",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "candidate-branchless-learning-price",
+                "candidateXP": 5,
+                "grade": "ungraded",
+                "legacyPoints": 500
+              }
+            ]
+          },
+          "name": "生物解析",
+          "reading": {
+            "endLine": 59,
+            "sha256": "a9e7eccfe3b4b414ff66002e8922fb9e738898efd064c15c8d07b0c9312ac7d0",
+            "startLine": 55
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "学习原价": "D+500"
+          },
+          "id": "clause-092314ed1ba3",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              }
+            ]
+          },
+          "name": "模板剥离",
+          "reading": {
+            "endLine": 67,
+            "sha256": "5053077dc1a14329308fb221d8c4f3a8f0e169e0b2d4604d413ac8f50f8355a2",
+            "startLine": 60
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "prerequisite",
+              "relativeLine": 4
+            },
+            {
+              "kind": "exclusion",
+              "relativeLine": 4
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 5
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 6
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 7
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "学习原价": "C+1000"
+          },
+          "id": "clause-486c6ce57c7b",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 3,
+                "candidateXP": 25,
+                "grade": "C",
+                "legacyPoints": 1000
+              }
+            ]
+          },
+          "name": "基因编辑",
+          "reading": {
+            "endLine": 74,
+            "sha256": "19a649eb2ef52b867bc78b9c18da2fa2b13aa1010908ddf8c51f29cba66f1728",
+            "startLine": 68
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "prerequisite",
+              "relativeLine": 5
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 6
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "学习原价": "B+2000"
+          },
+          "id": "clause-ac21a0086f0f",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 9,
+                "candidateXP": 65,
+                "grade": "B",
+                "legacyPoints": 2000
+              }
+            ]
+          },
+          "name": "灵魂核心",
+          "reading": {
+            "endLine": 79,
+            "sha256": "f49d77d031b8dac62c73ef986b18e548a8a65e80ff4535d25df14801cfd73e23",
+            "startLine": 75
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        }
+      ]
+    },
+    "effects": [],
+    "programs": {}
+  },
+  "id": "candidate-901-magic-bundle-491f0cf296f52726",
+  "identity": {
+    "adoptionStatus": "candidate",
+    "aliases": [],
+    "category": "bundle",
+    "grade": "multi",
+    "name": "魔法工程师",
+    "sharedDependencies": [
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "bbf7521e7514bb9c807e6b5bf07fa55016853cf31ccacd69d2f725e54feb3758"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/共用901判定.md",
+        "sha256": "1c5398bf728c5e94bfa2cc1cf037ead08a0dec1e1898278e844b25b643463bbd"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/来源与核算.md",
+        "sha256": "8f17c529f1b5465fceaefc24931869b82e071d4ab8fb3ed561359864cbf98334"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/未决项.md",
+        "sha256": "3ceae5df0f4bd271ea79956004dba56bd8698eea62b7508871ce11a406903375"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/专有机制.md",
+        "sha256": "14a331e47e9d578634f29e2bae74a1501e916fc594cdef41f9e40b0fa8bafe62"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/引用定位.md",
+        "sha256": "699deab37356bb930ab497aa8bc555f756c174a799a9a91b922345ea6f1be0b1"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/通用法术.md",
+        "sha256": "8922768b19c7c65a410498c69cddc5441796a85c7c50b4871786ecff3a4cbaed"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/防护与状态.md",
+        "sha256": "c9d0b1b1dc1f2546f92faa5dda66464c531283095d21990d8004df4c8e641a12"
+      }
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/能力组/施法类型/魔法工程师.md",
+        "sha256": "d63eeffe6f988299abe7f4ea379052a344149fab62aec320e43c939491d1ca10"
+      }
+    ],
+    "tree": "魔法工程师"
+  },
+  "implementationGaps": [
+    "本体声明尚需逐机制接入与执行证明；技能树逐条款保留来源定位，尚未完整编码；未验证动作不进入执行白名单。"
+  ],
+  "inputs": [
+    {
+      "id": "ownedResource",
+      "missingPolicy": "block-related-operation",
+      "provider": "saved-state",
+      "requiredFor": [
+        "effects",
+        "actions"
+      ],
+      "type": "versioned-acquisition-record"
+    },
+    {
+      "id": "choices",
+      "missingPolicy": "ask-only-required-choice",
+      "provider": "player",
+      "requiredFor": [
+        "acquisition"
+      ],
+      "type": "declared-selection"
+    },
+    {
+      "id": "sceneFacts",
+      "missingPolicy": "block-related-operation",
+      "provider": "host",
+      "requiredFor": [
+        "actions"
+      ],
+      "type": "sourced-target-and-scene"
+    },
+    {
+      "basis": "本能力组取得时已保存的合法能量池选择及resources对应值",
+      "id": "context:selectedMagicPool.current",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "D/魔力机床",
+        "C/魔力机床",
+        "B/魔力机床",
+        "A/魔力机床",
+        "S/魔力机床"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "本能力组取得时已保存的合法能量池选择及resources对应值",
+      "id": "context:selectedMagicPool.max",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "D/魔力机床",
+        "C/魔力机床",
+        "B/魔力机床",
+        "A/魔力机床",
+        "S/魔力机床"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    }
+  ],
+  "reading": {
+    "path": "outputs/施法体系适配-20261024/阅读版/魔法工程师.md",
+    "sha256": "58e5db984b74553600aaa694bcc3dc43f999400d075f0bc1f3687f6ca44675fd"
+  },
+  "schemaVersion": "901-resource/1",
+  "unresolvedRules": [],
+  "verification": {
+    "runtimeFullyVerified": false,
+    "scope": "paired-source-and-declarative-base; not full runtime",
+    "sourceChecked": true,
+    "status": "pending"
+  },
+  "version": "2026-10-25.magic.1"
+}

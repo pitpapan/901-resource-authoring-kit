@@ -1,0 +1,1794 @@
+{
+  "actions": [
+    {
+      "actionCost": [],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-463abcda9825",
+      "id": "candidate-901-magic-bundle-457a8ecefc667a14/clause-463abcda9825",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "技能树：B级盗法者技能树",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    }
+  ],
+  "clauses": [
+    {
+      "effectStats": [],
+      "heading": "盗法者",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "D级",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "技能树：D级施法职能与盗法者技能树",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "技能树：C级施法职能与盗法者技能树",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "技能树：B级盗法者技能树",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "偷袭D500",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "法术明晰B+2000",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "盗法大师B+2000",
+      "status": "pending"
+    }
+  ],
+  "definition": {
+    "authoringOnly": {
+      "acquisition": {
+        "autoGrantToT0": false,
+        "requiresActualQualification": true,
+        "requiresAdoptedOffer": true,
+        "resetState": false,
+        "treeEntryGrantsChildren": false,
+        "unverifiedPricesMayNotBeCharged": true
+      },
+      "baseMechanisms": {
+        "constraints": [
+          {
+            "automaticTechniqueGrant": false,
+            "operation": "separateTreeAccessFromTechniqueAcquisition"
+          }
+        ],
+        "implementationGaps": [
+          {
+            "effectIds": [
+              "能量侦测",
+              "能量适应防御",
+              "能量适应豁免",
+              "能量窃取",
+              "效果窃取",
+              "能量窃取",
+              "效果窃取",
+              "能量辨析",
+              "窃取法术抗力",
+              "能量窃取",
+              "效果窃取",
+              "能量储纳",
+              "窃取能量抗力"
+            ],
+            "kind": "operation-support-and-acquisition-transaction",
+            "notUnresolvedRule": true,
+            "status": "implementation-needed"
+          }
+        ],
+        "inputBindings": {
+          "classifierMaySelectRegisteredChoicesOnly": true,
+          "contextInputs": [
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "能量侦测",
+                  "grade": "D"
+                },
+                {
+                  "effectId": "能量窃取",
+                  "grade": "D"
+                },
+                {
+                  "effectId": "效果窃取",
+                  "grade": "D"
+                },
+                {
+                  "effectId": "能量窃取",
+                  "grade": "C"
+                },
+                {
+                  "effectId": "效果窃取",
+                  "grade": "C"
+                },
+                {
+                  "effectId": "能量辨析",
+                  "grade": "C"
+                },
+                {
+                  "effectId": "窃取法术抗力",
+                  "grade": "C"
+                },
+                {
+                  "effectId": "能量窃取",
+                  "grade": "B"
+                },
+                {
+                  "effectId": "效果窃取",
+                  "grade": "B"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "acquiredGroupGradeValue",
+              "provider": "当前人物本能力组真实已取得阶位与采用/来源记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "窃取法术抗力",
+                  "grade": "C"
+                },
+                {
+                  "effectId": "窃取能量抗力",
+                  "grade": "B"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "actualProtectionReduction",
+              "provider": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "能量侦测",
+                  "grade": "D"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedSenses.fuzzyVision",
+              "provider": "当前真实感官及场景视线效果线记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            }
+          ],
+          "mustNotInferOwnedStageFromDefinition": true,
+          "stateReads": []
+        },
+        "numericalPolicy": {
+          "actionRatingRounding": "ceil-before-action-table",
+          "defaultRounding": "floor-after-complete-effect",
+          "distanceRounding": "none",
+          "explicitAccumulatedXP": "retain-source-precision",
+          "intermediateRounding": "only-if-explicit",
+          "reading": {
+            "lines": [
+              86,
+              86
+            ],
+            "path": "outputs/施法体系适配-20261024/共用901判定.md",
+            "sha256": "1c5398bf728c5e94bfa2cc1cf037ead08a0dec1e1898278e844b25b643463bbd"
+          },
+          "runtimeStatus": "implementation-needed",
+          "timeRounding": "none",
+          "xpCostRounding": "ceil"
+        },
+        "readingSHA256": "dc8c0bc2af971b1555095399af25ba5952077d3ee5ddb68f22bd4979b546517d",
+        "runtimeFullyVerified": false,
+        "scope": "ability-group-body-only",
+        "stageInheritance": {
+          "dynamicGradeReadsCurrentActuallyAcquiredStage": true,
+          "replacementFamilyUsesHighestAcquiredStageOnly": true,
+          "retainPriorStageBenefits": true
+        },
+        "stages": [
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "能量侦测",
+                "operation": "detectEnergy",
+                "parameters": {
+                  "alsoSpellSlots": true,
+                  "automaticForNonHidingOrNoAntidetection": true,
+                  "detectionGrade": {
+                    "context": "acquiredGroupGradeValue"
+                  },
+                  "hiddenOrAntidetectionRequiresVisualFuzzyLocation": true,
+                  "range": {
+                    "context": "confirmedSenses.fuzzyVision"
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        8,
+                        19
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        15,
+                        15
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                      "quote": "- 能量侦测：盗法者可通过视觉观测到通用能量，他可在模糊视觉范围内直接看到通用能量产生的效果，发现具有通用能量池的生物上的通用能量或运作中的通用能量源，对效果或运作中的能量源，包括物品等本身不会躲藏或"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [
+                  {
+                    "incomingEffectSource": "generic-energy"
+                  }
+                ],
+                "id": "能量适应防御",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "value": 3
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        8,
+                        19
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        22,
+                        22
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                      "quote": "- 能量适应：盗法者擅长应对以通用能量产生的效果，对这些效果，他在防御和豁免判定上获得3点洞察加值。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "能量适应防御",
+                  "mode": "add-increment"
+                },
+                "target": "defense",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [
+                  {
+                    "incomingEffectSource": "generic-energy"
+                  }
+                ],
+                "id": "能量适应豁免",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "bonusCategory": "洞察",
+                  "value": 3
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        8,
+                        19
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        22,
+                        22
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                      "quote": "- 能量适应：盗法者擅长应对以通用能量产生的效果，对这些效果，他在防御和豁免判定上获得3点洞察加值。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "能量适应豁免",
+                  "mode": "add-increment"
+                },
+                "target": "saves.all.DP",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "能量窃取",
+                "operation": "stealEnergyOrSlotOnDamage",
+                "parameters": {
+                  "gain": {
+                    "duration": "scene",
+                    "stackable": true,
+                    "temporaryMagic": 1
+                  },
+                  "genericEnergyAmount": 1,
+                  "knownPool": "choose-nonempty",
+                  "maySplitPools": false,
+                  "slotAlternative": {
+                    "count": 1,
+                    "effectDurationMaximum": "scene",
+                    "knownPreparedSpell": "may-choose",
+                    "maximumGrade": "D",
+                    "usesVictimParameters": true
+                  },
+                  "transformationGrade": {
+                    "context": "acquiredGroupGradeValue"
+                  },
+                  "trigger": {
+                    "event": "actual-damage",
+                    "targetFlatFooted": true,
+                    "targetHasNoDuration": true
+                  },
+                  "unknownPool": "random-nonempty"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        8,
+                        19
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        18,
+                        18
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                      "quote": "- 能量窃取：当盗法者成功对一个处于措手不及的不具有持续的目标造成实际伤害时，他可同时伤害其能量池，目标将失去1点通用能量，盗法者若知晓目标拥有的通用能量池类型，其可指定一项尚有剩余的通用能量生效，否"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "能量窃取",
+                  "mode": "replace-total"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "效果窃取",
+                "operation": "retargetOngoingEffectTemporarily",
+                "parameters": {
+                  "duration": "minimum-original-remaining-and-scene",
+                  "eligibleSources": [
+                    "generic-energy",
+                    "spell-slots"
+                  ],
+                  "knownEligibleEffect": "may-choose",
+                  "maintenanceAndTerminationOwner": "original",
+                  "maximumGrade": "D",
+                  "parameters": "original",
+                  "requiresSelfLegalTarget": true,
+                  "returnAfterTheftIfOriginalStillLasts": true,
+                  "transformationGrade": {
+                    "context": "acquiredGroupGradeValue"
+                  },
+                  "trigger": {
+                    "event": "actual-damage",
+                    "targetFlatFooted": true,
+                    "targetHasNoDuration": true
+                  },
+                  "unknownEffect": "random-eligible"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        8,
+                        19
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        20,
+                        20
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                      "quote": "- 效果窃取：对措手不及的非临时生物造成实际伤害时，可将其一个通用能量产生的D或更低持续效果转到自己身上，须自己是合法受术者。效果参数不改、剩余持续照旧但最多1场景，维持代价与结束权仍归原承担者；若原"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "效果窃取",
+                  "mode": "replace-total"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "D",
+            "grants": [
+              {
+                "capacityPolicy": "shared-901-pool-rule",
+                "fillOnAcquisition": false,
+                "kind": "魔力",
+                "selection": "legal-actual-magic-kind-at-acquisition",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        8,
+                        19
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        12,
+                        12
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                      "quote": "- 能量池：魔力"
+                    }
+                  }
+                ],
+                "type": "energy-pool"
+              },
+              {
+                "grade": "D",
+                "source": "盗法者",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        8,
+                        19
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        14,
+                        14
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                      "quote": "### 技能树：D级施法职能与盗法者技能树"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "D",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        8,
+                        19
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        14,
+                        14
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                      "quote": "### 技能树：D级施法职能与盗法者技能树"
+                    }
+                  }
+                ],
+                "tree": "盗法者",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": null,
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    8,
+                    19
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                },
+                "reading": {
+                  "lines": [
+                    15,
+                    15
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                  "quote": "- 能量侦测：盗法者可通过视觉观测到通用能量，他可在模糊视觉范围内直接看到通用能量产生的效果，发现具有通用能量池的生物上的通用能量或运作中的通用能量源，对效果或运作中的能量源，包括物品等本身不会躲藏或"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    8,
+                    19
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                },
+                "reading": {
+                  "lines": [
+                    22,
+                    22
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                  "quote": "- 能量适应：盗法者擅长应对以通用能量产生的效果，对这些效果，他在防御和豁免判定上获得3点洞察加值。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    8,
+                    19
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                },
+                "reading": {
+                  "lines": [
+                    18,
+                    18
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                  "quote": "- 能量窃取：当盗法者成功对一个处于措手不及的不具有持续的目标造成实际伤害时，他可同时伤害其能量池，目标将失去1点通用能量，盗法者若知晓目标拥有的通用能量池类型，其可指定一项尚有剩余的通用能量生效，否"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    8,
+                    19
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                },
+                "reading": {
+                  "lines": [
+                    20,
+                    20
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                  "quote": "- 效果窃取：对措手不及的非临时生物造成实际伤害时，可将其一个通用能量产生的D或更低持续效果转到自己身上，须自己是合法受术者。效果参数不改、剩余持续照旧但最多1场景，维持代价与结束权仍归原承担者；若原"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    8,
+                    19
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                },
+                "reading": {
+                  "lines": [
+                    12,
+                    12
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                  "quote": "- 能量池：魔力"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    8,
+                    19
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                },
+                "reading": {
+                  "lines": [
+                    14,
+                    14
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                  "quote": "### 技能树：D级施法职能与盗法者技能树"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "能量窃取",
+                "operation": "stealEnergyOrSlotOnDamage",
+                "parameters": {
+                  "gain": {
+                    "duration": "scene",
+                    "stackable": true,
+                    "temporaryMagic": 3
+                  },
+                  "genericEnergyAmount": 3,
+                  "knownPool": "choose-nonempty",
+                  "maySplitPools": true,
+                  "slotAlternative": {
+                    "count": 1,
+                    "effectDurationMaximum": "scene",
+                    "knownPreparedSpell": "may-choose",
+                    "maximumGrade": "C",
+                    "usesVictimParameters": true
+                  },
+                  "transformationGrade": {
+                    "context": "acquiredGroupGradeValue"
+                  },
+                  "trigger": {
+                    "event": "actual-damage",
+                    "targetFlatFooted": true,
+                    "targetHasNoDuration": true
+                  },
+                  "unknownPool": "random-nonempty"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        20,
+                        27
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        29,
+                        29
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                      "quote": "- 能量窃取：目标失去的通用能量和获得的临时魔力提升至3点，可将效果分配在不同的通用能量上。若是法术位则可选择1个C级法术位取代D级。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "能量窃取",
+                  "mode": "replace-total"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "效果窃取",
+                "operation": "retargetOngoingEffectTemporarily",
+                "parameters": {
+                  "duration": "minimum-original-remaining-and-scene",
+                  "eligibleSources": [
+                    "generic-energy",
+                    "spell-slots"
+                  ],
+                  "knownEligibleEffect": "may-choose",
+                  "maintenanceAndTerminationOwner": "original",
+                  "maximumGrade": "C",
+                  "parameters": "original",
+                  "requiresSelfLegalTarget": true,
+                  "returnAfterTheftIfOriginalStillLasts": true,
+                  "transformationGrade": {
+                    "context": "acquiredGroupGradeValue"
+                  },
+                  "trigger": {
+                    "event": "actual-damage",
+                    "targetFlatFooted": true,
+                    "targetHasNoDuration": true
+                  },
+                  "unknownEffect": "random-eligible"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        20,
+                        27
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        30,
+                        30
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                      "quote": "- 效果窃取：现在能被窃取的效果提升至C级。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "效果窃取",
+                  "mode": "replace-total"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "能量辨析",
+                "operation": "inspectDetectedEnergy",
+                "parameters": {
+                  "detectionGrade": {
+                    "context": "acquiredGroupGradeValue"
+                  },
+                  "reveals": [
+                    "all-pool-types",
+                    "remaining-points",
+                    "active-source-energy",
+                    "each-effect-function",
+                    "spell-slot-count"
+                  ]
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        20,
+                        27
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        27,
+                        27
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                      "quote": "- 能量辨析：现在可通过能量侦测识别目标拥有的每一种通用能量池，包括是什么和有多少剩余。若是运作中的能量源，你也知道它对应的能量是什么和有多少剩余，针对效果，会知道每个效果的具体作用。这是个等于G的探"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "窃取法术抗力",
+                "operation": "transferProtectionOnDamage",
+                "parameters": {
+                  "duration": "scene",
+                  "maximumReduction": 5,
+                  "minimumTargetValue": 0,
+                  "selfGain": {
+                    "context": "actualProtectionReduction"
+                  },
+                  "statistic": "spellResistance",
+                  "transformationGrade": {
+                    "context": "acquiredGroupGradeValue"
+                  },
+                  "trigger": {
+                    "event": "actual-damage",
+                    "targetFlatFooted": true,
+                    "targetHasNoDuration": true
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        20,
+                        27
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        31,
+                        31
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                      "quote": "- 窃取法术抗力：当盗法者成功对一个处于措手不及的不具有持续的目标造成实际伤害时，若目标拥有法术抗力，将减少5点，下限为0，同时获得目标减少的法术抗力，双方的该效果持续都是1场景。 这是等于G的变形效"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "C",
+            "grants": [
+              {
+                "grade": "C",
+                "source": "盗法者",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        20,
+                        27
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        26,
+                        26
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                      "quote": "### 技能树：C级施法职能与盗法者技能树"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "C",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        20,
+                        27
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        26,
+                        26
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                      "quote": "### 技能树：C级施法职能与盗法者技能树"
+                    }
+                  }
+                ],
+                "tree": "盗法者",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "D",
+              "resource": "盗法者"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    20,
+                    27
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                },
+                "reading": {
+                  "lines": [
+                    29,
+                    29
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                  "quote": "- 能量窃取：目标失去的通用能量和获得的临时魔力提升至3点，可将效果分配在不同的通用能量上。若是法术位则可选择1个C级法术位取代D级。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    20,
+                    27
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                },
+                "reading": {
+                  "lines": [
+                    30,
+                    30
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                  "quote": "- 效果窃取：现在能被窃取的效果提升至C级。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    20,
+                    27
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                },
+                "reading": {
+                  "lines": [
+                    27,
+                    27
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                  "quote": "- 能量辨析：现在可通过能量侦测识别目标拥有的每一种通用能量池，包括是什么和有多少剩余。若是运作中的能量源，你也知道它对应的能量是什么和有多少剩余，针对效果，会知道每个效果的具体作用。这是个等于G的探"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    20,
+                    27
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                },
+                "reading": {
+                  "lines": [
+                    31,
+                    31
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                  "quote": "- 窃取法术抗力：当盗法者成功对一个处于措手不及的不具有持续的目标造成实际伤害时，若目标拥有法术抗力，将减少5点，下限为0，同时获得目标减少的法术抗力，双方的该效果持续都是1场景。 这是等于G的变形效"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    20,
+                    27
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                },
+                "reading": {
+                  "lines": [
+                    26,
+                    26
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                  "quote": "### 技能树：C级施法职能与盗法者技能树"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "能量窃取",
+                "operation": "stealEnergyOrSlotOnDamage",
+                "parameters": {
+                  "gain": {
+                    "duration": "scene",
+                    "stackable": true,
+                    "temporaryMagic": 7
+                  },
+                  "genericEnergyAmount": 7,
+                  "knownPool": "choose-nonempty",
+                  "maySplitPools": true,
+                  "slotAlternative": {
+                    "count": 1,
+                    "effectDurationMaximum": "scene",
+                    "knownPreparedSpell": "may-choose",
+                    "maximumGrade": "B",
+                    "usesVictimParameters": true
+                  },
+                  "transformationGrade": {
+                    "context": "acquiredGroupGradeValue"
+                  },
+                  "trigger": {
+                    "event": "actual-damage",
+                    "targetFlatFooted": true,
+                    "targetHasNoDuration": true
+                  },
+                  "unknownPool": "random-nonempty"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        28,
+                        37
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        40,
+                        40
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                      "quote": "- 能量窃取：目标失去的通用能量和获得的临时魔力提升至7点，可将效果分配在不同的通用能量上。若是法术位则可选择1个B级法术位取代C级。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "能量窃取",
+                  "mode": "replace-total"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "效果窃取",
+                "operation": "retargetOngoingEffectTemporarily",
+                "parameters": {
+                  "duration": "minimum-original-remaining-and-scene",
+                  "eligibleSources": [
+                    "generic-energy",
+                    "spell-slots"
+                  ],
+                  "knownEligibleEffect": "may-choose",
+                  "maintenanceAndTerminationOwner": "original",
+                  "maximumGrade": "B",
+                  "parameters": "original",
+                  "requiresSelfLegalTarget": true,
+                  "returnAfterTheftIfOriginalStillLasts": true,
+                  "transformationGrade": {
+                    "context": "acquiredGroupGradeValue"
+                  },
+                  "trigger": {
+                    "event": "actual-damage",
+                    "targetFlatFooted": true,
+                    "targetHasNoDuration": true
+                  },
+                  "unknownEffect": "random-eligible"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        28,
+                        37
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        41,
+                        41
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                      "quote": "- 效果窃取：现在能被窃取的效果等级提升至B级"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "效果窃取",
+                  "mode": "replace-total"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "能量储纳",
+                "operation": "captureReceivedEffect",
+                "parameters": {
+                  "actionCostSource": "self",
+                  "capacity": 1,
+                  "cooldownAfterUseRounds": 6,
+                  "eligibleSources": [
+                    "generic-energy",
+                    "spell-slots"
+                  ],
+                  "energyCost": 0,
+                  "maximumEffectGrade": "C",
+                  "onlyActuallyReceivedSubeffect": true,
+                  "parametersAndRange": "original-caster",
+                  "requiresEmptySlot": true,
+                  "trigger": "after-affected-by-single-target-effect",
+                  "uses": 1
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        28,
+                        37
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        36,
+                        36
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                      "quote": "- 能量储纳：当盗法者受到一个基于通用能量产生的不超过C级的仅对单个目标生效的效果时，他在承受效果后可从效果中存储一部分力量."
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "窃取能量抗力",
+                "operation": "transferProtectionOnDamage",
+                "parameters": {
+                  "duration": "scene",
+                  "maximumReduction": 16,
+                  "minimumTargetValue": 0,
+                  "selfGain": {
+                    "context": "actualProtectionReduction"
+                  },
+                  "sharedAcrossEnergyTypes": true,
+                  "simultaneousPerTarget": 1,
+                  "statistic": "chosen-energy-total-resistance",
+                  "trigger": {
+                    "event": "actual-damage",
+                    "targetFlatFooted": true,
+                    "targetHasNoDuration": true
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        28,
+                        37
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        42,
+                        42
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                      "quote": "- 窃取能量抗力：当盗法者成功对一个处于措手不及的不具有持续的目标造成实际伤害时，若目标拥有能量抗力，你选择一种他拥有的能量抗力(但你可能不知道具体数字)，目标对该能量的抗力在计算总值(包括全能量抗力"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "B",
+            "grants": [
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "B",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        28,
+                        37
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        35,
+                        35
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                      "quote": "### 技能树：B级盗法者技能树"
+                    }
+                  }
+                ],
+                "tree": "盗法者",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "C",
+              "resource": "盗法者"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    28,
+                    37
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                },
+                "reading": {
+                  "lines": [
+                    40,
+                    40
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                  "quote": "- 能量窃取：目标失去的通用能量和获得的临时魔力提升至7点，可将效果分配在不同的通用能量上。若是法术位则可选择1个B级法术位取代C级。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    28,
+                    37
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                },
+                "reading": {
+                  "lines": [
+                    41,
+                    41
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                  "quote": "- 效果窃取：现在能被窃取的效果等级提升至B级"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    28,
+                    37
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                },
+                "reading": {
+                  "lines": [
+                    36,
+                    36
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                  "quote": "- 能量储纳：当盗法者受到一个基于通用能量产生的不超过C级的仅对单个目标生效的效果时，他在承受效果后可从效果中存储一部分力量."
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    28,
+                    37
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                },
+                "reading": {
+                  "lines": [
+                    42,
+                    42
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                  "quote": "- 窃取能量抗力：当盗法者成功对一个处于措手不及的不具有持续的目标造成实际伤害时，若目标拥有能量抗力，你选择一种他拥有的能量抗力(但你可能不知道具体数字)，目标对该能量的抗力在计算总值(包括全能量抗力"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    28,
+                    37
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/盗法者.md"
+                },
+                "reading": {
+                  "lines": [
+                    35,
+                    35
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+                  "quote": "### 技能树：B级盗法者技能树"
+                }
+              }
+            ]
+          }
+        ],
+        "status": "declarative-contract-source",
+        "unresolvedRules": [],
+        "verification": {
+          "deploymentPerformed": false,
+          "runtimeFullyVerified": false,
+          "runtimeTested": false
+        }
+      },
+      "runtimeSlices": [],
+      "sharedRulesLock": "2d4f858c035f847bc05a312a0e7efea245cd0f6795890239754d371a5b75005c",
+      "units": [
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-2c81df049aff",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "盗法者",
+          "reading": {
+            "endLine": 10,
+            "sha256": "8af45d8c8f3304c6a0e60e0277670a813c051a85392e3805a6e4c0197996e87b",
+            "startLine": 1
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 9
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-9f74bd19b719",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "D级",
+          "reading": {
+            "endLine": 13,
+            "sha256": "2b0d231d005dd92284a6b7119b6f506ca275da611b40d514bef6b875abfcf3f0",
+            "startLine": 11
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/2",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/3",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/4"
+          ],
+          "declaredFields": {},
+          "id": "clause-a3f20663c9a7",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "技能树：D级施法职能与盗法者技能树",
+          "reading": {
+            "endLine": 23,
+            "sha256": "3d284d1a8244a29fa3b7d66c78e9d793f01bce0a958eccbc54a011ad3ae8143a",
+            "startLine": 14
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "cost",
+              "relativeLine": 5
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 5
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 5
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 6
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 6
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 6
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 7
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 7
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/2",
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/3"
+          ],
+          "declaredFields": {},
+          "id": "clause-3e40d00f8fbf",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "技能树：C级施法职能与盗法者技能树",
+          "reading": {
+            "endLine": 32,
+            "sha256": "3b83d085eba92776dcc14d7c107feb91bd272d13122fb50724ce2aec6acabbd4",
+            "startLine": 26
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "trigger",
+              "relativeLine": 2
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 3
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 4
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 4
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 5
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 6
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 6
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/2",
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/3"
+          ],
+          "declaredFields": {},
+          "id": "clause-463abcda9825",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "技能树：B级盗法者技能树",
+          "reading": {
+            "endLine": 43,
+            "sha256": "fb2393652acab61576fef488a2ec5f489bdba471781129598f9c2e7e4fe9bb85",
+            "startLine": 35
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "exclusion",
+              "relativeLine": 3
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 3
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 3
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 6
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 6
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 7
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 8
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 8
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-0d528c0166b6",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "偷袭D500",
+          "reading": {
+            "endLine": 48,
+            "sha256": "ea5fec65b9d75580ac6ed8be9349b13f0daaec8626fe08b8e34457ca9f1760ab",
+            "startLine": 46
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "trigger",
+              "relativeLine": 2
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-6fa2d7f81154",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 9,
+                "candidateXP": 65,
+                "grade": "B",
+                "legacyPoints": 2000
+              }
+            ]
+          },
+          "name": "法术明晰B+2000",
+          "reading": {
+            "endLine": 56,
+            "sha256": "1406526e0b6b3917763e6b51053a194911bc1a99e77b7be05524eb2f1525b038",
+            "startLine": 53
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-3a4ce5e50422",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 9,
+                "candidateXP": 65,
+                "grade": "B",
+                "legacyPoints": 2000
+              }
+            ]
+          },
+          "name": "盗法大师B+2000",
+          "reading": {
+            "endLine": 59,
+            "sha256": "9452fd8306ca9f24acda598583b441173701b75bad1f8fdd08875c6f54f8ccde",
+            "startLine": 57
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 2
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 2
+            }
+          ],
+          "unresolvedRuleIds": []
+        }
+      ]
+    },
+    "effects": [],
+    "programs": {}
+  },
+  "id": "candidate-901-magic-bundle-457a8ecefc667a14",
+  "identity": {
+    "adoptionStatus": "candidate",
+    "aliases": [],
+    "category": "bundle",
+    "grade": "multi",
+    "name": "盗法者",
+    "sharedDependencies": [
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "bbf7521e7514bb9c807e6b5bf07fa55016853cf31ccacd69d2f725e54feb3758"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/共用901判定.md",
+        "sha256": "1c5398bf728c5e94bfa2cc1cf037ead08a0dec1e1898278e844b25b643463bbd"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/来源与核算.md",
+        "sha256": "8f17c529f1b5465fceaefc24931869b82e071d4ab8fb3ed561359864cbf98334"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/未决项.md",
+        "sha256": "3ceae5df0f4bd271ea79956004dba56bd8698eea62b7508871ce11a406903375"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/专有机制.md",
+        "sha256": "14a331e47e9d578634f29e2bae74a1501e916fc594cdef41f9e40b0fa8bafe62"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/引用定位.md",
+        "sha256": "699deab37356bb930ab497aa8bc555f756c174a799a9a91b922345ea6f1be0b1"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/通用法术.md",
+        "sha256": "8922768b19c7c65a410498c69cddc5441796a85c7c50b4871786ecff3a4cbaed"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/防护与状态.md",
+        "sha256": "c9d0b1b1dc1f2546f92faa5dda66464c531283095d21990d8004df4c8e641a12"
+      }
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/能力组/施法类型/盗法者.md",
+        "sha256": "eddfcd39c15d535a77b4aee7f1fdc1127875b525cf1ad0967a5104ece5ef5841"
+      }
+    ],
+    "tree": "盗法者"
+  },
+  "implementationGaps": [
+    "本体声明尚需逐机制接入与执行证明；技能树逐条款保留来源定位，尚未完整编码；未验证动作不进入执行白名单。"
+  ],
+  "inputs": [
+    {
+      "id": "ownedResource",
+      "missingPolicy": "block-related-operation",
+      "provider": "saved-state",
+      "requiredFor": [
+        "effects",
+        "actions"
+      ],
+      "type": "versioned-acquisition-record"
+    },
+    {
+      "id": "choices",
+      "missingPolicy": "ask-only-required-choice",
+      "provider": "player",
+      "requiredFor": [
+        "acquisition"
+      ],
+      "type": "declared-selection"
+    },
+    {
+      "id": "sceneFacts",
+      "missingPolicy": "block-related-operation",
+      "provider": "host",
+      "requiredFor": [
+        "actions"
+      ],
+      "type": "sourced-target-and-scene"
+    },
+    {
+      "basis": "当前人物本能力组真实已取得阶位与采用/来源记录",
+      "id": "context:acquiredGroupGradeValue",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "D/能量侦测",
+        "D/能量窃取",
+        "D/效果窃取",
+        "C/能量窃取",
+        "C/效果窃取",
+        "C/能量辨析",
+        "C/窃取法术抗力",
+        "B/能量窃取",
+        "B/效果窃取"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+      "id": "context:actualProtectionReduction",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "C/窃取法术抗力",
+        "B/窃取能量抗力"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "当前真实感官及场景视线效果线记录",
+      "id": "context:confirmedSenses.fuzzyVision",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "D/能量侦测"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    }
+  ],
+  "reading": {
+    "path": "outputs/施法体系适配-20261024/阅读版/盗法者.md",
+    "sha256": "dc8c0bc2af971b1555095399af25ba5952077d3ee5ddb68f22bd4979b546517d"
+  },
+  "schemaVersion": "901-resource/1",
+  "unresolvedRules": [],
+  "verification": {
+    "runtimeFullyVerified": false,
+    "scope": "paired-source-and-declarative-base; not full runtime",
+    "sourceChecked": true,
+    "status": "pending"
+  },
+  "version": "2026-10-25.magic.1"
+}

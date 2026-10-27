@@ -1,0 +1,2350 @@
+{
+  "actions": [
+    {
+      "actionCost": [],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-e4f09b2e17f7",
+      "id": "candidate-901-magic-bundle-7e5bab59aa268e3a/clause-e4f09b2e17f7",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "A级 巫妖",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-18e452b82a7f",
+      "id": "candidate-901-magic-bundle-7e5bab59aa268e3a/clause-18e452b82a7f",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "灵视(灵魂法师) D+500",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 6,
+          "relativeLine": 2
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-808aac2c4488",
+      "id": "candidate-901-magic-bundle-7e5bab59aa268e3a/clause-808aac2c4488",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "结晶化 B+2000",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 6,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-54be4c4d0bc0",
+      "id": "candidate-901-magic-bundle-7e5bab59aa268e3a/clause-54be4c4d0bc0",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "灵魂箭",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 6,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-bcfff0287ad7",
+      "id": "candidate-901-magic-bundle-7e5bab59aa268e3a/clause-bcfff0287ad7",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "灵魂巨箭",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 10,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-c2fbf6faf8a5",
+      "id": "candidate-901-magic-bundle-7e5bab59aa268e3a/clause-c2fbf6faf8a5",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "灵魂枪",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    }
+  ],
+  "clauses": [
+    {
+      "effectStats": [],
+      "heading": "THE_LAND灵魂法师",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "D级 初级法师资格",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "C级 中级法师资格",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "B级 高级法师资格",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "A级 巫妖",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "灵视(灵魂法师) D+500",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "异类施术者 D+500",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "结晶化 B+2000",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "灵魂箭",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "强力灵魂箭(1XP)",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "灵魂巨箭",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "强力灵魂巨箭(3XP)",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "灵魂枪",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "灵魂箭乱射",
+      "status": "rule-unresolved"
+    },
+    {
+      "effectStats": [],
+      "heading": "灵魂快剑",
+      "status": "rule-unresolved"
+    },
+    {
+      "effectStats": [],
+      "heading": "灵魂巨剑",
+      "status": "rule-unresolved"
+    },
+    {
+      "effectStats": [],
+      "heading": "苍蓝猛突",
+      "status": "rule-unresolved"
+    },
+    {
+      "effectStats": [],
+      "heading": "灵魂激流",
+      "status": "rule-unresolved"
+    },
+    {
+      "effectStats": [],
+      "heading": "灵魂块",
+      "status": "rule-unresolved"
+    },
+    {
+      "effectStats": [],
+      "heading": "灵魂灭龙枪",
+      "status": "rule-unresolved"
+    },
+    {
+      "effectStats": [],
+      "heading": "德谬歌结界 A+4000",
+      "status": "rule-unresolved"
+    }
+  ],
+  "definition": {
+    "authoringOnly": {
+      "acquisition": {
+        "autoGrantToT0": false,
+        "requiresActualQualification": true,
+        "requiresAdoptedOffer": true,
+        "resetState": false,
+        "treeEntryGrantsChildren": false,
+        "unverifiedPricesMayNotBeCharged": true
+      },
+      "baseMechanisms": {
+        "constraints": [
+          {
+            "automaticTechniqueGrant": false,
+            "operation": "separateTreeAccessFromTechniqueAcquisition"
+          }
+        ],
+        "implementationGaps": [
+          {
+            "effectIds": [
+              "施法教育",
+              "心灵状态削减",
+              "意志修行",
+              "灵魂控制池",
+              "灵魂控制池",
+              "灵魂脱体",
+              "重铸躯体",
+              "灵魂法术P",
+              "魂匣",
+              "学习效率"
+            ],
+            "kind": "operation-support-and-acquisition-transaction",
+            "notUnresolvedRule": true,
+            "status": "implementation-needed"
+          }
+        ],
+        "inputBindings": {
+          "classifierMaySelectRegisteredChoicesOnly": true,
+          "contextInputs": [
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "心灵状态削减",
+                  "grade": "D"
+                },
+                {
+                  "effectId": "意志修行",
+                  "grade": "D"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "acquiredGroupGradeValue",
+              "provider": "当前人物本能力组真实已取得阶位与采用/来源记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "重铸躯体",
+                  "grade": "A"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": false,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedRevivalServiceOffer",
+              "provider": "主持登记实际可用的901复活服务来源与本次报价；原1000分价格不自动创造服务",
+              "requiredFields": [
+                "offerId",
+                "source",
+                "price",
+                "currency",
+                "conditionsMet"
+              ],
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "object"
+            }
+          ],
+          "mustNotInferOwnedStageFromDefinition": true,
+          "stateReads": []
+        },
+        "numericalPolicy": {
+          "actionRatingRounding": "ceil-before-action-table",
+          "defaultRounding": "floor-after-complete-effect",
+          "distanceRounding": "none",
+          "explicitAccumulatedXP": "retain-source-precision",
+          "intermediateRounding": "only-if-explicit",
+          "reading": {
+            "lines": [
+              86,
+              86
+            ],
+            "path": "outputs/施法体系适配-20261024/共用901判定.md",
+            "sha256": "1c5398bf728c5e94bfa2cc1cf037ead08a0dec1e1898278e844b25b643463bbd"
+          },
+          "runtimeStatus": "implementation-needed",
+          "timeRounding": "none",
+          "xpCostRounding": "ceil"
+        },
+        "purchasableCasterFunctions": [
+          {
+            "baseXP": 162,
+            "grade": "S",
+            "grantsBodyStage": false,
+            "ignoresOtherSources": true,
+            "opensMatchingTree": false,
+            "repeatable": false,
+            "requiresPriorFunctionFromSameSource": "A",
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    44,
+                    46
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    41,
+                    41
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                  "quote": "- 可购买更高等级的施法职能，对应S级施法职能价格为162XP"
+                }
+              }
+            ]
+          }
+        ],
+        "readingSHA256": "904b784bca9655a56de6701089202952f8380ec0b37606603072a83d8a70e836",
+        "runtimeFullyVerified": false,
+        "scope": "ability-group-body-only",
+        "stageInheritance": {
+          "dynamicGradeReadsCurrentActuallyAcquiredStage": true,
+          "replacementFamilyUsesHighestAcquiredStageOnly": true,
+          "retainPriorStageBenefits": true
+        },
+        "stages": [
+          {
+            "choices": [
+              {
+                "at": "acquisition",
+                "key": "education",
+                "options": [
+                  "施法教育",
+                  "灵魂箭"
+                ]
+              }
+            ],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [
+                  {
+                    "choiceEquals": {
+                      "education": "施法教育"
+                    }
+                  }
+                ],
+                "id": "施法教育",
+                "operation": "reduceLearningXP",
+                "parameters": {
+                  "amount": 1,
+                  "minimum": 1,
+                  "scopes": [
+                    "self-study-D-generic-spell",
+                    "mental-magic-key-attribute-growth",
+                    "神秘学-growth"
+                  ]
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        8,
+                        19
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        16,
+                        16
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                      "quote": "- 施法教育：灵魂法师是正统的科班法师，在自学D级通用法术，提升精神魔力关键属性和神秘学技能的XP消耗中减少1点，至少为1。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "心灵状态削减",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "value": {
+                    "args": [
+                      4,
+                      {
+                        "context": "acquiredGroupGradeValue"
+                      }
+                    ],
+                    "op": "mul"
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        8,
+                        19
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        18,
+                        18
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                      "quote": "- 灵魂控制：受到影响心灵的不良状态前，先减去4×G点；意志检定+3×G修行加值。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "心灵状态削减",
+                  "mode": "derived-current-grade"
+                },
+                "target": "incomingMindStatus.preReduction",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "意志修行",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "bonusCategory": "修行",
+                  "value": {
+                    "args": [
+                      3,
+                      {
+                        "context": "acquiredGroupGradeValue"
+                      }
+                    ],
+                    "op": "mul"
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        8,
+                        19
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        18,
+                        18
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                      "quote": "- 灵魂控制：受到影响心灵的不良状态前，先减去4×G点；意志检定+3×G修行加值。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "意志修行",
+                  "mode": "derived-current-grade"
+                },
+                "target": "checks.willDP",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "D",
+            "grants": [
+              {
+                "capacityPolicy": "shared-901-pool-rule",
+                "fillOnAcquisition": false,
+                "kind": "精神魔力",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        8,
+                        19
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        14,
+                        14
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                      "quote": "- 能量池：精神魔力"
+                    }
+                  }
+                ],
+                "type": "energy-pool"
+              },
+              {
+                "grade": "D",
+                "source": "THE_LAND灵魂法师",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        8,
+                        19
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        15,
+                        15
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                      "quote": "- 技能树：开启D级灵魂法师技能树与施法者职能"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "D",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        8,
+                        19
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        15,
+                        15
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                      "quote": "- 技能树：开启D级灵魂法师技能树与施法者职能"
+                    }
+                  }
+                ],
+                "tree": "THE_LAND灵魂法师",
+                "type": "tree-access"
+              },
+              {
+                "conditions": [
+                  {
+                    "choiceEquals": {
+                      "education": "灵魂箭"
+                    }
+                  }
+                ],
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        16,
+                        18
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        17,
+                        17
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                      "quote": "- 你也可不获得该特性，而是获得灵魂箭技艺。"
+                    }
+                  }
+                ],
+                "technique": "灵魂箭",
+                "type": "explicit-technique"
+              }
+            ],
+            "requiresPriorStage": null,
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    8,
+                    19
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    16,
+                    16
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                  "quote": "- 施法教育：灵魂法师是正统的科班法师，在自学D级通用法术，提升精神魔力关键属性和神秘学技能的XP消耗中减少1点，至少为1。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    8,
+                    19
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    18,
+                    18
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                  "quote": "- 灵魂控制：受到影响心灵的不良状态前，先减去4×G点；意志检定+3×G修行加值。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    8,
+                    19
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    14,
+                    14
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                  "quote": "- 能量池：精神魔力"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    8,
+                    19
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    15,
+                    15
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                  "quote": "- 技能树：开启D级灵魂法师技能树与施法者职能"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    16,
+                    18
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    17,
+                    17
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                  "quote": "- 你也可不获得该特性，而是获得灵魂箭技艺。"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "灵魂控制池",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "value": 10
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        20,
+                        25
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        23,
+                        23
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                      "quote": "- 灵魂控制：获得10点精神魔力上限。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "灵魂控制池",
+                  "mode": "add-increment"
+                },
+                "target": "resources.精神魔力.max",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "C",
+            "grants": [
+              {
+                "grade": "C",
+                "source": "THE_LAND灵魂法师",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        20,
+                        25
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        21,
+                        21
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                      "quote": "- 技能树：开启C级灵魂法师技能树与施法者职能"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "C",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        20,
+                        25
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        21,
+                        21
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                      "quote": "- 技能树：开启C级灵魂法师技能树与施法者职能"
+                    }
+                  }
+                ],
+                "tree": "THE_LAND灵魂法师",
+                "type": "tree-access"
+              },
+              {
+                "count": 1,
+                "filter": {
+                  "page": "THE_LAND灵魂法师"
+                },
+                "free": true,
+                "maximumPrice": {
+                  "grade": "C",
+                  "points": 1000
+                },
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        23,
+                        25
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        22,
+                        22
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                      "quote": "- 你选1个本页不超过C+1000的技艺获得。"
+                    }
+                  }
+                ],
+                "type": "explicit-technique-choice"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "D",
+              "resource": "THE_LAND灵魂法师"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    20,
+                    25
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    23,
+                    23
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                  "quote": "- 灵魂控制：获得10点精神魔力上限。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    20,
+                    25
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    21,
+                    21
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                  "quote": "- 技能树：开启C级灵魂法师技能树与施法者职能"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    23,
+                    25
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    22,
+                    22
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                  "quote": "- 你选1个本页不超过C+1000的技艺获得。"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "灵魂控制池",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "value": 20
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        26,
+                        31
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        28,
+                        28
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                      "quote": "- 灵魂控制：获得20点精神魔力上限。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "灵魂控制池",
+                  "mode": "add-increment"
+                },
+                "target": "resources.精神魔力.max",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "B",
+            "grants": [
+              {
+                "grade": "B",
+                "source": "THE_LAND灵魂法师",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        26,
+                        31
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        26,
+                        26
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                      "quote": "- 技能树：开启B级灵魂法师技能树与施法者职能"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "B",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        26,
+                        31
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        26,
+                        26
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                      "quote": "- 技能树：开启B级灵魂法师技能树与施法者职能"
+                    }
+                  }
+                ],
+                "tree": "THE_LAND灵魂法师",
+                "type": "tree-access"
+              },
+              {
+                "count": 1,
+                "filter": {
+                  "includesOtherGenericSpells": true,
+                  "tree": "THE_LAND灵魂法师"
+                },
+                "free": true,
+                "maximumPrice": {
+                  "grade": "B",
+                  "points": 2000
+                },
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        29,
+                        31
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        27,
+                        27
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                      "quote": "- 你选1个本组技能树下一个不超过B+2000的技艺获得，包括其他的通用法术。"
+                    }
+                  }
+                ],
+                "type": "explicit-technique-choice"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "C",
+              "resource": "THE_LAND灵魂法师"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    26,
+                    31
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    28,
+                    28
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                  "quote": "- 灵魂控制：获得20点精神魔力上限。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    26,
+                    31
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    26,
+                    26
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                  "quote": "- 技能树：开启B级灵魂法师技能树与施法者职能"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    29,
+                    31
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    27,
+                    27
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                  "quote": "- 你选1个本组技能树下一个不超过B+2000的技艺获得，包括其他的通用法术。"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "灵魂脱体",
+                "operation": "reviveAsSpiritOnDeath",
+                "parameters": {
+                  "doesNotRepeatWhenPermanentSpiritDies": true,
+                  "location": "same",
+                  "trigger": "death",
+                  "usesNormalRevivalRules": true
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        32,
+                        45
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        32,
+                        32
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                      "quote": "- 当你死亡时，自身灵魂能从肉体脱离，这视为在死亡后立刻以灵体形态原地复活，遵循通常复活规则，当自身灵体没有持续时再次死亡，本特性效果不再发动。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [
+                  {
+                    "soulExists": true
+                  }
+                ],
+                "id": "重铸躯体",
+                "operation": "revivalServiceEligibility",
+                "parameters": {
+                  "automaticallyCreatesService": false,
+                  "originalPointPrice": 1000,
+                  "requiresConfirmedServiceOffer": true,
+                  "serviceOffer": {
+                    "context": "confirmedRevivalServiceOffer"
+                  },
+                  "serviceSource": "confirmed-901-source"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        32,
+                        45
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        33,
+                        33
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                      "quote": "- 灵魂尚在时可重铸躯体复活；原1000分服务不随能力生成。901取得/费用见未决R-服务。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [
+                  {
+                    "soulSpellOrAffectsSoul": "gm-confirmed"
+                  }
+                ],
+                "id": "灵魂法术P",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "bypassPowerCap": true,
+                  "value": 4
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        32,
+                        45
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        34,
+                        34
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                      "quote": "- 你释放的灵魂法术与影响灵魂(由ST定义)的P提升4点，该威力提升可突破威力上限。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "灵魂法术P",
+                  "mode": "add-increment"
+                },
+                "target": "spell.power",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "魂匣",
+                "operation": "grantReferencedTraitWithOverrides",
+                "parameters": {
+                  "openTree": "魂魔导",
+                  "overrides": {
+                    "lossDoesNotKill": true,
+                    "poltergeistMobilityAttribute": "感知",
+                    "poltergeistOutputAttribute": "智力",
+                    "replaceXP": 25,
+                    "selectAtAcquisition": false,
+                    "selectWhenNeeded": true
+                  },
+                  "reference": "魂魔导.魂匣"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        32,
+                        45
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        36,
+                        36
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                      "quote": "- 你也获得了魂魔导捆绑包中的魂匣特性并开启了魂魔导的技能树，但具有以下改动——"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [
+                  {
+                    "taskAny": [
+                      "decode-soul-spell",
+                      "research-soul-spell"
+                    ]
+                  }
+                ],
+                "id": "学习效率",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "bonusCategory": "修行",
+                  "grantsXP": false,
+                  "repeatedTrainingDoesNotAccumulate": true,
+                  "value": 3
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        32,
+                        45
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        35,
+                        35
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                      "quote": "- 学习效率（替代额外训练XP）：神秘技能中解读、研究灵魂法术的知识检定获得+3修行DP；被动，随A阶有效，不随训练周期重复累积，不用于攻击或增加施法威力，也不产生XP。与其他来源同类加值取高。原每周"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "学习效率",
+                  "mode": "highest-of-same-category"
+                },
+                "target": "skills.神秘.knowledgeDP",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "A",
+            "grants": [
+              {
+                "grade": "A",
+                "source": "THE_LAND灵魂法师",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        32,
+                        45
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        31,
+                        31
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                      "quote": "- 技能树：开启A级灵魂法师技能树与施法者职能"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "A",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        32,
+                        45
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        31,
+                        31
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                      "quote": "- 技能树：开启A级灵魂法师技能树与施法者职能"
+                    }
+                  }
+                ],
+                "tree": "THE_LAND灵魂法师",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "B",
+              "resource": "THE_LAND灵魂法师"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    32,
+                    45
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    32,
+                    32
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                  "quote": "- 当你死亡时，自身灵魂能从肉体脱离，这视为在死亡后立刻以灵体形态原地复活，遵循通常复活规则，当自身灵体没有持续时再次死亡，本特性效果不再发动。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    32,
+                    45
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    33,
+                    33
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                  "quote": "- 灵魂尚在时可重铸躯体复活；原1000分服务不随能力生成。901取得/费用见未决R-服务。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    32,
+                    45
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    34,
+                    34
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                  "quote": "- 你释放的灵魂法术与影响灵魂(由ST定义)的P提升4点，该威力提升可突破威力上限。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    32,
+                    45
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    36,
+                    36
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                  "quote": "- 你也获得了魂魔导捆绑包中的魂匣特性并开启了魂魔导的技能树，但具有以下改动——"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    32,
+                    45
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    35,
+                    35
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                  "quote": "- 学习效率（替代额外训练XP）：神秘技能中解读、研究灵魂法术的知识检定获得+3修行DP；被动，随A阶有效，不随训练周期重复累积，不用于攻击或增加施法威力，也不产生XP。与其他来源同类加值取高。原每周"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    32,
+                    45
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    31,
+                    31
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+                  "quote": "- 技能树：开启A级灵魂法师技能树与施法者职能"
+                }
+              }
+            ]
+          }
+        ],
+        "status": "declarative-contract-source",
+        "unresolvedRules": [],
+        "verification": {
+          "deploymentPerformed": false,
+          "runtimeFullyVerified": false,
+          "runtimeTested": false
+        }
+      },
+      "runtimeSlices": [],
+      "sharedRulesLock": "2d4f858c035f847bc05a312a0e7efea245cd0f6795890239754d371a5b75005c",
+      "units": [
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-16fd803e9e15",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "THE_LAND灵魂法师",
+          "reading": {
+            "endLine": 10,
+            "sha256": "9bd13f0ba84a452713c48f150caafc1ab5ce674af4aa74b0c60f57ce89806547",
+            "startLine": 1
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 9
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/2"
+          ],
+          "declaredFields": {},
+          "id": "clause-7f68829d1d2f",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "D级 初级法师资格",
+          "reading": {
+            "endLine": 19,
+            "sha256": "0727e480ae229cf9e80a5631ed5ee9d586790767dca9ca3191587d0af12ed502",
+            "startLine": 13
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "cost",
+              "relativeLine": 4
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 4
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/0"
+          ],
+          "declaredFields": {},
+          "id": "clause-8e7762dae5da",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "C级 中级法师资格",
+          "reading": {
+            "endLine": 24,
+            "sha256": "1223e279faec0dad62d2f6ae083c9498007b9316dece9ce55fee37060e561d8a",
+            "startLine": 20
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/0"
+          ],
+          "declaredFields": {},
+          "id": "clause-062240aed645",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "B级 高级法师资格",
+          "reading": {
+            "endLine": 29,
+            "sha256": "336d0e701a305fcece045ea7c5b7548fafe3d6e701f7a7fcc9e598ed9d09dd66",
+            "startLine": 25
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/3/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/3/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/3/effects/2",
+            "/definition/authoringOnly/baseMechanisms/stages/3/effects/3",
+            "/definition/authoringOnly/baseMechanisms/stages/3/effects/4"
+          ],
+          "declaredFields": {},
+          "id": "clause-e4f09b2e17f7",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "A级 巫妖",
+          "reading": {
+            "endLine": 42,
+            "sha256": "0037ebd75159fc13a51ea11d565befebac4ec246767516296ed1660489defe58",
+            "startLine": 30
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "duration",
+              "relativeLine": 3
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 3
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 5
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 9
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 9
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-18e452b82a7f",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              }
+            ]
+          },
+          "name": "灵视(灵魂法师) D+500",
+          "reading": {
+            "endLine": 48,
+            "sha256": "aaa6f4dff1752240e643da72ebccc85e6a6f12b6b06b5dd0532edcce816ae769",
+            "startLine": 45
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-eeb285fd9f68",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              }
+            ]
+          },
+          "name": "异类施术者 D+500",
+          "reading": {
+            "endLine": 52,
+            "sha256": "9e01095bcc0f03f8e0469ed171fe10e16c9496fa6f2efefde80c5ea7e9f64bb2",
+            "startLine": 49
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 6,
+              "relativeLine": 2
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-808aac2c4488",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 9,
+                "candidateXP": 65,
+                "grade": "B",
+                "legacyPoints": 2000
+              }
+            ]
+          },
+          "name": "结晶化 B+2000",
+          "reading": {
+            "endLine": 58,
+            "sha256": "1cdb8d636bfe60f519cb4c645922c154980034f24faaeaad1957f7c0ff3e8c1c",
+            "startLine": 53
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "cost",
+              "relativeLine": 2
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 2
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 3
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 5
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 6,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "P": "1",
+            "冷却": "1轮",
+            "学习原价": "250",
+            "射程": "10KP米",
+            "成分": "言/姿",
+            "施放": "标准(q6)",
+            "领域": "变化与塑能"
+          },
+          "id": "clause-54be4c4d0bc0",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "candidate-branchless-learning-price",
+                "candidateXP": 3,
+                "grade": "ungraded",
+                "legacyPoints": 250
+              }
+            ]
+          },
+          "name": "灵魂箭",
+          "reading": {
+            "endLine": 63,
+            "sha256": "abe2f18f931645a1440754247db0d1fc2d9a09c80dd00f5ce710c148312ec1bc",
+            "startLine": 59
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-11ae61a4c4a3",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "强力灵魂箭(1XP)",
+          "reading": {
+            "endLine": 66,
+            "sha256": "9f75bfa9f7dfd723e1ea373867ab1f3ca4db20626192a652192f21b6d4fa3982",
+            "startLine": 64
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "cost",
+              "relativeLine": 2
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 2
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 6,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "冷却": "1轮",
+            "学习原价": "D+500",
+            "射程": "10KP米",
+            "成分": "言/姿",
+            "施放": "标准(q6)",
+            "领域": "变化与塑能"
+          },
+          "id": "clause-bcfff0287ad7",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              }
+            ]
+          },
+          "name": "灵魂巨箭",
+          "reading": {
+            "endLine": 71,
+            "sha256": "0b421ac3ed05a8dcadfb05019fe9f60fb17bedde92c9ef44f55b2c71b89aaf57",
+            "startLine": 67
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-a5f6f793fc9a",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "强力灵魂巨箭(3XP)",
+          "reading": {
+            "endLine": 75,
+            "sha256": "2b2b3b73a39bb6c457e3b8ae2cdc44f66346071533bb9c92a1f5fe15bb69a84c",
+            "startLine": 72
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "cost",
+              "relativeLine": 2
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 2
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 3
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 10,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "冷却": "3轮",
+            "学习原价": "C+1000",
+            "射程": "10KP米",
+            "成分": "言/姿",
+            "施放": "标准＋移动(q10)",
+            "领域": "变化与塑能"
+          },
+          "id": "clause-c2fbf6faf8a5",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 3,
+                "candidateXP": 25,
+                "grade": "C",
+                "legacyPoints": 1000
+              }
+            ]
+          },
+          "name": "灵魂枪",
+          "reading": {
+            "endLine": 81,
+            "sha256": "aace5f8c7e502b6bd457d2127f233f945aecb4c3e19344ae324d5a8648f22821",
+            "startLine": 76
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 5
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-b2799af7d959",
+          "implementationGaps": [],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "灵魂箭乱射",
+          "reading": {
+            "endLine": 85,
+            "sha256": "8fc340898c8e0cc0ee2afe1170b3996119565cfe762471095d48cc1ff4ff4fca",
+            "startLine": 82
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "exclusion",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": [
+            "R-源缺·灵魂法师/灵魂箭乱射"
+          ]
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-30099fdfbdd6",
+          "implementationGaps": [],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "灵魂快剑",
+          "reading": {
+            "endLine": 89,
+            "sha256": "dbf9a1d139689d44807231d5d216239aae9a95fa152ccea8091d8b4d0d9d7f99",
+            "startLine": 86
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "exclusion",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": [
+            "R-源缺·灵魂法师/灵魂快剑"
+          ]
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-2029276af5ae",
+          "implementationGaps": [],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "灵魂巨剑",
+          "reading": {
+            "endLine": 93,
+            "sha256": "b100c922aac44211bd3403f3bcd9f145dd31b1793e81cdc91db3b0c8b051d9f1",
+            "startLine": 90
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "exclusion",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": [
+            "R-源缺·灵魂法师/灵魂巨剑"
+          ]
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-b8c2c6be5499",
+          "implementationGaps": [],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "苍蓝猛突",
+          "reading": {
+            "endLine": 97,
+            "sha256": "523ad0532018e0b0bb366e0a1f925d53d6023d8a48d4d4dd6b4649ce3d74f9ec",
+            "startLine": 94
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "exclusion",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": [
+            "R-源缺·灵魂法师/苍蓝猛突"
+          ]
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-7f615fd10e09",
+          "implementationGaps": [],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "灵魂激流",
+          "reading": {
+            "endLine": 101,
+            "sha256": "c67fd184701952af6f866994e1b52b3893e42eef0e41285e295e286565b2dc2e",
+            "startLine": 98
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "exclusion",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": [
+            "R-源缺·灵魂法师/灵魂激流"
+          ]
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-e854b205d24a",
+          "implementationGaps": [],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "灵魂块",
+          "reading": {
+            "endLine": 105,
+            "sha256": "21c0399c453209ff6d020260d8503cddcb244bc7d5fa8960bad5507ab84b93d0",
+            "startLine": 102
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "exclusion",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": [
+            "R-源缺·灵魂法师/灵魂块"
+          ]
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-de34c7ab633f",
+          "implementationGaps": [],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "灵魂灭龙枪",
+          "reading": {
+            "endLine": 109,
+            "sha256": "4cdee4f8b56ab72b67425ec325bd6fdf8c81bc46a6c0ffa90792c326caf32422",
+            "startLine": 106
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "exclusion",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": [
+            "R-源缺·灵魂法师/灵魂灭龙枪"
+          ]
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-2b9a8e59d7da",
+          "implementationGaps": [],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 27,
+                "candidateXP": 175,
+                "grade": "A",
+                "legacyPoints": 4000
+              }
+            ]
+          },
+          "name": "德谬歌结界 A+4000",
+          "reading": {
+            "endLine": 112,
+            "sha256": "61eca635da4c55007b057103d3c06d2b773f428451e517122d214839c72e4b3d",
+            "startLine": 110
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "exclusion",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": [
+            "R-源缺·灵魂法师/德谬歌结界"
+          ]
+        }
+      ]
+    },
+    "effects": [],
+    "programs": {}
+  },
+  "id": "candidate-901-magic-bundle-7e5bab59aa268e3a",
+  "identity": {
+    "adoptionStatus": "candidate",
+    "aliases": [],
+    "category": "bundle",
+    "grade": "multi",
+    "name": "THE_LAND灵魂法师",
+    "sharedDependencies": [
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "bbf7521e7514bb9c807e6b5bf07fa55016853cf31ccacd69d2f725e54feb3758"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/共用901判定.md",
+        "sha256": "1c5398bf728c5e94bfa2cc1cf037ead08a0dec1e1898278e844b25b643463bbd"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/来源与核算.md",
+        "sha256": "8f17c529f1b5465fceaefc24931869b82e071d4ab8fb3ed561359864cbf98334"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/未决项.md",
+        "sha256": "3ceae5df0f4bd271ea79956004dba56bd8698eea62b7508871ce11a406903375"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/专有机制.md",
+        "sha256": "14a331e47e9d578634f29e2bae74a1501e916fc594cdef41f9e40b0fa8bafe62"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/引用定位.md",
+        "sha256": "699deab37356bb930ab497aa8bc555f756c174a799a9a91b922345ea6f1be0b1"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/通用法术.md",
+        "sha256": "8922768b19c7c65a410498c69cddc5441796a85c7c50b4871786ecff3a4cbaed"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/防护与状态.md",
+        "sha256": "c9d0b1b1dc1f2546f92faa5dda66464c531283095d21990d8004df4c8e641a12"
+      }
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md",
+        "sha256": "9b6acb5a7ad7ac291e330af2deea8928d2c1a4eeb71e77f5da0eab5c56ac62c1"
+      }
+    ],
+    "tree": "THE_LAND灵魂法师"
+  },
+  "implementationGaps": [
+    "本体声明尚需逐机制接入与执行证明；技能树逐条款保留来源定位，尚未完整编码；未验证动作不进入执行白名单。"
+  ],
+  "inputs": [
+    {
+      "id": "ownedResource",
+      "missingPolicy": "block-related-operation",
+      "provider": "saved-state",
+      "requiredFor": [
+        "effects",
+        "actions"
+      ],
+      "type": "versioned-acquisition-record"
+    },
+    {
+      "id": "choices",
+      "missingPolicy": "ask-only-required-choice",
+      "provider": "player",
+      "requiredFor": [
+        "acquisition"
+      ],
+      "type": "declared-selection"
+    },
+    {
+      "id": "sceneFacts",
+      "missingPolicy": "block-related-operation",
+      "provider": "host",
+      "requiredFor": [
+        "actions"
+      ],
+      "type": "sourced-target-and-scene"
+    },
+    {
+      "basis": "当前人物本能力组真实已取得阶位与采用/来源记录",
+      "id": "context:acquiredGroupGradeValue",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "D/心灵状态削减",
+        "D/意志修行"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "主持登记实际可用的901复活服务来源与本次报价；原1000分价格不自动创造服务",
+      "id": "context:confirmedRevivalServiceOffer",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "A/重铸躯体"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "object"
+    }
+  ],
+  "reading": {
+    "path": "outputs/施法体系适配-20261024/阅读版/THE_LAND灵魂法师.md",
+    "sha256": "904b784bca9655a56de6701089202952f8380ec0b37606603072a83d8a70e836"
+  },
+  "schemaVersion": "901-resource/1",
+  "unresolvedRules": [
+    {
+      "basis": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md:104—111只列名称；德谬歌结界仅额外列A+4000，无效果。",
+      "group": "R-源缺·灵魂法师",
+      "impact": "仅该技艺不可施放，不影响其他已明确条款。",
+      "parameter": "灵魂箭乱射效果缺失",
+      "recommendation": "保留未开放，取得完整原文后再编码，不凭名称补造效果。"
+    },
+    {
+      "basis": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md:104—111只列名称；德谬歌结界仅额外列A+4000，无效果。",
+      "group": "R-源缺·灵魂法师",
+      "impact": "仅该技艺不可施放，不影响其他已明确条款。",
+      "parameter": "灵魂快剑效果缺失",
+      "recommendation": "保留未开放，取得完整原文后再编码，不凭名称补造效果。"
+    },
+    {
+      "basis": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md:104—111只列名称；德谬歌结界仅额外列A+4000，无效果。",
+      "group": "R-源缺·灵魂法师",
+      "impact": "仅该技艺不可施放，不影响其他已明确条款。",
+      "parameter": "灵魂巨剑效果缺失",
+      "recommendation": "保留未开放，取得完整原文后再编码，不凭名称补造效果。"
+    },
+    {
+      "basis": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md:104—111只列名称；德谬歌结界仅额外列A+4000，无效果。",
+      "group": "R-源缺·灵魂法师",
+      "impact": "仅该技艺不可施放，不影响其他已明确条款。",
+      "parameter": "苍蓝猛突效果缺失",
+      "recommendation": "保留未开放，取得完整原文后再编码，不凭名称补造效果。"
+    },
+    {
+      "basis": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md:104—111只列名称；德谬歌结界仅额外列A+4000，无效果。",
+      "group": "R-源缺·灵魂法师",
+      "impact": "仅该技艺不可施放，不影响其他已明确条款。",
+      "parameter": "灵魂激流效果缺失",
+      "recommendation": "保留未开放，取得完整原文后再编码，不凭名称补造效果。"
+    },
+    {
+      "basis": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md:104—111只列名称；德谬歌结界仅额外列A+4000，无效果。",
+      "group": "R-源缺·灵魂法师",
+      "impact": "仅该技艺不可施放，不影响其他已明确条款。",
+      "parameter": "灵魂块效果缺失",
+      "recommendation": "保留未开放，取得完整原文后再编码，不凭名称补造效果。"
+    },
+    {
+      "basis": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md:104—111只列名称；德谬歌结界仅额外列A+4000，无效果。",
+      "group": "R-源缺·灵魂法师",
+      "impact": "仅该技艺不可施放，不影响其他已明确条款。",
+      "parameter": "灵魂灭龙枪效果缺失",
+      "recommendation": "保留未开放，取得完整原文后再编码，不凭名称补造效果。"
+    },
+    {
+      "basis": "content/RE/02_resources/能力组/施法类型/THE_LAND灵魂法师.md:104—111只列名称；德谬歌结界仅额外列A+4000，无效果。",
+      "group": "R-源缺·灵魂法师",
+      "impact": "仅该技艺不可施放，不影响其他已明确条款。",
+      "parameter": "德谬歌结界效果缺失",
+      "recommendation": "保留未开放，取得完整原文后再编码，不凭名称补造效果。"
+    }
+  ],
+  "verification": {
+    "runtimeFullyVerified": false,
+    "scope": "paired-source-and-declarative-base; not full runtime",
+    "sourceChecked": true,
+    "status": "pending"
+  },
+  "version": "2026-10-25.magic.1"
+}

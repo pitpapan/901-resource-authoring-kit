@@ -1,0 +1,1929 @@
+{
+  "actions": [
+    {
+      "actionCost": [],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-5fbe2da5c8e7",
+      "id": "candidate-901-magic-bundle-e3cb1ab91f45effa/clause-5fbe2da5c8e7",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "技能树：C级施法者职能及奥术神座技能树",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-bedf5bd295ef",
+      "id": "candidate-901-magic-bundle-e3cb1ab91f45effa/clause-bedf5bd295ef",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "技能树：B级施法者职能及奥术神座技能树",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-29ff24e8bba8",
+      "id": "candidate-901-magic-bundle-e3cb1ab91f45effa/clause-29ff24e8bba8",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "“预言也是概率……物质也是概率，世界也是概率，所谓世界的真实，就是一颗骰子”",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 6,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-880256679976",
+      "id": "candidate-901-magic-bundle-e3cb1ab91f45effa/clause-880256679976",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "蝙蝠的尖叫",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 6,
+          "relativeLine": 3
+        },
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 10,
+          "relativeLine": 4
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-912d5b463e8a",
+      "id": "candidate-901-magic-bundle-e3cb1ab91f45effa/clause-912d5b463e8a",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "教授的共鸣之手",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 6,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-40dd9349db0b",
+      "id": "candidate-901-magic-bundle-e3cb1ab91f45effa/clause-40dd9349db0b",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "教授的次声共鸣",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 6,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-3bc194ebcc7c",
+      "id": "candidate-901-magic-bundle-e3cb1ab91f45effa/clause-3bc194ebcc7c",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "元素秩序",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 36,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-11a595868a54",
+      "id": "candidate-901-magic-bundle-e3cb1ab91f45effa/clause-11a595868a54",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "永恒炽阳",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 12,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-8808e393499a",
+      "id": "candidate-901-magic-bundle-e3cb1ab91f45effa/clause-8808e393499a",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "阳电子炮",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    }
+  ],
+  "clauses": [
+    {
+      "effectStats": [],
+      "heading": "奥术神座",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "D级",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "技能树：D级施法者职能及奥术神座技能树",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "技能树：C级施法者职能及奥术神座技能树",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "技能树：B级施法者职能及奥术神座技能树",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "技能树：A级施法者职能及奥术神座技能树",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "“预言也是概率……物质也是概率，世界也是概率，所谓世界的真实，就是一颗骰子”",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "奥术神座技能树",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "蝙蝠的尖叫",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "教授的共鸣之手",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "教授的次声共鸣",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "元素秩序",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "永恒炽阳",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "阳电子炮",
+      "status": "pending"
+    }
+  ],
+  "definition": {
+    "authoringOnly": {
+      "acquisition": {
+        "autoGrantToT0": false,
+        "requiresActualQualification": true,
+        "requiresAdoptedOffer": true,
+        "resetState": false,
+        "treeEntryGrantsChildren": false,
+        "unverifiedPricesMayNotBeCharged": true
+      },
+      "baseMechanisms": {
+        "constraints": [
+          {
+            "automaticTechniqueGrant": false,
+            "operation": "separateTreeAccessFromTechniqueAcquisition"
+          }
+        ],
+        "implementationGaps": [
+          {
+            "effectIds": [
+              "科学主义",
+              "善学",
+              "波粒二象性",
+              "相对论",
+              "不确定之手"
+            ],
+            "kind": "operation-support-and-acquisition-transaction",
+            "notUnresolvedRule": true,
+            "status": "implementation-needed"
+          }
+        ],
+        "inputBindings": {
+          "classifierMaySelectRegisteredChoicesOnly": true,
+          "contextInputs": [
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "善学",
+                  "grade": "D"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "acquiredGroupGradeValue",
+              "provider": "当前人物本能力组真实已取得阶位与采用/来源记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "波粒二象性",
+                  "grade": "C"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "caster.castingSuccesses",
+              "provider": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "相对论",
+                  "grade": "B"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "spell.highSpeedAdvantage",
+              "provider": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "波粒二象性",
+                  "grade": "C"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "spell.power",
+              "provider": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "波粒二象性",
+                  "grade": "C"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "target.reflexSuccesses",
+              "provider": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            }
+          ],
+          "mustNotInferOwnedStageFromDefinition": true,
+          "stateReads": []
+        },
+        "numericalPolicy": {
+          "actionRatingRounding": "ceil-before-action-table",
+          "defaultRounding": "floor-after-complete-effect",
+          "distanceRounding": "none",
+          "explicitAccumulatedXP": "retain-source-precision",
+          "intermediateRounding": "only-if-explicit",
+          "reading": {
+            "lines": [
+              86,
+              86
+            ],
+            "path": "outputs/施法体系适配-20261024/共用901判定.md",
+            "sha256": "1c5398bf728c5e94bfa2cc1cf037ead08a0dec1e1898278e844b25b643463bbd"
+          },
+          "runtimeStatus": "implementation-needed",
+          "timeRounding": "none",
+          "xpCostRounding": "ceil"
+        },
+        "readingSHA256": "f34b8677463b41246a537859eff84ea3c39162343da8fed12b8b2f5a0d1218e1",
+        "runtimeFullyVerified": false,
+        "scope": "ability-group-body-only",
+        "stageInheritance": {
+          "dynamicGradeReadsCurrentActuallyAcquiredStage": true,
+          "replacementFamilyUsesHighestAcquiredStageOnly": true,
+          "retainPriorStageBenefits": true
+        },
+        "stages": [
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [
+                  {
+                    "usesCastingRules": true
+                  },
+                  {
+                    "requiresCastingCheck": true
+                  }
+                ],
+                "id": "科学主义",
+                "operation": "replaceCastingAttributeAndSkill",
+                "parameters": {
+                  "attribute": "智力",
+                  "extraMagicCost": 1,
+                  "skill": "科学"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        8,
+                        15
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/奥术神座.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        16,
+                        16
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/奥术神座.md",
+                      "quote": "- 在使用适用施法规则的技艺时，若须作施法检定，可额外支付1点魔力，这让你能总是以智力和科学作为K和技能而无论原本K。(例如道术的K是感知，但你依然可用智力取代它们来作为你施法的关键属性)"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "善学",
+                "operation": "addTechniqueToLearnableTree",
+                "parameters": {
+                  "changesCasterDiscountEligibility": false,
+                  "energySubstitution": "魔力",
+                  "exclusiveBookSurchargeXP": {
+                    "A": 59,
+                    "B": 22,
+                    "C": 9,
+                    "D": 4,
+                    "S": 162
+                  },
+                  "filter": {
+                    "maximumGrade": {
+                      "context": "acquiredGroupGradeValue"
+                    },
+                    "usesCastingRules": true
+                  },
+                  "frequency": {
+                    "maximum": 1,
+                    "scope": "adventure-end"
+                  },
+                  "grantsTechniqueImmediately": false,
+                  "payNormalLearningCost": true,
+                  "waivesOtherPrerequisites": false
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        8,
+                        15
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/奥术神座.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        17,
+                        17
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/奥术神座.md",
+                      "quote": "- 善学：进步源于学习和思考。每影片结束时，角色可将一个等级不超过本G的其它适用施法规则的技艺(包括但不限于忍术，道术或其他专有法术)加入本组的技能树，你总是可以魔力推动这些技艺，但这不会让你满足除此"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "D",
+            "grants": [
+              {
+                "capacityPolicy": "shared-901-pool-rule",
+                "fillOnAcquisition": false,
+                "kind": "精神魔力",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        8,
+                        15
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/奥术神座.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        12,
+                        12
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/奥术神座.md",
+                      "quote": "- 能量：精神魔力"
+                    }
+                  }
+                ],
+                "type": "energy-pool"
+              },
+              {
+                "grade": "D",
+                "source": "奥术神座",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        8,
+                        15
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/奥术神座.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        14,
+                        14
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/奥术神座.md",
+                      "quote": "### 技能树：D级施法者职能及奥术神座技能树"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "D",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        8,
+                        15
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/奥术神座.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        14,
+                        14
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/奥术神座.md",
+                      "quote": "### 技能树：D级施法者职能及奥术神座技能树"
+                    }
+                  }
+                ],
+                "tree": "奥术神座",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": null,
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    8,
+                    15
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/奥术神座.md"
+                },
+                "reading": {
+                  "lines": [
+                    16,
+                    16
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/奥术神座.md",
+                  "quote": "- 在使用适用施法规则的技艺时，若须作施法检定，可额外支付1点魔力，这让你能总是以智力和科学作为K和技能而无论原本K。(例如道术的K是感知，但你依然可用智力取代它们来作为你施法的关键属性)"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    8,
+                    15
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/奥术神座.md"
+                },
+                "reading": {
+                  "lines": [
+                    17,
+                    17
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/奥术神座.md",
+                  "quote": "- 善学：进步源于学习和思考。每影片结束时，角色可将一个等级不超过本G的其它适用施法规则的技艺(包括但不限于忍术，道术或其他专有法术)加入本组的技能树，你总是可以魔力推动这些技艺，但这不会让你满足除此"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    8,
+                    15
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/奥术神座.md"
+                },
+                "reading": {
+                  "lines": [
+                    12,
+                    12
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/奥术神座.md",
+                  "quote": "- 能量：精神魔力"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    8,
+                    15
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/奥术神座.md"
+                },
+                "reading": {
+                  "lines": [
+                    14,
+                    14
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/奥术神座.md",
+                  "quote": "### 技能树：D级施法者职能及奥术神座技能树"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "波粒二象性",
+                "operation": "replaceAttackWithOpposedSave",
+                "parameters": {
+                  "action": "none",
+                  "casterCheck": "casting",
+                  "extraMagicCost": 3,
+                  "powerInfluenceRate": {
+                    "args": [
+                      {
+                        "context": "spell.power"
+                      },
+                      2
+                    ],
+                    "op": "mul"
+                  },
+                  "result": {
+                    "args": [
+                      {
+                        "context": "caster.castingSuccesses"
+                      },
+                      {
+                        "context": "target.reflexSuccesses"
+                      }
+                    ],
+                    "op": "sub"
+                  },
+                  "targetSave": "reflex",
+                  "trigger": "spell-attack",
+                  "usesSpellDamageCap": true
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        16,
+                        20
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/奥术神座.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        24,
+                        24
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/奥术神座.md",
+                      "quote": "- 当你为使用法术作攻击检定时，可无需动作额外支付3点魔力，该法术不再作攻击判定，你作一次施法判定，适用法术伤害上限规则但威力影响率变为威力*2，攻击目标作反射豁免，将差值作为原本攻击检定的结果继续结"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "C",
+            "grants": [
+              {
+                "grade": "C",
+                "source": "奥术神座",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        16,
+                        20
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/奥术神座.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        22,
+                        22
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/奥术神座.md",
+                      "quote": "### 技能树：C级施法者职能及奥术神座技能树"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "C",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        16,
+                        20
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/奥术神座.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        22,
+                        22
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/奥术神座.md",
+                      "quote": "### 技能树：C级施法者职能及奥术神座技能树"
+                    }
+                  }
+                ],
+                "tree": "奥术神座",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "D",
+              "resource": "奥术神座"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    16,
+                    20
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/奥术神座.md"
+                },
+                "reading": {
+                  "lines": [
+                    24,
+                    24
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/奥术神座.md",
+                  "quote": "- 当你为使用法术作攻击检定时，可无需动作额外支付3点魔力，该法术不再作攻击判定，你作一次施法判定，适用法术伤害上限规则但威力影响率变为威力*2，攻击目标作反射豁免，将差值作为原本攻击检定的结果继续结"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    16,
+                    20
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/奥术神座.md"
+                },
+                "reading": {
+                  "lines": [
+                    22,
+                    22
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/奥术神座.md",
+                  "quote": "### 技能树：C级施法者职能及奥术神座技能树"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [
+                  {
+                    "spellRequiresAttack": true
+                  },
+                  {
+                    "gt": [
+                      {
+                        "context": "spell.highSpeedAdvantage"
+                      },
+                      0
+                    ]
+                  }
+                ],
+                "id": "相对论",
+                "operation": "augmentAttack",
+                "parameters": {
+                  "bonus": {
+                    "context": "spell.highSpeedAdvantage"
+                  },
+                  "bonusCategory": "环境",
+                  "cooldownReductionTiming": "any-time-including-between-attacks",
+                  "cooldownRounds": 1,
+                  "extraMagicCost": 5
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        21,
+                        26
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/奥术神座.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        31,
+                        31
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/奥术神座.md",
+                      "quote": "- 极高的速度可改变质量，时空和引力，法术的速度越快，力道就越重。若自身法术须作攻击判定且具有高速优势，可额外支付5点魔力，冷却时间1轮(冷缩可在任意时刻作，因此可在同个动作的多次攻击中作冷缩同时应用"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "B",
+            "grants": [
+              {
+                "grade": "B",
+                "source": "奥术神座",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        21,
+                        26
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/奥术神座.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        28,
+                        28
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/奥术神座.md",
+                      "quote": "### 技能树：B级施法者职能及奥术神座技能树"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "B",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        21,
+                        26
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/奥术神座.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        28,
+                        28
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/奥术神座.md",
+                      "quote": "### 技能树：B级施法者职能及奥术神座技能树"
+                    }
+                  }
+                ],
+                "tree": "奥术神座",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "C",
+              "resource": "奥术神座"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    21,
+                    26
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/奥术神座.md"
+                },
+                "reading": {
+                  "lines": [
+                    31,
+                    31
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/奥术神座.md",
+                  "quote": "- 极高的速度可改变质量，时空和引力，法术的速度越快，力道就越重。若自身法术须作攻击判定且具有高速优势，可额外支付5点魔力，冷却时间1轮(冷缩可在任意时刻作，因此可在同个动作的多次攻击中作冷缩同时应用"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    21,
+                    26
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/奥术神座.md"
+                },
+                "reading": {
+                  "lines": [
+                    28,
+                    28
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/奥术神座.md",
+                  "quote": "### 技能树：B级施法者职能及奥术神座技能树"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "不确定之手",
+                "operation": "randomSpellOutcome",
+                "parameters": {
+                  "action": "none",
+                  "extraMagicCost": 7,
+                  "outcomes": [
+                    {
+                      "result": "fail",
+                      "wastesActionAndCosts": true,
+                      "weight": 20
+                    },
+                    {
+                      "exceptions": [
+                        "S-fate-immune-target",
+                        "S-law-based-effect"
+                      ],
+                      "ignore": [
+                        "spellResistance",
+                        "defense",
+                        "saves",
+                        "damageMitigation",
+                        "reaction-responses",
+                        "other-interference"
+                      ],
+                      "result": "extreme-success",
+                      "weight": 10
+                    },
+                    {
+                      "result": "normal",
+                      "weight": 70
+                    }
+                  ]
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        27,
+                        34
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/奥术神座.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        39,
+                        39
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/奥术神座.md",
+                      "quote": "- 当角色使用一个法术时，可无需动作额外支付7点魔力，该法术有20%概率失效，10%概率极大成功，剩余概率不发生变化。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "A",
+            "grants": [
+              {
+                "grade": "A",
+                "source": "奥术神座",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        27,
+                        34
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/奥术神座.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        35,
+                        35
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/奥术神座.md",
+                      "quote": "### 技能树：A级施法者职能及奥术神座技能树"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "A",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        27,
+                        34
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/奥术神座.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        35,
+                        35
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/奥术神座.md",
+                      "quote": "### 技能树：A级施法者职能及奥术神座技能树"
+                    }
+                  }
+                ],
+                "tree": "奥术神座",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "B",
+              "resource": "奥术神座"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    27,
+                    34
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/奥术神座.md"
+                },
+                "reading": {
+                  "lines": [
+                    39,
+                    39
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/奥术神座.md",
+                  "quote": "- 当角色使用一个法术时，可无需动作额外支付7点魔力，该法术有20%概率失效，10%概率极大成功，剩余概率不发生变化。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    27,
+                    34
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/奥术神座.md"
+                },
+                "reading": {
+                  "lines": [
+                    35,
+                    35
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/奥术神座.md",
+                  "quote": "### 技能树：A级施法者职能及奥术神座技能树"
+                }
+              }
+            ]
+          }
+        ],
+        "status": "declarative-contract-source",
+        "unresolvedRules": [],
+        "verification": {
+          "deploymentPerformed": false,
+          "runtimeFullyVerified": false,
+          "runtimeTested": false
+        }
+      },
+      "runtimeSlices": [],
+      "sharedRulesLock": "2d4f858c035f847bc05a312a0e7efea245cd0f6795890239754d371a5b75005c",
+      "units": [
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-a65c465e2d11",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "奥术神座",
+          "reading": {
+            "endLine": 10,
+            "sha256": "a3c1dc3f4080f5949fab2e756960792163aa856ff88f2df70f6646d4358a5c1c",
+            "startLine": 1
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 9
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-9f74bd19b719",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "D级",
+          "reading": {
+            "endLine": 13,
+            "sha256": "23e37eaf20ade9f5059c00a04400776e541da500392504a8d65e3e9240829fa5",
+            "startLine": 11
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/1"
+          ],
+          "declaredFields": {},
+          "id": "clause-4a5667d8d1cf",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "技能树：D级施法者职能及奥术神座技能树",
+          "reading": {
+            "endLine": 19,
+            "sha256": "4e4f257370c814d4d4111df3fd15a4da9203c331b06879d480d18f262bba5b0d",
+            "startLine": 14
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "trigger",
+              "relativeLine": 2
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 3
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 3
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 3
+            },
+            {
+              "kind": "exclusion",
+              "relativeLine": 4
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 4
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 4
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 5
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 5
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/0"
+          ],
+          "declaredFields": {},
+          "id": "clause-5fbe2da5c8e7",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "技能树：C级施法者职能及奥术神座技能树",
+          "reading": {
+            "endLine": 25,
+            "sha256": "921d770c1df1877780f58d5193ad9be28de63c61f84430240580a4f7cdc0beac",
+            "startLine": 22
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "trigger",
+              "relativeLine": 2
+            },
+            {
+              "kind": "exclusion",
+              "relativeLine": 3
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 3
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/0"
+          ],
+          "declaredFields": {},
+          "id": "clause-bedf5bd295ef",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "技能树：B级施法者职能及奥术神座技能树",
+          "reading": {
+            "endLine": 32,
+            "sha256": "d90be2db0bbd2e6a94216ecdeac6a828aab68581b559c4faf0c72e4688aefb39",
+            "startLine": 28
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "prerequisite",
+              "relativeLine": 2
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 4
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 4
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-1bbeab0b8ff2",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "技能树：A级施法者职能及奥术神座技能树",
+          "reading": {
+            "endLine": 37,
+            "sha256": "d5dae73413bf04e5eef4fd8b8b7700ba793304a1489d59f7bfb5e74e3bededb0",
+            "startLine": 35
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/3/effects/0"
+          ],
+          "declaredFields": {},
+          "id": "clause-29ff24e8bba8",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "“预言也是概率……物质也是概率，世界也是概率，所谓世界的真实，就是一颗骰子”",
+          "reading": {
+            "endLine": 42,
+            "sha256": "283ec94565e631727ef4ae470d8c34e4ccfcdfffcad9f9c11635b0f440562fb4",
+            "startLine": 38
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "exclusion",
+              "relativeLine": 2
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 2
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 2
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-25532e159ae5",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "奥术神座技能树",
+          "reading": {
+            "endLine": 45,
+            "sha256": "2dbd691d58c4e15022a0b28f1f5bdb7fa25cfbfd6f4957426659f7187a9723d2",
+            "startLine": 43
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 6,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "学习原价": "D+500",
+            "射程": "无",
+            "成分": "言/姿、法器(处理过的蝙蝠的脑垂体)",
+            "持续": "1场景",
+            "施放": "标准(q6)",
+            "目标": "自身",
+            "领域": "咒法"
+          },
+          "id": "clause-880256679976",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              }
+            ]
+          },
+          "name": "蝙蝠的尖叫",
+          "reading": {
+            "endLine": 52,
+            "sha256": "8669bf0282e287185a4201d86389f097fadcae8154426a5a73f8d8d8b9738436",
+            "startLine": 46
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "duration",
+              "relativeLine": 3
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 4
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 5
+            },
+            {
+              "kind": "prerequisite",
+              "relativeLine": 6
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 6,
+              "relativeLine": 3
+            },
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 10,
+              "relativeLine": 4
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "学习原价": "D+500",
+            "射程": "接触",
+            "成分": "姿势",
+            "持续": "动作标值6维持专注",
+            "施放": "特殊",
+            "目标": "一个物体",
+            "能耗": "特殊",
+            "领域": "咒法"
+          },
+          "id": "clause-912d5b463e8a",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              }
+            ]
+          },
+          "name": "教授的共鸣之手",
+          "reading": {
+            "endLine": 60,
+            "sha256": "159f58d87b8c4e25840d9ef743374a34a861ecbfb2b7b8c1ebd6bbca9eb925e1",
+            "startLine": 53
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "duration",
+              "relativeLine": 3
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 4
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 5
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 7
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 7
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 6,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "冷却": "1轮",
+            "学习原价": "D+500",
+            "射程": "10KP米",
+            "成分": "姿势、语言",
+            "施放": "标准(q6)",
+            "目标": "一个目标",
+            "领域": "塑能"
+          },
+          "id": "clause-40dd9349db0b",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              }
+            ]
+          },
+          "name": "教授的次声共鸣",
+          "reading": {
+            "endLine": 65,
+            "sha256": "5b6e378a0085edda7c0d293693154bc83b8ba3753fbb286e60341ab2375e290c",
+            "startLine": 61
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 6,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "冷却": "3轮",
+            "学习原价": "C+1000",
+            "射程": "10KP米",
+            "成分": "姿势、语言",
+            "施放": "标准(q6)",
+            "范围": "5KP米",
+            "领域": "塑能"
+          },
+          "id": "clause-3bc194ebcc7c",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 3,
+                "candidateXP": 25,
+                "grade": "C",
+                "legacyPoints": 1000
+              }
+            ]
+          },
+          "name": "元素秩序",
+          "reading": {
+            "endLine": 75,
+            "sha256": "922068b203bbbc2a542d692d861077e1bfd0582285f0cbbb9658aa9107e29ae6",
+            "startLine": 66
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "duration",
+              "relativeLine": 5
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 5
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 6
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 6
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 8
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 36,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "冷却": "10轮",
+            "学习原价": "B+2000",
+            "射程": "P*智力*100米",
+            "成分": "姿势、语言",
+            "施放": "动作标值36",
+            "能耗": "20点魔力(4倍标准法术能耗)",
+            "范围": "半径威力*智力*50米",
+            "领域": "塑能"
+          },
+          "id": "clause-11a595868a54",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 9,
+                "candidateXP": 65,
+                "grade": "B",
+                "legacyPoints": 2000
+              }
+            ]
+          },
+          "name": "永恒炽阳",
+          "reading": {
+            "endLine": 81,
+            "sha256": "864db116bf1a36ce78bb63944fa7b8bcfe60658837588eebcc7b8871d9afd1d8",
+            "startLine": 76
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 12,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "冷却": "3轮",
+            "学习原价": "A+4000",
+            "射程": "智力*威力*10米",
+            "成分": "姿势、语言",
+            "施放": "整轮(q12)",
+            "领域": "塑能"
+          },
+          "id": "clause-8808e393499a",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 27,
+                "candidateXP": 175,
+                "grade": "A",
+                "legacyPoints": 4000
+              }
+            ]
+          },
+          "name": "阳电子炮",
+          "reading": {
+            "endLine": 89,
+            "sha256": "c405530c275f4302453c782b3d0e6c0bbb3eaf0b66a243698c000b0b1cb7770e",
+            "startLine": 82
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 5
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 5
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 6
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 6
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 7
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 8
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 8
+            }
+          ],
+          "unresolvedRuleIds": []
+        }
+      ]
+    },
+    "effects": [],
+    "programs": {}
+  },
+  "id": "candidate-901-magic-bundle-e3cb1ab91f45effa",
+  "identity": {
+    "adoptionStatus": "candidate",
+    "aliases": [],
+    "category": "bundle",
+    "grade": "multi",
+    "name": "奥术神座",
+    "sharedDependencies": [
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "bbf7521e7514bb9c807e6b5bf07fa55016853cf31ccacd69d2f725e54feb3758"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/共用901判定.md",
+        "sha256": "1c5398bf728c5e94bfa2cc1cf037ead08a0dec1e1898278e844b25b643463bbd"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/来源与核算.md",
+        "sha256": "8f17c529f1b5465fceaefc24931869b82e071d4ab8fb3ed561359864cbf98334"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/未决项.md",
+        "sha256": "3ceae5df0f4bd271ea79956004dba56bd8698eea62b7508871ce11a406903375"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/专有机制.md",
+        "sha256": "14a331e47e9d578634f29e2bae74a1501e916fc594cdef41f9e40b0fa8bafe62"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/引用定位.md",
+        "sha256": "699deab37356bb930ab497aa8bc555f756c174a799a9a91b922345ea6f1be0b1"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/通用法术.md",
+        "sha256": "8922768b19c7c65a410498c69cddc5441796a85c7c50b4871786ecff3a4cbaed"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/防护与状态.md",
+        "sha256": "c9d0b1b1dc1f2546f92faa5dda66464c531283095d21990d8004df4c8e641a12"
+      }
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/能力组/施法类型/奥术神座.md",
+        "sha256": "fd1866a0614e9cd78cc775cb47331b06973991ff19345e28c739550053f52263"
+      }
+    ],
+    "tree": "奥术神座"
+  },
+  "implementationGaps": [
+    "本体声明尚需逐机制接入与执行证明；技能树逐条款保留来源定位，尚未完整编码；未验证动作不进入执行白名单。"
+  ],
+  "inputs": [
+    {
+      "id": "ownedResource",
+      "missingPolicy": "block-related-operation",
+      "provider": "saved-state",
+      "requiredFor": [
+        "effects",
+        "actions"
+      ],
+      "type": "versioned-acquisition-record"
+    },
+    {
+      "id": "choices",
+      "missingPolicy": "ask-only-required-choice",
+      "provider": "player",
+      "requiredFor": [
+        "acquisition"
+      ],
+      "type": "declared-selection"
+    },
+    {
+      "id": "sceneFacts",
+      "missingPolicy": "block-related-operation",
+      "provider": "host",
+      "requiredFor": [
+        "actions"
+      ],
+      "type": "sourced-target-and-scene"
+    },
+    {
+      "basis": "当前人物本能力组真实已取得阶位与采用/来源记录",
+      "id": "context:acquiredGroupGradeValue",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "D/善学"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+      "id": "context:caster.castingSuccesses",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "C/波粒二象性"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+      "id": "context:spell.highSpeedAdvantage",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "B/相对论"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+      "id": "context:spell.power",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "C/波粒二象性"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+      "id": "context:target.reflexSuccesses",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "C/波粒二象性"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    }
+  ],
+  "reading": {
+    "path": "outputs/施法体系适配-20261024/阅读版/奥术神座.md",
+    "sha256": "f34b8677463b41246a537859eff84ea3c39162343da8fed12b8b2f5a0d1218e1"
+  },
+  "schemaVersion": "901-resource/1",
+  "unresolvedRules": [],
+  "verification": {
+    "runtimeFullyVerified": false,
+    "scope": "paired-source-and-declarative-base; not full runtime",
+    "sourceChecked": true,
+    "status": "pending"
+  },
+  "version": "2026-10-25.magic.1"
+}

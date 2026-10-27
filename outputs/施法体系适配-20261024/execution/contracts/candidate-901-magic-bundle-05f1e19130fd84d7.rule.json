@@ -1,0 +1,2235 @@
+{
+  "actions": [
+    {
+      "actionCost": [],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-fd570deca453",
+      "id": "candidate-901-magic-bundle-05f1e19130fd84d7/clause-fd570deca453",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "D+1000",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-06b466b1f68d",
+      "id": "candidate-901-magic-bundle-05f1e19130fd84d7/clause-06b466b1f68d",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "C+2000",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 6,
+          "relativeLine": 4
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-bf827708c992",
+      "id": "candidate-901-magic-bundle-05f1e19130fd84d7/clause-bf827708c992",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "B+4000",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-4964af179751",
+      "id": "candidate-901-magic-bundle-05f1e19130fd84d7/clause-4964af179751",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "A+8000",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    }
+  ],
+  "clauses": [
+    {
+      "effectStats": [],
+      "heading": "杂学士",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "D+1000",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "补正·杂学士(1)",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "C+2000",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "B+4000",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "A+8000",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "额外灵感池 D+500",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "改善狡黠防御 C+1000",
+      "status": "pending"
+    }
+  ],
+  "definition": {
+    "authoringOnly": {
+      "acquisition": {
+        "autoGrantToT0": false,
+        "requiresActualQualification": true,
+        "requiresAdoptedOffer": true,
+        "resetState": false,
+        "treeEntryGrantsChildren": false,
+        "unverifiedPricesMayNotBeCharged": true
+      },
+      "baseMechanisms": {
+        "constraints": [
+          {
+            "automaticTechniqueGrant": false,
+            "operation": "separateTreeAccessFromTechniqueAcquisition"
+          }
+        ],
+        "implementationGaps": [
+          {
+            "effectIds": [
+              "灵感计数",
+              "浅薄魔法",
+              "内在诡计",
+              "狡黠知识",
+              "浅薄魔法额外位",
+              "智胜于体",
+              "狡黠防御",
+              "狡黠攻击",
+              "浅薄魔法额外位",
+              "投信取巧",
+              "狡黠闪避",
+              "狡黠击破",
+              "浅薄魔法额外位",
+              "机智爆发",
+              "狡黠才华"
+            ],
+            "kind": "operation-support-and-acquisition-transaction",
+            "notUnresolvedRule": true,
+            "status": "implementation-needed"
+          }
+        ],
+        "inputBindings": {
+          "classifierMaySelectRegisteredChoicesOnly": true,
+          "contextInputs": [
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "灵感计数",
+                  "grade": "D"
+                },
+                {
+                  "effectId": "狡黠知识",
+                  "grade": "D"
+                },
+                {
+                  "effectId": "狡黠攻击",
+                  "grade": "C"
+                },
+                {
+                  "effectId": "投信取巧",
+                  "grade": "B"
+                },
+                {
+                  "effectId": "狡黠击破",
+                  "grade": "B"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "acquiredGroupGradeValue",
+              "provider": "当前人物本能力组真实已取得阶位与采用/来源记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "投信取巧",
+                  "grade": "B"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedLegendary.感知",
+              "provider": "主持确认的传奇属性来源记录；不得用901自动成功反推",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "内在诡计",
+                  "grade": "D"
+                },
+                {
+                  "effectId": "智胜于体",
+                  "grade": "C"
+                },
+                {
+                  "effectId": "狡黠防御",
+                  "grade": "C"
+                },
+                {
+                  "effectId": "狡黠攻击",
+                  "grade": "C"
+                },
+                {
+                  "effectId": "狡黠击破",
+                  "grade": "B"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedLegendary.智力",
+              "provider": "主持确认的传奇属性来源记录；不得用901自动成功反推",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "狡黠知识",
+                  "grade": "D"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "skill.actualLevel",
+              "provider": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            }
+          ],
+          "mustNotInferOwnedStageFromDefinition": true,
+          "stateReads": []
+        },
+        "numericalPolicy": {
+          "actionRatingRounding": "ceil-before-action-table",
+          "defaultRounding": "floor-after-complete-effect",
+          "distanceRounding": "none",
+          "explicitAccumulatedXP": "retain-source-precision",
+          "intermediateRounding": "only-if-explicit",
+          "reading": {
+            "lines": [
+              86,
+              86
+            ],
+            "path": "outputs/施法体系适配-20261024/共用901判定.md",
+            "sha256": "1c5398bf728c5e94bfa2cc1cf037ead08a0dec1e1898278e844b25b643463bbd"
+          },
+          "runtimeStatus": "implementation-needed",
+          "timeRounding": "none",
+          "xpCostRounding": "ceil"
+        },
+        "optionalBodyCorrections": [
+          {
+            "automatic": false,
+            "effect": {
+              "attribute": "智力",
+              "operation": "minimumLegendaryForThisPage",
+              "value": {
+                "args": [
+                  {
+                    "context": "confirmedLegendary.智力"
+                  },
+                  6
+                ],
+                "op": "max"
+              }
+            },
+            "id": "补正·杂学士",
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    20,
+                    22
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                },
+                "reading": {
+                  "lines": [
+                    25,
+                    25
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                  "quote": "- 在计算本组特性中传奇智力造成的影响时，可将其视作6点与你自身的传奇智力取高。"
+                }
+              }
+            ],
+            "xpCost": 1
+          }
+        ],
+        "readingSHA256": "b5d52047959e60f0387820a35a6571bb8ad543e45e3e2ee707e214e44c0b07ba",
+        "runtimeFullyVerified": false,
+        "scope": "ability-group-body-only",
+        "stageInheritance": {
+          "dynamicGradeReadsCurrentActuallyAcquiredStage": true,
+          "replacementFamilyUsesHighestAcquiredStageOnly": true,
+          "retainPriorStageBenefits": true
+        },
+        "stages": [
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "灵感计数",
+                "operation": "createCounter",
+                "parameters": {
+                  "isEnergyPool": false,
+                  "maximum": {
+                    "args": [
+                      2,
+                      {
+                        "context": "acquiredGroupGradeValue"
+                      }
+                    ],
+                    "op": "mul"
+                  },
+                  "name": "灵感",
+                  "reset": {
+                    "event": "scene-start",
+                    "value": "maximum"
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        9,
+                        21
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        16,
+                        16
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                      "quote": "- 灵感：灵感点数是一种计数器而非能量池，其上限为G*2点。每场景开始时，获得等于上限的灵感，供本组特性使用。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "浅薄魔法",
+                "operation": "prepareLimitedSpellChoices",
+                "parameters": {
+                  "allowBaseCostChangingEffects": false,
+                  "allowExtraMagic": false,
+                  "allowMentalAction": false,
+                  "baseMagicCost": 0,
+                  "cost": {
+                    "amount": 1,
+                    "counter": "灵感"
+                  },
+                  "distinct": true,
+                  "frequency": {
+                    "maximum": 1,
+                    "scope": "day-after-long-rest"
+                  },
+                  "ongoingEffects": {
+                    "endWhenSlotReselected": true,
+                    "reserveSlotToKeepEffect": true
+                  },
+                  "requiresAvailableCapacityIfOriginalRequiresIt": true,
+                  "slots": [
+                    {
+                      "count": 2,
+                      "maximumGrade": "D"
+                    }
+                  ],
+                  "usesPerSpell": 1,
+                  "waiveCastingConcentration": true,
+                  "waiveComponents": [
+                    "姿势",
+                    "语言"
+                  ],
+                  "waiveMaintenanceConcentration": false
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        9,
+                        21
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        17,
+                        17
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                      "quote": "- 浅薄魔法(双特性)：你懂得如何粗略的理解和使用魔法。每天一次，在一次长休息结束后，可选两个等级不超过D级的通用法术，且不能选择同一法术。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "内在诡计",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "action": "none",
+                  "bonusCategory": "表现",
+                  "cost": {
+                    "灵感": 1
+                  },
+                  "value": {
+                    "context": "confirmedLegendary.智力"
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        9,
+                        21
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        21,
+                        21
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                      "quote": "- 内在诡计：作攻击或豁免检定时，可无需动作支付1点灵感，使这次检定获得传奇智力点表现加值。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "内在诡计",
+                  "mode": "add-increment"
+                },
+                "target": "currentAttackOrSave.DP",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [
+                  {
+                    "gte": [
+                      {
+                        "context": "skill.actualLevel"
+                      },
+                      1
+                    ]
+                  }
+                ],
+                "id": "狡黠知识",
+                "operation": "augmentSkillCheck",
+                "parameters": {
+                  "action": "none",
+                  "bonus": {
+                    "args": [
+                      {
+                        "context": "acquiredGroupGradeValue"
+                      },
+                      1
+                    ],
+                    "op": "add"
+                  },
+                  "bonusCategory": "洞察",
+                  "cost": {
+                    "灵感": 1
+                  },
+                  "noSpecialtySuccessLoss": true,
+                  "timing": "before-roll"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        9,
+                        21
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        22,
+                        22
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                      "quote": "- 狡黠知识：作一项技能检定前，可无需动作支付1点灵感，只要该技能至少有1级，这次检定就会获得等于你G+1点洞察加值，且不会因没有专业而失去成功数。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "D",
+            "grants": [
+              {
+                "grade": "D",
+                "source": "杂学士",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        9,
+                        21
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        15,
+                        15
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                      "quote": "- 技能树：D级施法职能及少量额外技能"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "D",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        9,
+                        21
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        15,
+                        15
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                      "quote": "- 技能树：D级施法职能及少量额外技能"
+                    }
+                  }
+                ],
+                "tree": "杂学士",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": null,
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    9,
+                    21
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                },
+                "reading": {
+                  "lines": [
+                    16,
+                    16
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                  "quote": "- 灵感：灵感点数是一种计数器而非能量池，其上限为G*2点。每场景开始时，获得等于上限的灵感，供本组特性使用。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    9,
+                    21
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                },
+                "reading": {
+                  "lines": [
+                    17,
+                    17
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                  "quote": "- 浅薄魔法(双特性)：你懂得如何粗略的理解和使用魔法。每天一次，在一次长休息结束后，可选两个等级不超过D级的通用法术，且不能选择同一法术。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    9,
+                    21
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                },
+                "reading": {
+                  "lines": [
+                    21,
+                    21
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                  "quote": "- 内在诡计：作攻击或豁免检定时，可无需动作支付1点灵感，使这次检定获得传奇智力点表现加值。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    9,
+                    21
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                },
+                "reading": {
+                  "lines": [
+                    22,
+                    22
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                  "quote": "- 狡黠知识：作一项技能检定前，可无需动作支付1点灵感，只要该技能至少有1级，这次检定就会获得等于你G+1点洞察加值，且不会因没有专业而失去成功数。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    9,
+                    21
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                },
+                "reading": {
+                  "lines": [
+                    15,
+                    15
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                  "quote": "- 技能树：D级施法职能及少量额外技能"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "浅薄魔法额外位",
+                "operation": "appendPreparedSpellSlot",
+                "parameters": {
+                  "count": 1,
+                  "maximumGrade": "C",
+                  "parent": "浅薄魔法"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        22,
+                        28
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        29,
+                        29
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                      "quote": "- 提升-浅薄魔法：现在可额外选择1个等级不超过C级的通用法术。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "智胜于体",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "value": {
+                    "args": [
+                      {
+                        "context": "confirmedLegendary.智力"
+                      },
+                      2
+                    ],
+                    "op": "div"
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        22,
+                        28
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        30,
+                        30
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                      "quote": "- 智胜于体：在力量和敏捷相关检定上获得传奇智力一半的加值。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "智胜于体",
+                  "mode": "add-increment"
+                },
+                "target": "strengthOrDexterityChecks.DP",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "狡黠防御",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "bonusCategory": "闪避",
+                  "cost": {
+                    "灵感": 1
+                  },
+                  "durationRounds": 1,
+                  "frequency": {
+                    "maximum": 1,
+                    "scope": "same-attacker-per-round"
+                  },
+                  "trigger": "attacked",
+                  "value": {
+                    "args": [
+                      {
+                        "context": "confirmedLegendary.智力"
+                      },
+                      2
+                    ],
+                    "op": "mul"
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        22,
+                        28
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        31,
+                        31
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                      "quote": "- 狡黠防御：你研究自身对手且了解如何躲避他们的攻击。当你受到攻击时，可选支付1点灵感，使自身针对攻击者防御获得传奇智力*2点闪避加值，持续1轮。这个能力针对同一个目标每轮只能只能施展一次，但针对不同"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "狡黠防御",
+                  "mode": "add-increment"
+                },
+                "target": "defense.vsCurrentAttacker",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [
+                  {
+                    "targetFlatFooted": true
+                  }
+                ],
+                "id": "狡黠攻击",
+                "operation": "additionalDamage",
+                "parameters": {
+                  "amount": {
+                    "args": [
+                      {
+                        "context": "acquiredGroupGradeValue"
+                      },
+                      {
+                        "context": "confirmedLegendary.智力"
+                      }
+                    ],
+                    "op": "add"
+                  },
+                  "cost": {
+                    "灵感": 1
+                  },
+                  "damageType": "same-as-attack"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        22,
+                        28
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        32,
+                        32
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                      "quote": "- 狡黠攻击：通过快速学习那些易受攻击的对手的防御方法，可侦察出那些能够造成有效攻击的薄弱环节。你攻击的目标若处于措手不及，可支付1点灵感，额外造成等于G+传奇智力点同类伤害。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "attacked-target",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "C",
+            "grants": [
+              {
+                "grade": "C",
+                "source": "杂学士",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        22,
+                        28
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        28,
+                        28
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                      "quote": "- 技能树：C级施法职能及少量额外技能"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "C",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        22,
+                        28
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        28,
+                        28
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                      "quote": "- 技能树：C级施法职能及少量额外技能"
+                    }
+                  }
+                ],
+                "tree": "杂学士",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "D",
+              "resource": "杂学士"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    22,
+                    28
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                },
+                "reading": {
+                  "lines": [
+                    29,
+                    29
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                  "quote": "- 提升-浅薄魔法：现在可额外选择1个等级不超过C级的通用法术。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    22,
+                    28
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                },
+                "reading": {
+                  "lines": [
+                    30,
+                    30
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                  "quote": "- 智胜于体：在力量和敏捷相关检定上获得传奇智力一半的加值。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    22,
+                    28
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                },
+                "reading": {
+                  "lines": [
+                    31,
+                    31
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                  "quote": "- 狡黠防御：你研究自身对手且了解如何躲避他们的攻击。当你受到攻击时，可选支付1点灵感，使自身针对攻击者防御获得传奇智力*2点闪避加值，持续1轮。这个能力针对同一个目标每轮只能只能施展一次，但针对不同"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    22,
+                    28
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                },
+                "reading": {
+                  "lines": [
+                    32,
+                    32
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                  "quote": "- 狡黠攻击：通过快速学习那些易受攻击的对手的防御方法，可侦察出那些能够造成有效攻击的薄弱环节。你攻击的目标若处于措手不及，可支付1点灵感，额外造成等于G+传奇智力点同类伤害。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    22,
+                    28
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                },
+                "reading": {
+                  "lines": [
+                    28,
+                    28
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                  "quote": "- 技能树：C级施法职能及少量额外技能"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "浅薄魔法额外位",
+                "operation": "appendPreparedSpellSlot",
+                "parameters": {
+                  "count": 1,
+                  "maximumGrade": "B",
+                  "parent": "浅薄魔法"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        29,
+                        35
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        36,
+                        36
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                      "quote": "- 提升-浅薄魔法：现在可额外选择1个等级不超过B级的通用法术。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "投信取巧",
+                "operation": "healOrDamageUndead",
+                "parameters": {
+                  "action": {
+                    "kind": "standard",
+                    "q": 6
+                  },
+                  "cost": {
+                    "灵感": 1
+                  },
+                  "frequency": {
+                    "maximum": {
+                      "args": [
+                        {
+                          "context": "confirmedLegendary.感知"
+                        },
+                        {
+                          "context": "acquiredGroupGradeValue"
+                        }
+                      ],
+                      "op": "add"
+                    },
+                    "scope": "day"
+                  },
+                  "healingCosts": {
+                    "A": 4,
+                    "B": 1,
+                    "L": 1
+                  },
+                  "healingPoints": 16,
+                  "undeadAlternative": {
+                    "damage": 16,
+                    "grade": "L",
+                    "save": "will",
+                    "type": "神圣"
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        29,
+                        35
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        37,
+                        37
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                      "quote": "- 投信取巧：杂学士因为他们所携带的圣徽，护身符以及神圣物品而变得传奇。每天传奇感知+G次，以一个标准动作[q=6]支付1点灵感，你选1个接触范围内的目标，使其获得16点治疗点数，每4点回复1点A，每"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "one-touch-target",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "狡黠闪避",
+                "operation": "ignoreDeathCausingEffect",
+                "parameters": {
+                  "action": "reaction",
+                  "cost": {
+                    "灵感": 4
+                  },
+                  "frequency": {
+                    "maximum": 1,
+                    "scope": "scene"
+                  },
+                  "trigger": "would-die"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        29,
+                        35
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        38,
+                        38
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                      "quote": "- 狡黠闪避：反射和直觉使可闪避本来会击中自身魔法和攻击。每场景一次，在死亡时可用反射动作支付4点灵感，忽略这次导致你死亡的效果。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "executionBlockedByUnresolvedRule": "R-击破动作",
+                "id": "狡黠击破",
+                "operation": "ignoreTargetProtection",
+                "parameters": {
+                  "action": "unspecified",
+                  "amount": {
+                    "args": [
+                      {
+                        "context": "acquiredGroupGradeValue"
+                      },
+                      {
+                        "args": [
+                          {
+                            "context": "confirmedLegendary.智力"
+                          },
+                          2
+                        ],
+                        "op": "mul"
+                      }
+                    ],
+                    "op": "add"
+                  },
+                  "categories": [
+                    "spellResistance",
+                    "damageReduction"
+                  ],
+                  "cost": {
+                    "灵感": 2
+                  },
+                  "duration": "current-turn"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        29,
+                        35
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        39,
+                        39
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                      "quote": "- 狡黠击破：你广泛的知识让可研究一个对手，获得一些灵感来击破对方的防御。选1个敏感视觉范围内的目标，可支付2点灵感，使在本回合内无视目标至多G+传奇智力*2的法术抗力和伤害减免。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "one-sensitive-vision-target",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "B",
+            "grants": [
+              {
+                "grade": "B",
+                "source": "杂学士",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        29,
+                        35
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        35,
+                        35
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                      "quote": "- 技能树：B级施法职能"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "B",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        29,
+                        35
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        35,
+                        35
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                      "quote": "- 技能树：B级施法职能"
+                    }
+                  }
+                ],
+                "tree": "杂学士",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "C",
+              "resource": "杂学士"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    29,
+                    35
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                },
+                "reading": {
+                  "lines": [
+                    36,
+                    36
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                  "quote": "- 提升-浅薄魔法：现在可额外选择1个等级不超过B级的通用法术。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    29,
+                    35
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                },
+                "reading": {
+                  "lines": [
+                    37,
+                    37
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                  "quote": "- 投信取巧：杂学士因为他们所携带的圣徽，护身符以及神圣物品而变得传奇。每天传奇感知+G次，以一个标准动作[q=6]支付1点灵感，你选1个接触范围内的目标，使其获得16点治疗点数，每4点回复1点A，每"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    29,
+                    35
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                },
+                "reading": {
+                  "lines": [
+                    38,
+                    38
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                  "quote": "- 狡黠闪避：反射和直觉使可闪避本来会击中自身魔法和攻击。每场景一次，在死亡时可用反射动作支付4点灵感，忽略这次导致你死亡的效果。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    29,
+                    35
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                },
+                "reading": {
+                  "lines": [
+                    39,
+                    39
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                  "quote": "- 狡黠击破：你广泛的知识让可研究一个对手，获得一些灵感来击破对方的防御。选1个敏感视觉范围内的目标，可支付2点灵感，使在本回合内无视目标至多G+传奇智力*2的法术抗力和伤害减免。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    29,
+                    35
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                },
+                "reading": {
+                  "lines": [
+                    35,
+                    35
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                  "quote": "- 技能树：B级施法职能"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "浅薄魔法额外位",
+                "operation": "appendPreparedSpellSlot",
+                "parameters": {
+                  "count": 1,
+                  "maximumGrade": "A",
+                  "parent": "浅薄魔法"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        36,
+                        45
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        44,
+                        44
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                      "quote": "- 提升-浅薄魔法：现在可额外选择1个等级不超过A级的通用法术。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [
+                  {
+                    "ownTurn": true
+                  }
+                ],
+                "id": "机智爆发",
+                "operation": "grantExpiringActions",
+                "parameters": {
+                  "action": "none",
+                  "combinedMaximumQ": 8,
+                  "cost": {
+                    "灵感": 3
+                  },
+                  "createsActionPointPool": false,
+                  "expires": "round-end",
+                  "frequency": {
+                    "maximum": 1,
+                    "scope": "round"
+                  },
+                  "grants": {
+                    "standard": 1,
+                    "swift": 1
+                  },
+                  "onlyMental": true
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        36,
+                        45
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        45,
+                        45
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                      "quote": "- 机智爆发：自己回合每轮至多一次，无需动作支付3灵感，获得1次额外标准与1次额外迅捷动作，限纯心智行为，本轮未用即失去。两者可合并执行q≤8的单个心智行为；不生成行动点池，见R-动作。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "狡黠才华",
+                "operation": "prepareTemporaryTraitCopies",
+                "parameters": {
+                  "activation": {
+                    "action": "free",
+                    "durationMinutes": 1,
+                    "灵感": 2
+                  },
+                  "allProducedEffectsEndWithTrait": true,
+                  "preparation": {
+                    "count": 3,
+                    "distinct": true,
+                    "excludeAlreadyOwnedOrSelected": true,
+                    "frequency": "day-after-long-rest",
+                    "maximumGrade": "A",
+                    "requiresGMEligible": true
+                  },
+                  "usesPerChosenTraitPerDay": 1
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        36,
+                        45
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        47,
+                        47
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                      "quote": "- 每天一次，在一次长休息结束后，你能选择3个A级或更低的出现在能力组中的特性；这些特性不能相同，也不能是你已经拥有或已经选择过的特性。以一个自由动作支付2点灵感，在1分钟内获得其中一个特性。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "A",
+            "grants": [
+              {
+                "grade": "A",
+                "source": "杂学士",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        36,
+                        45
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        43,
+                        43
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                      "quote": "- 技能树：A级施法职能"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "A",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        36,
+                        45
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        43,
+                        43
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                      "quote": "- 技能树：A级施法职能"
+                    }
+                  }
+                ],
+                "tree": "杂学士",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "B",
+              "resource": "杂学士"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    36,
+                    45
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                },
+                "reading": {
+                  "lines": [
+                    44,
+                    44
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                  "quote": "- 提升-浅薄魔法：现在可额外选择1个等级不超过A级的通用法术。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    36,
+                    45
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                },
+                "reading": {
+                  "lines": [
+                    45,
+                    45
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                  "quote": "- 机智爆发：自己回合每轮至多一次，无需动作支付3灵感，获得1次额外标准与1次额外迅捷动作，限纯心智行为，本轮未用即失去。两者可合并执行q≤8的单个心智行为；不生成行动点池，见R-动作。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    36,
+                    45
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                },
+                "reading": {
+                  "lines": [
+                    47,
+                    47
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                  "quote": "- 每天一次，在一次长休息结束后，你能选择3个A级或更低的出现在能力组中的特性；这些特性不能相同，也不能是你已经拥有或已经选择过的特性。以一个自由动作支付2点灵感，在1分钟内获得其中一个特性。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    36,
+                    45
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                },
+                "reading": {
+                  "lines": [
+                    43,
+                    43
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                  "quote": "- 技能树：A级施法职能"
+                }
+              }
+            ]
+          }
+        ],
+        "status": "declarative-contract-source",
+        "unresolvedRules": [
+          {
+            "id": "R-击破动作",
+            "parameter": "狡黠击破发动动作",
+            "reason": "原文和阅读稿均只写支付2灵感，未明确动作。",
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    34,
+                    36
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/杂学士.md"
+                },
+                "reading": {
+                  "lines": [
+                    39,
+                    39
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+                  "quote": "- 狡黠击破：你广泛的知识让可研究一个对手，获得一些灵感来击破对方的防御。选1个敏感视觉范围内的目标，可支付2点灵感，使在本回合内无视目标至多G+传奇智力*2的法术抗力和伤害减免。"
+                }
+              }
+            ]
+          }
+        ],
+        "verification": {
+          "deploymentPerformed": false,
+          "runtimeFullyVerified": false,
+          "runtimeTested": false
+        }
+      },
+      "runtimeSlices": [],
+      "sharedRulesLock": "2d4f858c035f847bc05a312a0e7efea245cd0f6795890239754d371a5b75005c",
+      "units": [
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-518ec4728711",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "杂学士",
+          "reading": {
+            "endLine": 12,
+            "sha256": "1fc38264ee32b1880f5bd4ade354883302756e52b7f6b57ddd040f972edae507",
+            "startLine": 1
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 9
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/2",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/3"
+          ],
+          "declaredFields": {},
+          "id": "clause-fd570deca453",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 15,
+                "grade": "D",
+                "legacyPoints": 1000
+              }
+            ]
+          },
+          "name": "D+1000",
+          "reading": {
+            "endLine": 23,
+            "sha256": "6c84f17f4d0a304a764196a36cb6957a36a47612a850687a67859b63bc35e660",
+            "startLine": 13
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "exclusion",
+              "relativeLine": 5
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 5
+            },
+            {
+              "kind": "exclusion",
+              "relativeLine": 6
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 6
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 6
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 7
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 7
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 7
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 8
+            },
+            {
+              "kind": "exclusion",
+              "relativeLine": 9
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 9
+            },
+            {
+              "kind": "exclusion",
+              "relativeLine": 10
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 10
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-b2aed585b84c",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "补正·杂学士(1)",
+          "reading": {
+            "endLine": 26,
+            "sha256": "3e7d17000bd6dde02d2c3ce0955ae36b9f7f49c1c5a3e08f1f71bba194c17084",
+            "startLine": 24
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/2",
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/3"
+          ],
+          "declaredFields": {},
+          "id": "clause-06b466b1f68d",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 3,
+                "candidateXP": 35,
+                "grade": "C",
+                "legacyPoints": 2000
+              }
+            ]
+          },
+          "name": "C+2000",
+          "reading": {
+            "endLine": 33,
+            "sha256": "8e67987c9cbd89194f732668683b96240886c38a4f084295ffa622d4c834c5f0",
+            "startLine": 27
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 3
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 5
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 5
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 5
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 6
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 6
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 6,
+              "relativeLine": 4
+            }
+          ],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/2",
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/3"
+          ],
+          "declaredFields": {},
+          "id": "clause-bf827708c992",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 9,
+                "candidateXP": 85,
+                "grade": "B",
+                "legacyPoints": 4000
+              }
+            ]
+          },
+          "name": "B+4000",
+          "reading": {
+            "endLine": 41,
+            "sha256": "a0a07ac1d5dc380d21096c13b5b99f646ba753d09743c27834cbb04505b723f7",
+            "startLine": 34
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 3
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 4
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 4
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 5
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 6
+            }
+          ],
+          "unresolvedRuleIds": [
+            "R-击破动作"
+          ]
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/3/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/3/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/3/effects/2"
+          ],
+          "declaredFields": {},
+          "id": "clause-4964af179751",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 27,
+                "candidateXP": 215,
+                "grade": "A",
+                "legacyPoints": 8000
+              }
+            ]
+          },
+          "name": "A+8000",
+          "reading": {
+            "endLine": 51,
+            "sha256": "0680417da46cd0dc7c44475f2b32844bb3a019845a41c8e21082d99bdefde7f2",
+            "startLine": 42
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 3
+            },
+            {
+              "kind": "exclusion",
+              "relativeLine": 4
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 4
+            },
+            {
+              "kind": "exclusion",
+              "relativeLine": 6
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 6
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 6
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 8
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-8cf0c8b0a694",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              }
+            ]
+          },
+          "name": "额外灵感池 D+500",
+          "reading": {
+            "endLine": 57,
+            "sha256": "8048272f0d6bde4005019879834a14cc0aba80f5097fb4929a42052bceb298cb",
+            "startLine": 54
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 2
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 3
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 3
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-29a54dcaa6c8",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 3,
+                "candidateXP": 25,
+                "grade": "C",
+                "legacyPoints": 1000
+              }
+            ]
+          },
+          "name": "改善狡黠防御 C+1000",
+          "reading": {
+            "endLine": 61,
+            "sha256": "5329cca00f37d074113bb75e98fcb57a1095915349e7e405cd18ac6a3352c991",
+            "startLine": 60
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "exclusion",
+              "relativeLine": 2
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 2
+            }
+          ],
+          "unresolvedRuleIds": []
+        }
+      ]
+    },
+    "effects": [],
+    "programs": {}
+  },
+  "id": "candidate-901-magic-bundle-05f1e19130fd84d7",
+  "identity": {
+    "adoptionStatus": "candidate",
+    "aliases": [],
+    "category": "bundle",
+    "grade": "multi",
+    "name": "杂学士",
+    "sharedDependencies": [
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "bbf7521e7514bb9c807e6b5bf07fa55016853cf31ccacd69d2f725e54feb3758"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/共用901判定.md",
+        "sha256": "1c5398bf728c5e94bfa2cc1cf037ead08a0dec1e1898278e844b25b643463bbd"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/来源与核算.md",
+        "sha256": "8f17c529f1b5465fceaefc24931869b82e071d4ab8fb3ed561359864cbf98334"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/未决项.md",
+        "sha256": "3ceae5df0f4bd271ea79956004dba56bd8698eea62b7508871ce11a406903375"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/专有机制.md",
+        "sha256": "14a331e47e9d578634f29e2bae74a1501e916fc594cdef41f9e40b0fa8bafe62"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/引用定位.md",
+        "sha256": "699deab37356bb930ab497aa8bc555f756c174a799a9a91b922345ea6f1be0b1"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/通用法术.md",
+        "sha256": "8922768b19c7c65a410498c69cddc5441796a85c7c50b4871786ecff3a4cbaed"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/防护与状态.md",
+        "sha256": "c9d0b1b1dc1f2546f92faa5dda66464c531283095d21990d8004df4c8e641a12"
+      }
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/能力组/施法类型/杂学士.md",
+        "sha256": "5eeff6b639ffdbfb970bec1118b40991007b0c63c64d5f354aa3b5b4a9aff115"
+      }
+    ],
+    "tree": "杂学士"
+  },
+  "implementationGaps": [
+    "本体声明尚需逐机制接入与执行证明；技能树逐条款保留来源定位，尚未完整编码；未验证动作不进入执行白名单。"
+  ],
+  "inputs": [
+    {
+      "id": "ownedResource",
+      "missingPolicy": "block-related-operation",
+      "provider": "saved-state",
+      "requiredFor": [
+        "effects",
+        "actions"
+      ],
+      "type": "versioned-acquisition-record"
+    },
+    {
+      "id": "choices",
+      "missingPolicy": "ask-only-required-choice",
+      "provider": "player",
+      "requiredFor": [
+        "acquisition"
+      ],
+      "type": "declared-selection"
+    },
+    {
+      "id": "sceneFacts",
+      "missingPolicy": "block-related-operation",
+      "provider": "host",
+      "requiredFor": [
+        "actions"
+      ],
+      "type": "sourced-target-and-scene"
+    },
+    {
+      "basis": "当前人物本能力组真实已取得阶位与采用/来源记录",
+      "id": "context:acquiredGroupGradeValue",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "D/灵感计数",
+        "D/狡黠知识",
+        "C/狡黠攻击",
+        "B/投信取巧",
+        "B/狡黠击破"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "主持确认的传奇属性来源记录；不得用901自动成功反推",
+      "id": "context:confirmedLegendary.感知",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "B/投信取巧"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "主持确认的传奇属性来源记录；不得用901自动成功反推",
+      "id": "context:confirmedLegendary.智力",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "D/内在诡计",
+        "C/智胜于体",
+        "C/狡黠防御",
+        "C/狡黠攻击",
+        "B/狡黠击破"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+      "id": "context:skill.actualLevel",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "D/狡黠知识"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    }
+  ],
+  "reading": {
+    "path": "outputs/施法体系适配-20261024/阅读版/杂学士.md",
+    "sha256": "b5d52047959e60f0387820a35a6571bb8ad543e45e3e2ee707e214e44c0b07ba"
+  },
+  "schemaVersion": "901-resource/1",
+  "unresolvedRules": [
+    {
+      "basis": "原文和阅读稿均只写支付2灵感，未明确动作。；[{\"reading\": {\"path\": \"outputs/施法体系适配-20261024/阅读版/杂学士.md\", \"lines\": [39, 39], \"quote\": \"- 狡黠击破：你广泛的知识让可研究一个对手，获得一些灵感来击破对方的防御。选1个敏感视觉范围内的目标，可支付2点灵感，使在本回合内无视目标至多G+传奇智力*2的法术抗力和伤害减免。\"}, \"original\": {\"path\": \"content/RE/02_resources/能力组/施法类型/杂学士.md\", \"lines\": [34, 36]}}]",
+      "group": "R-击破动作",
+      "parameter": "狡黠击破发动动作",
+      "recommendation": "仅暂停狡黠击破启动；如需先用改编，推荐本回合自由动作且显式采用，不能冒称原文。"
+    }
+  ],
+  "verification": {
+    "runtimeFullyVerified": false,
+    "scope": "paired-source-and-declarative-base; not full runtime",
+    "sourceChecked": true,
+    "status": "pending"
+  },
+  "version": "2026-10-25.magic.1"
+}

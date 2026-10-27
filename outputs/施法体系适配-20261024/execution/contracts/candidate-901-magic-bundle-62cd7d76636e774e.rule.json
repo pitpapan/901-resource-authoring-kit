@@ -1,0 +1,2602 @@
+{
+  "actions": [
+    {
+      "actionCost": [],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-b780fa502066",
+      "id": "candidate-901-magic-bundle-62cd7d76636e774e/clause-b780fa502066",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "D级：初生",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "reflex",
+          "q": 2,
+          "relativeLine": 1
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-54067d144056",
+      "id": "candidate-901-magic-bundle-62cd7d76636e774e/clause-54067d144056",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "·以一个自由或反射[q=2]遣散该法术",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-23e716bc5288",
+      "id": "candidate-901-magic-bundle-62cd7d76636e774e/clause-23e716bc5288",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "制式法杖",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 6,
+          "relativeLine": 2
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-f59b15216f19",
+      "id": "candidate-901-magic-bundle-62cd7d76636e774e/clause-f59b15216f19",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "祈雨御守250",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 6,
+          "relativeLine": 3
+        },
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "reflex",
+          "q": 2,
+          "relativeLine": 3
+        },
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "reflex",
+          "q": 2,
+          "relativeLine": 6
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-e3010e86ba54",
+      "id": "candidate-901-magic-bundle-62cd7d76636e774e/clause-e3010e86ba54",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "魔法霰弹",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-60cc9de6c9e2",
+      "id": "candidate-901-magic-bundle-62cd7d76636e774e/clause-60cc9de6c9e2",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "护盾·AIC",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 2,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-14241dac6ab8",
+      "id": "candidate-901-magic-bundle-62cd7d76636e774e/clause-14241dac6ab8",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "纯白之箭",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 4,
+          "relativeLine": 2
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-1c5bdb3fa1a5",
+      "id": "candidate-901-magic-bundle-62cd7d76636e774e/clause-1c5bdb3fa1a5",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "效果",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 8,
+          "relativeLine": 3
+        },
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "reflex",
+          "q": 2,
+          "relativeLine": 4
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-de78fc964b45",
+      "id": "candidate-901-magic-bundle-62cd7d76636e774e/clause-de78fc964b45",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "地面炸弹",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 12,
+          "relativeLine": 3
+        },
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 2,
+          "relativeLine": 4
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-2c1c37bd7b2e",
+      "id": "candidate-901-magic-bundle-62cd7d76636e774e/clause-2c1c37bd7b2e",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "聚能火球",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 10,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-a60e8e38dcb7",
+      "id": "candidate-901-magic-bundle-62cd7d76636e774e/clause-a60e8e38dcb7",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "雷霆电击",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "reflex",
+          "q": 4,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-4187527a322e",
+      "id": "candidate-901-magic-bundle-62cd7d76636e774e/clause-4187527a322e",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "圣光爆发",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 6,
+          "relativeLine": 2
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-e9446b99cffe",
+      "id": "candidate-901-magic-bundle-62cd7d76636e774e/clause-e9446b99cffe",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "凌空横斩D+500",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "reflex",
+          "q": 4,
+          "relativeLine": 2
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-abd2bd20227a",
+      "id": "candidate-901-magic-bundle-62cd7d76636e774e/clause-abd2bd20227a",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "闪避D+500",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 10,
+          "relativeLine": 2
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-a1cb7ee5f20e",
+      "id": "candidate-901-magic-bundle-62cd7d76636e774e/clause-a1cb7ee5f20e",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "突进冲击D+500",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 10,
+          "relativeLine": 2
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-a6daa823bbb1",
+      "id": "candidate-901-magic-bundle-62cd7d76636e774e/clause-a6daa823bbb1",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "彗星俯冲D+500",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 10,
+          "relativeLine": 2
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-78685833f089",
+      "id": "candidate-901-magic-bundle-62cd7d76636e774e/clause-78685833f089",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "旋风斩击D+500",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    }
+  ],
+  "clauses": [
+    {
+      "effectStats": [],
+      "heading": "AIC法师",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "D级：初生",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "·以一个自由或反射[q=2]遣散该法术",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "技能树",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "制式法杖",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "长法杖 100",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "祈雨御守250",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "D级法术",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "魔法霰弹",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "护盾·AIC",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "纯白之箭",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "效果",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "地面炸弹",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "聚能火球",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "雷霆电击",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "圣光爆发",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "凌空横斩D+500",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "闪避D+500",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "突进冲击D+500",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "彗星俯冲D+500",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "旋风斩击D+500",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "虚空腾跃 D+500",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "血之虹瞳750",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "超载咏唱D+500",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "烹饪与炼金 D+500",
+      "status": "pending"
+    }
+  ],
+  "definition": {
+    "authoringOnly": {
+      "acquisition": {
+        "autoGrantToT0": false,
+        "requiresActualQualification": true,
+        "requiresAdoptedOffer": true,
+        "resetState": false,
+        "treeEntryGrantsChildren": false,
+        "unverifiedPricesMayNotBeCharged": true
+      },
+      "baseMechanisms": {
+        "constraints": [
+          {
+            "automaticTechniqueGrant": false,
+            "operation": "separateTreeAccessFromTechniqueAcquisition"
+          }
+        ],
+        "implementationGaps": [
+          {
+            "effectIds": [
+              "近战法师",
+              "预咏唱",
+              "魔力之血",
+              "施法理论",
+              "心之容器"
+            ],
+            "kind": "operation-support-and-acquisition-transaction",
+            "notUnresolvedRule": true,
+            "status": "implementation-needed"
+          }
+        ],
+        "inputBindings": {
+          "classifierMaySelectRegisteredChoicesOnly": true,
+          "contextInputs": [
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "魔力之血",
+                  "grade": "D"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "actualPoolLoss",
+              "provider": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "魔力之血",
+                  "grade": "D"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "actualPoolRecovery",
+              "provider": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "心之容器",
+                  "grade": "D"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "damage.actual",
+              "provider": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "心之容器",
+                  "grade": "D"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "save.failureMargin",
+              "provider": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "预咏唱",
+                  "grade": "D"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "spell.actualEnergyCost",
+              "provider": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "预咏唱",
+                  "grade": "D"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "spell.originalQ",
+              "provider": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            }
+          ],
+          "mustNotInferOwnedStageFromDefinition": true,
+          "stateReads": [
+            "resources.天生魔力.current",
+            "resources.天生魔力.max"
+          ]
+        },
+        "numericalPolicy": {
+          "actionRatingRounding": "ceil-before-action-table",
+          "defaultRounding": "floor-after-complete-effect",
+          "distanceRounding": "none",
+          "explicitAccumulatedXP": "retain-source-precision",
+          "intermediateRounding": "only-if-explicit",
+          "reading": {
+            "lines": [
+              86,
+              86
+            ],
+            "path": "outputs/施法体系适配-20261024/共用901判定.md",
+            "sha256": "1c5398bf728c5e94bfa2cc1cf037ead08a0dec1e1898278e844b25b643463bbd"
+          },
+          "runtimeStatus": "implementation-needed",
+          "timeRounding": "none",
+          "xpCostRounding": "ceil"
+        },
+        "purchasableCasterFunctions": [
+          {
+            "baseXP": 9,
+            "grade": "C",
+            "grantsBodyStage": false,
+            "ignoresOtherSources": true,
+            "opensMatchingTree": false,
+            "repeatable": false,
+            "requiresPriorFunctionFromSameSource": "D",
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    30,
+                    32
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/AIC法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    31,
+                    31
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/AIC法师.md",
+                  "quote": "- 可购买更高等级的施法职能，对应C/B/A级施法职能价格为9/22/59"
+                }
+              }
+            ]
+          },
+          {
+            "baseXP": 22,
+            "grade": "B",
+            "grantsBodyStage": false,
+            "ignoresOtherSources": true,
+            "opensMatchingTree": false,
+            "repeatable": false,
+            "requiresPriorFunctionFromSameSource": "C",
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    30,
+                    32
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/AIC法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    31,
+                    31
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/AIC法师.md",
+                  "quote": "- 可购买更高等级的施法职能，对应C/B/A级施法职能价格为9/22/59"
+                }
+              }
+            ]
+          },
+          {
+            "baseXP": 59,
+            "grade": "A",
+            "grantsBodyStage": false,
+            "ignoresOtherSources": true,
+            "opensMatchingTree": false,
+            "repeatable": false,
+            "requiresPriorFunctionFromSameSource": "B",
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    30,
+                    32
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/AIC法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    31,
+                    31
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/AIC法师.md",
+                  "quote": "- 可购买更高等级的施法职能，对应C/B/A级施法职能价格为9/22/59"
+                }
+              }
+            ]
+          }
+        ],
+        "readingSHA256": "a43343455bd8367b00f91b7f48abf296018b38b871315c22fbb91be6c1cabd3e",
+        "runtimeFullyVerified": false,
+        "scope": "ability-group-body-only",
+        "stageInheritance": {
+          "dynamicGradeReadsCurrentActuallyAcquiredStage": true,
+          "replacementFamilyUsesHighestAcquiredStageOnly": true,
+          "retainPriorStageBenefits": true
+        },
+        "stages": [
+          {
+            "choices": [
+              {
+                "at": "acquisition",
+                "key": "heartVessel",
+                "optional": true,
+                "options": [
+                  "enabled",
+                  "disabled"
+                ]
+              }
+            ],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [
+                  {
+                    "attackHasEffect": "魔法霰弹"
+                  }
+                ],
+                "id": "近战法师",
+                "operation": "replaceAttackCheck",
+                "parameters": {
+                  "check": "casting"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        10,
+                        26
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/AIC法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        14,
+                        14
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/AIC法师.md",
+                      "quote": "- 近战法师：在使用具有魔法霰弹效果的攻击时可以施法检定作攻击。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [
+                  {
+                    "lte": [
+                      {
+                        "context": "spell.originalQ"
+                      },
+                      12
+                    ]
+                  }
+                ],
+                "id": "预咏唱",
+                "operation": "storePreparedSpell",
+                "parameters": {
+                  "capacityReservation": {
+                    "context": "spell.actualEnergyCost"
+                  },
+                  "components": {
+                    "extraFocus": true,
+                    "focusCannotBeWaived": true,
+                    "maintainOriginalComponents": true
+                  },
+                  "concentration": "maintained",
+                  "dismiss": {
+                    "free": true,
+                    "reactionQ": 2
+                  },
+                  "duration": "one-scene",
+                  "endOn": [
+                    "lost-concentration",
+                    "missing-components"
+                  ],
+                  "maximumStored": 1,
+                  "payOriginalActionsAndEnergy": true,
+                  "refundPaidMagicOn": [
+                    "natural-expiry",
+                    "voluntary-dismissal"
+                  ],
+                  "release": {
+                    "free": true,
+                    "reactionQ": 4
+                  },
+                  "storage": "staff",
+                  "whileStored": {
+                    "blocksOtherCastingUnlessExplicitException": true
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        10,
+                        26
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/AIC法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        15,
+                        22
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/AIC法师.md",
+                      "quote": "- 预咏唱：施展动作标值q≤12的法术时，可先支付其动作与能量而将其存于法杖，持续至多1场景，并占用等于其耗能的魔力上限。额外法器成分不可免除；免除即不能预咏唱。可用下列两法处理："
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "魔力之血",
+                "operation": "linkedPoolStatus",
+                "parameters": {
+                  "consequenceProfile": "疲乏",
+                  "onAnyLoss": {
+                    "amount": {
+                      "context": "actualPoolLoss"
+                    },
+                    "status": "枯竭",
+                    "unavoidable": true
+                  },
+                  "onAnyRecovery": {
+                    "amount": {
+                      "context": "actualPoolRecovery"
+                    },
+                    "removeStatus": "枯竭"
+                  },
+                  "ordinaryRestCannotRemove": true,
+                  "pool": "天生魔力",
+                  "statusResistanceAttributes": [
+                    "力量",
+                    "风度"
+                  ]
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        10,
+                        26
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/AIC法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        23,
+                        23
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/AIC法师.md",
+                      "quote": "- 魔力之血：每失去1点天生魔力即承受1枯竭点。关键抵抗属性为力量/风度；轻度减值、重度与毁灭性后果同疲乏。只能每恢复1点天生魔力移除1点枯竭，不能靠普通休息直接清除。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "施法理论",
+                "operation": "allowCastingKey",
+                "parameters": {
+                  "attribute": "智力",
+                  "requiresSystematicEducation": true
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        10,
+                        26
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/AIC法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        24,
+                        24
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/AIC法师.md",
+                      "quote": "- 施法理论：AIC世界中具有比较完善、机械的施法理论体系，施法者须通过经过系统性的教育培训，在施法时可以智力作为关键施法属性。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [
+                  {
+                    "choiceEquals": {
+                      "heartVessel": "enabled"
+                    }
+                  },
+                  {
+                    "poolNotFull": "天生魔力"
+                  }
+                ],
+                "id": "心之容器",
+                "operation": "reserveCapacityOnFailedSave",
+                "parameters": {
+                  "difficulty": {
+                    "args": [
+                      {
+                        "state": "resources.天生魔力.max"
+                      },
+                      {
+                        "state": "resources.天生魔力.current"
+                      }
+                    ],
+                    "op": "sub"
+                  },
+                  "maximumCapacityBonus": 5,
+                  "reservationEnds": "next-long-rest",
+                  "reservedCapacity": {
+                    "args": [
+                      0,
+                      {
+                        "context": "save.failureMargin"
+                      }
+                    ],
+                    "op": "max"
+                  },
+                  "satisfyingExperienceRelease": 1,
+                  "save": "fortitude",
+                  "saveSuccessPenalty": {
+                    "context": "damage.actual"
+                  },
+                  "trigger": {
+                    "event": "damage-received"
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        10,
+                        26
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/AIC法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        26,
+                        26
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/AIC法师.md",
+                      "quote": "- 在天生魔力不为满时受到伤害时，须作强韧豁免，DC为当前天生魔力值和最大值的差值，且失去等于伤害值的成功数，若失败，等于失败数的天生魔力上限将会被占据，直到下次长休息才能恢复。若角色经历愉快而令人满"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "D",
+            "grants": [
+              {
+                "capacityPolicy": "shared-901-pool-rule",
+                "fillOnAcquisition": false,
+                "kind": "天生魔力",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        10,
+                        26
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/AIC法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        12,
+                        12
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/AIC法师.md",
+                      "quote": "- 能量：天生魔力"
+                    }
+                  }
+                ],
+                "type": "energy-pool"
+              },
+              {
+                "grade": "D",
+                "source": "AIC法师",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        10,
+                        26
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/AIC法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        31,
+                        31
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/AIC法师.md",
+                      "quote": "- 可购买更高等级的施法职能，对应C/B/A级施法职能价格为9/22/59"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "D",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        10,
+                        26
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/AIC法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        31,
+                        31
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/AIC法师.md",
+                      "quote": "- 可购买更高等级的施法职能，对应C/B/A级施法职能价格为9/22/59"
+                    }
+                  }
+                ],
+                "tree": "AIC法师",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": null,
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    10,
+                    26
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/AIC法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    14,
+                    14
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/AIC法师.md",
+                  "quote": "- 近战法师：在使用具有魔法霰弹效果的攻击时可以施法检定作攻击。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    10,
+                    26
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/AIC法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    15,
+                    22
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/AIC法师.md",
+                  "quote": "- 预咏唱：施展动作标值q≤12的法术时，可先支付其动作与能量而将其存于法杖，持续至多1场景，并占用等于其耗能的魔力上限。额外法器成分不可免除；免除即不能预咏唱。可用下列两法处理："
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    10,
+                    26
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/AIC法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    23,
+                    23
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/AIC法师.md",
+                  "quote": "- 魔力之血：每失去1点天生魔力即承受1枯竭点。关键抵抗属性为力量/风度；轻度减值、重度与毁灭性后果同疲乏。只能每恢复1点天生魔力移除1点枯竭，不能靠普通休息直接清除。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    10,
+                    26
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/AIC法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    24,
+                    24
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/AIC法师.md",
+                  "quote": "- 施法理论：AIC世界中具有比较完善、机械的施法理论体系，施法者须通过经过系统性的教育培训，在施法时可以智力作为关键施法属性。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    10,
+                    26
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/AIC法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    26,
+                    26
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/AIC法师.md",
+                  "quote": "- 在天生魔力不为满时受到伤害时，须作强韧豁免，DC为当前天生魔力值和最大值的差值，且失去等于伤害值的成功数，若失败，等于失败数的天生魔力上限将会被占据，直到下次长休息才能恢复。若角色经历愉快而令人满"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    10,
+                    26
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/AIC法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    12,
+                    12
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/AIC法师.md",
+                  "quote": "- 能量：天生魔力"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    10,
+                    26
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/AIC法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    31,
+                    31
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/AIC法师.md",
+                  "quote": "- 可购买更高等级的施法职能，对应C/B/A级施法职能价格为9/22/59"
+                }
+              }
+            ]
+          }
+        ],
+        "status": "declarative-contract-source",
+        "unresolvedRules": [],
+        "verification": {
+          "deploymentPerformed": false,
+          "runtimeFullyVerified": false,
+          "runtimeTested": false
+        }
+      },
+      "runtimeSlices": [],
+      "sharedRulesLock": "2d4f858c035f847bc05a312a0e7efea245cd0f6795890239754d371a5b75005c",
+      "units": [
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-2fef85eec79c",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "AIC法师",
+          "reading": {
+            "endLine": 10,
+            "sha256": "5e7c539fc33ae9ed39dff319c626516fbbf86e0ae23b6e3e2d874418441c38c6",
+            "startLine": 1
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 9
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/1"
+          ],
+          "declaredFields": {},
+          "id": "clause-b780fa502066",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "D级：初生",
+          "reading": {
+            "endLine": 16,
+            "sha256": "0943aa898a8f3f901d36b36d66ec3ea9505d84a47e3d8cf9e16c9c2072e49008",
+            "startLine": 11
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "exclusion",
+              "relativeLine": 5
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 5
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 5
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "reflex",
+              "q": 2,
+              "relativeLine": 1
+            }
+          ],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/2",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/3",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/4"
+          ],
+          "declaredFields": {},
+          "id": "clause-54067d144056",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "·以一个自由或反射[q=2]遣散该法术",
+          "reading": {
+            "endLine": 27,
+            "sha256": "b88440a5ccc1fbf4ee8b7a66faf23de310bb5b98aea4a5b77ba473a9ac2b7de8",
+            "startLine": 19
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "duration",
+              "relativeLine": 2
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 4
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 4
+            },
+            {
+              "kind": "exclusion",
+              "relativeLine": 5
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 8
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 8
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 8
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-5bb89502fc36",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "技能树",
+          "reading": {
+            "endLine": 33,
+            "sha256": "5ef2225a31a9e2f30fe86268c3d2543ccb602aa0b6bf52000a1ccdde6411117d",
+            "startLine": 28
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "prerequisite",
+              "relativeLine": 5
+            },
+            {
+              "kind": "exclusion",
+              "relativeLine": 5
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "学习原价": "D+1000"
+          },
+          "id": "clause-23e716bc5288",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 15,
+                "grade": "D",
+                "legacyPoints": 1000
+              }
+            ]
+          },
+          "name": "制式法杖",
+          "reading": {
+            "endLine": 47,
+            "sha256": "013df9cae6e8a361e060058b7902d4ed3c25eebbdb71dbe4868afb89b468c94a",
+            "startLine": 36
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "prerequisite",
+              "relativeLine": 10
+            },
+            {
+              "kind": "exclusion",
+              "relativeLine": 10
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 10
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 10
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-55bea0e8b554",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "长法杖 100",
+          "reading": {
+            "endLine": 52,
+            "sha256": "510bbb9df0db51d6c7141b97db1e63ff82e7ebf6969eb4a496a10952be15f50c",
+            "startLine": 50
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 2
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 6,
+              "relativeLine": 2
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-f59b15216f19",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "祈雨御守250",
+          "reading": {
+            "endLine": 56,
+            "sha256": "f6a8bb3c521585a4758cbd0172fd0bbc051bc64cb6ca16e32d767d0c11ea363f",
+            "startLine": 53
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 2
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-0f58f6830d57",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "D级法术",
+          "reading": {
+            "endLine": 59,
+            "sha256": "89d1ec9f82c2d34d5f80d64d0bd88b130b2701a77b2b18d074cadf172781eae6",
+            "startLine": 57
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 6,
+              "relativeLine": 3
+            },
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "reflex",
+              "q": 2,
+              "relativeLine": 3
+            },
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "reflex",
+              "q": 2,
+              "relativeLine": 6
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "冷却": "1轮",
+            "学习原价": "D+500",
+            "射程": "自身",
+            "成分": "言/姿/器",
+            "施放": "标准(q6)/反射[q=2]",
+            "能耗": "特殊",
+            "领域": "变化"
+          },
+          "id": "clause-e3010e86ba54",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              }
+            ]
+          },
+          "name": "魔法霰弹",
+          "reading": {
+            "endLine": 69,
+            "sha256": "70e5d9f4763f2aed275efe9923791a16e7c8fad2902b186a22f25cbe6b8d6628",
+            "startLine": 60
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "cost",
+              "relativeLine": 4
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 5
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 6
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 7
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 8
+            },
+            {
+              "kind": "exclusion",
+              "relativeLine": 9
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-60cc9de6c9e2",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "护盾·AIC",
+          "reading": {
+            "endLine": 73,
+            "sha256": "39a1c41c29d83fdb4f74ccd8569e17c22b186f842d4a238acca14915f5d8bdd7",
+            "startLine": 70
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "exclusion",
+              "relativeLine": 3
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 2,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "学习原价": "D+500",
+            "射程": "自身",
+            "成分": "言/姿/器",
+            "持续": "1轮",
+            "施放": "迅捷(q2)",
+            "领域": "塑能"
+          },
+          "id": "clause-14241dac6ab8",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              }
+            ]
+          },
+          "name": "纯白之箭",
+          "reading": {
+            "endLine": 77,
+            "sha256": "25b464afd64a4dd6543f3ad7fe27c1a6b0d0c75c5ba44a573faa978913ffe598",
+            "startLine": 74
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "duration",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 4,
+              "relativeLine": 2
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-1c5bdb3fa1a5",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "效果",
+          "reading": {
+            "endLine": 82,
+            "sha256": "fcd2b35b22da195d302c47a68ab29856758528d14989708d704ac74e5d93b398",
+            "startLine": 78
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "duration",
+              "relativeLine": 2
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 4
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 8,
+              "relativeLine": 3
+            },
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "reflex",
+              "q": 2,
+              "relativeLine": 4
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "冷却": "1轮",
+            "学习原价": "D+500",
+            "射程": "KP米",
+            "成分": "言/姿/器",
+            "持续": "1场景或直到引爆",
+            "施放": "标准＋迅捷(q8)",
+            "范围": "KP米",
+            "领域": "塑能"
+          },
+          "id": "clause-de78fc964b45",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              }
+            ]
+          },
+          "name": "地面炸弹",
+          "reading": {
+            "endLine": 89,
+            "sha256": "8a9bdff1cbb3b4b405fd7218167f62fcde85206513873389bf0078d4a4654669",
+            "startLine": 83
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "duration",
+              "relativeLine": 3
+            },
+            {
+              "kind": "prerequisite",
+              "relativeLine": 6
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 12,
+              "relativeLine": 3
+            },
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 2,
+              "relativeLine": 4
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "冷却": "持续结束后3轮。",
+            "学习原价": "C+1000",
+            "射程": "10KP米",
+            "成分": "言/姿/器",
+            "持续": "三轮或直到引爆。",
+            "施放": "整轮(q12)",
+            "范围": "KP米",
+            "领域": "塑能"
+          },
+          "id": "clause-2c1c37bd7b2e",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 3,
+                "candidateXP": 25,
+                "grade": "C",
+                "legacyPoints": 1000
+              }
+            ]
+          },
+          "name": "聚能火球",
+          "reading": {
+            "endLine": 97,
+            "sha256": "350075e552aed0086c2e3bdc11514d57e4204ac2d0b7081f05f888dc4dd672ea",
+            "startLine": 92
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "duration",
+              "relativeLine": 3
+            },
+            {
+              "kind": "exclusion",
+              "relativeLine": 4
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 4
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 10,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "冷却": "3轮",
+            "学习原价": "C+1000",
+            "射程": "10KP米",
+            "成分": "言/姿/器",
+            "持续": "1轮",
+            "施放": "标准＋移动(q10)",
+            "能耗": "5",
+            "范围": "10KP米",
+            "领域": "塑能"
+          },
+          "id": "clause-a60e8e38dcb7",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 3,
+                "candidateXP": 25,
+                "grade": "C",
+                "legacyPoints": 1000
+              }
+            ]
+          },
+          "name": "雷霆电击",
+          "reading": {
+            "endLine": 103,
+            "sha256": "743495a88829ac0000477e152b83952f10fa4719b81560e0748d517d4707033a",
+            "startLine": 98
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "duration",
+              "relativeLine": 3
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 4
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 5
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 5
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "reflex",
+              "q": 4,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "冷却时间": "10轮",
+            "学习原价": "B+2000",
+            "射程": "自身",
+            "成分": "无",
+            "持续": "至多1轮或应对的动作、效果提前结束",
+            "施放": "反射[q=4]",
+            "能耗": "15",
+            "范围": "智力/威力米取高",
+            "领域": "塑能"
+          },
+          "id": "clause-4187527a322e",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 9,
+                "candidateXP": 65,
+                "grade": "B",
+                "legacyPoints": 2000
+              }
+            ]
+          },
+          "name": "圣光爆发",
+          "reading": {
+            "endLine": 113,
+            "sha256": "24bcf40fb96c7f0da4d40758810e491dff9bc09a189fbd5fff2ae24e0241e047",
+            "startLine": 106
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "duration",
+              "relativeLine": 3
+            },
+            {
+              "kind": "exclusion",
+              "relativeLine": 4
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 4
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 4
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 5
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 6
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 6,
+              "relativeLine": 2
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-e9446b99cffe",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              }
+            ]
+          },
+          "name": "凌空横斩D+500",
+          "reading": {
+            "endLine": 120,
+            "sha256": "0527aa25d05ec8b4080f2a2e2423d17fb91f27864b90a1eec2deaac1c27618f7",
+            "startLine": 116
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "exclusion",
+              "relativeLine": 3
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 3
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 3
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 3
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 4
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "reflex",
+              "q": 4,
+              "relativeLine": 2
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-abd2bd20227a",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              }
+            ]
+          },
+          "name": "闪避D+500",
+          "reading": {
+            "endLine": 123,
+            "sha256": "561dbe6bd586b43eeb8abbe3564a303b4233831c092d7c368159d9f61050d0d3",
+            "startLine": 121
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 10,
+              "relativeLine": 2
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-a1cb7ee5f20e",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              }
+            ]
+          },
+          "name": "突进冲击D+500",
+          "reading": {
+            "endLine": 127,
+            "sha256": "ba495a6837e2dcf01c4b4daca02bf0069b40992eee96ca342bab8807ae6b55e5",
+            "startLine": 124
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "exclusion",
+              "relativeLine": 2
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 2
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 2
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 2
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 10,
+              "relativeLine": 2
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-a6daa823bbb1",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              }
+            ]
+          },
+          "name": "彗星俯冲D+500",
+          "reading": {
+            "endLine": 131,
+            "sha256": "08dc20b17e909ce0b222567abec4a3997675b58201ac679aced272a2fe87bdec",
+            "startLine": 128
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "exclusion",
+              "relativeLine": 2
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 2
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 2
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 10,
+              "relativeLine": 2
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-78685833f089",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              }
+            ]
+          },
+          "name": "旋风斩击D+500",
+          "reading": {
+            "endLine": 135,
+            "sha256": "e9cc085e645327c3761f3a095f530cd83c5d1ddd091c441e64da1737bf19c43d",
+            "startLine": 132
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "prerequisite",
+              "relativeLine": 2
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 2
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-29183a08d34a",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              }
+            ]
+          },
+          "name": "虚空腾跃 D+500",
+          "reading": {
+            "endLine": 140,
+            "sha256": "9c33417c479ecfebfd4028dd95233ec4e583260be5ea7be492123fb43e23f4e5",
+            "startLine": 136
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "prerequisite",
+              "relativeLine": 2
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 3
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 3
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 4
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-59ca82e33b17",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "血之虹瞳750",
+          "reading": {
+            "endLine": 145,
+            "sha256": "81e96d360f0f3e3b0f3a9d531fd7fe57c0a0a32505c15f201174a17461360dc1",
+            "startLine": 143
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-e833cfb3b491",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              }
+            ]
+          },
+          "name": "超载咏唱D+500",
+          "reading": {
+            "endLine": 148,
+            "sha256": "50251fbdd48666f0962ba6cdd08b375e641ea54b0b42c0526628099b33bfa29f",
+            "startLine": 146
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 2
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 2
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-80d9e9739de3",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              }
+            ]
+          },
+          "name": "烹饪与炼金 D+500",
+          "reading": {
+            "endLine": 152,
+            "sha256": "373132c0420b7822154f92d592fc8cb68b9ef97a5f8b773a5329efbc04decded",
+            "startLine": 149
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "cost",
+              "relativeLine": 3
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 4
+            }
+          ],
+          "unresolvedRuleIds": []
+        }
+      ]
+    },
+    "effects": [],
+    "programs": {}
+  },
+  "id": "candidate-901-magic-bundle-62cd7d76636e774e",
+  "identity": {
+    "adoptionStatus": "candidate",
+    "aliases": [],
+    "category": "bundle",
+    "grade": "multi",
+    "name": "AIC法师",
+    "sharedDependencies": [
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "bbf7521e7514bb9c807e6b5bf07fa55016853cf31ccacd69d2f725e54feb3758"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/共用901判定.md",
+        "sha256": "1c5398bf728c5e94bfa2cc1cf037ead08a0dec1e1898278e844b25b643463bbd"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/来源与核算.md",
+        "sha256": "8f17c529f1b5465fceaefc24931869b82e071d4ab8fb3ed561359864cbf98334"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/未决项.md",
+        "sha256": "3ceae5df0f4bd271ea79956004dba56bd8698eea62b7508871ce11a406903375"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/专有机制.md",
+        "sha256": "14a331e47e9d578634f29e2bae74a1501e916fc594cdef41f9e40b0fa8bafe62"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/引用定位.md",
+        "sha256": "699deab37356bb930ab497aa8bc555f756c174a799a9a91b922345ea6f1be0b1"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/通用法术.md",
+        "sha256": "8922768b19c7c65a410498c69cddc5441796a85c7c50b4871786ecff3a4cbaed"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/防护与状态.md",
+        "sha256": "c9d0b1b1dc1f2546f92faa5dda66464c531283095d21990d8004df4c8e641a12"
+      }
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/能力组/施法类型/AIC法师.md",
+        "sha256": "768b19e71425bf68ea2b3fd7ac3da76aea1caed12d304e2ea7f98c2aaf88a945"
+      }
+    ],
+    "tree": "AIC法师"
+  },
+  "implementationGaps": [
+    "本体声明尚需逐机制接入与执行证明；技能树逐条款保留来源定位，尚未完整编码；未验证动作不进入执行白名单。"
+  ],
+  "inputs": [
+    {
+      "id": "ownedResource",
+      "missingPolicy": "block-related-operation",
+      "provider": "saved-state",
+      "requiredFor": [
+        "effects",
+        "actions"
+      ],
+      "type": "versioned-acquisition-record"
+    },
+    {
+      "id": "choices",
+      "missingPolicy": "ask-only-required-choice",
+      "provider": "player",
+      "requiredFor": [
+        "acquisition"
+      ],
+      "type": "declared-selection"
+    },
+    {
+      "id": "sceneFacts",
+      "missingPolicy": "block-related-operation",
+      "provider": "host",
+      "requiredFor": [
+        "actions"
+      ],
+      "type": "sourced-target-and-scene"
+    },
+    {
+      "id": "state:resources.天生魔力.current",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "saved-state",
+      "requiredFor": [
+        "base-mechanisms"
+      ],
+      "type": "number"
+    },
+    {
+      "id": "state:resources.天生魔力.max",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "saved-state",
+      "requiredFor": [
+        "base-mechanisms"
+      ],
+      "type": "number"
+    },
+    {
+      "basis": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+      "id": "context:actualPoolLoss",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "D/魔力之血"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+      "id": "context:actualPoolRecovery",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "D/魔力之血"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+      "id": "context:damage.actual",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "D/心之容器"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+      "id": "context:save.failureMargin",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "D/心之容器"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+      "id": "context:spell.actualEnergyCost",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "D/预咏唱"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+      "id": "context:spell.originalQ",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "D/预咏唱"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    }
+  ],
+  "reading": {
+    "path": "outputs/施法体系适配-20261024/阅读版/AIC法师.md",
+    "sha256": "a43343455bd8367b00f91b7f48abf296018b38b871315c22fbb91be6c1cabd3e"
+  },
+  "schemaVersion": "901-resource/1",
+  "unresolvedRules": [],
+  "verification": {
+    "runtimeFullyVerified": false,
+    "scope": "paired-source-and-declarative-base; not full runtime",
+    "sourceChecked": true,
+    "status": "pending"
+  },
+  "version": "2026-10-25.magic.1"
+}

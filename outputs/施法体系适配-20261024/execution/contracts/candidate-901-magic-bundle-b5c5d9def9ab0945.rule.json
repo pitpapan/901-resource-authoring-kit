@@ -1,0 +1,1729 @@
+{
+  "actions": [
+    {
+      "actionCost": [],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-15622692ac97",
+      "id": "candidate-901-magic-bundle-b5c5d9def9ab0945/clause-15622692ac97",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "本体",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    }
+  ],
+  "clauses": [
+    {
+      "effectStats": [],
+      "heading": "旅法师",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "本体",
+      "status": "partial"
+    }
+  ],
+  "definition": {
+    "authoringOnly": {
+      "acquisition": {
+        "autoGrantToT0": false,
+        "requiresActualQualification": true,
+        "requiresAdoptedOffer": true,
+        "resetState": false,
+        "treeEntryGrantsChildren": false,
+        "unverifiedPricesMayNotBeCharged": true
+      },
+      "baseMechanisms": {
+        "constraints": [
+          {
+            "automaticTechniqueGrant": false,
+            "operation": "separateTreeAccessFromTechniqueAcquisition"
+          }
+        ],
+        "implementationGaps": [
+          {
+            "effectIds": [
+              "不朽火花",
+              "火花P",
+              "火花减耗",
+              "时空感知",
+              "绝对定位与道标",
+              "火花P",
+              "火花减耗",
+              "诸界行者",
+              "点燃",
+              "裂隙熵力",
+              "火花P",
+              "火花减耗",
+              "超越时空",
+              "额外职能计价",
+              "火花P",
+              "火花减耗",
+              "超越时空",
+              "时间线回溯"
+            ],
+            "kind": "operation-support-and-acquisition-transaction",
+            "notUnresolvedRule": true,
+            "status": "implementation-needed"
+          }
+        ],
+        "inputBindings": {
+          "classifierMaySelectRegisteredChoicesOnly": true,
+          "contextInputs": [
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "时空感知",
+                  "grade": "C"
+                },
+                {
+                  "effectId": "额外职能计价",
+                  "grade": "A"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "acquiredGroupGradeValue",
+              "provider": "当前人物本能力组真实已取得阶位与采用/来源记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "时空感知",
+                  "grade": "C"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "confirmedSenses.fuzzyVision",
+              "provider": "当前真实感官及场景视线效果线记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "点燃",
+                  "grade": "B"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "extraWillingTouchTargets",
+              "provider": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            }
+          ],
+          "mustNotInferOwnedStageFromDefinition": true,
+          "stateReads": []
+        },
+        "numericalPolicy": {
+          "actionRatingRounding": "ceil-before-action-table",
+          "defaultRounding": "floor-after-complete-effect",
+          "distanceRounding": "none",
+          "explicitAccumulatedXP": "retain-source-precision",
+          "intermediateRounding": "only-if-explicit",
+          "reading": {
+            "lines": [
+              86,
+              86
+            ],
+            "path": "outputs/施法体系适配-20261024/共用901判定.md",
+            "sha256": "1c5398bf728c5e94bfa2cc1cf037ead08a0dec1e1898278e844b25b643463bbd"
+          },
+          "runtimeStatus": "implementation-needed",
+          "timeRounding": "none",
+          "xpCostRounding": "ceil"
+        },
+        "readingSHA256": "5ada5bde0e048e40f1b3555e55e49a96d8a203e70e6114f8a6a3c2b945fa1259",
+        "runtimeFullyVerified": false,
+        "scope": "ability-group-body-only",
+        "stageInheritance": {
+          "dynamicGradeReadsCurrentActuallyAcquiredStage": true,
+          "replacementFamilyUsesHighestAcquiredStageOnly": true,
+          "retainPriorStageBenefits": true
+        },
+        "stages": [
+          {
+            "choices": [
+              {
+                "at": "acquisition",
+                "immutable": true,
+                "key": "castingKey",
+                "options": [
+                  "力量",
+                  "敏捷",
+                  "智力",
+                  "感知",
+                  "风度",
+                  "意志"
+                ]
+              }
+            ],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "不朽火花",
+                "operation": "removeBiologicalNeeds",
+                "parameters": {
+                  "aging": false,
+                  "lifespan": "unlimited",
+                  "needs": [
+                    "food",
+                    "water",
+                    "breathing",
+                    "sleep"
+                  ]
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        10,
+                        15
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        17,
+                        17
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                      "quote": "| D | 火花：无需食水、呼吸、睡眠，寿命无限且不老。 |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "D",
+            "grants": [
+              {
+                "capacityPolicy": "shared-901-pool-rule",
+                "fillOnAcquisition": false,
+                "kind": "魔力",
+                "selection": "legal-actual-magic-kind-at-acquisition",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        10,
+                        15
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        13,
+                        13
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                      "quote": "能量：魔力；D阶从六属性任选K，选定不改。D/C/B/A/S依次开对应施法职能。"
+                    }
+                  }
+                ],
+                "type": "energy-pool"
+              },
+              {
+                "grade": "D",
+                "source": "旅法师",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        10,
+                        15
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        13,
+                        13
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                      "quote": "能量：魔力；D阶从六属性任选K，选定不改。D/C/B/A/S依次开对应施法职能。"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "D",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        10,
+                        15
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        13,
+                        13
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                      "quote": "能量：魔力；D阶从六属性任选K，选定不改。D/C/B/A/S依次开对应施法职能。"
+                    }
+                  }
+                ],
+                "tree": "旅法师",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": null,
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    10,
+                    15
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    17,
+                    17
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                  "quote": "| D | 火花：无需食水、呼吸、睡眠，寿命无限且不老。 |"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    10,
+                    15
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    13,
+                    13
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                  "quote": "能量：魔力；D阶从六属性任选K，选定不改。D/C/B/A/S依次开对应施法职能。"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "火花P",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "value": 1
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        16,
+                        20
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        18,
+                        18
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                      "quote": "| C | 火花：法术P+1，耗魔−1、最低1。时空感知：模糊视觉内时间/空间法则效果≤G+1时自动知道发生地点与用途，G阶探知；始终知自身绝对位置、方向、时间流逝及是否跨界，同界传送知距离/方向。每"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "火花P",
+                  "mode": "replace-total"
+                },
+                "target": "spell.power",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "火花减耗",
+                "operation": "reduceCost",
+                "parameters": {
+                  "amount": 1,
+                  "minimum": 1,
+                  "pool": "魔力"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        16,
+                        20
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        18,
+                        18
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                      "quote": "| C | 火花：法术P+1，耗魔−1、最低1。时空感知：模糊视觉内时间/空间法则效果≤G+1时自动知道发生地点与用途，G阶探知；始终知自身绝对位置、方向、时间流逝及是否跨界，同界传送知距离/方向。每"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "火花减耗",
+                  "mode": "replace-total"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "时空感知",
+                "operation": "detectLawEvents",
+                "parameters": {
+                  "automatic": true,
+                  "detectionGrade": {
+                    "context": "acquiredGroupGradeValue"
+                  },
+                  "lawKinds": [
+                    "time",
+                    "space"
+                  ],
+                  "maximumGrade": {
+                    "args": [
+                      {
+                        "context": "acquiredGroupGradeValue"
+                      },
+                      1
+                    ],
+                    "op": "add"
+                  },
+                  "range": {
+                    "context": "confirmedSenses.fuzzyVision"
+                  },
+                  "reveals": [
+                    "location",
+                    "purpose"
+                  ]
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        16,
+                        20
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        18,
+                        18
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                      "quote": "| C | 火花：法术P+1，耗魔−1、最低1。时空感知：模糊视觉内时间/空间法则效果≤G+1时自动知道发生地点与用途，G阶探知；始终知自身绝对位置、方向、时间流逝及是否跨界，同界传送知距离/方向。每"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "绝对定位与道标",
+                "operation": "recordVisitedWaypoints",
+                "parameters": {
+                  "absoluteDirection": true,
+                  "absolutePosition": true,
+                  "elapsedTime": true,
+                  "planeWorldCrossing": true,
+                  "samePlaneTeleportDistanceDirection": true,
+                  "usableBy": "self-only",
+                  "visibility": "self-only"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        16,
+                        20
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        18,
+                        18
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                      "quote": "| C | 火花：法术P+1，耗魔−1、最低1。时空感知：模糊视觉内时间/空间法则效果≤G+1时自动知道发生地点与用途，G阶探知；始终知自身绝对位置、方向、时间流逝及是否跨界，同界传送知距离/方向。每"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "C",
+            "grants": [
+              {
+                "grade": "C",
+                "source": "旅法师",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        16,
+                        20
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        13,
+                        13
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                      "quote": "能量：魔力；D阶从六属性任选K，选定不改。D/C/B/A/S依次开对应施法职能。"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "C",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        16,
+                        20
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        13,
+                        13
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                      "quote": "能量：魔力；D阶从六属性任选K，选定不改。D/C/B/A/S依次开对应施法职能。"
+                    }
+                  }
+                ],
+                "tree": "旅法师",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "D",
+              "resource": "旅法师"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    16,
+                    20
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    18,
+                    18
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                  "quote": "| C | 火花：法术P+1，耗魔−1、最低1。时空感知：模糊视觉内时间/空间法则效果≤G+1时自动知道发生地点与用途，G阶探知；始终知自身绝对位置、方向、时间流逝及是否跨界，同界传送知距离/方向。每"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    16,
+                    20
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    13,
+                    13
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                  "quote": "能量：魔力；D阶从六属性任选K，选定不改。D/C/B/A/S依次开对应施法职能。"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "火花P",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "value": 2
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        21,
+                        36
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        19,
+                        19
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                      "quote": "| B | 火花P再+1、减耗再+1（累计+2/−2）；诸界行者免疫环境影响；获得下述点燃。 |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "火花P",
+                  "mode": "replace-total"
+                },
+                "target": "spell.power",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "火花减耗",
+                "operation": "reduceCost",
+                "parameters": {
+                  "amount": 2,
+                  "minimum": 1,
+                  "pool": "魔力"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        21,
+                        36
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        19,
+                        19
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                      "quote": "| B | 火花P再+1、减耗再+1（累计+2/−2）；诸界行者免疫环境影响；获得下述点燃。 |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "火花减耗",
+                  "mode": "replace-total"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "诸界行者",
+                "operation": "immunity",
+                "parameters": {
+                  "category": "environment",
+                  "exception": {
+                    "riftEntropyReductionFactor": 0.5
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        21,
+                        36
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        19,
+                        19
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                      "quote": "| B | 火花P再+1、减耗再+1（累计+2/−2）；诸界行者免疫环境影响；获得下述点燃。 |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "点燃",
+                "operation": "ritualTeleport",
+                "parameters": {
+                  "action": {
+                    "components": [
+                      "姿势",
+                      "语言"
+                    ],
+                    "durationSeconds": 60,
+                    "minimumRounds": 1,
+                    "requiresConcentration": true
+                  },
+                  "cost": {
+                    "amount": {
+                      "args": [
+                        5,
+                        {
+                          "args": [
+                            1,
+                            {
+                              "context": "extraWillingTouchTargets"
+                            }
+                          ],
+                          "op": "add"
+                        }
+                      ],
+                      "op": "mul"
+                    },
+                    "pool": "魔力"
+                  },
+                  "duration": "instant",
+                  "modes": [
+                    {
+                      "destination": "existing-personal-waypoint",
+                      "grantsWaypointAbility": false,
+                      "id": "waypoint"
+                    },
+                    {
+                      "destination": "random-unoccupied-supporting-solid-surface",
+                      "id": "known-plane",
+                      "knownExactLocationLuckCheck": true,
+                      "nonexistentPlaneFallback": "rift",
+                      "originWaypointHours": 1,
+                      "requiresKnownExistingPlane": true
+                    },
+                    {
+                      "id": "rift",
+                      "originWaypoint": true
+                    }
+                  ],
+                  "shortening": {
+                    "appliesTo": "all-transported",
+                    "atMinimumStun": 90,
+                    "stunPerRoundRemoved": 10,
+                    "stunUnavoidable": true
+                  }
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        21,
+                        36
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        23,
+                        23
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                      "quote": "**点燃（B）**：1分钟姿势＋语言仪式并维持专注，自身5魔力，每多一名接触范围自愿目标再5魔力。可每缩短1轮给所有被传送者10不可避免晕眩，最短1轮（此时共90晕眩）。选以下其一："
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self-and-willing-touch-targets",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "裂隙熵力",
+                "operation": "drainEachPoolAndDamage",
+                "parameters": {
+                  "completeExemption": {
+                    "allLawImmunities": [
+                      "SSS-time",
+                      "SSS-space"
+                    ]
+                  },
+                  "damageGrade": "A",
+                  "damagePerActualPointDrained": 1,
+                  "drainPerPool": 10,
+                  "environmentImmunityFactor": 0.5,
+                  "trigger": {
+                    "event": "round"
+                  },
+                  "unavoidable": true
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        21,
+                        36
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        27,
+                        27
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                      "quote": "3. 进入时空裂隙并在出发点留道标：裂隙内每轮每种通用能量−10，每失1点受1不可避免A。环境免疫只减半；同时免疫SSS时间与空间法则者无影响。无法可知的位面、无目的地条件不得由模型自行创建。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "creatures-in-rift",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "B",
+            "grants": [
+              {
+                "grade": "B",
+                "source": "旅法师",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        21,
+                        36
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        13,
+                        13
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                      "quote": "能量：魔力；D阶从六属性任选K，选定不改。D/C/B/A/S依次开对应施法职能。"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "B",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        21,
+                        36
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        13,
+                        13
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                      "quote": "能量：魔力；D阶从六属性任选K，选定不改。D/C/B/A/S依次开对应施法职能。"
+                    }
+                  }
+                ],
+                "tree": "旅法师",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "C",
+              "resource": "旅法师"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    21,
+                    36
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    19,
+                    19
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                  "quote": "| B | 火花P再+1、减耗再+1（累计+2/−2）；诸界行者免疫环境影响；获得下述点燃。 |"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    21,
+                    36
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    23,
+                    23
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                  "quote": "**点燃（B）**：1分钟姿势＋语言仪式并维持专注，自身5魔力，每多一名接触范围自愿目标再5魔力。可每缩短1轮给所有被传送者10不可避免晕眩，最短1轮（此时共90晕眩）。选以下其一："
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    21,
+                    36
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    27,
+                    27
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                  "quote": "3. 进入时空裂隙并在出发点留道标：裂隙内每轮每种通用能量−10，每失1点受1不可避免A。环境免疫只减半；同时免疫SSS时间与空间法则者无影响。无法可知的位面、无目的地条件不得由模型自行创建。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    21,
+                    36
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    13,
+                    13
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                  "quote": "能量：魔力；D阶从六属性任选K，选定不改。D/C/B/A/S依次开对应施法职能。"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "火花P",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "value": 4
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        37,
+                        42
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        20,
+                        20
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                      "quote": "| A | 火花P再+2、减耗再+2（累计+4/−4）；免疫≤A级时间/空间法则；为通用法术多职能学习减费视为额外有一套G阶职能。 |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "火花P",
+                  "mode": "replace-total"
+                },
+                "target": "spell.power",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "火花减耗",
+                "operation": "reduceCost",
+                "parameters": {
+                  "amount": 4,
+                  "minimum": 1,
+                  "pool": "魔力"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        37,
+                        42
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        20,
+                        20
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                      "quote": "| A | 火花P再+2、减耗再+2（累计+4/−4）；免疫≤A级时间/空间法则；为通用法术多职能学习减费视为额外有一套G阶职能。 |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "火花减耗",
+                  "mode": "replace-total"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "超越时空",
+                "operation": "immunity",
+                "parameters": {
+                  "category": [
+                    "time-law",
+                    "space-law"
+                  ],
+                  "maximumGrade": "A"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        37,
+                        42
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        20,
+                        20
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                      "quote": "| A | 火花P再+2、减耗再+2（累计+4/−4）；免疫≤A级时间/空间法则；为通用法术多职能学习减费视为额外有一套G阶职能。 |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "超越时空",
+                  "mode": "replace-total"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "额外职能计价",
+                "operation": "virtualCasterFunctionForPricing",
+                "parameters": {
+                  "actualCasterGrant": false,
+                  "count": 1,
+                  "grade": {
+                    "context": "acquiredGroupGradeValue"
+                  },
+                  "scope": "generic-spell-multiple-caster-function-discount"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        37,
+                        42
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        20,
+                        20
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                      "quote": "| A | 火花P再+2、减耗再+2（累计+4/−4）；免疫≤A级时间/空间法则；为通用法术多职能学习减费视为额外有一套G阶职能。 |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "A",
+            "grants": [
+              {
+                "grade": "A",
+                "source": "旅法师",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        37,
+                        42
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        13,
+                        13
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                      "quote": "能量：魔力；D阶从六属性任选K，选定不改。D/C/B/A/S依次开对应施法职能。"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "A",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        37,
+                        42
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        13,
+                        13
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                      "quote": "能量：魔力；D阶从六属性任选K，选定不改。D/C/B/A/S依次开对应施法职能。"
+                    }
+                  }
+                ],
+                "tree": "旅法师",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "B",
+              "resource": "旅法师"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    37,
+                    42
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    20,
+                    20
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                  "quote": "| A | 火花P再+2、减耗再+2（累计+4/−4）；免疫≤A级时间/空间法则；为通用法术多职能学习减费视为额外有一套G阶职能。 |"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    37,
+                    42
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    13,
+                    13
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                  "quote": "能量：魔力；D阶从六属性任选K，选定不改。D/C/B/A/S依次开对应施法职能。"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "火花P",
+                "operation": "modifyStatistic",
+                "parameters": {
+                  "value": 8
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        43,
+                        52
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        21,
+                        21
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                      "quote": "| S | 火花P再+4、减耗再+4（累计+8/−8）；时间/空间免疫升S；获得下述时间线回溯。 |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "火花P",
+                  "mode": "replace-total"
+                },
+                "target": "spell.power",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "火花减耗",
+                "operation": "reduceCost",
+                "parameters": {
+                  "amount": 8,
+                  "minimum": 1,
+                  "pool": "魔力"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        43,
+                        52
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        21,
+                        21
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                      "quote": "| S | 火花P再+4、减耗再+4（累计+8/−8）；时间/空间免疫升S；获得下述时间线回溯。 |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "火花减耗",
+                  "mode": "replace-total"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "超越时空",
+                "operation": "immunity",
+                "parameters": {
+                  "category": [
+                    "time-law",
+                    "space-law"
+                  ],
+                  "maximumGrade": "S"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        43,
+                        52
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        21,
+                        21
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                      "quote": "| S | 火花P再+4、减耗再+4（累计+8/−8）；时间/空间免疫升S；获得下述时间线回溯。 |"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "family": "超越时空",
+                  "mode": "replace-total"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "时间线回溯",
+                "operation": "branchTimelineReplay",
+                "parameters": {
+                  "action": "点燃",
+                  "costMultiplier": 2,
+                  "destination": "personally-experienced-time-in-current-arc",
+                  "frequency": {
+                    "maximum": 1,
+                    "scope": "adventure-arc"
+                  },
+                  "memoryRetainers": [
+                    "self",
+                    "S-time-immune"
+                  ],
+                  "mutateCurrentSave": false,
+                  "preserve": [
+                    "activation-mana-cost",
+                    "activation-stun"
+                  ],
+                  "requiresAffordableAtDestination": true
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        43,
+                        52
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        29,
+                        29
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                      "quote": "**S时间线回溯**：点燃消耗双倍魔力且仅自己，每完整冒险篇章一次，投射回本篇章自己经历过的任意时点，从该点重开时间线，后续事件重新游玩。自己及免疫S时间法则者保留被移除时间线的记忆。此次耗魔和晕眩保"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "S",
+            "grants": [
+              {
+                "grade": "S",
+                "source": "旅法师",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        43,
+                        52
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        13,
+                        13
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                      "quote": "能量：魔力；D阶从六属性任选K，选定不改。D/C/B/A/S依次开对应施法职能。"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "S",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        43,
+                        52
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        13,
+                        13
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                      "quote": "能量：魔力；D阶从六属性任选K，选定不改。D/C/B/A/S依次开对应施法职能。"
+                    }
+                  }
+                ],
+                "tree": "旅法师",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "A",
+              "resource": "旅法师"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    43,
+                    52
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    21,
+                    21
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                  "quote": "| S | 火花P再+4、减耗再+4（累计+8/−8）；时间/空间免疫升S；获得下述时间线回溯。 |"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    43,
+                    52
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    29,
+                    29
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                  "quote": "**S时间线回溯**：点燃消耗双倍魔力且仅自己，每完整冒险篇章一次，投射回本篇章自己经历过的任意时点，从该点重开时间线，后续事件重新游玩。自己及免疫S时间法则者保留被移除时间线的记忆。此次耗魔和晕眩保"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    43,
+                    52
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/旅法师.md"
+                },
+                "reading": {
+                  "lines": [
+                    13,
+                    13
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+                  "quote": "能量：魔力；D阶从六属性任选K，选定不改。D/C/B/A/S依次开对应施法职能。"
+                }
+              }
+            ]
+          }
+        ],
+        "status": "declarative-contract-source",
+        "unresolvedRules": [],
+        "verification": {
+          "deploymentPerformed": false,
+          "runtimeFullyVerified": false,
+          "runtimeTested": false
+        }
+      },
+      "runtimeSlices": [],
+      "sharedRulesLock": "2d4f858c035f847bc05a312a0e7efea245cd0f6795890239754d371a5b75005c",
+      "units": [
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-b77be5d0b5df",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "旅法师",
+          "reading": {
+            "endLine": 10,
+            "sha256": "ab68eb99b48386f3c3c791248732b2f57a1240181531be12b05da55676857202",
+            "startLine": 1
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 9
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/2",
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/3",
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/2",
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/3",
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/4",
+            "/definition/authoringOnly/baseMechanisms/stages/3/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/3/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/3/effects/2",
+            "/definition/authoringOnly/baseMechanisms/stages/3/effects/3",
+            "/definition/authoringOnly/baseMechanisms/stages/4/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/4/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/4/effects/2",
+            "/definition/authoringOnly/baseMechanisms/stages/4/effects/3"
+          ],
+          "declaredFields": {
+            "火花": "法术P+1，耗魔−1、最低1。时空感知：模糊视觉内时间/空间法则效果≤G+1时自动知道发生地点与用途，G阶探知；始终知自身绝对位置、方向、时间流逝及是否跨界，同界传送知距离/方向。每处经过位置都可作为仅自己可用/可发现的空间道标。 |"
+          },
+          "id": "clause-15622692ac97",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "本体",
+          "reading": {
+            "endLine": 29,
+            "sha256": "c9456546bf0528f986250e5f190559aebb423c7a44bede68cd9ddf76088b49cf",
+            "startLine": 11
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 5
+            },
+            {
+              "kind": "exclusion",
+              "relativeLine": 7
+            },
+            {
+              "kind": "exclusion",
+              "relativeLine": 17
+            },
+            {
+              "kind": "exclusion",
+              "relativeLine": 19
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 19
+            }
+          ],
+          "unresolvedRuleIds": []
+        }
+      ]
+    },
+    "effects": [],
+    "programs": {}
+  },
+  "id": "candidate-901-magic-bundle-b5c5d9def9ab0945",
+  "identity": {
+    "adoptionStatus": "candidate",
+    "aliases": [],
+    "category": "bundle",
+    "grade": "multi",
+    "name": "旅法师",
+    "sharedDependencies": [
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "bbf7521e7514bb9c807e6b5bf07fa55016853cf31ccacd69d2f725e54feb3758"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/共用901判定.md",
+        "sha256": "1c5398bf728c5e94bfa2cc1cf037ead08a0dec1e1898278e844b25b643463bbd"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/来源与核算.md",
+        "sha256": "8f17c529f1b5465fceaefc24931869b82e071d4ab8fb3ed561359864cbf98334"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/未决项.md",
+        "sha256": "3ceae5df0f4bd271ea79956004dba56bd8698eea62b7508871ce11a406903375"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/专有机制.md",
+        "sha256": "14a331e47e9d578634f29e2bae74a1501e916fc594cdef41f9e40b0fa8bafe62"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/引用定位.md",
+        "sha256": "699deab37356bb930ab497aa8bc555f756c174a799a9a91b922345ea6f1be0b1"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/通用法术.md",
+        "sha256": "8922768b19c7c65a410498c69cddc5441796a85c7c50b4871786ecff3a4cbaed"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/防护与状态.md",
+        "sha256": "c9d0b1b1dc1f2546f92faa5dda66464c531283095d21990d8004df4c8e641a12"
+      }
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/能力组/施法类型/旅法师.md",
+        "sha256": "4f70e641a8d1d92bf125b2f48eace3c3d39d8c27ee96eb804340372d47de981f"
+      }
+    ],
+    "tree": "旅法师"
+  },
+  "implementationGaps": [
+    "本体声明尚需逐机制接入与执行证明；技能树逐条款保留来源定位，尚未完整编码；未验证动作不进入执行白名单。"
+  ],
+  "inputs": [
+    {
+      "id": "ownedResource",
+      "missingPolicy": "block-related-operation",
+      "provider": "saved-state",
+      "requiredFor": [
+        "effects",
+        "actions"
+      ],
+      "type": "versioned-acquisition-record"
+    },
+    {
+      "id": "choices",
+      "missingPolicy": "ask-only-required-choice",
+      "provider": "player",
+      "requiredFor": [
+        "acquisition"
+      ],
+      "type": "declared-selection"
+    },
+    {
+      "id": "sceneFacts",
+      "missingPolicy": "block-related-operation",
+      "provider": "host",
+      "requiredFor": [
+        "actions"
+      ],
+      "type": "sourced-target-and-scene"
+    },
+    {
+      "basis": "当前人物本能力组真实已取得阶位与采用/来源记录",
+      "id": "context:acquiredGroupGradeValue",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "C/时空感知",
+        "A/额外职能计价"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "当前真实感官及场景视线效果线记录",
+      "id": "context:confirmedSenses.fuzzyVision",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "C/时空感知"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "共用动作/伤害/检定结算器或有来源主持场景输入；分类器不提供任意规则数值",
+      "id": "context:extraWillingTouchTargets",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "B/点燃"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    }
+  ],
+  "reading": {
+    "path": "outputs/施法体系适配-20261024/阅读版/旅法师.md",
+    "sha256": "5ada5bde0e048e40f1b3555e55e49a96d8a203e70e6114f8a6a3c2b945fa1259"
+  },
+  "schemaVersion": "901-resource/1",
+  "unresolvedRules": [],
+  "verification": {
+    "runtimeFullyVerified": false,
+    "scope": "paired-source-and-declarative-base; not full runtime",
+    "sourceChecked": true,
+    "status": "pending"
+  },
+  "version": "2026-10-25.magic.1"
+}

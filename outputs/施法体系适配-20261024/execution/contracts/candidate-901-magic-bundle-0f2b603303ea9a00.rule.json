@@ -1,0 +1,2455 @@
+{
+  "actions": [
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 6,
+          "relativeLine": 4
+        },
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 6,
+          "relativeLine": 5
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-264fc46c485b",
+      "id": "candidate-901-magic-bundle-0f2b603303ea9a00/clause-264fc46c485b",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "熔炉之子 D+1000",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-0e31ce37f159",
+      "id": "candidate-901-magic-bundle-0f2b603303ea9a00/clause-0e31ce37f159",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "熔炉之主的低语",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 6,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-e04ebc218251",
+      "id": "candidate-901-magic-bundle-0f2b603303ea9a00/clause-e04ebc218251",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "熔炉之武器召唤术",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 8,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-a8de39d5cb37",
+      "id": "candidate-901-magic-bundle-0f2b603303ea9a00/clause-a8de39d5cb37",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "熔炉之身",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 6,
+          "relativeLine": 3
+        },
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 4,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-7d13647d22cb",
+      "id": "candidate-901-magic-bundle-0f2b603303ea9a00/clause-7d13647d22cb",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "熔炉之鞭",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 10,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-441aad6f4e1e",
+      "id": "candidate-901-magic-bundle-0f2b603303ea9a00/clause-441aad6f4e1e",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "熔炉召唤术",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-9031c455515f",
+      "id": "candidate-901-magic-bundle-0f2b603303ea9a00/clause-9031c455515f",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "熔炉变化术",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    },
+    {
+      "actionCost": [
+        {
+          "execution": "declaration-only",
+          "kind": "fixed-action-price",
+          "mode": "ordinary",
+          "q": 6,
+          "relativeLine": 3
+        }
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "blocked",
+      "clauseId": "clause-54d86dee62e6",
+      "id": "candidate-901-magic-bundle-0f2b603303ea9a00/clause-54d86dee62e6",
+      "missingPolicy": "implementation-needed; do not ask player for a rule",
+      "name": "熔炉重生术",
+      "operation": null,
+      "requestFields": [],
+      "requiredChoice": []
+    }
+  ],
+  "clauses": [
+    {
+      "effectStats": [],
+      "heading": "熔炉巫师",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "熔炉之子 D+1000",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "熔炉巫师 C+2000",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "熔炉大巫师 B+4000",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "熔炉巫王A+8000",
+      "status": "partial"
+    },
+    {
+      "effectStats": [],
+      "heading": "金色熔炉冥想法 D+500/C+1000/B+2000/A+4000",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "熔炉锤炼法 D+500/C+1000/B+2000/A+4000",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "熔炉之主的低语",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "熔炉之武器召唤术",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "熔炉之身",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "熔炉之鞭",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "熔炉召唤术",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "“为什么还不献祭邪神？”",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "熔炉变化术",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "熔炉重生术",
+      "status": "pending"
+    },
+    {
+      "effectStats": [],
+      "heading": "太阳之核",
+      "status": "pending"
+    }
+  ],
+  "definition": {
+    "authoringOnly": {
+      "acquisition": {
+        "autoGrantToT0": false,
+        "requiresActualQualification": true,
+        "requiresAdoptedOffer": true,
+        "resetState": false,
+        "treeEntryGrantsChildren": false,
+        "unverifiedPricesMayNotBeCharged": true
+      },
+      "baseMechanisms": {
+        "constraints": [
+          {
+            "automaticTechniqueGrant": false,
+            "operation": "separateTreeAccessFromTechniqueAcquisition"
+          }
+        ],
+        "implementationGaps": [
+          {
+            "effectIds": [
+              "信仰熔炉",
+              "熔炉之眼",
+              "神圣伤害",
+              "神圣赋予",
+              "献祭",
+              "熔炉心灵感应",
+              "献祭额度增量",
+              "熔炉心灵感应",
+              "献祭额度增量",
+              "熔炉心灵感应",
+              "献祭额度增量"
+            ],
+            "kind": "operation-support-and-acquisition-transaction",
+            "notUnresolvedRule": true,
+            "status": "implementation-needed"
+          }
+        ],
+        "inputBindings": {
+          "classifierMaySelectRegisteredChoicesOnly": true,
+          "contextInputs": [
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "献祭",
+                  "grade": "D"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "acquiredGroupGradeValue",
+              "provider": "当前人物本能力组真实已取得阶位与采用/来源记录",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "献祭",
+                  "grade": "D"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "self.combatPower",
+              "provider": "主持登记并附来源的实际目标/自身规则事实，禁止由模型凭叙事估造",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "献祭",
+                  "grade": "D"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "target.combatPower",
+              "provider": "主持登记并附来源的实际目标/自身规则事实，禁止由模型凭叙事估造",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "献祭",
+                  "grade": "D"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "target.darkTier",
+              "provider": "主持登记并附来源的实际目标/自身规则事实，禁止由模型凭叙事估造",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            },
+            {
+              "affectedEffects": [
+                {
+                  "effectId": "献祭",
+                  "grade": "D"
+                }
+              ],
+              "classifierSupplied": false,
+              "finiteNumberRequired": true,
+              "missingPolicy": "block-only-dependent-operation-before-cost",
+              "path": "furnace.remainingArcAllowance",
+              "provider": "本篇章已记账限定XP与本阶累计额度6/18/42/90之差",
+              "runtimeAdapterStatus": "implementation-needed",
+              "sourceRequired": true,
+              "type": "number"
+            }
+          ],
+          "mustNotInferOwnedStageFromDefinition": true,
+          "stateReads": [
+            "attributes.智力"
+          ]
+        },
+        "numericalPolicy": {
+          "actionRatingRounding": "ceil-before-action-table",
+          "defaultRounding": "floor-after-complete-effect",
+          "distanceRounding": "none",
+          "explicitAccumulatedXP": "retain-source-precision",
+          "intermediateRounding": "only-if-explicit",
+          "reading": {
+            "lines": [
+              86,
+              86
+            ],
+            "path": "outputs/施法体系适配-20261024/共用901判定.md",
+            "sha256": "1c5398bf728c5e94bfa2cc1cf037ead08a0dec1e1898278e844b25b643463bbd"
+          },
+          "runtimeStatus": "implementation-needed",
+          "timeRounding": "none",
+          "xpCostRounding": "ceil"
+        },
+        "readingSHA256": "79a0e778cdc3ed682154e81d167f94467c0c27f74caff1eeb7b5c61f628706e8",
+        "runtimeFullyVerified": false,
+        "scope": "ability-group-body-only",
+        "stageInheritance": {
+          "dynamicGradeReadsCurrentActuallyAcquiredStage": true,
+          "replacementFamilyUsesHighestAcquiredStageOnly": true,
+          "retainPriorStageBenefits": true
+        },
+        "stages": [
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "信仰熔炉",
+                "operation": "applyFaithBinding",
+                "parameters": {
+                  "compulsion": "不可反抗种子",
+                  "deity": "熔炉之主"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        9,
+                        16
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        20,
+                        20
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                      "quote": "- 信仰熔炉：将信仰熔炉之主，这是信仰导向，这样的信仰是全身心的，被种下了不可反抗的种子。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "熔炉之眼",
+                "operation": "inflictStatus",
+                "parameters": {
+                  "action": {
+                    "kind": "standard",
+                    "q": 6
+                  },
+                  "cooldownRounds": 1,
+                  "cost": {
+                    "魔力": 1
+                  },
+                  "points": 8,
+                  "save": "will",
+                  "statusChoices": [
+                    "魅惑",
+                    "精神束缚",
+                    "欲眠",
+                    "情绪异常"
+                  ]
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        9,
+                        16
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        18,
+                        18
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                      "quote": "- 熔炉之眼：震慑和宁神。以一个标准动作[q=6]，冷却时间1轮，消耗1点魔力，你向敏感视觉范围内1个生物使用时，该生物受到8点不良状态点数，该不良状态点数可在以下范围中选择：魅惑，精神束缚，欲眠，任"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "one-sensitive-vision-creature",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "神圣伤害",
+                "operation": "addDamageTag",
+                "parameters": {
+                  "tag": "神圣",
+                  "trigger": "damage-from-magic-spent-or-magic-funded-effect"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        9,
+                        16
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        19,
+                        19
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                      "quote": "- 熔炉之力：熔炉巫师的修行不靠持久的冥想和苦修，他们的未来出路就是邪魔的末日，他们的成长必然伴随着邪魔的陨落。所有由你消耗魔力造成的伤害或消耗魔力的效果造成的伤害均获得【神圣】。消耗1点魔力和一个动"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "神圣赋予",
+                "operation": "grantItemTags",
+                "parameters": {
+                  "action": {
+                    "q": 6
+                  },
+                  "cost": {
+                    "魔力": 1
+                  },
+                  "durationMinutes": {
+                    "state": "attributes.智力"
+                  },
+                  "tags": [
+                    "神圣",
+                    "魔法"
+                  ]
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        9,
+                        16
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        19,
+                        19
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                      "quote": "- 熔炉之力：熔炉巫师的修行不靠持久的冥想和苦修，他们的未来出路就是邪魔的末日，他们的成长必然伴随着邪魔的陨落。所有由你消耗魔力造成的伤害或消耗魔力的效果造成的伤害均获得【神圣】。消耗1点魔力和一个动"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "weapon-or-item",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "献祭",
+                "operation": "consumeKilledSoulAndGrantRestrictedXP",
+                "parameters": {
+                  "action": "none",
+                  "awardAmount": {
+                    "args": [
+                      0,
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  {
+                                    "args": [
+                                      {
+                                        "context": "target.combatPower"
+                                      },
+                                      {
+                                        "args": [
+                                          2,
+                                          {
+                                            "context": "target.darkTier"
+                                          }
+                                        ],
+                                        "op": "mul"
+                                      }
+                                    ],
+                                    "op": "add"
+                                  },
+                                  {
+                                    "args": [
+                                      {
+                                        "args": [
+                                          2,
+                                          {
+                                            "context": "self.combatPower"
+                                          }
+                                        ],
+                                        "op": "mul"
+                                      },
+                                      3
+                                    ],
+                                    "op": "div"
+                                  }
+                                ],
+                                "op": "sub"
+                              }
+                            ],
+                            "op": "floor"
+                          },
+                          {
+                            "context": "furnace.remainingArcAllowance"
+                          }
+                        ],
+                        "op": "min"
+                      }
+                    ],
+                    "op": "max"
+                  },
+                  "cannotCreditOrdinaryXP": true,
+                  "doNotInferBattlePowerFromNarrative": true,
+                  "effectGrade": {
+                    "context": "acquiredGroupGradeValue"
+                  },
+                  "eligibility": "any-confirmed-nontemporary-souled-creature-explicit-clause",
+                  "frequency": {
+                    "maximum": 1,
+                    "scope": "actual-soul"
+                  },
+                  "maximumPerAdventure": 6,
+                  "rawAmount": {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "context": "target.combatPower"
+                              },
+                              {
+                                "args": [
+                                  2,
+                                  {
+                                    "context": "target.darkTier"
+                                  }
+                                ],
+                                "op": "mul"
+                              }
+                            ],
+                            "op": "add"
+                          },
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  2,
+                                  {
+                                    "context": "self.combatPower"
+                                  }
+                                ],
+                                "op": "mul"
+                              },
+                              3
+                            ],
+                            "op": "div"
+                          }
+                        ],
+                        "op": "sub"
+                      }
+                    ],
+                    "op": "floor"
+                  },
+                  "requiresConfirmedBattlePowerFacts": true,
+                  "rewardUses": [
+                    "attribute-growth",
+                    "this-ability-group",
+                    "this-page-techniques",
+                    "this-page-wonders"
+                  ],
+                  "scopeLedger": "furnace-restricted-XP",
+                  "trigger": "confirmed-kill-non-temporary-souled-creature"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        9,
+                        16
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        21,
+                        21
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                      "quote": "- 献祭：确认击杀无持续时间、具有灵魂的生物时，无需额外动作，可选择将该灵魂交给熔炉之主消耗；消耗灵魂的效果等级跟随本特性等级。以已登记的双方战力和目标黑暗层级计算`max(0,floor(目标战力＋"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "D",
+            "grants": [
+              {
+                "capacityPolicy": "shared-901-pool-rule",
+                "fillOnAcquisition": false,
+                "kind": "精神魔力",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        9,
+                        16
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        16,
+                        16
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                      "quote": "- 能量：精神魔力"
+                    }
+                  }
+                ],
+                "type": "energy-pool"
+              },
+              {
+                "grade": "D",
+                "source": "熔炉巫师",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        9,
+                        16
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        17,
+                        17
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                      "quote": "- 技能树：D级施法者职能与部分专有技能"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "D",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        9,
+                        16
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        17,
+                        17
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                      "quote": "- 技能树：D级施法者职能与部分专有技能"
+                    }
+                  }
+                ],
+                "tree": "熔炉巫师",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": null,
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    9,
+                    16
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                },
+                "reading": {
+                  "lines": [
+                    20,
+                    20
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                  "quote": "- 信仰熔炉：将信仰熔炉之主，这是信仰导向，这样的信仰是全身心的，被种下了不可反抗的种子。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    9,
+                    16
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                },
+                "reading": {
+                  "lines": [
+                    18,
+                    18
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                  "quote": "- 熔炉之眼：震慑和宁神。以一个标准动作[q=6]，冷却时间1轮，消耗1点魔力，你向敏感视觉范围内1个生物使用时，该生物受到8点不良状态点数，该不良状态点数可在以下范围中选择：魅惑，精神束缚，欲眠，任"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    9,
+                    16
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                },
+                "reading": {
+                  "lines": [
+                    19,
+                    19
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                  "quote": "- 熔炉之力：熔炉巫师的修行不靠持久的冥想和苦修，他们的未来出路就是邪魔的末日，他们的成长必然伴随着邪魔的陨落。所有由你消耗魔力造成的伤害或消耗魔力的效果造成的伤害均获得【神圣】。消耗1点魔力和一个动"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    9,
+                    16
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                },
+                "reading": {
+                  "lines": [
+                    21,
+                    21
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                  "quote": "- 献祭：确认击杀无持续时间、具有灵魂的生物时，无需额外动作，可选择将该灵魂交给熔炉之主消耗；消耗灵魂的效果等级跟随本特性等级。以已登记的双方战力和目标黑暗层级计算`max(0,floor(目标战力＋"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    9,
+                    16
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                },
+                "reading": {
+                  "lines": [
+                    16,
+                    16
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                  "quote": "- 能量：精神魔力"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    9,
+                    16
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                },
+                "reading": {
+                  "lines": [
+                    17,
+                    17
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                  "quote": "- 技能树：D级施法者职能与部分专有技能"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "熔炉心灵感应",
+                "operation": "grantReferencedTraitWithOverrides",
+                "parameters": {
+                  "extendsEyeRange": "telepathy-range",
+                  "eyeStatusTotal": 8,
+                  "eyeTargetCount": 1,
+                  "keyAttribute": "智力",
+                  "reference": "心理掌握.D级心灵感应",
+                  "replacesLowerGrade": true
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        17,
+                        21
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        25,
+                        25
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                      "quote": "- 熔炉之眼：审判和赤红。获得改造心理掌握中的D级心灵感应特性，其中关键属性的部分更改为智力相关，自身D级熔炉之眼的作用范围扩大到心灵感应的范围。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "献祭额度增量",
+                "operation": "increaseRewardCap",
+                "parameters": {
+                  "amount": 12,
+                  "counter": "限定XP",
+                  "cumulativeMaximum": 18,
+                  "doesNotResetPreviouslyAwardedInArc": true,
+                  "scope": "adventure"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        17,
+                        21
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        26,
+                        26
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                      "quote": "- 献祭：本篇章限定XP上限新增12，累计18；不重置已领数。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "C",
+            "grants": [
+              {
+                "grade": "C",
+                "source": "熔炉巫师",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        17,
+                        21
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        24,
+                        24
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                      "quote": "- 技能树：C级施法者职能与部分专有技能"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "C",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        17,
+                        21
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        24,
+                        24
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                      "quote": "- 技能树：C级施法者职能与部分专有技能"
+                    }
+                  }
+                ],
+                "tree": "熔炉巫师",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "D",
+              "resource": "熔炉巫师"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    17,
+                    21
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                },
+                "reading": {
+                  "lines": [
+                    25,
+                    25
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                  "quote": "- 熔炉之眼：审判和赤红。获得改造心理掌握中的D级心灵感应特性，其中关键属性的部分更改为智力相关，自身D级熔炉之眼的作用范围扩大到心灵感应的范围。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    17,
+                    21
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                },
+                "reading": {
+                  "lines": [
+                    26,
+                    26
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                  "quote": "- 献祭：本篇章限定XP上限新增12，累计18；不重置已领数。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    17,
+                    21
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                },
+                "reading": {
+                  "lines": [
+                    24,
+                    24
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                  "quote": "- 技能树：C级施法者职能与部分专有技能"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "熔炉心灵感应",
+                "operation": "grantReferencedTraitWithOverrides",
+                "parameters": {
+                  "extendsEyeRange": "telepathy-range",
+                  "eyeStatusTotal": 16,
+                  "eyeTargetCount": "any-in-range",
+                  "keyAttribute": "智力",
+                  "reference": "心理掌握.C级心灵感应",
+                  "replacesLowerGrade": true
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        22,
+                        31
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        30,
+                        30
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                      "quote": "- 熔炉之眼：审判和赤红。获得改造心理掌握中的C级心灵感应特性，其中关键属性的部分更改为智力相关。你用D级熔炉之眼的作用单位个数从1个扩大到心灵感应范围内任意目标，同时造成的不良点数提升8点。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "献祭额度增量",
+                "operation": "increaseRewardCap",
+                "parameters": {
+                  "amount": 24,
+                  "counter": "限定XP",
+                  "cumulativeMaximum": 42,
+                  "doesNotResetPreviouslyAwardedInArc": true,
+                  "scope": "adventure"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        22,
+                        31
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        31,
+                        31
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                      "quote": "- 献祭：本篇章限定XP上限新增24，累计42；不重置已领数。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "B",
+            "grants": [
+              {
+                "grade": "B",
+                "source": "熔炉巫师",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        22,
+                        31
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        29,
+                        29
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                      "quote": "- 技能树：B级施法者职能与部分专有技能"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "B",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        22,
+                        31
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        29,
+                        29
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                      "quote": "- 技能树：B级施法者职能与部分专有技能"
+                    }
+                  }
+                ],
+                "tree": "熔炉巫师",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "C",
+              "resource": "熔炉巫师"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    22,
+                    31
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                },
+                "reading": {
+                  "lines": [
+                    30,
+                    30
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                  "quote": "- 熔炉之眼：审判和赤红。获得改造心理掌握中的C级心灵感应特性，其中关键属性的部分更改为智力相关。你用D级熔炉之眼的作用单位个数从1个扩大到心灵感应范围内任意目标，同时造成的不良点数提升8点。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    22,
+                    31
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                },
+                "reading": {
+                  "lines": [
+                    31,
+                    31
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                  "quote": "- 献祭：本篇章限定XP上限新增24，累计42；不重置已领数。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    22,
+                    31
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                },
+                "reading": {
+                  "lines": [
+                    29,
+                    29
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                  "quote": "- 技能树：B级施法者职能与部分专有技能"
+                }
+              }
+            ]
+          },
+          {
+            "choices": [],
+            "constraints": [],
+            "effects": [
+              {
+                "conditions": [],
+                "id": "熔炉心灵感应",
+                "operation": "grantReferencedTraitWithOverrides",
+                "parameters": {
+                  "extendsEyeRange": "telepathy-range",
+                  "eyeStatusTotal": 32,
+                  "eyeTargetCount": "any-in-range",
+                  "keyAttribute": "智力",
+                  "reference": "心理掌握.B级心灵感应",
+                  "replacesLowerGrade": true
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        6,
+                        8
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        35,
+                        35
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                      "quote": "- 熔炉之眼：审判和赤红。获得改造心理掌握中的B级心灵感应特性，其中关键属性的部分更改为智力相关。你用D级熔炉之眼造成的不良点数提升16点。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              },
+              {
+                "conditions": [],
+                "id": "献祭额度增量",
+                "operation": "increaseRewardCap",
+                "parameters": {
+                  "amount": 48,
+                  "counter": "限定XP",
+                  "cumulativeMaximum": 90,
+                  "doesNotResetPreviouslyAwardedInArc": true,
+                  "scope": "adventure"
+                },
+                "runtimeStatus": "implementation-needed",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        6,
+                        8
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        36,
+                        36
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                      "quote": "- 献祭：本篇章限定XP上限新增48，累计90；不重置已领数。"
+                    }
+                  }
+                ],
+                "stacking": {
+                  "mode": "unique-by-effect-id"
+                },
+                "target": "self",
+                "type": "declarative-operation"
+              }
+            ],
+            "grade": "A",
+            "grants": [
+              {
+                "grade": "A",
+                "source": "熔炉巫师",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        6,
+                        8
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        34,
+                        34
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                      "quote": "- 技能树：A级施法者职能与部分专有技能"
+                    }
+                  }
+                ],
+                "type": "caster-function"
+              },
+              {
+                "automaticTechniqueGrant": false,
+                "grade": "A",
+                "sourceEvidence": [
+                  {
+                    "original": {
+                      "lines": [
+                        6,
+                        8
+                      ],
+                      "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                    },
+                    "reading": {
+                      "lines": [
+                        34,
+                        34
+                      ],
+                      "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                      "quote": "- 技能树：A级施法者职能与部分专有技能"
+                    }
+                  }
+                ],
+                "tree": "熔炉巫师",
+                "type": "tree-access"
+              }
+            ],
+            "requiresPriorStage": {
+              "acquired": true,
+              "grade": "B",
+              "resource": "熔炉巫师"
+            },
+            "sourceEvidence": [
+              {
+                "original": {
+                  "lines": [
+                    6,
+                    8
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                },
+                "reading": {
+                  "lines": [
+                    35,
+                    35
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                  "quote": "- 熔炉之眼：审判和赤红。获得改造心理掌握中的B级心灵感应特性，其中关键属性的部分更改为智力相关。你用D级熔炉之眼造成的不良点数提升16点。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    6,
+                    8
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                },
+                "reading": {
+                  "lines": [
+                    36,
+                    36
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                  "quote": "- 献祭：本篇章限定XP上限新增48，累计90；不重置已领数。"
+                }
+              },
+              {
+                "original": {
+                  "lines": [
+                    6,
+                    8
+                  ],
+                  "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md"
+                },
+                "reading": {
+                  "lines": [
+                    34,
+                    34
+                  ],
+                  "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+                  "quote": "- 技能树：A级施法者职能与部分专有技能"
+                }
+              }
+            ]
+          }
+        ],
+        "status": "declarative-contract-source",
+        "unresolvedRules": [],
+        "verification": {
+          "deploymentPerformed": false,
+          "runtimeFullyVerified": false,
+          "runtimeTested": false
+        }
+      },
+      "runtimeSlices": [],
+      "sharedRulesLock": "2d4f858c035f847bc05a312a0e7efea245cd0f6795890239754d371a5b75005c",
+      "units": [
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-48bac58b99f8",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "熔炉巫师",
+          "reading": {
+            "endLine": 12,
+            "sha256": "0b60ce655a5bbdc4a28c06b049458f3221d93abc48cd3c342a2cc613ba5629e8",
+            "startLine": 1
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 9
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 6,
+              "relativeLine": 4
+            },
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 6,
+              "relativeLine": 5
+            }
+          ],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/1",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/2",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/3",
+            "/definition/authoringOnly/baseMechanisms/stages/0/effects/4"
+          ],
+          "declaredFields": {},
+          "id": "clause-264fc46c485b",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 15,
+                "grade": "D",
+                "legacyPoints": 1000
+              }
+            ]
+          },
+          "name": "熔炉之子 D+1000",
+          "reading": {
+            "endLine": 22,
+            "sha256": "d5925a6934ed84eee43c0d3e62bb609161b89209e03dc12c3cb16f19ac55614a",
+            "startLine": 15
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "cost",
+              "relativeLine": 4
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 5
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 5
+            },
+            {
+              "kind": "exclusion",
+              "relativeLine": 7
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 7
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 7
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/1/effects/1"
+          ],
+          "declaredFields": {},
+          "id": "clause-d37abc4b46cb",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 3,
+                "candidateXP": 35,
+                "grade": "C",
+                "legacyPoints": 2000
+              }
+            ]
+          },
+          "name": "熔炉巫师 C+2000",
+          "reading": {
+            "endLine": 27,
+            "sha256": "2f0c412d9ebbfefe7bbeda682b8e0c1dbf43084a2506516c5b47804c5d698064",
+            "startLine": 23
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/2/effects/1"
+          ],
+          "declaredFields": {},
+          "id": "clause-99d0e8a8c80e",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 9,
+                "candidateXP": 85,
+                "grade": "B",
+                "legacyPoints": 4000
+              }
+            ]
+          },
+          "name": "熔炉大巫师 B+4000",
+          "reading": {
+            "endLine": 32,
+            "sha256": "ff46700beecba184e8a6ecef900307c03c66061916fe6fed93a77e70398bb8e6",
+            "startLine": 28
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [
+            "/definition/authoringOnly/baseMechanisms/stages/3/effects/0",
+            "/definition/authoringOnly/baseMechanisms/stages/3/effects/1"
+          ],
+          "declaredFields": {},
+          "id": "clause-7e54eb6ac9d1",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 27,
+                "candidateXP": 215,
+                "grade": "A",
+                "legacyPoints": 8000
+              }
+            ]
+          },
+          "name": "熔炉巫王A+8000",
+          "reading": {
+            "endLine": 37,
+            "sha256": "7b31c04bbb93330514849e11248750d2098f0cf87cd2d6af45cc20eb88f5b03b",
+            "startLine": 33
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "upgrade",
+              "relativeLine": 3
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-6205267d5c7c",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              },
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 3,
+                "candidateXP": 25,
+                "grade": "C",
+                "legacyPoints": 1000
+              },
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 9,
+                "candidateXP": 65,
+                "grade": "B",
+                "legacyPoints": 2000
+              },
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 27,
+                "candidateXP": 175,
+                "grade": "A",
+                "legacyPoints": 4000
+              }
+            ]
+          },
+          "name": "金色熔炉冥想法 D+500/C+1000/B+2000/A+4000",
+          "reading": {
+            "endLine": 42,
+            "sha256": "1a865fcad18c42d3887217bfb53b0bf038c3f5dffb5297b5a4b447099da77e7d",
+            "startLine": 40
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-e53e7ea3d22e",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              },
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 3,
+                "candidateXP": 25,
+                "grade": "C",
+                "legacyPoints": 1000
+              },
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 9,
+                "candidateXP": 65,
+                "grade": "B",
+                "legacyPoints": 2000
+              },
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 27,
+                "candidateXP": 175,
+                "grade": "A",
+                "legacyPoints": 4000
+              }
+            ]
+          },
+          "name": "熔炉锤炼法 D+500/C+1000/B+2000/A+4000",
+          "reading": {
+            "endLine": 46,
+            "sha256": "7831683421972b7095e81c64dcd4fc767fdf037eac7208ddd7cec4d30628cb6e",
+            "startLine": 43
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "学习原价": "D+500",
+            "射程": "自身",
+            "成分": "言/姿，信仰(熔炉之主)",
+            "持续": "1场景",
+            "施放": "自由",
+            "范围": "5KP米",
+            "领域": "变化"
+          },
+          "id": "clause-0e31ce37f159",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              }
+            ]
+          },
+          "name": "熔炉之主的低语",
+          "reading": {
+            "endLine": 51,
+            "sha256": "651f84f21b11941fbbc0737e4bdc4cf74a74491659777948dffc3b3d7235fb18",
+            "startLine": 47
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "duration",
+              "relativeLine": 3
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 4
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 6,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "学习原价": "D+500",
+            "射程": "接触",
+            "成分": "言/姿",
+            "持续": "神秘学*1分钟",
+            "施放": "标准(q6)",
+            "领域": "创造 召唤"
+          },
+          "id": "clause-e04ebc218251",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              }
+            ]
+          },
+          "name": "熔炉之武器召唤术",
+          "reading": {
+            "endLine": 57,
+            "sha256": "eed77f4055040016e5fc374f3d91d203c4d85219aa3b150f893bce7ae33ffe16",
+            "startLine": 52
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "duration",
+              "relativeLine": 3
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 4
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 5
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 8,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "冷却": "1轮",
+            "学习原价": "D+500",
+            "射程": "自身",
+            "成分": "言/姿",
+            "持续": "1场景",
+            "施放": "标准＋迅捷(q8)",
+            "范围": "接触范围",
+            "领域": "塑能"
+          },
+          "id": "clause-a8de39d5cb37",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              }
+            ]
+          },
+          "name": "熔炉之身",
+          "reading": {
+            "endLine": 62,
+            "sha256": "47f9f51462b236c639bc3ad21a98899e7a513ceec8be41b8efa85bc138b65a34",
+            "startLine": 58
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "duration",
+              "relativeLine": 3
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 4
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 6,
+              "relativeLine": 3
+            },
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 4,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "冷却": "3轮",
+            "学习原价": "D+500",
+            "射程": "10KP米",
+            "成分": "言/姿",
+            "持续": "动作标值4维持专注或直到目标成功脱离擒抱",
+            "施放": "标准(q6)",
+            "领域": "塑能"
+          },
+          "id": "clause-7d13647d22cb",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              }
+            ]
+          },
+          "name": "熔炉之鞭",
+          "reading": {
+            "endLine": 72,
+            "sha256": "f001884657ea7ec1fd8f93d5406182b1237eccee37152dfb08626a7dc6bf8bf7",
+            "startLine": 63
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "duration",
+              "relativeLine": 3
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 4
+            },
+            {
+              "kind": "exclusion",
+              "relativeLine": 5
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 6
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 6
+            },
+            {
+              "kind": "upgrade",
+              "relativeLine": 7
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 7
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 8
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 9
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 10,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "学习原价": "D+500",
+            "射程": "10KP米",
+            "成分": "言/姿",
+            "施放": "标准＋移动(q10)",
+            "能耗": "3(3倍基础能耗)",
+            "范围": "5KP米",
+            "领域": "召唤"
+          },
+          "id": "clause-441aad6f4e1e",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              }
+            ]
+          },
+          "name": "熔炉召唤术",
+          "reading": {
+            "endLine": 76,
+            "sha256": "f5bb0f6ce69c7261c491e7616aecbc2eb0eb6a2d5f952a8aee6c8692b8e1ded4",
+            "startLine": 73
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {},
+          "id": "clause-0c57075e52e9",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": []
+          },
+          "name": "“为什么还不献祭邪神？”",
+          "reading": {
+            "endLine": 83,
+            "sha256": "26ee2e7fab2f8e6f1dab66000c6076ec77b32da9819857a69d98c35c6910cd5a",
+            "startLine": 81
+          },
+          "requiresIndependentLearning": false,
+          "sourceBoundConditions": [
+            {
+              "kind": "trigger",
+              "relativeLine": 2
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "学习原价": "D+500",
+            "射程": "自身",
+            "成分": "言/姿",
+            "持续": "1场景",
+            "施放": "自由动作",
+            "范围": "5KP米",
+            "领域": "塑能"
+          },
+          "id": "clause-9031c455515f",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 1,
+                "candidateXP": 10,
+                "grade": "D",
+                "legacyPoints": 500
+              }
+            ]
+          },
+          "name": "熔炉变化术",
+          "reading": {
+            "endLine": 88,
+            "sha256": "ae468bfb4e2e468cf51e90d89a928cb1e83b9245a012e6e38abc7ac3325c4ef9",
+            "startLine": 84
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "duration",
+              "relativeLine": 3
+            },
+            {
+              "kind": "cost",
+              "relativeLine": 4
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [
+            {
+              "execution": "declaration-only",
+              "kind": "fixed-action-price",
+              "mode": "ordinary",
+              "q": 6,
+              "relativeLine": 3
+            }
+          ],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "学习原价": "C+1000",
+            "射程": "自身",
+            "成分": "言/姿",
+            "持续": "神秘学*1小时",
+            "施放": "标准(q6)",
+            "领域": "结界"
+          },
+          "id": "clause-54d86dee62e6",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 3,
+                "candidateXP": 25,
+                "grade": "C",
+                "legacyPoints": 1000
+              }
+            ]
+          },
+          "name": "熔炉重生术",
+          "reading": {
+            "endLine": 95,
+            "sha256": "aabb45774630cd92cd77dc0de4d77b30748a73ea7a6929764318d350c910934f",
+            "startLine": 89
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "duration",
+              "relativeLine": 3
+            },
+            {
+              "kind": "duration",
+              "relativeLine": 5
+            },
+            {
+              "kind": "trigger",
+              "relativeLine": 5
+            }
+          ],
+          "unresolvedRuleIds": []
+        },
+        {
+          "actionPrices": [],
+          "baseMechanismRefs": [],
+          "declaredFields": {
+            "学习原价": "B+4000"
+          },
+          "id": "clause-be5adc9cc793",
+          "implementationGaps": [
+            "clause-full-semantics-and-consumer-integration"
+          ],
+          "learning": {
+            "entryDoesNotGrantChildTechniques": true,
+            "prices": [
+              {
+                "adoptionStatus": "candidate",
+                "basis": "来源与核算.md#xp报价与预算分账",
+                "branchWeight": 9,
+                "candidateXP": 85,
+                "grade": "B",
+                "legacyPoints": 4000
+              }
+            ]
+          },
+          "name": "太阳之核",
+          "reading": {
+            "endLine": 106,
+            "sha256": "892520d8d892fed25f69e59cab278cd1e6569bc7676305148a1ad2ad68d2b33a",
+            "startLine": 98
+          },
+          "requiresIndependentLearning": true,
+          "sourceBoundConditions": [
+            {
+              "kind": "cost",
+              "relativeLine": 5
+            }
+          ],
+          "unresolvedRuleIds": []
+        }
+      ]
+    },
+    "effects": [],
+    "programs": {}
+  },
+  "id": "candidate-901-magic-bundle-0f2b603303ea9a00",
+  "identity": {
+    "adoptionStatus": "candidate",
+    "aliases": [],
+    "category": "bundle",
+    "grade": "multi",
+    "name": "熔炉巫师",
+    "sharedDependencies": [
+      {
+        "path": "rules/901-core-rules-v0.1.md",
+        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+      },
+      {
+        "path": "resources/execution/resource.schema.json",
+        "sha256": "bbf7521e7514bb9c807e6b5bf07fa55016853cf31ccacd69d2f725e54feb3758"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/共用901判定.md",
+        "sha256": "1c5398bf728c5e94bfa2cc1cf037ead08a0dec1e1898278e844b25b643463bbd"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/来源与核算.md",
+        "sha256": "8f17c529f1b5465fceaefc24931869b82e071d4ab8fb3ed561359864cbf98334"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/未决项.md",
+        "sha256": "3ceae5df0f4bd271ea79956004dba56bd8698eea62b7508871ce11a406903375"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/专有机制.md",
+        "sha256": "14a331e47e9d578634f29e2bae74a1501e916fc594cdef41f9e40b0fa8bafe62"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/引用定位.md",
+        "sha256": "699deab37356bb930ab497aa8bc555f756c174a799a9a91b922345ea6f1be0b1"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/通用法术.md",
+        "sha256": "8922768b19c7c65a410498c69cddc5441796a85c7c50b4871786ecff3a4cbaed"
+      },
+      {
+        "path": "outputs/施法体系适配-20261024/依赖/防护与状态.md",
+        "sha256": "c9d0b1b1dc1f2546f92faa5dda66464c531283095d21990d8004df4c8e641a12"
+      }
+    ],
+    "sourceReferences": [
+      {
+        "path": "content/RE/02_resources/能力组/施法类型/熔炉巫师.md",
+        "sha256": "62979bee33787adebec78bedaee7ee705b2b68c24055931555dd612492c0efa5"
+      }
+    ],
+    "tree": "熔炉巫师"
+  },
+  "implementationGaps": [
+    "本体声明尚需逐机制接入与执行证明；技能树逐条款保留来源定位，尚未完整编码；未验证动作不进入执行白名单。"
+  ],
+  "inputs": [
+    {
+      "id": "ownedResource",
+      "missingPolicy": "block-related-operation",
+      "provider": "saved-state",
+      "requiredFor": [
+        "effects",
+        "actions"
+      ],
+      "type": "versioned-acquisition-record"
+    },
+    {
+      "id": "choices",
+      "missingPolicy": "ask-only-required-choice",
+      "provider": "player",
+      "requiredFor": [
+        "acquisition"
+      ],
+      "type": "declared-selection"
+    },
+    {
+      "id": "sceneFacts",
+      "missingPolicy": "block-related-operation",
+      "provider": "host",
+      "requiredFor": [
+        "actions"
+      ],
+      "type": "sourced-target-and-scene"
+    },
+    {
+      "id": "state:attributes.智力",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "saved-state",
+      "requiredFor": [
+        "base-mechanisms"
+      ],
+      "type": "number"
+    },
+    {
+      "basis": "当前人物本能力组真实已取得阶位与采用/来源记录",
+      "id": "context:acquiredGroupGradeValue",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "D/献祭"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "主持登记并附来源的实际目标/自身规则事实，禁止由模型凭叙事估造",
+      "id": "context:self.combatPower",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "D/献祭"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "主持登记并附来源的实际目标/自身规则事实，禁止由模型凭叙事估造",
+      "id": "context:target.combatPower",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "D/献祭"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "主持登记并附来源的实际目标/自身规则事实，禁止由模型凭叙事估造",
+      "id": "context:target.darkTier",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "D/献祭"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    },
+    {
+      "basis": "本篇章已记账限定XP与本阶累计额度6/18/42/90之差",
+      "id": "context:furnace.remainingArcAllowance",
+      "missingPolicy": "block-only-dependent-operation-before-cost",
+      "provider": "host",
+      "requiredFor": [
+        "D/献祭"
+      ],
+      "runtimeAdapterStatus": "implementation-needed",
+      "sourceRequired": true,
+      "type": "number"
+    }
+  ],
+  "reading": {
+    "path": "outputs/施法体系适配-20261024/阅读版/熔炉巫师.md",
+    "sha256": "79a0e778cdc3ed682154e81d167f94467c0c27f74caff1eeb7b5c61f628706e8"
+  },
+  "schemaVersion": "901-resource/1",
+  "unresolvedRules": [],
+  "verification": {
+    "runtimeFullyVerified": false,
+    "scope": "paired-source-and-declarative-base; not full runtime",
+    "sourceChecked": true,
+    "status": "pending"
+  },
+  "version": "2026-10-25.magic.1"
+}

@@ -1,0 +1,136 @@
+{
+  "result": "passed",
+  "engineModules": [
+    {
+      "path": "outputs/施法体系适配-20261024/compiler/runtime-check.mjs",
+      "sha256": "e0541e298f4b830134193d62975ed03d86158acda4e049ec53fc4e7db1946eb3"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/resource-effects.mjs",
+      "sha256": "cb2b03fa18d7323bb7900196984334c04c9f244f5d8c914937a1de81e3402dd2"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/resource-definitions.mjs",
+      "sha256": "2af826b18c9cb1e2556479059df34eb765164ee98254b51212933a0e1bea0bb0"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/combat/mechanics.mjs",
+      "sha256": "f3bd226f8748b68dca838597daddc1832f2d6bc94ee9e98253f48ca42c753a7d"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/core.mjs",
+      "sha256": "d407a4f8938c2db145ce1e3f302a401405ae05f9bb064582862238967e62edd7"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/resource-lifecycle.mjs",
+      "sha256": "8656b74f563af5be81fef96a2a24034bf531273512f05b685b30a8994efc2e88"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/kit-state.mjs",
+      "sha256": "cc320946740c22352b29b82884719d6f68307f9a299c9448390187588be5b734"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/resource-acquisition.mjs",
+      "sha256": "5fb06a960ab5b03025b1850c0a5e13b9b38f6d0279895b6f05ef7a3d904d796a"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/growth-pricing.mjs",
+      "sha256": "c800cbb8c0f768e632f1567b0295eaf9f59a14bfe76e577a9a9199d569332636"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/wizard-rules.mjs",
+      "sha256": "1e0bf8dea06e0326ac131fd9eb8a18fa1eb5340fab1274fa87d77ed9f4fab6fb"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/combat/opening.mjs",
+      "sha256": "7a22c91aacd311ea263f3b4a4b08479a50c1e51a32ca76bb9415b55780fd700c"
+    },
+    {
+      "path": "../901-tavern/work/rules_engine/combat/map.mjs",
+      "sha256": "2f54fd13cfdc3fd170efcd5b2923bead37c4ded3375d77dbbc7632bf57618c00"
+    }
+  ],
+  "slices": {
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/D/fortitude": {
+      "result": "passed",
+      "fingerprint": "3f773ec89cdd26940f86caa5416b921b5ec35f1eb0413d4a21e943260860623e",
+      "testCases": [
+        "source-rule",
+        "correct-grade-value",
+        "not-reflex-or-will",
+        "same-group-takes-highest",
+        "not-owned",
+        "reject-version",
+        "reject-adoptionStatus",
+        "reject-qualificationVersion",
+        "reject-completedStages",
+        "actual-saveProfile-and-save-reload"
+      ]
+    },
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/C/fortitude": {
+      "result": "passed",
+      "fingerprint": "1cc84e604e58abe4a826312c9c8742df4a0035f85886eb0c353634e0e0beec8e",
+      "testCases": [
+        "source-rule",
+        "correct-grade-value",
+        "not-reflex-or-will",
+        "same-group-takes-highest",
+        "not-owned",
+        "reject-version",
+        "reject-adoptionStatus",
+        "reject-qualificationVersion",
+        "reject-completedStages",
+        "actual-saveProfile-and-save-reload"
+      ]
+    },
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/B/fortitude": {
+      "result": "passed",
+      "fingerprint": "2d19b800fd2a5e0397d0f47400dbc540e86517b6c70d9bc62228845a1fbe65c6",
+      "testCases": [
+        "source-rule",
+        "correct-grade-value",
+        "not-reflex-or-will",
+        "same-group-takes-highest",
+        "not-owned",
+        "reject-version",
+        "reject-adoptionStatus",
+        "reject-qualificationVersion",
+        "reject-completedStages",
+        "actual-saveProfile-and-save-reload"
+      ]
+    }
+  },
+  "tests": [
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/D/fortitude/source-rule",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/D/fortitude/correct-grade-value",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/D/fortitude/not-reflex-or-will",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/D/fortitude/same-group-takes-highest",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/D/fortitude/not-owned",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/D/fortitude/reject-version",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/D/fortitude/reject-adoptionStatus",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/D/fortitude/reject-qualificationVersion",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/D/fortitude/reject-completedStages",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/D/fortitude/actual-saveProfile-and-save-reload",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/C/fortitude/source-rule",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/C/fortitude/correct-grade-value",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/C/fortitude/not-reflex-or-will",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/C/fortitude/same-group-takes-highest",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/C/fortitude/not-owned",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/C/fortitude/reject-version",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/C/fortitude/reject-adoptionStatus",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/C/fortitude/reject-qualificationVersion",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/C/fortitude/reject-completedStages",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/C/fortitude/actual-saveProfile-and-save-reload",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/B/fortitude/source-rule",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/B/fortitude/correct-grade-value",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/B/fortitude/not-reflex-or-will",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/B/fortitude/same-group-takes-highest",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/B/fortitude/not-owned",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/B/fortitude/reject-version",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/B/fortitude/reject-adoptionStatus",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/B/fortitude/reject-qualificationVersion",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/B/fortitude/reject-completedStages",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/B/fortitude/actual-saveProfile-and-save-reload"
+  ],
+  "testCount": 30
+}
