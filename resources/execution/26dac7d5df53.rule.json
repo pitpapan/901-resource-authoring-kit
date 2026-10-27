@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:C:飞行术",
-  "version": "2026-10-23.1",
+  "version": "2026-10-25.5",
   "identity": {
     "name": "飞行术",
     "grade": "C",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/03-变化与创造.md",
-    "sha256": "8d0986298b0d6cecdf1275819ea60ab47d2f8c29d4e24c47f117f1dee6d7b192",
+    "sha256": "aef74d24553f0c80dd83b118b6541ca81e202d075be87b8f84128b2c19b41669",
     "heading": "飞行术"
   },
   "definition": {
@@ -28,24 +28,173 @@
     "requiresAllSchools": false,
     "schools": [
       "变化"
-    ]
+    ],
+    "programs": {
+      "cast": {
+        "action": "standard",
+        "target": "selected",
+        "casting": true,
+        "components": [
+          "posture",
+          "language",
+          "focus"
+        ],
+        "range": 1.5,
+        "steps": [
+          {
+            "op": "capability",
+            "id": "flight",
+            "movement": {
+              "mode": "flight",
+              "speed": {
+                "op": "mul",
+                "args": [
+                  {
+                    "op": "sub",
+                    "args": [
+                      {
+                        "context": "rank"
+                      },
+                      1
+                    ]
+                  },
+                  {
+                    "context": "P"
+                  },
+                  30
+                ]
+              },
+              "maneuverability": "perfect",
+              "control": "autonomous"
+            },
+            "minutes": {
+              "op": "mul",
+              "args": [
+                {
+                  "context": "INT"
+                },
+                {
+                  "context": "rank"
+                }
+              ]
+            },
+            "onEnd": {
+              "kind": "descent",
+              "rounds": {
+                "context": "P"
+              },
+              "metersPerRound": 20,
+              "intervalMinutes": 0.1
+            }
+          }
+        ],
+        "contact": true,
+        "willing": true
+      }
+    }
   },
   "clauses": [
     {
       "heading": "飞行术",
       "effectStats": [],
-      "status": "pending"
+      "status": "partial"
     }
   ],
-  "actions": [],
-  "inputs": [],
+  "actions": [
+    {
+      "id": "cast",
+      "name": "飞行术",
+      "operation": "cast",
+      "actionCost": "standard",
+      "requiredChoice": "actual-targets",
+      "choices": {},
+      "allocations": [],
+      "targetMode": "selected",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false,
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "immunityLifecycles": [],
+      "resistanceModes": [],
+      "movementConsumer": "move/step + actual movementSource + xyz destination"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "ownership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "casting",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "targetIds",
+      "type": "array",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "components",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "pool",
+      "type": "string",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "willingTargets",
+      "type": "array",
+      "provider": "target",
+      "requiredFor": "cast",
+      "missingPolicy": "require_actual_willingness"
+    }
+  ],
   "unresolvedRules": [],
   "implementationGaps": [
-    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+    "C级完美机动飞行已接三维移动、自主失控弹道及Q15正常缓降转连续坠落；B以上旅行版、空中牵带负重/多人联动及场外主动飞行路由未实现",
+    "需执行级完整验证，检查等级/特殊关键词/版本变体；不可仅凭程序存在标记完成"
   ],
   "verification": {
-    "status": "pending",
+    "status": "partial",
     "sourceChecked": true,
-    "runtimeFullyVerified": false
-  }
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/combat/flight.test.mjs",
+      "work/rules_engine/combat/ballistics.test.mjs",
+      "work/rules_engine/resource-descent.test.mjs",
+      "work/rules_engine/gm_runtime/resource-program.test.mjs",
+      "work/rules_engine/gm_runtime/rule-actions.test.mjs"
+    ]
+  },
+  "adoptedDecisions": [
+    {
+      "id": "flight-descent-first-tick",
+      "source": "用户2026-10-25：可以（Q6/Q7推荐口径）",
+      "rule": "飞行术缓降按用户2026-10-25对Q7的“可以”采用：结束或被解除时建立缓降状态，经过完整1轮（6秒）后首次下降20米，共执行P次；触地立即结束，第P次后仍悬空则从余高套用已有PHB坠落规则。不在结束瞬间先降20米。"
+    },
+    {
+      "id": "descent-ballistic-handoff",
+      "source": "用户2026-10-25 Q15采用",
+      "rule": "保留Q7满6秒首次下降20米；缓降结束转连续自由运动时垂直初速度为0，水平采用实际有效速度记录；缺失须补事实，不从20米/轮倒推。自主飞行突然失控仍按Q8保留实际三维速度。"
+    }
+  ]
 }

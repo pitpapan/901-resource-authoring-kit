@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:C:多重观察",
-  "version": "2026-10-23.1",
+  "version": "2026-10-26.1",
   "identity": {
     "name": "多重观察",
     "grade": "C",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/06-预言与诅咒.md",
-    "sha256": "9605c98875816313e985071ed8520755ae1ebcb4285b088f0b9c66c79a28dc3a",
+    "sha256": "be6fce45599359c7eea27ce5327c0c273e0e4d87174d0815c53d6a9cefe733b6",
     "heading": "多重观察"
   },
   "definition": {
@@ -41,11 +41,23 @@
   "inputs": [],
   "unresolvedRules": [],
   "implementationGaps": [
-    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+    "Q39/Q40已采用且通用过滤及登记被动检定事件已接；本术完整施放程序、取得与全部感官消费者仍属待实现，不是待裁定。"
   ],
   "verification": {
     "status": "pending",
     "sourceChecked": true,
     "runtimeFullyVerified": false
-  }
+  },
+  "adoptedDecisions": [
+    {
+      "id": "penetration-detecting-protection-energy",
+      "question": "Q39",
+      "status": "adopted",
+      "source": "RE规则术语解释.md:276 对照 侦测与定位.md:133—135；901现有快照未明确选择",
+      "issue": "术语解释允许能量透视不受被观察的反侦测自身阻挡；专门侦测章节明确即便自身内容也须同级以上侦测，例子相互否定。",
+      "impact": "低等级能量透视能否绕过高等级隐形、取得维持能量位置不同。",
+      "decision": "不能用低等级透视绕过高等级反侦测，即使被观察的是维持该反侦测的能量本身，仍须同级以上侦测；看见能量不自动获得对生物的取目标资格。",
+      "adoption": "用户2026-10-26明确答复：“Q39 不能；Q40 可以”。"
+    }
+  ]
 }

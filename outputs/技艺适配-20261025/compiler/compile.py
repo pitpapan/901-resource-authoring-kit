@@ -90,7 +90,7 @@ def projection(docs,evidence=None,program_evidence=None,acquisition_evidence=Non
  return data,passives,blocked,catalog,action_index,verified_programs,verified_acquisitions
 def build(docs,reuse,evidence=None,program_evidence=None,acquisition_evidence=None):
  if evidence:
-  engine=(ROOT.parent/'901-tavern/work/rules_engine/resource-effects.mjs').resolve()
+  engine=(ROOT.parent/'TRPG outputs/work/rules_engine/resource-effects.mjs').resolve()
   require((ROOT/evidence['engine']['path']).resolve()==engine,'unexpected effect executor proof path')
   require(sha(engine)==evidence['engine']['sha256'],'runtime executor changed; rerun collectEffects tests before promotion')
  if program_evidence:

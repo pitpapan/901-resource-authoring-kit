@@ -6,12 +6,12 @@ import crypto from 'node:crypto';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 const BASE=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const ROOT=path.resolve(BASE,'../..');
-const enginePath=path.resolve(ROOT,'../901-tavern/work/rules_engine/resource-effects.mjs');
+const enginePath=path.resolve(ROOT,'../TRPG outputs/work/rules_engine/resource-effects.mjs');
 const {collectEffects,stackEffects,effectValue}=await import(pathToFileURL(enginePath));
 const stable=x=>Array.isArray(x)?x.map(stable):x&&typeof x==='object'?Object.fromEntries(Object.keys(x).sort().map(k=>[k,stable(x[k])])):x;
 const hash=x=>crypto.createHash('sha256').update(typeof x==='string'?x:JSON.stringify(stable(x))).digest('hex');
 const docs=fs.readdirSync(path.join(BASE,'execution/contracts')).filter(x=>x.endsWith('.rule.json')).sort().map(x=>JSON.parse(fs.readFileSync(path.join(BASE,'execution/contracts',x),'utf8')));
-const report={result:'passed',engine:{path:'../901-tavern/work/rules_engine/resource-effects.mjs',sha256:hash(fs.readFileSync(enginePath,'utf8'))},slices:{},assertionCases:[]};
+const report={result:'passed',engine:{path:'../TRPG outputs/work/rules_engine/resource-effects.mjs',sha256:hash(fs.readFileSync(enginePath,'utf8'))},slices:{},assertionCases:[]};
 function test(name,fn){fn();report.assertionCases.push(name);}
 for(const d of docs){
  const auth=d.definition.authoringOnly;

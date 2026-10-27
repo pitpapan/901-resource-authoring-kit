@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:D:镜像",
-  "version": "2026-10-23.1",
+  "version": "2026-10-26.3",
   "identity": {
     "name": "镜像",
     "grade": "D",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/05-精神与幻术.md",
-    "sha256": "2e78ec6f3234a34d82cb62296e232f59e5b6f0db2c16bc235a9d544e38c6dcf4",
+    "sha256": "3bd05efeac6dc203de20098676817cac1d2ccbfdc05288c2b5f9b951d1c570e3",
     "heading": "镜像"
   },
   "definition": {
@@ -32,24 +32,161 @@
     "requiresAllSchools": false,
     "schools": [
       "幻术"
-    ]
+    ],
+    "programs": {
+      "cast": {
+        "action": "standard",
+        "target": "self",
+        "casting": true,
+        "components": [
+          "posture",
+          "language",
+          "focus"
+        ],
+        "steps": [
+          {
+            "op": "effect",
+            "effects": [],
+            "scene": true,
+            "decoys": {
+              "count": {
+                "context": "P"
+              },
+              "health": {
+                "op": "mul",
+                "args": [
+                  2,
+                  {
+                    "context": "P"
+                  }
+                ]
+              },
+              "immunityFamily": "visualIllusion",
+              "singleTarget": "random-redirect",
+              "damageMode": "copy-after-defense"
+            },
+            "instancePolicy": "append",
+            "selection": {
+              "group": "illusion-decoys",
+              "scope": "caster-grade",
+              "power": 0,
+              "tieBreak": "latest"
+            }
+          }
+        ]
+      }
+    }
   },
   "clauses": [
     {
       "heading": "镜像",
       "effectStats": [],
-      "status": "pending"
+      "status": "partial"
     }
   ],
-  "actions": [],
-  "inputs": [],
+  "actions": [
+    {
+      "id": "cast",
+      "name": "镜像",
+      "operation": "cast",
+      "actionCost": "standard",
+      "targetMode": "self",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false,
+      "route": "mechanism",
+      "objectType": "kitResource"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "ownership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "casting",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "components",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "pool",
+      "type": "string",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    }
+  ],
   "unresolvedRules": [],
   "implementationGaps": [
-    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+    "Q44—Q47基础规则均已接入；不将有限组合验证等同全部变体和交互已验证，runtimeFullyVerified保持false。"
   ],
   "verification": {
-    "status": "pending",
+    "status": "partial",
     "sourceChecked": true,
-    "runtimeFullyVerified": false
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/resource-decoys.test.mjs"
+    ]
+  },
+  "adoptedDecisions": [
+    {
+      "id": "mirror-area-damage-basis",
+      "question": "Q44",
+      "status": "adopted",
+      "source": "RE D级通用魔法/幻术1.md:16—17；生命值.md:182—192；当前阅读版镜像段",
+      "issue": "范围/多目标镜像完全适用真身相关判定或结果，但未列明法抗/护甲/抗性是否完整继承还是独立目标重新结算。",
+      "impact": "决定每个2P镜像生命池承接的伤害与法抗次数，不能共享真身临时生命。",
+      "decision": "复用真身本次防御、豁免、护甲、抗性及法抗计算后的伤害段，分别扣镜像自己的池；不再为镜像重算一次法抗或注册完整人物。",
+      "adoption": "用户2026-10-26明确答复：接受，继续（Q44/Q45）。"
+    },
+    {
+      "id": "mirror-additional-damage-events",
+      "question": "Q45",
+      "status": "adopted",
+      "source": "RE D级通用魔法/幻术1.md:16—17；生命值.md:184；资源06附伤通则",
+      "issue": "镜像被单体分流消去或镜像临时生命受损，是否独立触发对目标造成伤害的附伤/反伤，条目未赋予完整生物身份。",
+      "impact": "决定范围镜像会否倍增附伤次数、攻击机会及资源额度。",
+      "decision": "镜像不产生新伤害触发，原攻击机会照常消耗，真身实际伤害依原规则；镜像仅承接Q44结果，不放大触发。",
+      "adoption": "用户2026-10-26明确答复：接受，继续（Q44/Q45）。"
+    },
+    {
+      "id": "mirror-targeted-effect-scope",
+      "question": "Q46",
+      "status": "adopted",
+      "source": "RE幻术1.md:16–17；侦测与定位.md:8、15、20；塑能.md:17–20；精神.md:60–61",
+      "issue": "镜像只写单体攻击；通则区分攻击和取目标效果，飞弹自己的描述又称攻击。未明确覆盖无攻击检定的定值/豁免型有害取目标效果。",
+      "impact": "决定魔法飞弹、心灵震爆、单体不良状态是否随机命中镜像；不能由是否造成伤害推断。",
+      "decision": "仅攻击检定与非自愿接触攻击进入单体分流；无攻击检定的取目标效果不分流，仍遵其真实目标/视线/免疫条件。",
+      "adoption": "用户2026-10-26明确答复：采用，继续（Q46/Q47）。"
+    },
+    {
+      "id": "mirror-recast-instance-policy",
+      "question": "Q47",
+      "status": "adopted",
+      "source": "RE一些常见问答.md:64–70、139–141；幻术.md:21；幻术1.md:15–17",
+      "issue": "同名同级覆盖和不同等级独立已有通则，但新旧镜像数量、剩余池及已识破记录在重施/恢复时如何继承没有专条。",
+      "impact": "决定付费重施是否补满、被覆盖旧组恢复时是否回满，以及已识破旧术者是否自动识破新术。",
+      "decision": "每次付费重施建立新的完整一组；同名同级仅最新组生效，旧组保存原数量、余量、识破记录，恢复不回满；新组重新判定识破，持续侦测/免疫照常有效。一组全部消散即结束该组；不同等级依通则独立。",
+      "adoption": "用户2026-10-26明确答复：采用，继续（Q46/Q47）。"
+    }
+  ],
+  "authoring": {
+    "executionSource": "contract"
   }
 }

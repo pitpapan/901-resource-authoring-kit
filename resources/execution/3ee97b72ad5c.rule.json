@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:D:痛苦诅咒",
-  "version": "2026-10-23.1",
+  "version": "2026-10-26.1",
   "identity": {
     "name": "痛苦诅咒",
     "grade": "D",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/06-预言与诅咒.md",
-    "sha256": "9605c98875816313e985071ed8520755ae1ebcb4285b088f0b9c66c79a28dc3a",
+    "sha256": "be6fce45599359c7eea27ce5327c0c273e0e4d87174d0815c53d6a9cefe733b6",
     "heading": "痛苦诅咒"
   },
   "definition": {
@@ -32,24 +32,191 @@
     "requiresAllSchools": false,
     "schools": [
       "诅咒"
-    ]
+    ],
+    "programs": {
+      "cast": {
+        "action": "swift",
+        "target": "single",
+        "casting": true,
+        "components": [
+          "posture",
+          "language",
+          "focus"
+        ],
+        "range": {
+          "op": "mul",
+          "args": [
+            10,
+            {
+              "context": "INT"
+            },
+            {
+              "context": "P"
+            }
+          ]
+        },
+        "cooldown": 1,
+        "effectComponents": {
+          "curse": {
+            "families": [
+              "curse"
+            ]
+          }
+        },
+        "steps": [
+          {
+            "op": "trigger",
+            "event": "turnStart",
+            "count": 6,
+            "endPolicy": "settle-remaining",
+            "instancePolicy": "append",
+            "selection": {
+              "group": "same-spell",
+              "power": 0,
+              "tieBreak": "latest",
+              "scope": "caster-grade"
+            },
+            "component": "curse",
+            "immunityLifecycle": "suppress",
+            "steps": [
+              {
+                "op": "damage",
+                "component": "curse",
+                "when": {
+                  "test": "lte",
+                  "left": {
+                    "context": "tick"
+                  },
+                  "right": 6
+                },
+                "amount": {
+                  "op": "floor",
+                  "args": [
+                    {
+                      "op": "div",
+                      "args": [
+                        {
+                          "op": "mul",
+                          "args": [
+                            {
+                              "context": "P"
+                            },
+                            {
+                              "op": "floor",
+                              "args": [
+                                {
+                                  "op": "div",
+                                  "args": [
+                                    {
+                                      "op": "add",
+                                      "args": [
+                                        {
+                                          "context": "tick"
+                                        },
+                                        1
+                                      ]
+                                    },
+                                    2
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        3
+                      ]
+                    }
+                  ]
+                },
+                "severity": "L",
+                "kind": "energy",
+                "energy": "mental"
+              }
+            ]
+          }
+        ]
+      }
+    }
   },
   "clauses": [
     {
       "heading": "痛苦诅咒",
       "effectStats": [],
-      "status": "pending"
+      "status": "partial"
     }
   ],
-  "actions": [],
-  "inputs": [],
+  "actions": [
+    {
+      "id": "cast",
+      "operation": "cast",
+      "name": "痛苦诅咒",
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "allowsModelNumericEffects": false,
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "ownership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "casting",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "targetIds",
+      "type": "array",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "components",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "pool",
+      "type": "string",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    }
+  ],
   "unresolvedRules": [],
   "implementationGaps": [
-    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+    "D/C六段计时、覆盖恢复、缩短逐段结清、免疫/法抗与JSON/MVU保存已接通并作本地针对性验证；仍需完整候选回归。",
+    "通用外部持续期延长/缩短动作、全部变体与关键词仍需继续接入；已有结束接口不冒充所有持续期修改器已实现。"
   ],
   "verification": {
-    "status": "pending",
+    "status": "partial",
     "sourceChecked": true,
-    "runtimeFullyVerified": false
-  }
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/gm_runtime/resource-program.test.mjs"
+    ]
+  },
+  "authoring": {
+    "executionSource": "contract"
+  },
+  "scopeNotes": [
+    "原始六段在目标回合开始推进，施放本身不触发；以目标次数计期限，不在共同轮末提前删掉第六次合法开始。",
+    "同施术者同名同级后施覆盖，旧源继续计时而不生效，恢复不重置次数；不同等级/施术者分别存在。RE FAQ66—69。",
+    "法术抗力仅生效前扣一次P，冻结本来源序列。每实际伤害段再查询当前免疫及防护，不重新施法或递归扣法抗。"
+  ]
 }

@@ -8,7 +8,7 @@ import {RESOURCE_ACTION_INDEX} from '../execution/generated/resource-action-inde
 import {RESOURCE_BLOCKED_INDEX} from '../execution/generated/resource-blocked-index.mjs';
 import {RESOURCE_CONTRACT_INDEX} from '../execution/generated/resource-contract-index.mjs';
 const BASE=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
-const engine=path.resolve(BASE,'../../../901-tavern/work/rules_engine/resource-effects.mjs');
+const engine=path.resolve(BASE,'../../../TRPG outputs/work/rules_engine/resource-effects.mjs');
 const {collectEffects,stackEffects}=await import(pathToFileURL(engine));
 assert.equal(RESOURCE_ACTION_INDEX.length,9);
 assert.equal(RESOURCE_ACTION_INDEX[0].actions.length,1);

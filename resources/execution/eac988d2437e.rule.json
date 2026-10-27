@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:D:猎人印记",
-  "version": "2026-10-23.1",
+  "version": "2026-10-26.2",
   "identity": {
     "name": "猎人印记",
     "grade": "D",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/06-预言与诅咒.md",
-    "sha256": "9605c98875816313e985071ed8520755ae1ebcb4285b088f0b9c66c79a28dc3a",
+    "sha256": "be6fce45599359c7eea27ce5327c0c273e0e4d87174d0815c53d6a9cefe733b6",
     "heading": "猎人印记"
   },
   "definition": {
@@ -32,24 +32,156 @@
     "requiresAllSchools": false,
     "schools": [
       "预言"
-    ]
+    ],
+    "programs": {
+      "cast": {
+        "action": "swift",
+        "target": "single",
+        "casting": true,
+        "components": [],
+        "cooldown": 3,
+        "range": {
+          "op": "mul",
+          "args": [
+            10,
+            {
+              "context": "INT"
+            },
+            {
+              "context": "P"
+            }
+          ]
+        },
+        "effectComponents": {
+          "mark": {
+            "families": [
+              "divination"
+            ],
+            "gradeBonus": 1
+          }
+        },
+        "steps": [
+          {
+            "op": "trigger",
+            "event": "attackDamageCaused",
+            "attackSource": "caster",
+            "scene": true,
+            "instancePolicy": "append",
+            "selection": {
+              "group": "same-spell",
+              "power": 0,
+              "tieBreak": "latest",
+              "scope": "caster-grade"
+            },
+            "component": "mark",
+            "immunityLifecycle": "suppress",
+            "requiresContext": [
+              "sourceActorId",
+              "damageReceipt"
+            ],
+            "steps": [
+              {
+                "op": "additionalDamage",
+                "amount": {
+                  "op": "add",
+                  "args": [
+                    {
+                      "context": "P"
+                    },
+                    1
+                  ]
+                },
+                "mode": "same-type",
+                "component": "mark"
+              }
+            ]
+          }
+        ]
+      }
+    }
   },
   "clauses": [
     {
       "heading": "猎人印记",
       "effectStats": [],
-      "status": "pending"
+      "status": "partial"
     }
   ],
-  "actions": [],
-  "inputs": [],
+  "actions": [
+    {
+      "id": "cast",
+      "operation": "cast",
+      "name": "猎人印记",
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "allowsModelNumericEffects": false,
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "ownership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "casting",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "targetIds",
+      "type": "array",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "pool",
+      "type": "string",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    }
+  ],
   "unresolvedRules": [],
   "implementationGaps": [
-    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+    "单类型、原本独立类型事件及旧901共享混合类型事件已接通并作本地验证；全部附伤与特殊关键词组合仍需逐项验证。",
+    "全部变体、特殊关键词及NPC取得/使用链路仍未完整验证。"
   ],
   "verification": {
-    "status": "pending",
+    "status": "partial",
     "sourceChecked": true,
-    "runtimeFullyVerified": false
-  }
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/gm_runtime/resource-program.test.mjs"
+    ]
+  },
+  "authoring": {
+    "executionSource": "contract"
+  },
+  "scopeNotes": [
+    "本人攻击防护后造成伤害才产生追加，临时生命不否决；全部转成非伤害效果不产生追加。追加先收集后与原伤害共同进入生命处理，不重复同类型已经消费的防护，不递归追加、不套普通攻击伤害转换。RE伤害处理流程59、61、93—95。"
+  ],
+  "adoptedDecisions": [
+    {
+      "id": "legacy-shared-mixed-same-type-damage",
+      "question": "Q30",
+      "status": "adopted",
+      "source": "901-core-rules-v0.1.md:80保留原来源分段/触发；原卡资料集_检索版:822—824雷鸣剑将原伤部分转电击；RE伤害处理流程:59、89、91、93—95",
+      "issue": "旧901同一次共享防护攻击可有物理和电击分段，但仍只产生一份P+1同类附伤。RE定义的同时多类型或独立伤害事件都不直接对应这项保留结构。",
+      "impact": "全归物理、按防护后分段比例分配或每种各一份会产生不同结果；不能擅自多次触发或把每点变同时物理且电击。",
+      "adoption": "用户本轮“全部采用，继续”，采用Q30。",
+      "decision": "保持一份总额，按原攻击防护后仍存各类型伤害比例分配整数点，先向下取整、余点按小数部分从大到小分配；余点并列由攻击前声明的类型顺序决定。各分量取本类型最轻伤型，复用同类型已使用防护。已采用。"
+    }
+  ]
 }

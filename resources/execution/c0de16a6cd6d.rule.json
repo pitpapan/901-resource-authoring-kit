@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:D:灾祸术",
-  "version": "2026-10-24.1",
+  "version": "2026-10-24.4",
   "identity": {
     "name": "灾祸术",
     "grade": "D",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/02-咒法与附魔.md",
-    "sha256": "983f6224aea67dcd4e9b29c450a3516367bc89c71b0e249b767383143d93e216",
+    "sha256": "9208eaa98a419856564554deb72d2a22f71f19af2c26b782babf5e46207049d4",
     "heading": "灾祸术"
   },
   "definition": {
@@ -59,7 +59,14 @@
           {
             "op": "save",
             "type": "will",
-            "penalty": 0
+            "penalty": 0,
+            "resolve": {
+              "kind": "opposed",
+              "active": {
+                "context": "cast"
+              }
+            },
+            "resultAs": "opposition"
           },
           {
             "op": "effect",
@@ -93,13 +100,11 @@
             ],
             "scene": true,
             "when": {
-              "test": "gte",
+              "test": "eq",
               "left": {
-                "context": "cast"
+                "context": "opposition.success"
               },
-              "right": {
-                "context": "save"
-              }
+              "right": true
             }
           }
         ],
@@ -127,6 +132,9 @@
       "operation": "cast",
       "actionCost": "standard",
       "requiredChoice": "actual-targets",
+      "choices": {},
+      "allocations": [],
+      "targetMode": "single",
       "requestFields": [
         "actorId",
         "objectId",
@@ -135,7 +143,15 @@
       ],
       "allowsModelNumericEffects": false,
       "route": "mechanism",
-      "objectType": "kitResource"
+      "objectType": "kitResource",
+      "immunityLifecycles": [],
+      "resistanceModes": [
+        {
+          "profile": "will",
+          "kind": "opposed",
+          "receipt": "opposition"
+        }
+      ]
     }
   ],
   "inputs": [
@@ -182,6 +198,13 @@
   "verification": {
     "status": "partial",
     "sourceChecked": true,
-    "runtimeFullyVerified": false
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/gm_runtime/resource-program.test.mjs",
+      "work/rules_engine/core.test.mjs",
+      "work/rules_engine/resource-applicability.test.mjs",
+      "work/rules_engine/resource-resistance.test.mjs",
+      "work/rules_engine/resource-status-applicability.test.mjs"
+    ]
   }
 }

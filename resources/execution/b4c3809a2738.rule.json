@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:C:防死结界",
-  "version": "2026-10-23.1",
+  "version": "2026-10-26.2",
   "identity": {
     "name": "防死结界",
     "grade": "C",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/04-结界与召唤.md",
-    "sha256": "dc2c01ebd19c5cea1610fe4cfc2433805eaf289a2ad461fbc0cfa4df59167b80",
+    "sha256": "988fc6b403da3f345c1bce3caa96ac00730e8d6e2fa942fe29defcaed7e5a69e",
     "heading": "防死结界"
   },
   "definition": {
@@ -28,24 +28,191 @@
     "requiresAllSchools": false,
     "schools": [
       "结界"
-    ]
+    ],
+    "programs": {
+      "cast": {
+        "action": "standard",
+        "target": "single",
+        "casting": true,
+        "supportedGrades": [
+          "C"
+        ],
+        "components": [
+          "posture",
+          "language"
+        ],
+        "cost": 3,
+        "range": 1,
+        "contact": true,
+        "steps": [
+          {
+            "op": "effect",
+            "effects": [],
+            "minutes": {
+              "op": "mul",
+              "args": [
+                60,
+                {
+                  "context": "E"
+                }
+              ]
+            },
+            "instancePolicy": "append",
+            "selection": {
+              "group": "deathward",
+              "power": {
+                "context": "rank"
+              },
+              "tieBreak": "latest"
+            },
+            "deathRecovery": {
+              "mode": "one-impact-from-death",
+              "maximum": {
+                "context": "rank"
+              }
+            },
+            "instantDeathProtection": {
+              "maximumLevel": {
+                "op": "add",
+                "args": [
+                  {
+                    "context": "rank"
+                  },
+                  1
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "clauses": [
     {
       "heading": "防死结界",
       "effectStats": [],
-      "status": "pending"
+      "status": "partial"
     }
   ],
-  "actions": [],
-  "inputs": [],
-  "unresolvedRules": [],
+  "actions": [
+    {
+      "id": "cast",
+      "name": "防死结界",
+      "operation": "cast",
+      "actionCost": "standard",
+      "requiredChoice": "actual-targets",
+      "choices": {},
+      "allocations": [],
+      "targetMode": "single",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false,
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "immunityLifecycles": [],
+      "resistanceModes": [],
+      "supportedGrades": [
+        "C"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "ownership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "casting",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "targetIds",
+      "type": "array",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "components",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "pool",
+      "type": "string",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    }
+  ],
   "implementationGaps": [
-    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+    "C基础共享额度、即死/死亡恢复及特殊伤势来源保留和随机份额已接入；更高等级版本、其他复活资源及完整尸体/物品机制仍需实施。"
   ],
   "verification": {
-    "status": "pending",
+    "status": "partial",
     "sourceChecked": true,
-    "runtimeFullyVerified": false
-  }
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/resource-death.test.mjs",
+      "work/rules_engine/gm_runtime/resource-program.test.mjs"
+    ]
+  },
+  "authoring": {
+    "executionSource": "contract"
+  },
+  "adoptedDecisions": [
+    {
+      "id": "deathward-shared-instant-death-quota",
+      "question": "Q35",
+      "status": "adopted",
+      "source": "RE C级通用魔法/结界1.md:132—134；维护04-结界与召唤.md防死结界段原曾自行注明共用，未找到采用记录",
+      "issue": "原文在生命重置后的“本效果每场景”额度条款，是否同时限制随后“此外”的即死免疫分支，没有明确说明。",
+      "impact": "C级已重置两次后，重新施术能否继续抵挡即死，以及抵挡即死是否减少剩余重置次数不同。",
+      "adoption": "用户本轮“采用，继续”，采用Q35/Q36。",
+      "decision": "两个分支按同一目标/同一资源共用场景额度，每次生命重置或成功抵挡即死都占一次；重施、版本切换不重置。已采用。"
+    },
+    {
+      "id": "queued-death-recovery-after-revival",
+      "question": "Q36",
+      "status": "adopted",
+      "source": "RE FAQ:65—69来源并存覆盖；规则术语解释:308确定死亡；FAQ:183—184只讨论替代规则；Q33采用记录",
+      "issue": "多个不同来源的死亡恢复已锁定，排到后面的恢复执行前目标已被前一个救活，是否仍重置并扣次数，没有明文。",
+      "impact": "会改变生命被再次覆盖的结果及其他来源的场景次数/储备；不能由Q33顺序自行推导消耗语义。",
+      "adoption": "用户本轮“采用，继续”，采用Q35/Q36。",
+      "decision": "保留锁定事件收据，执行恢复前检查是否仍死亡；已活则记录跳过，不再次重置、不额外扣使用次数/储备；来源自身的死亡结束规则仍照常，不自动恢复其持续期。伤害爆发等其他已锁定死亡效果照常执行。已采用。"
+    },
+    {
+      "id": "death-reset-special-wound-restrictions",
+      "question": "Q37",
+      "status": "adopted",
+      "source": "RE C级通用魔法/结界1.md:132；D级通用魔法/塑能.md:186；生命值:171—180；维护03-变化与创造.md:119、729",
+      "issue": "死亡重置属于复活而非普通治疗；原文没有说明特殊伤势的自然恢复/恶性恢复限制是否阻止重置或是否会被消除。",
+      "impact": "决定带自然恢复专属或恶性计价来源的尸体能否重置，以及重置会不会洗掉来源限制。",
+      "decision": "按明文允许复活改变伤型，但完整保留各伤势来源和恢复限制；A改为L后仍按原限制恢复，不把复活视为清除伤势限制。已采用。",
+      "adoption": "用户本轮“全部采用 ，继续”，采纳Q37/Q38。"
+    },
+    {
+      "id": "death-reset-wound-share-selection",
+      "question": "Q38",
+      "status": "adopted",
+      "source": "RE C级通用魔法/结界1.md:132只给最终生命；901快照伤势升级条款:84（普通优先/特殊随机）未覆盖A→L；维护03-变化与创造.md:729",
+      "issue": "多个不同来源A伤重置为1L时，从哪一份来源降级没有明文；已采用升级优先级不是反向重置的授权。",
+      "impact": "决定留在L的来源、后续治疗代价及恢复限制；不能用数组顺序暗定不同特殊来源。",
+      "decision": "先将生命规范为A占槽且保留原来源，再优先选择普通A份额降为L；没有普通份额时按各特殊来源份额数随机选一份，骰流与回执持久化。其余份额及限制保持。已采用。",
+      "adoption": "用户本轮“全部采用 ，继续”，采纳Q37/Q38。"
+    }
+  ],
+  "unresolvedRules": []
 }

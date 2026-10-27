@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:D:寒冷新星",
-  "version": "2026-10-23.1",
+  "version": "2026-10-26.2",
   "identity": {
     "name": "寒冷新星",
     "grade": "D",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/01-塑能.md",
-    "sha256": "59608609417e520c2328fd4593a42d9da86064c47b1e226911f670bb0dd636eb",
+    "sha256": "8ada5f178afeea3f5ed53e580b3b0dd91b6a09cdcce30a423b06403d0cb0d209",
     "heading": "寒冷新星"
   },
   "definition": {
@@ -110,7 +110,10 @@
                 }
               ]
             },
-            "resistance": "none"
+            "resistance": "none",
+            "properties": {
+              "stacking": "add"
+            }
           }
         ],
         "check": {
@@ -156,6 +159,9 @@
       "operation": "cast",
       "actionCost": "standard",
       "requiredChoice": "actual-targets",
+      "choices": {},
+      "allocations": [],
+      "targetMode": "area",
       "requestFields": [
         "actorId",
         "objectId",
@@ -164,7 +170,15 @@
       ],
       "allowsModelNumericEffects": false,
       "route": "mechanism",
-      "objectType": "kitResource"
+      "objectType": "kitResource",
+      "immunityLifecycles": [],
+      "resistanceModes": [
+        {
+          "profile": "fort",
+          "kind": "roll",
+          "receipt": "save"
+        }
+      ]
     }
   ],
   "inputs": [
@@ -211,6 +225,21 @@
   "verification": {
     "status": "partial",
     "sourceChecked": true,
-    "runtimeFullyVerified": false
-  }
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/gm_runtime/resource-program.test.mjs"
+    ]
+  },
+  "adoptedDecisions": [
+    {
+      "id": "fixed-area-automatic-batch-boundary",
+      "question": "Q34",
+      "status": "adopted",
+      "source": "RE D级通用魔法/塑能.md:109；C级通用魔法/塑能1.md:82；FAQ:236—242仅明示多目标攻击检定顺序；伤害处理流程:91只处理同目标多类型；规则术语解释:30",
+      "issue": "同一次定值区域施放涉及多个目标时，未规定耗尽/死亡自动链可否在各目标之间插入；Q32没有确定跨目标的原事件边界。",
+      "impact": "较早目标爆发可改变尚未处理目标的防护、状态和存活；同一法术不应由actor对象遍历顺序暗定结果。",
+      "adoption": "用户本轮“采用 继续”，采用Q33、Q34。",
+      "decision": "先固定本次区域目标，完成全部目标的本术伤害/状态并锁定触发，再消费自动队列；连锁产生的新区域效果也按批次完成。仅限定定值区域自动链，不改FAQ已有多目标攻击检定规则。已采用。"
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:D:魔法飞弹",
-  "version": "2026-10-24.1",
+  "version": "2026-10-27.1",
   "identity": {
     "name": "魔法飞弹",
     "grade": "D",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/01-塑能.md",
-    "sha256": "59608609417e520c2328fd4593a42d9da86064c47b1e226911f670bb0dd636eb",
+    "sha256": "8ada5f178afeea3f5ed53e580b3b0dd91b6a09cdcce30a423b06403d0cb0d209",
     "heading": "魔法飞弹"
   },
   "definition": {
@@ -32,7 +32,7 @@
     "programs": {
       "cast": {
         "action": "standard",
-        "target": "multiple",
+        "target": "sequence",
         "casting": true,
         "components": [
           "posture",
@@ -114,6 +114,9 @@
       "operation": "cast",
       "actionCost": "standard",
       "requiredChoice": "actual-targets",
+      "choices": {},
+      "allocations": [],
+      "targetMode": "single",
       "requestFields": [
         "actorId",
         "objectId",
@@ -122,7 +125,9 @@
       ],
       "allowsModelNumericEffects": false,
       "route": "mechanism",
-      "objectType": "kitResource"
+      "objectType": "kitResource",
+      "immunityLifecycles": [],
+      "resistanceModes": []
     }
   ],
   "inputs": [
@@ -164,8 +169,8 @@
   ],
   "unresolvedRules": [],
   "implementationGaps": [
-    "独立物体、反射拦截、悬浮与穿透进化须继续接入物体和投射物事件",
-    "需执行级完整验证，检查等级/特殊关键词/版本变体；不可仅凭程序存在标记完成"
+    "需执行级完整验证，检查等级/特殊关键词/版本变体；不可仅凭程序存在标记完成",
+    "独立物体、反射拦截、悬浮与穿透进化仍需验证或接入"
   ],
   "verification": {
     "status": "partial",

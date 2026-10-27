@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:D:槲寄生诅咒",
-  "version": "2026-10-23.1",
+  "version": "2026-10-24.4",
   "identity": {
     "name": "槲寄生诅咒",
     "grade": "D",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/06-预言与诅咒.md",
-    "sha256": "9605c98875816313e985071ed8520755ae1ebcb4285b088f0b9c66c79a28dc3a",
+    "sha256": "be6fce45599359c7eea27ce5327c0c273e0e4d87174d0815c53d6a9cefe733b6",
     "heading": "槲寄生诅咒"
   },
   "definition": {
@@ -69,12 +69,23 @@
                 "group": "curse"
               }
             ],
-            "scene": true
+            "scene": true,
+            "immunityLifecycle": "suppress",
+            "component": "main"
           }
         ],
         "effectTypes": [
           "curse"
-        ]
+        ],
+        "effectComponents": {
+          "main": {
+            "families": [
+              "curse"
+            ],
+            "gradeBonus": 0,
+            "mode": "any-blocks"
+          }
+        }
       }
     },
     "schools": [
@@ -96,6 +107,9 @@
       "operation": "cast",
       "actionCost": "standard",
       "requiredChoice": "actual-targets",
+      "choices": {},
+      "allocations": [],
+      "targetMode": "single",
       "requestFields": [
         "actorId",
         "objectId",
@@ -104,7 +118,24 @@
       ],
       "allowsModelNumericEffects": false,
       "route": "mechanism",
-      "objectType": "kitResource"
+      "objectType": "kitResource",
+      "effectComponents": {
+        "main": {
+          "families": [
+            "curse"
+          ],
+          "gradeBonus": 0,
+          "mode": "any-blocks"
+        }
+      },
+      "immunityLifecycles": [
+        {
+          "operation": "effect",
+          "component": "main",
+          "policy": "suppress"
+        }
+      ],
+      "resistanceModes": []
     }
   ],
   "inputs": [
@@ -151,6 +182,12 @@
   "verification": {
     "status": "partial",
     "sourceChecked": true,
-    "runtimeFullyVerified": false
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/resource-applicability.test.mjs",
+      "work/rules_engine/resource-resistance.test.mjs",
+      "work/rules_engine/gm_runtime/resource-program.test.mjs",
+      "work/rules_engine/resource-status-applicability.test.mjs"
+    ]
   }
 }

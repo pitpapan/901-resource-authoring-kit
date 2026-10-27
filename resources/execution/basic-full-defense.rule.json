@@ -1,0 +1,192 @@
+{
+  "schemaVersion": "901-resource/1",
+  "id": "basic:full-defense",
+  "version": "2026-10-24.1",
+  "identity": {
+    "name": "全力防御",
+    "category": "basic-rule"
+  },
+  "reading": {
+    "path": "resources/basic-actions.md",
+    "sha256": "b0781d5e7249d883692b0cad32240605699fba75976263027f024e9e5d1d8800",
+    "heading": "全力防御"
+  },
+  "definition": {
+    "access": "common",
+    "source": "content/PHB/01_rules/非战斗行动与战斗行动.md:193-205",
+    "basicActions": {
+      "fullDefense": {
+        "operation": "activate",
+        "name": "全力防御",
+        "action": "标准",
+        "text": "持续至下一次其他标准动作；防御与范围反射获得基本防御的闪避加值；可见枪械不享高速。"
+      }
+    },
+    "programs": {
+      "activate": {
+        "action": "standard",
+        "target": "self",
+        "casting": false,
+        "cost": 0,
+        "steps": [
+          {
+            "op": "effect",
+            "formulaTiming": "live",
+            "removable": false,
+            "expiresOn": {
+              "actions": [
+                "standard",
+                "attack",
+                "full",
+                "charge"
+              ]
+            },
+            "effects": [
+              {
+                "stat": "tag",
+                "tag": "fullDefense",
+                "value": 1,
+                "when": {
+                  "test": "eq",
+                  "left": {
+                    "context": "canDodge"
+                  },
+                  "right": true
+                }
+              },
+              {
+                "stat": "defense",
+                "group": "dodge",
+                "value": {
+                  "context": "baseDefense"
+                },
+                "when": {
+                  "test": "eq",
+                  "left": {
+                    "context": "canDodge"
+                  },
+                  "right": true
+                }
+              },
+              {
+                "stat": "save",
+                "group": "dodge",
+                "value": {
+                  "context": "baseDefense"
+                },
+                "when": {
+                  "all": [
+                    {
+                      "test": "eq",
+                      "left": {
+                        "context": "canDodge"
+                      },
+                      "right": true
+                    },
+                    {
+                      "test": "eq",
+                      "left": {
+                        "context": "type"
+                      },
+                      "right": "reflex"
+                    },
+                    {
+                      "test": "eq",
+                      "left": {
+                        "context": "areaAttack"
+                      },
+                      "right": true
+                    }
+                  ]
+                }
+              },
+              {
+                "stat": "ignoreSpeed",
+                "group": "dodge",
+                "value": {
+                  "context": "incomingSpeed",
+                  "default": 0
+                },
+                "when": {
+                  "all": [
+                    {
+                      "test": "eq",
+                      "left": {
+                        "context": "canDodge"
+                      },
+                      "right": true
+                    },
+                    {
+                      "test": "eq",
+                      "left": {
+                        "context": "firearmAttack"
+                      },
+                      "right": true
+                    },
+                    {
+                      "test": "eq",
+                      "left": {
+                        "context": "attackerVisible"
+                      },
+                      "right": true
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "requirements": [
+          {
+            "condition": {
+              "test": "eq",
+              "left": {
+                "context": "canDodge"
+              },
+              "right": true
+            },
+            "message": "当前不能闪避，无法采取全力防御"
+          }
+        ]
+      }
+    }
+  },
+  "clauses": [
+    {
+      "heading": "全力防御",
+      "effectStats": [
+        "defense",
+        "save",
+        "ignoreSpeed"
+      ],
+      "status": "implemented"
+    }
+  ],
+  "actions": [
+    {
+      "id": "activate",
+      "name": "全力防御",
+      "operation": "activate",
+      "actionCost": "standard",
+      "route": "combat",
+      "commandId": "fullDefense",
+      "requestFields": [
+        "actorId",
+        "abilityId"
+      ],
+      "allowsModelNumericEffects": false
+    }
+  ],
+  "inputs": [],
+  "unresolvedRules": [],
+  "implementationGaps": [
+    "普通动作与全部特殊防御、主持环境组合仍需完整执行验证"
+  ],
+  "verification": {
+    "status": "partial",
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/combat/declarative-actions.test.mjs"
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:C:报偿",
-  "version": "2026-10-23.1",
+  "version": "2026-10-24.2",
   "identity": {
     "name": "报偿",
     "grade": "C",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/04-结界与召唤.md",
-    "sha256": "dc2c01ebd19c5cea1610fe4cfc2433805eaf289a2ad461fbc0cfa4df59167b80",
+    "sha256": "988fc6b403da3f345c1bce3caa96ac00730e8d6e2fa942fe29defcaed7e5a69e",
     "heading": "报偿"
   },
   "definition": {
@@ -28,24 +28,163 @@
     "requiresAllSchools": false,
     "schools": [
       "结界"
+    ],
+    "programs": {
+      "cast": {
+        "action": "standard",
+        "target": "single",
+        "casting": true,
+        "components": [
+          "posture",
+          "language",
+          "focus"
+        ],
+        "range": {
+          "op": "mul",
+          "args": [
+            10,
+            {
+              "context": "INT"
+            },
+            {
+              "context": "P"
+            }
+          ]
+        },
+        "steps": [
+          {
+            "op": "trigger",
+            "event": "afterLifeLoss",
+            "steps": [
+              {
+                "op": "damage",
+                "amount": {
+                  "context": "P"
+                },
+                "energy": "holy",
+                "severity": "L",
+                "noAttackSource": true
+              }
+            ],
+            "target": "eventTarget",
+            "condition": {
+              "test": "eq",
+              "left": {
+                "context": "enemyCreatureSource"
+              },
+              "right": true
+            },
+            "requiresContext": [
+              "enemyCreatureSource"
+            ],
+            "sourcePolicy": "independent-casters",
+            "damageNature": "retaliation",
+            "scene": true
+          }
+        ]
+      }
+    },
+    "triggerPolicyMigrations": [
+      {
+        "event": "afterLifeLoss",
+        "from": "pending-cross-caster",
+        "to": "independent-casters",
+        "source": "用户2026-10-24明确采用：独立来源分别结算"
+      }
     ]
   },
   "clauses": [
     {
       "heading": "报偿",
       "effectStats": [],
-      "status": "pending"
+      "status": "partial"
     }
   ],
-  "actions": [],
-  "inputs": [],
+  "actions": [
+    {
+      "id": "cast",
+      "name": "报偿",
+      "operation": "cast",
+      "actionCost": "standard",
+      "requiredChoice": "actual-targets",
+      "choices": {},
+      "allocations": [],
+      "targetMode": "single",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false,
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "immunityLifecycles": [],
+      "resistanceModes": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "ownership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "casting",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "targetIds",
+      "type": "array",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "components",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "pool",
+      "type": "string",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    }
+  ],
   "unresolvedRules": [],
   "implementationGaps": [
-    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+    "普通武器、通用法术、擒抱攻击、导力弹、龙象附加和乱红莲伤害已传实际来源；旧燃烧/流血聚合及特殊反射的来源归属仍须接线",
+    "需执行级完整验证，检查等级/特殊关键词/版本变体；不可仅凭程序存在标记完成"
   ],
   "verification": {
-    "status": "pending",
+    "status": "partial",
     "sourceChecked": true,
-    "runtimeFullyVerified": false
-  }
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/gm_runtime/resource-program.test.mjs",
+      "work/rules_engine/core.test.mjs"
+    ]
+  },
+  "adoptedDecisions": [
+    {
+      "id": "cross-caster-damage-instances",
+      "source": "content/RE/01_rules/04_附录/一些常见问答.md:64-69",
+      "quote": "不同角色使用的同一效果……可以反复影响同一目标并各自产生效果；是否叠加取决于该效果本身是否叠加。",
+      "issue": "两术未进一步规定跨施法者叠加；数值加值取最高不能自动推广到持续伤害/反伤实例。",
+      "impact": "影响实际触发次数、每轮额度和伤害来源归属；若改成只选最高还缺平值及来源切换规则。",
+      "status": "adopted",
+      "decision": "每施法者保留一份独立效果并分别结算，同施法者重施不重置同轮次数。",
+      "decisionSource": "用户2026-10-24回复：采用独立来源分别结算",
+      "recommendation": "已采用；迁移旧存档的待裁定策略字段，保留原施法强度、来源、持续和已用额度。"
+    }
+  ]
 }

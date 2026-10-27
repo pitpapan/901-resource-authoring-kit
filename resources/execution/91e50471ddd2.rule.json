@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:D:焚化",
-  "version": "2026-10-23.1",
+  "version": "2026-10-26.1",
   "identity": {
     "name": "焚化",
     "grade": "D",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/01-塑能.md",
-    "sha256": "59608609417e520c2328fd4593a42d9da86064c47b1e226911f670bb0dd636eb",
+    "sha256": "8ada5f178afeea3f5ed53e580b3b0dd91b6a09cdcce30a423b06403d0cb0d209",
     "heading": "焚化"
   },
   "definition": {
@@ -32,24 +32,187 @@
     "requiresAllSchools": false,
     "schools": [
       "塑能"
-    ]
+    ],
+    "programs": {
+      "cast": {
+        "action": "standard",
+        "target": "single",
+        "casting": true,
+        "supportedGrades": [
+          "D",
+          "C"
+        ],
+        "components": [
+          "posture",
+          "language"
+        ],
+        "range": {
+          "op": "mul",
+          "args": [
+            10,
+            {
+              "context": "INT"
+            },
+            {
+              "context": "P"
+            }
+          ]
+        },
+        "cooldown": 1,
+        "check": {
+          "attribute": "智力",
+          "skill": "神秘"
+        },
+        "steps": [
+          {
+            "op": "save",
+            "type": "fort",
+            "penalty": {
+              "context": "cast"
+            }
+          },
+          {
+            "op": "damage",
+            "amount": {
+              "op": "max",
+              "args": [
+                0,
+                {
+                  "op": "sub",
+                  "args": [
+                    {
+                      "op": "add",
+                      "args": [
+                        {
+                          "op": "mul",
+                          "args": [
+                            2,
+                            {
+                              "context": "rank"
+                            }
+                          ]
+                        },
+                        {
+                          "op": "mul",
+                          "args": [
+                            2,
+                            {
+                              "context": "P"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "context": "save"
+                    }
+                  ]
+                }
+              ]
+            },
+            "energy": "fire",
+            "severity": "L",
+            "deathRestriction": {
+              "maximumLevel": {
+                "context": "rank"
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "clauses": [
     {
       "heading": "焚化",
       "effectStats": [],
-      "status": "pending"
+      "status": "partial"
     }
   ],
-  "actions": [],
-  "inputs": [],
+  "actions": [
+    {
+      "id": "cast",
+      "name": "焚化",
+      "operation": "cast",
+      "actionCost": "standard",
+      "requiredChoice": "actual-targets",
+      "choices": {},
+      "allocations": [],
+      "targetMode": "single",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false,
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "immunityLifecycles": [],
+      "resistanceModes": [
+        {
+          "profile": "fort",
+          "kind": "roll",
+          "receipt": "save"
+        }
+      ],
+      "supportedGrades": [
+        "D",
+        "C"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "ownership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "casting",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "targetIds",
+      "type": "array",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "components",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "pool",
+      "type": "string",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    }
+  ],
   "unresolvedRules": [],
   "implementationGaps": [
-    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+    "D/C基础伤害、真实致死来源及等级禁复活已接；其他版本和完整复活资源仍需编程。"
   ],
   "verification": {
-    "status": "pending",
+    "status": "partial",
     "sourceChecked": true,
-    "runtimeFullyVerified": false
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/resource-death.test.mjs",
+      "work/rules_engine/gm_runtime/resource-program.test.mjs"
+    ]
+  },
+  "authoring": {
+    "executionSource": "contract"
   }
 }

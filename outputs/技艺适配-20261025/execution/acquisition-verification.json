@@ -1,7 +1,7 @@
 {
   "acquisitions": {
     "candidate-901-spell-07371ef0ebf4c5e6": {
-      "fingerprint": "39efe4e336ab9837d7a6092fd8dd4aadd3943db48fffce1a541a4abb39577adb",
+      "fingerprint": "fb03c55a859ee6a5e8ce9b5716439e901883f85f4a0f6746071a532432d22aa6",
       "result": "passed",
       "testCases": [
         "光亮术 learns for 3XP then casts from saved ownership with zero magic and no caster",
@@ -25,11 +25,11 @@
         "saved observation and cleaned creature surface are visible in the actual classifier ruleContext after reload"
       ],
       "testFiles": [
-        "../901-tavern/work/rules_engine/gm_runtime/resource-object-program.test.mjs"
+        "../TRPG outputs/work/rules_engine/gm_runtime/resource-object-program.test.mjs"
       ]
     },
     "candidate-901-spell-4d06dee11ca4793b": {
-      "fingerprint": "42381dab4edb446d2ca5b30766eb0840bc16ceebcf45151d23f66fb1bb2b76f5",
+      "fingerprint": "aa83a55fd4d90a6d38fcbb0bbc49c61a1666212738c184e6db44bf980de9259f",
       "result": "passed",
       "testCases": [
         "光亮术 learns for 3XP then casts from saved ownership with zero magic and no caster",
@@ -53,11 +53,11 @@
         "saved observation and cleaned creature surface are visible in the actual classifier ruleContext after reload"
       ],
       "testFiles": [
-        "../901-tavern/work/rules_engine/gm_runtime/resource-object-program.test.mjs"
+        "../TRPG outputs/work/rules_engine/gm_runtime/resource-object-program.test.mjs"
       ]
     },
     "candidate-901-spell-627e18466f034f0d": {
-      "fingerprint": "3a0e68c3454c4529e83134ec688083ddf6e888fe275982af8ae29398d1a4c30e",
+      "fingerprint": "47c45252b3b864b77aa695d1ff85b8a085bb3dd737a96a1d34369146ebeddddc",
       "result": "passed",
       "testCases": [
         "光亮术 learns for 3XP then casts from saved ownership with zero magic and no caster",
@@ -81,11 +81,11 @@
         "saved observation and cleaned creature surface are visible in the actual classifier ruleContext after reload"
       ],
       "testFiles": [
-        "../901-tavern/work/rules_engine/gm_runtime/resource-object-program.test.mjs"
+        "../TRPG outputs/work/rules_engine/gm_runtime/resource-object-program.test.mjs"
       ]
     },
     "candidate-901-spell-770efa8bbf3fb8d7": {
-      "fingerprint": "4977800a6521cbd02deb6f672e8aec0cfcfff6212b75609a8303f79178a37622",
+      "fingerprint": "9c6054cb31157ae62922d8f561b30604f59d568192e03b91f2c8218da10236b8",
       "result": "passed",
       "testCases": [
         "造成伤害 learns for exactly 3 ordinary XP and persists the owned version without granting a caster",
@@ -102,11 +102,11 @@
         "both new spells reject stale/adoption/school/Wufa learning without XP or grants"
       ],
       "testFiles": [
-        "../901-tavern/work/rules_engine/gm_runtime/resource-wound-program.test.mjs"
+        "../TRPG outputs/work/rules_engine/gm_runtime/resource-wound-program.test.mjs"
       ]
     },
     "candidate-901-spell-9545847235e16202": {
-      "fingerprint": "00710845e8d074d628518ca0359ba700dbef4ab99b47d168bc790b069e1b7dbd",
+      "fingerprint": "f88d91bc4058c93e0ff8962b7730c7d5d69ffcca5460832cfed2ce9b6fd74bb0",
       "result": "passed",
       "testCases": [
         "造成伤害 learns for exactly 3 ordinary XP and persists the owned version without granting a caster",
@@ -123,11 +123,11 @@
         "both new spells reject stale/adoption/school/Wufa learning without XP or grants"
       ],
       "testFiles": [
-        "../901-tavern/work/rules_engine/gm_runtime/resource-wound-program.test.mjs"
+        "../TRPG outputs/work/rules_engine/gm_runtime/resource-wound-program.test.mjs"
       ]
     },
     "candidate-901-spell-9a688a9c8d132262": {
-      "fingerprint": "cdd57d78c980577cc1073baee0880120a91c6029f860983f288d8ddb3520aa35",
+      "fingerprint": "1d03b428bf7f11c18b254963757c36cfaff76675170fd51bf68e5d418c045847",
       "result": "passed",
       "testCases": [
         "光亮术 learns for 3XP then casts from saved ownership with zero magic and no caster",
@@ -151,11 +151,11 @@
         "saved observation and cleaned creature surface are visible in the actual classifier ruleContext after reload"
       ],
       "testFiles": [
-        "../901-tavern/work/rules_engine/gm_runtime/resource-object-program.test.mjs"
+        "../TRPG outputs/work/rules_engine/gm_runtime/resource-object-program.test.mjs"
       ]
     },
     "candidate-901-spell-a3d953c556f47f6b": {
-      "fingerprint": "b3f8f860409dfb96185abb636a6e34e1ba26ce9fa9145b80ebe3d12642f18d4e",
+      "fingerprint": "3dfde57df1ddbcc27df7728ebd5041f15ddb4753fe3cf2ca7273e6da35ba97fd",
       "result": "passed",
       "testCases": [
         "ungraded external spell learns for three ordinary XP, persists source/version/choice, no caster or free grants",
@@ -170,12 +170,12 @@
         "questions, cancellation, Wufa-only declaration and unadopted offers do not silently buy the candidate"
       ],
       "testFiles": [
-        "../901-tavern/work/rules_engine/resource-learning-policy.test.mjs",
-        "../901-tavern/work/rules_engine/gm_runtime/resource-learning-flow.test.mjs"
+        "../TRPG outputs/work/rules_engine/resource-learning-policy.test.mjs",
+        "../TRPG outputs/work/rules_engine/gm_runtime/resource-learning-flow.test.mjs"
       ]
     },
     "candidate-901-spell-b19de39e68640282": {
-      "fingerprint": "6a3175901cac1529b6dcf3891de4398ab6fd2eddc73df5e0f52d2ef0a958229f",
+      "fingerprint": "69ec458732e8f2fd6254658de6176bde1ee0d273cb1930855400b6262b54612c",
       "result": "passed",
       "testCases": [
         "光亮术 learns for 3XP then casts from saved ownership with zero magic and no caster",
@@ -199,11 +199,11 @@
         "saved observation and cleaned creature surface are visible in the actual classifier ruleContext after reload"
       ],
       "testFiles": [
-        "../901-tavern/work/rules_engine/gm_runtime/resource-object-program.test.mjs"
+        "../TRPG outputs/work/rules_engine/gm_runtime/resource-object-program.test.mjs"
       ]
     },
     "candidate-901-spell-e2c629c99e7394bd": {
-      "fingerprint": "7e8a414dae8f37f9ff5f325640bd502412a11fc3222ff5be22b9143d13357ee6",
+      "fingerprint": "2ea11eddf629682df3de4b5f636429547757e9c9adcc05a4d874d6c7172c46fe",
       "result": "passed",
       "testCases": [
         "光亮术 learns for 3XP then casts from saved ownership with zero magic and no caster",
@@ -227,65 +227,65 @@
         "saved observation and cleaned creature surface are visible in the actual classifier ruleContext after reload"
       ],
       "testFiles": [
-        "../901-tavern/work/rules_engine/gm_runtime/resource-object-program.test.mjs"
+        "../TRPG outputs/work/rules_engine/gm_runtime/resource-object-program.test.mjs"
       ]
     }
   },
   "engineModules": [
     {
-      "path": "../901-tavern/work/rules_engine/core.mjs",
-      "sha256": "d407a4f8938c2db145ce1e3f302a401405ae05f9bb064582862238967e62edd7"
+      "path": "../TRPG outputs/work/rules_engine/core.mjs",
+      "sha256": "ce8c92c5032da4e02f3ebecc459f2ba0b183e13ba733448affc8aaab0a69006f"
     },
     {
-      "path": "../901-tavern/work/rules_engine/gm_runtime/integrated.mjs",
+      "path": "../TRPG outputs/work/rules_engine/gm_runtime/integrated.mjs",
       "sha256": "d83866d9da23b62708d2b673b78cc0298a2f8b5b85286c099dbe8ddffd06f977"
     },
     {
-      "path": "../901-tavern/work/rules_engine/gm_runtime/replay-check.mjs",
-      "sha256": "872857a8ca73a38861c57184a95b9cd35cbc35dc0ee29255cc4d31a4f8fd6c4d"
+      "path": "../TRPG outputs/work/rules_engine/gm_runtime/replay-check.mjs",
+      "sha256": "01c2773b696ae74ba3d93954d5d0ffcfe367d31f49615e2877f20cf9df81ffa6"
     },
     {
-      "path": "../901-tavern/work/rules_engine/gm_runtime/resource-learning-flow.test.mjs",
+      "path": "../TRPG outputs/work/rules_engine/gm_runtime/resource-learning-flow.test.mjs",
       "sha256": "370a9c58ca7828735964c8373c298c7cd64899346e78f3882d88953c6d8e128e"
     },
     {
-      "path": "../901-tavern/work/rules_engine/gm_runtime/resource-object-program.test.mjs",
+      "path": "../TRPG outputs/work/rules_engine/gm_runtime/resource-object-program.test.mjs",
       "sha256": "19029b80bc856470f84fc713f13022f1549b2f73a591b7b2a7b0161f4ca500e5"
     },
     {
-      "path": "../901-tavern/work/rules_engine/gm_runtime/resource-wound-program.test.mjs",
+      "path": "../TRPG outputs/work/rules_engine/gm_runtime/resource-wound-program.test.mjs",
       "sha256": "58742ce8a4b1ded29df4ac50c07e1305dc30da373065919671c5f2da8184e841"
     },
     {
-      "path": "../901-tavern/work/rules_engine/gm_runtime/rule-actions.mjs",
-      "sha256": "d62362852985637e33b05cdb75902d5a4d0edaa72e991fadc0d0044078463844"
+      "path": "../TRPG outputs/work/rules_engine/gm_runtime/rule-actions.mjs",
+      "sha256": "85bf4606befec7ee9de3009f5206cffad0e739a9f72a95c9953acce03db1ff21"
     },
     {
-      "path": "../901-tavern/work/rules_engine/gm_runtime/rule-reference.mjs",
-      "sha256": "c1c3ae2819f3feb505e62c8c04bf9a32133ac319fb124907ea460339bdaf9b95"
+      "path": "../TRPG outputs/work/rules_engine/gm_runtime/rule-reference.mjs",
+      "sha256": "4bb976f4f1c6c3e894c57d9331f225b12548c3c060013a98b3afb78a79e3008b"
     },
     {
-      "path": "../901-tavern/work/rules_engine/growth-pricing.mjs",
+      "path": "../TRPG outputs/work/rules_engine/growth-pricing.mjs",
       "sha256": "c800cbb8c0f768e632f1567b0295eaf9f59a14bfe76e577a9a9199d569332636"
     },
     {
-      "path": "../901-tavern/work/rules_engine/kit-state.mjs",
-      "sha256": "cc320946740c22352b29b82884719d6f68307f9a299c9448390187588be5b734"
+      "path": "../TRPG outputs/work/rules_engine/kit-state.mjs",
+      "sha256": "a61a121f9003b87fb2fd6b40ec47196fb68e0a239acdb63ffd20b6ffa515774c"
     },
     {
-      "path": "../901-tavern/work/rules_engine/mvu_poc/adapter.mjs",
-      "sha256": "ecb83d3348113c6a645567869c4e671df5a8e9b6241d0c4d8be65a89aeff11a3"
+      "path": "../TRPG outputs/work/rules_engine/mvu_poc/adapter.mjs",
+      "sha256": "db6a85a595f8709319d85a617da0772499c3a7e379470ebfd1366b588105fd26"
     },
     {
-      "path": "../901-tavern/work/rules_engine/resource-acquisition.mjs",
+      "path": "../TRPG outputs/work/rules_engine/resource-acquisition.mjs",
       "sha256": "5fb06a960ab5b03025b1850c0a5e13b9b38f6d0279895b6f05ef7a3d904d796a"
     },
     {
-      "path": "../901-tavern/work/rules_engine/resource-effects.mjs",
-      "sha256": "cb2b03fa18d7323bb7900196984334c04c9f244f5d8c914937a1de81e3402dd2"
+      "path": "../TRPG outputs/work/rules_engine/resource-effects.mjs",
+      "sha256": "660390d06a4bab610effa10e45f7ee736f8426d3144d37fb1f84da7e9208a77b"
     },
     {
-      "path": "../901-tavern/work/rules_engine/resource-learning-policy.test.mjs",
+      "path": "../TRPG outputs/work/rules_engine/resource-learning-policy.test.mjs",
       "sha256": "03ce00c5c2f0dcf7f912baefff3a77dde0d6ade27aaf9995cb7ed73d8142cc9f"
     }
   ],

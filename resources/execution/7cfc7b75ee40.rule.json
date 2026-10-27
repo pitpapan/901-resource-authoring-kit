@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:C:暗夜之型",
-  "version": "2026-10-23.1",
+  "version": "2026-10-25.1",
   "identity": {
     "name": "暗夜之型",
     "grade": "C",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/03-变化与创造.md",
-    "sha256": "8d0986298b0d6cecdf1275819ea60ab47d2f8c29d4e24c47f117f1dee6d7b192",
+    "sha256": "aef74d24553f0c80dd83b118b6541ca81e202d075be87b8f84128b2c19b41669",
     "heading": "暗夜之型"
   },
   "definition": {
@@ -28,24 +28,318 @@
     "requiresAllSchools": false,
     "schools": [
       "变化"
-    ]
+    ],
+    "programs": {
+      "cast": {
+        "action": "free",
+        "target": "self",
+        "casting": true,
+        "components": [
+          "posture",
+          "language",
+          "focus"
+        ],
+        "range": {
+          "op": "mul",
+          "args": [
+            10,
+            {
+              "context": "INT"
+            },
+            {
+              "context": "P"
+            }
+          ]
+        },
+        "steps": [
+          {
+            "op": "effect",
+            "effects": [
+              {
+                "stat": "attribute",
+                "value": {
+                  "op": "floor",
+                  "args": [
+                    {
+                      "op": "div",
+                      "args": [
+                        {
+                          "op": "mul",
+                          "args": [
+                            1,
+                            {
+                              "context": "P"
+                            }
+                          ]
+                        },
+                        2
+                      ]
+                    }
+                  ]
+                },
+                "group": "enhancement",
+                "when": {
+                  "test": "eq",
+                  "left": {
+                    "context": "attribute"
+                  },
+                  "right": "智力"
+                }
+              },
+              {
+                "stat": "attribute",
+                "value": {
+                  "op": "floor",
+                  "args": [
+                    {
+                      "op": "div",
+                      "args": [
+                        {
+                          "op": "mul",
+                          "args": [
+                            1,
+                            {
+                              "context": "P"
+                            }
+                          ]
+                        },
+                        2
+                      ]
+                    }
+                  ]
+                },
+                "group": "enhancement",
+                "when": {
+                  "test": "eq",
+                  "left": {
+                    "context": "attribute"
+                  },
+                  "right": "感知"
+                }
+              },
+              {
+                "stat": "attribute",
+                "value": {
+                  "op": "floor",
+                  "args": [
+                    {
+                      "op": "div",
+                      "args": [
+                        {
+                          "op": "mul",
+                          "args": [
+                            1,
+                            {
+                              "context": "P"
+                            }
+                          ]
+                        },
+                        2
+                      ]
+                    }
+                  ]
+                },
+                "group": "enhancement",
+                "when": {
+                  "test": "eq",
+                  "left": {
+                    "context": "attribute"
+                  },
+                  "right": "风度"
+                }
+              },
+              {
+                "stat": "check",
+                "value": {
+                  "op": "floor",
+                  "args": [
+                    {
+                      "op": "div",
+                      "args": [
+                        {
+                          "op": "mul",
+                          "args": [
+                            1,
+                            {
+                              "context": "P"
+                            }
+                          ]
+                        },
+                        2
+                      ]
+                    }
+                  ]
+                },
+                "group": "insight",
+                "when": {
+                  "test": "eq",
+                  "left": {
+                    "context": "genericEnergySupported"
+                  },
+                  "right": true
+                }
+              }
+            ],
+            "scene": true
+          },
+          {
+            "op": "trigger",
+            "event": "turnStart",
+            "steps": [
+              {
+                "op": "damage",
+                "amount": 1,
+                "kind": "physical",
+                "severity": "L",
+                "unavoidable": true,
+                "recovery": "aggravated"
+              },
+              {
+                "op": "accumulate",
+                "key": "imperial-magic:dark-form",
+                "amount": 1,
+                "thresholdAttribute": "力量",
+                "conditionMinutes": 480,
+                "resetAfterRestMinutes": 480
+              }
+            ],
+            "scene": true,
+            "requiresConscious": true
+          },
+          {
+            "op": "damage",
+            "amount": 1,
+            "kind": "physical",
+            "severity": "L",
+            "unavoidable": true,
+            "recovery": "aggravated"
+          },
+          {
+            "op": "accumulate",
+            "key": "imperial-magic:dark-form",
+            "amount": 1,
+            "thresholdAttribute": "力量",
+            "conditionMinutes": 480,
+            "resetAfterRestMinutes": 480
+          }
+        ],
+        "toggle": "on"
+      },
+      "end": {
+        "label": "关闭暗夜之型",
+        "action": "free",
+        "target": "self",
+        "casting": false,
+        "cost": 0,
+        "toggle": "off",
+        "steps": []
+      }
+    }
   },
   "clauses": [
     {
       "heading": "暗夜之型",
       "effectStats": [],
-      "status": "pending"
+      "status": "partial"
     }
   ],
-  "actions": [],
-  "inputs": [],
+  "actions": [
+    {
+      "id": "cast",
+      "name": "暗夜之型",
+      "operation": "cast",
+      "actionCost": "free",
+      "requiredChoice": "actual-targets",
+      "choices": {},
+      "allocations": [],
+      "targetMode": "self",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false,
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "immunityLifecycles": [],
+      "resistanceModes": []
+    },
+    {
+      "id": "end",
+      "name": "关闭暗夜之型",
+      "operation": "end",
+      "actionCost": "free",
+      "requiredChoice": "actual-targets",
+      "choices": {},
+      "allocations": [],
+      "targetMode": "self",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false,
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "immunityLifecycles": [],
+      "resistanceModes": [],
+      "counterCosts": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "ownership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "casting",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "targetIds",
+      "type": "array",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "components",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "pool",
+      "type": "string",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    }
+  ],
   "unresolvedRules": [],
   "implementationGaps": [
-    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+    "通用能量支持的旧角色攻防/对抗加值仍需来源消费者迁移，当前仅接通真实通用池付费的资源检定；B以上版本未接入",
+    "需执行级完整验证，检查等级/特殊关键词/版本变体；不可仅凭程序存在标记完成"
   ],
   "verification": {
-    "status": "pending",
+    "status": "partial",
     "sourceChecked": true,
     "runtimeFullyVerified": false
-  }
+  },
+  "adoptedDecisions": [
+    {
+      "id": "dark-form-period-and-rest",
+      "source": "用户2026-10-25 Q4/Q5采纳",
+      "rule": "启动及每次本人行动开始付代价；关闭不清暗伤；连续8小时休息或本术8小时昏迷后清零。"
+    }
+  ]
 }

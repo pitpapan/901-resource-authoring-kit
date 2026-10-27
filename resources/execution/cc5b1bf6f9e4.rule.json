@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:C:茜卓的旋炎咒",
-  "version": "2026-10-24.1",
+  "version": "2026-10-24.2",
   "identity": {
     "name": "茜卓的旋炎咒",
     "grade": "C",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/01-塑能.md",
-    "sha256": "59608609417e520c2328fd4593a42d9da86064c47b1e226911f670bb0dd636eb",
+    "sha256": "8ada5f178afeea3f5ed53e580b3b0dd91b6a09cdcce30a423b06403d0cb0d209",
     "heading": "茜卓的旋炎咒"
   },
   "definition": {
@@ -32,7 +32,7 @@
     "programs": {
       "cast": {
         "action": "standard",
-        "target": "multiple",
+        "target": "sequence",
         "casting": true,
         "components": [
           "posture",
@@ -116,17 +116,39 @@
           }
         ],
         "cooldown": 3,
-        "repetition": {
-          "maximum": 2,
-          "extraCost": 3,
-          "extraCondition": {
-            "test": "eq",
-            "left": {
-              "context": "handsFree"
+        "maxTargets": 2,
+        "cost": {
+          "op": "mul",
+          "args": [
+            3,
+            {
+              "context": "targetCount"
+            }
+          ]
+        },
+        "requirements": [
+          {
+            "condition": {
+              "any": [
+                {
+                  "test": "lte",
+                  "left": {
+                    "context": "targetCount"
+                  },
+                  "right": 1
+                },
+                {
+                  "test": "gte",
+                  "left": {
+                    "context": "components.freeHands"
+                  },
+                  "right": 2
+                }
+              ]
             },
-            "right": true
+            "message": "双枚火球须双手空闲，各枚独立支付3魔力"
           }
-        }
+        ]
       }
     }
   },
@@ -144,6 +166,9 @@
       "operation": "cast",
       "actionCost": "standard",
       "requiredChoice": "actual-targets",
+      "choices": {},
+      "allocations": [],
+      "targetMode": "sequence",
       "requestFields": [
         "actorId",
         "objectId",
@@ -152,7 +177,9 @@
       ],
       "allowsModelNumericEffects": false,
       "route": "mechanism",
-      "objectType": "kitResource"
+      "objectType": "kitResource",
+      "immunityLifecycles": [],
+      "resistanceModes": []
     }
   ],
   "inputs": [
@@ -190,13 +217,6 @@
       "provider": "player",
       "requiredFor": "cast",
       "missingPolicy": "require_input_for_dependent_action"
-    },
-    {
-      "id": "handsFree",
-      "type": "boolean",
-      "provider": "host",
-      "requiredFor": "double-projectile",
-      "missingPolicy": "require_input_for_dependent_action"
     }
   ],
   "unresolvedRules": [],
@@ -206,6 +226,10 @@
   "verification": {
     "status": "partial",
     "sourceChecked": true,
-    "runtimeFullyVerified": false
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/gm_runtime/resource-program.test.mjs",
+      "work/rules_engine/core.test.mjs"
+    ]
   }
 }

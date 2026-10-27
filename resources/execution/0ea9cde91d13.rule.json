@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:D:虚弱诅咒",
-  "version": "2026-10-23.1",
+  "version": "2026-10-24.5",
   "identity": {
     "name": "虚弱诅咒",
     "grade": "D",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/06-预言与诅咒.md",
-    "sha256": "9605c98875816313e985071ed8520755ae1ebcb4285b088f0b9c66c79a28dc3a",
+    "sha256": "be6fce45599359c7eea27ce5327c0c273e0e4d87174d0815c53d6a9cefe733b6",
     "heading": "虚弱诅咒"
   },
   "definition": {
@@ -55,53 +55,6 @@
             }
           ]
         },
-        "steps": [
-          {
-            "op": "save",
-            "type": "fort",
-            "penalty": 0
-          },
-          {
-            "op": "status",
-            "type": "疲乏",
-            "points": {
-              "op": "min",
-              "args": [
-                {
-                  "op": "max",
-                  "args": [
-                    0,
-                    {
-                      "op": "sub",
-                      "args": [
-                        {
-                          "context": "cast"
-                        },
-                        {
-                          "context": "save"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "op": "mul",
-                  "args": [
-                    3,
-                    {
-                      "context": "P"
-                    }
-                  ]
-                }
-              ]
-            },
-            "resistance": "none",
-            "properties": {
-              "decayPerRound": 1,
-              "scene": true
-            }
-          }
-        ],
         "check": {
           "attribute": "智力",
           "skill": "神秘",
@@ -113,7 +66,43 @@
         "effectTypes": [
           "curse"
         ],
-        "effectGradeBonus": 1
+        "effectGradeBonus": 1,
+        "effectComponents": {
+          "main": {
+            "families": [
+              "curse",
+              "status:疲乏"
+            ],
+            "gradeBonus": 1,
+            "mode": "any-blocks"
+          }
+        },
+        "recipe": {
+          "id": "opposed-status",
+          "version": 1,
+          "clauseId": "base",
+          "args": {
+            "component": "main",
+            "saveType": "fort",
+            "active": {
+              "context": "cast"
+            },
+            "maximumPoints": {
+              "op": "mul",
+              "args": [
+                3,
+                {
+                  "context": "P"
+                }
+              ]
+            },
+            "statusType": "疲乏",
+            "properties": {
+              "decayPerRound": 1,
+              "scene": true
+            }
+          }
+        }
       }
     }
   },
@@ -121,7 +110,8 @@
     {
       "heading": "虚弱诅咒",
       "effectStats": [],
-      "status": "partial"
+      "status": "partial",
+      "id": "base"
     }
   ],
   "actions": [
@@ -129,7 +119,6 @@
       "id": "cast",
       "name": "虚弱诅咒",
       "operation": "cast",
-      "actionCost": "standard",
       "requiredChoice": "actual-targets",
       "requestFields": [
         "actorId",
@@ -186,6 +175,17 @@
   "verification": {
     "status": "partial",
     "sourceChecked": true,
-    "runtimeFullyVerified": false
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/resource-applicability.test.mjs",
+      "work/rules_engine/resource-resistance.test.mjs",
+      "work/rules_engine/gm_runtime/resource-program.test.mjs",
+      "work/rules_engine/resource-status-applicability.test.mjs",
+      "901-resource-authoring-kit/tools/test_resource_recipes.py"
+    ]
+  },
+  "authoring": {
+    "executionSource": "contract",
+    "migration": "2026-10-24.5; reviewed existing opposed-status program; author_spell_programs must not overwrite"
   }
 }

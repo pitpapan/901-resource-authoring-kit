@@ -43,7 +43,7 @@
       },
       {
         "path": "rules/901-core-rules-v0.1.md",
-        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+        "sha256": "1e0998126f5b6683c9cc9931ac9238c2f9a68e8e6278963e4900edb981567d08"
       },
       {
         "path": "resources/execution/resource.schema.json",
@@ -378,7 +378,7 @@
         "candidateDoesNotGrantImperialEligibility": true,
         "unresolvedBranchesRemainDisabled": true
       },
-      "sharedRulesLock": "0ba53792ab79911cf6b44488e06878d75d617cd36d19c4bae467a4fed8a30396",
+      "sharedRulesLock": "c960fa9b45322b02045a4585a366b20261fb066e5d51c68ab0a2a0328a77ddc9",
       "runtimePrograms": [
         {
           "operation": "cast",
@@ -387,44 +387,44 @@
           ],
           "verifiedScope": "full-object-or-observation-use; acquisition-independently-proven",
           "testStatus": "pending",
-          "testFile": "../901-tavern/work/rules_engine/gm_runtime/resource-object-program.test.mjs",
+          "testFile": "../TRPG outputs/work/rules_engine/gm_runtime/resource-object-program.test.mjs",
           "engineModules": [
-            "../901-tavern/work/rules_engine/gm_runtime/resource-program.mjs",
-            "../901-tavern/work/rules_engine/gm_runtime/resource-program-policy.mjs",
-            "../901-tavern/work/rules_engine/healing.mjs",
-            "../901-tavern/work/rules_engine/core.mjs",
-            "../901-tavern/work/rules_engine/gm_runtime/kit-runtime.mjs",
-            "../901-tavern/work/rules_engine/gm_runtime/rule-actions.mjs",
-            "../901-tavern/work/rules_engine/gm_runtime/scene-rules.mjs",
-            "../901-tavern/work/rules_engine/gm_runtime/resource-program-policy.test.mjs",
-            "../901-tavern/work/rules_engine/gm_runtime/resource-object-program.mjs",
-            "../901-tavern/work/rules_engine/gm_runtime/resource-object-program.test.mjs",
-            "../901-tavern/work/rules_engine/resource-lifecycle.mjs",
-            "../901-tavern/work/rules_engine/status-rules.mjs",
-            "../901-tavern/work/rules_engine/combat/map.mjs",
-            "../901-tavern/work/rules_engine/gm_runtime/object-use.mjs",
-            "../901-tavern/work/rules_engine/structural-damage.mjs",
-            "../901-tavern/work/rules_engine/combat/engine.mjs"
+            "../TRPG outputs/work/rules_engine/gm_runtime/resource-program.mjs",
+            "../TRPG outputs/work/rules_engine/gm_runtime/resource-program-policy.mjs",
+            "../TRPG outputs/work/rules_engine/healing.mjs",
+            "../TRPG outputs/work/rules_engine/core.mjs",
+            "../TRPG outputs/work/rules_engine/gm_runtime/kit-runtime.mjs",
+            "../TRPG outputs/work/rules_engine/gm_runtime/rule-actions.mjs",
+            "../TRPG outputs/work/rules_engine/gm_runtime/scene-rules.mjs",
+            "../TRPG outputs/work/rules_engine/gm_runtime/resource-program-policy.test.mjs",
+            "../TRPG outputs/work/rules_engine/gm_runtime/resource-object-program.mjs",
+            "../TRPG outputs/work/rules_engine/gm_runtime/resource-object-program.test.mjs",
+            "../TRPG outputs/work/rules_engine/resource-lifecycle.mjs",
+            "../TRPG outputs/work/rules_engine/status-rules.mjs",
+            "../TRPG outputs/work/rules_engine/combat/map.mjs",
+            "../TRPG outputs/work/rules_engine/gm_runtime/object-use.mjs",
+            "../TRPG outputs/work/rules_engine/structural-damage.mjs",
+            "../TRPG outputs/work/rules_engine/combat/engine.mjs"
           ]
         }
       ],
       "runtimeAcquisition": {
         "verifiedScope": "registered-offer-learning-xp-and-acquisition; cast-independently-proven",
         "testFiles": [
-          "../901-tavern/work/rules_engine/gm_runtime/resource-object-program.test.mjs"
+          "../TRPG outputs/work/rules_engine/gm_runtime/resource-object-program.test.mjs"
         ],
         "engineModules": [
-          "../901-tavern/work/rules_engine/growth-pricing.mjs",
-          "../901-tavern/work/rules_engine/resource-acquisition.mjs",
-          "../901-tavern/work/rules_engine/kit-state.mjs",
-          "../901-tavern/work/rules_engine/resource-effects.mjs",
-          "../901-tavern/work/rules_engine/core.mjs",
-          "../901-tavern/work/rules_engine/gm_runtime/rule-actions.mjs",
-          "../901-tavern/work/rules_engine/gm_runtime/integrated.mjs",
-          "../901-tavern/work/rules_engine/gm_runtime/replay-check.mjs",
-          "../901-tavern/work/rules_engine/gm_runtime/rule-reference.mjs",
-          "../901-tavern/work/rules_engine/mvu_poc/adapter.mjs",
-          "../901-tavern/work/rules_engine/gm_runtime/resource-object-program.test.mjs"
+          "../TRPG outputs/work/rules_engine/growth-pricing.mjs",
+          "../TRPG outputs/work/rules_engine/resource-acquisition.mjs",
+          "../TRPG outputs/work/rules_engine/kit-state.mjs",
+          "../TRPG outputs/work/rules_engine/resource-effects.mjs",
+          "../TRPG outputs/work/rules_engine/core.mjs",
+          "../TRPG outputs/work/rules_engine/gm_runtime/rule-actions.mjs",
+          "../TRPG outputs/work/rules_engine/gm_runtime/integrated.mjs",
+          "../TRPG outputs/work/rules_engine/gm_runtime/replay-check.mjs",
+          "../TRPG outputs/work/rules_engine/gm_runtime/rule-reference.mjs",
+          "../TRPG outputs/work/rules_engine/mvu_poc/adapter.mjs",
+          "../TRPG outputs/work/rules_engine/gm_runtime/resource-object-program.test.mjs"
         ]
       }
     },

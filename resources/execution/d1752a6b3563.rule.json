@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:C:抑制鼓动",
-  "version": "2026-10-23.1",
+  "version": "2026-10-24.2",
   "identity": {
     "name": "抑制鼓动",
     "grade": "C",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/02-咒法与附魔.md",
-    "sha256": "983f6224aea67dcd4e9b29c450a3516367bc89c71b0e249b767383143d93e216",
+    "sha256": "9208eaa98a419856564554deb72d2a22f71f19af2c26b782babf5e46207049d4",
     "heading": "抑制鼓动"
   },
   "definition": {
@@ -28,24 +28,171 @@
     "requiresAllSchools": false,
     "schools": [
       "附魔"
-    ]
+    ],
+    "programs": {
+      "cast": {
+        "action": "standard",
+        "target": "self",
+        "casting": true,
+        "components": [
+          "posture",
+          "language",
+          "focus"
+        ],
+        "range": {
+          "op": "mul",
+          "args": [
+            10,
+            {
+              "context": "INT"
+            },
+            {
+              "context": "P"
+            }
+          ]
+        },
+        "steps": [
+          {
+            "op": "aura",
+            "radius": {
+              "op": "mul",
+              "args": [
+                5,
+                {
+                  "context": "INT"
+                },
+                {
+                  "context": "P"
+                }
+              ]
+            },
+            "team": "enemy",
+            "scene": true,
+            "effects": [
+              {
+                "stat": "attack",
+                "value": {
+                  "op": "mul",
+                  "args": [
+                    -1,
+                    {
+                      "op": "add",
+                      "args": [
+                        12,
+                        {
+                          "op": "mul",
+                          "args": [
+                            2,
+                            {
+                              "context": "P"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "formulaTiming": "freeze-at-cast; membership follows actual positions"
   },
   "clauses": [
     {
       "heading": "抑制鼓动",
       "effectStats": [],
-      "status": "pending"
+      "status": "partial"
     }
   ],
-  "actions": [],
-  "inputs": [],
-  "unresolvedRules": [],
+  "actions": [
+    {
+      "id": "cast",
+      "name": "抑制鼓动",
+      "operation": "cast",
+      "actionCost": "standard",
+      "requiredChoice": "actual-targets",
+      "choices": {},
+      "allocations": [],
+      "targetMode": "self",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false,
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "immunityLifecycles": [],
+      "resistanceModes": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "ownership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "casting",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "targetIds",
+      "type": "array",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "components",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "pool",
+      "type": "string",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "spatial",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": "cast-and-membership-refresh",
+      "missingPolicy": "require_current_positions_with_source"
+    }
+  ],
+  "unresolvedRules": [
+    {
+      "id": "aura-formula-timing",
+      "source": "resources/imperial-magic/02-咒法与附魔.md#抑制鼓动",
+      "issue": "正文明确领域随施法者移动，未明确施放后属性变化时是否重算范围和强度。",
+      "impact": "奥术光辉选中自身时，递归重算可扩大半径。",
+      "recommendation": "沿现有持续效果统一口径冻结施放时公式值；仅实时更新成员资格。当前执行采用此统一口径。"
+    }
+  ],
   "implementationGaps": [
-    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+    "需执行级完整验证，检查等级/特殊关键词/版本变体；不可仅凭程序存在标记完成"
   ],
   "verification": {
-    "status": "pending",
+    "status": "partial",
     "sourceChecked": true,
-    "runtimeFullyVerified": false
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/gm_runtime/resource-program.test.mjs",
+      "work/rules_engine/core.test.mjs"
+    ]
   }
 }

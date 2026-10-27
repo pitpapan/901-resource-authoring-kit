@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:D:吸取生命",
-  "version": "2026-10-23.1",
+  "version": "2026-10-24.2",
   "identity": {
     "name": "吸取生命",
     "grade": "D",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/03-变化与创造.md",
-    "sha256": "8d0986298b0d6cecdf1275819ea60ab47d2f8c29d4e24c47f117f1dee6d7b192",
+    "sha256": "aef74d24553f0c80dd83b118b6541ca81e202d075be87b8f84128b2c19b41669",
     "heading": "吸取生命"
   },
   "definition": {
@@ -32,24 +32,241 @@
     "requiresAllSchools": false,
     "schools": [
       "变化"
-    ]
+    ],
+    "programs": {
+      "cast": {
+        "action": "standard",
+        "target": "single",
+        "casting": true,
+        "components": [
+          "posture",
+          "language",
+          "focus"
+        ],
+        "range": {
+          "op": "mul",
+          "args": [
+            10,
+            {
+              "context": "INT"
+            },
+            {
+              "context": "P"
+            }
+          ]
+        },
+        "steps": [
+          {
+            "op": "damage",
+            "amount": {
+              "context": "P"
+            },
+            "energy": "acid",
+            "severity": "L"
+          },
+          {
+            "op": "heal",
+            "recipient": "caster",
+            "amount": {
+              "op": "mul",
+              "args": [
+                2,
+                {
+                  "context": "actualDamage"
+                }
+              ]
+            },
+            "ratios": {
+              "A": 4,
+              "L": 2,
+              "B": 1
+            }
+          }
+        ],
+        "channel": "start",
+        "lockTargets": true
+      },
+      "maintain": {
+        "action": "standard",
+        "target": "single",
+        "casting": true,
+        "components": [
+          "focus"
+        ],
+        "range": {
+          "op": "mul",
+          "args": [
+            10,
+            {
+              "context": "INT"
+            },
+            {
+              "context": "P"
+            }
+          ]
+        },
+        "steps": [
+          {
+            "op": "damage",
+            "amount": {
+              "context": "P"
+            },
+            "energy": "acid",
+            "severity": "L"
+          },
+          {
+            "op": "heal",
+            "recipient": "caster",
+            "amount": {
+              "op": "mul",
+              "args": [
+                2,
+                {
+                  "context": "actualDamage"
+                }
+              ]
+            },
+            "ratios": {
+              "A": 4,
+              "L": 2,
+              "B": 1
+            }
+          }
+        ],
+        "channel": "maintain",
+        "lockTargets": true,
+        "cost": 0
+      },
+      "release": {
+        "action": "free",
+        "target": "self",
+        "channel": "release",
+        "cost": 0,
+        "casting": false,
+        "steps": []
+      }
+    }
   },
   "clauses": [
     {
       "heading": "吸取生命",
       "effectStats": [],
-      "status": "pending"
+      "status": "partial"
     }
   ],
-  "actions": [],
-  "inputs": [],
+  "actions": [
+    {
+      "id": "cast",
+      "name": "吸取生命",
+      "operation": "cast",
+      "actionCost": "standard",
+      "requiredChoice": "actual-targets",
+      "choices": {},
+      "allocations": [],
+      "targetMode": "single",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false,
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "immunityLifecycles": [],
+      "resistanceModes": []
+    },
+    {
+      "id": "maintain",
+      "name": "维持吸取生命",
+      "operation": "maintain",
+      "actionCost": "standard",
+      "requiredChoice": "actual-targets",
+      "choices": {},
+      "allocations": [],
+      "targetMode": "single",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false,
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "immunityLifecycles": [],
+      "resistanceModes": []
+    },
+    {
+      "id": "release",
+      "name": "结束吸取生命",
+      "operation": "release",
+      "actionCost": "free",
+      "requiredChoice": "actual-targets",
+      "choices": {},
+      "allocations": [],
+      "targetMode": "single",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false,
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "immunityLifecycles": [],
+      "resistanceModes": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "ownership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "casting",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "targetIds",
+      "type": "array",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "components",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "pool",
+      "type": "string",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    }
+  ],
   "unresolvedRules": [],
   "implementationGaps": [
-    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+    "需执行级完整验证，检查等级/特殊关键词/版本变体；不可仅凭程序存在标记完成"
   ],
   "verification": {
-    "status": "pending",
+    "status": "partial",
     "sourceChecked": true,
-    "runtimeFullyVerified": false
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/gm_runtime/resource-program.test.mjs",
+      "work/rules_engine/core.test.mjs"
+    ]
   }
 }

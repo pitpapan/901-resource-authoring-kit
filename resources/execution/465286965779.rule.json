@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:C:时间魔术",
-  "version": "2026-10-23.1",
+  "version": "2026-10-26.2",
   "identity": {
     "name": "时间魔术",
     "grade": "C",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/04-结界与召唤.md",
-    "sha256": "dc2c01ebd19c5cea1610fe4cfc2433805eaf289a2ad461fbc0cfa4df59167b80",
+    "sha256": "988fc6b403da3f345c1bce3caa96ac00730e8d6e2fa942fe29defcaed7e5a69e",
     "heading": "时间魔术"
   },
   "definition": {
@@ -28,24 +28,377 @@
     "requiresAllSchools": false,
     "schools": [
       "结界"
-    ]
+    ],
+    "programs": {
+      "cast": {
+        "action": "free",
+        "target": "self",
+        "casting": true,
+        "cost": 3,
+        "components": [
+          "posture",
+          "language",
+          "focus"
+        ],
+        "choices": {
+          "mode": [
+            "haste",
+            "slow"
+          ]
+        },
+        "effectFamilies": [
+          "time"
+        ],
+        "effectComponents": {
+          "time": {
+            "families": [
+              "time"
+            ]
+          }
+        },
+        "steps": [
+          {
+            "op": "effect",
+            "instancePolicy": "append",
+            "selection": {
+              "group": "time-magic",
+              "power": {
+                "context": "P"
+              },
+              "tieBreak": "latest"
+            },
+            "scene": true,
+            "component": "time",
+            "immunityLifecycle": "suppress",
+            "when": {
+              "test": "eq",
+              "left": {
+                "context": "mode"
+              },
+              "right": "haste"
+            },
+            "effects": [
+              {
+                "stat": "attributeCheck",
+                "value": {
+                  "context": "P"
+                },
+                "group": "enhancement",
+                "when": {
+                  "any": [
+                    {
+                      "test": "eq",
+                      "left": {
+                        "context": "attribute"
+                      },
+                      "right": "敏捷"
+                    },
+                    {
+                      "test": "contains",
+                      "left": {
+                        "context": "attributes"
+                      },
+                      "right": "敏捷"
+                    }
+                  ]
+                }
+              }
+            ],
+            "actionPrice": {
+              "family": "physical",
+              "baseByAction": {
+                "weaponAttack": 5,
+                "move": 4,
+                "naturalAttack": 6,
+                "drawWeapon": 4,
+                "loadBow": 2,
+                "block": 4
+              },
+              "minimumAP": 1,
+              "perRound": 1,
+              "quotaKey": "time-magic",
+              "discount": {
+                "op": "floor",
+                "args": [
+                  {
+                    "op": "div",
+                    "args": [
+                      {
+                        "context": "P"
+                      },
+                      3
+                    ]
+                  }
+                ]
+              }
+            },
+            "endCost": {
+              "amount": 1,
+              "severity": "A",
+              "clock": "effective-round",
+              "unavoidable": true
+            }
+          },
+          {
+            "op": "effect",
+            "instancePolicy": "append",
+            "selection": {
+              "group": "time-magic",
+              "power": {
+                "context": "P"
+              },
+              "tieBreak": "latest"
+            },
+            "scene": true,
+            "component": "time",
+            "immunityLifecycle": "suppress",
+            "when": {
+              "test": "eq",
+              "left": {
+                "context": "mode"
+              },
+              "right": "slow"
+            },
+            "effects": [
+              {
+                "stat": "attributeCheck",
+                "value": {
+                  "op": "mul",
+                  "args": [
+                    -1,
+                    {
+                      "context": "P"
+                    }
+                  ]
+                },
+                "group": "enhancement",
+                "when": {
+                  "any": [
+                    {
+                      "test": "eq",
+                      "left": {
+                        "context": "attribute"
+                      },
+                      "right": "敏捷"
+                    },
+                    {
+                      "test": "contains",
+                      "left": {
+                        "context": "attributes"
+                      },
+                      "right": "敏捷"
+                    }
+                  ]
+                }
+              }
+            ],
+            "actionPrice": {
+              "family": "physical",
+              "baseByAction": {
+                "weaponAttack": 5,
+                "move": 4,
+                "naturalAttack": 6,
+                "drawWeapon": 4,
+                "loadBow": 2,
+                "block": 4
+              },
+              "minimumAP": 1,
+              "perRound": 1,
+              "quotaKey": "time-magic",
+              "surcharge": {
+                "op": "floor",
+                "args": [
+                  {
+                    "op": "div",
+                    "args": [
+                      {
+                        "context": "P"
+                      },
+                      3
+                    ]
+                  }
+                ]
+              }
+            },
+            "periodicDamage": {
+              "multiplier": {
+                "context": "rank"
+              },
+              "sourceImmunityFamily": "time"
+            },
+            "detectionDelay": {
+              "rounds": {
+                "context": "rank"
+              },
+              "belowLevel": {
+                "context": "rank"
+              },
+              "sourceImmunityFamily": "time"
+            }
+          }
+        ]
+      },
+      "end": {
+        "action": "free",
+        "target": "selected",
+        "casting": false,
+        "cost": 0,
+        "endEffects": "own-selected",
+        "steps": []
+      }
+    }
   },
   "clauses": [
     {
       "heading": "时间魔术",
       "effectStats": [],
-      "status": "pending"
+      "status": "partial"
     }
   ],
-  "actions": [],
-  "inputs": [],
+  "actions": [
+    {
+      "id": "cast",
+      "name": "施放时间魔术",
+      "operation": "cast",
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false
+    },
+    {
+      "id": "end",
+      "name": "结束时间魔术",
+      "operation": "end",
+      "route": "mechanism",
+      "objectType": "kitResource",
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false
+    }
+  ],
+  "inputs": [
+    {
+      "id": "ownership",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "casting",
+      "type": "object",
+      "provider": "saved-state",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "inputs.mode",
+      "type": "string",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "components",
+      "type": "object",
+      "provider": "host",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "pool",
+      "type": "string",
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "targetIds",
+      "type": "array",
+      "provider": "player",
+      "requiredFor": "end",
+      "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "effectChoices",
+      "type": "object",
+      "provider": "player",
+      "requiredFor": "end",
+      "missingPolicy": "require_input_for_dependent_action"
+    }
+  ],
   "unresolvedRules": [],
   "implementationGaps": [
-    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+    "C基础施放/自由结束已注册，部分验证：跨模式最高P/同P后施、旧源恢复、属性检定/实际敏捷攻击/反射、已知动作原价、周期伤害、历史侦测队列和结束代价均有消费者。",
+    "以风为眼旧卡未给可比较的效果等级，仅实际低阶非视觉比较时须补真实来源等级；不由专长级数或角色等级推定。",
+    "场外一般能量感知保持原模糊信息范围；只延迟已实际取得的信息，不凭空生成现场位置、物品或完整感官。",
+    "Q28/Q29已采用并接实际动作支付；尚未迁移的旧硬编码和其他资源消费者继续按工程缺口推进。"
   ],
   "verification": {
-    "status": "pending",
+    "status": "partial",
     "sourceChecked": true,
-    "runtimeFullyVerified": false
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/resource-periodic-clock.test.mjs",
+      "work/rules_engine/gm_runtime/resource-program.test.mjs",
+      "work/rules_engine/mvu_poc/adapter.test.mjs",
+      "work/rules_engine/resource-ongoing.test.mjs",
+      "work/rules_engine/resource-perception.test.mjs",
+      "work/rules_engine/resource-action-pricing.test.mjs"
+    ]
+  },
+  "scopeNotes": [
+    "本术保持partial和runtimeFullyVerified=false；开发候选不等同已安装。"
+  ],
+  "adoptedDecisions": [
+    {
+      "id": "time-slow-initial-phase",
+      "question": "Q24",
+      "source": "用户2026-10-25修改Q24：开启那一轮作为六秒周期的开头，以回合制战斗为主",
+      "rule": "战斗中开启减速的当轮统一作为新的六秒周期起点，不保留此前周期进度，以回合为主而非动作内连续秒数。回合开始/结束伤害在各自边界采样；C级2倍周期的轮末伤害在开启轮末进度为1/2、下一轮末触发，轮首伤害在第二个后续轮首触发。",
+      "rejectedAlternative": "战斗中保留开启前连续秒数比例（原推荐未采用）"
+    },
+    {
+      "id": "time-slow-ending-phase",
+      "question": "Q25",
+      "source": "用户2026-10-25 Q25采用",
+      "rule": "减速只改变持续伤害触发周期，不产生待补伤害债务。伤害来源结束取消其未触发周期；减速结束保留周期完成比例并恢复正常速度，不立即补伤；痛苦诅咒等明确要求结束结清的条款优先。"
+    },
+    {
+      "id": "time-haste-round-charge",
+      "question": "Q26",
+      "source": "用户2026-10-25：按回合制，先标准动作再移动施法也算一轮；类似问题无需再问",
+      "rule": "启用且实际生效的当轮计1轮，同轮不因先后动作顺序、重复采样或恢复旧实例而重复计数；后续实际生效轮各计1轮。不可行动不免除，真正结束时统一承受已记不可避免A伤。"
+    },
+    {
+      "id": "time-haste-suppressed-charge",
+      "question": "Q27",
+      "source": "用户2026-10-25采用",
+      "rule": "被覆盖期间不新增代价，保留旧债；恢复后继续按实际生效轮计数，覆盖不是结束，真正结束才结清。"
+    },
+    {
+      "id": "physical-action-missing-raw-ap",
+      "question": "Q28",
+      "source": "用户2026-10-26明确“采用Q28，Q29，继续”；原文依据：901规则快照§4；PHB 非战斗行动与战斗行动；RE辅助动作.md:10、18–26，防御类动作.md:18–31，常用动作.md:149–151；00-施法通则.md:30–44",
+      "rule": "明示且与现行一致的原AP优先（已确认持武5、移动4、肉搏6、拔武器4、上箭2、普通格挡4）；无原AP或原RE价与现行冲突时，只为调价采用现有实际动作槽对应档位上界：迅捷2、移动4、标准6、标准＋迅捷8、标准＋移动10、三槽全用12。不改变未调价动作、不引入AP池，明确个别适配优先。"
+    },
+    {
+      "id": "free-physical-action-price-scope",
+      "question": "Q29",
+      "source": "用户2026-10-26明确“采用Q28，Q29，继续”；原文依据：901规则快照§4自由/借机；00-施法通则.md:42、44；时间魔术正文每轮第一次身体行动",
+      "rule": "原本免费的身体行动保持免费，不参与加减价，也不消耗每轮一次的调价额度；额度留给本轮第一个适用的有价身体行动。借机攻击仍遵守既有时机/次数，不增加次数。"
+    }
+  ],
+  "authoring": {
+    "executionSource": "contract"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "imperial-magic:D:透特之咏",
-  "version": "2026-10-24.1",
+  "version": "2026-10-27.1",
   "identity": {
     "name": "透特之咏",
     "grade": "D",
@@ -10,7 +10,7 @@
   },
   "reading": {
     "path": "resources/imperial-magic/06-预言与诅咒.md",
-    "sha256": "9605c98875816313e985071ed8520755ae1ebcb4285b088f0b9c66c79a28dc3a",
+    "sha256": "be6fce45599359c7eea27ce5327c0c273e0e4d87174d0815c53d6a9cefe733b6",
     "heading": "透特之咏"
   },
   "definition": {
@@ -82,13 +82,22 @@
                   "left": {
                     "context": "skill"
                   },
-                  "right": "神秘"
+                  "right": {
+                    "choice": "chosenSkill"
+                  }
                 }
               }
             ],
             "scene": true
           }
-        ]
+        ],
+        "choices": {
+          "chosenSkill": [
+            "神秘",
+            "学识",
+            "科学"
+          ]
+        }
       },
       "castLore": {
         "action": "standard",
@@ -144,7 +153,8 @@
             ],
             "scene": true
           }
-        ]
+        ],
+        "choices": {}
       },
       "castScience": {
         "action": "standard",
@@ -200,7 +210,8 @@
             ],
             "scene": true
           }
-        ]
+        ],
+        "choices": {}
       }
     }
   },
@@ -218,6 +229,15 @@
       "operation": "cast",
       "actionCost": "standard",
       "requiredChoice": "actual-targets",
+      "choices": {
+        "chosenSkill": [
+          "神秘",
+          "学识",
+          "科学"
+        ]
+      },
+      "allocations": [],
+      "targetMode": "self",
       "requestFields": [
         "actorId",
         "objectId",
@@ -226,7 +246,9 @@
       ],
       "allowsModelNumericEffects": false,
       "route": "mechanism",
-      "objectType": "kitResource"
+      "objectType": "kitResource",
+      "immunityLifecycles": [],
+      "resistanceModes": []
     },
     {
       "id": "castLore",
@@ -234,6 +256,9 @@
       "operation": "castLore",
       "actionCost": "standard",
       "requiredChoice": "actual-targets",
+      "choices": {},
+      "allocations": [],
+      "targetMode": "self",
       "requestFields": [
         "actorId",
         "objectId",
@@ -242,7 +267,9 @@
       ],
       "allowsModelNumericEffects": false,
       "route": "mechanism",
-      "objectType": "kitResource"
+      "objectType": "kitResource",
+      "immunityLifecycles": [],
+      "resistanceModes": []
     },
     {
       "id": "castScience",
@@ -250,6 +277,9 @@
       "operation": "castScience",
       "actionCost": "standard",
       "requiredChoice": "actual-targets",
+      "choices": {},
+      "allocations": [],
+      "targetMode": "self",
       "requestFields": [
         "actorId",
         "objectId",
@@ -258,7 +288,9 @@
       ],
       "allowsModelNumericEffects": false,
       "route": "mechanism",
-      "objectType": "kitResource"
+      "objectType": "kitResource",
+      "immunityLifecycles": [],
+      "resistanceModes": []
     }
   ],
   "inputs": [
@@ -296,6 +328,18 @@
       "provider": "player",
       "requiredFor": "cast",
       "missingPolicy": "require_input_for_dependent_action"
+    },
+    {
+      "id": "inputs.chosenSkill",
+      "type": "string",
+      "values": [
+        "神秘",
+        "学识",
+        "科学"
+      ],
+      "provider": "player",
+      "requiredFor": "cast",
+      "missingPolicy": "require_input_for_dependent_action"
     }
   ],
   "unresolvedRules": [],
@@ -305,6 +349,10 @@
   "verification": {
     "status": "partial",
     "sourceChecked": true,
-    "runtimeFullyVerified": false
+    "runtimeFullyVerified": false,
+    "testReferences": [
+      "work/rules_engine/gm_runtime/resource-program.test.mjs",
+      "work/rules_engine/core.test.mjs"
+    ]
   }
 }
