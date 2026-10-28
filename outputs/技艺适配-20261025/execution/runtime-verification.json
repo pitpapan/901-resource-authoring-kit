@@ -1,86 +1,4 @@
 {
-  "result": "passed",
-  "engine": {
-    "path": "../TRPG outputs/work/rules_engine/resource-effects.mjs",
-    "sha256": "660390d06a4bab610effa10e45f7ee736f8426d3144d37fb1f84da7e9208a77b"
-  },
-  "slices": {
-    "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-D": {
-      "result": "passed",
-      "fingerprint": "aacd8f521e83a4f351c6a97368b71c8bc4d2cbdd53541e487e4e5c364f2def29",
-      "testCases": [
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-D/eligible-attack",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-D/eligible-defense",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-D/not-owned",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-D/collection-learned-is-insufficient",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-D/bare-stage-learned-is-insufficient",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-D/reject-version",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-D/reject-grade",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-D/reject-adoptionStatus",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-D/reject-qualificationVersion",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-D/same-group-higher-baseline",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-D/same-group-lower-baseline",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-D/no-state-write"
-      ]
-    },
-    "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-C": {
-      "result": "passed",
-      "fingerprint": "e16e03c312cb81b0015b757a9dc47386b1649763cd71e271f71c117ebb3ebb0e",
-      "testCases": [
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-C/eligible-attack",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-C/eligible-defense",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-C/not-owned",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-C/collection-learned-is-insufficient",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-C/bare-stage-learned-is-insufficient",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-C/reject-version",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-C/reject-grade",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-C/reject-adoptionStatus",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-C/reject-qualificationVersion",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-C/same-group-higher-baseline",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-C/same-group-lower-baseline",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-C/cross-tier-without-prerequisite",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-C/no-state-write"
-      ]
-    },
-    "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-B": {
-      "result": "passed",
-      "fingerprint": "46a7edcc681d52055e462b9efb54c0ba56d0d2c919a6e6023ac04f5081c852ab",
-      "testCases": [
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-B/eligible-attack",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-B/eligible-defense",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-B/not-owned",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-B/collection-learned-is-insufficient",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-B/bare-stage-learned-is-insufficient",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-B/reject-version",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-B/reject-grade",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-B/reject-adoptionStatus",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-B/reject-qualificationVersion",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-B/same-group-higher-baseline",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-B/same-group-lower-baseline",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-B/cross-tier-without-prerequisite",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-B/no-state-write"
-      ]
-    },
-    "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-A": {
-      "result": "passed",
-      "fingerprint": "18b86782564389bc501ff63f9080c93a0cd9150acf9f9d42f13cc17fb87c9cd6",
-      "testCases": [
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-A/eligible-attack",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-A/eligible-defense",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-A/not-owned",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-A/collection-learned-is-insufficient",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-A/bare-stage-learned-is-insufficient",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-A/reject-version",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-A/reject-grade",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-A/reject-adoptionStatus",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-A/reject-qualificationVersion",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-A/same-group-higher-baseline",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-A/same-group-lower-baseline",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-A/cross-tier-without-prerequisite",
-        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-A/no-state-write"
-      ]
-    }
-  },
   "assertionCases": [
     "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-D/eligible-attack",
     "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-D/eligible-defense",
@@ -137,5 +55,87 @@
     "candidate-901-technique-a0981c5dd243dc42/all-tiers-replace-not-sum",
     "formula-effective-attribute-context"
   ],
-  "assertionCount": 54
+  "assertionCount": 54,
+  "engine": {
+    "path": "../TRPG outputs/work/rules_engine/resource-effects.mjs",
+    "sha256": "056efdd4b0441b60c6f3ee606caa3a26a1d6df42a25219f02cba34842b5c2fcf"
+  },
+  "result": "passed",
+  "slices": {
+    "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-A": {
+      "fingerprint": "18b86782564389bc501ff63f9080c93a0cd9150acf9f9d42f13cc17fb87c9cd6",
+      "result": "passed",
+      "testCases": [
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-A/eligible-attack",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-A/eligible-defense",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-A/not-owned",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-A/collection-learned-is-insufficient",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-A/bare-stage-learned-is-insufficient",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-A/reject-version",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-A/reject-grade",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-A/reject-adoptionStatus",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-A/reject-qualificationVersion",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-A/same-group-higher-baseline",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-A/same-group-lower-baseline",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-A/cross-tier-without-prerequisite",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-A/no-state-write"
+      ]
+    },
+    "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-B": {
+      "fingerprint": "46a7edcc681d52055e462b9efb54c0ba56d0d2c919a6e6023ac04f5081c852ab",
+      "result": "passed",
+      "testCases": [
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-B/eligible-attack",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-B/eligible-defense",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-B/not-owned",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-B/collection-learned-is-insufficient",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-B/bare-stage-learned-is-insufficient",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-B/reject-version",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-B/reject-grade",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-B/reject-adoptionStatus",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-B/reject-qualificationVersion",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-B/same-group-higher-baseline",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-B/same-group-lower-baseline",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-B/cross-tier-without-prerequisite",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-B/no-state-write"
+      ]
+    },
+    "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-C": {
+      "fingerprint": "e16e03c312cb81b0015b757a9dc47386b1649763cd71e271f71c117ebb3ebb0e",
+      "result": "passed",
+      "testCases": [
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-C/eligible-attack",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-C/eligible-defense",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-C/not-owned",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-C/collection-learned-is-insufficient",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-C/bare-stage-learned-is-insufficient",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-C/reject-version",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-C/reject-grade",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-C/reject-adoptionStatus",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-C/reject-qualificationVersion",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-C/same-group-higher-baseline",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-C/same-group-lower-baseline",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-C/cross-tier-without-prerequisite",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-C/no-state-write"
+      ]
+    },
+    "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-D": {
+      "fingerprint": "aacd8f521e83a4f351c6a97368b71c8bc4d2cbdd53541e487e4e5c364f2def29",
+      "result": "passed",
+      "testCases": [
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-D/eligible-attack",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-D/eligible-defense",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-D/not-owned",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-D/collection-learned-is-insufficient",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-D/bare-stage-learned-is-insufficient",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-D/reject-version",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-D/reject-grade",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-D/reject-adoptionStatus",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-D/reject-qualificationVersion",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-D/same-group-higher-baseline",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-D/same-group-lower-baseline",
+        "candidate-901-technique-a0981c5dd243dc42--eb6e35b9eeab--intuition-D/no-state-write"
+      ]
+    }
+  }
 }

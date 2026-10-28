@@ -1,5 +1,5 @@
 // Pure computations over declared candidate policy. No action spending or XP writes.
-import {effectValue} from '../../../../901-tavern/work/rules_engine/resource-effects.mjs';
+import {effectValue} from '../../../../TRPG outputs/work/rules_engine/resource-effects.mjs';
 
 export function actionPrice(policy,q,{reflex=false}={}){
   if(!Number.isFinite(q)||q<0)throw Error('动作标值须为已确定的非负数');

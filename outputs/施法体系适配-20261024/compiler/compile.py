@@ -22,7 +22,7 @@ def load():
         require(sha(ROOT/ref['path'])==ref['sha256'],'shared policy source changed')
     for p in sorted((BASE/'execution/contracts').glob('*.rule.json')):
         d=json.loads(p.read_text());validator.validate(d)
-        require(d['version']==VERSION,'unexpected version')
+        require(d['version']==({'法师':'2026-10-28.magic.2'}.get(d['identity']['name'],VERSION)),'unexpected version')
         name=d['identity']['name'];require(name in rows and name not in EXCLUDED,'selection differs')
         require(d['id']==source_id(name),'identity differs')
         require(d['identity']['adoptionStatus']=='candidate','must remain candidate')
@@ -38,7 +38,7 @@ def load():
             require(unit['reading']==expected['reading'],'clause changed: '+unit['id'])
             require(clause['heading']==unit['name']==expected['heading'],'clause identity differs')
         require(not d['verification']['runtimeFullyVerified'],'full bundle execution not verified')
-        require(all(a['operation'] is None and a['availability']=='blocked' for a in d['actions']),'no active program verified in this batch')
+        require(all(a['operation'] is None and a['availability']=='blocked' or a['operation']=='claimLearning' and auth.get('runtimeAcquisition') for a in d['actions']),'unproved active action')
         require(not d['definition'].get('programs'),'unproved program')
         for stage in auth['baseMechanisms'].get('stages',[]):
             require(stage.get('grade') in GRADES,'unknown grade')
@@ -63,8 +63,15 @@ def load():
     require(len(docs)==33 and {d['identity']['name'] for d in docs}==set(rows),'33 selected resources required')
     return docs,[]
 
+def acquisition_fingerprint(d):
+    return digest(d)
+
 def build(docs,reuse=None,evidence=None,program_evidence=None,acquisition_evidence=None):
-    require(not program_evidence and not acquisition_evidence,'no program/acquisition proof adapter')
+    require(not program_evidence,'no active spell program proof adapter')
+    acquired=[];action_index=[]
+    if acquisition_evidence:
+        for ref in acquisition_evidence['engineModules']:
+            require(sha(ROOT/ref['path'])==ref['sha256'],'acquisition executor/test changed: '+ref['path'])
     definitions={};slices=[];proofs=(evidence or {}).get('slices',{})
     if evidence:
         for ref in evidence['engineModules']:
@@ -89,7 +96,7 @@ def build(docs,reuse=None,evidence=None,program_evidence=None,acquisition_eviden
             'reading':d['reading'],'stages':compact(auth['baseMechanisms'].get('stages',[])),
             'units':[{'id':u['id'],'name':u['name'],'reading':u['reading'],'fields':u['declaredFields'],'learning':u['learning']} for u in auth['units']],
             'mayPlanSelection':True,'mayExecute':False,'grantsOwnership':False,'unresolvedRules':d['unresolvedRules']})
-        blocked += [dict(a,resourceId=d['id'],mayExecute=False) for a in d['actions']]
+        blocked += [dict(a,resourceId=d['id'],mayExecute=False) for a in d['actions'] if a['operation'] is None]
         accepted=[]
         for s in auth.get('runtimeSlices',[]):
             proof=proofs.get(s['id']);fx=[d['definition']['effects'][i] for i in s['effectIndexes']]
@@ -100,20 +107,29 @@ def build(docs,reuse=None,evidence=None,program_evidence=None,acquisition_eviden
             definitions[d['id']]={'effects':[d['definition']['effects'][i] for i in sorted(set(accepted))],
                 'identity':d['identity'],'contractVersion':d['version'],'reading':d['reading'],'operations':[],
                 'verification':{'status':'partial','sourceChecked':True,'runtimeFullyVerified':False,'scope':'verified-passive-slices-only'}}
+        acquisition_proof=(acquisition_evidence or {}).get('acquisitions',{}).get(d['id'])
+        scope=auth.get('runtimeAcquisition')
+        if scope and acquisition_proof and acquisition_proof.get('result')=='passed' and acquisition_proof.get('fingerprint')==acquisition_fingerprint(d):
+            require(not d['unresolvedRules'],'unresolved acquisition cannot be promoted')
+            definition={key:d['definition'][key] for key in ['learning','acquisition','effects']}
+            definition.update(identity=d['identity'],contractVersion=d['version'],reading=d['reading'],operations=['claimLearning'],verification={'status':'partial','sourceChecked':True,'runtimeFullyVerified':False,'scope':scope['verifiedScope']})
+            definitions[d['id']]=definition
+            acquired.append({'resourceId':d['id'],'grades':scope['grades'],'specializations':scope['specializations'],'scope':scope['verifiedScope']})
+            action_index.append({'resourceId':d['id'],'name':d['identity']['name'],'version':d['version'],'reading':d['reading'],'adoptionStatus':'candidate','sourceChecked':True,'status':'partial','runtimeFullyVerified':False,'verifiedScope':scope['verifiedScope'],'actions':[a for a in d['actions'] if a['operation']=='claimLearning'],'implementationGaps':d['implementationGaps'],'unresolvedRules':d['unresolvedRules'],'learning':{'action':'resource','availability':'execution-verified','requiresRegisteredOffer':True,'requestFields':['actorId','offerId','paymentId'],'allowsModelNumericEffects':False,'contractVersion':d['version'],'grades':scope['grades'],'specializations':scope['specializations']}})
     counts={'candidateContracts':len(docs),'structuredUnits':sum(len(d['clauses']) for d in docs),
         'sharedPolicyContracts':1,'declaredBaseEffects':effect_count,
         'declaredBaseStages':sum(len(d['definition']['authoringOnly']['baseMechanisms'].get('stages',[])) for d in docs),
         'formulaASTNodes':formula_count,'verifiedPassiveSlices':len(slices),'runtimeDefinitions':len(definitions),
-        'runnableActionWhitelist':0,'verifiedAcquisitionTransactions':0,'fullyExecutableCandidateContracts':0,
+        'runnableActionWhitelist':sum(len(x['actions']) for x in action_index),'verifiedAcquisitionTransactions':len(acquired),'fullyExecutableCandidateContracts':0,
         'blockedActionIntents':len(blocked),'allSemanticsEncoded':False,
         'unresolvedRuleCount':len({r['parameter'] for d in docs for r in d['unresolvedRules']}),
         'unresolvedRuleGroups':len({r.get('group',r['parameter']) for d in docs for r in d['unresolvedRules']})}
     def esm(export,data):return '// Generated from candidate contracts; no adoption, acquisition or deployment.\nexport const '+export+'='+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';\n'
-    artifacts={'resource-data.mjs':esm('RESOURCE_DATA',definitions),'resource-action-index.mjs':esm('RESOURCE_ACTION_INDEX',[]),
+    artifacts={'resource-data.mjs':esm('RESOURCE_DATA',definitions),'resource-action-index.mjs':esm('RESOURCE_ACTION_INDEX',action_index),
         'resource-selection-index.mjs':esm('RESOURCE_SELECTION_INDEX',selection),'resource-blocked-index.mjs':esm('RESOURCE_BLOCKED_INDEX',blocked),
         'resource-contract-index.mjs':esm('RESOURCE_CONTRACT_INDEX',catalog),
         'resource-policies.mjs':esm('RESOURCE_SHARED_POLICIES',json.loads((BASE/'execution/shared.rule.json').read_text())),
-        'coverage.json':encoded({'counts':counts,'passiveSlices':slices,'contractFingerprints':{d['id']:digest(d) for d in docs}})}
+        'coverage.json':encoded({'counts':counts,'passiveSlices':slices,'acquisitions':acquired,'contractFingerprints':{d['id']:digest(d) for d in docs}})}
     table=['# 魔幻能力组双版本索引','',
         '由机械契约生成；阅读版与契约是两种表示，本表不是另一个规则来源。选择资源不授予人物持有。',
         '本体已按阶段声明；技能树的未编码条款仍标为实现缺口，动作白名单仅接纳实际验证的动作。','',
@@ -131,11 +147,12 @@ def build(docs,reuse=None,evidence=None,program_evidence=None,acquisition_eviden
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--check',action='store_true');args=parser.parse_args()
     docs,reuse=load();proof=BASE/'execution/runtime-verification.json'
-    artifacts,counts=build(docs,reuse,json.loads(proof.read_text()) if proof.exists() else None)
+    acq=BASE/'execution/acquisition-verification.json'
+    artifacts,counts=build(docs,reuse,json.loads(proof.read_text()) if proof.exists() else None,acquisition_evidence=json.loads(acq.read_text()) if acq.exists() else None)
     output=BASE/'execution/generated'
     if not args.check:output.mkdir(parents=True,exist_ok=True)
     for name,body in artifacts.items():
         p=output/name
         if args.check:require(p.exists() and p.read_text()==body,'generated artifact stale: '+name)
-        else:p.write_text(body)
+        else:p.write_text(body,encoding='utf-8',newline='\n')
     print(json.dumps({'result':'PASS','mode':'check' if args.check else 'compile','counts':counts},ensure_ascii=False))

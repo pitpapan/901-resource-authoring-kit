@@ -1,59 +1,179 @@
 {
-  "result": "passed",
   "engineModules": [
     {
       "path": "outputs/施法体系适配-20261024/compiler/runtime-check.mjs",
-      "sha256": "e0541e298f4b830134193d62975ed03d86158acda4e049ec53fc4e7db1946eb3"
+      "sha256": "7dcab6859e217f5cf22fb768edf0bf957924f242c9b839b67e75e50b0561d53a"
     },
     {
-      "path": "../901-tavern/work/rules_engine/resource-effects.mjs",
-      "sha256": "cb2b03fa18d7323bb7900196984334c04c9f244f5d8c914937a1de81e3402dd2"
+      "path": "../TRPG outputs/work/rules_engine/resource-effects.mjs",
+      "sha256": "056efdd4b0441b60c6f3ee606caa3a26a1d6df42a25219f02cba34842b5c2fcf"
     },
     {
-      "path": "../901-tavern/work/rules_engine/resource-definitions.mjs",
-      "sha256": "2af826b18c9cb1e2556479059df34eb765164ee98254b51212933a0e1bea0bb0"
+      "path": "../TRPG outputs/work/rules_engine/resource-ongoing.mjs",
+      "sha256": "7466b40b9a38b816f8af2f0a1c9d35b10c43f4ebe7924d82461c01091de7043b"
     },
     {
-      "path": "../901-tavern/work/rules_engine/combat/mechanics.mjs",
-      "sha256": "f3bd226f8748b68dca838597daddc1832f2d6bc94ee9e98253f48ca42c753a7d"
+      "path": "../TRPG outputs/work/rules_engine/resource-perception.mjs",
+      "sha256": "43ce90fc09e25fd09505b1e8defb1ab3e6d00efb4d9775dd4088012b71f5f065"
     },
     {
-      "path": "../901-tavern/work/rules_engine/core.mjs",
-      "sha256": "d407a4f8938c2db145ce1e3f302a401405ae05f9bb064582862238967e62edd7"
+      "path": "../TRPG outputs/work/rules_engine/resource-discovery.mjs",
+      "sha256": "771fe9a5f47d518357fbe21dbca1062702167b014781bb9175f3ae3e00954ded"
     },
     {
-      "path": "../901-tavern/work/rules_engine/resource-lifecycle.mjs",
-      "sha256": "8656b74f563af5be81fef96a2a24034bf531273512f05b685b30a8994efc2e88"
+      "path": "../TRPG outputs/work/rules_engine/core.mjs",
+      "sha256": "ce8c92c5032da4e02f3ebecc459f2ba0b183e13ba733448affc8aaab0a69006f"
     },
     {
-      "path": "../901-tavern/work/rules_engine/kit-state.mjs",
-      "sha256": "cc320946740c22352b29b82884719d6f68307f9a299c9448390187588be5b734"
+      "path": "../TRPG outputs/work/rules_engine/resource-wounds.mjs",
+      "sha256": "9e80376564a0fc8e6db9ac3b4ea907b44a1f6ee70e924726ebc0648460a2f796"
     },
     {
-      "path": "../901-tavern/work/rules_engine/resource-acquisition.mjs",
-      "sha256": "5fb06a960ab5b03025b1850c0a5e13b9b38f6d0279895b6f05ef7a3d904d796a"
+      "path": "../TRPG outputs/work/rules_engine/rule-random.mjs",
+      "sha256": "f6b791318a282bd15ed226803a36b830c9c9b73a010abde6e38f0ae6b55965bc"
     },
     {
-      "path": "../901-tavern/work/rules_engine/growth-pricing.mjs",
-      "sha256": "c800cbb8c0f768e632f1567b0295eaf9f59a14bfe76e577a9a9199d569332636"
+      "path": "../TRPG outputs/work/rules_engine/healing.mjs",
+      "sha256": "3ce15dc9ee0c0d3cfafbe9e101f4eceeaefacf5a59b8b132a19cf75f90935dba"
     },
     {
-      "path": "../901-tavern/work/rules_engine/wizard-rules.mjs",
+      "path": "../TRPG outputs/work/rules_engine/resource-penalties.mjs",
+      "sha256": "574405018a63240eef2be300df95e142e16b206b5fa3df3b5fed96648d042d06"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/resource-status-applicability.mjs",
+      "sha256": "ce7790b6ee778d422233074212571416a0f6a7657d2270c48b1ec1e89d6719b2"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/resource-applicability.mjs",
+      "sha256": "cb77262ea31c540f759592f69d4791ca8229d7424d6fcdae58a2693b0bf95e05"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/resource-definitions.mjs",
+      "sha256": "47986bcc568ac603d2203d77b839e91f235b978190f87ecebcc71016960302c1"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/program-operators.mjs",
+      "sha256": "0d303f55fccd21bc134177b00661aa5b7044c6a286a745d6166a2809be84cfe8"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/rule-contracts.mjs",
+      "sha256": "fa00b5348c736a9f0ad882c06fc742008d461671c36afc730c9b61dd97565f6f"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/rule-schema.mjs",
+      "sha256": "2e452886734c05758d37bd126c8f0daffbccbf0385e596da78eab167776689d2"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/rule-expressions.mjs",
+      "sha256": "962df1dbcd1164d9354ebcb93af2c6b837c4fd945b21ff5e21d009ff25d09051"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/resource-action-losses.mjs",
+      "sha256": "cc38598bb4d81bb60e59c31d408e7b9e20b6e15ee2964d3a0e416551e682f4f5"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/resource-temporary-health.mjs",
+      "sha256": "1cfb7096603af753582160f9f08fba58de44c0f5fe6d94b30a2f1f71d66d2217"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/resource-automatic-events.mjs",
+      "sha256": "f950dddcb18adda7a7b29dbecab5ddd32e02daec6e3039d950676cd3f71f6c17"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/resource-counters.mjs",
+      "sha256": "90e519508156601a923111b5e1ce16835488009bc179977f566e5ad07ff50e79"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/resource-lifecycle.mjs",
+      "sha256": "e316baf9a4cff6ae4675e1ad2b839d232da1cbf9d4448894da1bdd256044efe1"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/resource-projections.mjs",
+      "sha256": "5b428b1401fe3781f80d4ef20ba29be87d85f2911796b62dc647eacfb6b9b260"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/resource-senses.mjs",
+      "sha256": "1d238753eba581033e01f8ff1d41ea41d5810fbe43c31875ab8cc9753110f149"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/resource-obscuration.mjs",
+      "sha256": "7dde2b1a0f43b20fd85ec5dd22b8af26b8997d1235752a7ccc5340e350d2b223"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/resource-visual-illusions.mjs",
+      "sha256": "c5d834c03f4bcdc985d28fc9789c5abd40c59649448e617d5c1740f676acb693"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/combat/map.mjs",
+      "sha256": "05a765f3692e9f5cdcb2b3b7850cd511257ae2f23d11e488674bf482402b829e"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/resource-observation-state.mjs",
+      "sha256": "dc1ee5c7b841e4c242010080168ed9334bc7b783aa2b6ce76a168d46a2a65460"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/resource-detection.mjs",
+      "sha256": "6d74f76b2e7a2ef0e5973d98b0558f391b9859dafbdb5a71aed33732b5f30daa"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/combat/mechanics.mjs",
+      "sha256": "041adc91b6532a06c64969d17ace3af6eedf6d4098daa9555fd85213e892d63b"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/resource-weapons.mjs",
+      "sha256": "b13ed16efbabe8ca384a96826d1d91adda0d3f389493953b0bd932059f33b21e"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/wizard-rules.mjs",
       "sha256": "1e0bf8dea06e0326ac131fd9eb8a18fa1eb5340fab1274fa87d77ed9f4fab6fb"
     },
     {
-      "path": "../901-tavern/work/rules_engine/combat/opening.mjs",
-      "sha256": "7a22c91aacd311ea263f3b4a4b08479a50c1e51a32ca76bb9415b55780fd700c"
+      "path": "../TRPG outputs/work/rules_engine/resource-use-cooldowns.mjs",
+      "sha256": "0e46ca7464ad1748c2b1227bfb386335df602a472b8a927a5ce0787e4f7d3dd3"
     },
     {
-      "path": "../901-tavern/work/rules_engine/combat/map.mjs",
-      "sha256": "2f54fd13cfdc3fd170efcd5b2923bead37c4ded3375d77dbbc7632bf57618c00"
+      "path": "../TRPG outputs/work/rules_engine/resource-trigger-lifecycle.mjs",
+      "sha256": "5fa35761b3d812fe29bd0a4b972500caf2f0880ebba8293e8ef49ea2e059e8f0"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/resource-descent.mjs",
+      "sha256": "c270c38b90dbb5b611c7e6ecd033f3171880496bd5193e4ef5997f501f200d0d"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/resource-accumulators.mjs",
+      "sha256": "8d894862d34a05ae6b6702d2a762141b60cdc98729efb26a593eb0c9e803cf3b"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/kit-state.mjs",
+      "sha256": "af9c19fa637af8c8d833c752001aa0025794ee3b707361ec2f01185a7c268f37"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/staged-bundle.mjs",
+      "sha256": "0fa3cbc91f151f67cf40f9754282490333f08b672ee143d7ec4b643998e7748e"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/resource-acquisition.mjs",
+      "sha256": "d6bb38f7d7cf457f823be02cc76e85c7990b044d2e4c8726b4ba999950b2ea08"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/resource-casting.mjs",
+      "sha256": "8f35a1617d337812c126298f1f22463a76002f2cca16b42ff341ce0a1047d4d6"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/growth-pricing.mjs",
+      "sha256": "3b3b3d22f2581dc05188e77c5bcbb9202698f4e6f3c6b5845a2c5060d6a419a4"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/combat/opening.mjs",
+      "sha256": "0debb5af60e05719fab06d63a0d43a9f274505831c26c534248e82718bd1bcb7"
     }
   ],
+  "result": "passed",
   "slices": {
-    "candidate-901-magic-bundle-de9b5c40b4fa2353/D/fortitude": {
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/B/fortitude": {
+      "fingerprint": "a82480f6e289e23e78c86f655c49591c5ba2564a172c6e1f0f43f3c774faba83",
       "result": "passed",
-      "fingerprint": "3f773ec89cdd26940f86caa5416b921b5ec35f1eb0413d4a21e943260860623e",
       "testCases": [
         "source-rule",
         "correct-grade-value",
@@ -68,8 +188,8 @@
       ]
     },
     "candidate-901-magic-bundle-de9b5c40b4fa2353/C/fortitude": {
+      "fingerprint": "57ea51b01f6405981ba2dbba880b5814460e7e12093235344a7c3b121e69d81d",
       "result": "passed",
-      "fingerprint": "1cc84e604e58abe4a826312c9c8742df4a0035f85886eb0c353634e0e0beec8e",
       "testCases": [
         "source-rule",
         "correct-grade-value",
@@ -83,9 +203,9 @@
         "actual-saveProfile-and-save-reload"
       ]
     },
-    "candidate-901-magic-bundle-de9b5c40b4fa2353/B/fortitude": {
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/D/fortitude": {
+      "fingerprint": "b4f4e466ecb2978cfd5e8dd363e985410593ae09f48807e3d0ebada2ccf11ddc",
       "result": "passed",
-      "fingerprint": "2d19b800fd2a5e0397d0f47400dbc540e86517b6c70d9bc62228845a1fbe65c6",
       "testCases": [
         "source-rule",
         "correct-grade-value",
@@ -100,6 +220,7 @@
       ]
     }
   },
+  "testCount": 30,
   "tests": [
     "candidate-901-magic-bundle-de9b5c40b4fa2353/D/fortitude/source-rule",
     "candidate-901-magic-bundle-de9b5c40b4fa2353/D/fortitude/correct-grade-value",
@@ -131,6 +252,5 @@
     "candidate-901-magic-bundle-de9b5c40b4fa2353/B/fortitude/reject-qualificationVersion",
     "candidate-901-magic-bundle-de9b5c40b4fa2353/B/fortitude/reject-completedStages",
     "candidate-901-magic-bundle-de9b5c40b4fa2353/B/fortitude/actual-saveProfile-and-save-reload"
-  ],
-  "testCount": 30
+  ]
 }

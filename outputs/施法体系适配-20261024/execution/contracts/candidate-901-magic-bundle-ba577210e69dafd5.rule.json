@@ -11,6 +11,25 @@
       "operation": null,
       "requestFields": [],
       "requiredChoice": []
+    },
+    {
+      "id": "claimLearning",
+      "name": "兑现已取得阶段赠术",
+      "operation": "claimLearning",
+      "actionCost": [],
+      "requiredChoice": [
+        "registered-grant-and-spell"
+      ],
+      "requestFields": [
+        "actorId",
+        "objectId",
+        "operation",
+        "part"
+      ],
+      "allowsModelNumericEffects": false,
+      "availability": "execution-verified",
+      "route": "mechanism",
+      "objectType": "kitResource"
     }
   ],
   "clauses": [
@@ -45,10 +64,8 @@
         "implementationGaps": [
           {
             "effectIds": [
-              "三系天赋-奥术",
               "三系天赋-火焰",
               "三系天赋-冰霜",
-              "奥术池",
               "火焰回复",
               "冰霜减耗",
               "奥术力场",
@@ -151,7 +168,7 @@
           "timeRounding": "none",
           "xpCostRounding": "ceil"
         },
-        "readingSHA256": "f4a2ac2fbaf2cdc40d21aaef5186d7b800a91344dc04398e6ec9583c6bcbc0a3",
+        "readingSHA256": "c5454a7520ef1e1bf7dc054e9554b5aa41d370a21f772e37d5fa4a7325f11a09",
         "runtimeFullyVerified": false,
         "scope": "ability-group-body-only",
         "stageInheritance": {
@@ -195,7 +212,7 @@
                   "bonusCategory": "修行",
                   "value": 6
                 },
-                "runtimeStatus": "implementation-needed",
+                "runtimeStatus": "execution-verified-arcane-D-C-scope",
                 "sourceEvidence": [
                   {
                     "original": {
@@ -493,7 +510,7 @@
                 "parameters": {
                   "value": 10
                 },
-                "runtimeStatus": "implementation-needed",
+                "runtimeStatus": "execution-verified-arcane-D-C-scope",
                 "sourceEvidence": [
                   {
                     "original": {
@@ -1572,11 +1589,12 @@
         "verification": {
           "deploymentPerformed": false,
           "runtimeFullyVerified": false,
-          "runtimeTested": false
+          "runtimeTested": true,
+          "verifiedScope": "奥术D/C取得、精神池、施法职能、赠术与施法DP；其他分支与B以上未实现"
         }
       },
       "runtimeSlices": [],
-      "sharedRulesLock": "2d4f858c035f847bc05a312a0e7efea245cd0f6795890239754d371a5b75005c",
+      "sharedRulesLock": "1dc6ceee1c85e44692ad1327e8a485d1685e78d245cff8f7981b73de32032496",
       "units": [
         {
           "actionPrices": [],
@@ -1592,9 +1610,9 @@
           },
           "name": "法师",
           "reading": {
+            "startLine": 1,
             "endLine": 10,
-            "sha256": "cc28d45a79b5272b378bf353dc4193b90e2bb59437700f40aa3508eefa319bd1",
-            "startLine": 1
+            "sha256": "cac324ed5da2c637ca7d6f533863adf16fdbbcbb95b6b4280167f37bc6655c0c"
           },
           "requiresIndependentLearning": false,
           "sourceBoundConditions": [
@@ -1635,9 +1653,9 @@
           },
           "name": "本体",
           "reading": {
+            "startLine": 11,
             "endLine": 23,
-            "sha256": "0e2bb9c996bea380dad0b664cf236a54af03a60d7bc012d8a7af628ff4c55e4e",
-            "startLine": 11
+            "sha256": "0e2bb9c996bea380dad0b664cf236a54af03a60d7bc012d8a7af628ff4c55e4e"
           },
           "requiresIndependentLearning": false,
           "sourceBoundConditions": [
@@ -1648,10 +1666,166 @@
           ],
           "unresolvedRuleIds": []
         }
-      ]
+      ],
+      "runtimeAcquisition": {
+        "verifiedScope": "arcane-D-C-body-acquisition-and-spell-grants",
+        "testFiles": [
+          "../TRPG outputs/work/rules_engine/staged-bundle.test.mjs"
+        ],
+        "grades": [
+          "D",
+          "C"
+        ],
+        "specializations": [
+          "奥术"
+        ]
+      }
     },
-    "effects": [],
-    "programs": {}
+    "effects": [
+      {
+        "stat": "check",
+        "group": "training",
+        "value": 6,
+        "when": {
+          "all": [
+            {
+              "test": "eq",
+              "left": {
+                "state": "learnedResources.candidate-901-magic-bundle-ba577210e69dafd5.adoptionStatus"
+              },
+              "right": "adopted"
+            },
+            {
+              "test": "eq",
+              "left": {
+                "state": "learnedResources.candidate-901-magic-bundle-ba577210e69dafd5.version"
+              },
+              "right": "2026-10-28.magic.2"
+            },
+            {
+              "test": "eq",
+              "left": {
+                "state": "learnedResources.candidate-901-magic-bundle-ba577210e69dafd5.qualificationVersion"
+              },
+              "right": "2026-10-28.magic.2"
+            },
+            {
+              "test": "eq",
+              "left": {
+                "state": "learnedResources.candidate-901-magic-bundle-ba577210e69dafd5.choices.specialization"
+              },
+              "right": "奥术"
+            },
+            {
+              "test": "contains",
+              "left": {
+                "state": "learnedResources.candidate-901-magic-bundle-ba577210e69dafd5.completedStages"
+              },
+              "right": "D"
+            },
+            {
+              "test": "eq",
+              "left": {
+                "context": "casting"
+              },
+              "right": true
+            },
+            {
+              "any": [
+                {
+                  "test": "contains",
+                  "left": {
+                    "context": "spellDamageTypes"
+                  },
+                  "right": "force"
+                },
+                {
+                  "test": "contains",
+                  "left": {
+                    "context": "spellDamageTypes"
+                  },
+                  "right": "pure-energy"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "programs": {},
+    "learning": {
+      "byGrade": {
+        "D": 15,
+        "C": 35
+      },
+      "CRequiresD": true,
+      "transactionImplemented": true,
+      "policy": {
+        "kind": "staged-bundle",
+        "grades": [
+          "D",
+          "C"
+        ],
+        "requireContractVersion": true
+      }
+    },
+    "acquisition": {
+      "mode": "staged-bundle",
+      "grades": [
+        "D",
+        "C"
+      ],
+      "specializations": [
+        "奥术"
+      ],
+      "spellTree": "imperial",
+      "pool": {
+        "kind": "精神魔力",
+        "reopenCapacity": 5,
+        "capacity": {
+          "op": "floor",
+          "args": [
+            {
+              "op": "div",
+              "args": [
+                {
+                  "op": "add",
+                  "args": [
+                    {
+                      "context": "INT"
+                    },
+                    {
+                      "context": "PER"
+                    }
+                  ]
+                },
+                4
+              ]
+            }
+          ]
+        },
+        "recovery": {
+          "longRest": true,
+          "longRestHours": 8,
+          "meditation": {
+            "intervalMinutes": 60,
+            "attributeAutos": [
+              "智力",
+              "感知"
+            ]
+          }
+        }
+      },
+      "stages": {
+        "D": {
+          "spellCount": 1
+        },
+        "C": {
+          "spellCount": 1,
+          "poolCapacity": 10
+        }
+      }
+    }
   },
   "id": "candidate-901-magic-bundle-ba577210e69dafd5",
   "identity": {
@@ -1663,7 +1837,7 @@
     "sharedDependencies": [
       {
         "path": "rules/901-core-rules-v0.1.md",
-        "sha256": "b1d7f284f4e502f500af138919e9b89e4b48e9715d4302b532148a58523034b4"
+        "sha256": "1e0998126f5b6683c9cc9931ac9238c2f9a68e8e6278963e4900edb981567d08"
       },
       {
         "path": "resources/execution/resource.schema.json",
@@ -1707,7 +1881,8 @@
     "tree": "法师"
   },
   "implementationGaps": [
-    "本体声明尚需逐机制接入与执行证明；技能树逐条款保留来源定位，尚未完整编码；未验证动作不进入执行白名单。"
+    "奥术D/C本体取得及赠术已验证；火焰、冰霜及B以上本体机制仍待接入。",
+    "被动或取得证明不代表全部法术变体交互与整套能力组认证。"
   ],
   "inputs": [
     {
@@ -1789,7 +1964,7 @@
   ],
   "reading": {
     "path": "outputs/施法体系适配-20261024/阅读版/法师.md",
-    "sha256": "f4a2ac2fbaf2cdc40d21aaef5186d7b800a91344dc04398e6ec9583c6bcbc0a3"
+    "sha256": "c5454a7520ef1e1bf7dc054e9554b5aa41d370a21f772e37d5fa4a7325f11a09"
   },
   "schemaVersion": "901-resource/1",
   "unresolvedRules": [],
@@ -1797,7 +1972,7 @@
     "runtimeFullyVerified": false,
     "scope": "paired-source-and-declarative-base; not full runtime",
     "sourceChecked": true,
-    "status": "pending"
+    "status": "partial"
   },
-  "version": "2026-10-25.magic.1"
+  "version": "2026-10-28.magic.2"
 }

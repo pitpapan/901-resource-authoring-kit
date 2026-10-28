@@ -179,6 +179,21 @@ def load_candidate_package(package):
             raise ValueError('Candidate runtime provenance differs: '+id)
     return definitions,index,selected,counts
 
+def candidate_packages(packages):
+    """Keep the original single-package Python API as well as repeated CLI flags."""
+    if packages is None:return []
+    if isinstance(packages,(str,Path)):return [Path(packages).resolve()]
+    return [Path(package).resolve() for package in packages]
+
+def load_candidate_packages(packages):
+    definitions={};index=[];selected={};reports=[]
+    for package in candidate_packages(packages):
+        data,actions,docs,counts=load_candidate_package(package)
+        if set(definitions)&set(data):raise ValueError('Candidate identity collides across packages')
+        definitions.update(data);index.extend(actions);selected.update(docs)
+        reports.append(dict(path=package.relative_to(ROOT.resolve()).as_posix(),counts=counts))
+    return definitions,index,selected,reports
+
 def compile_to(destination,candidate_package=None):
     docs=load_contracts();definitions={d['id']:d['definition'] for d in docs}
     for d in docs:
@@ -191,7 +206,7 @@ def compile_to(destination,candidate_package=None):
         definitions[d['id']]['operations']=[a['operation'] for a in d['actions']]
     candidates={}
     if candidate_package:
-        candidates,candidate_index,_,_=load_candidate_package(candidate_package)
+        candidates,candidate_index,_,_=load_candidate_packages(candidate_package)
         if set(definitions)&set(candidates):raise ValueError('Candidate identity collides with maintained resource')
         definitions.update(candidates)
     destination.mkdir(parents=True,exist_ok=True)
@@ -202,9 +217,9 @@ def compile_to(destination,candidate_package=None):
     dump(ROOT/'resources/execution/coverage.json',[dict(id=d['id'],version=d['version'],reading=d['reading'],sourceChecked=d['verification'].get('sourceChecked',False),runtimeFullyVerified=d['verification']['runtimeFullyVerified'],programs=list(d['definition'].get('programs',{})),consumerCoverage=d['consumerCoverage'],status=d['verification']['status'],unresolvedRules=d['unresolvedRules'],implementationGaps=d['implementationGaps']) for d in docs])
     return {'contracts':len(docs),'actions':sum(len(d['actions']) for d in docs),'fullyVerified':sum(d['verification']['runtimeFullyVerified'] for d in docs),'developmentCandidates':len(candidates),'candidateActions':sum(len(x['actions']) for x in index if x['resourceId'] in candidates)}
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('--runtime-output',type=Path);p.add_argument('--candidate-package',type=Path,help='Explicitly include only proof-current candidates in development output');a=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('--runtime-output',type=Path);p.add_argument('--candidate-package',type=Path,action='append',help='Repeat to include multiple proof-current candidate packages in development output');a=p.parse_args()
     if a.runtime_output:result=compile_to(a.runtime_output,a.candidate_package)
     else:
         result={'validatedContracts':len(load_contracts())}
-        if a.candidate_package:result['validatedDevelopmentCandidates']=len(load_candidate_package(a.candidate_package)[0])
+        if a.candidate_package:result['validatedDevelopmentCandidates']=len(load_candidate_packages(a.candidate_package)[0])
     print(json.dumps(result,ensure_ascii=False))

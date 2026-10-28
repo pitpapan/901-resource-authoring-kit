@@ -9,6 +9,35 @@ import compile_resources as compiler
 
 
 class ContractCompilerTest(unittest.TestCase):
+    def test_multiple_candidate_packages_preserve_spells_and_only_verified_bundle_slice(self):
+        packages=[compiler.ROOT/'outputs/技艺适配-20261025',compiler.ROOT/'outputs/施法体系适配-20261024']
+        with tempfile.TemporaryDirectory(dir=compiler.ROOT) as tmp:
+            dest=Path(tmp)
+            with patch.object(compiler,'dump'):
+                counts=compiler.compile_to(dest,packages)
+            data=json.loads((dest/'resource-data.mjs').read_text().split('export const RESOURCE_DATA=',1)[1].strip().removesuffix(';'))
+            actions=json.loads((dest/'resource-action-index.mjs').read_text().split('=',1)[1].strip().removesuffix(';'))
+            self.assertEqual(counts['developmentCandidates'],12)
+            self.assertEqual(counts['candidateActions'],10)
+            for package in packages:
+                candidates,index,_,_=compiler.load_candidate_package(package)
+                self.assertEqual({rid:data[rid] for rid in candidates},candidates)
+                self.assertEqual([a for a in actions if a['resourceId'] in candidates],index)
+            bundle=data['candidate-901-magic-bundle-de9b5c40b4fa2353']
+            self.assertEqual(bundle['operations'],[])
+            self.assertNotIn('learning',bundle)
+            self.assertNotIn('programs',bundle)
+            self.assertEqual(len(bundle['effects']),3)
+            self.assertFalse(bundle['verification']['runtimeFullyVerified'])
+
+    def test_candidate_package_collision_fails_before_writing_outputs(self):
+        package=compiler.ROOT/'outputs/技艺适配-20261025'
+        with tempfile.TemporaryDirectory(dir=compiler.ROOT) as tmp:
+            dest=Path(tmp)
+            with self.assertRaisesRegex(ValueError,'collid'):
+                compiler.compile_to(dest,[package,package])
+            self.assertEqual(list(dest.iterdir()),[])
+
     def test_explicit_candidate_package_includes_only_verified_projection_and_preserves_identity(self):
         package=compiler.ROOT/'outputs/技艺适配-20261025'
         candidates,index,docs,_=compiler.load_candidate_package(package)

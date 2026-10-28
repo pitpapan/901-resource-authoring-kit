@@ -53,7 +53,7 @@ for e in manifest:
  if not args.refresh and (int(e['reading_chars'])!=count or e['reading_sha256']!=fingerprint):errors.append('reading manifest stale '+e['reading'])
  e['reading_chars']=count;e['reading_sha256']=fingerprint
 if args.refresh:
- with (D/'源清单.tsv').open('w') as f:
+ with (D/'源清单.tsv').open('w',encoding='utf-8',newline='') as f:
   w=csv.DictWriter(f,fieldnames=manifest[0].keys(),delimiter='\t');w.writeheader();w.writerows(manifest)
 result={'status':'PASS' if not errors else 'FAIL','concrete_resources':32,'shared_book_outline':1,'excluded_resources':6,'source_files_in_scope':len(sources),'primary_source_occurrences':len(expected),'covered_primary_occurrences':len(actual_keys),'total_coverage_rows_with_spell_dependencies':len(rows),'reading_characters':sum(int(e['reading_chars']) for e in manifest),'source_characters':sum(int(e['source_chars']) for e in manifest),'existing_spell_references':16,'new_B_A_dependency_cards':4,'checks':['source identity and selected set','every primary nonempty source position','reading and provenance file/heading anchors','research cycle arithmetic','corrected Byak six-attribute card','known mechanical replacement artifacts'],'runtime_verified':False,'executive_contracts_created':0,'main_repo_regressions_run':False,'errors':errors}
 result['executive_contracts_created']=len(list((D/'execution/contracts').glob('*.rule.json')))

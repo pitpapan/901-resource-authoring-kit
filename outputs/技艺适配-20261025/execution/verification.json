@@ -1,0 +1,51 @@
+{
+  "result": "PASS",
+  "schema": "901-resource/1",
+  "counts": {
+    "candidateContracts": 268,
+    "structuredUnits": 951,
+    "structuredMechanismFragments": 230,
+    "sourceCount": 192,
+    "officialReuseRecords": 222,
+    "officialUniqueIDs": 215,
+    "verifiedPassiveSlices": 4,
+    "verifiedPassiveEffects": 8,
+    "runnableActionWhitelist": 9,
+    "verifiedPrograms": 9,
+    "verifiedAcquisitionTransactions": 9,
+    "fullyExecutableCandidateContracts": 0,
+    "allSemanticsEncoded": false,
+    "blockedUnits": 942,
+    "blockedActionIntents": 481,
+    "unresolvedRuleCount": 4
+  },
+  "jsAssertions": 54,
+  "programExecutionTests": 40,
+  "acquisitionTests": 41,
+  "semanticRegression": {
+    "result": "PASS",
+    "sourceRuleCases": [
+      "capacity-cost-is-not-balance-cost",
+      "energy-substitution-does-not-charge-or-refund-energy",
+      "negative-prerequisite-and-qualified-pool",
+      "separate-learning-evolution-and-linear-extra-hands",
+      "pool-qualifications-preserve-all-and-grade",
+      "temporary-selection-budget-is-not-learning-price",
+      "effect-recipient-and-coupled-optional-cost",
+      "activation-maintenance-and-augmentation-are-separate",
+      "optional-repeat-augmentation-has-a-limit",
+      "independent-techniques-do-not-gain-stage-prerequisites",
+      "free-base-spells-retain-paid-optional-augmentation"
+    ],
+    "writes": 0
+  },
+  "esm": {
+    "result": "PASS",
+    "esmImports": 4,
+    "exportedResources": 10,
+    "passiveEffects": 8,
+    "actionWhitelist": 9,
+    "verifiedLearningPolicies": 9
+  },
+  "writes": 0
+}
