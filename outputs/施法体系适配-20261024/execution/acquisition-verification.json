@@ -1,7 +1,7 @@
 {
   "acquisitions": {
     "candidate-901-magic-bundle-ba577210e69dafd5": {
-      "fingerprint": "c5db8cbcb15a68a2193f7088e423e323664914c52628807cbba46d7f685fc087",
+      "fingerprint": "3514f48f567f849a162c5d1f1e118784c9b331963351a22ede83aece6619196f",
       "result": "passed",
       "testCases": [
         "arcane D then C acquisition pays increments and preserves sources, wounds, current pools and T0",
@@ -12,7 +12,10 @@
         "arcane spell DP uses the actual damage type and acquired record; mental recovery uses actual time",
         "C gift may upgrade the already granted D spell while retaining its original version and source",
         "granted spell executes using the new caster and pool, with arcane DP in the actual attack roll",
-        "registered D/C offers and gift choice survive MVU reload without duplicate charges or free ownership"
+        "奥术 registered D/C offers and gift choice survive MVU reload without duplicate charges or free ownership",
+        "冰霜 registered D/C offers and gift choice survive MVU reload without duplicate charges or free ownership",
+        "frost D/C keeps its own capacity and cold DP; C discounts actual spells to at least one",
+        "frost cost uses the final one-pool debit for all mana kinds, repetitions and minimum; other energy and zero stay unchanged"
       ],
       "testFiles": [
         "../TRPG outputs/work/rules_engine/staged-bundle.test.mjs"
@@ -38,7 +41,11 @@
     },
     {
       "path": "../TRPG outputs/work/rules_engine/combat/action-prices.mjs",
-      "sha256": "df7c12ef037fe2085fed39c6557eaf6a125030ded3dcfb8cda6cc825f49d28e8"
+      "sha256": "0c775e34affdd049cdcad864e6a504589d094b99cca39bec68cf490e1ec8cd16"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/combat/action-receipt.mjs",
+      "sha256": "9e7d5d4ce535ff5b868cce5135783b28ef4de0d5340c2f23af021a718803e341"
     },
     {
       "path": "../TRPG outputs/work/rules_engine/combat/ballistics.mjs",
@@ -46,15 +53,23 @@
     },
     {
       "path": "../TRPG outputs/work/rules_engine/combat/catalog.mjs",
-      "sha256": "33e0cb62c7879b646f787bbbbfbb6814e6cb6715ff711aca9c11d92def0fcb72"
+      "sha256": "2b9177566ec218014a7c92ba46917afce81c2a3967b67c5f2a509afc3f3878c6"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/combat/common-actions.mjs",
+      "sha256": "8da422ce20eab5708f5de756f6c379802e8a6100384083e26c1f488d96eccded"
     },
     {
       "path": "../TRPG outputs/work/rules_engine/combat/engine.mjs",
-      "sha256": "5c99996dd1ba892c794b360d384877f30b484f169d7cfc86873738e7f1a82c9f"
+      "sha256": "e2476e828e10c78423a8722c39abc3eb9b010a6c602d93a045cba3d2f3f5d7d1"
     },
     {
       "path": "../TRPG outputs/work/rules_engine/combat/grapple.mjs",
-      "sha256": "72633bb105383780c781f268ec1d468a5a1426aa00c2edd60921063d2ed89417"
+      "sha256": "e14b19b0da850094354a3f4abac211a6ddb4f5788b40cc8f9b74dc4d0a4fada5"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/combat/ground-weapons.mjs",
+      "sha256": "a05c2e518261853f3bb370c0c8b88f14417070cd29f9b1618d3fe391350d7866"
     },
     {
       "path": "../TRPG outputs/work/rules_engine/combat/host.mjs",
@@ -70,15 +85,15 @@
     },
     {
       "path": "../TRPG outputs/work/rules_engine/combat/mechanics.mjs",
-      "sha256": "041adc91b6532a06c64969d17ace3af6eedf6d4098daa9555fd85213e892d63b"
+      "sha256": "54b4019fa8efd556e034187e2b8984ce85bf9eebc19066139f551c803241710b"
     },
     {
       "path": "../TRPG outputs/work/rules_engine/combat/movement-modes.mjs",
-      "sha256": "c3388a92b15f1b3564864f01ce85143f722cf1ed0c987b7def952e64a5bff7aa"
+      "sha256": "660a0187f7ed93ee0d91e220685b8068ba4fad91fe32a49c2dfde5e69df41595"
     },
     {
       "path": "../TRPG outputs/work/rules_engine/combat/opening.mjs",
-      "sha256": "0debb5af60e05719fab06d63a0d43a9f274505831c26c534248e82718bd1bcb7"
+      "sha256": "6e8b9bea34228fb9e864a626c982ab56461a133f6bfa8413e608cae6e4f2d528"
     },
     {
       "path": "../TRPG outputs/work/rules_engine/combat/paid-motion.mjs",
@@ -86,7 +101,7 @@
     },
     {
       "path": "../TRPG outputs/work/rules_engine/combat/runtime.mjs",
-      "sha256": "b6c6f5dc9edf0602bdf0700a46574be3b59e847f87d2257f52b50d9880dbd46c"
+      "sha256": "c25531265456a0916aac398ff5ad829ad69aba95db6df7f315c0a8c25b0a54d2"
     },
     {
       "path": "../TRPG outputs/work/rules_engine/combat/state-view.mjs",
@@ -101,12 +116,20 @@
       "sha256": "e9766f109dddfc904caff357b51c81b222a3e5310505c9125c863aebc2b39ada"
     },
     {
+      "path": "../TRPG outputs/work/rules_engine/combat/thunder-technique.mjs",
+      "sha256": "bb8ba73cbbd1aaeb4d42c07a2ebf8e823785621ec29d4ae04bbfe5e634a0f590"
+    },
+    {
       "path": "../TRPG outputs/work/rules_engine/combat/transitions.mjs",
-      "sha256": "3aa1adc44f77b3bf1397821e8db698bb0b509edefa2b6516e2d81e78a9042e3b"
+      "sha256": "765d9717e13ebd71404b1fd9230c4fddad1a6e91f3fa9ecc0943df847c653445"
     },
     {
       "path": "../TRPG outputs/work/rules_engine/core.mjs",
       "sha256": "ce8c92c5032da4e02f3ebecc459f2ba0b183e13ba733448affc8aaab0a69006f"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/equipment-state.mjs",
+      "sha256": "a5c461bbb418509ef298eacf9261f89bd703544d0060550e339af40f195ad1e1"
     },
     {
       "path": "../TRPG outputs/work/rules_engine/gm_runtime/actor-rules.mjs",
@@ -114,7 +137,7 @@
     },
     {
       "path": "../TRPG outputs/work/rules_engine/gm_runtime/adjudication-gate.mjs",
-      "sha256": "2a472bf813607143d2cdd026ea4c9aaa1162be4d7abd5d0be75e25c8b69e72bc"
+      "sha256": "c851120cdec2d7e6e00beb72ce63c231adad5e0b231ac623c799ba270cfb5e40"
     },
     {
       "path": "../TRPG outputs/work/rules_engine/gm_runtime/conditional-resources.mjs",
@@ -142,7 +165,7 @@
     },
     {
       "path": "../TRPG outputs/work/rules_engine/gm_runtime/replay-check.mjs",
-      "sha256": "01c2773b696ae74ba3d93954d5d0ffcfe367d31f49615e2877f20cf9df81ffa6"
+      "sha256": "dcd37bfcc77b21ed7187b272978411bf01bf571ed9758b3fe83cd71bc4d42f96"
     },
     {
       "path": "../TRPG outputs/work/rules_engine/gm_runtime/resource-object-program.mjs",
@@ -154,11 +177,11 @@
     },
     {
       "path": "../TRPG outputs/work/rules_engine/gm_runtime/resource-program.mjs",
-      "sha256": "d499c857e920ae346229f27be7ae8bf34844315184e92f6120429ed15e3d774d"
+      "sha256": "e9fc3d89ae0164a4b8c933718393b3d6f457493f59d1dec5ff2ea5e5b6474077"
     },
     {
       "path": "../TRPG outputs/work/rules_engine/gm_runtime/rule-actions.mjs",
-      "sha256": "85bf4606befec7ee9de3009f5206cffad0e739a9f72a95c9953acce03db1ff21"
+      "sha256": "a0e78c2487a34c006e54cb116059f7f7a5b8c8e88c6a17e18c04cec2159eef47"
     },
     {
       "path": "../TRPG outputs/work/rules_engine/gm_runtime/rule-reference.mjs",
@@ -186,7 +209,7 @@
     },
     {
       "path": "../TRPG outputs/work/rules_engine/mvu_poc/adapter.mjs",
-      "sha256": "cff2621aed1bb1bb3042da411ee99b65dcd5b3611860ddd6fa4e61e7e1d6fe71"
+      "sha256": "16cc87a992e5da6542ac4bf90bbe028fc5500474cbc69e7282267b6ab07fb17b"
     },
     {
       "path": "../TRPG outputs/work/rules_engine/mvu_poc/fixture.mjs",
@@ -410,7 +433,7 @@
     },
     {
       "path": "../TRPG outputs/work/rules_engine/resource-weapons.mjs",
-      "sha256": "b13ed16efbabe8ca384a96826d1d91adda0d3f389493953b0bd932059f33b21e"
+      "sha256": "2cfd8bb8d37b2b1d3100ab1c2e336a17e63b7e95705a1287b232562b115b97e2"
     },
     {
       "path": "../TRPG outputs/work/rules_engine/resource-wounds.mjs",
@@ -418,7 +441,7 @@
     },
     {
       "path": "../TRPG outputs/work/rules_engine/rule-contracts.mjs",
-      "sha256": "fa00b5348c736a9f0ad882c06fc742008d461671c36afc730c9b61dd97565f6f"
+      "sha256": "cde9e09919ccfcbc2936cd17fd1bbb7006a190b8b354dd271b7f9e0630ac2232"
     },
     {
       "path": "../TRPG outputs/work/rules_engine/rule-expressions.mjs",
@@ -434,11 +457,11 @@
     },
     {
       "path": "../TRPG outputs/work/rules_engine/staged-bundle.mjs",
-      "sha256": "0fa3cbc91f151f67cf40f9754282490333f08b672ee143d7ec4b643998e7748e"
+      "sha256": "23038a842407afee5e89dac7e1a42184d16cc072c724ae3f6d5298b8e69ba064"
     },
     {
       "path": "../TRPG outputs/work/rules_engine/staged-bundle.test.mjs",
-      "sha256": "c6c4533a4d05da5de2351026e0b28675fe43544793ddbc1bfb121ef11da31598"
+      "sha256": "bd49456d5a42da161a8c664f52fec6af2f7ab408400db51e53dee6f9de289fd9"
     },
     {
       "path": "../TRPG outputs/work/rules_engine/status-rules.mjs",
@@ -454,6 +477,6 @@
     }
   ],
   "result": "passed",
-  "testCount": 9,
+  "testCount": 12,
   "writes": 0
 }

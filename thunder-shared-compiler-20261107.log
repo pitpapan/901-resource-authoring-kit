@@ -1,0 +1,201 @@
+.EE.EE........................
+======================================================================
+ERROR: test_classifier_and_runtime_retain_exact_contract_provenance (test_compile_resources.ContractCompilerTest.test_classifier_and_runtime_retain_exact_contract_provenance)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\pit\.codex\worktrees\yulinfeng-tavern-plan\901-resource-authoring-kit\tools\test_compile_resources.py", line 64, in test_classifier_and_runtime_retain_exact_contract_provenance
+    counts = compiler.compile_to(dest)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pit\.codex\worktrees\yulinfeng-tavern-plan\901-resource-authoring-kit\tools\compile_resources.py", line 240, in compile_to
+    (destination/'resource-data.mjs').write_text('// Generated from paired .rule.json contracts. Do not edit.\nexport const RESOURCE_ENGINE_ABI='+json.dumps(ENGINE['abi'],ensure_ascii=False)+';\nexport const RESOURCE_DATA='+json.dumps(definitions,ensure_ascii=False,separators=(',',':'))+';\n',encoding='utf-8')
+  File "C:\Python312\Lib\pathlib.py", line 1047, in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\pit\\AppData\\Local\\Packages\\sandbox.{33b3a4b4-0fd9-4faf-87c1-3006c7c020d8}\\AC\\Temp\\tmp8a9zpv90\\resource-data.mjs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python312\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\pit\\AppData\\Local\\Packages\\sandbox.{33b3a4b4-0fd9-4faf-87c1-3006c7c020d8}\\AC\\Temp\\tmp8a9zpv90'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pit\.codex\worktrees\yulinfeng-tavern-plan\901-resource-authoring-kit\tools\test_compile_resources.py", line 61, in test_classifier_and_runtime_retain_exact_contract_provenance
+    with tempfile.TemporaryDirectory() as tmp:
+  File "C:\Python312\Lib\tempfile.py", line 946, in __exit__
+    self.cleanup()
+  File "C:\Python312\Lib\tempfile.py", line 950, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:\Python312\Lib\tempfile.py", line 930, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:\Python312\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:\Python312\Lib\tempfile.py", line 902, in onexc
+    _resetperms(path)
+  File "C:\Python312\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:\Python312\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\pit\\AppData\\Local\\Packages\\sandbox.{33b3a4b4-0fd9-4faf-87c1-3006c7c020d8}\\AC\\Temp\\tmp8a9zpv90'
+
+======================================================================
+ERROR: test_explicit_candidate_package_includes_only_verified_projection_and_preserves_identity (test_compile_resources.ContractCompilerTest.test_explicit_candidate_package_includes_only_verified_projection_and_preserves_identity)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\pit\.codex\worktrees\yulinfeng-tavern-plan\901-resource-authoring-kit\tools\test_compile_resources.py", line 47, in test_explicit_candidate_package_includes_only_verified_projection_and_preserves_identity
+    counts=compiler.compile_to(dest,package)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pit\.codex\worktrees\yulinfeng-tavern-plan\901-resource-authoring-kit\tools\compile_resources.py", line 240, in compile_to
+    (destination/'resource-data.mjs').write_text('// Generated from paired .rule.json contracts. Do not edit.\nexport const RESOURCE_ENGINE_ABI='+json.dumps(ENGINE['abi'],ensure_ascii=False)+';\nexport const RESOURCE_DATA='+json.dumps(definitions,ensure_ascii=False,separators=(',',':'))+';\n',encoding='utf-8')
+  File "C:\Python312\Lib\pathlib.py", line 1047, in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\pit\\AppData\\Local\\Packages\\sandbox.{33b3a4b4-0fd9-4faf-87c1-3006c7c020d8}\\AC\\Temp\\tmpwao6vhes\\resource-data.mjs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python312\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\pit\\AppData\\Local\\Packages\\sandbox.{33b3a4b4-0fd9-4faf-87c1-3006c7c020d8}\\AC\\Temp\\tmpwao6vhes'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pit\.codex\worktrees\yulinfeng-tavern-plan\901-resource-authoring-kit\tools\test_compile_resources.py", line 44, in test_explicit_candidate_package_includes_only_verified_projection_and_preserves_identity
+    with tempfile.TemporaryDirectory() as tmp:
+  File "C:\Python312\Lib\tempfile.py", line 946, in __exit__
+    self.cleanup()
+  File "C:\Python312\Lib\tempfile.py", line 950, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:\Python312\Lib\tempfile.py", line 930, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:\Python312\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:\Python312\Lib\tempfile.py", line 902, in onexc
+    _resetperms(path)
+  File "C:\Python312\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:\Python312\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\pit\\AppData\\Local\\Packages\\sandbox.{33b3a4b4-0fd9-4faf-87c1-3006c7c020d8}\\AC\\Temp\\tmpwao6vhes'
+
+======================================================================
+ERROR: test_unresolved_rule_cannot_be_marked_fully_verified (test_compile_resources.ContractCompilerTest.test_unresolved_rule_cannot_be_marked_fully_verified)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Python312\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'C:\\Users\\pit\\AppData\\Local\\Packages\\sandbox.{33b3a4b4-0fd9-4faf-87c1-3006c7c020d8}\\AC\\Temp\\tmpajw2lsnn\\resources\\execution'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pit\.codex\worktrees\yulinfeng-tavern-plan\901-resource-authoring-kit\tools\test_compile_resources.py", line 81, in test_unresolved_rule_cannot_be_marked_fully_verified
+    (root / 'resources/execution').mkdir(parents=True)
+  File "C:\Python312\Lib\pathlib.py", line 1315, in mkdir
+    self.parent.mkdir(parents=True, exist_ok=True)
+  File "C:\Python312\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\pit\\AppData\\Local\\Packages\\sandbox.{33b3a4b4-0fd9-4faf-87c1-3006c7c020d8}\\AC\\Temp\\tmpajw2lsnn\\resources'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python312\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\pit\\AppData\\Local\\Packages\\sandbox.{33b3a4b4-0fd9-4faf-87c1-3006c7c020d8}\\AC\\Temp\\tmpajw2lsnn'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pit\.codex\worktrees\yulinfeng-tavern-plan\901-resource-authoring-kit\tools\test_compile_resources.py", line 79, in test_unresolved_rule_cannot_be_marked_fully_verified
+    with tempfile.TemporaryDirectory() as tmp:
+  File "C:\Python312\Lib\tempfile.py", line 946, in __exit__
+    self.cleanup()
+  File "C:\Python312\Lib\tempfile.py", line 950, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:\Python312\Lib\tempfile.py", line 930, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:\Python312\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:\Python312\Lib\tempfile.py", line 902, in onexc
+    _resetperms(path)
+  File "C:\Python312\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:\Python312\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\pit\\AppData\\Local\\Packages\\sandbox.{33b3a4b4-0fd9-4faf-87c1-3006c7c020d8}\\AC\\Temp\\tmpajw2lsnn'
+
+======================================================================
+ERROR: test_saved_effect_policy_migration_cannot_patch_values_or_state (test_compile_resources.DefinitionPolicyValidation.test_saved_effect_policy_migration_cannot_patch_values_or_state)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Python312\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'C:\\Users\\pit\\AppData\\Local\\Packages\\sandbox.{33b3a4b4-0fd9-4faf-87c1-3006c7c020d8}\\AC\\Temp\\tmp5q_9d_02\\resources\\execution'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pit\.codex\worktrees\yulinfeng-tavern-plan\901-resource-authoring-kit\tools\test_compile_resources.py", line 316, in test_saved_effect_policy_migration_cannot_patch_values_or_state
+    (root/'resources/execution').mkdir(parents=True)
+  File "C:\Python312\Lib\pathlib.py", line 1315, in mkdir
+    self.parent.mkdir(parents=True, exist_ok=True)
+  File "C:\Python312\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\pit\\AppData\\Local\\Packages\\sandbox.{33b3a4b4-0fd9-4faf-87c1-3006c7c020d8}\\AC\\Temp\\tmp5q_9d_02\\resources'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python312\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\pit\\AppData\\Local\\Packages\\sandbox.{33b3a4b4-0fd9-4faf-87c1-3006c7c020d8}\\AC\\Temp\\tmp5q_9d_02'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pit\.codex\worktrees\yulinfeng-tavern-plan\901-resource-authoring-kit\tools\test_compile_resources.py", line 314, in test_saved_effect_policy_migration_cannot_patch_values_or_state
+    with tempfile.TemporaryDirectory() as directory:
+  File "C:\Python312\Lib\tempfile.py", line 946, in __exit__
+    self.cleanup()
+  File "C:\Python312\Lib\tempfile.py", line 950, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:\Python312\Lib\tempfile.py", line 930, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:\Python312\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:\Python312\Lib\tempfile.py", line 902, in onexc
+    _resetperms(path)
+  File "C:\Python312\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:\Python312\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\pit\\AppData\\Local\\Packages\\sandbox.{33b3a4b4-0fd9-4faf-87c1-3006c7c020d8}\\AC\\Temp\\tmp5q_9d_02'
+
+----------------------------------------------------------------------
+Ran 30 tests in 78.150s
+
+FAILED (errors=4)

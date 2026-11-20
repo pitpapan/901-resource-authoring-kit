@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "huang.thunder_sword",
-  "version": "2026-10-23.1",
+  "version": "2026-11-07.1",
   "identity": {
     "name": "雷鸣剑",
     "grade": "D",
@@ -19,24 +19,81 @@
     "grade": "D",
     "prohibited": false,
     "subskills": [],
-    "effects": []
+    "effects": [],
+    "technique": {
+      "schemaVersion": "901-weapon-technique/1",
+      "mode": "active",
+      "action": "standard",
+      "cost": {
+        "sourcePool": "灵力",
+        "nativeResourceId": null,
+        "amount": 1
+      },
+      "cooldownRounds": 1,
+      "effects": [
+        {
+          "op": "weapon_technique",
+          "params": {
+            "attack": "melee_blades",
+            "weapon": "katana",
+            "attacksPerTarget": 1,
+            "damageCap": "current_weapon_native_cap",
+            "protection": "normal",
+            "attackDP": 15,
+            "bonusType": "增强",
+            "maxElectricFraction": 0.5,
+            "paralysisBasis": "actual_electric_damage",
+            "save": "fortitude"
+          }
+        }
+      ],
+      "optionalAcquiredBranches": [
+        {
+          "name": "二之太刀",
+          "additionalXP": 5,
+          "ownershipRef": null,
+          "canActivate": false,
+          "eligibleTargets": [
+            "dark_creature",
+            "spirit",
+            "incorporeal",
+            "possessor"
+          ],
+          "maxElectricFraction": 1,
+          "electricDamageBonus": 5,
+          "tags": [
+            "神圣"
+          ],
+          "otherTargets": "no_damage_or_further_effects"
+        }
+      ],
+      "limits": [
+        "须以实际持用的太刀攻击；原伤害上限与防护继续适用。",
+        "二之太刀另需当前分支取得依据，资源文档的“已取得”不授予当前角色。",
+        "独立冷却1轮；具体冷却时点、麻痹规则及伤害拆分舍入须接完整原生规则，不猜填。"
+      ]
+    }
   },
   "clauses": [
     {
       "heading": "雷鸣剑",
       "effectStats": [],
-      "status": "pending"
+      "status": "partial"
     }
   ],
   "actions": [],
   "inputs": [],
   "unresolvedRules": [],
   "implementationGaps": [
-    "结构化逐条效果与运行接口尚须完成；属于实现工作，不是待裁定"
+    "旧JS基础雷鸣已本地验收；真实分支采用、进阶取得与二之太刀执行仍未接通",
+    "独立原生复合武器执行未支持，候选不构成批准或授予"
   ],
   "verification": {
-    "status": "pending",
+    "status": "partial",
     "sourceChecked": true,
     "runtimeFullyVerified": false
+  },
+  "authoring": {
+    "executionSource": "contract"
   }
 }

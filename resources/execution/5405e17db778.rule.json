@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "huang.iai",
-  "version": "2026-10-23.1",
+  "version": "2026-11-07.1",
   "identity": {
     "name": "居合斩·拔刀术",
     "grade": "D",
@@ -19,7 +19,52 @@
     "grade": "D",
     "prohibited": false,
     "subskills": [],
-    "effects": []
+    "effects": [],
+    "technique": {
+      "schemaVersion": "901-weapon-technique/1",
+      "mode": "triggered",
+      "action": "passive_weapon_trigger",
+      "cost": null,
+      "cooldownRounds": null,
+      "effects": [
+        {
+          "op": "drawn_weapon_first_strike",
+          "params": {
+            "weapon": "slender_curved_blade",
+            "oneHandBladeMaxArmspanFraction": 0.5,
+            "twoHandKatanaLengthException": "existing_training_only",
+            "normalWieldingRequired": true,
+            "initiativeBonus": 4,
+            "initiativeBonusType": "修行",
+            "initiativeCondition": "wear_applicable_weapon",
+            "attack": "first_melee_blades_attack_in_unsheathing_turn",
+            "attackDP": 3,
+            "bonusType": "招式",
+            "aggravateMaxL": 2,
+            "aggravateCondition": "initiative_ahead_of_target",
+            "defensePenalty": 2,
+            "defensePenaltyStarts": "after_strike",
+            "defensePenaltyExpires": "next_own_action_start",
+            "grantsQuickDraw": false,
+            "grantsExtraAttack": false
+          }
+        }
+      ],
+      "prerequisites": {
+        "DEX": 3,
+        "PRE": 3,
+        "WIL": 3,
+        "effectiveBlades": 2,
+        "bladeSubskill": "existing_qualification",
+        "quickDraw": "existing_qualification"
+      },
+      "optionalAcquiredBranches": [],
+      "limits": [
+        "沿既有快拔与刀剑资格，不发放新资格或额外攻击。",
+        "佩带收益与实际出鞘首击分别判断；不能把首击加值变成永久攻击加值。",
+        "拔刀、收刀按原动作资格；双手太刀训练只豁免长度限制。"
+      ]
+    }
   },
   "clauses": [
     {
@@ -38,5 +83,8 @@
     "status": "pending",
     "sourceChecked": true,
     "runtimeFullyVerified": false
+  },
+  "authoring": {
+    "executionSource": "contract"
   }
 }

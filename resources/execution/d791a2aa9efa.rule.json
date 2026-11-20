@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "huang.rock_cleaver",
-  "version": "2026-10-23.1",
+  "version": "2026-11-07.1",
   "identity": {
     "name": "斩岩剑",
     "grade": "D",
@@ -19,7 +19,56 @@
     "grade": "D",
     "prohibited": false,
     "subskills": [],
-    "effects": []
+    "effects": [],
+    "technique": {
+      "schemaVersion": "901-weapon-technique/1",
+      "mode": "active",
+      "action": "standard",
+      "cost": {
+        "sourcePool": "灵力",
+        "nativeResourceId": null,
+        "amount": 1
+      },
+      "cooldownRounds": 1,
+      "effects": [
+        {
+          "op": "weapon_technique",
+          "params": {
+            "attack": "melee_blades",
+            "weapon": "katana",
+            "attacksPerTarget": 1,
+            "damageCap": "current_weapon_native_cap",
+            "protection": "normal",
+            "hands": 2,
+            "weaponValueDelta": 2,
+            "armorPenetration": 16,
+            "tags": [
+              "威猛"
+            ],
+            "ignoreReductionOrHardness": 4
+          }
+        }
+      ],
+      "optionalAcquiredBranches": [
+        {
+          "name": "二之太刀",
+          "additionalXP": 5,
+          "ownershipRef": null,
+          "canActivate": false,
+          "redirect": "adjacent_to_struck_target",
+          "defenseBasis": "struck_target_basic_defense",
+          "coverAttack": true,
+          "actualTargetFlatFooted": true,
+          "defenseReductionType": "flat_footed",
+          "immuneFlatFooted": "unaffected_by_this_use"
+        }
+      ],
+      "limits": [
+        "须双手持太刀作一次近战白刃攻击。",
+        "破甲16不是直接扣除16点整体防御；忽略4点减免或硬度不能重复各扣4点。",
+        "二之太刀沿取得依据与免疫措手规则，不能自动授予。"
+      ]
+    }
   },
   "clauses": [
     {
@@ -38,5 +87,8 @@
     "status": "pending",
     "sourceChecked": true,
     "runtimeFullyVerified": false
+  },
+  "authoring": {
+    "executionSource": "contract"
   }
 }

@@ -1,6 +1,18 @@
 # 901 资源撰写
 
+- 雷鸣适配规则唯一维护源：`901-resource-authoring-kit/resources/execution/ed26ad5543a3.rule.json`（工作区相对路径），由现有 `tools/compile_resources.py` 编译。战役 `combat/thunder-technique.mjs` 与独立原生候选只消费编译条款；不要恢复两端数值表。规则来源、当前取得和批准分别核对。
+
 本目录是独立资料与工具库。直接用户要求优先；无需访问原项目、旧磁盘、聊天记录、外部插件或其他代理。
+
+## 架构位置与复用边界
+
+- 同级开发工作区的总导航见 [上级 AGENTS.md](../AGENTS.md)；独立克隆时该文件可以不存在，本库仍可独立使用。
+- 本库的 `content/`、`source_html/`、`source_archives/` 保存原书来源，`rules/`、`authoring/` 保存规则与编写依据，`resources/` 保存整理正文，`resources/execution/` 保存配对执行契约，`tools/` 提供检索、检查与编译。
+- 资源编译复用 `tools/compile_resources.py` 及现有契约工具；战役消费者已有于同级 `TRPG outputs/work/rules_engine/`，新实例构筑／资源授权适配已有于其 `work/character_builder/`、`work/resource_adapter/`。独立 Game IR、SQLite 与新 GM Host 在同级 `901-trpg-engine/tools/`，不在本库重建这些运行模块。
+- 开发执行契约前，先按本库 `development-plan.md` 核对已有契约、编译器与对应消费者的支持范围；缺少 Host 绑定不能据此判定底层执行机制缺失。沿用现有契约到消费者的链路，不新增同义资源目录或重复执行器。
+- 资源收录／901 采用／人物取得／引擎可执行分别核对。本库不写战役存档；2026-11-07 已确认旧酒馆分支继续以 MVU 为唯一机械写入方，新 Host 对接优先复用已有 JS 链路。
+
+## 资源撰写约定
 
 - 收到资源创作请求后，先读 [撰写入口](authoring/README.md)。只读取任务相关规则卡、特性和少量样板；用 `python -X utf8 tools/library.py cards ...` 按卡号取材，需要原文才 `search`、`read`。特性表没有直接条目的任何机制，都按[样板检索流程](authoring/calibration.md#按机制寻找样板)找完整近例作类比，不限于成长加值；优先机制接近的同阶、低阶资源，不要求逐字相同或独立组件明价。同批复用证据，不重复读全库。
 - 独立执行按[最短流程与踩坑经验](authoring/lessons.md)处理，只补读相关章节。确定错误在已授权范围内直接修正，不再次请求审阅；保留用户指定的骨架和效果。玩家正文写全实际收益，核算依据单列；本批适配与单项裁定不升级为全局规则。批量转换先建逐源清单，再核正文、去重、禁用分类与目录覆盖。

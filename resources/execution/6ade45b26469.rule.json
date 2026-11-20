@@ -1,7 +1,7 @@
 {
   "schemaVersion": "901-resource/1",
   "id": "kuanglan",
-  "version": "2026-10-23.1",
+  "version": "2026-11-07.1",
   "identity": {
     "name": "启剑式·风·狂岚",
     "grade": null,
@@ -17,7 +17,81 @@
     "grade": null,
     "prohibited": false,
     "subskills": [],
-    "effects": []
+    "effects": [],
+    "technique": {
+      "schemaVersion": "901-weapon-technique/1",
+      "mode": "active",
+      "action": "standard",
+      "cost": {
+        "sourcePool": "eligible_melee_concept_regular_energy",
+        "nativeResourceId": null,
+        "amount": 1
+      },
+      "cooldownRounds": null,
+      "effects": [
+        {
+          "op": "weapon_technique",
+          "params": {
+            "mode": "gale",
+            "exclusiveModes": true,
+            "weapon": "usable_current_qifeng",
+            "attack": "blades",
+            "targets": "all_eligible_enemies_in_radius",
+            "rangeMeters": 20,
+            "requiresLocalization": true,
+            "requiresLineOfEffect": true,
+            "excludeAllies": true,
+            "attacksPerTarget": 1,
+            "separateRolls": true,
+            "paymentsPerAction": 1,
+            "attackDP": 3,
+            "bonusType": "招式",
+            "defenseReduction": 3,
+            "defenseReductionType": "combined_multiattack_and_environment",
+            "duration": "this_attack_only",
+            "drawIfSheathed": "within_same_action",
+            "damageType": "current_weapon",
+            "damageCap": "current_weapon_native_cap",
+            "protection": "normal",
+            "stackLegacyReduction": false
+          }
+        },
+        {
+          "op": "weapon_technique",
+          "params": {
+            "mode": "tornado",
+            "exclusiveModes": true,
+            "weapon": "usable_current_qifeng",
+            "attack": "blades",
+            "targets": "one_eligible_enemy",
+            "rangeMeters": 20,
+            "requiresLocalization": true,
+            "requiresLineOfEffect": true,
+            "excludeAllies": true,
+            "attacksPerTarget": 1,
+            "separateRolls": true,
+            "paymentsPerAction": 1,
+            "attackDP": 0,
+            "bonusType": "none",
+            "defenseReduction": 8,
+            "defenseReductionType": "unspecified_total",
+            "duration": "this_attack_only",
+            "drawIfSheathed": "within_same_action",
+            "damageType": "current_weapon",
+            "damageCap": "current_weapon_native_cap",
+            "protection": "normal",
+            "stackLegacyReduction": false
+          }
+        }
+      ],
+      "optionalAcquiredBranches": [],
+      "limits": [
+        "C级25XP只是暂定定价，不提升角色阶级或推定已经支付。",
+        "群袭合计−3，不拆成两份−3；龙卷不带群袭+3DP或−3。",
+        "混合减防、免疫及同类叠加交互未定，不能据此获得免疫穿透。",
+        "使用当前弃风，不重铸、不补发能量池。"
+      ]
+    }
   },
   "clauses": [],
   "actions": [],
@@ -30,5 +104,8 @@
     "status": "pending",
     "sourceChecked": true,
     "runtimeFullyVerified": false
+  },
+  "authoring": {
+    "executionSource": "contract"
   }
 }

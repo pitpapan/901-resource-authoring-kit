@@ -21,10 +21,10 @@ class AcquisitionProjectionTest(unittest.TestCase):
         self.assertEqual(counts['verifiedAcquisitionTransactions'],0)
         self.assertEqual(counts['verifiedPassiveSlices'],3)
 
-    def test_current_proof_exports_only_arcane_D_C_and_grant_operation(self):
+    def test_current_proof_exports_arcane_and_frost_D_C_and_grant_operation(self):
         data,counts=self.projection(proof=self.proof)
         self.assertEqual(data[self.id]['learning']['byGrade'],{'D':15,'C':35})
-        self.assertEqual(data[self.id]['acquisition']['specializations'],['奥术'])
+        self.assertEqual(data[self.id]['acquisition']['specializations'],['奥术','冰霜'])
         self.assertEqual(data[self.id]['operations'],['claimLearning'])
         self.assertFalse(data[self.id]['verification']['runtimeFullyVerified'])
         self.assertEqual(counts['verifiedAcquisitionTransactions'],1)

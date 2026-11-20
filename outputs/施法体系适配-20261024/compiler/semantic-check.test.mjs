@@ -54,7 +54,7 @@ test('full bundles and missing-rule branches never enter executable action or au
   assert.equal(d.definition.authoringOnly.acquisition.autoGrantToT0,false);
   assert.equal(d.definition.authoringOnly.acquisition.treeEntryGrantsChildren,false);
   assert.ok(d.actions.every(a=>a.allowsModelNumericEffects===false&&(a.operation===null&&a.availability==='blocked'||d.identity.name==='法师'&&a.operation==='claimLearning'&&a.availability==='execution-verified')));
-  if(d.identity.name==='法师'){assert.deepEqual(d.definition.acquisition.grades,['D','C']);assert.deepEqual(d.definition.acquisition.specializations,['奥术']);}
+  if(d.identity.name==='法师'){assert.deepEqual(d.definition.acquisition.grades,['D','C']);assert.deepEqual(d.definition.acquisition.specializations,['奥术','冰霜']);}
   else assert.equal(d.definition.learning,undefined);
  }
  const issues=Object.values(docs).flatMap(d=>d.unresolvedRules);

@@ -291,5 +291,51 @@ class DefinitionPolicyValidation(unittest.TestCase):
                 compiler.load_contracts()
 
 
+class ThunderSharedSourceTest(unittest.TestCase):
+    def test_party_shared_sources_preserve_modes_and_reject_invented_execution_or_acquisition(self):
+        docs={d['id']:d for d in compiler.load_contracts()}
+        for resource_id in ['huang.rock_cleaver','huang.iai','kuanglan']:
+            source=docs[resource_id]['definition']['technique']
+            compiler.validate_technique(source, resource_id)
+            for change in [lambda t: t.update(execute='other-engine'), lambda t: t.pop('cost'),
+                           lambda t: t['effects'][0]['params'].update(undeclaredApproval=True)]:
+                t=copy.deepcopy(source); change(t)
+                with self.assertRaises(ValueError): compiler.validate_technique(t,resource_id)
+        gale=copy.deepcopy(docs['kuanglan']['definition']['technique'])
+        gale['effects'][1]=copy.deepcopy(gale['effects'][0])
+        with self.assertRaises(ValueError): compiler.validate_technique(gale,'kuanglan')
+        rock=copy.deepcopy(docs['huang.rock_cleaver']['definition']['technique'])
+        rock['optionalAcquiredBranches'][0]['canActivate']=True
+        with self.assertRaises(ValueError): compiler.validate_technique(rock,'huang.rock_cleaver')
+
+    def test_existing_compiler_carries_the_single_technique_source_without_enabling_an_action(self):
+        doc = next(d for d in compiler.load_contracts() if d['id'] == 'huang.thunder_sword')
+        self.assertEqual(doc['definition']['technique']['effects'][0]['params']['attackDP'], 15)
+        with tempfile.TemporaryDirectory(dir=compiler.ROOT) as tmp, patch.object(compiler, 'dump'):
+            compiler.compile_to(Path(tmp))
+            data = json.loads((Path(tmp)/'resource-data.mjs').read_text(encoding='utf-8').split('export const RESOURCE_DATA=',1)[1].strip().removesuffix(';'))
+        out = data[doc['id']]
+        self.assertEqual(out['technique'], doc['definition']['technique'])
+        self.assertEqual(out['contractVersion'], doc['version'])
+        self.assertEqual(out['operations'], [])
+        self.assertFalse(out['verification']['runtimeFullyVerified'])
+
+    def test_technique_schema_rejects_missing_fields_and_invented_execution_without_writing(self):
+        doc = next(d for d in compiler.load_contracts() if d['id'] == 'huang.thunder_sword')
+        for change in [lambda t: t.pop('cost'), lambda t: t['effects'][0]['params'].update(attackDP='15'),
+                       lambda t: t.update(execute='new-engine'), lambda t: t['optionalAcquiredBranches'][0].update(canActivate=True)]:
+            t = copy.deepcopy(doc['definition']['technique']); change(t)
+            with self.assertRaises(ValueError): compiler.validate_technique(t, doc['id'])
+
+    def test_compiler_uses_changed_contract_values_instead_of_a_second_numeric_table(self):
+        doc = copy.deepcopy(next(d for d in compiler.load_contracts() if d['id'] == 'huang.thunder_sword'))
+        doc['definition']['technique']['effects'][0]['params']['attackDP'] = 17
+        doc['definition']['technique']['cost']['amount'] = 2
+        with tempfile.TemporaryDirectory(dir=compiler.ROOT) as tmp, patch.object(compiler, 'load_contracts', return_value=[doc]), patch.object(compiler, 'dump'):
+            compiler.compile_to(Path(tmp))
+            data = json.loads((Path(tmp)/'resource-data.mjs').read_text(encoding='utf-8').split('export const RESOURCE_DATA=',1)[1].strip().removesuffix(';'))
+        self.assertEqual(data[doc['id']]['technique'], doc['definition']['technique'])
+
+
 if __name__ == '__main__':
     unittest.main()

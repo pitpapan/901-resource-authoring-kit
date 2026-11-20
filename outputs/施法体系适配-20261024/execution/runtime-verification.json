@@ -1,4 +1,5 @@
 {
+  "result": "passed",
   "engineModules": [
     {
       "path": "outputs/施法体系适配-20261024/compiler/runtime-check.mjs",
@@ -58,7 +59,7 @@
     },
     {
       "path": "../TRPG outputs/work/rules_engine/rule-contracts.mjs",
-      "sha256": "fa00b5348c736a9f0ad882c06fc742008d461671c36afc730c9b61dd97565f6f"
+      "sha256": "cde9e09919ccfcbc2936cd17fd1bbb7006a190b8b354dd271b7f9e0630ac2232"
     },
     {
       "path": "../TRPG outputs/work/rules_engine/rule-schema.mjs",
@@ -118,11 +119,19 @@
     },
     {
       "path": "../TRPG outputs/work/rules_engine/combat/mechanics.mjs",
-      "sha256": "041adc91b6532a06c64969d17ace3af6eedf6d4098daa9555fd85213e892d63b"
+      "sha256": "54b4019fa8efd556e034187e2b8984ce85bf9eebc19066139f551c803241710b"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/equipment-state.mjs",
+      "sha256": "a5c461bbb418509ef298eacf9261f89bd703544d0060550e339af40f195ad1e1"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/combat/thunder-technique.mjs",
+      "sha256": "bb8ba73cbbd1aaeb4d42c07a2ebf8e823785621ec29d4ae04bbfe5e634a0f590"
     },
     {
       "path": "../TRPG outputs/work/rules_engine/resource-weapons.mjs",
-      "sha256": "b13ed16efbabe8ca384a96826d1d91adda0d3f389493953b0bd932059f33b21e"
+      "sha256": "2cfd8bb8d37b2b1d3100ab1c2e336a17e63b7e95705a1287b232562b115b97e2"
     },
     {
       "path": "../TRPG outputs/work/rules_engine/wizard-rules.mjs",
@@ -150,7 +159,7 @@
     },
     {
       "path": "../TRPG outputs/work/rules_engine/staged-bundle.mjs",
-      "sha256": "0fa3cbc91f151f67cf40f9754282490333f08b672ee143d7ec4b643998e7748e"
+      "sha256": "23038a842407afee5e89dac7e1a42184d16cc072c724ae3f6d5298b8e69ba064"
     },
     {
       "path": "../TRPG outputs/work/rules_engine/resource-acquisition.mjs",
@@ -166,14 +175,21 @@
     },
     {
       "path": "../TRPG outputs/work/rules_engine/combat/opening.mjs",
-      "sha256": "0debb5af60e05719fab06d63a0d43a9f274505831c26c534248e82718bd1bcb7"
+      "sha256": "6e8b9bea34228fb9e864a626c982ab56461a133f6bfa8413e608cae6e4f2d528"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/combat/common-actions.mjs",
+      "sha256": "8da422ce20eab5708f5de756f6c379802e8a6100384083e26c1f488d96eccded"
+    },
+    {
+      "path": "../TRPG outputs/work/rules_engine/gm_runtime/actor-rules.mjs",
+      "sha256": "00da83e7921b56486f9dea9918ca12ba9d3d26c722769126b13924ff36500106"
     }
   ],
-  "result": "passed",
   "slices": {
-    "candidate-901-magic-bundle-de9b5c40b4fa2353/B/fortitude": {
-      "fingerprint": "a82480f6e289e23e78c86f655c49591c5ba2564a172c6e1f0f43f3c774faba83",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/D/fortitude": {
       "result": "passed",
+      "fingerprint": "b4f4e466ecb2978cfd5e8dd363e985410593ae09f48807e3d0ebada2ccf11ddc",
       "testCases": [
         "source-rule",
         "correct-grade-value",
@@ -188,8 +204,8 @@
       ]
     },
     "candidate-901-magic-bundle-de9b5c40b4fa2353/C/fortitude": {
-      "fingerprint": "57ea51b01f6405981ba2dbba880b5814460e7e12093235344a7c3b121e69d81d",
       "result": "passed",
+      "fingerprint": "57ea51b01f6405981ba2dbba880b5814460e7e12093235344a7c3b121e69d81d",
       "testCases": [
         "source-rule",
         "correct-grade-value",
@@ -203,9 +219,9 @@
         "actual-saveProfile-and-save-reload"
       ]
     },
-    "candidate-901-magic-bundle-de9b5c40b4fa2353/D/fortitude": {
-      "fingerprint": "b4f4e466ecb2978cfd5e8dd363e985410593ae09f48807e3d0ebada2ccf11ddc",
+    "candidate-901-magic-bundle-de9b5c40b4fa2353/B/fortitude": {
       "result": "passed",
+      "fingerprint": "a82480f6e289e23e78c86f655c49591c5ba2564a172c6e1f0f43f3c774faba83",
       "testCases": [
         "source-rule",
         "correct-grade-value",
@@ -220,7 +236,6 @@
       ]
     }
   },
-  "testCount": 30,
   "tests": [
     "candidate-901-magic-bundle-de9b5c40b4fa2353/D/fortitude/source-rule",
     "candidate-901-magic-bundle-de9b5c40b4fa2353/D/fortitude/correct-grade-value",
@@ -252,5 +267,6 @@
     "candidate-901-magic-bundle-de9b5c40b4fa2353/B/fortitude/reject-qualificationVersion",
     "candidate-901-magic-bundle-de9b5c40b4fa2353/B/fortitude/reject-completedStages",
     "candidate-901-magic-bundle-de9b5c40b4fa2353/B/fortitude/actual-saveProfile-and-save-reload"
-  ]
+  ],
+  "testCount": 30
 }

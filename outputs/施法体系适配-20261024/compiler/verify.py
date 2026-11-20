@@ -23,4 +23,4 @@ subprocess.run(['node','--test','--test-isolation=none',str(BASE/'compiler/polic
 subprocess.run(['node','--test','--test-isolation=none',str(BASE/'compiler/semantic-check.test.mjs')],check=True,stdout=subprocess.DEVNULL)
 subprocess.run([sys.executable,str(BASE/'_validate.py')],check=True,stdout=subprocess.DEVNULL)
 print(json.dumps({'result':'PASS','counts':counts,'passiveTests':proof['testCount'],'policyTests':3,'semanticTests':6,'acquisitionTests':acquisition['testCount'],
-    'writes':0,'deployed':False,'limits':['only arcane D/C acquisition integrated; other specializations and higher stages pending','child-technique semantics incomplete','no external model test']},ensure_ascii=False))
+    'writes':0,'deployed':False,'limits':['arcane and frost D/C acquisition integrated; fire and higher stages pending','child-technique semantics incomplete','no external model test']},ensure_ascii=False))

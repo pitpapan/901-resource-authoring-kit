@@ -65,9 +65,7 @@
           {
             "effectIds": [
               "三系天赋-火焰",
-              "三系天赋-冰霜",
               "火焰回复",
-              "冰霜减耗",
               "奥术力场",
               "传奇智力双计-火焰",
               "传奇智力双计-冰霜",
@@ -304,7 +302,7 @@
                   "bonusCategory": "修行",
                   "value": 6
                 },
-                "runtimeStatus": "implementation-needed",
+                "runtimeStatus": "execution-verified-frost-D-C-scope",
                 "sourceEvidence": [
                   {
                     "original": {
@@ -602,7 +600,7 @@
                   "minimum": 1,
                   "pool": "魔力"
                 },
-                "runtimeStatus": "implementation-needed",
+                "runtimeStatus": "execution-verified-frost-D-C-scope",
                 "sourceEvidence": [
                   {
                     "original": {
@@ -1668,7 +1666,7 @@
         }
       ],
       "runtimeAcquisition": {
-        "verifiedScope": "arcane-D-C-body-acquisition-and-spell-grants",
+        "verifiedScope": "arcane-frost-D-C-body-acquisition-spell-grants-and-frost-mana-cost",
         "testFiles": [
           "../TRPG outputs/work/rules_engine/staged-bundle.test.mjs"
         ],
@@ -1677,7 +1675,8 @@
           "C"
         ],
         "specializations": [
-          "奥术"
+          "奥术",
+          "冰霜"
         ]
       }
     },
@@ -1750,6 +1749,115 @@
             }
           ]
         }
+      },
+      {
+        "stat": "check",
+        "group": "training",
+        "value": 6,
+        "when": {
+          "all": [
+            {
+              "test": "eq",
+              "left": {
+                "state": "learnedResources.candidate-901-magic-bundle-ba577210e69dafd5.adoptionStatus"
+              },
+              "right": "adopted"
+            },
+            {
+              "test": "eq",
+              "left": {
+                "state": "learnedResources.candidate-901-magic-bundle-ba577210e69dafd5.version"
+              },
+              "right": "2026-10-28.magic.2"
+            },
+            {
+              "test": "eq",
+              "left": {
+                "state": "learnedResources.candidate-901-magic-bundle-ba577210e69dafd5.qualificationVersion"
+              },
+              "right": "2026-10-28.magic.2"
+            },
+            {
+              "test": "eq",
+              "left": {
+                "state": "learnedResources.candidate-901-magic-bundle-ba577210e69dafd5.choices.specialization"
+              },
+              "right": "冰霜"
+            },
+            {
+              "test": "contains",
+              "left": {
+                "state": "learnedResources.candidate-901-magic-bundle-ba577210e69dafd5.completedStages"
+              },
+              "right": "D"
+            },
+            {
+              "test": "eq",
+              "left": {
+                "context": "casting"
+              },
+              "right": true
+            },
+            {
+              "test": "contains",
+              "left": {
+                "context": "spellDamageTypes"
+              },
+              "right": "cold"
+            }
+          ]
+        }
+      },
+      {
+        "stat": "spellManaCostReduction",
+        "group": "enhancement",
+        "value": 1,
+        "when": {
+          "all": [
+            {
+              "test": "eq",
+              "left": {
+                "state": "learnedResources.candidate-901-magic-bundle-ba577210e69dafd5.adoptionStatus"
+              },
+              "right": "adopted"
+            },
+            {
+              "test": "eq",
+              "left": {
+                "state": "learnedResources.candidate-901-magic-bundle-ba577210e69dafd5.version"
+              },
+              "right": "2026-10-28.magic.2"
+            },
+            {
+              "test": "eq",
+              "left": {
+                "state": "learnedResources.candidate-901-magic-bundle-ba577210e69dafd5.qualificationVersion"
+              },
+              "right": "2026-10-28.magic.2"
+            },
+            {
+              "test": "eq",
+              "left": {
+                "state": "learnedResources.candidate-901-magic-bundle-ba577210e69dafd5.choices.specialization"
+              },
+              "right": "冰霜"
+            },
+            {
+              "test": "contains",
+              "left": {
+                "state": "learnedResources.candidate-901-magic-bundle-ba577210e69dafd5.completedStages"
+              },
+              "right": "C"
+            },
+            {
+              "test": "eq",
+              "left": {
+                "context": "casting"
+              },
+              "right": true
+            }
+          ]
+        }
       }
     ],
     "programs": {},
@@ -1776,7 +1884,8 @@
         "C"
       ],
       "specializations": [
-        "奥术"
+        "奥术",
+        "冰霜"
       ],
       "spellTree": "imperial",
       "pool": {
@@ -1822,7 +1931,12 @@
         },
         "C": {
           "spellCount": 1,
-          "poolCapacity": 10
+          "poolCapacity": 10,
+          "specializations": {
+            "冰霜": {
+              "poolCapacity": 0
+            }
+          }
         }
       }
     }
@@ -1881,7 +1995,7 @@
     "tree": "法师"
   },
   "implementationGaps": [
-    "奥术D/C本体取得及赠术已验证；火焰、冰霜及B以上本体机制仍待接入。",
+    "奥术及冰霜D/C本体取得、赠术与冰霜魔耗消费者已验证；火焰及B以上本体机制仍待接入。",
     "被动或取得证明不代表全部法术变体交互与整套能力组认证。"
   ],
   "inputs": [

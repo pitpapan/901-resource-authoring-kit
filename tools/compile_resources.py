@@ -17,6 +17,64 @@ CAPABILITIES=ENGINE['capabilities']
 if json.loads(ENGINE['abi'])!=CAPABILITIES:raise ValueError('Capability artifact ABI mismatch; regenerate from the actual engine')
 SUPPORTED_OPS=set(CAPABILITIES['operators'])
 
+def validate_technique(technique, resource_id):
+    """Validate shared clause data, without registering a new execution operator."""
+    def literal(value):
+        return {'type': 'boolean' if type(value) is bool else 'null' if value is None else 'integer' if type(value) is int else 'string', 'enum': [value]}
+    def obj(fields): return {'type': 'object', 'fields': fields, 'required': list(fields)}
+    text={'type':'string','minLength':1}
+    strings={'type':'array','items':text}
+    number={'type':'number','minimum':0}
+    params=obj({'attack':literal('melee_blades'),'weapon':literal('katana'),'attacksPerTarget':literal(1),
+        'damageCap':literal('current_weapon_native_cap'),'protection':literal('normal'),
+        'attackDP':number,'bonusType':literal('增强'),'maxElectricFraction':number,
+        'paralysisBasis':literal('actual_electric_damage'),'save':literal('fortitude')})
+    schema=obj({'schemaVersion':literal('901-weapon-technique/1'),'mode':literal('active'),'action':literal('standard'),
+        'cost':obj({'sourcePool':text,'nativeResourceId':literal(None),'amount':{'type':'integer','minimum':0}}),
+        'cooldownRounds':{'type':'integer','minimum':0},
+        'effects':{'type':'array','items':obj({'op':literal('weapon_technique'),'params':params})},
+        'optionalAcquiredBranches':{'type':'array','items':obj({'name':text,'additionalXP':number,'ownershipRef':literal(None),
+            'canActivate':literal(False),'eligibleTargets':strings,'maxElectricFraction':number,'electricDamageBonus':number,'tags':strings,'otherTargets':text})},
+        'limits':strings})
+    common={'damageCap':literal('current_weapon_native_cap'),'protection':literal('normal')}
+    if resource_id=='huang.rock_cleaver':
+        schema['fields']['effects']['items']['fields']['params']=obj({**common,
+            'attack':literal('melee_blades'),'weapon':literal('katana'),'attacksPerTarget':literal(1),
+            'hands':literal(2),'weaponValueDelta':number,'armorPenetration':number,'tags':strings,'ignoreReductionOrHardness':number})
+        schema['fields']['optionalAcquiredBranches']['items']=obj({'name':text,'additionalXP':number,'ownershipRef':literal(None),'canActivate':literal(False),
+            'redirect':literal('adjacent_to_struck_target'),'defenseBasis':literal('struck_target_basic_defense'),'coverAttack':literal(True),
+            'actualTargetFlatFooted':literal(True),'defenseReductionType':literal('flat_footed'),'immuneFlatFooted':literal('unaffected_by_this_use')})
+    elif resource_id=='huang.iai':
+        schema['fields'].update(mode=literal('triggered'),action=literal('passive_weapon_trigger'),cost=literal(None),cooldownRounds=literal(None),
+            prerequisites=obj({'DEX':number,'PRE':number,'WIL':number,'effectiveBlades':number,'bladeSubskill':literal('existing_qualification'),'quickDraw':literal('existing_qualification')}))
+        schema['required'].append('prerequisites')
+        schema['fields']['effects']['items']=obj({'op':literal('drawn_weapon_first_strike'),'params':obj({
+            'weapon':literal('slender_curved_blade'),'oneHandBladeMaxArmspanFraction':number,'twoHandKatanaLengthException':literal('existing_training_only'),
+            'normalWieldingRequired':literal(True),'initiativeBonus':number,'initiativeBonusType':literal('修行'),'initiativeCondition':literal('wear_applicable_weapon'),
+            'attack':literal('first_melee_blades_attack_in_unsheathing_turn'),'attackDP':number,'bonusType':literal('招式'),
+            'aggravateMaxL':number,'aggravateCondition':literal('initiative_ahead_of_target'),'defensePenalty':number,'defensePenaltyStarts':literal('after_strike'),
+            'defensePenaltyExpires':literal('next_own_action_start'),'grantsQuickDraw':literal(False),'grantsExtraAttack':literal(False)})})
+    elif resource_id=='kuanglan':
+        schema['fields']['cooldownRounds']=literal(None)
+        schema['fields']['effects']['items']['fields']['params']=obj({**common,
+            'mode':{'type':'string','enum':['gale','tornado']},'exclusiveModes':literal(True),'weapon':literal('usable_current_qifeng'),'attack':literal('blades'),
+            'targets':{'type':'string','enum':['all_eligible_enemies_in_radius','one_eligible_enemy']},'rangeMeters':number,
+            'requiresLocalization':literal(True),'requiresLineOfEffect':literal(True),'excludeAllies':literal(True),'attacksPerTarget':literal(1),
+            'separateRolls':literal(True),'paymentsPerAction':literal(1),'attackDP':number,'bonusType':{'type':'string','enum':['招式','none']},'defenseReduction':number,
+            'defenseReductionType':{'type':'string','enum':['combined_multiattack_and_environment','unspecified_total']},'duration':literal('this_attack_only'),
+            'drawIfSheathed':literal('within_same_action'),'damageType':literal('current_weapon'),'stackLegacyReduction':literal(False)})
+    elif resource_id!='huang.thunder_sword':
+        raise ValueError(resource_id+': unsupported shared technique consumer')
+    validate_schema(technique,schema,resource_id+'.technique')
+    if len(technique['effects'])!=(2 if resource_id=='kuanglan' else 1) or not technique['limits']:
+        raise ValueError(resource_id+': technique requires one complete base clause and limits')
+    if resource_id in ['huang.iai','kuanglan'] and technique['optionalAcquiredBranches']:
+        raise ValueError(resource_id+': no acquired optional branch is supported')
+    if resource_id=='kuanglan' and [e['params']['mode'] for e in technique['effects']]!=['gale','tornado']:
+        raise ValueError(resource_id+': requires both distinct modes in source order')
+    if resource_id=='huang.thunder_sword' and (technique['effects'][0]['params']['maxElectricFraction']>1 or any(b['maxElectricFraction']>1 for b in technique['optionalAcquiredBranches'])):
+        raise ValueError(resource_id+': electric fraction exceeds whole damage')
+
 def validate_program(program, resource_id):
     """Validate the new shared consumers; this is not a complete IR type checker."""
     if 'supportedGrades' in program and (not isinstance(program['supportedGrades'],list) or not program['supportedGrades'] or any(x not in CAPABILITIES['programPolicies']['supportedGrades'] for x in program['supportedGrades'])):raise ValueError(resource_id+': unsupported program grade')
@@ -128,6 +186,8 @@ def load_contracts():
             if e.get('stacking') not in [None,*CAPABILITIES['operators']['effect']['fields']['effects']['items']['fields']['stacking']['enum']]:raise ValueError('Unknown stacking operator')
         if 'effectPolicyMigrations' in d['definition']:validate_schema(d['definition']['effectPolicyMigrations'],CAPABILITIES['definitionPolicies']['effectPolicyMigrations'],d['id']+'.effectPolicyMigrations')
         d=compile_contract(d)
+        if 'technique' in d['definition']:
+            validate_technique(d['definition']['technique'],d['id'])
         validate_rule_data(d['definition'], CAPABILITIES, d['id'])
         for program in d['definition'].get('programs',{}).values():
             validate_program(program,d['id'])
